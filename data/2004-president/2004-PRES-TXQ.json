@@ -1,0 +1,7316 @@
+{
+  "election_id": "2004-president",
+  "election_type": "president",
+  "source_file": "2004-PRES.xls",
+  "county_zh": "臺中縣",
+  "county_en": "Taichung County",
+  "county_iso": "TXQ",
+  "candidates": {
+    "1": {
+      "name_zh": "陳水扁",
+      "running_mate_zh": "呂秀蓮",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "連戰",
+      "running_mate_zh": "宋楚瑜",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 440479,
+      "2": 410082
+    },
+    "valid_votes": 850561,
+    "invalid_votes": 21270,
+    "ballots_cast": 871831,
+    "unreturned_ballots": 48,
+    "electors": 1070877,
+    "turnout_rate": 81.4128
+  },
+  "townships": {
+    "TXQ-FENGYUAN": {
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "votes": {
+        "1": 51666,
+        "2": 41057
+      },
+      "valid_votes": 92723,
+      "invalid_votes": 2034,
+      "ballots_cast": 94757,
+      "unreturned_ballots": 4,
+      "electors": 114458,
+      "turnout_rate": 82.7876
+    },
+    "TXQ-DALI": {
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "votes": {
+        "1": 52054,
+        "2": 47754
+      },
+      "valid_votes": 99808,
+      "invalid_votes": 1826,
+      "ballots_cast": 101634,
+      "unreturned_ballots": 2,
+      "electors": 125062,
+      "turnout_rate": 81.2669
+    },
+    "TXQ-TAIPING": {
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "votes": {
+        "1": 46538,
+        "2": 47422
+      },
+      "valid_votes": 93960,
+      "invalid_votes": 2151,
+      "ballots_cast": 96111,
+      "unreturned_ballots": 6,
+      "electors": 119093,
+      "turnout_rate": 80.7025
+    },
+    "TXQ-DONGSHI": {
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "votes": {
+        "1": 15824,
+        "2": 16707
+      },
+      "valid_votes": 32531,
+      "invalid_votes": 1140,
+      "ballots_cast": 33671,
+      "unreturned_ballots": 1,
+      "electors": 41920,
+      "turnout_rate": 80.322
+    },
+    "TXQ-DAJIA": {
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "votes": {
+        "1": 22604,
+        "2": 20308
+      },
+      "valid_votes": 42912,
+      "invalid_votes": 1278,
+      "ballots_cast": 44190,
+      "unreturned_ballots": 1,
+      "electors": 54871,
+      "turnout_rate": 80.5343
+    },
+    "TXQ-QINGSHUI": {
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "votes": {
+        "1": 26454,
+        "2": 21399
+      },
+      "valid_votes": 47853,
+      "invalid_votes": 1297,
+      "ballots_cast": 49150,
+      "unreturned_ballots": 4,
+      "electors": 61029,
+      "turnout_rate": 80.5355
+    },
+    "TXQ-SHALU": {
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "votes": {
+        "1": 20947,
+        "2": 20293
+      },
+      "valid_votes": 41240,
+      "invalid_votes": 1016,
+      "ballots_cast": 42256,
+      "unreturned_ballots": 8,
+      "electors": 52065,
+      "turnout_rate": 81.1601
+    },
+    "TXQ-WUQI": {
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "votes": {
+        "1": 14881,
+        "2": 13799
+      },
+      "valid_votes": 28680,
+      "invalid_votes": 630,
+      "ballots_cast": 29310,
+      "unreturned_ballots": 1,
+      "electors": 36156,
+      "turnout_rate": 81.0654
+    },
+    "TXQ-HOULI": {
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "votes": {
+        "1": 16320,
+        "2": 15859
+      },
+      "valid_votes": 32179,
+      "invalid_votes": 919,
+      "ballots_cast": 33098,
+      "unreturned_ballots": 1,
+      "electors": 40204,
+      "turnout_rate": 82.3251
+    },
+    "TXQ-SHENGANG": {
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "votes": {
+        "1": 21526,
+        "2": 14808
+      },
+      "valid_votes": 36334,
+      "invalid_votes": 1045,
+      "ballots_cast": 37379,
+      "unreturned_ballots": 1,
+      "electors": 45144,
+      "turnout_rate": 82.7995
+    },
+    "TXQ-TANZI": {
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "votes": {
+        "1": 27155,
+        "2": 25480
+      },
+      "valid_votes": 52635,
+      "invalid_votes": 1154,
+      "ballots_cast": 53789,
+      "unreturned_ballots": 1,
+      "electors": 65383,
+      "turnout_rate": 82.2676
+    },
+    "TXQ-DAYA": {
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "votes": {
+        "1": 22032,
+        "2": 23056
+      },
+      "valid_votes": 45088,
+      "invalid_votes": 1001,
+      "ballots_cast": 46089,
+      "unreturned_ballots": 0,
+      "electors": 56795,
+      "turnout_rate": 81.1497
+    },
+    "TXQ-XINSHE": {
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "votes": {
+        "1": 8046,
+        "2": 7624
+      },
+      "valid_votes": 15670,
+      "invalid_votes": 639,
+      "ballots_cast": 16309,
+      "unreturned_ballots": 1,
+      "electors": 19932,
+      "turnout_rate": 81.8232
+    },
+    "TXQ-SHIGANG": {
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "votes": {
+        "1": 4519,
+        "2": 4806
+      },
+      "valid_votes": 9325,
+      "invalid_votes": 307,
+      "ballots_cast": 9632,
+      "unreturned_ballots": 1,
+      "electors": 11638,
+      "turnout_rate": 82.7634
+    },
+    "TXQ-WAIPU": {
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "votes": {
+        "1": 8035,
+        "2": 9385
+      },
+      "valid_votes": 17420,
+      "invalid_votes": 576,
+      "ballots_cast": 17996,
+      "unreturned_ballots": 0,
+      "electors": 22468,
+      "turnout_rate": 80.0961
+    },
+    "TXQ-DAAN": {
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "votes": {
+        "1": 6464,
+        "2": 5617
+      },
+      "valid_votes": 12081,
+      "invalid_votes": 420,
+      "ballots_cast": 12501,
+      "unreturned_ballots": 0,
+      "electors": 15531,
+      "turnout_rate": 80.4906
+    },
+    "TXQ-WURI": {
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "votes": {
+        "1": 19362,
+        "2": 18101
+      },
+      "valid_votes": 37463,
+      "invalid_votes": 933,
+      "ballots_cast": 38396,
+      "unreturned_ballots": 1,
+      "electors": 46345,
+      "turnout_rate": 82.8482
+    },
+    "TXQ-DADU": {
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "votes": {
+        "1": 15576,
+        "2": 15719
+      },
+      "valid_votes": 31295,
+      "invalid_votes": 759,
+      "ballots_cast": 32054,
+      "unreturned_ballots": 4,
+      "electors": 39105,
+      "turnout_rate": 81.9691
+    },
+    "TXQ-LONGJING": {
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "votes": {
+        "1": 19011,
+        "2": 18306
+      },
+      "valid_votes": 37317,
+      "invalid_votes": 979,
+      "ballots_cast": 38296,
+      "unreturned_ballots": 5,
+      "electors": 47793,
+      "turnout_rate": 80.1289
+    },
+    "TXQ-WUFENG": {
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "votes": {
+        "1": 19571,
+        "2": 18177
+      },
+      "valid_votes": 37748,
+      "invalid_votes": 1000,
+      "ballots_cast": 38748,
+      "unreturned_ballots": 6,
+      "electors": 47013,
+      "turnout_rate": 82.4198
+    },
+    "TXQ-HEPING": {
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "votes": {
+        "1": 1894,
+        "2": 4405
+      },
+      "valid_votes": 6299,
+      "invalid_votes": 166,
+      "ballots_cast": 6465,
+      "unreturned_ballots": 0,
+      "electors": 8872,
+      "turnout_rate": 72.8697
+    }
+  },
+  "villages": {
+    "TXQ-FENGYUAN-FENGYUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "豐原里",
+      "village_en": "Fengyuan Village",
+      "votes": {
+        "1": 698,
+        "2": 851
+      },
+      "valid_votes": 1549,
+      "invalid_votes": 44,
+      "ballots_cast": 1593,
+      "unreturned_ballots": 0,
+      "electors": 1925,
+      "turnout_rate": 82.7532
+    },
+    "TXQ-FENGYUAN-DINGJIE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "頂街里",
+      "village_en": "Dingjie Village",
+      "votes": {
+        "1": 445,
+        "2": 286
+      },
+      "valid_votes": 731,
+      "invalid_votes": 12,
+      "ballots_cast": 743,
+      "unreturned_ballots": 0,
+      "electors": 904,
+      "turnout_rate": 82.1903
+    },
+    "TXQ-FENGYUAN-ZHONGSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 441,
+        "2": 318
+      },
+      "valid_votes": 759,
+      "invalid_votes": 11,
+      "ballots_cast": 770,
+      "unreturned_ballots": 0,
+      "electors": 924,
+      "turnout_rate": 83.3333
+    },
+    "TXQ-FENGYUAN-FENGRONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "豐榮里",
+      "village_en": "Fengrong Village",
+      "votes": {
+        "1": 495,
+        "2": 324
+      },
+      "valid_votes": 819,
+      "invalid_votes": 9,
+      "ballots_cast": 828,
+      "unreturned_ballots": 0,
+      "electors": 1028,
+      "turnout_rate": 80.5447
+    },
+    "TXQ-FENGYUAN-XIAJIE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "下街里",
+      "village_en": "Xiajie Village",
+      "votes": {
+        "1": 366,
+        "2": 301
+      },
+      "valid_votes": 667,
+      "invalid_votes": 14,
+      "ballots_cast": 681,
+      "unreturned_ballots": 0,
+      "electors": 824,
+      "turnout_rate": 82.6456
+    },
+    "TXQ-FENGYUAN-FUCHUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "富春里",
+      "village_en": "Fuchun Village",
+      "votes": {
+        "1": 392,
+        "2": 326
+      },
+      "valid_votes": 718,
+      "invalid_votes": 9,
+      "ballots_cast": 727,
+      "unreturned_ballots": 0,
+      "electors": 833,
+      "turnout_rate": 87.2749
+    },
+    "TXQ-FENGYUAN-HULU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "葫蘆里",
+      "village_en": "Hulu Village",
+      "votes": {
+        "1": 331,
+        "2": 336
+      },
+      "valid_votes": 667,
+      "invalid_votes": 15,
+      "ballots_cast": 682,
+      "unreturned_ballots": 0,
+      "electors": 810,
+      "turnout_rate": 84.1975
+    },
+    "TXQ-FENGYUAN-FENGXI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "豐西里",
+      "village_en": "Fengxi Village",
+      "votes": {
+        "1": 694,
+        "2": 704
+      },
+      "valid_votes": 1398,
+      "invalid_votes": 31,
+      "ballots_cast": 1429,
+      "unreturned_ballots": 0,
+      "electors": 1746,
+      "turnout_rate": 81.8442
+    },
+    "TXQ-FENGYUAN-XIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "西安里",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 2129,
+        "2": 1818
+      },
+      "valid_votes": 3947,
+      "invalid_votes": 70,
+      "ballots_cast": 4017,
+      "unreturned_ballots": 1,
+      "electors": 4800,
+      "turnout_rate": 83.6875
+    },
+    "TXQ-FENGYUAN-XISHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "西勢里",
+      "village_en": "Xishi Village",
+      "votes": {
+        "1": 894,
+        "2": 873
+      },
+      "valid_votes": 1767,
+      "invalid_votes": 27,
+      "ballots_cast": 1794,
+      "unreturned_ballots": 0,
+      "electors": 2269,
+      "turnout_rate": 79.0657
+    },
+    "TXQ-FENGYUAN-DONGSHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "東勢里",
+      "village_en": "Dongshi Village",
+      "votes": {
+        "1": 681,
+        "2": 472
+      },
+      "valid_votes": 1153,
+      "invalid_votes": 23,
+      "ballots_cast": 1176,
+      "unreturned_ballots": 0,
+      "electors": 1403,
+      "turnout_rate": 83.8204
+    },
+    "TXQ-FENGYUAN-MINSHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 508,
+        "2": 348
+      },
+      "valid_votes": 856,
+      "invalid_votes": 13,
+      "ballots_cast": 869,
+      "unreturned_ballots": 0,
+      "electors": 1044,
+      "turnout_rate": 83.2375
+    },
+    "TXQ-FENGYUAN-DANAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "大湳里",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 1080,
+        "2": 796
+      },
+      "valid_votes": 1876,
+      "invalid_votes": 37,
+      "ballots_cast": 1913,
+      "unreturned_ballots": 0,
+      "electors": 2257,
+      "turnout_rate": 84.7585
+    },
+    "TXQ-FENGYUAN-BEINAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "北湳里",
+      "village_en": "Beinan Village",
+      "votes": {
+        "1": 1039,
+        "2": 990
+      },
+      "valid_votes": 2029,
+      "invalid_votes": 39,
+      "ballots_cast": 2068,
+      "unreturned_ballots": 1,
+      "electors": 2515,
+      "turnout_rate": 82.2266
+    },
+    "TXQ-FENGYUAN-DONGNAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "東湳里",
+      "village_en": "Dongnan Village",
+      "votes": {
+        "1": 1925,
+        "2": 1114
+      },
+      "valid_votes": 3039,
+      "invalid_votes": 79,
+      "ballots_cast": 3118,
+      "unreturned_ballots": 0,
+      "electors": 3735,
+      "turnout_rate": 83.4806
+    },
+    "TXQ-FENGYUAN-XINAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "西湳里",
+      "village_en": "Xinan Village",
+      "votes": {
+        "1": 3286,
+        "2": 2134
+      },
+      "valid_votes": 5420,
+      "invalid_votes": 112,
+      "ballots_cast": 5532,
+      "unreturned_ballots": 0,
+      "electors": 6653,
+      "turnout_rate": 83.1505
+    },
+    "TXQ-FENGYUAN-ZHENLIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "圳寮里",
+      "village_en": "Zhenliao Village",
+      "votes": {
+        "1": 547,
+        "2": 389
+      },
+      "valid_votes": 936,
+      "invalid_votes": 25,
+      "ballots_cast": 961,
+      "unreturned_ballots": 0,
+      "electors": 1140,
+      "turnout_rate": 84.2982
+    },
+    "TXQ-FENGYUAN-FENGZHEN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "豐圳里",
+      "village_en": "Fengzhen Village",
+      "votes": {
+        "1": 1095,
+        "2": 1110
+      },
+      "valid_votes": 2205,
+      "invalid_votes": 46,
+      "ballots_cast": 2251,
+      "unreturned_ballots": 0,
+      "electors": 2739,
+      "turnout_rate": 82.1833
+    },
+    "TXQ-FENGYUAN-SHEPI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "社皮里",
+      "village_en": "Shepi Village",
+      "votes": {
+        "1": 3170,
+        "2": 2965
+      },
+      "valid_votes": 6135,
+      "invalid_votes": 127,
+      "ballots_cast": 6262,
+      "unreturned_ballots": 0,
+      "electors": 7652,
+      "turnout_rate": 81.8348
+    },
+    "TXQ-FENGYUAN-SANCUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "三村里",
+      "village_en": "Sancun Village",
+      "votes": {
+        "1": 2249,
+        "2": 1694
+      },
+      "valid_votes": 3943,
+      "invalid_votes": 96,
+      "ballots_cast": 4039,
+      "unreturned_ballots": 0,
+      "electors": 4920,
+      "turnout_rate": 82.0935
+    },
+    "TXQ-FENGYUAN-ZHONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 1008,
+        "2": 1168
+      },
+      "valid_votes": 2176,
+      "invalid_votes": 46,
+      "ballots_cast": 2222,
+      "unreturned_ballots": 0,
+      "electors": 2750,
+      "turnout_rate": 80.8
+    },
+    "TXQ-FENGYUAN-TIANXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "田心里",
+      "village_en": "Tianxin Village",
+      "votes": {
+        "1": 2047,
+        "2": 1753
+      },
+      "valid_votes": 3800,
+      "invalid_votes": 73,
+      "ballots_cast": 3873,
+      "unreturned_ballots": 0,
+      "electors": 4684,
+      "turnout_rate": 82.6857
+    },
+    "TXQ-FENGYUAN-FENGTIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "豐田里",
+      "village_en": "Fengtian Village",
+      "votes": {
+        "1": 4081,
+        "2": 2945
+      },
+      "valid_votes": 7026,
+      "invalid_votes": 201,
+      "ballots_cast": 7227,
+      "unreturned_ballots": 1,
+      "electors": 8791,
+      "turnout_rate": 82.2091
+    },
+    "TXQ-FENGYUAN-LIANCUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "鎌村里",
+      "village_en": "Liancun Village",
+      "votes": {
+        "1": 1512,
+        "2": 1316
+      },
+      "valid_votes": 2828,
+      "invalid_votes": 84,
+      "ballots_cast": 2912,
+      "unreturned_ballots": 0,
+      "electors": 3525,
+      "turnout_rate": 82.6099
+    },
+    "TXQ-FENGYUAN-NANYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "南陽里",
+      "village_en": "Nanyang Village",
+      "votes": {
+        "1": 3183,
+        "2": 2859
+      },
+      "valid_votes": 6042,
+      "invalid_votes": 119,
+      "ballots_cast": 6161,
+      "unreturned_ballots": 0,
+      "electors": 7490,
+      "turnout_rate": 82.2563
+    },
+    "TXQ-FENGYUAN-YANGMING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "陽明里",
+      "village_en": "Yangming Village",
+      "votes": {
+        "1": 1001,
+        "2": 973
+      },
+      "valid_votes": 1974,
+      "invalid_votes": 34,
+      "ballots_cast": 2008,
+      "unreturned_ballots": 0,
+      "electors": 2453,
+      "turnout_rate": 81.8589
+    },
+    "TXQ-FENGYUAN-BEIYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "北陽里",
+      "village_en": "Beiyang Village",
+      "votes": {
+        "1": 4363,
+        "2": 3739
+      },
+      "valid_votes": 8102,
+      "invalid_votes": 140,
+      "ballots_cast": 8242,
+      "unreturned_ballots": 0,
+      "electors": 9879,
+      "turnout_rate": 83.4295
+    },
+    "TXQ-FENGYUAN-ZHONGYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "中陽里",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 2057,
+        "2": 1640
+      },
+      "valid_votes": 3697,
+      "invalid_votes": 74,
+      "ballots_cast": 3771,
+      "unreturned_ballots": 1,
+      "electors": 4547,
+      "turnout_rate": 82.9338
+    },
+    "TXQ-FENGYUAN-DONGYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "東陽里",
+      "village_en": "Dongyang Village",
+      "votes": {
+        "1": 827,
+        "2": 438
+      },
+      "valid_votes": 1265,
+      "invalid_votes": 36,
+      "ballots_cast": 1301,
+      "unreturned_ballots": 0,
+      "electors": 1509,
+      "turnout_rate": 86.216
+    },
+    "TXQ-FENGYUAN-NANCUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "南村里",
+      "village_en": "Nancun Village",
+      "votes": {
+        "1": 1855,
+        "2": 1365
+      },
+      "valid_votes": 3220,
+      "invalid_votes": 68,
+      "ballots_cast": 3288,
+      "unreturned_ballots": 0,
+      "electors": 3995,
+      "turnout_rate": 82.3029
+    },
+    "TXQ-FENGYUAN-NANTIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "南田里",
+      "village_en": "Nantian Village",
+      "votes": {
+        "1": 1425,
+        "2": 1002
+      },
+      "valid_votes": 2427,
+      "invalid_votes": 63,
+      "ballots_cast": 2490,
+      "unreturned_ballots": 0,
+      "electors": 2981,
+      "turnout_rate": 83.529
+    },
+    "TXQ-FENGYUAN-NANSONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "南嵩里",
+      "village_en": "Nansong Village",
+      "votes": {
+        "1": 1421,
+        "2": 847
+      },
+      "valid_votes": 2268,
+      "invalid_votes": 68,
+      "ballots_cast": 2336,
+      "unreturned_ballots": 0,
+      "electors": 2837,
+      "turnout_rate": 82.3405
+    },
+    "TXQ-FENGYUAN-WENGMING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "翁明里",
+      "village_en": "Wengming Village",
+      "votes": {
+        "1": 769,
+        "2": 646
+      },
+      "valid_votes": 1415,
+      "invalid_votes": 34,
+      "ballots_cast": 1449,
+      "unreturned_ballots": 0,
+      "electors": 1727,
+      "turnout_rate": 83.9027
+    },
+    "TXQ-FENGYUAN-WENGZI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "翁子里",
+      "village_en": "Wengzi Village",
+      "votes": {
+        "1": 1176,
+        "2": 783
+      },
+      "valid_votes": 1959,
+      "invalid_votes": 58,
+      "ballots_cast": 2017,
+      "unreturned_ballots": 0,
+      "electors": 2388,
+      "turnout_rate": 84.464
+    },
+    "TXQ-FENGYUAN-WENGSHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "翁社里",
+      "village_en": "Wengshe Village",
+      "votes": {
+        "1": 912,
+        "2": 602
+      },
+      "valid_votes": 1514,
+      "invalid_votes": 41,
+      "ballots_cast": 1555,
+      "unreturned_ballots": 0,
+      "electors": 1834,
+      "turnout_rate": 84.7874
+    },
+    "TXQ-FENGYUAN-PUZI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "豐原市",
+      "township_en": "Fengyuan City",
+      "village_zh": "朴子里",
+      "village_en": "Puzi Village",
+      "votes": {
+        "1": 1564,
+        "2": 832
+      },
+      "valid_votes": 2396,
+      "invalid_votes": 56,
+      "ballots_cast": 2452,
+      "unreturned_ballots": 0,
+      "electors": 2947,
+      "turnout_rate": 83.2033
+    },
+    "TXQ-DALI-DALI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "大里里",
+      "village_en": "Dali Village",
+      "votes": {
+        "1": 1304,
+        "2": 1068
+      },
+      "valid_votes": 2372,
+      "invalid_votes": 73,
+      "ballots_cast": 2445,
+      "unreturned_ballots": 0,
+      "electors": 2959,
+      "turnout_rate": 82.6293
+    },
+    "TXQ-DALI-XINLI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "新里里",
+      "village_en": "Xinli Village",
+      "votes": {
+        "1": 2749,
+        "2": 2431
+      },
+      "valid_votes": 5180,
+      "invalid_votes": 85,
+      "ballots_cast": 5265,
+      "unreturned_ballots": 0,
+      "electors": 6641,
+      "turnout_rate": 79.2802
+    },
+    "TXQ-DALI-SHUWANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "樹王里",
+      "village_en": "Shuwang Village",
+      "votes": {
+        "1": 1434,
+        "2": 861
+      },
+      "valid_votes": 2295,
+      "invalid_votes": 44,
+      "ballots_cast": 2339,
+      "unreturned_ballots": 0,
+      "electors": 2818,
+      "turnout_rate": 83.0021
+    },
+    "TXQ-DALI-DONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "東興里",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 2420,
+        "2": 2261
+      },
+      "valid_votes": 4681,
+      "invalid_votes": 82,
+      "ballots_cast": 4763,
+      "unreturned_ballots": 0,
+      "electors": 5725,
+      "turnout_rate": 83.1965
+    },
+    "TXQ-DALI-XIANGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "祥興里",
+      "village_en": "Xiangxing Village",
+      "votes": {
+        "1": 2331,
+        "2": 2037
+      },
+      "valid_votes": 4368,
+      "invalid_votes": 82,
+      "ballots_cast": 4450,
+      "unreturned_ballots": 0,
+      "electors": 5541,
+      "turnout_rate": 80.3104
+    },
+    "TXQ-DALI-RIXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "日新里",
+      "village_en": "Rixin Village",
+      "votes": {
+        "1": 1357,
+        "2": 1278
+      },
+      "valid_votes": 2635,
+      "invalid_votes": 58,
+      "ballots_cast": 2693,
+      "unreturned_ballots": 0,
+      "electors": 3266,
+      "turnout_rate": 82.4556
+    },
+    "TXQ-DALI-XIRONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "西榮里",
+      "village_en": "Xirong Village",
+      "votes": {
+        "1": 1858,
+        "2": 1835
+      },
+      "valid_votes": 3693,
+      "invalid_votes": 70,
+      "ballots_cast": 3763,
+      "unreturned_ballots": 0,
+      "electors": 4653,
+      "turnout_rate": 80.8726
+    },
+    "TXQ-DALI-NEIXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "內新里",
+      "village_en": "Neixin Village",
+      "votes": {
+        "1": 1897,
+        "2": 2322
+      },
+      "valid_votes": 4219,
+      "invalid_votes": 94,
+      "ballots_cast": 4313,
+      "unreturned_ballots": 0,
+      "electors": 5380,
+      "turnout_rate": 80.1673
+    },
+    "TXQ-DALI-DONGSHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "東昇里",
+      "village_en": "Dongsheng Village",
+      "votes": {
+        "1": 1143,
+        "2": 976
+      },
+      "valid_votes": 2119,
+      "invalid_votes": 52,
+      "ballots_cast": 2171,
+      "unreturned_ballots": 0,
+      "electors": 2634,
+      "turnout_rate": 82.4222
+    },
+    "TXQ-DALI-LIREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "立仁里",
+      "village_en": "Liren Village",
+      "votes": {
+        "1": 1660,
+        "2": 1367
+      },
+      "valid_votes": 3027,
+      "invalid_votes": 69,
+      "ballots_cast": 3096,
+      "unreturned_ballots": 0,
+      "electors": 3859,
+      "turnout_rate": 80.228
+    },
+    "TXQ-DALI-XINREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "新仁里",
+      "village_en": "Xinren Village",
+      "votes": {
+        "1": 2643,
+        "2": 2291
+      },
+      "valid_votes": 4934,
+      "invalid_votes": 89,
+      "ballots_cast": 5023,
+      "unreturned_ballots": 0,
+      "electors": 6144,
+      "turnout_rate": 81.7546
+    },
+    "TXQ-DALI-DAYUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "大元里",
+      "village_en": "Dayuan Village",
+      "votes": {
+        "1": 1599,
+        "2": 1200
+      },
+      "valid_votes": 2799,
+      "invalid_votes": 49,
+      "ballots_cast": 2848,
+      "unreturned_ballots": 0,
+      "electors": 3374,
+      "turnout_rate": 84.4102
+    },
+    "TXQ-DALI-XIATIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "夏田里",
+      "village_en": "Xiatian Village",
+      "votes": {
+        "1": 475,
+        "2": 285
+      },
+      "valid_votes": 760,
+      "invalid_votes": 21,
+      "ballots_cast": 781,
+      "unreturned_ballots": 0,
+      "electors": 929,
+      "turnout_rate": 84.0689
+    },
+    "TXQ-DALI-RENHUA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "仁化里",
+      "village_en": "Renhua Village",
+      "votes": {
+        "1": 2480,
+        "2": 1883
+      },
+      "valid_votes": 4363,
+      "invalid_votes": 52,
+      "ballots_cast": 4415,
+      "unreturned_ballots": 2,
+      "electors": 5485,
+      "turnout_rate": 80.4923
+    },
+    "TXQ-DALI-JIANMIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "健民里",
+      "village_en": "Jianmin Village",
+      "votes": {
+        "1": 1539,
+        "2": 1798
+      },
+      "valid_votes": 3337,
+      "invalid_votes": 78,
+      "ballots_cast": 3415,
+      "unreturned_ballots": 0,
+      "electors": 4306,
+      "turnout_rate": 79.3079
+    },
+    "TXQ-DALI-TUCHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "塗城里",
+      "village_en": "Tucheng Village",
+      "votes": {
+        "1": 2885,
+        "2": 2355
+      },
+      "valid_votes": 5240,
+      "invalid_votes": 114,
+      "ballots_cast": 5354,
+      "unreturned_ballots": 0,
+      "electors": 6689,
+      "turnout_rate": 80.0419
+    },
+    "TXQ-DALI-RUICHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "瑞城里",
+      "village_en": "Ruicheng Village",
+      "votes": {
+        "1": 3681,
+        "2": 3381
+      },
+      "valid_votes": 7062,
+      "invalid_votes": 97,
+      "ballots_cast": 7159,
+      "unreturned_ballots": 0,
+      "electors": 8857,
+      "turnout_rate": 80.8287
+    },
+    "TXQ-DALI-JINCHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "金城里",
+      "village_en": "Jincheng Village",
+      "votes": {
+        "1": 3112,
+        "2": 3099
+      },
+      "valid_votes": 6211,
+      "invalid_votes": 93,
+      "ballots_cast": 6304,
+      "unreturned_ballots": 0,
+      "electors": 7922,
+      "turnout_rate": 79.5759
+    },
+    "TXQ-DALI-DONGHU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "東湖里",
+      "village_en": "Donghu Village",
+      "votes": {
+        "1": 2503,
+        "2": 2432
+      },
+      "valid_votes": 4935,
+      "invalid_votes": 105,
+      "ballots_cast": 5040,
+      "unreturned_ballots": 0,
+      "electors": 6334,
+      "turnout_rate": 79.5706
+    },
+    "TXQ-DALI-XIHU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "西湖里",
+      "village_en": "Xihu Village",
+      "votes": {
+        "1": 1024,
+        "2": 758
+      },
+      "valid_votes": 1782,
+      "invalid_votes": 35,
+      "ballots_cast": 1817,
+      "unreturned_ballots": 0,
+      "electors": 2157,
+      "turnout_rate": 84.2374
+    },
+    "TXQ-DALI-GUOGUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "國光里",
+      "village_en": "Guoguang Village",
+      "votes": {
+        "1": 1504,
+        "2": 1519
+      },
+      "valid_votes": 3023,
+      "invalid_votes": 47,
+      "ballots_cast": 3070,
+      "unreturned_ballots": 0,
+      "electors": 3727,
+      "turnout_rate": 82.3719
+    },
+    "TXQ-DALI-DAMING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "大明里",
+      "village_en": "Daming Village",
+      "votes": {
+        "1": 1425,
+        "2": 1222
+      },
+      "valid_votes": 2647,
+      "invalid_votes": 55,
+      "ballots_cast": 2702,
+      "unreturned_ballots": 0,
+      "electors": 3304,
+      "turnout_rate": 81.7797
+    },
+    "TXQ-DALI-YONGLONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "永隆里",
+      "village_en": "Yonglong Village",
+      "votes": {
+        "1": 1641,
+        "2": 1823
+      },
+      "valid_votes": 3464,
+      "invalid_votes": 31,
+      "ballots_cast": 3495,
+      "unreturned_ballots": 0,
+      "electors": 4108,
+      "turnout_rate": 85.0779
+    },
+    "TXQ-DALI-ZHANGRONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "長榮里",
+      "village_en": "Zhangrong Village",
+      "votes": {
+        "1": 2231,
+        "2": 2477
+      },
+      "valid_votes": 4708,
+      "invalid_votes": 71,
+      "ballots_cast": 4779,
+      "unreturned_ballots": 0,
+      "electors": 5831,
+      "turnout_rate": 81.9585
+    },
+    "TXQ-DALI-ZHONGXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "中新里",
+      "village_en": "Zhongxin Village",
+      "votes": {
+        "1": 1345,
+        "2": 1512
+      },
+      "valid_votes": 2857,
+      "invalid_votes": 61,
+      "ballots_cast": 2918,
+      "unreturned_ballots": 0,
+      "electors": 3599,
+      "turnout_rate": 81.0781
+    },
+    "TXQ-DALI-LIDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "立德里",
+      "village_en": "Lide Village",
+      "votes": {
+        "1": 1756,
+        "2": 1491
+      },
+      "valid_votes": 3247,
+      "invalid_votes": 64,
+      "ballots_cast": 3311,
+      "unreturned_ballots": 0,
+      "electors": 4064,
+      "turnout_rate": 81.4715
+    },
+    "TXQ-DALI-RENDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大里市",
+      "township_en": "Dali City",
+      "village_zh": "仁德里",
+      "village_en": "Rende Village",
+      "votes": {
+        "1": 2058,
+        "2": 1792
+      },
+      "valid_votes": 3850,
+      "invalid_votes": 55,
+      "ballots_cast": 3905,
+      "unreturned_ballots": 0,
+      "electors": 4756,
+      "turnout_rate": 82.1068
+    },
+    "TXQ-TAIPING-TAIPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "太平里",
+      "village_en": "Taiping Village",
+      "votes": {
+        "1": 2462,
+        "2": 1720
+      },
+      "valid_votes": 4182,
+      "invalid_votes": 128,
+      "ballots_cast": 4310,
+      "unreturned_ballots": 1,
+      "electors": 5214,
+      "turnout_rate": 82.6621
+    },
+    "TXQ-TAIPING-ZHANGYI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "長億里",
+      "village_en": "Zhangyi Village",
+      "votes": {
+        "1": 3223,
+        "2": 3103
+      },
+      "valid_votes": 6326,
+      "invalid_votes": 121,
+      "ballots_cast": 6447,
+      "unreturned_ballots": 0,
+      "electors": 7981,
+      "turnout_rate": 80.7794
+    },
+    "TXQ-TAIPING-ZHONGPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "中平里",
+      "village_en": "Zhongping Village",
+      "votes": {
+        "1": 2646,
+        "2": 2201
+      },
+      "valid_votes": 4847,
+      "invalid_votes": 103,
+      "ballots_cast": 4950,
+      "unreturned_ballots": 0,
+      "electors": 6164,
+      "turnout_rate": 80.305
+    },
+    "TXQ-TAIPING-ZHONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 2903,
+        "2": 2569
+      },
+      "valid_votes": 5472,
+      "invalid_votes": 108,
+      "ballots_cast": 5580,
+      "unreturned_ballots": 0,
+      "electors": 7233,
+      "turnout_rate": 77.1464
+    },
+    "TXQ-TAIPING-JIANGUO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "建國里",
+      "village_en": "Jianguo Village",
+      "votes": {
+        "1": 1782,
+        "2": 2194
+      },
+      "valid_votes": 3976,
+      "invalid_votes": 98,
+      "ballots_cast": 4074,
+      "unreturned_ballots": 0,
+      "electors": 5074,
+      "turnout_rate": 80.2917
+    },
+    "TXQ-TAIPING-DONGPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "東平里",
+      "village_en": "Dongping Village",
+      "votes": {
+        "1": 3957,
+        "2": 3335
+      },
+      "valid_votes": 7292,
+      "invalid_votes": 164,
+      "ballots_cast": 7456,
+      "unreturned_ballots": 0,
+      "electors": 9214,
+      "turnout_rate": 80.9203
+    },
+    "TXQ-TAIPING-YIXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "宜欣里",
+      "village_en": "Yixin Village",
+      "votes": {
+        "1": 4818,
+        "2": 5001
+      },
+      "valid_votes": 9819,
+      "invalid_votes": 200,
+      "ballots_cast": 10019,
+      "unreturned_ballots": 2,
+      "electors": 12535,
+      "turnout_rate": 79.9282
+    },
+    "TXQ-TAIPING-ZHONGSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 1984,
+        "2": 3049
+      },
+      "valid_votes": 5033,
+      "invalid_votes": 116,
+      "ballots_cast": 5149,
+      "unreturned_ballots": 0,
+      "electors": 6253,
+      "turnout_rate": 82.3445
+    },
+    "TXQ-TAIPING-PINGLIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "坪林里",
+      "village_en": "Pinglin Village",
+      "votes": {
+        "1": 2438,
+        "2": 3614
+      },
+      "valid_votes": 6052,
+      "invalid_votes": 132,
+      "ballots_cast": 6184,
+      "unreturned_ballots": 0,
+      "electors": 7460,
+      "turnout_rate": 82.8954
+    },
+    "TXQ-TAIPING-GUANGHUA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "光華里",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 2317,
+        "2": 3582
+      },
+      "valid_votes": 5899,
+      "invalid_votes": 146,
+      "ballots_cast": 6045,
+      "unreturned_ballots": 0,
+      "electors": 7388,
+      "turnout_rate": 81.8219
+    },
+    "TXQ-TAIPING-XINPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "新坪里",
+      "village_en": "Xinping Village",
+      "votes": {
+        "1": 4108,
+        "2": 4866
+      },
+      "valid_votes": 8974,
+      "invalid_votes": 172,
+      "ballots_cast": 9146,
+      "unreturned_ballots": 0,
+      "electors": 11571,
+      "turnout_rate": 79.0424
+    },
+    "TXQ-TAIPING-XINGUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "新光里",
+      "village_en": "Xinguang Village",
+      "votes": {
+        "1": 3903,
+        "2": 3430
+      },
+      "valid_votes": 7333,
+      "invalid_votes": 158,
+      "ballots_cast": 7491,
+      "unreturned_ballots": 0,
+      "electors": 9228,
+      "turnout_rate": 81.1769
+    },
+    "TXQ-TAIPING-XINFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "新福里",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 1638,
+        "2": 1841
+      },
+      "valid_votes": 3479,
+      "invalid_votes": 67,
+      "ballots_cast": 3546,
+      "unreturned_ballots": 0,
+      "electors": 4273,
+      "turnout_rate": 82.9862
+    },
+    "TXQ-TAIPING-TOUBIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "頭汴里",
+      "village_en": "Toubian Village",
+      "votes": {
+        "1": 1469,
+        "2": 1067
+      },
+      "valid_votes": 2536,
+      "invalid_votes": 113,
+      "ballots_cast": 2649,
+      "unreturned_ballots": 0,
+      "electors": 3295,
+      "turnout_rate": 80.3945
+    },
+    "TXQ-TAIPING-DONGBIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "東汴里",
+      "village_en": "Dongbian Village",
+      "votes": {
+        "1": 529,
+        "2": 346
+      },
+      "valid_votes": 875,
+      "invalid_votes": 41,
+      "ballots_cast": 916,
+      "unreturned_ballots": 1,
+      "electors": 1198,
+      "turnout_rate": 76.4608
+    },
+    "TXQ-TAIPING-XINGLONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "興隆里",
+      "village_en": "Xinglong Village",
+      "votes": {
+        "1": 2368,
+        "2": 2326
+      },
+      "valid_votes": 4694,
+      "invalid_votes": 93,
+      "ballots_cast": 4787,
+      "unreturned_ballots": 0,
+      "electors": 5871,
+      "turnout_rate": 81.5364
+    },
+    "TXQ-TAIPING-GUANGLONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "光隆里",
+      "village_en": "Guanglong Village",
+      "votes": {
+        "1": 2065,
+        "2": 1655
+      },
+      "valid_votes": 3720,
+      "invalid_votes": 91,
+      "ballots_cast": 3811,
+      "unreturned_ballots": 2,
+      "electors": 4724,
+      "turnout_rate": 80.6732
+    },
+    "TXQ-TAIPING-DELONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "德隆里",
+      "village_en": "Delong Village",
+      "votes": {
+        "1": 1560,
+        "2": 1243
+      },
+      "valid_votes": 2803,
+      "invalid_votes": 78,
+      "ballots_cast": 2881,
+      "unreturned_ballots": 0,
+      "electors": 3595,
+      "turnout_rate": 80.1391
+    },
+    "TXQ-TAIPING-HUANGZHU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "太平市",
+      "township_en": "Taiping City",
+      "village_zh": "黃竹里",
+      "village_en": "Huangzhu Village",
+      "votes": {
+        "1": 368,
+        "2": 280
+      },
+      "valid_votes": 648,
+      "invalid_votes": 22,
+      "ballots_cast": 670,
+      "unreturned_ballots": 0,
+      "electors": 822,
+      "turnout_rate": 81.5085
+    },
+    "TXQ-DONGSHI-BEIXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "北興里",
+      "village_en": "Beixing Village",
+      "votes": {
+        "1": 343,
+        "2": 586
+      },
+      "valid_votes": 929,
+      "invalid_votes": 22,
+      "ballots_cast": 951,
+      "unreturned_ballots": 0,
+      "electors": 1190,
+      "turnout_rate": 79.916
+    },
+    "TXQ-DONGSHI-ZHONGNING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "中寧里",
+      "village_en": "Zhongning Village",
+      "votes": {
+        "1": 259,
+        "2": 414
+      },
+      "valid_votes": 673,
+      "invalid_votes": 13,
+      "ballots_cast": 686,
+      "unreturned_ballots": 0,
+      "electors": 825,
+      "turnout_rate": 83.1515
+    },
+    "TXQ-DONGSHI-DONGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 403,
+        "2": 594
+      },
+      "valid_votes": 997,
+      "invalid_votes": 24,
+      "ballots_cast": 1021,
+      "unreturned_ballots": 0,
+      "electors": 1286,
+      "turnout_rate": 79.3935
+    },
+    "TXQ-DONGSHI-NANPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "南平里",
+      "village_en": "Nanping Village",
+      "votes": {
+        "1": 579,
+        "2": 870
+      },
+      "valid_votes": 1449,
+      "invalid_votes": 42,
+      "ballots_cast": 1491,
+      "unreturned_ballots": 0,
+      "electors": 1853,
+      "turnout_rate": 80.4641
+    },
+    "TXQ-DONGSHI-YANPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "延平里",
+      "village_en": "Yanping Village",
+      "votes": {
+        "1": 828,
+        "2": 897
+      },
+      "valid_votes": 1725,
+      "invalid_votes": 45,
+      "ballots_cast": 1770,
+      "unreturned_ballots": 0,
+      "electors": 2202,
+      "turnout_rate": 80.3815
+    },
+    "TXQ-DONGSHI-SHANGXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "上新里",
+      "village_en": "Shangxin Village",
+      "votes": {
+        "1": 298,
+        "2": 466
+      },
+      "valid_votes": 764,
+      "invalid_votes": 30,
+      "ballots_cast": 794,
+      "unreturned_ballots": 0,
+      "electors": 954,
+      "turnout_rate": 83.2285
+    },
+    "TXQ-DONGSHI-GUANGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "廣興里",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 481,
+        "2": 691
+      },
+      "valid_votes": 1172,
+      "invalid_votes": 36,
+      "ballots_cast": 1208,
+      "unreturned_ballots": 0,
+      "electors": 1515,
+      "turnout_rate": 79.736
+    },
+    "TXQ-DONGSHI-TAICHANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "泰昌里",
+      "village_en": "Taichang Village",
+      "votes": {
+        "1": 1027,
+        "2": 1531
+      },
+      "valid_votes": 2558,
+      "invalid_votes": 63,
+      "ballots_cast": 2621,
+      "unreturned_ballots": 0,
+      "electors": 3232,
+      "turnout_rate": 81.0953
+    },
+    "TXQ-DONGSHI-ZHONGKE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "中嵙里",
+      "village_en": "Zhongke Village",
+      "votes": {
+        "1": 665,
+        "2": 755
+      },
+      "valid_votes": 1420,
+      "invalid_votes": 60,
+      "ballots_cast": 1480,
+      "unreturned_ballots": 0,
+      "electors": 1844,
+      "turnout_rate": 80.2603
+    },
+    "TXQ-DONGSHI-FULONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "福隆里",
+      "village_en": "Fulong Village",
+      "votes": {
+        "1": 1074,
+        "2": 1405
+      },
+      "valid_votes": 2479,
+      "invalid_votes": 79,
+      "ballots_cast": 2558,
+      "unreturned_ballots": 0,
+      "electors": 3178,
+      "turnout_rate": 80.4909
+    },
+    "TXQ-DONGSHI-LONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "隆興里",
+      "village_en": "Longxing Village",
+      "votes": {
+        "1": 544,
+        "2": 498
+      },
+      "valid_votes": 1042,
+      "invalid_votes": 40,
+      "ballots_cast": 1082,
+      "unreturned_ballots": 0,
+      "electors": 1426,
+      "turnout_rate": 75.8766
+    },
+    "TXQ-DONGSHI-XINSHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "新盛里",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 1806,
+        "2": 1822
+      },
+      "valid_votes": 3628,
+      "invalid_votes": 138,
+      "ballots_cast": 3766,
+      "unreturned_ballots": 0,
+      "electors": 4631,
+      "turnout_rate": 81.3215
+    },
+    "TXQ-DONGSHI-YIFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "詒福里",
+      "village_en": "Yifu Village",
+      "votes": {
+        "1": 648,
+        "2": 485
+      },
+      "valid_votes": 1133,
+      "invalid_votes": 47,
+      "ballots_cast": 1180,
+      "unreturned_ballots": 0,
+      "electors": 1448,
+      "turnout_rate": 81.4917
+    },
+    "TXQ-DONGSHI-SHANGCHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "上城里",
+      "village_en": "Shangcheng Village",
+      "votes": {
+        "1": 426,
+        "2": 333
+      },
+      "valid_votes": 759,
+      "invalid_votes": 32,
+      "ballots_cast": 791,
+      "unreturned_ballots": 0,
+      "electors": 975,
+      "turnout_rate": 81.1282
+    },
+    "TXQ-DONGSHI-XIACHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "下城里",
+      "village_en": "Xiacheng Village",
+      "votes": {
+        "1": 388,
+        "2": 292
+      },
+      "valid_votes": 680,
+      "invalid_votes": 38,
+      "ballots_cast": 718,
+      "unreturned_ballots": 0,
+      "electors": 898,
+      "turnout_rate": 79.9555
+    },
+    "TXQ-DONGSHI-QINGDONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "慶東里",
+      "village_en": "Qingdong Village",
+      "votes": {
+        "1": 853,
+        "2": 627
+      },
+      "valid_votes": 1480,
+      "invalid_votes": 52,
+      "ballots_cast": 1532,
+      "unreturned_ballots": 0,
+      "electors": 1928,
+      "turnout_rate": 79.4606
+    },
+    "TXQ-DONGSHI-QINGFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "慶福里",
+      "village_en": "Qingfu Village",
+      "votes": {
+        "1": 593,
+        "2": 385
+      },
+      "valid_votes": 978,
+      "invalid_votes": 48,
+      "ballots_cast": 1026,
+      "unreturned_ballots": 0,
+      "electors": 1389,
+      "turnout_rate": 73.8661
+    },
+    "TXQ-DONGSHI-DONGXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "東新里",
+      "village_en": "Dongxin Village",
+      "votes": {
+        "1": 623,
+        "2": 889
+      },
+      "valid_votes": 1512,
+      "invalid_votes": 41,
+      "ballots_cast": 1553,
+      "unreturned_ballots": 0,
+      "electors": 1936,
+      "turnout_rate": 80.2169
+    },
+    "TXQ-DONGSHI-YUENING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "粵寧里",
+      "village_en": "Yuening Village",
+      "votes": {
+        "1": 698,
+        "2": 677
+      },
+      "valid_votes": 1375,
+      "invalid_votes": 43,
+      "ballots_cast": 1418,
+      "unreturned_ballots": 0,
+      "electors": 1760,
+      "turnout_rate": 80.5682
+    },
+    "TXQ-DONGSHI-XIAXIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "下新里",
+      "village_en": "Xiaxin Village",
+      "votes": {
+        "1": 762,
+        "2": 568
+      },
+      "valid_votes": 1330,
+      "invalid_votes": 24,
+      "ballots_cast": 1354,
+      "unreturned_ballots": 0,
+      "electors": 1647,
+      "turnout_rate": 82.2101
+    },
+    "TXQ-DONGSHI-XINGLONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "興隆里",
+      "village_en": "Xinglong Village",
+      "votes": {
+        "1": 596,
+        "2": 380
+      },
+      "valid_votes": 976,
+      "invalid_votes": 43,
+      "ballots_cast": 1019,
+      "unreturned_ballots": 0,
+      "electors": 1240,
+      "turnout_rate": 82.1774
+    },
+    "TXQ-DONGSHI-MAOXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "茂興里",
+      "village_en": "Maoxing Village",
+      "votes": {
+        "1": 690,
+        "2": 659
+      },
+      "valid_votes": 1349,
+      "invalid_votes": 61,
+      "ballots_cast": 1410,
+      "unreturned_ballots": 0,
+      "electors": 1750,
+      "turnout_rate": 80.5714
+    },
+    "TXQ-DONGSHI-TAIXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "泰興里",
+      "village_en": "Taixing Village",
+      "votes": {
+        "1": 340,
+        "2": 240
+      },
+      "valid_votes": 580,
+      "invalid_votes": 24,
+      "ballots_cast": 604,
+      "unreturned_ballots": 0,
+      "electors": 755,
+      "turnout_rate": 80.0
+    },
+    "TXQ-DONGSHI-PITOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "埤頭里",
+      "village_en": "Pitou Village",
+      "votes": {
+        "1": 307,
+        "2": 248
+      },
+      "valid_votes": 555,
+      "invalid_votes": 25,
+      "ballots_cast": 580,
+      "unreturned_ballots": 0,
+      "electors": 663,
+      "turnout_rate": 87.4811
+    },
+    "TXQ-DONGSHI-MINGZHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "東勢鎮",
+      "township_en": "Dongshi Township",
+      "village_zh": "明正里",
+      "village_en": "Mingzheng Village",
+      "votes": {
+        "1": 593,
+        "2": 395
+      },
+      "valid_votes": 988,
+      "invalid_votes": 70,
+      "ballots_cast": 1058,
+      "unreturned_ballots": 1,
+      "electors": 1395,
+      "turnout_rate": 75.8423
+    },
+    "TXQ-DAJIA-CHAOYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "朝陽里",
+      "village_en": "Chaoyang Village",
+      "votes": {
+        "1": 559,
+        "2": 451
+      },
+      "valid_votes": 1010,
+      "invalid_votes": 22,
+      "ballots_cast": 1032,
+      "unreturned_ballots": 1,
+      "electors": 1271,
+      "turnout_rate": 81.1959
+    },
+    "TXQ-DAJIA-DAJIA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "大甲里",
+      "village_en": "Dajia Village",
+      "votes": {
+        "1": 478,
+        "2": 419
+      },
+      "valid_votes": 897,
+      "invalid_votes": 23,
+      "ballots_cast": 920,
+      "unreturned_ballots": 0,
+      "electors": 1177,
+      "turnout_rate": 78.1648
+    },
+    "TXQ-DAJIA-SHUNTIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "順天里",
+      "village_en": "Shuntian Village",
+      "votes": {
+        "1": 696,
+        "2": 608
+      },
+      "valid_votes": 1304,
+      "invalid_votes": 29,
+      "ballots_cast": 1333,
+      "unreturned_ballots": 0,
+      "electors": 1659,
+      "turnout_rate": 80.3496
+    },
+    "TXQ-DAJIA-KONGMEN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "孔門里",
+      "village_en": "Kongmen Village",
+      "votes": {
+        "1": 306,
+        "2": 326
+      },
+      "valid_votes": 632,
+      "invalid_votes": 16,
+      "ballots_cast": 648,
+      "unreturned_ballots": 0,
+      "electors": 786,
+      "turnout_rate": 82.4427
+    },
+    "TXQ-DAJIA-PINGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "平安里",
+      "village_en": "Pingan Village",
+      "votes": {
+        "1": 855,
+        "2": 712
+      },
+      "valid_votes": 1567,
+      "invalid_votes": 31,
+      "ballots_cast": 1598,
+      "unreturned_ballots": 0,
+      "electors": 1960,
+      "turnout_rate": 81.5306
+    },
+    "TXQ-DAJIA-ZHUANGMEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "庄美里",
+      "village_en": "Zhuangmei Village",
+      "votes": {
+        "1": 858,
+        "2": 707
+      },
+      "valid_votes": 1565,
+      "invalid_votes": 44,
+      "ballots_cast": 1609,
+      "unreturned_ballots": 0,
+      "electors": 1966,
+      "turnout_rate": 81.8413
+    },
+    "TXQ-DAJIA-XINMEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "新美里",
+      "village_en": "Xinmei Village",
+      "votes": {
+        "1": 1255,
+        "2": 1199
+      },
+      "valid_votes": 2454,
+      "invalid_votes": 77,
+      "ballots_cast": 2531,
+      "unreturned_ballots": 0,
+      "electors": 3102,
+      "turnout_rate": 81.5925
+    },
+    "TXQ-DAJIA-MINSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "岷山里",
+      "village_en": "Minshan Village",
+      "votes": {
+        "1": 728,
+        "2": 751
+      },
+      "valid_votes": 1479,
+      "invalid_votes": 23,
+      "ballots_cast": 1502,
+      "unreturned_ballots": 0,
+      "electors": 1863,
+      "turnout_rate": 80.6227
+    },
+    "TXQ-DAJIA-ZHONGSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 1255,
+        "2": 1450
+      },
+      "valid_votes": 2705,
+      "invalid_votes": 87,
+      "ballots_cast": 2792,
+      "unreturned_ballots": 0,
+      "electors": 3439,
+      "turnout_rate": 81.1864
+    },
+    "TXQ-DAJIA-NANYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "南陽里",
+      "village_en": "Nanyang Village",
+      "votes": {
+        "1": 346,
+        "2": 336
+      },
+      "valid_votes": 682,
+      "invalid_votes": 17,
+      "ballots_cast": 699,
+      "unreturned_ballots": 0,
+      "electors": 880,
+      "turnout_rate": 79.4318
+    },
+    "TXQ-DAJIA-XUNFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "薰風里",
+      "village_en": "Xunfeng Village",
+      "votes": {
+        "1": 387,
+        "2": 359
+      },
+      "valid_votes": 746,
+      "invalid_votes": 17,
+      "ballots_cast": 763,
+      "unreturned_ballots": 0,
+      "electors": 934,
+      "turnout_rate": 81.6916
+    },
+    "TXQ-DAJIA-YIHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "義和里",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 1020,
+        "2": 1013
+      },
+      "valid_votes": 2033,
+      "invalid_votes": 64,
+      "ballots_cast": 2097,
+      "unreturned_ballots": 0,
+      "electors": 2649,
+      "turnout_rate": 79.1619
+    },
+    "TXQ-DAJIA-WULING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "武陵里",
+      "village_en": "Wuling Village",
+      "votes": {
+        "1": 375,
+        "2": 474
+      },
+      "valid_votes": 849,
+      "invalid_votes": 36,
+      "ballots_cast": 885,
+      "unreturned_ballots": 0,
+      "electors": 1106,
+      "turnout_rate": 80.0181
+    },
+    "TXQ-DAJIA-WENQU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "文曲里",
+      "village_en": "Wenqu Village",
+      "votes": {
+        "1": 438,
+        "2": 364
+      },
+      "valid_votes": 802,
+      "invalid_votes": 37,
+      "ballots_cast": 839,
+      "unreturned_ballots": 0,
+      "electors": 1095,
+      "turnout_rate": 76.621
+    },
+    "TXQ-DAJIA-WUQU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "武曲里",
+      "village_en": "Wuqu Village",
+      "votes": {
+        "1": 621,
+        "2": 607
+      },
+      "valid_votes": 1228,
+      "invalid_votes": 54,
+      "ballots_cast": 1282,
+      "unreturned_ballots": 0,
+      "electors": 1560,
+      "turnout_rate": 82.1795
+    },
+    "TXQ-DAJIA-WENWU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "文武里",
+      "village_en": "Wenwu Village",
+      "votes": {
+        "1": 1820,
+        "2": 1788
+      },
+      "valid_votes": 3608,
+      "invalid_votes": 83,
+      "ballots_cast": 3691,
+      "unreturned_ballots": 0,
+      "electors": 4552,
+      "turnout_rate": 81.0852
+    },
+    "TXQ-DAJIA-FENGHUA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "奉化里",
+      "village_en": "Fenghua Village",
+      "votes": {
+        "1": 525,
+        "2": 591
+      },
+      "valid_votes": 1116,
+      "invalid_votes": 32,
+      "ballots_cast": 1148,
+      "unreturned_ballots": 0,
+      "electors": 1445,
+      "turnout_rate": 79.4464
+    },
+    "TXQ-DAJIA-DEHUA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "德化里",
+      "village_en": "Dehua Village",
+      "votes": {
+        "1": 782,
+        "2": 464
+      },
+      "valid_votes": 1246,
+      "invalid_votes": 32,
+      "ballots_cast": 1278,
+      "unreturned_ballots": 0,
+      "electors": 1607,
+      "turnout_rate": 79.5271
+    },
+    "TXQ-DAJIA-JIANGNAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "江南里",
+      "village_en": "Jiangnan Village",
+      "votes": {
+        "1": 461,
+        "2": 369
+      },
+      "valid_votes": 830,
+      "invalid_votes": 12,
+      "ballots_cast": 842,
+      "unreturned_ballots": 0,
+      "electors": 1028,
+      "turnout_rate": 81.9066
+    },
+    "TXQ-DAJIA-DINGDIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "頂店里",
+      "village_en": "Dingdian Village",
+      "votes": {
+        "1": 1452,
+        "2": 1164
+      },
+      "valid_votes": 2616,
+      "invalid_votes": 80,
+      "ballots_cast": 2696,
+      "unreturned_ballots": 0,
+      "electors": 3376,
+      "turnout_rate": 79.8578
+    },
+    "TXQ-DAJIA-TAIBAI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "太白里",
+      "village_en": "Taibai Village",
+      "votes": {
+        "1": 554,
+        "2": 398
+      },
+      "valid_votes": 952,
+      "invalid_votes": 31,
+      "ballots_cast": 983,
+      "unreturned_ballots": 0,
+      "electors": 1246,
+      "turnout_rate": 78.8925
+    },
+    "TXQ-DAJIA-MENGCHUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "孟春里",
+      "village_en": "Mengchun Village",
+      "votes": {
+        "1": 1393,
+        "2": 1106
+      },
+      "valid_votes": 2499,
+      "invalid_votes": 67,
+      "ballots_cast": 2566,
+      "unreturned_ballots": 0,
+      "electors": 3206,
+      "turnout_rate": 80.0374
+    },
+    "TXQ-DAJIA-XINGFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "幸福里",
+      "village_en": "Xingfu Village",
+      "votes": {
+        "1": 1126,
+        "2": 670
+      },
+      "valid_votes": 1796,
+      "invalid_votes": 83,
+      "ballots_cast": 1879,
+      "unreturned_ballots": 0,
+      "electors": 2340,
+      "turnout_rate": 80.2991
+    },
+    "TXQ-DAJIA-RINAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "日南里",
+      "village_en": "Rinan Village",
+      "votes": {
+        "1": 1661,
+        "2": 1534
+      },
+      "valid_votes": 3195,
+      "invalid_votes": 77,
+      "ballots_cast": 3272,
+      "unreturned_ballots": 0,
+      "electors": 4100,
+      "turnout_rate": 79.8049
+    },
+    "TXQ-DAJIA-LONGQUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "龍泉里",
+      "village_en": "Longquan Village",
+      "votes": {
+        "1": 570,
+        "2": 507
+      },
+      "valid_votes": 1077,
+      "invalid_votes": 53,
+      "ballots_cast": 1130,
+      "unreturned_ballots": 0,
+      "electors": 1392,
+      "turnout_rate": 81.1782
+    },
+    "TXQ-DAJIA-XIQI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "西岐里",
+      "village_en": "Xiqi Village",
+      "votes": {
+        "1": 578,
+        "2": 587
+      },
+      "valid_votes": 1165,
+      "invalid_votes": 40,
+      "ballots_cast": 1205,
+      "unreturned_ballots": 0,
+      "electors": 1494,
+      "turnout_rate": 80.656
+    },
+    "TXQ-DAJIA-TONGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "銅安里",
+      "village_en": "Tongan Village",
+      "votes": {
+        "1": 517,
+        "2": 438
+      },
+      "valid_votes": 955,
+      "invalid_votes": 45,
+      "ballots_cast": 1000,
+      "unreturned_ballots": 0,
+      "electors": 1242,
+      "turnout_rate": 80.5153
+    },
+    "TXQ-DAJIA-FUDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "福德里",
+      "village_en": "Fude Village",
+      "votes": {
+        "1": 389,
+        "2": 473
+      },
+      "valid_votes": 862,
+      "invalid_votes": 21,
+      "ballots_cast": 883,
+      "unreturned_ballots": 0,
+      "electors": 1067,
+      "turnout_rate": 82.7554
+    },
+    "TXQ-DAJIA-JIANXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大甲鎮",
+      "township_en": "Dajia Township",
+      "village_zh": "建興里",
+      "village_en": "Jianxing Village",
+      "votes": {
+        "1": 599,
+        "2": 443
+      },
+      "valid_votes": 1042,
+      "invalid_votes": 45,
+      "ballots_cast": 1087,
+      "unreturned_ballots": 0,
+      "electors": 1329,
+      "turnout_rate": 81.7908
+    },
+    "TXQ-QINGSHUI-AOFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "鰲峰里",
+      "village_en": "Aofeng Village",
+      "votes": {
+        "1": 494,
+        "2": 460
+      },
+      "valid_votes": 954,
+      "invalid_votes": 17,
+      "ballots_cast": 971,
+      "unreturned_ballots": 0,
+      "electors": 1200,
+      "turnout_rate": 80.9167
+    },
+    "TXQ-QINGSHUI-LINGQUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "靈泉里",
+      "village_en": "Lingquan Village",
+      "votes": {
+        "1": 420,
+        "2": 452
+      },
+      "valid_votes": 872,
+      "invalid_votes": 14,
+      "ballots_cast": 886,
+      "unreturned_ballots": 0,
+      "electors": 1071,
+      "turnout_rate": 82.7264
+    },
+    "TXQ-QINGSHUI-QINGSHUI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "清水里",
+      "village_en": "Qingshui Village",
+      "votes": {
+        "1": 966,
+        "2": 655
+      },
+      "valid_votes": 1621,
+      "invalid_votes": 27,
+      "ballots_cast": 1648,
+      "unreturned_ballots": 0,
+      "electors": 2026,
+      "turnout_rate": 81.3425
+    },
+    "TXQ-QINGSHUI-WENCHANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "文昌里",
+      "village_en": "Wenchang Village",
+      "votes": {
+        "1": 342,
+        "2": 251
+      },
+      "valid_votes": 593,
+      "invalid_votes": 8,
+      "ballots_cast": 601,
+      "unreturned_ballots": 0,
+      "electors": 730,
+      "turnout_rate": 82.3288
+    },
+    "TXQ-QINGSHUI-NANNING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "南寧里",
+      "village_en": "Nanning Village",
+      "votes": {
+        "1": 752,
+        "2": 690
+      },
+      "valid_votes": 1442,
+      "invalid_votes": 21,
+      "ballots_cast": 1463,
+      "unreturned_ballots": 0,
+      "electors": 1778,
+      "turnout_rate": 82.2835
+    },
+    "TXQ-QINGSHUI-XINING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "西寧里",
+      "village_en": "Xining Village",
+      "votes": {
+        "1": 707,
+        "2": 458
+      },
+      "valid_votes": 1165,
+      "invalid_votes": 36,
+      "ballots_cast": 1201,
+      "unreturned_ballots": 0,
+      "electors": 1466,
+      "turnout_rate": 81.9236
+    },
+    "TXQ-QINGSHUI-BEINING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "北寧里",
+      "village_en": "Beining Village",
+      "votes": {
+        "1": 355,
+        "2": 246
+      },
+      "valid_votes": 601,
+      "invalid_votes": 20,
+      "ballots_cast": 621,
+      "unreturned_ballots": 0,
+      "electors": 744,
+      "turnout_rate": 83.4677
+    },
+    "TXQ-QINGSHUI-ZHONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 219,
+        "2": 157
+      },
+      "valid_votes": 376,
+      "invalid_votes": 11,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "electors": 459,
+      "turnout_rate": 84.3137
+    },
+    "TXQ-QINGSHUI-XISHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "西社里",
+      "village_en": "Xishe Village",
+      "votes": {
+        "1": 894,
+        "2": 1077
+      },
+      "valid_votes": 1971,
+      "invalid_votes": 31,
+      "ballots_cast": 2002,
+      "unreturned_ballots": 0,
+      "electors": 2414,
+      "turnout_rate": 82.9329
+    },
+    "TXQ-QINGSHUI-NANSHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "南社里",
+      "village_en": "Nanshe Village",
+      "votes": {
+        "1": 2426,
+        "2": 1831
+      },
+      "valid_votes": 4257,
+      "invalid_votes": 107,
+      "ballots_cast": 4364,
+      "unreturned_ballots": 1,
+      "electors": 5359,
+      "turnout_rate": 81.4331
+    },
+    "TXQ-QINGSHUI-YUJIA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "裕嘉里",
+      "village_en": "Yujia Village",
+      "votes": {
+        "1": 544,
+        "2": 431
+      },
+      "valid_votes": 975,
+      "invalid_votes": 25,
+      "ballots_cast": 1000,
+      "unreturned_ballots": 0,
+      "electors": 1272,
+      "turnout_rate": 78.6164
+    },
+    "TXQ-QINGSHUI-LINJIANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "臨江里",
+      "village_en": "Linjiang Village",
+      "votes": {
+        "1": 556,
+        "2": 582
+      },
+      "valid_votes": 1138,
+      "invalid_votes": 47,
+      "ballots_cast": 1185,
+      "unreturned_ballots": 1,
+      "electors": 1484,
+      "turnout_rate": 79.8518
+    },
+    "TXQ-QINGSHUI-XIUSHUI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "秀水里",
+      "village_en": "Xiushui Village",
+      "votes": {
+        "1": 1524,
+        "2": 1237
+      },
+      "valid_votes": 2761,
+      "invalid_votes": 67,
+      "ballots_cast": 2828,
+      "unreturned_ballots": 0,
+      "electors": 3559,
+      "turnout_rate": 79.4605
+    },
+    "TXQ-QINGSHUI-WULU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "武鹿里",
+      "village_en": "Wulu Village",
+      "votes": {
+        "1": 1226,
+        "2": 896
+      },
+      "valid_votes": 2122,
+      "invalid_votes": 70,
+      "ballots_cast": 2192,
+      "unreturned_ballots": 0,
+      "electors": 2769,
+      "turnout_rate": 79.1622
+    },
+    "TXQ-QINGSHUI-HAIBIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "海濱里",
+      "village_en": "Haibin Village",
+      "votes": {
+        "1": 773,
+        "2": 679
+      },
+      "valid_votes": 1452,
+      "invalid_votes": 44,
+      "ballots_cast": 1496,
+      "unreturned_ballots": 0,
+      "electors": 1862,
+      "turnout_rate": 80.3437
+    },
+    "TXQ-QINGSHUI-KANGLANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "康榔里",
+      "village_en": "Kanglang Village",
+      "votes": {
+        "1": 1739,
+        "2": 1092
+      },
+      "valid_votes": 2831,
+      "invalid_votes": 64,
+      "ballots_cast": 2895,
+      "unreturned_ballots": 1,
+      "electors": 3598,
+      "turnout_rate": 80.4614
+    },
+    "TXQ-QINGSHUI-ZHONGSHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "中社里",
+      "village_en": "Zhongshe Village",
+      "votes": {
+        "1": 267,
+        "2": 952
+      },
+      "valid_votes": 1219,
+      "invalid_votes": 27,
+      "ballots_cast": 1246,
+      "unreturned_ballots": 0,
+      "electors": 1527,
+      "turnout_rate": 81.5979
+    },
+    "TXQ-QINGSHUI-GAOXI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "高西里",
+      "village_en": "Gaoxi Village",
+      "votes": {
+        "1": 419,
+        "2": 576
+      },
+      "valid_votes": 995,
+      "invalid_votes": 53,
+      "ballots_cast": 1048,
+      "unreturned_ballots": 0,
+      "electors": 1325,
+      "turnout_rate": 79.0943
+    },
+    "TXQ-QINGSHUI-GAONAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "高南里",
+      "village_en": "Gaonan Village",
+      "votes": {
+        "1": 581,
+        "2": 476
+      },
+      "valid_votes": 1057,
+      "invalid_votes": 33,
+      "ballots_cast": 1090,
+      "unreturned_ballots": 0,
+      "electors": 1305,
+      "turnout_rate": 83.5249
+    },
+    "TXQ-QINGSHUI-GAODONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "高東里",
+      "village_en": "Gaodong Village",
+      "votes": {
+        "1": 653,
+        "2": 320
+      },
+      "valid_votes": 973,
+      "invalid_votes": 47,
+      "ballots_cast": 1020,
+      "unreturned_ballots": 0,
+      "electors": 1285,
+      "turnout_rate": 79.3774
+    },
+    "TXQ-QINGSHUI-GAOBEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "高北里",
+      "village_en": "Gaobei Village",
+      "votes": {
+        "1": 335,
+        "2": 492
+      },
+      "valid_votes": 827,
+      "invalid_votes": 28,
+      "ballots_cast": 855,
+      "unreturned_ballots": 0,
+      "electors": 1101,
+      "turnout_rate": 77.6567
+    },
+    "TXQ-QINGSHUI-GAOMEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "高美里",
+      "village_en": "Gaomei Village",
+      "votes": {
+        "1": 488,
+        "2": 502
+      },
+      "valid_votes": 990,
+      "invalid_votes": 26,
+      "ballots_cast": 1016,
+      "unreturned_ballots": 0,
+      "electors": 1270,
+      "turnout_rate": 80.0
+    },
+    "TXQ-QINGSHUI-GUOXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "國姓里",
+      "village_en": "Guoxing Village",
+      "votes": {
+        "1": 1010,
+        "2": 532
+      },
+      "valid_votes": 1542,
+      "invalid_votes": 50,
+      "ballots_cast": 1592,
+      "unreturned_ballots": 0,
+      "electors": 2008,
+      "turnout_rate": 79.2829
+    },
+    "TXQ-QINGSHUI-JINGPU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "菁埔里",
+      "village_en": "Jingpu Village",
+      "votes": {
+        "1": 981,
+        "2": 667
+      },
+      "valid_votes": 1648,
+      "invalid_votes": 55,
+      "ballots_cast": 1703,
+      "unreturned_ballots": 0,
+      "electors": 2183,
+      "turnout_rate": 78.0119
+    },
+    "TXQ-QINGSHUI-DINGNAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "頂湳里",
+      "village_en": "Dingnan Village",
+      "votes": {
+        "1": 772,
+        "2": 573
+      },
+      "valid_votes": 1345,
+      "invalid_votes": 55,
+      "ballots_cast": 1400,
+      "unreturned_ballots": 0,
+      "electors": 1759,
+      "turnout_rate": 79.5907
+    },
+    "TXQ-QINGSHUI-TIANLIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "田寮里",
+      "village_en": "Tianliao Village",
+      "votes": {
+        "1": 979,
+        "2": 635
+      },
+      "valid_votes": 1614,
+      "invalid_votes": 34,
+      "ballots_cast": 1648,
+      "unreturned_ballots": 0,
+      "electors": 2125,
+      "turnout_rate": 77.5529
+    },
+    "TXQ-QINGSHUI-QIAOTOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "橋頭里",
+      "village_en": "Qiaotou Village",
+      "votes": {
+        "1": 2677,
+        "2": 1947
+      },
+      "valid_votes": 4624,
+      "invalid_votes": 65,
+      "ballots_cast": 4689,
+      "unreturned_ballots": 1,
+      "electors": 5801,
+      "turnout_rate": 80.8309
+    },
+    "TXQ-QINGSHUI-XIANAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "下湳里",
+      "village_en": "Xianan Village",
+      "votes": {
+        "1": 1291,
+        "2": 955
+      },
+      "valid_votes": 2246,
+      "invalid_votes": 58,
+      "ballots_cast": 2304,
+      "unreturned_ballots": 0,
+      "electors": 2861,
+      "turnout_rate": 80.5313
+    },
+    "TXQ-QINGSHUI-DONGSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "東山里",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 432,
+        "2": 432
+      },
+      "valid_votes": 864,
+      "invalid_votes": 31,
+      "ballots_cast": 895,
+      "unreturned_ballots": 0,
+      "electors": 1112,
+      "turnout_rate": 80.4856
+    },
+    "TXQ-QINGSHUI-YANGCUO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "楊厝里",
+      "village_en": "Yangcuo Village",
+      "votes": {
+        "1": 527,
+        "2": 284
+      },
+      "valid_votes": 811,
+      "invalid_votes": 42,
+      "ballots_cast": 853,
+      "unreturned_ballots": 0,
+      "electors": 1037,
+      "turnout_rate": 82.2565
+    },
+    "TXQ-QINGSHUI-HAIFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "海風里",
+      "village_en": "Haifeng Village",
+      "votes": {
+        "1": 588,
+        "2": 330
+      },
+      "valid_votes": 918,
+      "invalid_votes": 42,
+      "ballots_cast": 960,
+      "unreturned_ballots": 0,
+      "electors": 1207,
+      "turnout_rate": 79.536
+    },
+    "TXQ-QINGSHUI-WUCUO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "清水鎮",
+      "township_en": "Qingshui Township",
+      "village_zh": "吳厝里",
+      "village_en": "Wucuo Village",
+      "votes": {
+        "1": 517,
+        "2": 532
+      },
+      "valid_votes": 1049,
+      "invalid_votes": 42,
+      "ballots_cast": 1091,
+      "unreturned_ballots": 0,
+      "electors": 1332,
+      "turnout_rate": 81.9069
+    },
+    "TXQ-SHALU-JUREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "居仁里",
+      "village_en": "Juren Village",
+      "votes": {
+        "1": 579,
+        "2": 520
+      },
+      "valid_votes": 1099,
+      "invalid_votes": 12,
+      "ballots_cast": 1111,
+      "unreturned_ballots": 0,
+      "electors": 1355,
+      "turnout_rate": 81.9926
+    },
+    "TXQ-SHALU-LUOQUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "洛泉里",
+      "village_en": "Luoquan Village",
+      "votes": {
+        "1": 898,
+        "2": 876
+      },
+      "valid_votes": 1774,
+      "invalid_votes": 36,
+      "ballots_cast": 1810,
+      "unreturned_ballots": 1,
+      "electors": 2198,
+      "turnout_rate": 82.3476
+    },
+    "TXQ-SHALU-SHALU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "沙鹿里",
+      "village_en": "Shalu Village",
+      "votes": {
+        "1": 576,
+        "2": 366
+      },
+      "valid_votes": 942,
+      "invalid_votes": 21,
+      "ballots_cast": 963,
+      "unreturned_ballots": 0,
+      "electors": 1174,
+      "turnout_rate": 82.0273
+    },
+    "TXQ-SHALU-MEIREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "美仁里",
+      "village_en": "Meiren Village",
+      "votes": {
+        "1": 233,
+        "2": 219
+      },
+      "valid_votes": 452,
+      "invalid_votes": 8,
+      "ballots_cast": 460,
+      "unreturned_ballots": 0,
+      "electors": 547,
+      "turnout_rate": 84.0951
+    },
+    "TXQ-SHALU-XINGREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "興仁里",
+      "village_en": "Xingren Village",
+      "votes": {
+        "1": 975,
+        "2": 946
+      },
+      "valid_votes": 1921,
+      "invalid_votes": 34,
+      "ballots_cast": 1955,
+      "unreturned_ballots": 0,
+      "electors": 2381,
+      "turnout_rate": 82.1084
+    },
+    "TXQ-SHALU-DOUDI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "斗抵里",
+      "village_en": "Doudi Village",
+      "votes": {
+        "1": 1538,
+        "2": 1470
+      },
+      "valid_votes": 3008,
+      "invalid_votes": 66,
+      "ballots_cast": 3074,
+      "unreturned_ballots": 0,
+      "electors": 3684,
+      "turnout_rate": 83.4419
+    },
+    "TXQ-SHALU-LUFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "鹿峰里",
+      "village_en": "Lufeng Village",
+      "votes": {
+        "1": 1774,
+        "2": 1268
+      },
+      "valid_votes": 3042,
+      "invalid_votes": 78,
+      "ballots_cast": 3120,
+      "unreturned_ballots": 0,
+      "electors": 3873,
+      "turnout_rate": 80.5577
+    },
+    "TXQ-SHALU-LULIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "鹿寮里",
+      "village_en": "Luliao Village",
+      "votes": {
+        "1": 2473,
+        "2": 1637
+      },
+      "valid_votes": 4110,
+      "invalid_votes": 95,
+      "ballots_cast": 4205,
+      "unreturned_ballots": 3,
+      "electors": 5149,
+      "turnout_rate": 81.6663
+    },
+    "TXQ-SHALU-ZHULIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "竹林里",
+      "village_en": "Zhulin Village",
+      "votes": {
+        "1": 2194,
+        "2": 2202
+      },
+      "valid_votes": 4396,
+      "invalid_votes": 105,
+      "ballots_cast": 4501,
+      "unreturned_ballots": 0,
+      "electors": 5501,
+      "turnout_rate": 81.8215
+    },
+    "TXQ-SHALU-LIFEN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "犁分里",
+      "village_en": "Lifen Village",
+      "votes": {
+        "1": 371,
+        "2": 275
+      },
+      "valid_votes": 646,
+      "invalid_votes": 35,
+      "ballots_cast": 681,
+      "unreturned_ballots": 0,
+      "electors": 840,
+      "turnout_rate": 81.0714
+    },
+    "TXQ-SHALU-BEISHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "北勢里",
+      "village_en": "Beishi Village",
+      "votes": {
+        "1": 1277,
+        "2": 1265
+      },
+      "valid_votes": 2542,
+      "invalid_votes": 81,
+      "ballots_cast": 2623,
+      "unreturned_ballots": 1,
+      "electors": 3324,
+      "turnout_rate": 78.911
+    },
+    "TXQ-SHALU-FUXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "福興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 784,
+        "2": 920
+      },
+      "valid_votes": 1704,
+      "invalid_votes": 43,
+      "ballots_cast": 1747,
+      "unreturned_ballots": 1,
+      "electors": 2236,
+      "turnout_rate": 78.1306
+    },
+    "TXQ-SHALU-JINJIANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "晉江里",
+      "village_en": "Jinjiang Village",
+      "votes": {
+        "1": 541,
+        "2": 439
+      },
+      "valid_votes": 980,
+      "invalid_votes": 42,
+      "ballots_cast": 1022,
+      "unreturned_ballots": 0,
+      "electors": 1254,
+      "turnout_rate": 81.4992
+    },
+    "TXQ-SHALU-LIULU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "六路里",
+      "village_en": "Liulu Village",
+      "votes": {
+        "1": 956,
+        "2": 855
+      },
+      "valid_votes": 1811,
+      "invalid_votes": 43,
+      "ballots_cast": 1854,
+      "unreturned_ballots": 0,
+      "electors": 2304,
+      "turnout_rate": 80.4688
+    },
+    "TXQ-SHALU-NANSHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "南勢里",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 794,
+        "2": 633
+      },
+      "valid_votes": 1427,
+      "invalid_votes": 53,
+      "ballots_cast": 1480,
+      "unreturned_ballots": 0,
+      "electors": 1850,
+      "turnout_rate": 80.0
+    },
+    "TXQ-SHALU-PUZI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "埔子里",
+      "village_en": "Puzi Village",
+      "votes": {
+        "1": 808,
+        "2": 792
+      },
+      "valid_votes": 1600,
+      "invalid_votes": 43,
+      "ballots_cast": 1643,
+      "unreturned_ballots": 0,
+      "electors": 2061,
+      "turnout_rate": 79.7186
+    },
+    "TXQ-SHALU-GONGMING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "公明里",
+      "village_en": "Gongming Village",
+      "votes": {
+        "1": 961,
+        "2": 1818
+      },
+      "valid_votes": 2779,
+      "invalid_votes": 70,
+      "ballots_cast": 2849,
+      "unreturned_ballots": 1,
+      "electors": 3478,
+      "turnout_rate": 81.9149
+    },
+    "TXQ-SHALU-QINGQUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "清泉里",
+      "village_en": "Qingquan Village",
+      "votes": {
+        "1": 530,
+        "2": 984
+      },
+      "valid_votes": 1514,
+      "invalid_votes": 29,
+      "ballots_cast": 1543,
+      "unreturned_ballots": 0,
+      "electors": 1885,
+      "turnout_rate": 81.8568
+    },
+    "TXQ-SHALU-XISHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "西勢里",
+      "village_en": "Xishi Village",
+      "votes": {
+        "1": 778,
+        "2": 809
+      },
+      "valid_votes": 1587,
+      "invalid_votes": 23,
+      "ballots_cast": 1610,
+      "unreturned_ballots": 0,
+      "electors": 1984,
+      "turnout_rate": 81.1492
+    },
+    "TXQ-SHALU-XINGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "興安里",
+      "village_en": "Xingan Village",
+      "votes": {
+        "1": 1133,
+        "2": 958
+      },
+      "valid_votes": 2091,
+      "invalid_votes": 47,
+      "ballots_cast": 2138,
+      "unreturned_ballots": 1,
+      "electors": 2593,
+      "turnout_rate": 82.4528
+    },
+    "TXQ-SHALU-SANLU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "沙鹿鎮",
+      "township_en": "Shalu Township",
+      "village_zh": "三鹿里",
+      "village_en": "Sanlu Village",
+      "votes": {
+        "1": 774,
+        "2": 1041
+      },
+      "valid_votes": 1815,
+      "invalid_votes": 52,
+      "ballots_cast": 1867,
+      "unreturned_ballots": 0,
+      "electors": 2394,
+      "turnout_rate": 77.9866
+    },
+    "TXQ-WUQI-DINGLIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "頂寮里",
+      "village_en": "Dingliao Village",
+      "votes": {
+        "1": 927,
+        "2": 1097
+      },
+      "valid_votes": 2024,
+      "invalid_votes": 41,
+      "ballots_cast": 2065,
+      "unreturned_ballots": 0,
+      "electors": 2570,
+      "turnout_rate": 80.3502
+    },
+    "TXQ-WUQI-XIALIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "下寮里",
+      "village_en": "Xialiao Village",
+      "votes": {
+        "1": 747,
+        "2": 909
+      },
+      "valid_votes": 1656,
+      "invalid_votes": 37,
+      "ballots_cast": 1693,
+      "unreturned_ballots": 1,
+      "electors": 2015,
+      "turnout_rate": 84.0199
+    },
+    "TXQ-WUQI-ZHONGZHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 1258,
+        "2": 1334
+      },
+      "valid_votes": 2592,
+      "invalid_votes": 52,
+      "ballots_cast": 2644,
+      "unreturned_ballots": 0,
+      "electors": 3343,
+      "turnout_rate": 79.0906
+    },
+    "TXQ-WUQI-ZHONGHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "中和里",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 243,
+        "2": 198
+      },
+      "valid_votes": 441,
+      "invalid_votes": 3,
+      "ballots_cast": 444,
+      "unreturned_ballots": 0,
+      "electors": 566,
+      "turnout_rate": 78.4452
+    },
+    "TXQ-WUQI-WENHUA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "文化里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 446,
+        "2": 484
+      },
+      "valid_votes": 930,
+      "invalid_votes": 24,
+      "ballots_cast": 954,
+      "unreturned_ballots": 0,
+      "electors": 1148,
+      "turnout_rate": 83.101
+    },
+    "TXQ-WUQI-ANREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "安仁里",
+      "village_en": "Anren Village",
+      "votes": {
+        "1": 281,
+        "2": 307
+      },
+      "valid_votes": 588,
+      "invalid_votes": 19,
+      "ballots_cast": 607,
+      "unreturned_ballots": 0,
+      "electors": 741,
+      "turnout_rate": 81.9163
+    },
+    "TXQ-WUQI-CAONAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "草湳里",
+      "village_en": "Caonan Village",
+      "votes": {
+        "1": 2074,
+        "2": 2046
+      },
+      "valid_votes": 4120,
+      "invalid_votes": 100,
+      "ballots_cast": 4220,
+      "unreturned_ballots": 0,
+      "electors": 5224,
+      "turnout_rate": 80.781
+    },
+    "TXQ-WUQI-NANJIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "南簡里",
+      "village_en": "Nanjian Village",
+      "votes": {
+        "1": 1258,
+        "2": 846
+      },
+      "valid_votes": 2104,
+      "invalid_votes": 53,
+      "ballots_cast": 2157,
+      "unreturned_ballots": 0,
+      "electors": 2620,
+      "turnout_rate": 82.3282
+    },
+    "TXQ-WUQI-FUDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "福德里",
+      "village_en": "Fude Village",
+      "votes": {
+        "1": 1277,
+        "2": 1027
+      },
+      "valid_votes": 2304,
+      "invalid_votes": 50,
+      "ballots_cast": 2354,
+      "unreturned_ballots": 0,
+      "electors": 2900,
+      "turnout_rate": 81.1724
+    },
+    "TXQ-WUQI-DAZHUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "大庄里",
+      "village_en": "Dazhuang Village",
+      "votes": {
+        "1": 2082,
+        "2": 1950
+      },
+      "valid_votes": 4032,
+      "invalid_votes": 74,
+      "ballots_cast": 4106,
+      "unreturned_ballots": 0,
+      "electors": 5083,
+      "turnout_rate": 80.7791
+    },
+    "TXQ-WUQI-DACUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "大村里",
+      "village_en": "Dacun Village",
+      "votes": {
+        "1": 1482,
+        "2": 1440
+      },
+      "valid_votes": 2922,
+      "invalid_votes": 65,
+      "ballots_cast": 2987,
+      "unreturned_ballots": 0,
+      "electors": 3735,
+      "turnout_rate": 79.9732
+    },
+    "TXQ-WUQI-XINGNONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "興農里",
+      "village_en": "Xingnong Village",
+      "votes": {
+        "1": 862,
+        "2": 564
+      },
+      "valid_votes": 1426,
+      "invalid_votes": 49,
+      "ballots_cast": 1475,
+      "unreturned_ballots": 0,
+      "electors": 1804,
+      "turnout_rate": 81.7627
+    },
+    "TXQ-WUQI-YONGNING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "永寧里",
+      "village_en": "Yongning Village",
+      "votes": {
+        "1": 985,
+        "2": 784
+      },
+      "valid_votes": 1769,
+      "invalid_votes": 24,
+      "ballots_cast": 1793,
+      "unreturned_ballots": 0,
+      "electors": 2168,
+      "turnout_rate": 82.703
+    },
+    "TXQ-WUQI-YONGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "梧棲鎮",
+      "township_en": "Wuqi Township",
+      "village_zh": "永安里",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 959,
+        "2": 813
+      },
+      "valid_votes": 1772,
+      "invalid_votes": 39,
+      "ballots_cast": 1811,
+      "unreturned_ballots": 0,
+      "electors": 2239,
+      "turnout_rate": 80.8843
+    },
+    "TXQ-HOULI-GUANGFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "廣福村",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 485,
+        "2": 1048
+      },
+      "valid_votes": 1533,
+      "invalid_votes": 54,
+      "ballots_cast": 1587,
+      "unreturned_ballots": 0,
+      "electors": 1931,
+      "turnout_rate": 82.1854
+    },
+    "TXQ-HOULI-RENLI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "仁里村",
+      "village_en": "Renli Village",
+      "votes": {
+        "1": 447,
+        "2": 1401
+      },
+      "valid_votes": 1848,
+      "invalid_votes": 46,
+      "ballots_cast": 1894,
+      "unreturned_ballots": 0,
+      "electors": 2309,
+      "turnout_rate": 82.0269
+    },
+    "TXQ-HOULI-YILI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "義里村",
+      "village_en": "Yili Village",
+      "votes": {
+        "1": 867,
+        "2": 1230
+      },
+      "valid_votes": 2097,
+      "invalid_votes": 49,
+      "ballots_cast": 2146,
+      "unreturned_ballots": 0,
+      "electors": 2626,
+      "turnout_rate": 81.7212
+    },
+    "TXQ-HOULI-HOULI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "厚里村",
+      "village_en": "Houli Village",
+      "votes": {
+        "1": 848,
+        "2": 686
+      },
+      "valid_votes": 1534,
+      "invalid_votes": 52,
+      "ballots_cast": 1586,
+      "unreturned_ballots": 0,
+      "electors": 1896,
+      "turnout_rate": 83.6498
+    },
+    "TXQ-HOULI-DUNDONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "墩東村",
+      "village_en": "Dundong Village",
+      "votes": {
+        "1": 1690,
+        "2": 1590
+      },
+      "valid_votes": 3280,
+      "invalid_votes": 90,
+      "ballots_cast": 3370,
+      "unreturned_ballots": 0,
+      "electors": 4093,
+      "turnout_rate": 82.3357
+    },
+    "TXQ-HOULI-DUNXI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "墩西村",
+      "village_en": "Dunxi Village",
+      "votes": {
+        "1": 833,
+        "2": 617
+      },
+      "valid_votes": 1450,
+      "invalid_votes": 47,
+      "ballots_cast": 1497,
+      "unreturned_ballots": 0,
+      "electors": 1797,
+      "turnout_rate": 83.3055
+    },
+    "TXQ-HOULI-DUNNAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "墩南村",
+      "village_en": "Dunnan Village",
+      "votes": {
+        "1": 1194,
+        "2": 921
+      },
+      "valid_votes": 2115,
+      "invalid_votes": 51,
+      "ballots_cast": 2166,
+      "unreturned_ballots": 0,
+      "electors": 2599,
+      "turnout_rate": 83.3397
+    },
+    "TXQ-HOULI-DUNBEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "墩北村",
+      "village_en": "Dunbei Village",
+      "votes": {
+        "1": 1284,
+        "2": 1016
+      },
+      "valid_votes": 2300,
+      "invalid_votes": 68,
+      "ballots_cast": 2368,
+      "unreturned_ballots": 1,
+      "electors": 2835,
+      "turnout_rate": 83.5273
+    },
+    "TXQ-HOULI-ZHONGHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "中和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 997,
+        "2": 651
+      },
+      "valid_votes": 1648,
+      "invalid_votes": 50,
+      "ballots_cast": 1698,
+      "unreturned_ballots": 0,
+      "electors": 2026,
+      "turnout_rate": 83.8105
+    },
+    "TXQ-HOULI-JIUSHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "舊社村",
+      "village_en": "Jiushe Village",
+      "votes": {
+        "1": 670,
+        "2": 387
+      },
+      "valid_votes": 1057,
+      "invalid_votes": 39,
+      "ballots_cast": 1096,
+      "unreturned_ballots": 0,
+      "electors": 1331,
+      "turnout_rate": 82.3441
+    },
+    "TXQ-HOULI-LIANHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "聯合村",
+      "village_en": "Lianhe Village",
+      "votes": {
+        "1": 714,
+        "2": 459
+      },
+      "valid_votes": 1173,
+      "invalid_votes": 42,
+      "ballots_cast": 1215,
+      "unreturned_ballots": 0,
+      "electors": 1499,
+      "turnout_rate": 81.054
+    },
+    "TXQ-HOULI-TAIPING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "太平村",
+      "village_en": "Taiping Village",
+      "votes": {
+        "1": 844,
+        "2": 718
+      },
+      "valid_votes": 1562,
+      "invalid_votes": 63,
+      "ballots_cast": 1625,
+      "unreturned_ballots": 0,
+      "electors": 2016,
+      "turnout_rate": 80.6052
+    },
+    "TXQ-HOULI-MEISHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "眉山村",
+      "village_en": "Meishan Village",
+      "votes": {
+        "1": 1133,
+        "2": 1082
+      },
+      "valid_votes": 2215,
+      "invalid_votes": 59,
+      "ballots_cast": 2274,
+      "unreturned_ballots": 0,
+      "electors": 2825,
+      "turnout_rate": 80.4956
+    },
+    "TXQ-HOULI-TAIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "泰安村",
+      "village_en": "Taian Village",
+      "votes": {
+        "1": 592,
+        "2": 397
+      },
+      "valid_votes": 989,
+      "invalid_votes": 38,
+      "ballots_cast": 1027,
+      "unreturned_ballots": 0,
+      "electors": 1268,
+      "turnout_rate": 80.9937
+    },
+    "TXQ-HOULI-GONGGUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "公館村",
+      "village_en": "Gongguan Village",
+      "votes": {
+        "1": 809,
+        "2": 579
+      },
+      "valid_votes": 1388,
+      "invalid_votes": 47,
+      "ballots_cast": 1435,
+      "unreturned_ballots": 0,
+      "electors": 1769,
+      "turnout_rate": 81.1193
+    },
+    "TXQ-HOULI-YUEMEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "月眉村",
+      "village_en": "Yuemei Village",
+      "votes": {
+        "1": 771,
+        "2": 480
+      },
+      "valid_votes": 1251,
+      "invalid_votes": 30,
+      "ballots_cast": 1281,
+      "unreturned_ballots": 0,
+      "electors": 1543,
+      "turnout_rate": 83.0201
+    },
+    "TXQ-HOULI-YIDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "后里鄉",
+      "township_en": "Houli Township",
+      "village_zh": "義德村",
+      "village_en": "Yide Village",
+      "votes": {
+        "1": 825,
+        "2": 1188
+      },
+      "valid_votes": 2013,
+      "invalid_votes": 47,
+      "ballots_cast": 2060,
+      "unreturned_ballots": 0,
+      "electors": 2524,
+      "turnout_rate": 81.6165
+    },
+    "TXQ-SHENGANG-SHENGANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "神岡村",
+      "village_en": "Shengang Village",
+      "votes": {
+        "1": 1096,
+        "2": 938
+      },
+      "valid_votes": 2034,
+      "invalid_votes": 42,
+      "ballots_cast": 2076,
+      "unreturned_ballots": 0,
+      "electors": 2513,
+      "turnout_rate": 82.6104
+    },
+    "TXQ-SHENGANG-ZHUANGQIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "庄前村",
+      "village_en": "Zhuangqian Village",
+      "votes": {
+        "1": 720,
+        "2": 537
+      },
+      "valid_votes": 1257,
+      "invalid_votes": 29,
+      "ballots_cast": 1286,
+      "unreturned_ballots": 0,
+      "electors": 1586,
+      "turnout_rate": 81.0845
+    },
+    "TXQ-SHENGANG-BEIZHUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "北庄村",
+      "village_en": "Beizhuang Village",
+      "votes": {
+        "1": 1032,
+        "2": 697
+      },
+      "valid_votes": 1729,
+      "invalid_votes": 57,
+      "ballots_cast": 1786,
+      "unreturned_ballots": 0,
+      "electors": 2155,
+      "turnout_rate": 82.877
+    },
+    "TXQ-SHENGANG-ZHUANGHOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "庄後村",
+      "village_en": "Zhuanghou Village",
+      "votes": {
+        "1": 1055,
+        "2": 574
+      },
+      "valid_votes": 1629,
+      "invalid_votes": 57,
+      "ballots_cast": 1686,
+      "unreturned_ballots": 0,
+      "electors": 2011,
+      "turnout_rate": 83.8389
+    },
+    "TXQ-SHENGANG-SHEKOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "社口村",
+      "village_en": "Shekou Village",
+      "votes": {
+        "1": 2574,
+        "2": 1836
+      },
+      "valid_votes": 4410,
+      "invalid_votes": 90,
+      "ballots_cast": 4500,
+      "unreturned_ballots": 0,
+      "electors": 5418,
+      "turnout_rate": 83.0565
+    },
+    "TXQ-SHENGANG-SHENAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "社南村",
+      "village_en": "Shenan Village",
+      "votes": {
+        "1": 1981,
+        "2": 1267
+      },
+      "valid_votes": 3248,
+      "invalid_votes": 98,
+      "ballots_cast": 3346,
+      "unreturned_ballots": 0,
+      "electors": 4040,
+      "turnout_rate": 82.8218
+    },
+    "TXQ-SHENGANG-SANJIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "三角村",
+      "village_en": "Sanjiao Village",
+      "votes": {
+        "1": 1150,
+        "2": 575
+      },
+      "valid_votes": 1725,
+      "invalid_votes": 52,
+      "ballots_cast": 1777,
+      "unreturned_ballots": 0,
+      "electors": 2121,
+      "turnout_rate": 83.7812
+    },
+    "TXQ-SHENGANG-ANLI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "岸裡村",
+      "village_en": "Anli Village",
+      "votes": {
+        "1": 1364,
+        "2": 744
+      },
+      "valid_votes": 2108,
+      "invalid_votes": 57,
+      "ballots_cast": 2165,
+      "unreturned_ballots": 0,
+      "electors": 2550,
+      "turnout_rate": 84.902
+    },
+    "TXQ-SHENGANG-DASHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "大社村",
+      "village_en": "Dashe Village",
+      "votes": {
+        "1": 1325,
+        "2": 1219
+      },
+      "valid_votes": 2544,
+      "invalid_votes": 65,
+      "ballots_cast": 2609,
+      "unreturned_ballots": 0,
+      "electors": 3247,
+      "turnout_rate": 80.3511
+    },
+    "TXQ-SHENGANG-FENGZHOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "豐洲村",
+      "village_en": "Fengzhou Village",
+      "votes": {
+        "1": 3022,
+        "2": 1877
+      },
+      "valid_votes": 4899,
+      "invalid_votes": 158,
+      "ballots_cast": 5057,
+      "unreturned_ballots": 0,
+      "electors": 6160,
+      "turnout_rate": 82.0942
+    },
+    "TXQ-SHENGANG-SHENZHOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "神洲村",
+      "village_en": "Shenzhou Village",
+      "votes": {
+        "1": 1265,
+        "2": 615
+      },
+      "valid_votes": 1880,
+      "invalid_votes": 72,
+      "ballots_cast": 1952,
+      "unreturned_ballots": 0,
+      "electors": 2276,
+      "turnout_rate": 85.7645
+    },
+    "TXQ-SHENGANG-XIZHOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "溪洲村",
+      "village_en": "Xizhou Village",
+      "votes": {
+        "1": 1313,
+        "2": 750
+      },
+      "valid_votes": 2063,
+      "invalid_votes": 45,
+      "ballots_cast": 2108,
+      "unreturned_ballots": 0,
+      "electors": 2498,
+      "turnout_rate": 84.3875
+    },
+    "TXQ-SHENGANG-ZHENQIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "圳前村",
+      "village_en": "Zhenqian Village",
+      "votes": {
+        "1": 798,
+        "2": 897
+      },
+      "valid_votes": 1695,
+      "invalid_votes": 44,
+      "ballots_cast": 1739,
+      "unreturned_ballots": 0,
+      "electors": 2117,
+      "turnout_rate": 82.1445
+    },
+    "TXQ-SHENGANG-XINZHUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "新庄村",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 1630,
+        "2": 1151
+      },
+      "valid_votes": 2781,
+      "invalid_votes": 108,
+      "ballots_cast": 2889,
+      "unreturned_ballots": 0,
+      "electors": 3584,
+      "turnout_rate": 80.6083
+    },
+    "TXQ-SHENGANG-ZHENDU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "圳堵村",
+      "village_en": "Zhendu Village",
+      "votes": {
+        "1": 772,
+        "2": 829
+      },
+      "valid_votes": 1601,
+      "invalid_votes": 40,
+      "ballots_cast": 1641,
+      "unreturned_ballots": 0,
+      "electors": 1951,
+      "turnout_rate": 84.1107
+    },
+    "TXQ-SHENGANG-SHANPI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "神岡鄉",
+      "township_en": "Shengang Township",
+      "village_zh": "山皮村",
+      "village_en": "Shanpi Village",
+      "votes": {
+        "1": 429,
+        "2": 302
+      },
+      "valid_votes": 731,
+      "invalid_votes": 31,
+      "ballots_cast": 762,
+      "unreturned_ballots": 1,
+      "electors": 917,
+      "turnout_rate": 83.0971
+    },
+    "TXQ-TANZI-TANYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "潭陽村",
+      "village_en": "Tanyang Village",
+      "votes": {
+        "1": 3595,
+        "2": 3482
+      },
+      "valid_votes": 7077,
+      "invalid_votes": 140,
+      "ballots_cast": 7217,
+      "unreturned_ballots": 0,
+      "electors": 8852,
+      "turnout_rate": 81.5296
+    },
+    "TXQ-TANZI-TANXIU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "潭秀村",
+      "village_en": "Tanxiu Village",
+      "votes": {
+        "1": 723,
+        "2": 414
+      },
+      "valid_votes": 1137,
+      "invalid_votes": 18,
+      "ballots_cast": 1155,
+      "unreturned_ballots": 0,
+      "electors": 1377,
+      "turnout_rate": 83.878
+    },
+    "TXQ-TANZI-TANBEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "潭北村",
+      "village_en": "Tanbei Village",
+      "votes": {
+        "1": 822,
+        "2": 876
+      },
+      "valid_votes": 1698,
+      "invalid_votes": 29,
+      "ballots_cast": 1727,
+      "unreturned_ballots": 0,
+      "electors": 2095,
+      "turnout_rate": 82.4344
+    },
+    "TXQ-TANZI-FUREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "福仁村",
+      "village_en": "Furen Village",
+      "votes": {
+        "1": 2685,
+        "2": 3092
+      },
+      "valid_votes": 5777,
+      "invalid_votes": 133,
+      "ballots_cast": 5910,
+      "unreturned_ballots": 0,
+      "electors": 7288,
+      "turnout_rate": 81.0922
+    },
+    "TXQ-TANZI-TOUJIA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "頭家村",
+      "village_en": "Toujia Village",
+      "votes": {
+        "1": 1343,
+        "2": 1702
+      },
+      "valid_votes": 3045,
+      "invalid_votes": 62,
+      "ballots_cast": 3107,
+      "unreturned_ballots": 0,
+      "electors": 3789,
+      "turnout_rate": 82.0005
+    },
+    "TXQ-TANZI-GANZHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "甘蔗村",
+      "village_en": "Ganzhe Village",
+      "votes": {
+        "1": 2504,
+        "2": 2767
+      },
+      "valid_votes": 5271,
+      "invalid_votes": 81,
+      "ballots_cast": 5352,
+      "unreturned_ballots": 0,
+      "electors": 6508,
+      "turnout_rate": 82.2372
+    },
+    "TXQ-TANZI-DONGBAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "東寶村",
+      "village_en": "Dongbao Village",
+      "votes": {
+        "1": 3966,
+        "2": 3342
+      },
+      "valid_votes": 7308,
+      "invalid_votes": 187,
+      "ballots_cast": 7495,
+      "unreturned_ballots": 0,
+      "electors": 8995,
+      "turnout_rate": 83.3241
+    },
+    "TXQ-TANZI-DAFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "大富村",
+      "village_en": "Dafu Village",
+      "votes": {
+        "1": 955,
+        "2": 502
+      },
+      "valid_votes": 1457,
+      "invalid_votes": 35,
+      "ballots_cast": 1492,
+      "unreturned_ballots": 0,
+      "electors": 1770,
+      "turnout_rate": 84.2938
+    },
+    "TXQ-TANZI-DAFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "大豐村",
+      "village_en": "Dafeng Village",
+      "votes": {
+        "1": 1625,
+        "2": 1134
+      },
+      "valid_votes": 2759,
+      "invalid_votes": 51,
+      "ballots_cast": 2810,
+      "unreturned_ballots": 1,
+      "electors": 3358,
+      "turnout_rate": 83.6808
+    },
+    "TXQ-TANZI-LILIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "栗林村",
+      "village_en": "Lilin Village",
+      "votes": {
+        "1": 1897,
+        "2": 1435
+      },
+      "valid_votes": 3332,
+      "invalid_votes": 92,
+      "ballots_cast": 3424,
+      "unreturned_ballots": 0,
+      "electors": 4121,
+      "turnout_rate": 83.0866
+    },
+    "TXQ-TANZI-JIAREN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "嘉仁村",
+      "village_en": "Jiaren Village",
+      "votes": {
+        "1": 1481,
+        "2": 1311
+      },
+      "valid_votes": 2792,
+      "invalid_votes": 69,
+      "ballots_cast": 2861,
+      "unreturned_ballots": 0,
+      "electors": 3368,
+      "turnout_rate": 84.9466
+    },
+    "TXQ-TANZI-XINTIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "新田村",
+      "village_en": "Xintian Village",
+      "votes": {
+        "1": 703,
+        "2": 451
+      },
+      "valid_votes": 1154,
+      "invalid_votes": 27,
+      "ballots_cast": 1181,
+      "unreturned_ballots": 0,
+      "electors": 1453,
+      "turnout_rate": 81.2801
+    },
+    "TXQ-TANZI-JUXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "聚興村",
+      "village_en": "Juxing Village",
+      "votes": {
+        "1": 1291,
+        "2": 952
+      },
+      "valid_votes": 2243,
+      "invalid_votes": 84,
+      "ballots_cast": 2327,
+      "unreturned_ballots": 0,
+      "electors": 2867,
+      "turnout_rate": 81.165
+    },
+    "TXQ-TANZI-TOUJIADONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "頭家東村",
+      "village_en": "Toujiadong Village",
+      "votes": {
+        "1": 1119,
+        "2": 1271
+      },
+      "valid_votes": 2390,
+      "invalid_votes": 46,
+      "ballots_cast": 2436,
+      "unreturned_ballots": 0,
+      "electors": 2923,
+      "turnout_rate": 83.339
+    },
+    "TXQ-TANZI-JIAXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "家興村",
+      "village_en": "Jiaxing Village",
+      "votes": {
+        "1": 1288,
+        "2": 1679
+      },
+      "valid_votes": 2967,
+      "invalid_votes": 54,
+      "ballots_cast": 3021,
+      "unreturned_ballots": 0,
+      "electors": 3822,
+      "turnout_rate": 79.0424
+    },
+    "TXQ-TANZI-JIAFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "潭子鄉",
+      "township_en": "Tanzi Township",
+      "village_zh": "家福村",
+      "village_en": "Jiafu Village",
+      "votes": {
+        "1": 1158,
+        "2": 1070
+      },
+      "valid_votes": 2228,
+      "invalid_votes": 46,
+      "ballots_cast": 2274,
+      "unreturned_ballots": 0,
+      "electors": 2797,
+      "turnout_rate": 81.3014
+    },
+    "TXQ-DAYA-DAYA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "大雅村",
+      "village_en": "Daya Village",
+      "votes": {
+        "1": 1460,
+        "2": 1544
+      },
+      "valid_votes": 3004,
+      "invalid_votes": 53,
+      "ballots_cast": 3057,
+      "unreturned_ballots": 0,
+      "electors": 3812,
+      "turnout_rate": 80.1941
+    },
+    "TXQ-DAYA-YUANLIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "員林村",
+      "village_en": "Yuanlin Village",
+      "votes": {
+        "1": 2601,
+        "2": 2279
+      },
+      "valid_votes": 4880,
+      "invalid_votes": 105,
+      "ballots_cast": 4985,
+      "unreturned_ballots": 0,
+      "electors": 6097,
+      "turnout_rate": 81.7615
+    },
+    "TXQ-DAYA-LIUBAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "六寶村",
+      "village_en": "Liubao Village",
+      "votes": {
+        "1": 1783,
+        "2": 2474
+      },
+      "valid_votes": 4257,
+      "invalid_votes": 93,
+      "ballots_cast": 4350,
+      "unreturned_ballots": 0,
+      "electors": 5346,
+      "turnout_rate": 81.3692
+    },
+    "TXQ-DAYA-XIUSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "秀山村",
+      "village_en": "Xiushan Village",
+      "votes": {
+        "1": 1270,
+        "2": 924
+      },
+      "valid_votes": 2194,
+      "invalid_votes": 59,
+      "ballots_cast": 2253,
+      "unreturned_ballots": 0,
+      "electors": 2686,
+      "turnout_rate": 83.8794
+    },
+    "TXQ-DAYA-ZHONGYI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "忠義村",
+      "village_en": "Zhongyi Village",
+      "votes": {
+        "1": 429,
+        "2": 2196
+      },
+      "valid_votes": 2625,
+      "invalid_votes": 80,
+      "ballots_cast": 2705,
+      "unreturned_ballots": 0,
+      "electors": 3319,
+      "turnout_rate": 81.5005
+    },
+    "TXQ-DAYA-HENGSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "橫山村",
+      "village_en": "Hengshan Village",
+      "votes": {
+        "1": 1445,
+        "2": 1216
+      },
+      "valid_votes": 2661,
+      "invalid_votes": 82,
+      "ballots_cast": 2743,
+      "unreturned_ballots": 0,
+      "electors": 3381,
+      "turnout_rate": 81.1298
+    },
+    "TXQ-DAYA-SANHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "三和村",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 1652,
+        "2": 1407
+      },
+      "valid_votes": 3059,
+      "invalid_votes": 60,
+      "ballots_cast": 3119,
+      "unreturned_ballots": 0,
+      "electors": 3824,
+      "turnout_rate": 81.5638
+    },
+    "TXQ-DAYA-XIBAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "西寶村",
+      "village_en": "Xibao Village",
+      "votes": {
+        "1": 1468,
+        "2": 972
+      },
+      "valid_votes": 2440,
+      "invalid_votes": 61,
+      "ballots_cast": 2501,
+      "unreturned_ballots": 0,
+      "electors": 3069,
+      "turnout_rate": 81.4923
+    },
+    "TXQ-DAYA-SHANGFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "上楓村",
+      "village_en": "Shangfeng Village",
+      "votes": {
+        "1": 4169,
+        "2": 3834
+      },
+      "valid_votes": 8003,
+      "invalid_votes": 191,
+      "ballots_cast": 8194,
+      "unreturned_ballots": 0,
+      "electors": 10169,
+      "turnout_rate": 80.5782
+    },
+    "TXQ-DAYA-ERHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "二和村",
+      "village_en": "Erhe Village",
+      "votes": {
+        "1": 1474,
+        "2": 1480
+      },
+      "valid_votes": 2954,
+      "invalid_votes": 53,
+      "ballots_cast": 3007,
+      "unreturned_ballots": 0,
+      "electors": 3708,
+      "turnout_rate": 81.0949
+    },
+    "TXQ-DAYA-SIDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "四德村",
+      "village_en": "Side Village",
+      "votes": {
+        "1": 1208,
+        "2": 1267
+      },
+      "valid_votes": 2475,
+      "invalid_votes": 35,
+      "ballots_cast": 2510,
+      "unreturned_ballots": 0,
+      "electors": 3098,
+      "turnout_rate": 81.02
+    },
+    "TXQ-DAYA-SHANGYA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "上雅村",
+      "village_en": "Shangya Village",
+      "votes": {
+        "1": 1528,
+        "2": 1486
+      },
+      "valid_votes": 3014,
+      "invalid_votes": 52,
+      "ballots_cast": 3066,
+      "unreturned_ballots": 0,
+      "electors": 3806,
+      "turnout_rate": 80.557
+    },
+    "TXQ-DAYA-WENYA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大雅鄉",
+      "township_en": "Daya Township",
+      "village_zh": "文雅村",
+      "village_en": "Wenya Village",
+      "votes": {
+        "1": 1545,
+        "2": 1977
+      },
+      "valid_votes": 3522,
+      "invalid_votes": 77,
+      "ballots_cast": 3599,
+      "unreturned_ballots": 0,
+      "electors": 4480,
+      "turnout_rate": 80.3348
+    },
+    "TXQ-XINSHE-XINSHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "新社村",
+      "village_en": "Xinshe Village",
+      "votes": {
+        "1": 1062,
+        "2": 1222
+      },
+      "valid_votes": 2284,
+      "invalid_votes": 62,
+      "ballots_cast": 2346,
+      "unreturned_ballots": 0,
+      "electors": 2814,
+      "turnout_rate": 83.3689
+    },
+    "TXQ-XINSHE-FUSHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "復盛村",
+      "village_en": "Fusheng Village",
+      "votes": {
+        "1": 574,
+        "2": 735
+      },
+      "valid_votes": 1309,
+      "invalid_votes": 66,
+      "ballots_cast": 1375,
+      "unreturned_ballots": 0,
+      "electors": 1747,
+      "turnout_rate": 78.7064
+    },
+    "TXQ-XINSHE-ZHONGZHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 524,
+        "2": 467
+      },
+      "valid_votes": 991,
+      "invalid_votes": 46,
+      "ballots_cast": 1037,
+      "unreturned_ballots": 0,
+      "electors": 1236,
+      "turnout_rate": 83.8997
+    },
+    "TXQ-XINSHE-YUEHU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "月湖村",
+      "village_en": "Yuehu Village",
+      "votes": {
+        "1": 414,
+        "2": 316
+      },
+      "valid_votes": 730,
+      "invalid_votes": 27,
+      "ballots_cast": 757,
+      "unreturned_ballots": 0,
+      "electors": 911,
+      "turnout_rate": 83.0955
+    },
+    "TXQ-XINSHE-KUNSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "崑山村",
+      "village_en": "Kunshan Village",
+      "votes": {
+        "1": 620,
+        "2": 331
+      },
+      "valid_votes": 951,
+      "invalid_votes": 36,
+      "ballots_cast": 987,
+      "unreturned_ballots": 0,
+      "electors": 1205,
+      "turnout_rate": 81.9087
+    },
+    "TXQ-XINSHE-DANAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "大南村",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 752,
+        "2": 767
+      },
+      "valid_votes": 1519,
+      "invalid_votes": 53,
+      "ballots_cast": 1572,
+      "unreturned_ballots": 0,
+      "electors": 1948,
+      "turnout_rate": 80.6982
+    },
+    "TXQ-XINSHE-YONGYUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "永源村",
+      "village_en": "Yongyuan Village",
+      "votes": {
+        "1": 1299,
+        "2": 820
+      },
+      "valid_votes": 2119,
+      "invalid_votes": 75,
+      "ballots_cast": 2194,
+      "unreturned_ballots": 0,
+      "electors": 2646,
+      "turnout_rate": 82.9176
+    },
+    "TXQ-XINSHE-ZHONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "中興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 91,
+        "2": 549
+      },
+      "valid_votes": 640,
+      "invalid_votes": 26,
+      "ballots_cast": 666,
+      "unreturned_ballots": 0,
+      "electors": 809,
+      "turnout_rate": 82.3239
+    },
+    "TXQ-XINSHE-XIECHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "協成村",
+      "village_en": "Xiecheng Village",
+      "votes": {
+        "1": 1186,
+        "2": 849
+      },
+      "valid_votes": 2035,
+      "invalid_votes": 92,
+      "ballots_cast": 2127,
+      "unreturned_ballots": 0,
+      "electors": 2596,
+      "turnout_rate": 81.9337
+    },
+    "TXQ-XINSHE-DONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "東興村",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 475,
+        "2": 534
+      },
+      "valid_votes": 1009,
+      "invalid_votes": 45,
+      "ballots_cast": 1054,
+      "unreturned_ballots": 0,
+      "electors": 1274,
+      "turnout_rate": 82.7316
+    },
+    "TXQ-XINSHE-QINGXI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "慶西村",
+      "village_en": "Qingxi Village",
+      "votes": {
+        "1": 404,
+        "2": 288
+      },
+      "valid_votes": 692,
+      "invalid_votes": 37,
+      "ballots_cast": 729,
+      "unreturned_ballots": 1,
+      "electors": 892,
+      "turnout_rate": 81.7265
+    },
+    "TXQ-XINSHE-ZHONGHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "中和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 160,
+        "2": 297
+      },
+      "valid_votes": 457,
+      "invalid_votes": 17,
+      "ballots_cast": 474,
+      "unreturned_ballots": 0,
+      "electors": 587,
+      "turnout_rate": 80.7496
+    },
+    "TXQ-XINSHE-FUXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "新社鄉",
+      "township_en": "Xinshe Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 485,
+        "2": 449
+      },
+      "valid_votes": 934,
+      "invalid_votes": 57,
+      "ballots_cast": 991,
+      "unreturned_ballots": 0,
+      "electors": 1267,
+      "turnout_rate": 78.2163
+    },
+    "TXQ-SHIGANG-SHIGANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "石岡村",
+      "village_en": "Shigang Village",
+      "votes": {
+        "1": 450,
+        "2": 404
+      },
+      "valid_votes": 854,
+      "invalid_votes": 30,
+      "ballots_cast": 884,
+      "unreturned_ballots": 0,
+      "electors": 1058,
+      "turnout_rate": 83.5539
+    },
+    "TXQ-SHIGANG-WANAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "萬安村",
+      "village_en": "Wanan Village",
+      "votes": {
+        "1": 525,
+        "2": 457
+      },
+      "valid_votes": 982,
+      "invalid_votes": 26,
+      "ballots_cast": 1008,
+      "unreturned_ballots": 0,
+      "electors": 1160,
+      "turnout_rate": 86.8966
+    },
+    "TXQ-SHIGANG-JIUFANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "九房村",
+      "village_en": "Jiufang Village",
+      "votes": {
+        "1": 374,
+        "2": 451
+      },
+      "valid_votes": 825,
+      "invalid_votes": 29,
+      "ballots_cast": 854,
+      "unreturned_ballots": 0,
+      "electors": 1047,
+      "turnout_rate": 81.5664
+    },
+    "TXQ-SHIGANG-JINXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "金星村",
+      "village_en": "Jinxing Village",
+      "votes": {
+        "1": 527,
+        "2": 424
+      },
+      "valid_votes": 951,
+      "invalid_votes": 47,
+      "ballots_cast": 998,
+      "unreturned_ballots": 0,
+      "electors": 1212,
+      "turnout_rate": 82.3432
+    },
+    "TXQ-SHIGANG-LONGXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "龍興村",
+      "village_en": "Longxing Village",
+      "votes": {
+        "1": 288,
+        "2": 259
+      },
+      "valid_votes": 547,
+      "invalid_votes": 13,
+      "ballots_cast": 560,
+      "unreturned_ballots": 0,
+      "electors": 679,
+      "turnout_rate": 82.4742
+    },
+    "TXQ-SHIGANG-WANXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "萬興村",
+      "village_en": "Wanxing Village",
+      "votes": {
+        "1": 564,
+        "2": 547
+      },
+      "valid_votes": 1111,
+      "invalid_votes": 31,
+      "ballots_cast": 1142,
+      "unreturned_ballots": 0,
+      "electors": 1351,
+      "turnout_rate": 84.53
+    },
+    "TXQ-SHIGANG-MEIZI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "梅子村",
+      "village_en": "Meizi Village",
+      "votes": {
+        "1": 712,
+        "2": 635
+      },
+      "valid_votes": 1347,
+      "invalid_votes": 47,
+      "ballots_cast": 1394,
+      "unreturned_ballots": 0,
+      "electors": 1724,
+      "turnout_rate": 80.8585
+    },
+    "TXQ-SHIGANG-TUNIU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "土牛村",
+      "village_en": "Tuniu Village",
+      "votes": {
+        "1": 323,
+        "2": 403
+      },
+      "valid_votes": 726,
+      "invalid_votes": 28,
+      "ballots_cast": 754,
+      "unreturned_ballots": 0,
+      "electors": 929,
+      "turnout_rate": 81.1625
+    },
+    "TXQ-SHIGANG-DEXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "德興村",
+      "village_en": "Dexing Village",
+      "votes": {
+        "1": 415,
+        "2": 588
+      },
+      "valid_votes": 1003,
+      "invalid_votes": 37,
+      "ballots_cast": 1040,
+      "unreturned_ballots": 1,
+      "electors": 1268,
+      "turnout_rate": 82.0189
+    },
+    "TXQ-SHIGANG-HESHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "石岡鄉",
+      "township_en": "Shigang Township",
+      "village_zh": "和盛村",
+      "village_en": "Hesheng Village",
+      "votes": {
+        "1": 341,
+        "2": 638
+      },
+      "valid_votes": 979,
+      "invalid_votes": 19,
+      "ballots_cast": 998,
+      "unreturned_ballots": 0,
+      "electors": 1210,
+      "turnout_rate": 82.4793
+    },
+    "TXQ-WAIPU-YONGFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "永豐村",
+      "village_en": "Yongfeng Village",
+      "votes": {
+        "1": 386,
+        "2": 413
+      },
+      "valid_votes": 799,
+      "invalid_votes": 10,
+      "ballots_cast": 809,
+      "unreturned_ballots": 0,
+      "electors": 993,
+      "turnout_rate": 81.4703
+    },
+    "TXQ-WAIPU-LIUFEN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "六分村",
+      "village_en": "Liufen Village",
+      "votes": {
+        "1": 513,
+        "2": 707
+      },
+      "valid_votes": 1220,
+      "invalid_votes": 33,
+      "ballots_cast": 1253,
+      "unreturned_ballots": 0,
+      "electors": 1531,
+      "turnout_rate": 81.8419
+    },
+    "TXQ-WAIPU-SANKAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "三崁村",
+      "village_en": "Sankan Village",
+      "votes": {
+        "1": 583,
+        "2": 698
+      },
+      "valid_votes": 1281,
+      "invalid_votes": 51,
+      "ballots_cast": 1332,
+      "unreturned_ballots": 0,
+      "electors": 1694,
+      "turnout_rate": 78.6305
+    },
+    "TXQ-WAIPU-DATONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "大同村",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 1212,
+        "2": 1557
+      },
+      "valid_votes": 2769,
+      "invalid_votes": 69,
+      "ballots_cast": 2838,
+      "unreturned_ballots": 0,
+      "electors": 3506,
+      "turnout_rate": 80.9469
+    },
+    "TXQ-WAIPU-SHUIMEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "水美村",
+      "village_en": "Shuimei Village",
+      "votes": {
+        "1": 1011,
+        "2": 1216
+      },
+      "valid_votes": 2227,
+      "invalid_votes": 55,
+      "ballots_cast": 2282,
+      "unreturned_ballots": 0,
+      "electors": 2875,
+      "turnout_rate": 79.3739
+    },
+    "TXQ-WAIPU-DADONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "大東村",
+      "village_en": "Dadong Village",
+      "votes": {
+        "1": 1618,
+        "2": 1984
+      },
+      "valid_votes": 3602,
+      "invalid_votes": 112,
+      "ballots_cast": 3714,
+      "unreturned_ballots": 0,
+      "electors": 4659,
+      "turnout_rate": 79.7167
+    },
+    "TXQ-WAIPU-MAMING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "馬鳴村",
+      "village_en": "Maming Village",
+      "votes": {
+        "1": 483,
+        "2": 551
+      },
+      "valid_votes": 1034,
+      "invalid_votes": 40,
+      "ballots_cast": 1074,
+      "unreturned_ballots": 0,
+      "electors": 1339,
+      "turnout_rate": 80.2091
+    },
+    "TXQ-WAIPU-ZHONGSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "中山村",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 341,
+        "2": 456
+      },
+      "valid_votes": 797,
+      "invalid_votes": 24,
+      "ballots_cast": 821,
+      "unreturned_ballots": 0,
+      "electors": 1038,
+      "turnout_rate": 79.0944
+    },
+    "TXQ-WAIPU-TIESHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "鐵山村",
+      "village_en": "Tieshan Village",
+      "votes": {
+        "1": 692,
+        "2": 842
+      },
+      "valid_votes": 1534,
+      "invalid_votes": 85,
+      "ballots_cast": 1619,
+      "unreturned_ballots": 0,
+      "electors": 2057,
+      "turnout_rate": 78.7069
+    },
+    "TXQ-WAIPU-TUCHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "土城村",
+      "village_en": "Tucheng Village",
+      "votes": {
+        "1": 724,
+        "2": 527
+      },
+      "valid_votes": 1251,
+      "invalid_votes": 57,
+      "ballots_cast": 1308,
+      "unreturned_ballots": 0,
+      "electors": 1571,
+      "turnout_rate": 83.2591
+    },
+    "TXQ-WAIPU-BUZI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "外埔鄉",
+      "township_en": "Waipu Township",
+      "village_zh": "部子村",
+      "village_en": "Buzi Village",
+      "votes": {
+        "1": 472,
+        "2": 434
+      },
+      "valid_votes": 906,
+      "invalid_votes": 40,
+      "ballots_cast": 946,
+      "unreturned_ballots": 0,
+      "electors": 1205,
+      "turnout_rate": 78.5062
+    },
+    "TXQ-DAAN-NANPU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "南埔村",
+      "village_en": "Nanpu Village",
+      "votes": {
+        "1": 523,
+        "2": 332
+      },
+      "valid_votes": 855,
+      "invalid_votes": 26,
+      "ballots_cast": 881,
+      "unreturned_ballots": 0,
+      "electors": 1077,
+      "turnout_rate": 81.8013
+    },
+    "TXQ-DAAN-NANZHUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "南庄村",
+      "village_en": "Nanzhuang Village",
+      "votes": {
+        "1": 539,
+        "2": 335
+      },
+      "valid_votes": 874,
+      "invalid_votes": 26,
+      "ballots_cast": 900,
+      "unreturned_ballots": 0,
+      "electors": 1114,
+      "turnout_rate": 80.7899
+    },
+    "TXQ-DAAN-ZHONGZHUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "中庄村",
+      "village_en": "Zhongzhuang Village",
+      "votes": {
+        "1": 951,
+        "2": 859
+      },
+      "valid_votes": 1810,
+      "invalid_votes": 41,
+      "ballots_cast": 1851,
+      "unreturned_ballots": 0,
+      "electors": 2388,
+      "turnout_rate": 77.5126
+    },
+    "TXQ-DAAN-GUIKE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "龜殼村",
+      "village_en": "Guike Village",
+      "votes": {
+        "1": 631,
+        "2": 619
+      },
+      "valid_votes": 1250,
+      "invalid_votes": 49,
+      "ballots_cast": 1299,
+      "unreturned_ballots": 0,
+      "electors": 1574,
+      "turnout_rate": 82.5286
+    },
+    "TXQ-DAAN-FUXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 519,
+        "2": 342
+      },
+      "valid_votes": 861,
+      "invalid_votes": 42,
+      "ballots_cast": 903,
+      "unreturned_ballots": 0,
+      "electors": 1157,
+      "turnout_rate": 78.0467
+    },
+    "TXQ-DAAN-DONGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "東安村",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 473,
+        "2": 491
+      },
+      "valid_votes": 964,
+      "invalid_votes": 23,
+      "ballots_cast": 987,
+      "unreturned_ballots": 0,
+      "electors": 1200,
+      "turnout_rate": 82.25
+    },
+    "TXQ-DAAN-DINGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "頂安村",
+      "village_en": "Dingan Village",
+      "votes": {
+        "1": 377,
+        "2": 294
+      },
+      "valid_votes": 671,
+      "invalid_votes": 30,
+      "ballots_cast": 701,
+      "unreturned_ballots": 0,
+      "electors": 875,
+      "turnout_rate": 80.1143
+    },
+    "TXQ-DAAN-YONGAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "永安村",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 675,
+        "2": 638
+      },
+      "valid_votes": 1313,
+      "invalid_votes": 46,
+      "ballots_cast": 1359,
+      "unreturned_ballots": 0,
+      "electors": 1649,
+      "turnout_rate": 82.4136
+    },
+    "TXQ-DAAN-FUZHU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "福住村",
+      "village_en": "Fuzhu Village",
+      "votes": {
+        "1": 393,
+        "2": 378
+      },
+      "valid_votes": 771,
+      "invalid_votes": 35,
+      "ballots_cast": 806,
+      "unreturned_ballots": 0,
+      "electors": 989,
+      "turnout_rate": 81.4965
+    },
+    "TXQ-DAAN-HAIQIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "海墘村",
+      "village_en": "Haiqian Village",
+      "votes": {
+        "1": 409,
+        "2": 623
+      },
+      "valid_votes": 1032,
+      "invalid_votes": 33,
+      "ballots_cast": 1065,
+      "unreturned_ballots": 0,
+      "electors": 1362,
+      "turnout_rate": 78.1938
+    },
+    "TXQ-DAAN-XIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "西安村",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 607,
+        "2": 445
+      },
+      "valid_votes": 1052,
+      "invalid_votes": 58,
+      "ballots_cast": 1110,
+      "unreturned_ballots": 0,
+      "electors": 1378,
+      "turnout_rate": 80.5515
+    },
+    "TXQ-DAAN-SONGYA": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大安鄉",
+      "township_en": "Daan Township",
+      "village_zh": "松雅村",
+      "village_en": "Songya Village",
+      "votes": {
+        "1": 367,
+        "2": 261
+      },
+      "valid_votes": 628,
+      "invalid_votes": 11,
+      "ballots_cast": 639,
+      "unreturned_ballots": 0,
+      "electors": 768,
+      "turnout_rate": 83.2031
+    },
+    "TXQ-WURI-WURI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "烏日村",
+      "village_en": "Wuri Village",
+      "votes": {
+        "1": 2527,
+        "2": 2218
+      },
+      "valid_votes": 4745,
+      "invalid_votes": 99,
+      "ballots_cast": 4844,
+      "unreturned_ballots": 1,
+      "electors": 5828,
+      "turnout_rate": 83.116
+    },
+    "TXQ-WURI-HURI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "湖日村",
+      "village_en": "Huri Village",
+      "votes": {
+        "1": 921,
+        "2": 768
+      },
+      "valid_votes": 1689,
+      "invalid_votes": 39,
+      "ballots_cast": 1728,
+      "unreturned_ballots": 0,
+      "electors": 2140,
+      "turnout_rate": 80.7477
+    },
+    "TXQ-WURI-SANHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "三和村",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 1084,
+        "2": 1606
+      },
+      "valid_votes": 2690,
+      "invalid_votes": 105,
+      "ballots_cast": 2795,
+      "unreturned_ballots": 0,
+      "electors": 3362,
+      "turnout_rate": 83.135
+    },
+    "TXQ-WURI-RONGQUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "榮泉村",
+      "village_en": "Rongquan Village",
+      "votes": {
+        "1": 938,
+        "2": 1136
+      },
+      "valid_votes": 2074,
+      "invalid_votes": 51,
+      "ballots_cast": 2125,
+      "unreturned_ballots": 0,
+      "electors": 2523,
+      "turnout_rate": 84.2251
+    },
+    "TXQ-WURI-XUETIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "學田村",
+      "village_en": "Xuetian Village",
+      "votes": {
+        "1": 710,
+        "2": 867
+      },
+      "valid_votes": 1577,
+      "invalid_votes": 60,
+      "ballots_cast": 1637,
+      "unreturned_ballots": 0,
+      "electors": 1978,
+      "turnout_rate": 82.7604
+    },
+    "TXQ-WURI-JIUDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "九德村",
+      "village_en": "Jiude Village",
+      "votes": {
+        "1": 3991,
+        "2": 3781
+      },
+      "valid_votes": 7772,
+      "invalid_votes": 128,
+      "ballots_cast": 7900,
+      "unreturned_ballots": 0,
+      "electors": 9571,
+      "turnout_rate": 82.541
+    },
+    "TXQ-WURI-RENDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "仁德村",
+      "village_en": "Rende Village",
+      "votes": {
+        "1": 2030,
+        "2": 2248
+      },
+      "valid_votes": 4278,
+      "invalid_votes": 75,
+      "ballots_cast": 4353,
+      "unreturned_ballots": 0,
+      "electors": 5283,
+      "turnout_rate": 82.3964
+    },
+    "TXQ-WURI-QIANZHU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "前竹村",
+      "village_en": "Qianzhu Village",
+      "votes": {
+        "1": 1076,
+        "2": 645
+      },
+      "valid_votes": 1721,
+      "invalid_votes": 45,
+      "ballots_cast": 1766,
+      "unreturned_ballots": 0,
+      "electors": 2072,
+      "turnout_rate": 85.2317
+    },
+    "TXQ-WURI-WUGUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "五光村",
+      "village_en": "Wuguang Village",
+      "votes": {
+        "1": 612,
+        "2": 556
+      },
+      "valid_votes": 1168,
+      "invalid_votes": 37,
+      "ballots_cast": 1205,
+      "unreturned_ballots": 0,
+      "electors": 1473,
+      "turnout_rate": 81.8058
+    },
+    "TXQ-WURI-GUANGMING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "光明村",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 945,
+        "2": 693
+      },
+      "valid_votes": 1638,
+      "invalid_votes": 46,
+      "ballots_cast": 1684,
+      "unreturned_ballots": 0,
+      "electors": 2011,
+      "turnout_rate": 83.7394
+    },
+    "TXQ-WURI-DONGYUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "東園村",
+      "village_en": "Dongyuan Village",
+      "votes": {
+        "1": 748,
+        "2": 576
+      },
+      "valid_votes": 1324,
+      "invalid_votes": 46,
+      "ballots_cast": 1370,
+      "unreturned_ballots": 0,
+      "electors": 1672,
+      "turnout_rate": 81.9378
+    },
+    "TXQ-WURI-XIJU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "溪埧村",
+      "village_en": "Xiju Village",
+      "votes": {
+        "1": 1583,
+        "2": 1372
+      },
+      "valid_votes": 2955,
+      "invalid_votes": 60,
+      "ballots_cast": 3015,
+      "unreturned_ballots": 0,
+      "electors": 3601,
+      "turnout_rate": 83.7267
+    },
+    "TXQ-WURI-LUOTAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "螺潭村",
+      "village_en": "Luotan Village",
+      "votes": {
+        "1": 702,
+        "2": 545
+      },
+      "valid_votes": 1247,
+      "invalid_votes": 45,
+      "ballots_cast": 1292,
+      "unreturned_ballots": 0,
+      "electors": 1532,
+      "turnout_rate": 84.3342
+    },
+    "TXQ-WURI-BEILI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "北里村",
+      "village_en": "Beili Village",
+      "votes": {
+        "1": 665,
+        "2": 450
+      },
+      "valid_votes": 1115,
+      "invalid_votes": 46,
+      "ballots_cast": 1161,
+      "unreturned_ballots": 0,
+      "electors": 1406,
+      "turnout_rate": 82.5747
+    },
+    "TXQ-WURI-NANLI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "南里村",
+      "village_en": "Nanli Village",
+      "votes": {
+        "1": 491,
+        "2": 385
+      },
+      "valid_votes": 876,
+      "invalid_votes": 21,
+      "ballots_cast": 897,
+      "unreturned_ballots": 0,
+      "electors": 1081,
+      "turnout_rate": 82.9787
+    },
+    "TXQ-WURI-XIWEI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "烏日鄉",
+      "township_en": "Wuri Township",
+      "village_zh": "溪尾村",
+      "village_en": "Xiwei Village",
+      "votes": {
+        "1": 339,
+        "2": 255
+      },
+      "valid_votes": 594,
+      "invalid_votes": 30,
+      "ballots_cast": 624,
+      "unreturned_ballots": 0,
+      "electors": 812,
+      "turnout_rate": 76.8473
+    },
+    "TXQ-DADU-WANGTIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "王田村",
+      "village_en": "Wangtian Village",
+      "votes": {
+        "1": 1620,
+        "2": 1278
+      },
+      "valid_votes": 2898,
+      "invalid_votes": 78,
+      "ballots_cast": 2976,
+      "unreturned_ballots": 0,
+      "electors": 3660,
+      "turnout_rate": 81.3115
+    },
+    "TXQ-DADU-ZHONGHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "中和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 387,
+        "2": 275
+      },
+      "valid_votes": 662,
+      "invalid_votes": 19,
+      "ballots_cast": 681,
+      "unreturned_ballots": 0,
+      "electors": 798,
+      "turnout_rate": 85.3383
+    },
+    "TXQ-DADU-FUSHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "福山村",
+      "village_en": "Fushan Village",
+      "votes": {
+        "1": 1386,
+        "2": 1268
+      },
+      "valid_votes": 2654,
+      "invalid_votes": 69,
+      "ballots_cast": 2723,
+      "unreturned_ballots": 0,
+      "electors": 3254,
+      "turnout_rate": 83.6816
+    },
+    "TXQ-DADU-YINGPU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "營埔村",
+      "village_en": "Yingpu Village",
+      "votes": {
+        "1": 526,
+        "2": 525
+      },
+      "valid_votes": 1051,
+      "invalid_votes": 29,
+      "ballots_cast": 1080,
+      "unreturned_ballots": 1,
+      "electors": 1292,
+      "turnout_rate": 83.5913
+    },
+    "TXQ-DADU-SHEJIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "社腳村",
+      "village_en": "Shejiao Village",
+      "votes": {
+        "1": 841,
+        "2": 996
+      },
+      "valid_votes": 1837,
+      "invalid_votes": 45,
+      "ballots_cast": 1882,
+      "unreturned_ballots": 0,
+      "electors": 2258,
+      "turnout_rate": 83.3481
+    },
+    "TXQ-DADU-XINXING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "新興村",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 822,
+        "2": 978
+      },
+      "valid_votes": 1800,
+      "invalid_votes": 34,
+      "ballots_cast": 1834,
+      "unreturned_ballots": 0,
+      "electors": 2306,
+      "turnout_rate": 79.5317
+    },
+    "TXQ-DADU-DADONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "大東村",
+      "village_en": "Dadong Village",
+      "votes": {
+        "1": 1018,
+        "2": 1096
+      },
+      "valid_votes": 2114,
+      "invalid_votes": 43,
+      "ballots_cast": 2157,
+      "unreturned_ballots": 0,
+      "electors": 2589,
+      "turnout_rate": 83.314
+    },
+    "TXQ-DADU-DADU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "大肚村",
+      "village_en": "Dadu Village",
+      "votes": {
+        "1": 665,
+        "2": 826
+      },
+      "valid_votes": 1491,
+      "invalid_votes": 24,
+      "ballots_cast": 1515,
+      "unreturned_ballots": 0,
+      "electors": 1827,
+      "turnout_rate": 82.9228
+    },
+    "TXQ-DADU-YONGHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "永和村",
+      "village_en": "Yonghe Village",
+      "votes": {
+        "1": 338,
+        "2": 338
+      },
+      "valid_votes": 676,
+      "invalid_votes": 11,
+      "ballots_cast": 687,
+      "unreturned_ballots": 0,
+      "electors": 845,
+      "turnout_rate": 81.3018
+    },
+    "TXQ-DADU-HUANGXI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "磺溪村",
+      "village_en": "Huangxi Village",
+      "votes": {
+        "1": 487,
+        "2": 559
+      },
+      "valid_votes": 1046,
+      "invalid_votes": 33,
+      "ballots_cast": 1079,
+      "unreturned_ballots": 0,
+      "electors": 1329,
+      "turnout_rate": 81.1889
+    },
+    "TXQ-DADU-YONGSHUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "永順村",
+      "village_en": "Yongshun Village",
+      "votes": {
+        "1": 663,
+        "2": 534
+      },
+      "valid_votes": 1197,
+      "invalid_votes": 42,
+      "ballots_cast": 1239,
+      "unreturned_ballots": 0,
+      "electors": 1476,
+      "turnout_rate": 83.9431
+    },
+    "TXQ-DADU-CHENGGONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "成功村",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 356,
+        "2": 353
+      },
+      "valid_votes": 709,
+      "invalid_votes": 28,
+      "ballots_cast": 737,
+      "unreturned_ballots": 0,
+      "electors": 891,
+      "turnout_rate": 82.716
+    },
+    "TXQ-DADU-SHANYANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "山陽村",
+      "village_en": "Shanyang Village",
+      "votes": {
+        "1": 583,
+        "2": 487
+      },
+      "valid_votes": 1070,
+      "invalid_votes": 42,
+      "ballots_cast": 1112,
+      "unreturned_ballots": 2,
+      "electors": 1344,
+      "turnout_rate": 82.7381
+    },
+    "TXQ-DADU-DINGJIE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "頂街村",
+      "village_en": "Dingjie Village",
+      "votes": {
+        "1": 1831,
+        "2": 2088
+      },
+      "valid_votes": 3919,
+      "invalid_votes": 74,
+      "ballots_cast": 3993,
+      "unreturned_ballots": 1,
+      "electors": 4877,
+      "turnout_rate": 81.8741
+    },
+    "TXQ-DADU-RUIJING": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "瑞井村",
+      "village_en": "Ruijing Village",
+      "votes": {
+        "1": 1590,
+        "2": 1462
+      },
+      "valid_votes": 3052,
+      "invalid_votes": 64,
+      "ballots_cast": 3116,
+      "unreturned_ballots": 0,
+      "electors": 3894,
+      "turnout_rate": 80.0205
+    },
+    "TXQ-DADU-ZHEBU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "蔗部村",
+      "village_en": "Zhebu Village",
+      "votes": {
+        "1": 1552,
+        "2": 1170
+      },
+      "valid_votes": 2722,
+      "invalid_votes": 76,
+      "ballots_cast": 2798,
+      "unreturned_ballots": 0,
+      "electors": 3510,
+      "turnout_rate": 79.7151
+    },
+    "TXQ-DADU-ZIQIANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "大肚鄉",
+      "township_en": "Dadu Township",
+      "village_zh": "自強村",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 911,
+        "2": 1486
+      },
+      "valid_votes": 2397,
+      "invalid_votes": 48,
+      "ballots_cast": 2445,
+      "unreturned_ballots": 0,
+      "electors": 2955,
+      "turnout_rate": 82.7411
+    },
+    "TXQ-LONGJING-ZHUKENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "竹坑村",
+      "village_en": "Zhukeng Village",
+      "votes": {
+        "1": 874,
+        "2": 900
+      },
+      "valid_votes": 1774,
+      "invalid_votes": 35,
+      "ballots_cast": 1809,
+      "unreturned_ballots": 0,
+      "electors": 2244,
+      "turnout_rate": 80.615
+    },
+    "TXQ-LONGJING-LONGDONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "龍東村",
+      "village_en": "Longdong Village",
+      "votes": {
+        "1": 953,
+        "2": 956
+      },
+      "valid_votes": 1909,
+      "invalid_votes": 48,
+      "ballots_cast": 1957,
+      "unreturned_ballots": 0,
+      "electors": 2429,
+      "turnout_rate": 80.5681
+    },
+    "TXQ-LONGJING-LONGXI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "龍西村",
+      "village_en": "Longxi Village",
+      "votes": {
+        "1": 613,
+        "2": 714
+      },
+      "valid_votes": 1327,
+      "invalid_votes": 42,
+      "ballots_cast": 1369,
+      "unreturned_ballots": 0,
+      "electors": 1643,
+      "turnout_rate": 83.3232
+    },
+    "TXQ-LONGJING-TIANZHONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "田中村",
+      "village_en": "Tianzhong Village",
+      "votes": {
+        "1": 1108,
+        "2": 936
+      },
+      "valid_votes": 2044,
+      "invalid_votes": 53,
+      "ballots_cast": 2097,
+      "unreturned_ballots": 0,
+      "electors": 2580,
+      "turnout_rate": 81.2791
+    },
+    "TXQ-LONGJING-FUTIAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "福田村",
+      "village_en": "Futian Village",
+      "votes": {
+        "1": 345,
+        "2": 391
+      },
+      "valid_votes": 736,
+      "invalid_votes": 31,
+      "ballots_cast": 767,
+      "unreturned_ballots": 0,
+      "electors": 998,
+      "turnout_rate": 76.8537
+    },
+    "TXQ-LONGJING-LISHUI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "麗水村",
+      "village_en": "Lishui Village",
+      "votes": {
+        "1": 676,
+        "2": 851
+      },
+      "valid_votes": 1527,
+      "invalid_votes": 46,
+      "ballots_cast": 1573,
+      "unreturned_ballots": 1,
+      "electors": 1964,
+      "turnout_rate": 80.0916
+    },
+    "TXQ-LONGJING-LONGJIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "龍津村",
+      "village_en": "Longjin Village",
+      "votes": {
+        "1": 1883,
+        "2": 1435
+      },
+      "valid_votes": 3318,
+      "invalid_votes": 97,
+      "ballots_cast": 3415,
+      "unreturned_ballots": 3,
+      "electors": 4266,
+      "turnout_rate": 80.0516
+    },
+    "TXQ-LONGJING-SANDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "三德村",
+      "village_en": "Sande Village",
+      "votes": {
+        "1": 1110,
+        "2": 804
+      },
+      "valid_votes": 1914,
+      "invalid_votes": 56,
+      "ballots_cast": 1970,
+      "unreturned_ballots": 0,
+      "electors": 2500,
+      "turnout_rate": 78.8
+    },
+    "TXQ-LONGJING-ZHONGHE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "忠和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 1791,
+        "2": 1243
+      },
+      "valid_votes": 3034,
+      "invalid_votes": 94,
+      "ballots_cast": 3128,
+      "unreturned_ballots": 0,
+      "electors": 3867,
+      "turnout_rate": 80.8896
+    },
+    "TXQ-LONGJING-SHANJIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "山腳村",
+      "village_en": "Shanjiao Village",
+      "votes": {
+        "1": 1635,
+        "2": 1381
+      },
+      "valid_votes": 3016,
+      "invalid_votes": 73,
+      "ballots_cast": 3089,
+      "unreturned_ballots": 0,
+      "electors": 3926,
+      "turnout_rate": 78.6806
+    },
+    "TXQ-LONGJING-LONGQUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "龍泉村",
+      "village_en": "Longquan Village",
+      "votes": {
+        "1": 1631,
+        "2": 1749
+      },
+      "valid_votes": 3380,
+      "invalid_votes": 88,
+      "ballots_cast": 3468,
+      "unreturned_ballots": 1,
+      "electors": 4380,
+      "turnout_rate": 79.1781
+    },
+    "TXQ-LONGJING-LONGGANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "龍崗村",
+      "village_en": "Longgang Village",
+      "votes": {
+        "1": 905,
+        "2": 736
+      },
+      "valid_votes": 1641,
+      "invalid_votes": 39,
+      "ballots_cast": 1680,
+      "unreturned_ballots": 0,
+      "electors": 2086,
+      "turnout_rate": 80.5369
+    },
+    "TXQ-LONGJING-XINZHUANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "新庄村",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 1868,
+        "2": 1708
+      },
+      "valid_votes": 3576,
+      "invalid_votes": 111,
+      "ballots_cast": 3687,
+      "unreturned_ballots": 0,
+      "electors": 4659,
+      "turnout_rate": 79.1372
+    },
+    "TXQ-LONGJING-NANLIAO": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "南寮村",
+      "village_en": "Nanliao Village",
+      "votes": {
+        "1": 640,
+        "2": 469
+      },
+      "valid_votes": 1109,
+      "invalid_votes": 51,
+      "ballots_cast": 1160,
+      "unreturned_ballots": 0,
+      "electors": 1362,
+      "turnout_rate": 85.1689
+    },
+    "TXQ-LONGJING-XINDONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "新東村",
+      "village_en": "Xindong Village",
+      "votes": {
+        "1": 1224,
+        "2": 1296
+      },
+      "valid_votes": 2520,
+      "invalid_votes": 52,
+      "ballots_cast": 2572,
+      "unreturned_ballots": 0,
+      "electors": 3238,
+      "turnout_rate": 79.4317
+    },
+    "TXQ-LONGJING-DONGHAI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "龍井鄉",
+      "township_en": "Longjing Township",
+      "village_zh": "東海村",
+      "village_en": "Donghai Village",
+      "votes": {
+        "1": 1755,
+        "2": 2737
+      },
+      "valid_votes": 4492,
+      "invalid_votes": 63,
+      "ballots_cast": 4555,
+      "unreturned_ballots": 0,
+      "electors": 5651,
+      "turnout_rate": 80.6052
+    },
+    "TXQ-WUFENG-TONGLIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "桐林村",
+      "village_en": "Tonglin Village",
+      "votes": {
+        "1": 511,
+        "2": 401
+      },
+      "valid_votes": 912,
+      "invalid_votes": 27,
+      "ballots_cast": 939,
+      "unreturned_ballots": 0,
+      "electors": 1143,
+      "turnout_rate": 82.1522
+    },
+    "TXQ-WUFENG-JIFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "吉峰村",
+      "village_en": "Jifeng Village",
+      "votes": {
+        "1": 2924,
+        "2": 2996
+      },
+      "valid_votes": 5920,
+      "invalid_votes": 110,
+      "ballots_cast": 6030,
+      "unreturned_ballots": 1,
+      "electors": 7476,
+      "turnout_rate": 80.6581
+    },
+    "TXQ-WUFENG-JIAYIN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "甲寅村",
+      "village_en": "Jiayin Village",
+      "votes": {
+        "1": 1546,
+        "2": 1639
+      },
+      "valid_votes": 3185,
+      "invalid_votes": 72,
+      "ballots_cast": 3257,
+      "unreturned_ballots": 1,
+      "electors": 4006,
+      "turnout_rate": 81.303
+    },
+    "TXQ-WUFENG-BENXIANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "本鄉村",
+      "village_en": "Benxiang Village",
+      "votes": {
+        "1": 779,
+        "2": 710
+      },
+      "valid_votes": 1489,
+      "invalid_votes": 27,
+      "ballots_cast": 1516,
+      "unreturned_ballots": 0,
+      "electors": 1826,
+      "turnout_rate": 83.023
+    },
+    "TXQ-WUFENG-ZHONGZHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 591,
+        "2": 687
+      },
+      "valid_votes": 1278,
+      "invalid_votes": 23,
+      "ballots_cast": 1301,
+      "unreturned_ballots": 1,
+      "electors": 1546,
+      "turnout_rate": 84.1527
+    },
+    "TXQ-WUFENG-JINRONG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "錦榮村",
+      "village_en": "Jinrong Village",
+      "votes": {
+        "1": 374,
+        "2": 410
+      },
+      "valid_votes": 784,
+      "invalid_votes": 16,
+      "ballots_cast": 800,
+      "unreturned_ballots": 0,
+      "electors": 942,
+      "turnout_rate": 84.9257
+    },
+    "TXQ-WUFENG-LAIYUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "萊園村",
+      "village_en": "Laiyuan Village",
+      "votes": {
+        "1": 428,
+        "2": 437
+      },
+      "valid_votes": 865,
+      "invalid_votes": 21,
+      "ballots_cast": 886,
+      "unreturned_ballots": 0,
+      "electors": 1071,
+      "turnout_rate": 82.7264
+    },
+    "TXQ-WUFENG-BENTANG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "本堂村",
+      "village_en": "Bentang Village",
+      "votes": {
+        "1": 1747,
+        "2": 2097
+      },
+      "valid_votes": 3844,
+      "invalid_votes": 90,
+      "ballots_cast": 3934,
+      "unreturned_ballots": 2,
+      "electors": 4869,
+      "turnout_rate": 80.7969
+    },
+    "TXQ-WUFENG-KENGKOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "坑口村",
+      "village_en": "Kengkou Village",
+      "votes": {
+        "1": 937,
+        "2": 1360
+      },
+      "valid_votes": 2297,
+      "invalid_votes": 59,
+      "ballots_cast": 2356,
+      "unreturned_ballots": 0,
+      "electors": 2875,
+      "turnout_rate": 81.9478
+    },
+    "TXQ-WUFENG-BEILIU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "北柳村",
+      "village_en": "Beiliu Village",
+      "votes": {
+        "1": 1325,
+        "2": 1185
+      },
+      "valid_votes": 2510,
+      "invalid_votes": 64,
+      "ballots_cast": 2574,
+      "unreturned_ballots": 0,
+      "electors": 3053,
+      "turnout_rate": 84.3105
+    },
+    "TXQ-WUFENG-NANLIU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "南柳村",
+      "village_en": "Nanliu Village",
+      "votes": {
+        "1": 628,
+        "2": 525
+      },
+      "valid_votes": 1153,
+      "invalid_votes": 41,
+      "ballots_cast": 1194,
+      "unreturned_ballots": 0,
+      "electors": 1428,
+      "turnout_rate": 83.6134
+    },
+    "TXQ-WUFENG-SIDE": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "四德村",
+      "village_en": "Side Village",
+      "votes": {
+        "1": 985,
+        "2": 650
+      },
+      "valid_votes": 1635,
+      "invalid_votes": 41,
+      "ballots_cast": 1676,
+      "unreturned_ballots": 0,
+      "electors": 2004,
+      "turnout_rate": 83.6327
+    },
+    "TXQ-WUFENG-WUFU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "五福村",
+      "village_en": "Wufu Village",
+      "votes": {
+        "1": 1025,
+        "2": 906
+      },
+      "valid_votes": 1931,
+      "invalid_votes": 72,
+      "ballots_cast": 2003,
+      "unreturned_ballots": 0,
+      "electors": 2384,
+      "turnout_rate": 84.0185
+    },
+    "TXQ-WUFENG-WANFENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "萬豐村",
+      "village_en": "Wanfeng Village",
+      "votes": {
+        "1": 1115,
+        "2": 793
+      },
+      "valid_votes": 1908,
+      "invalid_votes": 53,
+      "ballots_cast": 1961,
+      "unreturned_ballots": 1,
+      "electors": 2403,
+      "turnout_rate": 81.6063
+    },
+    "TXQ-WUFENG-JIUZHENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "舊正村",
+      "village_en": "Jiuzheng Village",
+      "votes": {
+        "1": 874,
+        "2": 703
+      },
+      "valid_votes": 1577,
+      "invalid_votes": 62,
+      "ballots_cast": 1639,
+      "unreturned_ballots": 0,
+      "electors": 2000,
+      "turnout_rate": 81.95
+    },
+    "TXQ-WUFENG-FENGGU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "峰谷村",
+      "village_en": "Fenggu Village",
+      "votes": {
+        "1": 469,
+        "2": 336
+      },
+      "valid_votes": 805,
+      "invalid_votes": 21,
+      "ballots_cast": 826,
+      "unreturned_ballots": 0,
+      "electors": 1036,
+      "turnout_rate": 79.7297
+    },
+    "TXQ-WUFENG-LIUGU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "六股村",
+      "village_en": "Liugu Village",
+      "votes": {
+        "1": 1109,
+        "2": 676
+      },
+      "valid_votes": 1785,
+      "invalid_votes": 62,
+      "ballots_cast": 1847,
+      "unreturned_ballots": 0,
+      "electors": 2190,
+      "turnout_rate": 84.3379
+    },
+    "TXQ-WUFENG-DINGTAI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "丁臺村",
+      "village_en": "Dingtai Village",
+      "votes": {
+        "1": 1040,
+        "2": 572
+      },
+      "valid_votes": 1612,
+      "invalid_votes": 62,
+      "ballots_cast": 1674,
+      "unreturned_ballots": 0,
+      "electors": 1937,
+      "turnout_rate": 86.4223
+    },
+    "TXQ-WUFENG-BEISHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "北勢村",
+      "village_en": "Beishi Village",
+      "votes": {
+        "1": 663,
+        "2": 672
+      },
+      "valid_votes": 1335,
+      "invalid_votes": 51,
+      "ballots_cast": 1386,
+      "unreturned_ballots": 0,
+      "electors": 1662,
+      "turnout_rate": 83.3935
+    },
+    "TXQ-WUFENG-NANSHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "霧峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "南勢村",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 501,
+        "2": 422
+      },
+      "valid_votes": 923,
+      "invalid_votes": 26,
+      "ballots_cast": 949,
+      "unreturned_ballots": 0,
+      "electors": 1162,
+      "turnout_rate": 81.6695
+    },
+    "TXQ-HEPING-NANSHI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "南勢村",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 534,
+        "2": 750
+      },
+      "valid_votes": 1284,
+      "invalid_votes": 51,
+      "ballots_cast": 1335,
+      "unreturned_ballots": 0,
+      "electors": 1739,
+      "turnout_rate": 76.7683
+    },
+    "TXQ-HEPING-TIANLUN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "天輪村",
+      "village_en": "Tianlun Village",
+      "votes": {
+        "1": 144,
+        "2": 198
+      },
+      "valid_votes": 342,
+      "invalid_votes": 17,
+      "ballots_cast": 359,
+      "unreturned_ballots": 0,
+      "electors": 485,
+      "turnout_rate": 74.0206
+    },
+    "TXQ-HEPING-BOAI": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "博愛村",
+      "village_en": "Boai Village",
+      "votes": {
+        "1": 371,
+        "2": 886
+      },
+      "valid_votes": 1257,
+      "invalid_votes": 20,
+      "ballots_cast": 1277,
+      "unreturned_ballots": 0,
+      "electors": 1639,
+      "turnout_rate": 77.9134
+    },
+    "TXQ-HEPING-ZHONGKENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "中坑村",
+      "village_en": "Zhongkeng Village",
+      "votes": {
+        "1": 126,
+        "2": 172
+      },
+      "valid_votes": 298,
+      "invalid_votes": 8,
+      "ballots_cast": 306,
+      "unreturned_ballots": 0,
+      "electors": 376,
+      "turnout_rate": 81.383
+    },
+    "TXQ-HEPING-ZIYOU": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "自由村",
+      "village_en": "Ziyou Village",
+      "votes": {
+        "1": 161,
+        "2": 542
+      },
+      "valid_votes": 703,
+      "invalid_votes": 22,
+      "ballots_cast": 725,
+      "unreturned_ballots": 0,
+      "electors": 947,
+      "turnout_rate": 76.5576
+    },
+    "TXQ-HEPING-DAGUAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "達觀村",
+      "village_en": "Daguan Village",
+      "votes": {
+        "1": 200,
+        "2": 567
+      },
+      "valid_votes": 767,
+      "invalid_votes": 17,
+      "ballots_cast": 784,
+      "unreturned_ballots": 0,
+      "electors": 988,
+      "turnout_rate": 79.3522
+    },
+    "TXQ-HEPING-LISHAN": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "梨山村",
+      "village_en": "Lishan Village",
+      "votes": {
+        "1": 265,
+        "2": 857
+      },
+      "valid_votes": 1122,
+      "invalid_votes": 27,
+      "ballots_cast": 1149,
+      "unreturned_ballots": 0,
+      "electors": 1915,
+      "turnout_rate": 60.0
+    },
+    "TXQ-HEPING-PINGDENG": {
+      "county_zh": "臺中縣",
+      "county_en": "Taichung County",
+      "township_zh": "和平鄉",
+      "township_en": "Heping Township",
+      "village_zh": "平等村",
+      "village_en": "Pingdeng Village",
+      "votes": {
+        "1": 93,
+        "2": 433
+      },
+      "valid_votes": 526,
+      "invalid_votes": 4,
+      "ballots_cast": 530,
+      "unreturned_ballots": 0,
+      "electors": 783,
+      "turnout_rate": 67.6884
+    }
+  }
+}

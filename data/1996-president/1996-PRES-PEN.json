@@ -1,0 +1,2088 @@
+{
+  "election_id": "1996-president",
+  "election_type": "president",
+  "source_file": "1996-PRES.xls",
+  "county_zh": "澎湖縣",
+  "county_en": "Penghu County",
+  "county_iso": "PEN",
+  "candidates": {
+    "1": {
+      "name_zh": "陳履安",
+      "running_mate_zh": "王清峰",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    },
+    "2": {
+      "name_zh": "李登輝",
+      "running_mate_zh": "連戰",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    },
+    "3": {
+      "name_zh": "彭明敏",
+      "running_mate_zh": "謝長廷",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "4": {
+      "name_zh": "林洋港",
+      "running_mate_zh": "郝柏村",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 4170,
+      "2": 25367,
+      "3": 8070,
+      "4": 2907
+    },
+    "valid_votes": 40514,
+    "invalid_votes": 563,
+    "ballots_cast": 41077,
+    "unreturned_ballots": 0,
+    "electors": 63533,
+    "turnout_rate": 64.6546
+  },
+  "townships": {
+    "PEN-MAGONG": {
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "votes": {
+        "1": 2709,
+        "2": 14632,
+        "3": 4645,
+        "4": 2051
+      },
+      "valid_votes": 24037,
+      "invalid_votes": 305,
+      "ballots_cast": 24342,
+      "unreturned_ballots": 0,
+      "electors": 35411,
+      "turnout_rate": 68.7414
+    },
+    "PEN-HUXI": {
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "votes": {
+        "1": 670,
+        "2": 3786,
+        "3": 1482,
+        "4": 387
+      },
+      "valid_votes": 6325,
+      "invalid_votes": 78,
+      "ballots_cast": 6403,
+      "unreturned_ballots": 0,
+      "electors": 9723,
+      "turnout_rate": 65.8542
+    },
+    "PEN-BAISHA": {
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "votes": {
+        "1": 297,
+        "2": 2668,
+        "3": 820,
+        "4": 194
+      },
+      "valid_votes": 3979,
+      "invalid_votes": 52,
+      "ballots_cast": 4031,
+      "unreturned_ballots": 0,
+      "electors": 6822,
+      "turnout_rate": 59.0882
+    },
+    "PEN-XIYU": {
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "votes": {
+        "1": 309,
+        "2": 2480,
+        "3": 824,
+        "4": 157
+      },
+      "valid_votes": 3770,
+      "invalid_votes": 67,
+      "ballots_cast": 3837,
+      "unreturned_ballots": 0,
+      "electors": 6551,
+      "turnout_rate": 58.5712
+    },
+    "PEN-WANGAN": {
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "votes": {
+        "1": 111,
+        "2": 833,
+        "3": 218,
+        "4": 59
+      },
+      "valid_votes": 1221,
+      "invalid_votes": 29,
+      "ballots_cast": 1250,
+      "unreturned_ballots": 0,
+      "electors": 2760,
+      "turnout_rate": 45.2899
+    },
+    "PEN-QIMEI": {
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "votes": {
+        "1": 74,
+        "2": 968,
+        "3": 81,
+        "4": 59
+      },
+      "valid_votes": 1182,
+      "invalid_votes": 32,
+      "ballots_cast": 1214,
+      "unreturned_ballots": 0,
+      "electors": 2266,
+      "turnout_rate": 53.5746
+    }
+  },
+  "villages": {
+    "PEN-MAGONG-XINFU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "新復里",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 12,
+        "2": 200,
+        "3": 1,
+        "4": 55
+      },
+      "valid_votes": 268,
+      "invalid_votes": 3,
+      "ballots_cast": 271,
+      "unreturned_ballots": 0,
+      "electors": 411,
+      "turnout_rate": 65.9367
+    },
+    "PEN-MAGONG-FUXING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 22,
+        "2": 181,
+        "3": 47,
+        "4": 11
+      },
+      "valid_votes": 261,
+      "invalid_votes": 0,
+      "ballots_cast": 261,
+      "unreturned_ballots": 0,
+      "electors": 349,
+      "turnout_rate": 74.7851
+    },
+    "PEN-MAGONG-ZHANGAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "長安里",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 70,
+        "2": 228,
+        "3": 104,
+        "4": 24
+      },
+      "valid_votes": 426,
+      "invalid_votes": 6,
+      "ballots_cast": 432,
+      "unreturned_ballots": 0,
+      "electors": 625,
+      "turnout_rate": 69.12
+    },
+    "PEN-MAGONG-ZHONGYANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "中央里",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 49,
+        "2": 169,
+        "3": 136,
+        "4": 25
+      },
+      "valid_votes": 379,
+      "invalid_votes": 8,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "electors": 553,
+      "turnout_rate": 69.9819
+    },
+    "PEN-MAGONG-QIMING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "啟明里",
+      "village_en": "Qiming Village",
+      "votes": {
+        "1": 59,
+        "2": 366,
+        "3": 186,
+        "4": 49
+      },
+      "valid_votes": 660,
+      "invalid_votes": 4,
+      "ballots_cast": 664,
+      "unreturned_ballots": 0,
+      "electors": 933,
+      "turnout_rate": 71.1683
+    },
+    "PEN-MAGONG-ZHONGQING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "重慶里",
+      "village_en": "Zhongqing Village",
+      "votes": {
+        "1": 98,
+        "2": 410,
+        "3": 239,
+        "4": 39
+      },
+      "valid_votes": 786,
+      "invalid_votes": 10,
+      "ballots_cast": 796,
+      "unreturned_ballots": 0,
+      "electors": 1132,
+      "turnout_rate": 70.318
+    },
+    "PEN-MAGONG-ZHONGXING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 61,
+        "2": 313,
+        "3": 90,
+        "4": 82
+      },
+      "valid_votes": 546,
+      "invalid_votes": 8,
+      "ballots_cast": 554,
+      "unreturned_ballots": 0,
+      "electors": 768,
+      "turnout_rate": 72.1354
+    },
+    "PEN-MAGONG-GUANGFU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "光復里",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 143,
+        "2": 675,
+        "3": 279,
+        "4": 145
+      },
+      "valid_votes": 1242,
+      "invalid_votes": 17,
+      "ballots_cast": 1259,
+      "unreturned_ballots": 0,
+      "electors": 1793,
+      "turnout_rate": 70.2175
+    },
+    "PEN-MAGONG-GUANGMING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "光明里",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 114,
+        "2": 510,
+        "3": 155,
+        "4": 162
+      },
+      "valid_votes": 941,
+      "invalid_votes": 13,
+      "ballots_cast": 954,
+      "unreturned_ballots": 0,
+      "electors": 1403,
+      "turnout_rate": 67.9971
+    },
+    "PEN-MAGONG-GUANGRONG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "光榮里",
+      "village_en": "Guangrong Village",
+      "votes": {
+        "1": 184,
+        "2": 932,
+        "3": 237,
+        "4": 218
+      },
+      "valid_votes": 1571,
+      "invalid_votes": 19,
+      "ballots_cast": 1590,
+      "unreturned_ballots": 0,
+      "electors": 2208,
+      "turnout_rate": 72.0109
+    },
+    "PEN-MAGONG-CHAOYANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "朝陽里",
+      "village_en": "Chaoyang Village",
+      "votes": {
+        "1": 391,
+        "2": 1425,
+        "3": 613,
+        "4": 269
+      },
+      "valid_votes": 2698,
+      "invalid_votes": 20,
+      "ballots_cast": 2718,
+      "unreturned_ballots": 0,
+      "electors": 3921,
+      "turnout_rate": 69.3191
+    },
+    "PEN-MAGONG-YANGMING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "陽明里",
+      "village_en": "Yangming Village",
+      "votes": {
+        "1": 220,
+        "2": 835,
+        "3": 322,
+        "4": 153
+      },
+      "valid_votes": 1530,
+      "invalid_votes": 20,
+      "ballots_cast": 1550,
+      "unreturned_ballots": 0,
+      "electors": 2250,
+      "turnout_rate": 68.8889
+    },
+    "PEN-MAGONG-CHONGGUANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "重光里",
+      "village_en": "Chongguang Village",
+      "votes": {
+        "1": 54,
+        "2": 327,
+        "3": 138,
+        "4": 58
+      },
+      "valid_votes": 577,
+      "invalid_votes": 10,
+      "ballots_cast": 587,
+      "unreturned_ballots": 0,
+      "electors": 814,
+      "turnout_rate": 72.113
+    },
+    "PEN-MAGONG-XIWEI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "西衛里",
+      "village_en": "Xiwei Village",
+      "votes": {
+        "1": 137,
+        "2": 966,
+        "3": 263,
+        "4": 105
+      },
+      "valid_votes": 1471,
+      "invalid_votes": 17,
+      "ballots_cast": 1488,
+      "unreturned_ballots": 0,
+      "electors": 2110,
+      "turnout_rate": 70.5213
+    },
+    "PEN-MAGONG-XIWEN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "西文里",
+      "village_en": "Xiwen Village",
+      "votes": {
+        "1": 145,
+        "2": 741,
+        "3": 192,
+        "4": 129
+      },
+      "valid_votes": 1207,
+      "invalid_votes": 11,
+      "ballots_cast": 1218,
+      "unreturned_ballots": 0,
+      "electors": 1745,
+      "turnout_rate": 69.7994
+    },
+    "PEN-MAGONG-DONGWEN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "東文里",
+      "village_en": "Dongwen Village",
+      "votes": {
+        "1": 148,
+        "2": 595,
+        "3": 189,
+        "4": 78
+      },
+      "valid_votes": 1010,
+      "invalid_votes": 11,
+      "ballots_cast": 1021,
+      "unreturned_ballots": 0,
+      "electors": 1395,
+      "turnout_rate": 73.19
+    },
+    "PEN-MAGONG-ANSHAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "案山里",
+      "village_en": "Anshan Village",
+      "votes": {
+        "1": 75,
+        "2": 598,
+        "3": 139,
+        "4": 46
+      },
+      "valid_votes": 858,
+      "invalid_votes": 6,
+      "ballots_cast": 864,
+      "unreturned_ballots": 0,
+      "electors": 1151,
+      "turnout_rate": 75.0652
+    },
+    "PEN-MAGONG-GUANGHUA": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "光華里",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 31,
+        "2": 227,
+        "3": 7,
+        "4": 68
+      },
+      "valid_votes": 333,
+      "invalid_votes": 5,
+      "ballots_cast": 338,
+      "unreturned_ballots": 0,
+      "electors": 512,
+      "turnout_rate": 66.0156
+    },
+    "PEN-MAGONG-QIANLIAO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "前寮里",
+      "village_en": "Qianliao Village",
+      "votes": {
+        "1": 21,
+        "2": 251,
+        "3": 71,
+        "4": 9
+      },
+      "valid_votes": 352,
+      "invalid_votes": 4,
+      "ballots_cast": 356,
+      "unreturned_ballots": 0,
+      "electors": 481,
+      "turnout_rate": 74.0125
+    },
+    "PEN-MAGONG-SHIQUAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "石泉里",
+      "village_en": "Shiquan Village",
+      "votes": {
+        "1": 73,
+        "2": 454,
+        "3": 107,
+        "4": 70
+      },
+      "valid_votes": 704,
+      "invalid_votes": 9,
+      "ballots_cast": 713,
+      "unreturned_ballots": 0,
+      "electors": 1013,
+      "turnout_rate": 70.385
+    },
+    "PEN-MAGONG-CAIYUAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "菜園里",
+      "village_en": "Caiyuan Village",
+      "votes": {
+        "1": 10,
+        "2": 197,
+        "3": 29,
+        "4": 10
+      },
+      "valid_votes": 246,
+      "invalid_votes": 5,
+      "ballots_cast": 251,
+      "unreturned_ballots": 0,
+      "electors": 328,
+      "turnout_rate": 76.5244
+    },
+    "PEN-MAGONG-DONGWEI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "東衛里",
+      "village_en": "Dongwei Village",
+      "votes": {
+        "1": 91,
+        "2": 582,
+        "3": 114,
+        "4": 37
+      },
+      "valid_votes": 824,
+      "invalid_votes": 18,
+      "ballots_cast": 842,
+      "unreturned_ballots": 0,
+      "electors": 1126,
+      "turnout_rate": 74.778
+    },
+    "PEN-MAGONG-ANZHAI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "安宅里",
+      "village_en": "Anzhai Village",
+      "votes": {
+        "1": 30,
+        "2": 193,
+        "3": 72,
+        "4": 15
+      },
+      "valid_votes": 310,
+      "invalid_votes": 2,
+      "ballots_cast": 312,
+      "unreturned_ballots": 0,
+      "electors": 432,
+      "turnout_rate": 72.2222
+    },
+    "PEN-MAGONG-XINGREN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "興仁里",
+      "village_en": "Xingren Village",
+      "votes": {
+        "1": 36,
+        "2": 227,
+        "3": 70,
+        "4": 30
+      },
+      "valid_votes": 363,
+      "invalid_votes": 4,
+      "ballots_cast": 367,
+      "unreturned_ballots": 0,
+      "electors": 532,
+      "turnout_rate": 68.985
+    },
+    "PEN-MAGONG-WUKAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "烏崁里",
+      "village_en": "Wukan Village",
+      "votes": {
+        "1": 62,
+        "2": 315,
+        "3": 104,
+        "4": 19
+      },
+      "valid_votes": 500,
+      "invalid_votes": 8,
+      "ballots_cast": 508,
+      "unreturned_ballots": 0,
+      "electors": 779,
+      "turnout_rate": 65.2118
+    },
+    "PEN-MAGONG-TIEXIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "鐵線里",
+      "village_en": "Tiexian Village",
+      "votes": {
+        "1": 25,
+        "2": 148,
+        "3": 50,
+        "4": 14
+      },
+      "valid_votes": 237,
+      "invalid_votes": 1,
+      "ballots_cast": 238,
+      "unreturned_ballots": 0,
+      "electors": 325,
+      "turnout_rate": 73.2308
+    },
+    "PEN-MAGONG-SUOGANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "鎖港里",
+      "village_en": "Suogang Village",
+      "votes": {
+        "1": 108,
+        "2": 675,
+        "3": 326,
+        "4": 47
+      },
+      "valid_votes": 1156,
+      "invalid_votes": 24,
+      "ballots_cast": 1180,
+      "unreturned_ballots": 0,
+      "electors": 1860,
+      "turnout_rate": 63.4409
+    },
+    "PEN-MAGONG-SHANSHUI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "山水里",
+      "village_en": "Shanshui Village",
+      "votes": {
+        "1": 78,
+        "2": 528,
+        "3": 153,
+        "4": 21
+      },
+      "valid_votes": 780,
+      "invalid_votes": 7,
+      "ballots_cast": 787,
+      "unreturned_ballots": 0,
+      "electors": 1246,
+      "turnout_rate": 63.1621
+    },
+    "PEN-MAGONG-WUDE": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "五德里",
+      "village_en": "Wude Village",
+      "votes": {
+        "1": 13,
+        "2": 78,
+        "3": 10,
+        "4": 4
+      },
+      "valid_votes": 105,
+      "invalid_votes": 1,
+      "ballots_cast": 106,
+      "unreturned_ballots": 0,
+      "electors": 171,
+      "turnout_rate": 61.9883
+    },
+    "PEN-MAGONG-JINGAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "井垵里",
+      "village_en": "Jingan Village",
+      "votes": {
+        "1": 16,
+        "2": 164,
+        "3": 29,
+        "4": 5
+      },
+      "valid_votes": 214,
+      "invalid_votes": 7,
+      "ballots_cast": 221,
+      "unreturned_ballots": 0,
+      "electors": 319,
+      "turnout_rate": 69.279
+    },
+    "PEN-MAGONG-SHILI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "時裡里",
+      "village_en": "Shili Village",
+      "votes": {
+        "1": 33,
+        "2": 537,
+        "3": 31,
+        "4": 21
+      },
+      "valid_votes": 622,
+      "invalid_votes": 4,
+      "ballots_cast": 626,
+      "unreturned_ballots": 0,
+      "electors": 956,
+      "turnout_rate": 65.4812
+    },
+    "PEN-MAGONG-FENGGUI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "風櫃里",
+      "village_en": "Fenggui Village",
+      "votes": {
+        "1": 73,
+        "2": 357,
+        "3": 113,
+        "4": 27
+      },
+      "valid_votes": 570,
+      "invalid_votes": 12,
+      "ballots_cast": 582,
+      "unreturned_ballots": 0,
+      "electors": 1071,
+      "turnout_rate": 54.3417
+    },
+    "PEN-MAGONG-HUJING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "虎井里",
+      "village_en": "Hujing Village",
+      "votes": {
+        "1": 22,
+        "2": 172,
+        "3": 24,
+        "4": 5
+      },
+      "valid_votes": 223,
+      "invalid_votes": 9,
+      "ballots_cast": 232,
+      "unreturned_ballots": 0,
+      "electors": 547,
+      "turnout_rate": 42.4132
+    },
+    "PEN-MAGONG-TONGPAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "馬公市",
+      "township_en": "Magong City",
+      "village_zh": "桶盤里",
+      "village_en": "Tongpan Village",
+      "votes": {
+        "1": 5,
+        "2": 56,
+        "3": 5,
+        "4": 1
+      },
+      "valid_votes": 67,
+      "invalid_votes": 2,
+      "ballots_cast": 69,
+      "unreturned_ballots": 0,
+      "electors": 152,
+      "turnout_rate": 45.3947
+    },
+    "PEN-HUXI-HUXI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "湖西村",
+      "village_en": "Huxi Village",
+      "votes": {
+        "1": 72,
+        "2": 295,
+        "3": 141,
+        "4": 36
+      },
+      "valid_votes": 544,
+      "invalid_votes": 12,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "electors": 808,
+      "turnout_rate": 68.8119
+    },
+    "PEN-HUXI-HUDONG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "湖東村",
+      "village_en": "Hudong Village",
+      "votes": {
+        "1": 23,
+        "2": 116,
+        "3": 37,
+        "4": 17
+      },
+      "valid_votes": 193,
+      "invalid_votes": 2,
+      "ballots_cast": 195,
+      "unreturned_ballots": 0,
+      "electors": 268,
+      "turnout_rate": 72.7612
+    },
+    "PEN-HUXI-QINGLUO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "青螺村",
+      "village_en": "Qingluo Village",
+      "votes": {
+        "1": 12,
+        "2": 76,
+        "3": 31,
+        "4": 12
+      },
+      "valid_votes": 131,
+      "invalid_votes": 1,
+      "ballots_cast": 132,
+      "unreturned_ballots": 0,
+      "electors": 212,
+      "turnout_rate": 62.2642
+    },
+    "PEN-HUXI-BAIKENG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "白坑村",
+      "village_en": "Baikeng Village",
+      "votes": {
+        "1": 14,
+        "2": 116,
+        "3": 10,
+        "4": 8
+      },
+      "valid_votes": 148,
+      "invalid_votes": 3,
+      "ballots_cast": 151,
+      "unreturned_ballots": 0,
+      "electors": 240,
+      "turnout_rate": 62.9167
+    },
+    "PEN-HUXI-NANLIAO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "南寮村",
+      "village_en": "Nanliao Village",
+      "votes": {
+        "1": 18,
+        "2": 217,
+        "3": 101,
+        "4": 21
+      },
+      "valid_votes": 357,
+      "invalid_votes": 2,
+      "ballots_cast": 359,
+      "unreturned_ballots": 0,
+      "electors": 598,
+      "turnout_rate": 60.0334
+    },
+    "PEN-HUXI-BEILIAO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "北寮村",
+      "village_en": "Beiliao Village",
+      "votes": {
+        "1": 39,
+        "2": 117,
+        "3": 24,
+        "4": 8
+      },
+      "valid_votes": 188,
+      "invalid_votes": 3,
+      "ballots_cast": 191,
+      "unreturned_ballots": 0,
+      "electors": 264,
+      "turnout_rate": 72.3485
+    },
+    "PEN-HUXI-HONGLUO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "紅羅村",
+      "village_en": "Hongluo Village",
+      "votes": {
+        "1": 15,
+        "2": 197,
+        "3": 88,
+        "4": 16
+      },
+      "valid_votes": 316,
+      "invalid_votes": 5,
+      "ballots_cast": 321,
+      "unreturned_ballots": 0,
+      "electors": 508,
+      "turnout_rate": 63.189
+    },
+    "PEN-HUXI-XIXI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "西溪村",
+      "village_en": "Xixi Village",
+      "votes": {
+        "1": 51,
+        "2": 109,
+        "3": 58,
+        "4": 61
+      },
+      "valid_votes": 279,
+      "invalid_votes": 3,
+      "ballots_cast": 282,
+      "unreturned_ballots": 0,
+      "electors": 398,
+      "turnout_rate": 70.8543
+    },
+    "PEN-HUXI-CHENGGONG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "成功村",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 27,
+        "2": 177,
+        "3": 54,
+        "4": 5
+      },
+      "valid_votes": 263,
+      "invalid_votes": 4,
+      "ballots_cast": 267,
+      "unreturned_ballots": 0,
+      "electors": 386,
+      "turnout_rate": 69.171
+    },
+    "PEN-HUXI-DONGSHI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "東石村",
+      "village_en": "Dongshi Village",
+      "votes": {
+        "1": 11,
+        "2": 40,
+        "3": 21,
+        "4": 2
+      },
+      "valid_votes": 74,
+      "invalid_votes": 2,
+      "ballots_cast": 76,
+      "unreturned_ballots": 0,
+      "electors": 108,
+      "turnout_rate": 70.3704
+    },
+    "PEN-HUXI-SHAGANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "沙港村",
+      "village_en": "Shagang Village",
+      "votes": {
+        "1": 46,
+        "2": 236,
+        "3": 180,
+        "4": 14
+      },
+      "valid_votes": 476,
+      "invalid_votes": 6,
+      "ballots_cast": 482,
+      "unreturned_ballots": 0,
+      "electors": 741,
+      "turnout_rate": 65.0472
+    },
+    "PEN-HUXI-ZHONGXI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "中西村",
+      "village_en": "Zhongxi Village",
+      "votes": {
+        "1": 6,
+        "2": 57,
+        "3": 29,
+        "4": 7
+      },
+      "valid_votes": 99,
+      "invalid_votes": 3,
+      "ballots_cast": 102,
+      "unreturned_ballots": 0,
+      "electors": 156,
+      "turnout_rate": 65.3846
+    },
+    "PEN-HUXI-DINGWAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "鼎灣村",
+      "village_en": "Dingwan Village",
+      "votes": {
+        "1": 15,
+        "2": 110,
+        "3": 53,
+        "4": 19
+      },
+      "valid_votes": 197,
+      "invalid_votes": 2,
+      "ballots_cast": 199,
+      "unreturned_ballots": 0,
+      "electors": 385,
+      "turnout_rate": 51.6883
+    },
+    "PEN-HUXI-TANBIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "潭邊村",
+      "village_en": "Tanbian Village",
+      "votes": {
+        "1": 22,
+        "2": 85,
+        "3": 53,
+        "4": 11
+      },
+      "valid_votes": 171,
+      "invalid_votes": 0,
+      "ballots_cast": 171,
+      "unreturned_ballots": 0,
+      "electors": 229,
+      "turnout_rate": 74.6725
+    },
+    "PEN-HUXI-XUJIA": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "許家村",
+      "village_en": "Xujia Village",
+      "votes": {
+        "1": 10,
+        "2": 91,
+        "3": 14,
+        "4": 3
+      },
+      "valid_votes": 118,
+      "invalid_votes": 2,
+      "ballots_cast": 120,
+      "unreturned_ballots": 0,
+      "electors": 182,
+      "turnout_rate": 65.9341
+    },
+    "PEN-HUXI-CHENGBEI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "城北村",
+      "village_en": "Chengbei Village",
+      "votes": {
+        "1": 16,
+        "2": 88,
+        "3": 23,
+        "4": 11
+      },
+      "valid_votes": 138,
+      "invalid_votes": 2,
+      "ballots_cast": 140,
+      "unreturned_ballots": 0,
+      "electors": 193,
+      "turnout_rate": 72.5389
+    },
+    "PEN-HUXI-TAIWU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "太武村",
+      "village_en": "Taiwu Village",
+      "votes": {
+        "1": 5,
+        "2": 36,
+        "3": 5,
+        "4": 4
+      },
+      "valid_votes": 50,
+      "invalid_votes": 0,
+      "ballots_cast": 50,
+      "unreturned_ballots": 0,
+      "electors": 76,
+      "turnout_rate": 65.7895
+    },
+    "PEN-HUXI-AIMEN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "隘門村",
+      "village_en": "Aimen Village",
+      "votes": {
+        "1": 30,
+        "2": 290,
+        "3": 65,
+        "4": 40
+      },
+      "valid_votes": 425,
+      "invalid_votes": 3,
+      "ballots_cast": 428,
+      "unreturned_ballots": 0,
+      "electors": 624,
+      "turnout_rate": 68.5897
+    },
+    "PEN-HUXI-LINTOU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "林投村",
+      "village_en": "Lintou Village",
+      "votes": {
+        "1": 43,
+        "2": 335,
+        "3": 113,
+        "4": 29
+      },
+      "valid_votes": 520,
+      "invalid_votes": 6,
+      "ballots_cast": 526,
+      "unreturned_ballots": 0,
+      "electors": 793,
+      "turnout_rate": 66.3304
+    },
+    "PEN-HUXI-JIANSHAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "尖山村",
+      "village_en": "Jianshan Village",
+      "votes": {
+        "1": 16,
+        "2": 177,
+        "3": 85,
+        "4": 10
+      },
+      "valid_votes": 288,
+      "invalid_votes": 1,
+      "ballots_cast": 289,
+      "unreturned_ballots": 0,
+      "electors": 465,
+      "turnout_rate": 62.1505
+    },
+    "PEN-HUXI-LONGMEN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "龍門村",
+      "village_en": "Longmen Village",
+      "votes": {
+        "1": 151,
+        "2": 538,
+        "3": 230,
+        "4": 48
+      },
+      "valid_votes": 967,
+      "invalid_votes": 11,
+      "ballots_cast": 978,
+      "unreturned_ballots": 0,
+      "electors": 1484,
+      "turnout_rate": 65.903
+    },
+    "PEN-HUXI-GUOYE": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "湖西鄉",
+      "township_en": "Huxi Township",
+      "village_zh": "果葉村",
+      "village_en": "Guoye Village",
+      "votes": {
+        "1": 28,
+        "2": 283,
+        "3": 67,
+        "4": 5
+      },
+      "valid_votes": 383,
+      "invalid_votes": 5,
+      "ballots_cast": 388,
+      "unreturned_ballots": 0,
+      "electors": 605,
+      "turnout_rate": 64.1322
+    },
+    "PEN-BAISHA-ZHONGTUN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "中屯村",
+      "village_en": "Zhongtun Village",
+      "votes": {
+        "1": 13,
+        "2": 165,
+        "3": 87,
+        "4": 8
+      },
+      "valid_votes": 273,
+      "invalid_votes": 6,
+      "ballots_cast": 279,
+      "unreturned_ballots": 0,
+      "electors": 400,
+      "turnout_rate": 69.75
+    },
+    "PEN-BAISHA-JIANGMEI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "講美村",
+      "village_en": "Jiangmei Village",
+      "votes": {
+        "1": 21,
+        "2": 194,
+        "3": 112,
+        "4": 26
+      },
+      "valid_votes": 353,
+      "invalid_votes": 3,
+      "ballots_cast": 356,
+      "unreturned_ballots": 0,
+      "electors": 499,
+      "turnout_rate": 71.3427
+    },
+    "PEN-BAISHA-CHENGQIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "城前村",
+      "village_en": "Chengqian Village",
+      "votes": {
+        "1": 6,
+        "2": 43,
+        "3": 9,
+        "4": 4
+      },
+      "valid_votes": 62,
+      "invalid_votes": 0,
+      "ballots_cast": 62,
+      "unreturned_ballots": 0,
+      "electors": 87,
+      "turnout_rate": 71.2644
+    },
+    "PEN-BAISHA-ZHENHAI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "鎮海村",
+      "village_en": "Zhenhai Village",
+      "votes": {
+        "1": 8,
+        "2": 56,
+        "3": 8,
+        "4": 4
+      },
+      "valid_votes": 76,
+      "invalid_votes": 0,
+      "ballots_cast": 76,
+      "unreturned_ballots": 0,
+      "electors": 103,
+      "turnout_rate": 73.7864
+    },
+    "PEN-BAISHA-GANGZI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "港子村",
+      "village_en": "Gangzi Village",
+      "votes": {
+        "1": 10,
+        "2": 121,
+        "3": 22,
+        "4": 7
+      },
+      "valid_votes": 160,
+      "invalid_votes": 2,
+      "ballots_cast": 162,
+      "unreturned_ballots": 0,
+      "electors": 262,
+      "turnout_rate": 61.8321
+    },
+    "PEN-BAISHA-QITOU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "岐頭村",
+      "village_en": "Qitou Village",
+      "votes": {
+        "1": 4,
+        "2": 71,
+        "3": 29,
+        "4": 3
+      },
+      "valid_votes": 107,
+      "invalid_votes": 2,
+      "ballots_cast": 109,
+      "unreturned_ballots": 0,
+      "electors": 179,
+      "turnout_rate": 60.8939
+    },
+    "PEN-BAISHA-XIAOCHI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "小赤村",
+      "village_en": "Xiaochi Village",
+      "votes": {
+        "1": 15,
+        "2": 51,
+        "3": 28,
+        "4": 6
+      },
+      "valid_votes": 100,
+      "invalid_votes": 0,
+      "ballots_cast": 100,
+      "unreturned_ballots": 0,
+      "electors": 164,
+      "turnout_rate": 60.9756
+    },
+    "PEN-BAISHA-CHIKAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "赤崁村",
+      "village_en": "Chikan Village",
+      "votes": {
+        "1": 66,
+        "2": 454,
+        "3": 197,
+        "4": 52
+      },
+      "valid_votes": 769,
+      "invalid_votes": 16,
+      "ballots_cast": 785,
+      "unreturned_ballots": 0,
+      "electors": 1225,
+      "turnout_rate": 64.0816
+    },
+    "PEN-BAISHA-WADONG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "瓦硐村",
+      "village_en": "Wadong Village",
+      "votes": {
+        "1": 14,
+        "2": 123,
+        "3": 34,
+        "4": 3
+      },
+      "valid_votes": 174,
+      "invalid_votes": 1,
+      "ballots_cast": 175,
+      "unreturned_ballots": 0,
+      "electors": 273,
+      "turnout_rate": 64.1026
+    },
+    "PEN-BAISHA-HOULIAO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "後寮村",
+      "village_en": "Houliao Village",
+      "votes": {
+        "1": 32,
+        "2": 223,
+        "3": 104,
+        "4": 7
+      },
+      "valid_votes": 366,
+      "invalid_votes": 8,
+      "ballots_cast": 374,
+      "unreturned_ballots": 0,
+      "electors": 635,
+      "turnout_rate": 58.8976
+    },
+    "PEN-BAISHA-TONGLIANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "通梁村",
+      "village_en": "Tongliang Village",
+      "votes": {
+        "1": 28,
+        "2": 288,
+        "3": 93,
+        "4": 28
+      },
+      "valid_votes": 437,
+      "invalid_votes": 5,
+      "ballots_cast": 442,
+      "unreturned_ballots": 0,
+      "electors": 704,
+      "turnout_rate": 62.7841
+    },
+    "PEN-BAISHA-JIBEI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "吉貝村",
+      "village_en": "Jibei Village",
+      "votes": {
+        "1": 30,
+        "2": 439,
+        "3": 47,
+        "4": 10
+      },
+      "valid_votes": 526,
+      "invalid_votes": 4,
+      "ballots_cast": 530,
+      "unreturned_ballots": 0,
+      "electors": 1129,
+      "turnout_rate": 46.9442
+    },
+    "PEN-BAISHA-NIAOYU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "鳥嶼村",
+      "village_en": "Niaoyu Village",
+      "votes": {
+        "1": 39,
+        "2": 294,
+        "3": 30,
+        "4": 27
+      },
+      "valid_votes": 390,
+      "invalid_votes": 5,
+      "ballots_cast": 395,
+      "unreturned_ballots": 0,
+      "electors": 825,
+      "turnout_rate": 47.8788
+    },
+    "PEN-BAISHA-YUANBEI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "員貝村",
+      "village_en": "Yuanbei Village",
+      "votes": {
+        "1": 7,
+        "2": 76,
+        "3": 9,
+        "4": 7
+      },
+      "valid_votes": 99,
+      "invalid_votes": 0,
+      "ballots_cast": 99,
+      "unreturned_ballots": 0,
+      "electors": 180,
+      "turnout_rate": 55.0
+    },
+    "PEN-BAISHA-DACANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "白沙鄉",
+      "township_en": "Baisha Township",
+      "village_zh": "大倉村",
+      "village_en": "Dacang Village",
+      "votes": {
+        "1": 4,
+        "2": 70,
+        "3": 11,
+        "4": 2
+      },
+      "valid_votes": 87,
+      "invalid_votes": 0,
+      "ballots_cast": 87,
+      "unreturned_ballots": 0,
+      "electors": 157,
+      "turnout_rate": 55.414
+    },
+    "PEN-XIYU-HENGJIAO": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "橫礁村",
+      "village_en": "Hengjiao Village",
+      "votes": {
+        "1": 13,
+        "2": 99,
+        "3": 24,
+        "4": 2
+      },
+      "valid_votes": 138,
+      "invalid_votes": 4,
+      "ballots_cast": 142,
+      "unreturned_ballots": 0,
+      "electors": 241,
+      "turnout_rate": 58.9212
+    },
+    "PEN-XIYU-HEJIE": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "合界村",
+      "village_en": "Hejie Village",
+      "votes": {
+        "1": 14,
+        "2": 154,
+        "3": 58,
+        "4": 6
+      },
+      "valid_votes": 232,
+      "invalid_votes": 5,
+      "ballots_cast": 237,
+      "unreturned_ballots": 0,
+      "electors": 418,
+      "turnout_rate": 56.6986
+    },
+    "PEN-XIYU-ZHUWAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "竹灣村",
+      "village_en": "Zhuwan Village",
+      "votes": {
+        "1": 31,
+        "2": 310,
+        "3": 78,
+        "4": 14
+      },
+      "valid_votes": 433,
+      "invalid_votes": 9,
+      "ballots_cast": 442,
+      "unreturned_ballots": 0,
+      "electors": 782,
+      "turnout_rate": 56.5217
+    },
+    "PEN-XIYU-XIAOMEN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "小門村",
+      "village_en": "Xiaomen Village",
+      "votes": {
+        "1": 7,
+        "2": 145,
+        "3": 7,
+        "4": 1
+      },
+      "valid_votes": 160,
+      "invalid_votes": 2,
+      "ballots_cast": 162,
+      "unreturned_ballots": 0,
+      "electors": 243,
+      "turnout_rate": 66.6667
+    },
+    "PEN-XIYU-DACHI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "大池村",
+      "village_en": "Dachi Village",
+      "votes": {
+        "1": 21,
+        "2": 213,
+        "3": 88,
+        "4": 13
+      },
+      "valid_votes": 335,
+      "invalid_votes": 8,
+      "ballots_cast": 343,
+      "unreturned_ballots": 0,
+      "electors": 609,
+      "turnout_rate": 56.3218
+    },
+    "PEN-XIYU-ERKAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "二崁村",
+      "village_en": "Erkan Village",
+      "votes": {
+        "1": 2,
+        "2": 39,
+        "3": 11,
+        "4": 0
+      },
+      "valid_votes": 52,
+      "invalid_votes": 2,
+      "ballots_cast": 54,
+      "unreturned_ballots": 0,
+      "electors": 98,
+      "turnout_rate": 55.102
+    },
+    "PEN-XIYU-CHIDONG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "池東村",
+      "village_en": "Chidong Village",
+      "votes": {
+        "1": 32,
+        "2": 190,
+        "3": 71,
+        "4": 19
+      },
+      "valid_votes": 312,
+      "invalid_votes": 7,
+      "ballots_cast": 319,
+      "unreturned_ballots": 0,
+      "electors": 496,
+      "turnout_rate": 64.3145
+    },
+    "PEN-XIYU-CHIXI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "池西村",
+      "village_en": "Chixi Village",
+      "votes": {
+        "1": 4,
+        "2": 82,
+        "3": 21,
+        "4": 7
+      },
+      "valid_votes": 114,
+      "invalid_votes": 4,
+      "ballots_cast": 118,
+      "unreturned_ballots": 0,
+      "electors": 199,
+      "turnout_rate": 59.2965
+    },
+    "PEN-XIYU-CHIMA": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "赤馬村",
+      "village_en": "Chima Village",
+      "votes": {
+        "1": 30,
+        "2": 165,
+        "3": 132,
+        "4": 6
+      },
+      "valid_votes": 333,
+      "invalid_votes": 6,
+      "ballots_cast": 339,
+      "unreturned_ballots": 0,
+      "electors": 604,
+      "turnout_rate": 56.1258
+    },
+    "PEN-XIYU-NEIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "內垵村",
+      "village_en": "Neian Village",
+      "votes": {
+        "1": 80,
+        "2": 422,
+        "3": 211,
+        "4": 17
+      },
+      "valid_votes": 730,
+      "invalid_votes": 8,
+      "ballots_cast": 738,
+      "unreturned_ballots": 0,
+      "electors": 1189,
+      "turnout_rate": 62.069
+    },
+    "PEN-XIYU-WAIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "西嶼鄉",
+      "township_en": "Xiyu Township",
+      "village_zh": "外垵村",
+      "village_en": "Waian Village",
+      "votes": {
+        "1": 75,
+        "2": 661,
+        "3": 123,
+        "4": 72
+      },
+      "valid_votes": 931,
+      "invalid_votes": 12,
+      "ballots_cast": 943,
+      "unreturned_ballots": 0,
+      "electors": 1672,
+      "turnout_rate": 56.3995
+    },
+    "PEN-WANGAN-DONGAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "東安村",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 11,
+        "2": 142,
+        "3": 34,
+        "4": 10
+      },
+      "valid_votes": 197,
+      "invalid_votes": 3,
+      "ballots_cast": 200,
+      "unreturned_ballots": 0,
+      "electors": 384,
+      "turnout_rate": 52.0833
+    },
+    "PEN-WANGAN-XIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "西安村",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 11,
+        "2": 139,
+        "3": 18,
+        "4": 6
+      },
+      "valid_votes": 174,
+      "invalid_votes": 4,
+      "ballots_cast": 178,
+      "unreturned_ballots": 0,
+      "electors": 325,
+      "turnout_rate": 54.7692
+    },
+    "PEN-WANGAN-ZHONGSHE": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "中社村",
+      "village_en": "Zhongshe Village",
+      "votes": {
+        "1": 7,
+        "2": 65,
+        "3": 10,
+        "4": 8
+      },
+      "valid_votes": 90,
+      "invalid_votes": 2,
+      "ballots_cast": 92,
+      "unreturned_ballots": 0,
+      "electors": 199,
+      "turnout_rate": 46.2312
+    },
+    "PEN-WANGAN-SHUIAN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "水垵村",
+      "village_en": "Shuian Village",
+      "votes": {
+        "1": 9,
+        "2": 77,
+        "3": 10,
+        "4": 11
+      },
+      "valid_votes": 107,
+      "invalid_votes": 4,
+      "ballots_cast": 111,
+      "unreturned_ballots": 0,
+      "electors": 230,
+      "turnout_rate": 48.2609
+    },
+    "PEN-WANGAN-JIANGJUN": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "將軍村",
+      "village_en": "Jiangjun Village",
+      "votes": {
+        "1": 58,
+        "2": 214,
+        "3": 118,
+        "4": 16
+      },
+      "valid_votes": 406,
+      "invalid_votes": 12,
+      "ballots_cast": 418,
+      "unreturned_ballots": 0,
+      "electors": 1047,
+      "turnout_rate": 39.9236
+    },
+    "PEN-WANGAN-DONGJI": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "東吉村",
+      "village_en": "Dongji Village",
+      "votes": {
+        "1": 3,
+        "2": 17,
+        "3": 4,
+        "4": 0
+      },
+      "valid_votes": 24,
+      "invalid_votes": 0,
+      "ballots_cast": 24,
+      "unreturned_ballots": 0,
+      "electors": 67,
+      "turnout_rate": 35.8209
+    },
+    "PEN-WANGAN-DONGPING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "東坪村",
+      "village_en": "Dongping Village",
+      "votes": {
+        "1": 8,
+        "2": 45,
+        "3": 11,
+        "4": 3
+      },
+      "valid_votes": 67,
+      "invalid_votes": 0,
+      "ballots_cast": 67,
+      "unreturned_ballots": 0,
+      "electors": 174,
+      "turnout_rate": 38.5057
+    },
+    "PEN-WANGAN-XIPING": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "西坪村",
+      "village_en": "Xiping Village",
+      "votes": {
+        "1": 1,
+        "2": 26,
+        "3": 4,
+        "4": 4
+      },
+      "valid_votes": 35,
+      "invalid_votes": 2,
+      "ballots_cast": 37,
+      "unreturned_ballots": 0,
+      "electors": 108,
+      "turnout_rate": 34.2593
+    },
+    "PEN-WANGAN-HUAYU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "望安鄉",
+      "township_en": "Wangan Township",
+      "village_zh": "花嶼村",
+      "village_en": "Huayu Village",
+      "votes": {
+        "1": 3,
+        "2": 108,
+        "3": 9,
+        "4": 1
+      },
+      "valid_votes": 121,
+      "invalid_votes": 2,
+      "ballots_cast": 123,
+      "unreturned_ballots": 0,
+      "electors": 226,
+      "turnout_rate": 54.4248
+    },
+    "PEN-QIMEI-DONGHU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "village_zh": "東湖村",
+      "village_en": "Donghu Village",
+      "votes": {
+        "1": 5,
+        "2": 107,
+        "3": 6,
+        "4": 1
+      },
+      "valid_votes": 119,
+      "invalid_votes": 6,
+      "ballots_cast": 125,
+      "unreturned_ballots": 0,
+      "electors": 225,
+      "turnout_rate": 55.5556
+    },
+    "PEN-QIMEI-XIHU": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "village_zh": "西湖村",
+      "village_en": "Xihu Village",
+      "votes": {
+        "1": 15,
+        "2": 131,
+        "3": 21,
+        "4": 14
+      },
+      "valid_votes": 181,
+      "invalid_votes": 7,
+      "ballots_cast": 188,
+      "unreturned_ballots": 0,
+      "electors": 378,
+      "turnout_rate": 49.7354
+    },
+    "PEN-QIMEI-ZHONGHE": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "village_zh": "中和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 11,
+        "2": 176,
+        "3": 13,
+        "4": 14
+      },
+      "valid_votes": 214,
+      "invalid_votes": 4,
+      "ballots_cast": 218,
+      "unreturned_ballots": 0,
+      "electors": 425,
+      "turnout_rate": 51.2941
+    },
+    "PEN-QIMEI-PINGHE": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "village_zh": "平和村",
+      "village_en": "Pinghe Village",
+      "votes": {
+        "1": 9,
+        "2": 97,
+        "3": 13,
+        "4": 5
+      },
+      "valid_votes": 124,
+      "invalid_votes": 1,
+      "ballots_cast": 125,
+      "unreturned_ballots": 0,
+      "electors": 225,
+      "turnout_rate": 55.5556
+    },
+    "PEN-QIMEI-HAIFENG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "village_zh": "海豐村",
+      "village_en": "Haifeng Village",
+      "votes": {
+        "1": 7,
+        "2": 97,
+        "3": 8,
+        "4": 4
+      },
+      "valid_votes": 116,
+      "invalid_votes": 5,
+      "ballots_cast": 121,
+      "unreturned_ballots": 0,
+      "electors": 240,
+      "turnout_rate": 50.4167
+    },
+    "PEN-QIMEI-NANGANG": {
+      "county_zh": "澎湖縣",
+      "county_en": "Penghu County",
+      "township_zh": "七美鄉",
+      "township_en": "Qimei Township",
+      "village_zh": "南港村",
+      "village_en": "Nangang Village",
+      "votes": {
+        "1": 27,
+        "2": 360,
+        "3": 20,
+        "4": 21
+      },
+      "valid_votes": 428,
+      "invalid_votes": 9,
+      "ballots_cast": 437,
+      "unreturned_ballots": 0,
+      "electors": 773,
+      "turnout_rate": 56.533
+    }
+  }
+}

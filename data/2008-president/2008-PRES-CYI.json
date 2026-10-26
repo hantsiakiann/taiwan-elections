@@ -1,0 +1,2232 @@
+{
+  "election_id": "2008-president",
+  "election_type": "president",
+  "source_file": "2008-PRES-CYI.xls",
+  "county_zh": "嘉義市",
+  "county_en": "Chiayi City",
+  "county_iso": "CYI",
+  "candidates": {
+    "1": {
+      "name_zh": "謝長廷",
+      "running_mate_zh": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "蕭萬長",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 72442,
+      "2": 79713
+    },
+    "valid_votes": 152155,
+    "invalid_votes": 1154,
+    "ballots_cast": 153309,
+    "unreturned_ballots": 0,
+    "ballots_issued": 153309,
+    "unused_ballots": 47525,
+    "electors": 200834,
+    "turnout_rate": 76.33999633789062
+  },
+  "townships": {
+    "CYI-DONG": {
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "votes": {
+        "1": 32449,
+        "2": 39243
+      },
+      "valid_votes": 71692,
+      "invalid_votes": 511,
+      "ballots_cast": 72203,
+      "unreturned_ballots": 0,
+      "ballots_issued": 72203,
+      "unused_ballots": 22278,
+      "electors": 94481,
+      "turnout_rate": 76.41999816894531
+    },
+    "CYI-XI": {
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "votes": {
+        "1": 39993,
+        "2": 40470
+      },
+      "valid_votes": 80463,
+      "invalid_votes": 643,
+      "ballots_cast": 81106,
+      "unreturned_ballots": 0,
+      "ballots_issued": 81106,
+      "unused_ballots": 25247,
+      "electors": 106353,
+      "turnout_rate": 76.26000213623047
+    }
+  },
+  "villages": {
+    "CYI-DONG-DUANZHU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "短竹里",
+      "village_en": "Duanzhu Village",
+      "votes": {
+        "1": 1306,
+        "2": 1799
+      },
+      "valid_votes": 3105,
+      "invalid_votes": 24,
+      "ballots_cast": 3129,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3129,
+      "unused_ballots": 1060,
+      "electors": 4189,
+      "turnout_rate": 74.69999694824219
+    },
+    "CYI-DONG-DONGCHUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東川里",
+      "village_en": "Dongchuan Village",
+      "votes": {
+        "1": 459,
+        "2": 773
+      },
+      "valid_votes": 1232,
+      "invalid_votes": 10,
+      "ballots_cast": 1242,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1242,
+      "unused_ballots": 307,
+      "electors": 1549,
+      "turnout_rate": 80.18000030517578
+    },
+    "CYI-DONG-LULIAO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "鹿寮里",
+      "village_en": "Luliao Village",
+      "votes": {
+        "1": 267,
+        "2": 168
+      },
+      "valid_votes": 435,
+      "invalid_votes": 5,
+      "ballots_cast": 440,
+      "unreturned_ballots": 0,
+      "ballots_issued": 440,
+      "unused_ballots": 186,
+      "electors": 626,
+      "turnout_rate": 70.29000091552734
+    },
+    "CYI-DONG-LUCUO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "盧厝里",
+      "village_en": "Lucuo Village",
+      "votes": {
+        "1": 1261,
+        "2": 1808
+      },
+      "valid_votes": 3069,
+      "invalid_votes": 18,
+      "ballots_cast": 3087,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3087,
+      "unused_ballots": 840,
+      "electors": 3927,
+      "turnout_rate": 78.61000061035156
+    },
+    "CYI-DONG-DONGPING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東平里",
+      "village_en": "Dongping Village",
+      "votes": {
+        "1": 296,
+        "2": 473
+      },
+      "valid_votes": 769,
+      "invalid_votes": 3,
+      "ballots_cast": 772,
+      "unreturned_ballots": 0,
+      "ballots_issued": 772,
+      "unused_ballots": 197,
+      "electors": 969,
+      "turnout_rate": 79.66999816894531
+    },
+    "CYI-DONG-TAIPING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "太平里",
+      "village_en": "Taiping Village",
+      "votes": {
+        "1": 1181,
+        "2": 2007
+      },
+      "valid_votes": 3188,
+      "invalid_votes": 17,
+      "ballots_cast": 3205,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3205,
+      "unused_ballots": 842,
+      "electors": 4047,
+      "turnout_rate": 79.19000244140625
+    },
+    "CYI-DONG-WANGTIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "王田里",
+      "village_en": "Wangtian Village",
+      "votes": {
+        "1": 671,
+        "2": 1144
+      },
+      "valid_votes": 1815,
+      "invalid_votes": 8,
+      "ballots_cast": 1823,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1823,
+      "unused_ballots": 520,
+      "electors": 2343,
+      "turnout_rate": 77.80999755859375
+    },
+    "CYI-DONG-ZHANGZHU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "長竹里",
+      "village_en": "Zhangzhu Village",
+      "votes": {
+        "1": 856,
+        "2": 988
+      },
+      "valid_votes": 1844,
+      "invalid_votes": 12,
+      "ballots_cast": 1856,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1856,
+      "unused_ballots": 526,
+      "electors": 2382,
+      "turnout_rate": 77.91999816894531
+    },
+    "CYI-DONG-HOUZHUANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "後庄里",
+      "village_en": "Houzhuang Village",
+      "votes": {
+        "1": 1154,
+        "2": 1696
+      },
+      "valid_votes": 2850,
+      "invalid_votes": 19,
+      "ballots_cast": 2869,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2869,
+      "unused_ballots": 817,
+      "electors": 3686,
+      "turnout_rate": 77.83999633789062
+    },
+    "CYI-DONG-XINDIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "新店里",
+      "village_en": "Xindian Village",
+      "votes": {
+        "1": 1100,
+        "2": 1638
+      },
+      "valid_votes": 2738,
+      "invalid_votes": 24,
+      "ballots_cast": 2762,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2762,
+      "unused_ballots": 784,
+      "electors": 3546,
+      "turnout_rate": 77.88999938964844
+    },
+    "CYI-DONG-ZHENTOU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "圳頭里",
+      "village_en": "Zhentou Village",
+      "votes": {
+        "1": 1071,
+        "2": 2034
+      },
+      "valid_votes": 3105,
+      "invalid_votes": 26,
+      "ballots_cast": 3131,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3131,
+      "unused_ballots": 957,
+      "electors": 4088,
+      "turnout_rate": 76.58999633789062
+    },
+    "CYI-DONG-DONGPEN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東噴里",
+      "village_en": "Dongpen Village",
+      "votes": {
+        "1": 349,
+        "2": 472
+      },
+      "valid_votes": 821,
+      "invalid_votes": 4,
+      "ballots_cast": 825,
+      "unreturned_ballots": 0,
+      "ballots_issued": 825,
+      "unused_ballots": 246,
+      "electors": 1071,
+      "turnout_rate": 77.02999877929688
+    },
+    "CYI-DONG-DONGSHAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東山里",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 158,
+        "2": 186
+      },
+      "valid_votes": 344,
+      "invalid_votes": 3,
+      "ballots_cast": 347,
+      "unreturned_ballots": 0,
+      "ballots_issued": 347,
+      "unused_ballots": 93,
+      "electors": 440,
+      "turnout_rate": 78.86000061035156
+    },
+    "CYI-DONG-DONGAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 246,
+        "2": 138
+      },
+      "valid_votes": 384,
+      "invalid_votes": 3,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "ballots_issued": 387,
+      "unused_ballots": 110,
+      "electors": 497,
+      "turnout_rate": 77.87000274658203
+    },
+    "CYI-DONG-DAJIE": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大街里",
+      "village_en": "Dajie Village",
+      "votes": {
+        "1": 214,
+        "2": 167
+      },
+      "valid_votes": 381,
+      "invalid_votes": 1,
+      "ballots_cast": 382,
+      "unreturned_ballots": 0,
+      "ballots_issued": 382,
+      "unused_ballots": 107,
+      "electors": 489,
+      "turnout_rate": 78.12000274658203
+    },
+    "CYI-DONG-YOUMIN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "祐民里",
+      "village_en": "Youmin Village",
+      "votes": {
+        "1": 282,
+        "2": 167
+      },
+      "valid_votes": 449,
+      "invalid_votes": 2,
+      "ballots_cast": 451,
+      "unreturned_ballots": 0,
+      "ballots_issued": 451,
+      "unused_ballots": 232,
+      "electors": 683,
+      "turnout_rate": 66.02999877929688
+    },
+    "CYI-DONG-DONGREN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東仁里",
+      "village_en": "Dongren Village",
+      "votes": {
+        "1": 214,
+        "2": 166
+      },
+      "valid_votes": 380,
+      "invalid_votes": 3,
+      "ballots_cast": 383,
+      "unreturned_ballots": 0,
+      "ballots_issued": 383,
+      "unused_ballots": 83,
+      "electors": 466,
+      "turnout_rate": 82.19000244140625
+    },
+    "CYI-DONG-NEIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "內安里",
+      "village_en": "Neian Village",
+      "votes": {
+        "1": 151,
+        "2": 171
+      },
+      "valid_votes": 322,
+      "invalid_votes": 0,
+      "ballots_cast": 322,
+      "unreturned_ballots": 0,
+      "ballots_issued": 322,
+      "unused_ballots": 106,
+      "electors": 428,
+      "turnout_rate": 75.2300033569336
+    },
+    "CYI-DONG-YUNXIAO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "雲霄里",
+      "village_en": "Yunxiao Village",
+      "votes": {
+        "1": 476,
+        "2": 549
+      },
+      "valid_votes": 1025,
+      "invalid_votes": 7,
+      "ballots_cast": 1032,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1032,
+      "unused_ballots": 277,
+      "electors": 1309,
+      "turnout_rate": 78.83999633789062
+    },
+    "CYI-DONG-JIANGUO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "建國里",
+      "village_en": "Jianguo Village",
+      "votes": {
+        "1": 244,
+        "2": 204
+      },
+      "valid_votes": 448,
+      "invalid_votes": 5,
+      "ballots_cast": 453,
+      "unreturned_ballots": 0,
+      "ballots_issued": 453,
+      "unused_ballots": 137,
+      "electors": 590,
+      "turnout_rate": 76.77999877929688
+    },
+    "CYI-DONG-FULU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "府路里",
+      "village_en": "Fulu Village",
+      "votes": {
+        "1": 395,
+        "2": 329
+      },
+      "valid_votes": 724,
+      "invalid_votes": 8,
+      "ballots_cast": 732,
+      "unreturned_ballots": 0,
+      "ballots_issued": 732,
+      "unused_ballots": 228,
+      "electors": 960,
+      "turnout_rate": 76.25
+    },
+    "CYI-DONG-ZHENNAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "鎮南里",
+      "village_en": "Zhennan Village",
+      "votes": {
+        "1": 138,
+        "2": 121
+      },
+      "valid_votes": 259,
+      "invalid_votes": 1,
+      "ballots_cast": 260,
+      "unreturned_ballots": 0,
+      "ballots_issued": 260,
+      "unused_ballots": 93,
+      "electors": 353,
+      "turnout_rate": 73.6500015258789
+    },
+    "CYI-DONG-SHENNONG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "神農里",
+      "village_en": "Shennong Village",
+      "votes": {
+        "1": 401,
+        "2": 396
+      },
+      "valid_votes": 797,
+      "invalid_votes": 5,
+      "ballots_cast": 802,
+      "unreturned_ballots": 0,
+      "ballots_issued": 802,
+      "unused_ballots": 270,
+      "electors": 1072,
+      "turnout_rate": 74.80999755859375
+    },
+    "CYI-DONG-CHONGWEN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇文里",
+      "village_en": "Chongwen Village",
+      "votes": {
+        "1": 206,
+        "2": 268
+      },
+      "valid_votes": 474,
+      "invalid_votes": 4,
+      "ballots_cast": 478,
+      "unreturned_ballots": 0,
+      "ballots_issued": 478,
+      "unused_ballots": 124,
+      "electors": 602,
+      "turnout_rate": 79.4000015258789
+    },
+    "CYI-DONG-LONGSHAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "龍山里",
+      "village_en": "Longshan Village",
+      "votes": {
+        "1": 248,
+        "2": 288
+      },
+      "valid_votes": 536,
+      "invalid_votes": 2,
+      "ballots_cast": 538,
+      "unreturned_ballots": 0,
+      "ballots_issued": 538,
+      "unused_ballots": 182,
+      "electors": 720,
+      "turnout_rate": 74.72000122070312
+    },
+    "CYI-DONG-ANPING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "安平里",
+      "village_en": "Anping Village",
+      "votes": {
+        "1": 253,
+        "2": 295
+      },
+      "valid_votes": 548,
+      "invalid_votes": 8,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "ballots_issued": 556,
+      "unused_ballots": 157,
+      "electors": 713,
+      "turnout_rate": 77.9800033569336
+    },
+    "CYI-DONG-WENCHANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "文昌里",
+      "village_en": "Wenchang Village",
+      "votes": {
+        "1": 241,
+        "2": 233
+      },
+      "valid_votes": 474,
+      "invalid_votes": 8,
+      "ballots_cast": 482,
+      "unreturned_ballots": 0,
+      "ballots_issued": 482,
+      "unused_ballots": 151,
+      "electors": 633,
+      "turnout_rate": 76.1500015258789
+    },
+    "CYI-DONG-LANJING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "蘭井里",
+      "village_en": "Lanjing Village",
+      "votes": {
+        "1": 213,
+        "2": 244
+      },
+      "valid_votes": 457,
+      "invalid_votes": 4,
+      "ballots_cast": 461,
+      "unreturned_ballots": 0,
+      "ballots_issued": 461,
+      "unused_ballots": 116,
+      "electors": 577,
+      "turnout_rate": 79.9000015258789
+    },
+    "CYI-DONG-GUANGFU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "光復里",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 428,
+        "2": 317
+      },
+      "valid_votes": 745,
+      "invalid_votes": 7,
+      "ballots_cast": 752,
+      "unreturned_ballots": 0,
+      "ballots_issued": 752,
+      "unused_ballots": 227,
+      "electors": 979,
+      "turnout_rate": 76.80999755859375
+    },
+    "CYI-DONG-CHUYANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "初陽里",
+      "village_en": "Chuyang Village",
+      "votes": {
+        "1": 506,
+        "2": 488
+      },
+      "valid_votes": 994,
+      "invalid_votes": 5,
+      "ballots_cast": 999,
+      "unreturned_ballots": 0,
+      "ballots_issued": 999,
+      "unused_ballots": 269,
+      "electors": 1268,
+      "turnout_rate": 78.79000091552734
+    },
+    "CYI-DONG-ZHENAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "震安里",
+      "village_en": "Zhenan Village",
+      "votes": {
+        "1": 145,
+        "2": 105
+      },
+      "valid_votes": 250,
+      "invalid_votes": 1,
+      "ballots_cast": 251,
+      "unreturned_ballots": 0,
+      "ballots_issued": 251,
+      "unused_ballots": 113,
+      "electors": 364,
+      "turnout_rate": 68.95999908447266
+    },
+    "CYI-DONG-XINKAI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "新開里",
+      "village_en": "Xinkai Village",
+      "votes": {
+        "1": 458,
+        "2": 588
+      },
+      "valid_votes": 1046,
+      "invalid_votes": 6,
+      "ballots_cast": 1052,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1052,
+      "unused_ballots": 313,
+      "electors": 1365,
+      "turnout_rate": 77.06999969482422
+    },
+    "CYI-DONG-XUANXIN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "宣信里",
+      "village_en": "Xuanxin Village",
+      "votes": {
+        "1": 616,
+        "2": 586
+      },
+      "valid_votes": 1202,
+      "invalid_votes": 13,
+      "ballots_cast": 1215,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1215,
+      "unused_ballots": 475,
+      "electors": 1690,
+      "turnout_rate": 71.88999938964844
+    },
+    "CYI-DONG-XINGNAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "興南里",
+      "village_en": "Xingnan Village",
+      "votes": {
+        "1": 523,
+        "2": 431
+      },
+      "valid_votes": 954,
+      "invalid_votes": 11,
+      "ballots_cast": 965,
+      "unreturned_ballots": 0,
+      "ballots_issued": 965,
+      "unused_ballots": 284,
+      "electors": 1249,
+      "turnout_rate": 77.26000213623047
+    },
+    "CYI-DONG-FENGNIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "豐年里",
+      "village_en": "Fengnian Village",
+      "votes": {
+        "1": 505,
+        "2": 413
+      },
+      "valid_votes": 918,
+      "invalid_votes": 8,
+      "ballots_cast": 926,
+      "unreturned_ballots": 0,
+      "ballots_issued": 926,
+      "unused_ballots": 336,
+      "electors": 1262,
+      "turnout_rate": 73.37999725341797
+    },
+    "CYI-DONG-FANGCAO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "芳草里",
+      "village_en": "Fangcao Village",
+      "votes": {
+        "1": 1208,
+        "2": 1484
+      },
+      "valid_votes": 2692,
+      "invalid_votes": 21,
+      "ballots_cast": 2713,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2713,
+      "unused_ballots": 982,
+      "electors": 3695,
+      "turnout_rate": 73.41999816894531
+    },
+    "CYI-DONG-FANGAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "芳安里",
+      "village_en": "Fangan Village",
+      "votes": {
+        "1": 755,
+        "2": 796
+      },
+      "valid_votes": 1551,
+      "invalid_votes": 16,
+      "ballots_cast": 1567,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1567,
+      "unused_ballots": 471,
+      "electors": 2038,
+      "turnout_rate": 76.88999938964844
+    },
+    "CYI-DONG-DINGLIAO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "頂寮里",
+      "village_en": "Dingliao Village",
+      "votes": {
+        "1": 797,
+        "2": 754
+      },
+      "valid_votes": 1551,
+      "invalid_votes": 17,
+      "ballots_cast": 1568,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1568,
+      "unused_ballots": 463,
+      "electors": 2031,
+      "turnout_rate": 77.19999694824219
+    },
+    "CYI-DONG-ANLIAO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "安寮里",
+      "village_en": "Anliao Village",
+      "votes": {
+        "1": 1728,
+        "2": 1863
+      },
+      "valid_votes": 3591,
+      "invalid_votes": 26,
+      "ballots_cast": 3617,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3617,
+      "unused_ballots": 1187,
+      "electors": 4804,
+      "turnout_rate": 75.29000091552734
+    },
+    "CYI-DONG-XINGCUN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "興村里",
+      "village_en": "Xingcun Village",
+      "votes": {
+        "1": 1134,
+        "2": 1333
+      },
+      "valid_votes": 2467,
+      "invalid_votes": 19,
+      "ballots_cast": 2486,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2486,
+      "unused_ballots": 815,
+      "electors": 3301,
+      "turnout_rate": 75.30999755859375
+    },
+    "CYI-DONG-XINGAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "興安里",
+      "village_en": "Xingan Village",
+      "votes": {
+        "1": 790,
+        "2": 913
+      },
+      "valid_votes": 1703,
+      "invalid_votes": 8,
+      "ballots_cast": 1711,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1711,
+      "unused_ballots": 563,
+      "electors": 2274,
+      "turnout_rate": 75.23999786376953
+    },
+    "CYI-DONG-XINGREN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "興仁里",
+      "village_en": "Xingren Village",
+      "votes": {
+        "1": 1123,
+        "2": 1432
+      },
+      "valid_votes": 2555,
+      "invalid_votes": 13,
+      "ballots_cast": 2568,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2568,
+      "unused_ballots": 781,
+      "electors": 3349,
+      "turnout_rate": 76.68000030517578
+    },
+    "CYI-DONG-BEICHENG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "北城里",
+      "village_en": "Beicheng Village",
+      "votes": {
+        "1": 321,
+        "2": 277
+      },
+      "valid_votes": 598,
+      "invalid_votes": 1,
+      "ballots_cast": 599,
+      "unreturned_ballots": 0,
+      "ballots_issued": 599,
+      "unused_ballots": 182,
+      "electors": 781,
+      "turnout_rate": 76.69999694824219
+    },
+    "CYI-DONG-RENWU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "仁武里",
+      "village_en": "Renwu Village",
+      "votes": {
+        "1": 233,
+        "2": 258
+      },
+      "valid_votes": 491,
+      "invalid_votes": 3,
+      "ballots_cast": 494,
+      "unreturned_ballots": 0,
+      "ballots_issued": 494,
+      "unused_ballots": 134,
+      "electors": 628,
+      "turnout_rate": 78.66000366210938
+    },
+    "CYI-DONG-TAIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "泰安里",
+      "village_en": "Taian Village",
+      "votes": {
+        "1": 326,
+        "2": 412
+      },
+      "valid_votes": 738,
+      "invalid_votes": 6,
+      "ballots_cast": 744,
+      "unreturned_ballots": 0,
+      "ballots_issued": 744,
+      "unused_ballots": 240,
+      "electors": 984,
+      "turnout_rate": 75.61000061035156
+    },
+    "CYI-DONG-GUICUN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "檜村里",
+      "village_en": "Guicun Village",
+      "votes": {
+        "1": 396,
+        "2": 549
+      },
+      "valid_votes": 945,
+      "invalid_votes": 6,
+      "ballots_cast": 951,
+      "unreturned_ballots": 0,
+      "ballots_issued": 951,
+      "unused_ballots": 287,
+      "electors": 1238,
+      "turnout_rate": 76.81999969482422
+    },
+    "CYI-DONG-SHEKOU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "社口里",
+      "village_en": "Shekou Village",
+      "votes": {
+        "1": 381,
+        "2": 258
+      },
+      "valid_votes": 639,
+      "invalid_votes": 5,
+      "ballots_cast": 644,
+      "unreturned_ballots": 0,
+      "ballots_issued": 644,
+      "unused_ballots": 175,
+      "electors": 819,
+      "turnout_rate": 78.62999725341797
+    },
+    "CYI-DONG-RENHE": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "仁和里",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 210,
+        "2": 144
+      },
+      "valid_votes": 354,
+      "invalid_votes": 0,
+      "ballots_cast": 354,
+      "unreturned_ballots": 0,
+      "ballots_issued": 354,
+      "unused_ballots": 111,
+      "electors": 465,
+      "turnout_rate": 76.12999725341797
+    },
+    "CYI-DONG-ZHONGZHUANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "中庄里",
+      "village_en": "Zhongzhuang Village",
+      "votes": {
+        "1": 957,
+        "2": 1250
+      },
+      "valid_votes": 2207,
+      "invalid_votes": 21,
+      "ballots_cast": 2228,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2228,
+      "unused_ballots": 716,
+      "electors": 2944,
+      "turnout_rate": 75.68000030517578
+    },
+    "CYI-DONG-RENYI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "仁義里",
+      "village_en": "Renyi Village",
+      "votes": {
+        "1": 738,
+        "2": 975
+      },
+      "valid_votes": 1713,
+      "invalid_votes": 5,
+      "ballots_cast": 1718,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1718,
+      "unused_ballots": 506,
+      "electors": 2224,
+      "turnout_rate": 77.25
+    },
+    "CYI-DONG-HOUHU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "後湖里",
+      "village_en": "Houhu Village",
+      "votes": {
+        "1": 1177,
+        "2": 1297
+      },
+      "valid_votes": 2474,
+      "invalid_votes": 14,
+      "ballots_cast": 2488,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2488,
+      "unused_ballots": 786,
+      "electors": 3274,
+      "turnout_rate": 75.98999786376953
+    },
+    "CYI-DONG-LAOTENG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "荖藤里",
+      "village_en": "Laoteng Village",
+      "votes": {
+        "1": 1203,
+        "2": 1122
+      },
+      "valid_votes": 2325,
+      "invalid_votes": 16,
+      "ballots_cast": 2341,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2341,
+      "unused_ballots": 840,
+      "electors": 3181,
+      "turnout_rate": 73.58999633789062
+    },
+    "CYI-DONG-DINGZHUANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "頂庄里",
+      "village_en": "Dingzhuang Village",
+      "votes": {
+        "1": 1740,
+        "2": 2276
+      },
+      "valid_votes": 4016,
+      "invalid_votes": 29,
+      "ballots_cast": 4045,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4045,
+      "unused_ballots": 1274,
+      "electors": 5319,
+      "turnout_rate": 76.05000305175781
+    },
+    "CYI-XI-SHUYUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "書院里",
+      "village_en": "Shuyuan Village",
+      "votes": {
+        "1": 385,
+        "2": 335
+      },
+      "valid_votes": 720,
+      "invalid_votes": 4,
+      "ballots_cast": 724,
+      "unreturned_ballots": 0,
+      "ballots_issued": 724,
+      "unused_ballots": 242,
+      "electors": 966,
+      "turnout_rate": 74.94999694824219
+    },
+    "CYI-XI-YIZHAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "驛站里",
+      "village_en": "Yizhan Village",
+      "votes": {
+        "1": 184,
+        "2": 220
+      },
+      "valid_votes": 404,
+      "invalid_votes": 1,
+      "ballots_cast": 405,
+      "unreturned_ballots": 0,
+      "ballots_issued": 405,
+      "unused_ballots": 124,
+      "electors": 529,
+      "turnout_rate": 76.55999755859375
+    },
+    "CYI-XI-MINAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "民安里",
+      "village_en": "Minan Village",
+      "votes": {
+        "1": 204,
+        "2": 143
+      },
+      "valid_votes": 347,
+      "invalid_votes": 2,
+      "ballots_cast": 349,
+      "unreturned_ballots": 0,
+      "ballots_issued": 349,
+      "unused_ballots": 108,
+      "electors": 457,
+      "turnout_rate": 76.37000274658203
+    },
+    "CYI-XI-CAIYUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "菜園里",
+      "village_en": "Caiyuan Village",
+      "votes": {
+        "1": 206,
+        "2": 232
+      },
+      "valid_votes": 438,
+      "invalid_votes": 6,
+      "ballots_cast": 444,
+      "unreturned_ballots": 0,
+      "ballots_issued": 444,
+      "unused_ballots": 150,
+      "electors": 594,
+      "turnout_rate": 74.75
+    },
+    "CYI-XI-JIYING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "集英里",
+      "village_en": "Jiying Village",
+      "votes": {
+        "1": 252,
+        "2": 124
+      },
+      "valid_votes": 376,
+      "invalid_votes": 2,
+      "ballots_cast": 378,
+      "unreturned_ballots": 0,
+      "ballots_issued": 378,
+      "unused_ballots": 113,
+      "electors": 491,
+      "turnout_rate": 76.98999786376953
+    },
+    "CYI-XI-FUSONG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "福松里",
+      "village_en": "Fusong Village",
+      "votes": {
+        "1": 356,
+        "2": 224
+      },
+      "valid_votes": 580,
+      "invalid_votes": 5,
+      "ballots_cast": 585,
+      "unreturned_ballots": 0,
+      "ballots_issued": 585,
+      "unused_ballots": 156,
+      "electors": 741,
+      "turnout_rate": 78.94999694824219
+    },
+    "CYI-XI-YICHANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "義昌里",
+      "village_en": "Yichang Village",
+      "votes": {
+        "1": 220,
+        "2": 186
+      },
+      "valid_votes": 406,
+      "invalid_votes": 4,
+      "ballots_cast": 410,
+      "unreturned_ballots": 0,
+      "ballots_issued": 410,
+      "unused_ballots": 144,
+      "electors": 554,
+      "turnout_rate": 74.01000213623047
+    },
+    "CYI-XI-ZIZHI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "自治里",
+      "village_en": "Zizhi Village",
+      "votes": {
+        "1": 463,
+        "2": 410
+      },
+      "valid_votes": 873,
+      "invalid_votes": 4,
+      "ballots_cast": 877,
+      "unreturned_ballots": 0,
+      "ballots_issued": 877,
+      "unused_ballots": 238,
+      "electors": 1115,
+      "turnout_rate": 78.6500015258789
+    },
+    "CYI-XI-DAYE": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "大業里",
+      "village_en": "Daye Village",
+      "votes": {
+        "1": 393,
+        "2": 219
+      },
+      "valid_votes": 612,
+      "invalid_votes": 4,
+      "ballots_cast": 616,
+      "unreturned_ballots": 0,
+      "ballots_issued": 616,
+      "unused_ballots": 160,
+      "electors": 776,
+      "turnout_rate": 79.37999725341797
+    },
+    "CYI-XI-ZHONGYONG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "中庸里",
+      "village_en": "Zhongyong Village",
+      "votes": {
+        "1": 312,
+        "2": 292
+      },
+      "valid_votes": 604,
+      "invalid_votes": 2,
+      "ballots_cast": 606,
+      "unreturned_ballots": 0,
+      "ballots_issued": 606,
+      "unused_ballots": 176,
+      "electors": 782,
+      "turnout_rate": 77.48999786376953
+    },
+    "CYI-XI-XUEPU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "學圃里",
+      "village_en": "Xuepu Village",
+      "votes": {
+        "1": 249,
+        "2": 181
+      },
+      "valid_votes": 430,
+      "invalid_votes": 3,
+      "ballots_cast": 433,
+      "unreturned_ballots": 0,
+      "ballots_issued": 433,
+      "unused_ballots": 118,
+      "electors": 551,
+      "turnout_rate": 78.58000183105469
+    },
+    "CYI-XI-BEIXING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "北杏里",
+      "village_en": "Beixing Village",
+      "votes": {
+        "1": 261,
+        "2": 317
+      },
+      "valid_votes": 578,
+      "invalid_votes": 6,
+      "ballots_cast": 584,
+      "unreturned_ballots": 0,
+      "ballots_issued": 584,
+      "unused_ballots": 203,
+      "electors": 787,
+      "turnout_rate": 74.20999908447266
+    },
+    "CYI-XI-SHENEI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "社內里",
+      "village_en": "Shenei Village",
+      "votes": {
+        "1": 201,
+        "2": 161
+      },
+      "valid_votes": 362,
+      "invalid_votes": 2,
+      "ballots_cast": 364,
+      "unreturned_ballots": 0,
+      "ballots_issued": 364,
+      "unused_ballots": 123,
+      "electors": 487,
+      "turnout_rate": 74.73999786376953
+    },
+    "CYI-XI-MINSHENG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 206,
+        "2": 214
+      },
+      "valid_votes": 420,
+      "invalid_votes": 1,
+      "ballots_cast": 421,
+      "unreturned_ballots": 0,
+      "ballots_issued": 421,
+      "unused_ballots": 103,
+      "electors": 524,
+      "turnout_rate": 80.33999633789062
+    },
+    "CYI-XI-QINGSHENG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "慶昇里",
+      "village_en": "Qingsheng Village",
+      "votes": {
+        "1": 162,
+        "2": 141
+      },
+      "valid_votes": 303,
+      "invalid_votes": 1,
+      "ballots_cast": 304,
+      "unreturned_ballots": 0,
+      "ballots_issued": 304,
+      "unused_ballots": 96,
+      "electors": 400,
+      "turnout_rate": 76.0
+    },
+    "CYI-XI-TONGYUN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "通運里",
+      "village_en": "Tongyun Village",
+      "votes": {
+        "1": 135,
+        "2": 92
+      },
+      "valid_votes": 227,
+      "invalid_votes": 3,
+      "ballots_cast": 230,
+      "unreturned_ballots": 0,
+      "ballots_issued": 230,
+      "unused_ballots": 80,
+      "electors": 310,
+      "turnout_rate": 74.19000244140625
+    },
+    "CYI-XI-RONGGUI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "榮檜里",
+      "village_en": "Ronggui Village",
+      "votes": {
+        "1": 241,
+        "2": 223
+      },
+      "valid_votes": 464,
+      "invalid_votes": 2,
+      "ballots_cast": 466,
+      "unreturned_ballots": 0,
+      "ballots_issued": 466,
+      "unused_ballots": 147,
+      "electors": 613,
+      "turnout_rate": 76.0199966430664
+    },
+    "CYI-XI-GONGKE": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "功科里",
+      "village_en": "Gongke Village",
+      "votes": {
+        "1": 307,
+        "2": 248
+      },
+      "valid_votes": 555,
+      "invalid_votes": 11,
+      "ballots_cast": 566,
+      "unreturned_ballots": 0,
+      "ballots_issued": 566,
+      "unused_ballots": 153,
+      "electors": 719,
+      "turnout_rate": 78.72000122070312
+    },
+    "CYI-XI-KANGZHUANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "康莊里",
+      "village_en": "Kangzhuang Village",
+      "votes": {
+        "1": 251,
+        "2": 214
+      },
+      "valid_votes": 465,
+      "invalid_votes": 6,
+      "ballots_cast": 471,
+      "unreturned_ballots": 0,
+      "ballots_issued": 471,
+      "unused_ballots": 124,
+      "electors": 595,
+      "turnout_rate": 79.16000366210938
+    },
+    "CYI-XI-FUQUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "福全里",
+      "village_en": "Fuquan Village",
+      "votes": {
+        "1": 2355,
+        "2": 2302
+      },
+      "valid_votes": 4657,
+      "invalid_votes": 30,
+      "ballots_cast": 4687,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4687,
+      "unused_ballots": 1555,
+      "electors": 6242,
+      "turnout_rate": 75.08999633789062
+    },
+    "CYI-XI-LIXING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "力行里",
+      "village_en": "Lixing Village",
+      "votes": {
+        "1": 360,
+        "2": 317
+      },
+      "valid_votes": 677,
+      "invalid_votes": 5,
+      "ballots_cast": 682,
+      "unreturned_ballots": 0,
+      "ballots_issued": 682,
+      "unused_ballots": 197,
+      "electors": 879,
+      "turnout_rate": 77.58999633789062
+    },
+    "CYI-XI-LIUCUO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "劉厝里",
+      "village_en": "Liucuo Village",
+      "votes": {
+        "1": 1858,
+        "2": 2094
+      },
+      "valid_votes": 3952,
+      "invalid_votes": 41,
+      "ballots_cast": 3993,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3993,
+      "unused_ballots": 1203,
+      "electors": 5196,
+      "turnout_rate": 76.8499984741211
+    },
+    "CYI-XI-GANGPING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "港坪里",
+      "village_en": "Gangping Village",
+      "votes": {
+        "1": 825,
+        "2": 966
+      },
+      "valid_votes": 1791,
+      "invalid_votes": 17,
+      "ballots_cast": 1808,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1808,
+      "unused_ballots": 549,
+      "electors": 2357,
+      "turnout_rate": 76.70999908447266
+    },
+    "CYI-XI-TOUGANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "頭港里",
+      "village_en": "Tougang Village",
+      "votes": {
+        "1": 549,
+        "2": 472
+      },
+      "valid_votes": 1021,
+      "invalid_votes": 7,
+      "ballots_cast": 1028,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1028,
+      "unused_ballots": 320,
+      "electors": 1348,
+      "turnout_rate": 76.26000213623047
+    },
+    "CYI-XI-XIPING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "西平里",
+      "village_en": "Xiping Village",
+      "votes": {
+        "1": 553,
+        "2": 390
+      },
+      "valid_votes": 943,
+      "invalid_votes": 5,
+      "ballots_cast": 948,
+      "unreturned_ballots": 0,
+      "ballots_issued": 948,
+      "unused_ballots": 311,
+      "electors": 1259,
+      "turnout_rate": 75.30000305175781
+    },
+    "CYI-XI-DAXI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "大溪里",
+      "village_en": "Daxi Village",
+      "votes": {
+        "1": 801,
+        "2": 558
+      },
+      "valid_votes": 1359,
+      "invalid_votes": 14,
+      "ballots_cast": 1373,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1373,
+      "unused_ballots": 503,
+      "electors": 1876,
+      "turnout_rate": 73.19000244140625
+    },
+    "CYI-XI-ZHUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "磚�里",
+      "village_en": "Zhuan� Village",
+      "votes": {
+        "1": 1268,
+        "2": 1237
+      },
+      "valid_votes": 2505,
+      "invalid_votes": 14,
+      "ballots_cast": 2519,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2519,
+      "unused_ballots": 814,
+      "electors": 3333,
+      "turnout_rate": 75.58000183105469
+    },
+    "CYI-XI-XINXI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "新西里",
+      "village_en": "Xinxi Village",
+      "votes": {
+        "1": 748,
+        "2": 745
+      },
+      "valid_votes": 1493,
+      "invalid_votes": 13,
+      "ballots_cast": 1506,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1506,
+      "unused_ballots": 506,
+      "electors": 2012,
+      "turnout_rate": 74.8499984741211
+    },
+    "CYI-XI-HUAMING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "華明里",
+      "village_en": "Huaming Village",
+      "votes": {
+        "1": 216,
+        "2": 294
+      },
+      "valid_votes": 510,
+      "invalid_votes": 6,
+      "ballots_cast": 516,
+      "unreturned_ballots": 0,
+      "ballots_issued": 516,
+      "unused_ballots": 154,
+      "electors": 670,
+      "turnout_rate": 77.01000213623047
+    },
+    "CYI-XI-DAOMIN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "導民里",
+      "village_en": "Daomin Village",
+      "votes": {
+        "1": 441,
+        "2": 421
+      },
+      "valid_votes": 862,
+      "invalid_votes": 14,
+      "ballots_cast": 876,
+      "unreturned_ballots": 0,
+      "ballots_issued": 876,
+      "unused_ballots": 335,
+      "electors": 1211,
+      "turnout_rate": 72.33999633789062
+    },
+    "CYI-XI-PEIYUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "培元里",
+      "village_en": "Peiyuan Village",
+      "votes": {
+        "1": 405,
+        "2": 328
+      },
+      "valid_votes": 733,
+      "invalid_votes": 6,
+      "ballots_cast": 739,
+      "unreturned_ballots": 0,
+      "ballots_issued": 739,
+      "unused_ballots": 215,
+      "electors": 954,
+      "turnout_rate": 77.45999908447266
+    },
+    "CYI-XI-CHUIYANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "垂楊里",
+      "village_en": "Chuiyang Village",
+      "votes": {
+        "1": 696,
+        "2": 715
+      },
+      "valid_votes": 1411,
+      "invalid_votes": 12,
+      "ballots_cast": 1423,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1423,
+      "unused_ballots": 480,
+      "electors": 1903,
+      "turnout_rate": 74.77999877929688
+    },
+    "CYI-XI-CHEDIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "車店里",
+      "village_en": "Chedian Village",
+      "votes": {
+        "1": 1729,
+        "2": 1946
+      },
+      "valid_votes": 3675,
+      "invalid_votes": 27,
+      "ballots_cast": 3702,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3702,
+      "unused_ballots": 1204,
+      "electors": 4906,
+      "turnout_rate": 75.45999908447266
+    },
+    "CYI-XI-FUMIN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "福民里",
+      "village_en": "Fumin Village",
+      "votes": {
+        "1": 1622,
+        "2": 1876
+      },
+      "valid_votes": 3498,
+      "invalid_votes": 27,
+      "ballots_cast": 3525,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3525,
+      "unused_ballots": 1062,
+      "electors": 4587,
+      "turnout_rate": 76.8499984741211
+    },
+    "CYI-XI-HUNEI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "湖內里",
+      "village_en": "Hunei Village",
+      "votes": {
+        "1": 3035,
+        "2": 2777
+      },
+      "valid_votes": 5812,
+      "invalid_votes": 38,
+      "ballots_cast": 5850,
+      "unreturned_ballots": 0,
+      "ballots_issued": 5850,
+      "unused_ballots": 1766,
+      "electors": 7616,
+      "turnout_rate": 76.80999755859375
+    },
+    "CYI-XI-MEIYUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "美源里",
+      "village_en": "Meiyuan Village",
+      "votes": {
+        "1": 1311,
+        "2": 1286
+      },
+      "valid_votes": 2597,
+      "invalid_votes": 18,
+      "ballots_cast": 2615,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2615,
+      "unused_ballots": 812,
+      "electors": 3427,
+      "turnout_rate": 76.30999755859375
+    },
+    "CYI-XI-GUANGLU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "光路里",
+      "village_en": "Guanglu Village",
+      "votes": {
+        "1": 1600,
+        "2": 1920
+      },
+      "valid_votes": 3520,
+      "invalid_votes": 20,
+      "ballots_cast": 3540,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3540,
+      "unused_ballots": 1053,
+      "electors": 4593,
+      "turnout_rate": 77.06999969482422
+    },
+    "CYI-XI-YUYING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "育英里",
+      "village_en": "Yuying Village",
+      "votes": {
+        "1": 825,
+        "2": 808
+      },
+      "valid_votes": 1633,
+      "invalid_votes": 14,
+      "ballots_cast": 1647,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1647,
+      "unused_ballots": 458,
+      "electors": 2105,
+      "turnout_rate": 78.23999786376953
+    },
+    "CYI-XI-ZHIYUAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "致遠里",
+      "village_en": "Zhiyuan Village",
+      "votes": {
+        "1": 80,
+        "2": 1265
+      },
+      "valid_votes": 1345,
+      "invalid_votes": 13,
+      "ballots_cast": 1358,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1358,
+      "unused_ballots": 367,
+      "electors": 1725,
+      "turnout_rate": 78.72000122070312
+    },
+    "CYI-XI-CUIDAI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "翠岱里",
+      "village_en": "Cuidai Village",
+      "votes": {
+        "1": 39,
+        "2": 727
+      },
+      "valid_votes": 766,
+      "invalid_votes": 6,
+      "ballots_cast": 772,
+      "unreturned_ballots": 0,
+      "ballots_issued": 772,
+      "unused_ballots": 146,
+      "electors": 918,
+      "turnout_rate": 84.0999984741211
+    },
+    "CYI-XI-ZIQIANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "自強里",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 554,
+        "2": 1210
+      },
+      "valid_votes": 1764,
+      "invalid_votes": 14,
+      "ballots_cast": 1778,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1778,
+      "unused_ballots": 462,
+      "electors": 2240,
+      "turnout_rate": 79.37999725341797
+    },
+    "CYI-XI-ZHANGAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "長安里",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 547,
+        "2": 427
+      },
+      "valid_votes": 974,
+      "invalid_votes": 8,
+      "ballots_cast": 982,
+      "unreturned_ballots": 0,
+      "ballots_issued": 982,
+      "unused_ballots": 306,
+      "electors": 1288,
+      "turnout_rate": 76.23999786376953
+    },
+    "CYI-XI-BEIRONG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "北榮里",
+      "village_en": "Beirong Village",
+      "votes": {
+        "1": 858,
+        "2": 727
+      },
+      "valid_votes": 1585,
+      "invalid_votes": 22,
+      "ballots_cast": 1607,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1607,
+      "unused_ballots": 501,
+      "electors": 2108,
+      "turnout_rate": 76.2300033569336
+    },
+    "CYI-XI-ZHONGXING": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "重興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 823,
+        "2": 670
+      },
+      "valid_votes": 1493,
+      "invalid_votes": 15,
+      "ballots_cast": 1508,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1508,
+      "unused_ballots": 527,
+      "electors": 2035,
+      "turnout_rate": 74.0999984741211
+    },
+    "CYI-XI-QINGCHANG": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "慶昌里",
+      "village_en": "Qingchang Village",
+      "votes": {
+        "1": 183,
+        "2": 134
+      },
+      "valid_votes": 317,
+      "invalid_votes": 3,
+      "ballots_cast": 320,
+      "unreturned_ballots": 0,
+      "ballots_issued": 320,
+      "unused_ballots": 108,
+      "electors": 428,
+      "turnout_rate": 74.7699966430664
+    },
+    "CYI-XI-XIAOHU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "小湖里",
+      "village_en": "Xiaohu Village",
+      "votes": {
+        "1": 271,
+        "2": 160
+      },
+      "valid_votes": 431,
+      "invalid_votes": 1,
+      "ballots_cast": 432,
+      "unreturned_ballots": 0,
+      "ballots_issued": 432,
+      "unused_ballots": 191,
+      "electors": 623,
+      "turnout_rate": 69.33999633789062
+    },
+    "CYI-XI-ZHUWEN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "竹文里",
+      "village_en": "Zhuwen Village",
+      "votes": {
+        "1": 623,
+        "2": 498
+      },
+      "valid_votes": 1121,
+      "invalid_votes": 9,
+      "ballots_cast": 1130,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1130,
+      "unused_ballots": 346,
+      "electors": 1476,
+      "turnout_rate": 76.55999755859375
+    },
+    "CYI-XI-XIANGHU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "香湖里",
+      "village_en": "Xianghu Village",
+      "votes": {
+        "1": 587,
+        "2": 429
+      },
+      "valid_votes": 1016,
+      "invalid_votes": 13,
+      "ballots_cast": 1029,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1029,
+      "unused_ballots": 333,
+      "electors": 1362,
+      "turnout_rate": 75.55000305175781
+    },
+    "CYI-XI-HUBIAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "湖邊里",
+      "village_en": "Hubian Village",
+      "votes": {
+        "1": 795,
+        "2": 651
+      },
+      "valid_votes": 1446,
+      "invalid_votes": 13,
+      "ballots_cast": 1459,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1459,
+      "unused_ballots": 436,
+      "electors": 1895,
+      "turnout_rate": 76.98999786376953
+    },
+    "CYI-XI-ZHUWEI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "竹圍里",
+      "village_en": "Zhuwei Village",
+      "votes": {
+        "1": 1538,
+        "2": 1450
+      },
+      "valid_votes": 2988,
+      "invalid_votes": 35,
+      "ballots_cast": 3023,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3023,
+      "unused_ballots": 1000,
+      "electors": 4023,
+      "turnout_rate": 75.13999938964844
+    },
+    "CYI-XI-BAOAN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "保安里",
+      "village_en": "Baoan Village",
+      "votes": {
+        "1": 3545,
+        "2": 3513
+      },
+      "valid_votes": 7058,
+      "invalid_votes": 49,
+      "ballots_cast": 7107,
+      "unreturned_ballots": 0,
+      "ballots_issued": 7107,
+      "unused_ballots": 2209,
+      "electors": 9316,
+      "turnout_rate": 76.29000091552734
+    },
+    "CYI-XI-XINCUO": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "新厝里",
+      "village_en": "Xincuo Village",
+      "votes": {
+        "1": 1597,
+        "2": 1199
+      },
+      "valid_votes": 2796,
+      "invalid_votes": 22,
+      "ballots_cast": 2818,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2818,
+      "unused_ballots": 808,
+      "electors": 3626,
+      "turnout_rate": 77.72000122070312
+    },
+    "CYI-XI-BEIHU": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "北湖里",
+      "village_en": "Beihu Village",
+      "votes": {
+        "1": 980,
+        "2": 929
+      },
+      "valid_votes": 1909,
+      "invalid_votes": 12,
+      "ballots_cast": 1921,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1921,
+      "unused_ballots": 632,
+      "electors": 2553,
+      "turnout_rate": 75.23999786376953
+    },
+    "CYI-XI-XIAPI": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "下埤里",
+      "village_en": "Xiapi Village",
+      "votes": {
+        "1": 459,
+        "2": 460
+      },
+      "valid_votes": 919,
+      "invalid_votes": 6,
+      "ballots_cast": 925,
+      "unreturned_ballots": 0,
+      "ballots_issued": 925,
+      "unused_ballots": 395,
+      "electors": 1320,
+      "turnout_rate": 70.08000183105469
+    },
+    "CYI-XI-ZHUCUN": {
+      "county_zh": "嘉義市",
+      "county_en": "Chiayi City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "竹村里",
+      "village_en": "Zhucun Village",
+      "votes": {
+        "1": 329,
+        "2": 393
+      },
+      "valid_votes": 722,
+      "invalid_votes": 5,
+      "ballots_cast": 727,
+      "unreturned_ballots": 0,
+      "ballots_issued": 727,
+      "unused_ballots": 225,
+      "electors": 952,
+      "turnout_rate": 76.37000274658203
+    }
+  }
+}

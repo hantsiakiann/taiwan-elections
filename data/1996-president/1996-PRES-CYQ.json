@@ -1,0 +1,7480 @@
+{
+  "election_id": "1996-president",
+  "election_type": "president",
+  "source_file": "1996-PRES.xls",
+  "county_zh": "嘉義縣",
+  "county_en": "Chiayi County",
+  "county_iso": "CYQ",
+  "candidates": {
+    "1": {
+      "name_zh": "陳履安",
+      "running_mate_zh": "王清峰",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    },
+    "2": {
+      "name_zh": "李登輝",
+      "running_mate_zh": "連戰",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    },
+    "3": {
+      "name_zh": "彭明敏",
+      "running_mate_zh": "謝長廷",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "4": {
+      "name_zh": "林洋港",
+      "running_mate_zh": "郝柏村",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 17515,
+      "2": 180709,
+      "3": 63101,
+      "4": 13716
+    },
+    "valid_votes": 275041,
+    "invalid_votes": 3105,
+    "ballots_cast": 278146,
+    "unreturned_ballots": 0,
+    "electors": 398362,
+    "turnout_rate": 69.8224
+  },
+  "townships": {
+    "CYQ-TAIBAO": {
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "votes": {
+        "1": 1082,
+        "2": 9131,
+        "3": 3314,
+        "4": 646
+      },
+      "valid_votes": 14173,
+      "invalid_votes": 196,
+      "ballots_cast": 14369,
+      "unreturned_ballots": 0,
+      "electors": 20117,
+      "turnout_rate": 71.4272
+    },
+    "CYQ-PUZI": {
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "votes": {
+        "1": 1319,
+        "2": 13852,
+        "3": 5188,
+        "4": 863
+      },
+      "valid_votes": 21222,
+      "invalid_votes": 242,
+      "ballots_cast": 21464,
+      "unreturned_ballots": 0,
+      "electors": 30789,
+      "turnout_rate": 69.7132
+    },
+    "CYQ-BUDAI": {
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "votes": {
+        "1": 897,
+        "2": 11555,
+        "3": 3702,
+        "4": 567
+      },
+      "valid_votes": 16721,
+      "invalid_votes": 202,
+      "ballots_cast": 16923,
+      "unreturned_ballots": 0,
+      "electors": 25179,
+      "turnout_rate": 67.2108
+    },
+    "CYQ-DALIN": {
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "votes": {
+        "1": 1313,
+        "2": 11849,
+        "3": 4052,
+        "4": 1203
+      },
+      "valid_votes": 18417,
+      "invalid_votes": 168,
+      "ballots_cast": 18585,
+      "unreturned_ballots": 0,
+      "electors": 26268,
+      "turnout_rate": 70.7515
+    },
+    "CYQ-MINXIONG": {
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "votes": {
+        "1": 2628,
+        "2": 20622,
+        "3": 7408,
+        "4": 1924
+      },
+      "valid_votes": 32582,
+      "invalid_votes": 370,
+      "ballots_cast": 32952,
+      "unreturned_ballots": 0,
+      "electors": 44474,
+      "turnout_rate": 74.0927
+    },
+    "CYQ-XIKOU": {
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "votes": {
+        "1": 512,
+        "2": 6023,
+        "3": 2209,
+        "4": 287
+      },
+      "valid_votes": 9031,
+      "invalid_votes": 86,
+      "ballots_cast": 9117,
+      "unreturned_ballots": 0,
+      "electors": 13772,
+      "turnout_rate": 66.1995
+    },
+    "CYQ-XINGANG": {
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "votes": {
+        "1": 1145,
+        "2": 10824,
+        "3": 4756,
+        "4": 633
+      },
+      "valid_votes": 17358,
+      "invalid_votes": 203,
+      "ballots_cast": 17561,
+      "unreturned_ballots": 0,
+      "electors": 25841,
+      "turnout_rate": 67.9579
+    },
+    "CYQ-LIUJIAO": {
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "votes": {
+        "1": 857,
+        "2": 10120,
+        "3": 3652,
+        "4": 508
+      },
+      "valid_votes": 15137,
+      "invalid_votes": 185,
+      "ballots_cast": 15322,
+      "unreturned_ballots": 0,
+      "electors": 23399,
+      "turnout_rate": 65.4814
+    },
+    "CYQ-DONGSHI": {
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "votes": {
+        "1": 681,
+        "2": 11123,
+        "3": 2817,
+        "4": 440
+      },
+      "valid_votes": 15061,
+      "invalid_votes": 192,
+      "ballots_cast": 15253,
+      "unreturned_ballots": 0,
+      "electors": 23662,
+      "turnout_rate": 64.462
+    },
+    "CYQ-YIZHU": {
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "votes": {
+        "1": 592,
+        "2": 9323,
+        "3": 2455,
+        "4": 314
+      },
+      "valid_votes": 12684,
+      "invalid_votes": 181,
+      "ballots_cast": 12865,
+      "unreturned_ballots": 0,
+      "electors": 18424,
+      "turnout_rate": 69.8274
+    },
+    "CYQ-LUCAO": {
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "votes": {
+        "1": 528,
+        "2": 6855,
+        "3": 1974,
+        "4": 327
+      },
+      "valid_votes": 9684,
+      "invalid_votes": 133,
+      "ballots_cast": 9817,
+      "unreturned_ballots": 0,
+      "electors": 14464,
+      "turnout_rate": 67.872
+    },
+    "CYQ-SHUISHANG": {
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "votes": {
+        "1": 2038,
+        "2": 16254,
+        "3": 6319,
+        "4": 2405
+      },
+      "valid_votes": 27016,
+      "invalid_votes": 293,
+      "ballots_cast": 27309,
+      "unreturned_ballots": 0,
+      "electors": 37269,
+      "turnout_rate": 73.2754
+    },
+    "CYQ-ZHONGPU": {
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "votes": {
+        "1": 1758,
+        "2": 13673,
+        "3": 5716,
+        "4": 1374
+      },
+      "valid_votes": 22521,
+      "invalid_votes": 214,
+      "ballots_cast": 22735,
+      "unreturned_ballots": 0,
+      "electors": 32108,
+      "turnout_rate": 70.8079
+    },
+    "CYQ-ZHUQI": {
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "votes": {
+        "1": 1126,
+        "2": 13703,
+        "3": 4445,
+        "4": 991
+      },
+      "valid_votes": 20265,
+      "invalid_votes": 206,
+      "ballots_cast": 20471,
+      "unreturned_ballots": 0,
+      "electors": 29166,
+      "turnout_rate": 70.1879
+    },
+    "CYQ-MEISHAN": {
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "votes": {
+        "1": 566,
+        "2": 8414,
+        "3": 2837,
+        "4": 591
+      },
+      "valid_votes": 12408,
+      "invalid_votes": 105,
+      "ballots_cast": 12513,
+      "unreturned_ballots": 0,
+      "electors": 17396,
+      "turnout_rate": 71.9303
+    },
+    "CYQ-FANLU": {
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "votes": {
+        "1": 301,
+        "2": 3700,
+        "3": 1710,
+        "4": 331
+      },
+      "valid_votes": 6042,
+      "invalid_votes": 68,
+      "ballots_cast": 6110,
+      "unreturned_ballots": 0,
+      "electors": 8612,
+      "turnout_rate": 70.9475
+    },
+    "CYQ-DABU": {
+      "township_zh": "大埔鄉",
+      "township_en": "Dabu Township",
+      "votes": {
+        "1": 62,
+        "2": 1302,
+        "3": 295,
+        "4": 101
+      },
+      "valid_votes": 1760,
+      "invalid_votes": 26,
+      "ballots_cast": 1786,
+      "unreturned_ballots": 0,
+      "electors": 2840,
+      "turnout_rate": 62.8873
+    },
+    "CYQ-ALISHAN": {
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "votes": {
+        "1": 110,
+        "2": 2386,
+        "3": 252,
+        "4": 211
+      },
+      "valid_votes": 2959,
+      "invalid_votes": 35,
+      "ballots_cast": 2994,
+      "unreturned_ballots": 0,
+      "electors": 4582,
+      "turnout_rate": 65.3426
+    }
+  },
+  "villages": {
+    "CYQ-TAIBAO-TAIBAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "太保里",
+      "village_en": "Taibao Village",
+      "votes": {
+        "1": 87,
+        "2": 673,
+        "3": 184,
+        "4": 69
+      },
+      "valid_votes": 1013,
+      "invalid_votes": 41,
+      "ballots_cast": 1054,
+      "unreturned_ballots": 0,
+      "electors": 1488,
+      "turnout_rate": 70.8333
+    },
+    "CYQ-TAIBAO-HOUZHUANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "後庄里",
+      "village_en": "Houzhuang Village",
+      "votes": {
+        "1": 23,
+        "2": 238,
+        "3": 52,
+        "4": 10
+      },
+      "valid_votes": 323,
+      "invalid_votes": 8,
+      "ballots_cast": 331,
+      "unreturned_ballots": 0,
+      "electors": 443,
+      "turnout_rate": 74.7178
+    },
+    "CYQ-TAIBAO-QIANTAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "前潭里",
+      "village_en": "Qiantan Village",
+      "votes": {
+        "1": 75,
+        "2": 546,
+        "3": 287,
+        "4": 36
+      },
+      "valid_votes": 944,
+      "invalid_votes": 9,
+      "ballots_cast": 953,
+      "unreturned_ballots": 0,
+      "electors": 1353,
+      "turnout_rate": 70.4361
+    },
+    "CYQ-TAIBAO-HOUTAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "後潭里",
+      "village_en": "Houtan Village",
+      "votes": {
+        "1": 85,
+        "2": 622,
+        "3": 220,
+        "4": 45
+      },
+      "valid_votes": 972,
+      "invalid_votes": 21,
+      "ballots_cast": 993,
+      "unreturned_ballots": 0,
+      "electors": 1381,
+      "turnout_rate": 71.9044
+    },
+    "CYQ-TAIBAO-MEIPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "梅埔里",
+      "village_en": "Meipu Village",
+      "votes": {
+        "1": 50,
+        "2": 573,
+        "3": 112,
+        "4": 42
+      },
+      "valid_votes": 777,
+      "invalid_votes": 13,
+      "ballots_cast": 790,
+      "unreturned_ballots": 0,
+      "electors": 1066,
+      "turnout_rate": 74.1088
+    },
+    "CYQ-TAIBAO-CHUNZHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "春珠里",
+      "village_en": "Chunzhu Village",
+      "votes": {
+        "1": 32,
+        "2": 353,
+        "3": 126,
+        "4": 13
+      },
+      "valid_votes": 524,
+      "invalid_votes": 6,
+      "ballots_cast": 530,
+      "unreturned_ballots": 0,
+      "electors": 739,
+      "turnout_rate": 71.7185
+    },
+    "CYQ-TAIBAO-LUNDING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "崙頂里",
+      "village_en": "Lunding Village",
+      "votes": {
+        "1": 37,
+        "2": 451,
+        "3": 66,
+        "4": 14
+      },
+      "valid_votes": 568,
+      "invalid_votes": 6,
+      "ballots_cast": 574,
+      "unreturned_ballots": 0,
+      "electors": 774,
+      "turnout_rate": 74.1602
+    },
+    "CYQ-TAIBAO-ANREN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "安仁里",
+      "village_en": "Anren Village",
+      "votes": {
+        "1": 29,
+        "2": 306,
+        "3": 109,
+        "4": 19
+      },
+      "valid_votes": 463,
+      "invalid_votes": 7,
+      "ballots_cast": 470,
+      "unreturned_ballots": 0,
+      "electors": 670,
+      "turnout_rate": 70.1493
+    },
+    "CYQ-TAIBAO-DONGSHI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "東勢里",
+      "village_en": "Dongshi Village",
+      "votes": {
+        "1": 41,
+        "2": 435,
+        "3": 83,
+        "4": 20
+      },
+      "valid_votes": 579,
+      "invalid_votes": 1,
+      "ballots_cast": 580,
+      "unreturned_ballots": 0,
+      "electors": 861,
+      "turnout_rate": 67.3635
+    },
+    "CYQ-TAIBAO-XINPI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "新埤里",
+      "village_en": "Xinpi Village",
+      "votes": {
+        "1": 52,
+        "2": 526,
+        "3": 209,
+        "4": 37
+      },
+      "valid_votes": 824,
+      "invalid_votes": 7,
+      "ballots_cast": 831,
+      "unreturned_ballots": 0,
+      "electors": 1167,
+      "turnout_rate": 71.2082
+    },
+    "CYQ-TAIBAO-JIUPI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "舊埤里",
+      "village_en": "Jiupi Village",
+      "votes": {
+        "1": 46,
+        "2": 389,
+        "3": 117,
+        "4": 32
+      },
+      "valid_votes": 584,
+      "invalid_votes": 6,
+      "ballots_cast": 590,
+      "unreturned_ballots": 0,
+      "electors": 908,
+      "turnout_rate": 64.978
+    },
+    "CYQ-TAIBAO-TIANWEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "田尾里",
+      "village_en": "Tianwei Village",
+      "votes": {
+        "1": 31,
+        "2": 337,
+        "3": 103,
+        "4": 14
+      },
+      "valid_votes": 485,
+      "invalid_votes": 5,
+      "ballots_cast": 490,
+      "unreturned_ballots": 0,
+      "electors": 733,
+      "turnout_rate": 66.8486
+    },
+    "CYQ-TAIBAO-GANGWEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "港尾里",
+      "village_en": "Gangwei Village",
+      "votes": {
+        "1": 22,
+        "2": 305,
+        "3": 87,
+        "4": 12
+      },
+      "valid_votes": 426,
+      "invalid_votes": 2,
+      "ballots_cast": 428,
+      "unreturned_ballots": 0,
+      "electors": 584,
+      "turnout_rate": 73.2877
+    },
+    "CYQ-TAIBAO-GUOGOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "過溝里",
+      "village_en": "Guogou Village",
+      "votes": {
+        "1": 98,
+        "2": 643,
+        "3": 338,
+        "4": 50
+      },
+      "valid_votes": 1129,
+      "invalid_votes": 9,
+      "ballots_cast": 1138,
+      "unreturned_ballots": 0,
+      "electors": 1584,
+      "turnout_rate": 71.8434
+    },
+    "CYQ-TAIBAO-MALIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "麻寮里",
+      "village_en": "Maliao Village",
+      "votes": {
+        "1": 121,
+        "2": 944,
+        "3": 386,
+        "4": 87
+      },
+      "valid_votes": 1538,
+      "invalid_votes": 24,
+      "ballots_cast": 1562,
+      "unreturned_ballots": 0,
+      "electors": 2120,
+      "turnout_rate": 73.6792
+    },
+    "CYQ-TAIBAO-NANXIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "南新里",
+      "village_en": "Nanxin Village",
+      "votes": {
+        "1": 93,
+        "2": 633,
+        "3": 329,
+        "4": 54
+      },
+      "valid_votes": 1109,
+      "invalid_votes": 10,
+      "ballots_cast": 1119,
+      "unreturned_ballots": 0,
+      "electors": 1592,
+      "turnout_rate": 70.2889
+    },
+    "CYQ-TAIBAO-BEIXIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "北新里",
+      "village_en": "Beixin Village",
+      "votes": {
+        "1": 104,
+        "2": 829,
+        "3": 384,
+        "4": 66
+      },
+      "valid_votes": 1383,
+      "invalid_votes": 12,
+      "ballots_cast": 1395,
+      "unreturned_ballots": 0,
+      "electors": 1927,
+      "turnout_rate": 72.3923
+    },
+    "CYQ-TAIBAO-PIXIANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "太保市",
+      "township_en": "Taibao City",
+      "village_zh": "埤鄉里",
+      "village_en": "Pixiang Village",
+      "votes": {
+        "1": 56,
+        "2": 328,
+        "3": 122,
+        "4": 26
+      },
+      "valid_votes": 532,
+      "invalid_votes": 9,
+      "ballots_cast": 541,
+      "unreturned_ballots": 0,
+      "electors": 727,
+      "turnout_rate": 74.4154
+    },
+    "CYQ-PUZI-ANFU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "安福里",
+      "village_en": "Anfu Village",
+      "votes": {
+        "1": 87,
+        "2": 793,
+        "3": 293,
+        "4": 102
+      },
+      "valid_votes": 1275,
+      "invalid_votes": 11,
+      "ballots_cast": 1286,
+      "unreturned_ballots": 0,
+      "electors": 1838,
+      "turnout_rate": 69.9674
+    },
+    "CYQ-PUZI-PINGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "平和里",
+      "village_en": "Pinghe Village",
+      "votes": {
+        "1": 87,
+        "2": 737,
+        "3": 321,
+        "4": 85
+      },
+      "valid_votes": 1230,
+      "invalid_votes": 9,
+      "ballots_cast": 1239,
+      "unreturned_ballots": 0,
+      "electors": 1733,
+      "turnout_rate": 71.4945
+    },
+    "CYQ-PUZI-NEICUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "內厝里",
+      "village_en": "Neicuo Village",
+      "votes": {
+        "1": 48,
+        "2": 470,
+        "3": 260,
+        "4": 42
+      },
+      "valid_votes": 820,
+      "invalid_votes": 9,
+      "ballots_cast": 829,
+      "unreturned_ballots": 0,
+      "electors": 1154,
+      "turnout_rate": 71.8371
+    },
+    "CYQ-PUZI-KAIYUAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "開元里",
+      "village_en": "Kaiyuan Village",
+      "votes": {
+        "1": 32,
+        "2": 222,
+        "3": 120,
+        "4": 20
+      },
+      "valid_votes": 394,
+      "invalid_votes": 2,
+      "ballots_cast": 396,
+      "unreturned_ballots": 0,
+      "electors": 568,
+      "turnout_rate": 69.7183
+    },
+    "CYQ-PUZI-SHUNTIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "順天里",
+      "village_en": "Shuntian Village",
+      "votes": {
+        "1": 28,
+        "2": 323,
+        "3": 160,
+        "4": 29
+      },
+      "valid_votes": 540,
+      "invalid_votes": 9,
+      "ballots_cast": 549,
+      "unreturned_ballots": 0,
+      "electors": 780,
+      "turnout_rate": 70.3846
+    },
+    "CYQ-PUZI-ZHONGZHENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 33,
+        "2": 329,
+        "3": 165,
+        "4": 27
+      },
+      "valid_votes": 554,
+      "invalid_votes": 2,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "electors": 749,
+      "turnout_rate": 74.2323
+    },
+    "CYQ-PUZI-BOHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "博厚里",
+      "village_en": "Bohou Village",
+      "votes": {
+        "1": 32,
+        "2": 350,
+        "3": 167,
+        "4": 21
+      },
+      "valid_votes": 570,
+      "invalid_votes": 4,
+      "ballots_cast": 574,
+      "unreturned_ballots": 0,
+      "electors": 792,
+      "turnout_rate": 72.4747
+    },
+    "CYQ-PUZI-WENHUA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "文化里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 108,
+        "2": 852,
+        "3": 354,
+        "4": 61
+      },
+      "valid_votes": 1375,
+      "invalid_votes": 12,
+      "ballots_cast": 1387,
+      "unreturned_ballots": 0,
+      "electors": 1888,
+      "turnout_rate": 73.464
+    },
+    "CYQ-PUZI-YONGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "永和里",
+      "village_en": "Yonghe Village",
+      "votes": {
+        "1": 137,
+        "2": 1066,
+        "3": 358,
+        "4": 49
+      },
+      "valid_votes": 1610,
+      "invalid_votes": 7,
+      "ballots_cast": 1617,
+      "unreturned_ballots": 0,
+      "electors": 2260,
+      "turnout_rate": 71.5487
+    },
+    "CYQ-PUZI-ZHUWEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "竹圍里",
+      "village_en": "Zhuwei Village",
+      "votes": {
+        "1": 194,
+        "2": 1411,
+        "3": 521,
+        "4": 125
+      },
+      "valid_votes": 2251,
+      "invalid_votes": 14,
+      "ballots_cast": 2265,
+      "unreturned_ballots": 0,
+      "electors": 3149,
+      "turnout_rate": 71.9276
+    },
+    "CYQ-PUZI-XINLIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "新寮里",
+      "village_en": "Xinliao Village",
+      "votes": {
+        "1": 24,
+        "2": 315,
+        "3": 72,
+        "4": 13
+      },
+      "valid_votes": 424,
+      "invalid_votes": 6,
+      "ballots_cast": 430,
+      "unreturned_ballots": 0,
+      "electors": 605,
+      "turnout_rate": 71.0744
+    },
+    "CYQ-PUZI-SHUANGXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "雙溪里",
+      "village_en": "Shuangxi Village",
+      "votes": {
+        "1": 20,
+        "2": 389,
+        "3": 73,
+        "4": 16
+      },
+      "valid_votes": 498,
+      "invalid_votes": 4,
+      "ballots_cast": 502,
+      "unreturned_ballots": 0,
+      "electors": 767,
+      "turnout_rate": 65.4498
+    },
+    "CYQ-PUZI-XIKOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "溪口里",
+      "village_en": "Xikou Village",
+      "votes": {
+        "1": 26,
+        "2": 403,
+        "3": 97,
+        "4": 9
+      },
+      "valid_votes": 535,
+      "invalid_votes": 9,
+      "ballots_cast": 544,
+      "unreturned_ballots": 0,
+      "electors": 803,
+      "turnout_rate": 67.746
+    },
+    "CYQ-PUZI-DEXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "德興里",
+      "village_en": "Dexing Village",
+      "votes": {
+        "1": 34,
+        "2": 433,
+        "3": 226,
+        "4": 16
+      },
+      "valid_votes": 709,
+      "invalid_votes": 8,
+      "ballots_cast": 717,
+      "unreturned_ballots": 0,
+      "electors": 955,
+      "turnout_rate": 75.0785
+    },
+    "CYQ-PUZI-RENHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "仁和里",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 10,
+        "2": 219,
+        "3": 56,
+        "4": 11
+      },
+      "valid_votes": 296,
+      "invalid_votes": 4,
+      "ballots_cast": 300,
+      "unreturned_ballots": 0,
+      "electors": 427,
+      "turnout_rate": 70.2576
+    },
+    "CYQ-PUZI-DAXIANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "大鄉里",
+      "village_en": "Daxiang Village",
+      "votes": {
+        "1": 111,
+        "2": 1118,
+        "3": 367,
+        "4": 82
+      },
+      "valid_votes": 1678,
+      "invalid_votes": 29,
+      "ballots_cast": 1707,
+      "unreturned_ballots": 0,
+      "electors": 2450,
+      "turnout_rate": 69.6735
+    },
+    "CYQ-PUZI-DAGE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "大葛里",
+      "village_en": "Dage Village",
+      "votes": {
+        "1": 45,
+        "2": 733,
+        "3": 199,
+        "4": 31
+      },
+      "valid_votes": 1008,
+      "invalid_votes": 12,
+      "ballots_cast": 1020,
+      "unreturned_ballots": 0,
+      "electors": 1490,
+      "turnout_rate": 68.4564
+    },
+    "CYQ-PUZI-JIAHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "佳禾里",
+      "village_en": "Jiahe Village",
+      "votes": {
+        "1": 22,
+        "2": 295,
+        "3": 54,
+        "4": 10
+      },
+      "valid_votes": 381,
+      "invalid_votes": 6,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "electors": 550,
+      "turnout_rate": 70.3636
+    },
+    "CYQ-PUZI-ZHUCUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "竹村里",
+      "village_en": "Zhucun Village",
+      "votes": {
+        "1": 42,
+        "2": 418,
+        "3": 101,
+        "4": 12
+      },
+      "valid_votes": 573,
+      "invalid_votes": 5,
+      "ballots_cast": 578,
+      "unreturned_ballots": 0,
+      "electors": 925,
+      "turnout_rate": 62.4865
+    },
+    "CYQ-PUZI-KANQIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "崁前里",
+      "village_en": "Kanqian Village",
+      "votes": {
+        "1": 34,
+        "2": 513,
+        "3": 114,
+        "4": 10
+      },
+      "valid_votes": 671,
+      "invalid_votes": 9,
+      "ballots_cast": 680,
+      "unreturned_ballots": 0,
+      "electors": 1000,
+      "turnout_rate": 68.0
+    },
+    "CYQ-PUZI-KANHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "崁後里",
+      "village_en": "Kanhou Village",
+      "votes": {
+        "1": 32,
+        "2": 431,
+        "3": 99,
+        "4": 16
+      },
+      "valid_votes": 578,
+      "invalid_votes": 8,
+      "ballots_cast": 586,
+      "unreturned_ballots": 0,
+      "electors": 918,
+      "turnout_rate": 63.8344
+    },
+    "CYQ-PUZI-SHUNAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "順安里",
+      "village_en": "Shunan Village",
+      "votes": {
+        "1": 8,
+        "2": 164,
+        "3": 27,
+        "4": 7
+      },
+      "valid_votes": 206,
+      "invalid_votes": 1,
+      "ballots_cast": 207,
+      "unreturned_ballots": 0,
+      "electors": 307,
+      "turnout_rate": 67.4267
+    },
+    "CYQ-PUZI-DEJIA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "德家里",
+      "village_en": "Dejia Village",
+      "votes": {
+        "1": 19,
+        "2": 357,
+        "3": 122,
+        "4": 12
+      },
+      "valid_votes": 510,
+      "invalid_votes": 12,
+      "ballots_cast": 522,
+      "unreturned_ballots": 0,
+      "electors": 811,
+      "turnout_rate": 64.365
+    },
+    "CYQ-PUZI-XINZHUANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "新庄里",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 11,
+        "2": 296,
+        "3": 61,
+        "4": 16
+      },
+      "valid_votes": 384,
+      "invalid_votes": 8,
+      "ballots_cast": 392,
+      "unreturned_ballots": 0,
+      "electors": 566,
+      "turnout_rate": 69.258
+    },
+    "CYQ-PUZI-MEIHUA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "梅華里",
+      "village_en": "Meihua Village",
+      "votes": {
+        "1": 36,
+        "2": 457,
+        "3": 296,
+        "4": 10
+      },
+      "valid_votes": 799,
+      "invalid_votes": 20,
+      "ballots_cast": 819,
+      "unreturned_ballots": 0,
+      "electors": 1213,
+      "turnout_rate": 67.5185
+    },
+    "CYQ-PUZI-SONGHUA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "松華里",
+      "village_en": "Songhua Village",
+      "votes": {
+        "1": 43,
+        "2": 519,
+        "3": 379,
+        "4": 16
+      },
+      "valid_votes": 957,
+      "invalid_votes": 18,
+      "ballots_cast": 975,
+      "unreturned_ballots": 0,
+      "electors": 1510,
+      "turnout_rate": 64.5695
+    },
+    "CYQ-PUZI-NANZHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "朴子市",
+      "township_en": "Puzi City",
+      "village_zh": "南竹里",
+      "village_en": "Nanzhu Village",
+      "votes": {
+        "1": 16,
+        "2": 239,
+        "3": 126,
+        "4": 15
+      },
+      "valid_votes": 396,
+      "invalid_votes": 4,
+      "ballots_cast": 400,
+      "unreturned_ballots": 0,
+      "electors": 581,
+      "turnout_rate": 68.8468
+    },
+    "CYQ-BUDAI-DAIJIANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "岱江里",
+      "village_en": "Daijiang Village",
+      "votes": {
+        "1": 23,
+        "2": 400,
+        "3": 86,
+        "4": 17
+      },
+      "valid_votes": 526,
+      "invalid_votes": 16,
+      "ballots_cast": 542,
+      "unreturned_ballots": 0,
+      "electors": 798,
+      "turnout_rate": 67.9198
+    },
+    "CYQ-BUDAI-JIULONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "九龍里",
+      "village_en": "Jiulong Village",
+      "votes": {
+        "1": 14,
+        "2": 194,
+        "3": 75,
+        "4": 6
+      },
+      "valid_votes": 289,
+      "invalid_votes": 3,
+      "ballots_cast": 292,
+      "unreturned_ballots": 0,
+      "electors": 445,
+      "turnout_rate": 65.618
+    },
+    "CYQ-BUDAI-CENHAI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "岑海里",
+      "village_en": "Cenhai Village",
+      "votes": {
+        "1": 39,
+        "2": 594,
+        "3": 178,
+        "4": 28
+      },
+      "valid_votes": 839,
+      "invalid_votes": 15,
+      "ballots_cast": 854,
+      "unreturned_ballots": 0,
+      "electors": 1226,
+      "turnout_rate": 69.6574
+    },
+    "CYQ-BUDAI-XINGZHONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "興中里",
+      "village_en": "Xingzhong Village",
+      "votes": {
+        "1": 45,
+        "2": 570,
+        "3": 203,
+        "4": 32
+      },
+      "valid_votes": 850,
+      "invalid_votes": 13,
+      "ballots_cast": 863,
+      "unreturned_ballots": 0,
+      "electors": 1213,
+      "turnout_rate": 71.1459
+    },
+    "CYQ-BUDAI-GUANGFU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "光復里",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 75,
+        "2": 887,
+        "3": 278,
+        "4": 65
+      },
+      "valid_votes": 1305,
+      "invalid_votes": 9,
+      "ballots_cast": 1314,
+      "unreturned_ballots": 0,
+      "electors": 1831,
+      "turnout_rate": 71.7641
+    },
+    "CYQ-BUDAI-JIANLONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "見龍里",
+      "village_en": "Jianlong Village",
+      "votes": {
+        "1": 24,
+        "2": 413,
+        "3": 129,
+        "4": 26
+      },
+      "valid_votes": 592,
+      "invalid_votes": 3,
+      "ballots_cast": 595,
+      "unreturned_ballots": 0,
+      "electors": 892,
+      "turnout_rate": 66.704
+    },
+    "CYQ-BUDAI-XINCUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "新厝里",
+      "village_en": "Xincuo Village",
+      "votes": {
+        "1": 27,
+        "2": 397,
+        "3": 88,
+        "4": 33
+      },
+      "valid_votes": 545,
+      "invalid_votes": 9,
+      "ballots_cast": 554,
+      "unreturned_ballots": 0,
+      "electors": 793,
+      "turnout_rate": 69.8613
+    },
+    "CYQ-BUDAI-LONGJIANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "龍江里",
+      "village_en": "Longjiang Village",
+      "votes": {
+        "1": 31,
+        "2": 462,
+        "3": 100,
+        "4": 27
+      },
+      "valid_votes": 620,
+      "invalid_votes": 7,
+      "ballots_cast": 627,
+      "unreturned_ballots": 0,
+      "electors": 930,
+      "turnout_rate": 67.4194
+    },
+    "CYQ-BUDAI-XIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "西安里",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 41,
+        "2": 705,
+        "3": 236,
+        "4": 18
+      },
+      "valid_votes": 1000,
+      "invalid_votes": 16,
+      "ballots_cast": 1016,
+      "unreturned_ballots": 0,
+      "electors": 1530,
+      "turnout_rate": 66.4052
+    },
+    "CYQ-BUDAI-ZHONGAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "中安里",
+      "village_en": "Zhongan Village",
+      "votes": {
+        "1": 50,
+        "2": 723,
+        "3": 262,
+        "4": 18
+      },
+      "valid_votes": 1053,
+      "invalid_votes": 11,
+      "ballots_cast": 1064,
+      "unreturned_ballots": 0,
+      "electors": 1656,
+      "turnout_rate": 64.2512
+    },
+    "CYQ-BUDAI-DONGAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 56,
+        "2": 678,
+        "3": 297,
+        "4": 25
+      },
+      "valid_votes": 1056,
+      "invalid_votes": 13,
+      "ballots_cast": 1069,
+      "unreturned_ballots": 0,
+      "electors": 1620,
+      "turnout_rate": 65.9877
+    },
+    "CYQ-BUDAI-SHULIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "樹林里",
+      "village_en": "Shulin Village",
+      "votes": {
+        "1": 20,
+        "2": 305,
+        "3": 72,
+        "4": 12
+      },
+      "valid_votes": 409,
+      "invalid_votes": 3,
+      "ballots_cast": 412,
+      "unreturned_ballots": 0,
+      "electors": 594,
+      "turnout_rate": 69.3603
+    },
+    "CYQ-BUDAI-GUISHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "貴舍里",
+      "village_en": "Guishe Village",
+      "votes": {
+        "1": 21,
+        "2": 406,
+        "3": 66,
+        "4": 13
+      },
+      "valid_votes": 506,
+      "invalid_votes": 5,
+      "ballots_cast": 511,
+      "unreturned_ballots": 0,
+      "electors": 757,
+      "turnout_rate": 67.5033
+    },
+    "CYQ-BUDAI-YONGAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "永安里",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 58,
+        "2": 623,
+        "3": 194,
+        "4": 32
+      },
+      "valid_votes": 907,
+      "invalid_votes": 11,
+      "ballots_cast": 918,
+      "unreturned_ballots": 0,
+      "electors": 1302,
+      "turnout_rate": 70.5069
+    },
+    "CYQ-BUDAI-DONGGANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "東港里",
+      "village_en": "Donggang Village",
+      "votes": {
+        "1": 87,
+        "2": 854,
+        "3": 294,
+        "4": 49
+      },
+      "valid_votes": 1284,
+      "invalid_votes": 16,
+      "ballots_cast": 1300,
+      "unreturned_ballots": 0,
+      "electors": 1935,
+      "turnout_rate": 67.1835
+    },
+    "CYQ-BUDAI-JIANGSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "江山里",
+      "village_en": "Jiangshan Village",
+      "votes": {
+        "1": 12,
+        "2": 182,
+        "3": 50,
+        "4": 13
+      },
+      "valid_votes": 257,
+      "invalid_votes": 5,
+      "ballots_cast": 262,
+      "unreturned_ballots": 0,
+      "electors": 403,
+      "turnout_rate": 65.0124
+    },
+    "CYQ-BUDAI-CAIPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "菜舖里",
+      "village_en": "Caipu Village",
+      "votes": {
+        "1": 12,
+        "2": 236,
+        "3": 40,
+        "4": 18
+      },
+      "valid_votes": 306,
+      "invalid_votes": 1,
+      "ballots_cast": 307,
+      "unreturned_ballots": 0,
+      "electors": 477,
+      "turnout_rate": 64.3606
+    },
+    "CYQ-BUDAI-KAOSHI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "考試里",
+      "village_en": "Kaoshi Village",
+      "votes": {
+        "1": 12,
+        "2": 202,
+        "3": 35,
+        "4": 7
+      },
+      "valid_votes": 256,
+      "invalid_votes": 5,
+      "ballots_cast": 261,
+      "unreturned_ballots": 0,
+      "electors": 394,
+      "turnout_rate": 66.2437
+    },
+    "CYQ-BUDAI-ZHENLIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "振寮里",
+      "village_en": "Zhenliao Village",
+      "votes": {
+        "1": 35,
+        "2": 417,
+        "3": 107,
+        "4": 26
+      },
+      "valid_votes": 585,
+      "invalid_votes": 3,
+      "ballots_cast": 588,
+      "unreturned_ballots": 0,
+      "electors": 851,
+      "turnout_rate": 69.0952
+    },
+    "CYQ-BUDAI-XINCEN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "新岑里",
+      "village_en": "Xincen Village",
+      "votes": {
+        "1": 41,
+        "2": 411,
+        "3": 207,
+        "4": 25
+      },
+      "valid_votes": 684,
+      "invalid_votes": 4,
+      "ballots_cast": 688,
+      "unreturned_ballots": 0,
+      "electors": 994,
+      "turnout_rate": 69.2153
+    },
+    "CYQ-BUDAI-XINMIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "新民里",
+      "village_en": "Xinmin Village",
+      "votes": {
+        "1": 41,
+        "2": 475,
+        "3": 216,
+        "4": 23
+      },
+      "valid_votes": 755,
+      "invalid_votes": 8,
+      "ballots_cast": 763,
+      "unreturned_ballots": 0,
+      "electors": 1188,
+      "turnout_rate": 64.2256
+    },
+    "CYQ-BUDAI-FUXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 96,
+        "2": 974,
+        "3": 362,
+        "4": 33
+      },
+      "valid_votes": 1465,
+      "invalid_votes": 18,
+      "ballots_cast": 1483,
+      "unreturned_ballots": 0,
+      "electors": 2292,
+      "turnout_rate": 64.7033
+    },
+    "CYQ-BUDAI-HAOMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "布袋鎮",
+      "township_en": "Budai Township",
+      "village_zh": "好美里",
+      "village_en": "Haomei Village",
+      "votes": {
+        "1": 37,
+        "2": 447,
+        "3": 127,
+        "4": 21
+      },
+      "valid_votes": 632,
+      "invalid_votes": 8,
+      "ballots_cast": 640,
+      "unreturned_ballots": 0,
+      "electors": 1058,
+      "turnout_rate": 60.4915
+    },
+    "CYQ-DALIN-DONGLIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "東林里",
+      "village_en": "Donglin Village",
+      "votes": {
+        "1": 23,
+        "2": 221,
+        "3": 126,
+        "4": 26
+      },
+      "valid_votes": 396,
+      "invalid_votes": 5,
+      "ballots_cast": 401,
+      "unreturned_ballots": 0,
+      "electors": 551,
+      "turnout_rate": 72.7768
+    },
+    "CYQ-DALIN-XILIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "西林里",
+      "village_en": "Xilin Village",
+      "votes": {
+        "1": 127,
+        "2": 784,
+        "3": 354,
+        "4": 95
+      },
+      "valid_votes": 1360,
+      "invalid_votes": 10,
+      "ballots_cast": 1370,
+      "unreturned_ballots": 0,
+      "electors": 1880,
+      "turnout_rate": 72.8723
+    },
+    "CYQ-DALIN-JILIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "吉林里",
+      "village_en": "Jilin Village",
+      "votes": {
+        "1": 66,
+        "2": 439,
+        "3": 203,
+        "4": 49
+      },
+      "valid_votes": 757,
+      "invalid_votes": 7,
+      "ballots_cast": 764,
+      "unreturned_ballots": 0,
+      "electors": 1038,
+      "turnout_rate": 73.6031
+    },
+    "CYQ-DALIN-PINGLIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "平林里",
+      "village_en": "Pinglin Village",
+      "votes": {
+        "1": 236,
+        "2": 1711,
+        "3": 601,
+        "4": 202
+      },
+      "valid_votes": 2750,
+      "invalid_votes": 25,
+      "ballots_cast": 2775,
+      "unreturned_ballots": 0,
+      "electors": 3928,
+      "turnout_rate": 70.6466
+    },
+    "CYQ-DALIN-MINGHUA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "明華里",
+      "village_en": "Minghua Village",
+      "votes": {
+        "1": 63,
+        "2": 583,
+        "3": 174,
+        "4": 37
+      },
+      "valid_votes": 857,
+      "invalid_votes": 8,
+      "ballots_cast": 865,
+      "unreturned_ballots": 0,
+      "electors": 1209,
+      "turnout_rate": 71.5467
+    },
+    "CYQ-DALIN-MINGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "明和里",
+      "village_en": "Minghe Village",
+      "votes": {
+        "1": 76,
+        "2": 547,
+        "3": 196,
+        "4": 52
+      },
+      "valid_votes": 871,
+      "invalid_votes": 7,
+      "ballots_cast": 878,
+      "unreturned_ballots": 0,
+      "electors": 1183,
+      "turnout_rate": 74.2181
+    },
+    "CYQ-DALIN-PAILU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "排路里",
+      "village_en": "Pailu Village",
+      "votes": {
+        "1": 26,
+        "2": 284,
+        "3": 159,
+        "4": 16
+      },
+      "valid_votes": 485,
+      "invalid_votes": 5,
+      "ballots_cast": 490,
+      "unreturned_ballots": 0,
+      "electors": 711,
+      "turnout_rate": 68.917
+    },
+    "CYQ-DALIN-XIJIE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "西結里",
+      "village_en": "Xijie Village",
+      "votes": {
+        "1": 27,
+        "2": 400,
+        "3": 110,
+        "4": 19
+      },
+      "valid_votes": 556,
+      "invalid_votes": 6,
+      "ballots_cast": 562,
+      "unreturned_ballots": 0,
+      "electors": 887,
+      "turnout_rate": 63.3596
+    },
+    "CYQ-DALIN-HUBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "湖北里",
+      "village_en": "Hubei Village",
+      "votes": {
+        "1": 18,
+        "2": 303,
+        "3": 155,
+        "4": 12
+      },
+      "valid_votes": 488,
+      "invalid_votes": 2,
+      "ballots_cast": 490,
+      "unreturned_ballots": 0,
+      "electors": 729,
+      "turnout_rate": 67.2154
+    },
+    "CYQ-DALIN-DATANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "大糖里",
+      "village_en": "Datang Village",
+      "votes": {
+        "1": 27,
+        "2": 185,
+        "3": 43,
+        "4": 24
+      },
+      "valid_votes": 279,
+      "invalid_votes": 2,
+      "ballots_cast": 281,
+      "unreturned_ballots": 0,
+      "electors": 374,
+      "turnout_rate": 75.1337
+    },
+    "CYQ-DALIN-DAMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "大美里",
+      "village_en": "Damei Village",
+      "votes": {
+        "1": 85,
+        "2": 856,
+        "3": 220,
+        "4": 114
+      },
+      "valid_votes": 1275,
+      "invalid_votes": 8,
+      "ballots_cast": 1283,
+      "unreturned_ballots": 0,
+      "electors": 1798,
+      "turnout_rate": 71.3571
+    },
+    "CYQ-DALIN-GUOXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "過溪里",
+      "village_en": "Guoxi Village",
+      "votes": {
+        "1": 61,
+        "2": 696,
+        "3": 227,
+        "4": 82
+      },
+      "valid_votes": 1066,
+      "invalid_votes": 11,
+      "ballots_cast": 1077,
+      "unreturned_ballots": 0,
+      "electors": 1539,
+      "turnout_rate": 69.9805
+    },
+    "CYQ-DALIN-ZHONGKENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "中坑里",
+      "village_en": "Zhongkeng Village",
+      "votes": {
+        "1": 56,
+        "2": 858,
+        "3": 163,
+        "4": 76
+      },
+      "valid_votes": 1153,
+      "invalid_votes": 14,
+      "ballots_cast": 1167,
+      "unreturned_ballots": 0,
+      "electors": 1671,
+      "turnout_rate": 69.8384
+    },
+    "CYQ-DALIN-SHANGLIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "上林里",
+      "village_en": "Shanglin Village",
+      "votes": {
+        "1": 48,
+        "2": 434,
+        "3": 157,
+        "4": 22
+      },
+      "valid_votes": 661,
+      "invalid_votes": 3,
+      "ballots_cast": 664,
+      "unreturned_ballots": 0,
+      "electors": 973,
+      "turnout_rate": 68.2425
+    },
+    "CYQ-DALIN-ZHONGLIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "中林里",
+      "village_en": "Zhonglin Village",
+      "votes": {
+        "1": 81,
+        "2": 735,
+        "3": 259,
+        "4": 38
+      },
+      "valid_votes": 1113,
+      "invalid_votes": 9,
+      "ballots_cast": 1122,
+      "unreturned_ballots": 0,
+      "electors": 1559,
+      "turnout_rate": 71.9692
+    },
+    "CYQ-DALIN-SANHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "三和里",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 83,
+        "2": 761,
+        "3": 302,
+        "4": 84
+      },
+      "valid_votes": 1230,
+      "invalid_votes": 18,
+      "ballots_cast": 1248,
+      "unreturned_ballots": 0,
+      "electors": 1746,
+      "turnout_rate": 71.4777
+    },
+    "CYQ-DALIN-GOUBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "溝背里",
+      "village_en": "Goubei Village",
+      "votes": {
+        "1": 46,
+        "2": 466,
+        "3": 165,
+        "4": 28
+      },
+      "valid_votes": 705,
+      "invalid_votes": 9,
+      "ballots_cast": 714,
+      "unreturned_ballots": 0,
+      "electors": 1044,
+      "turnout_rate": 68.3908
+    },
+    "CYQ-DALIN-YIHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "義和里",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 21,
+        "2": 361,
+        "3": 90,
+        "4": 22
+      },
+      "valid_votes": 494,
+      "invalid_votes": 3,
+      "ballots_cast": 497,
+      "unreturned_ballots": 0,
+      "electors": 703,
+      "turnout_rate": 70.697
+    },
+    "CYQ-DALIN-NEILIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "內林里",
+      "village_en": "Neilin Village",
+      "votes": {
+        "1": 47,
+        "2": 368,
+        "3": 148,
+        "4": 23
+      },
+      "valid_votes": 586,
+      "invalid_votes": 5,
+      "ballots_cast": 591,
+      "unreturned_ballots": 0,
+      "electors": 824,
+      "turnout_rate": 71.7233
+    },
+    "CYQ-DALIN-SANJIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "三角里",
+      "village_en": "Sanjiao Village",
+      "votes": {
+        "1": 56,
+        "2": 509,
+        "3": 108,
+        "4": 160
+      },
+      "valid_votes": 833,
+      "invalid_votes": 6,
+      "ballots_cast": 839,
+      "unreturned_ballots": 0,
+      "electors": 1203,
+      "turnout_rate": 69.7423
+    },
+    "CYQ-DALIN-SANCUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大林鎮",
+      "township_en": "Dalin Township",
+      "village_zh": "三村里",
+      "village_en": "Sancun Village",
+      "votes": {
+        "1": 40,
+        "2": 348,
+        "3": 92,
+        "4": 22
+      },
+      "valid_votes": 502,
+      "invalid_votes": 5,
+      "ballots_cast": 507,
+      "unreturned_ballots": 0,
+      "electors": 718,
+      "turnout_rate": 70.6128
+    },
+    "CYQ-MINXIONG-DONGRONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "東榮村",
+      "village_en": "Dongrong Village",
+      "votes": {
+        "1": 128,
+        "2": 944,
+        "3": 327,
+        "4": 109
+      },
+      "valid_votes": 1508,
+      "invalid_votes": 13,
+      "ballots_cast": 1521,
+      "unreturned_ballots": 0,
+      "electors": 1992,
+      "turnout_rate": 76.3554
+    },
+    "CYQ-MINXIONG-ZHONGLE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "中樂村",
+      "village_en": "Zhongle Village",
+      "votes": {
+        "1": 101,
+        "2": 729,
+        "3": 262,
+        "4": 65
+      },
+      "valid_votes": 1157,
+      "invalid_votes": 14,
+      "ballots_cast": 1171,
+      "unreturned_ballots": 0,
+      "electors": 1523,
+      "turnout_rate": 76.8877
+    },
+    "CYQ-MINXIONG-XIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "西安村",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 174,
+        "2": 1292,
+        "3": 453,
+        "4": 110
+      },
+      "valid_votes": 2029,
+      "invalid_votes": 10,
+      "ballots_cast": 2039,
+      "unreturned_ballots": 0,
+      "electors": 2702,
+      "turnout_rate": 75.4626
+    },
+    "CYQ-MINXIONG-LIAODING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "寮頂村",
+      "village_en": "Liaoding Village",
+      "votes": {
+        "1": 101,
+        "2": 877,
+        "3": 255,
+        "4": 76
+      },
+      "valid_votes": 1309,
+      "invalid_votes": 17,
+      "ballots_cast": 1326,
+      "unreturned_ballots": 0,
+      "electors": 1840,
+      "turnout_rate": 72.0652
+    },
+    "CYQ-MINXIONG-FUQUAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "福權村",
+      "village_en": "Fuquan Village",
+      "votes": {
+        "1": 44,
+        "2": 464,
+        "3": 221,
+        "4": 11
+      },
+      "valid_votes": 740,
+      "invalid_votes": 7,
+      "ballots_cast": 747,
+      "unreturned_ballots": 0,
+      "electors": 1047,
+      "turnout_rate": 71.3467
+    },
+    "CYQ-MINXIONG-DONGHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "東湖村",
+      "village_en": "Donghu Village",
+      "votes": {
+        "1": 86,
+        "2": 986,
+        "3": 199,
+        "4": 52
+      },
+      "valid_votes": 1323,
+      "invalid_votes": 19,
+      "ballots_cast": 1342,
+      "unreturned_ballots": 0,
+      "electors": 1760,
+      "turnout_rate": 76.25
+    },
+    "CYQ-MINXIONG-DINGLUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "頂崙村",
+      "village_en": "Dinglun Village",
+      "votes": {
+        "1": 77,
+        "2": 680,
+        "3": 173,
+        "4": 45
+      },
+      "valid_votes": 975,
+      "invalid_votes": 10,
+      "ballots_cast": 985,
+      "unreturned_ballots": 0,
+      "electors": 1316,
+      "turnout_rate": 74.848
+    },
+    "CYQ-MINXIONG-FENGSHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "豐收村",
+      "village_en": "Fengshou Village",
+      "votes": {
+        "1": 111,
+        "2": 912,
+        "3": 217,
+        "4": 63
+      },
+      "valid_votes": 1303,
+      "invalid_votes": 17,
+      "ballots_cast": 1320,
+      "unreturned_ballots": 0,
+      "electors": 1749,
+      "turnout_rate": 75.4717
+    },
+    "CYQ-MINXIONG-SANXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "三興村",
+      "village_en": "Sanxing Village",
+      "votes": {
+        "1": 38,
+        "2": 355,
+        "3": 150,
+        "4": 33
+      },
+      "valid_votes": 576,
+      "invalid_votes": 6,
+      "ballots_cast": 582,
+      "unreturned_ballots": 0,
+      "electors": 809,
+      "turnout_rate": 71.9407
+    },
+    "CYQ-MINXIONG-DONGXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "東興村",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 30,
+        "2": 291,
+        "3": 81,
+        "4": 11
+      },
+      "valid_votes": 413,
+      "invalid_votes": 7,
+      "ballots_cast": 420,
+      "unreturned_ballots": 0,
+      "electors": 619,
+      "turnout_rate": 67.8514
+    },
+    "CYQ-MINXIONG-ZHENBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "鎮北村",
+      "village_en": "Zhenbei Village",
+      "votes": {
+        "1": 43,
+        "2": 418,
+        "3": 74,
+        "4": 20
+      },
+      "valid_votes": 555,
+      "invalid_votes": 2,
+      "ballots_cast": 557,
+      "unreturned_ballots": 0,
+      "electors": 747,
+      "turnout_rate": 74.5649
+    },
+    "CYQ-MINXIONG-JINGPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "菁埔村",
+      "village_en": "Jingpu Village",
+      "votes": {
+        "1": 109,
+        "2": 625,
+        "3": 401,
+        "4": 37
+      },
+      "valid_votes": 1172,
+      "invalid_votes": 13,
+      "ballots_cast": 1185,
+      "unreturned_ballots": 0,
+      "electors": 1627,
+      "turnout_rate": 72.8334
+    },
+    "CYQ-MINXIONG-ZHONGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "中和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 27,
+        "2": 349,
+        "3": 124,
+        "4": 32
+      },
+      "valid_votes": 532,
+      "invalid_votes": 3,
+      "ballots_cast": 535,
+      "unreturned_ballots": 0,
+      "electors": 690,
+      "turnout_rate": 77.5362
+    },
+    "CYQ-MINXIONG-PINGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "平和村",
+      "village_en": "Pinghe Village",
+      "votes": {
+        "1": 21,
+        "2": 309,
+        "3": 126,
+        "4": 16
+      },
+      "valid_votes": 472,
+      "invalid_votes": 7,
+      "ballots_cast": 479,
+      "unreturned_ballots": 0,
+      "electors": 630,
+      "turnout_rate": 76.0317
+    },
+    "CYQ-MINXIONG-XICHANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "西昌村",
+      "village_en": "Xichang Village",
+      "votes": {
+        "1": 27,
+        "2": 342,
+        "3": 108,
+        "4": 17
+      },
+      "valid_votes": 494,
+      "invalid_votes": 12,
+      "ballots_cast": 506,
+      "unreturned_ballots": 0,
+      "electors": 698,
+      "turnout_rate": 72.4928
+    },
+    "CYQ-MINXIONG-XINGZHONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "興中村",
+      "village_en": "Xingzhong Village",
+      "votes": {
+        "1": 65,
+        "2": 775,
+        "3": 208,
+        "4": 56
+      },
+      "valid_votes": 1104,
+      "invalid_votes": 7,
+      "ballots_cast": 1111,
+      "unreturned_ballots": 0,
+      "electors": 1500,
+      "turnout_rate": 74.0667
+    },
+    "CYQ-MINXIONG-XINGNAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "興南村",
+      "village_en": "Xingnan Village",
+      "votes": {
+        "1": 137,
+        "2": 762,
+        "3": 366,
+        "4": 105
+      },
+      "valid_votes": 1370,
+      "invalid_votes": 8,
+      "ballots_cast": 1378,
+      "unreturned_ballots": 0,
+      "electors": 1878,
+      "turnout_rate": 73.3759
+    },
+    "CYQ-MINXIONG-JINXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "金興村",
+      "village_en": "Jinxing Village",
+      "votes": {
+        "1": 167,
+        "2": 796,
+        "3": 404,
+        "4": 167
+      },
+      "valid_votes": 1534,
+      "invalid_votes": 14,
+      "ballots_cast": 1548,
+      "unreturned_ballots": 0,
+      "electors": 2115,
+      "turnout_rate": 73.1915
+    },
+    "CYQ-MINXIONG-FUXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 99,
+        "2": 716,
+        "3": 299,
+        "4": 70
+      },
+      "valid_votes": 1184,
+      "invalid_votes": 14,
+      "ballots_cast": 1198,
+      "unreturned_ballots": 0,
+      "electors": 1555,
+      "turnout_rate": 77.0418
+    },
+    "CYQ-MINXIONG-WENLONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "文隆村",
+      "village_en": "Wenlong Village",
+      "votes": {
+        "1": 123,
+        "2": 820,
+        "3": 282,
+        "4": 113
+      },
+      "valid_votes": 1338,
+      "invalid_votes": 17,
+      "ballots_cast": 1355,
+      "unreturned_ballots": 0,
+      "electors": 1826,
+      "turnout_rate": 74.2059
+    },
+    "CYQ-MINXIONG-SHANZHONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "山中村",
+      "village_en": "Shanzhong Village",
+      "votes": {
+        "1": 126,
+        "2": 1370,
+        "3": 554,
+        "4": 103
+      },
+      "valid_votes": 2153,
+      "invalid_votes": 20,
+      "ballots_cast": 2173,
+      "unreturned_ballots": 0,
+      "electors": 2937,
+      "turnout_rate": 73.9871
+    },
+    "CYQ-MINXIONG-ZHONGYANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "中央村",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 34,
+        "2": 585,
+        "3": 191,
+        "4": 27
+      },
+      "valid_votes": 837,
+      "invalid_votes": 3,
+      "ballots_cast": 840,
+      "unreturned_ballots": 0,
+      "electors": 1113,
+      "turnout_rate": 75.4717
+    },
+    "CYQ-MINXIONG-BEIDOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "北斗村",
+      "village_en": "Beidou Village",
+      "votes": {
+        "1": 170,
+        "2": 1183,
+        "3": 446,
+        "4": 111
+      },
+      "valid_votes": 1910,
+      "invalid_votes": 25,
+      "ballots_cast": 1935,
+      "unreturned_ballots": 0,
+      "electors": 2669,
+      "turnout_rate": 72.4991
+    },
+    "CYQ-MINXIONG-SHUANGFU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "雙福村",
+      "village_en": "Shuangfu Village",
+      "votes": {
+        "1": 99,
+        "2": 704,
+        "3": 144,
+        "4": 81
+      },
+      "valid_votes": 1028,
+      "invalid_votes": 16,
+      "ballots_cast": 1044,
+      "unreturned_ballots": 0,
+      "electors": 1402,
+      "turnout_rate": 74.465
+    },
+    "CYQ-MINXIONG-FULE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "福樂村",
+      "village_en": "Fule Village",
+      "votes": {
+        "1": 198,
+        "2": 1105,
+        "3": 467,
+        "4": 174
+      },
+      "valid_votes": 1944,
+      "invalid_votes": 28,
+      "ballots_cast": 1972,
+      "unreturned_ballots": 0,
+      "electors": 2684,
+      "turnout_rate": 73.4724
+    },
+    "CYQ-MINXIONG-DAQI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "大崎村",
+      "village_en": "Daqi Village",
+      "votes": {
+        "1": 107,
+        "2": 792,
+        "3": 320,
+        "4": 90
+      },
+      "valid_votes": 1309,
+      "invalid_votes": 14,
+      "ballots_cast": 1323,
+      "unreturned_ballots": 0,
+      "electors": 1763,
+      "turnout_rate": 75.0425
+    },
+    "CYQ-MINXIONG-XIULIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "秀林村",
+      "village_en": "Xiulin Village",
+      "votes": {
+        "1": 87,
+        "2": 786,
+        "3": 342,
+        "4": 62
+      },
+      "valid_votes": 1277,
+      "invalid_votes": 35,
+      "ballots_cast": 1312,
+      "unreturned_ballots": 0,
+      "electors": 1768,
+      "turnout_rate": 74.2081
+    },
+    "CYQ-MINXIONG-SONGSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "民雄鄉",
+      "township_en": "Minxiong Township",
+      "village_zh": "松山村",
+      "village_en": "Songshan Village",
+      "votes": {
+        "1": 99,
+        "2": 655,
+        "3": 214,
+        "4": 68
+      },
+      "valid_votes": 1036,
+      "invalid_votes": 12,
+      "ballots_cast": 1048,
+      "unreturned_ballots": 0,
+      "electors": 1515,
+      "turnout_rate": 69.1749
+    },
+    "CYQ-XIKOU-XIDONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "溪東村",
+      "village_en": "Xidong Village",
+      "votes": {
+        "1": 57,
+        "2": 543,
+        "3": 301,
+        "4": 33
+      },
+      "valid_votes": 934,
+      "invalid_votes": 8,
+      "ballots_cast": 942,
+      "unreturned_ballots": 0,
+      "electors": 1356,
+      "turnout_rate": 69.469
+    },
+    "CYQ-XIKOU-XIXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "溪西村",
+      "village_en": "Xixi Village",
+      "votes": {
+        "1": 31,
+        "2": 308,
+        "3": 181,
+        "4": 29
+      },
+      "valid_votes": 549,
+      "invalid_votes": 3,
+      "ballots_cast": 552,
+      "unreturned_ballots": 0,
+      "electors": 840,
+      "turnout_rate": 65.7143
+    },
+    "CYQ-XIKOU-XIBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "溪北村",
+      "village_en": "Xibei Village",
+      "votes": {
+        "1": 27,
+        "2": 314,
+        "3": 142,
+        "4": 15
+      },
+      "valid_votes": 498,
+      "invalid_votes": 3,
+      "ballots_cast": 501,
+      "unreturned_ballots": 0,
+      "electors": 744,
+      "turnout_rate": 67.3387
+    },
+    "CYQ-XIKOU-CHAILIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "柴林村",
+      "village_en": "Chailin Village",
+      "votes": {
+        "1": 32,
+        "2": 372,
+        "3": 124,
+        "4": 10
+      },
+      "valid_votes": 538,
+      "invalid_votes": 3,
+      "ballots_cast": 541,
+      "unreturned_ballots": 0,
+      "electors": 859,
+      "turnout_rate": 62.9802
+    },
+    "CYQ-XIKOU-LINJIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "林腳村",
+      "village_en": "Linjiao Village",
+      "votes": {
+        "1": 24,
+        "2": 356,
+        "3": 137,
+        "4": 18
+      },
+      "valid_votes": 535,
+      "invalid_votes": 5,
+      "ballots_cast": 540,
+      "unreturned_ballots": 0,
+      "electors": 978,
+      "turnout_rate": 55.2147
+    },
+    "CYQ-XIKOU-MEINAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "美南村",
+      "village_en": "Meinan Village",
+      "votes": {
+        "1": 53,
+        "2": 520,
+        "3": 167,
+        "4": 27
+      },
+      "valid_votes": 767,
+      "invalid_votes": 10,
+      "ballots_cast": 777,
+      "unreturned_ballots": 0,
+      "electors": 1237,
+      "turnout_rate": 62.8133
+    },
+    "CYQ-XIKOU-MEIBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "美北村",
+      "village_en": "Meibei Village",
+      "votes": {
+        "1": 31,
+        "2": 460,
+        "3": 158,
+        "4": 17
+      },
+      "valid_votes": 666,
+      "invalid_votes": 10,
+      "ballots_cast": 676,
+      "unreturned_ballots": 0,
+      "electors": 1019,
+      "turnout_rate": 66.3395
+    },
+    "CYQ-XIKOU-BENCUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "本厝村",
+      "village_en": "Bencuo Village",
+      "votes": {
+        "1": 41,
+        "2": 437,
+        "3": 158,
+        "4": 19
+      },
+      "valid_votes": 655,
+      "invalid_votes": 4,
+      "ballots_cast": 659,
+      "unreturned_ballots": 0,
+      "electors": 956,
+      "turnout_rate": 68.9331
+    },
+    "CYQ-XIKOU-YOUDONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "游東村",
+      "village_en": "Youdong Village",
+      "votes": {
+        "1": 23,
+        "2": 488,
+        "3": 172,
+        "4": 25
+      },
+      "valid_votes": 708,
+      "invalid_votes": 11,
+      "ballots_cast": 719,
+      "unreturned_ballots": 0,
+      "electors": 1119,
+      "turnout_rate": 64.2538
+    },
+    "CYQ-XIKOU-YOUXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "游西村",
+      "village_en": "Youxi Village",
+      "votes": {
+        "1": 33,
+        "2": 332,
+        "3": 110,
+        "4": 10
+      },
+      "valid_votes": 485,
+      "invalid_votes": 3,
+      "ballots_cast": 488,
+      "unreturned_ballots": 0,
+      "electors": 805,
+      "turnout_rate": 60.6211
+    },
+    "CYQ-XIKOU-LIUGOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "柳溝村",
+      "village_en": "Liugou Village",
+      "votes": {
+        "1": 45,
+        "2": 661,
+        "3": 164,
+        "4": 32
+      },
+      "valid_votes": 902,
+      "invalid_votes": 7,
+      "ballots_cast": 909,
+      "unreturned_ballots": 0,
+      "electors": 1245,
+      "turnout_rate": 73.012
+    },
+    "CYQ-XIKOU-DIEXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "疊溪村",
+      "village_en": "Diexi Village",
+      "votes": {
+        "1": 44,
+        "2": 422,
+        "3": 166,
+        "4": 24
+      },
+      "valid_votes": 656,
+      "invalid_votes": 4,
+      "ballots_cast": 660,
+      "unreturned_ballots": 0,
+      "electors": 969,
+      "turnout_rate": 68.1115
+    },
+    "CYQ-XIKOU-MIAOLUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "妙崙村",
+      "village_en": "Miaolun Village",
+      "votes": {
+        "1": 33,
+        "2": 371,
+        "3": 88,
+        "4": 9
+      },
+      "valid_votes": 501,
+      "invalid_votes": 8,
+      "ballots_cast": 509,
+      "unreturned_ballots": 0,
+      "electors": 768,
+      "turnout_rate": 66.276
+    },
+    "CYQ-XIKOU-PINGDING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "溪口鄉",
+      "township_en": "Xikou Township",
+      "village_zh": "坪頂村",
+      "village_en": "Pingding Village",
+      "votes": {
+        "1": 38,
+        "2": 439,
+        "3": 141,
+        "4": 19
+      },
+      "valid_votes": 637,
+      "invalid_votes": 7,
+      "ballots_cast": 644,
+      "unreturned_ballots": 0,
+      "electors": 877,
+      "turnout_rate": 73.4322
+    },
+    "CYQ-XINGANG-GONGQIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "宮前村",
+      "village_en": "Gongqian Village",
+      "votes": {
+        "1": 99,
+        "2": 670,
+        "3": 310,
+        "4": 57
+      },
+      "valid_votes": 1136,
+      "invalid_votes": 16,
+      "ballots_cast": 1152,
+      "unreturned_ballots": 0,
+      "electors": 1588,
+      "turnout_rate": 72.5441
+    },
+    "CYQ-XINGANG-GONGHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "宮後村",
+      "village_en": "Gonghou Village",
+      "votes": {
+        "1": 80,
+        "2": 662,
+        "3": 371,
+        "4": 57
+      },
+      "valid_votes": 1170,
+      "invalid_votes": 9,
+      "ballots_cast": 1179,
+      "unreturned_ballots": 0,
+      "electors": 1717,
+      "turnout_rate": 68.6663
+    },
+    "CYQ-XINGANG-DAXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "大興村",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 76,
+        "2": 526,
+        "3": 330,
+        "4": 40
+      },
+      "valid_votes": 972,
+      "invalid_votes": 12,
+      "ballots_cast": 984,
+      "unreturned_ballots": 0,
+      "electors": 1375,
+      "turnout_rate": 71.5636
+    },
+    "CYQ-XINGANG-FUDE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "福德村",
+      "village_en": "Fude Village",
+      "votes": {
+        "1": 84,
+        "2": 553,
+        "3": 269,
+        "4": 61
+      },
+      "valid_votes": 967,
+      "invalid_votes": 11,
+      "ballots_cast": 978,
+      "unreturned_ballots": 0,
+      "electors": 1407,
+      "turnout_rate": 69.5096
+    },
+    "CYQ-XINGANG-GUMIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "古民村",
+      "village_en": "Gumin Village",
+      "votes": {
+        "1": 45,
+        "2": 470,
+        "3": 217,
+        "4": 13
+      },
+      "valid_votes": 745,
+      "invalid_votes": 9,
+      "ballots_cast": 754,
+      "unreturned_ballots": 0,
+      "electors": 1179,
+      "turnout_rate": 63.9525
+    },
+    "CYQ-XINGANG-ZHONGZHUANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "中庄村",
+      "village_en": "Zhongzhuang Village",
+      "votes": {
+        "1": 61,
+        "2": 551,
+        "3": 328,
+        "4": 35
+      },
+      "valid_votes": 975,
+      "invalid_votes": 13,
+      "ballots_cast": 988,
+      "unreturned_ballots": 0,
+      "electors": 1502,
+      "turnout_rate": 65.779
+    },
+    "CYQ-XINGANG-DATAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "大潭村",
+      "village_en": "Datan Village",
+      "votes": {
+        "1": 68,
+        "2": 626,
+        "3": 344,
+        "4": 46
+      },
+      "valid_votes": 1084,
+      "invalid_votes": 9,
+      "ballots_cast": 1093,
+      "unreturned_ballots": 0,
+      "electors": 1585,
+      "turnout_rate": 68.959
+    },
+    "CYQ-XINGANG-XIZHUANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "西庄村",
+      "village_en": "Xizhuang Village",
+      "votes": {
+        "1": 38,
+        "2": 437,
+        "3": 104,
+        "4": 21
+      },
+      "valid_votes": 600,
+      "invalid_votes": 4,
+      "ballots_cast": 604,
+      "unreturned_ballots": 0,
+      "electors": 919,
+      "turnout_rate": 65.7236
+    },
+    "CYQ-XINGANG-YUEMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "月眉村",
+      "village_en": "Yuemei Village",
+      "votes": {
+        "1": 57,
+        "2": 731,
+        "3": 266,
+        "4": 45
+      },
+      "valid_votes": 1099,
+      "invalid_votes": 9,
+      "ballots_cast": 1108,
+      "unreturned_ballots": 0,
+      "electors": 1606,
+      "turnout_rate": 68.9913
+    },
+    "CYQ-XINGANG-YUETAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "月潭村",
+      "village_en": "Yuetan Village",
+      "votes": {
+        "1": 51,
+        "2": 683,
+        "3": 222,
+        "4": 26
+      },
+      "valid_votes": 982,
+      "invalid_votes": 10,
+      "ballots_cast": 992,
+      "unreturned_ballots": 0,
+      "electors": 1440,
+      "turnout_rate": 68.8889
+    },
+    "CYQ-XINGANG-XIBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "溪北村",
+      "village_en": "Xibei Village",
+      "votes": {
+        "1": 37,
+        "2": 656,
+        "3": 246,
+        "4": 25
+      },
+      "valid_votes": 964,
+      "invalid_votes": 6,
+      "ballots_cast": 970,
+      "unreturned_ballots": 0,
+      "electors": 1399,
+      "turnout_rate": 69.3352
+    },
+    "CYQ-XINGANG-CAIGONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "菜公村",
+      "village_en": "Caigong Village",
+      "votes": {
+        "1": 33,
+        "2": 368,
+        "3": 149,
+        "4": 20
+      },
+      "valid_votes": 570,
+      "invalid_votes": 4,
+      "ballots_cast": 574,
+      "unreturned_ballots": 0,
+      "electors": 803,
+      "turnout_rate": 71.4819
+    },
+    "CYQ-XINGANG-ZHONGYANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "中洋村",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 61,
+        "2": 358,
+        "3": 190,
+        "4": 14
+      },
+      "valid_votes": 623,
+      "invalid_votes": 12,
+      "ballots_cast": 635,
+      "unreturned_ballots": 0,
+      "electors": 967,
+      "turnout_rate": 65.667
+    },
+    "CYQ-XINGANG-SANJIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "三間村",
+      "village_en": "Sanjian Village",
+      "votes": {
+        "1": 48,
+        "2": 322,
+        "3": 111,
+        "4": 13
+      },
+      "valid_votes": 494,
+      "invalid_votes": 6,
+      "ballots_cast": 500,
+      "unreturned_ballots": 0,
+      "electors": 705,
+      "turnout_rate": 70.922
+    },
+    "CYQ-XINGANG-ANHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "安和村",
+      "village_en": "Anhe Village",
+      "votes": {
+        "1": 44,
+        "2": 547,
+        "3": 136,
+        "4": 19
+      },
+      "valid_votes": 746,
+      "invalid_votes": 17,
+      "ballots_cast": 763,
+      "unreturned_ballots": 0,
+      "electors": 1163,
+      "turnout_rate": 65.6062
+    },
+    "CYQ-XINGANG-TANDA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "潭大村",
+      "village_en": "Tanda Village",
+      "votes": {
+        "1": 42,
+        "2": 496,
+        "3": 183,
+        "4": 11
+      },
+      "valid_votes": 732,
+      "invalid_votes": 6,
+      "ballots_cast": 738,
+      "unreturned_ballots": 0,
+      "electors": 1165,
+      "turnout_rate": 63.3476
+    },
+    "CYQ-XINGANG-NANGANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "南港村",
+      "village_en": "Nangang Village",
+      "votes": {
+        "1": 49,
+        "2": 453,
+        "3": 193,
+        "4": 41
+      },
+      "valid_votes": 736,
+      "invalid_votes": 12,
+      "ballots_cast": 748,
+      "unreturned_ballots": 0,
+      "electors": 1103,
+      "turnout_rate": 67.815
+    },
+    "CYQ-XINGANG-BANTOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "板頭村",
+      "village_en": "Bantou Village",
+      "votes": {
+        "1": 17,
+        "2": 298,
+        "3": 121,
+        "4": 15
+      },
+      "valid_votes": 451,
+      "invalid_votes": 4,
+      "ballots_cast": 455,
+      "unreturned_ballots": 0,
+      "electors": 665,
+      "turnout_rate": 68.4211
+    },
+    "CYQ-XINGANG-GONGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "共和村",
+      "village_en": "Gonghe Village",
+      "votes": {
+        "1": 44,
+        "2": 310,
+        "3": 170,
+        "4": 26
+      },
+      "valid_votes": 550,
+      "invalid_votes": 6,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "electors": 800,
+      "turnout_rate": 69.5
+    },
+    "CYQ-XINGANG-PIZI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "埤子村",
+      "village_en": "Pizi Village",
+      "votes": {
+        "1": 27,
+        "2": 211,
+        "3": 134,
+        "4": 9
+      },
+      "valid_votes": 381,
+      "invalid_votes": 6,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "electors": 605,
+      "turnout_rate": 63.9669
+    },
+    "CYQ-XINGANG-NANLUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "南崙村",
+      "village_en": "Nanlun Village",
+      "votes": {
+        "1": 39,
+        "2": 386,
+        "3": 225,
+        "4": 13
+      },
+      "valid_votes": 663,
+      "invalid_votes": 8,
+      "ballots_cast": 671,
+      "unreturned_ballots": 0,
+      "electors": 994,
+      "turnout_rate": 67.505
+    },
+    "CYQ-XINGANG-BEILUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "北崙村",
+      "village_en": "Beilun Village",
+      "votes": {
+        "1": 22,
+        "2": 244,
+        "3": 96,
+        "4": 15
+      },
+      "valid_votes": 377,
+      "invalid_votes": 9,
+      "ballots_cast": 386,
+      "unreturned_ballots": 0,
+      "electors": 648,
+      "turnout_rate": 59.5679
+    },
+    "CYQ-XINGANG-HAIYING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "新港鄉",
+      "township_en": "Xingang Township",
+      "village_zh": "海瀛村",
+      "village_en": "Haiying Village",
+      "votes": {
+        "1": 23,
+        "2": 266,
+        "3": 41,
+        "4": 11
+      },
+      "valid_votes": 341,
+      "invalid_votes": 5,
+      "ballots_cast": 346,
+      "unreturned_ballots": 0,
+      "electors": 506,
+      "turnout_rate": 68.3794
+    },
+    "CYQ-LIUJIAO-SUANTOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "蒜頭村",
+      "village_en": "Suantou Village",
+      "votes": {
+        "1": 65,
+        "2": 625,
+        "3": 191,
+        "4": 40
+      },
+      "valid_votes": 921,
+      "invalid_votes": 7,
+      "ballots_cast": 928,
+      "unreturned_ballots": 0,
+      "electors": 1273,
+      "turnout_rate": 72.8987
+    },
+    "CYQ-LIUJIAO-SUANDONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "蒜東村",
+      "village_en": "Suandong Village",
+      "votes": {
+        "1": 52,
+        "2": 357,
+        "3": 176,
+        "4": 21
+      },
+      "valid_votes": 606,
+      "invalid_votes": 13,
+      "ballots_cast": 619,
+      "unreturned_ballots": 0,
+      "electors": 967,
+      "turnout_rate": 64.0124
+    },
+    "CYQ-LIUJIAO-SUANNAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "蒜南村",
+      "village_en": "Suannan Village",
+      "votes": {
+        "1": 40,
+        "2": 387,
+        "3": 164,
+        "4": 18
+      },
+      "valid_votes": 609,
+      "invalid_votes": 7,
+      "ballots_cast": 616,
+      "unreturned_ballots": 0,
+      "electors": 861,
+      "turnout_rate": 71.5447
+    },
+    "CYQ-LIUJIAO-GONGCHANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "工廠村",
+      "village_en": "Gongchang Village",
+      "votes": {
+        "1": 29,
+        "2": 223,
+        "3": 41,
+        "4": 25
+      },
+      "valid_votes": 318,
+      "invalid_votes": 2,
+      "ballots_cast": 320,
+      "unreturned_ballots": 0,
+      "electors": 401,
+      "turnout_rate": 79.8005
+    },
+    "CYQ-LIUJIAO-WANNAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "灣南村",
+      "village_en": "Wannan Village",
+      "votes": {
+        "1": 60,
+        "2": 522,
+        "3": 227,
+        "4": 24
+      },
+      "valid_votes": 833,
+      "invalid_votes": 9,
+      "ballots_cast": 842,
+      "unreturned_ballots": 0,
+      "electors": 1266,
+      "turnout_rate": 66.5087
+    },
+    "CYQ-LIUJIAO-WANBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "灣北村",
+      "village_en": "Wanbei Village",
+      "votes": {
+        "1": 43,
+        "2": 652,
+        "3": 140,
+        "4": 24
+      },
+      "valid_votes": 859,
+      "invalid_votes": 11,
+      "ballots_cast": 870,
+      "unreturned_ballots": 0,
+      "electors": 1400,
+      "turnout_rate": 62.1429
+    },
+    "CYQ-LIUJIAO-SHUANGHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "雙涵村",
+      "village_en": "Shuanghan Village",
+      "votes": {
+        "1": 26,
+        "2": 408,
+        "3": 115,
+        "4": 10
+      },
+      "valid_votes": 559,
+      "invalid_votes": 10,
+      "ballots_cast": 569,
+      "unreturned_ballots": 0,
+      "electors": 878,
+      "turnout_rate": 64.8064
+    },
+    "CYQ-LIUJIAO-TUSHI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "塗師村",
+      "village_en": "Tushi Village",
+      "votes": {
+        "1": 27,
+        "2": 307,
+        "3": 145,
+        "4": 13
+      },
+      "valid_votes": 492,
+      "invalid_votes": 3,
+      "ballots_cast": 495,
+      "unreturned_ballots": 0,
+      "electors": 765,
+      "turnout_rate": 64.7059
+    },
+    "CYQ-LIUJIAO-SANYI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "三義村",
+      "village_en": "Sanyi Village",
+      "votes": {
+        "1": 35,
+        "2": 332,
+        "3": 120,
+        "4": 13
+      },
+      "valid_votes": 500,
+      "invalid_votes": 9,
+      "ballots_cast": 509,
+      "unreturned_ballots": 0,
+      "electors": 818,
+      "turnout_rate": 62.2249
+    },
+    "CYQ-LIUJIAO-ZHENGYI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "正義村",
+      "village_en": "Zhengyi Village",
+      "votes": {
+        "1": 43,
+        "2": 574,
+        "3": 304,
+        "4": 20
+      },
+      "valid_votes": 941,
+      "invalid_votes": 12,
+      "ballots_cast": 953,
+      "unreturned_ballots": 0,
+      "electors": 1423,
+      "turnout_rate": 66.9712
+    },
+    "CYQ-LIUJIAO-XICUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "溪厝村",
+      "village_en": "Xicuo Village",
+      "votes": {
+        "1": 19,
+        "2": 277,
+        "3": 115,
+        "4": 7
+      },
+      "valid_votes": 418,
+      "invalid_votes": 8,
+      "ballots_cast": 426,
+      "unreturned_ballots": 0,
+      "electors": 680,
+      "turnout_rate": 62.6471
+    },
+    "CYQ-LIUJIAO-GANGMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "港美村",
+      "village_en": "Gangmei Village",
+      "votes": {
+        "1": 20,
+        "2": 328,
+        "3": 152,
+        "4": 14
+      },
+      "valid_votes": 514,
+      "invalid_votes": 15,
+      "ballots_cast": 529,
+      "unreturned_ballots": 0,
+      "electors": 809,
+      "turnout_rate": 65.3894
+    },
+    "CYQ-LIUJIAO-FENGMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "豐美村",
+      "village_en": "Fengmei Village",
+      "votes": {
+        "1": 37,
+        "2": 462,
+        "3": 165,
+        "4": 43
+      },
+      "valid_votes": 707,
+      "invalid_votes": 9,
+      "ballots_cast": 716,
+      "unreturned_ballots": 0,
+      "electors": 1126,
+      "turnout_rate": 63.5879
+    },
+    "CYQ-LIUJIAO-LIUDOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "六斗村",
+      "village_en": "Liudou Village",
+      "votes": {
+        "1": 37,
+        "2": 375,
+        "3": 132,
+        "4": 12
+      },
+      "valid_votes": 556,
+      "invalid_votes": 5,
+      "ballots_cast": 561,
+      "unreturned_ballots": 0,
+      "electors": 833,
+      "turnout_rate": 67.3469
+    },
+    "CYQ-LIUJIAO-LUNYANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "崙陽村",
+      "village_en": "Lunyang Village",
+      "votes": {
+        "1": 54,
+        "2": 424,
+        "3": 176,
+        "4": 33
+      },
+      "valid_votes": 687,
+      "invalid_votes": 2,
+      "ballots_cast": 689,
+      "unreturned_ballots": 0,
+      "electors": 1049,
+      "turnout_rate": 65.6816
+    },
+    "CYQ-LIUJIAO-SUCUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "蘇厝村",
+      "village_en": "Sucuo Village",
+      "votes": {
+        "1": 75,
+        "2": 570,
+        "3": 269,
+        "4": 40
+      },
+      "valid_votes": 954,
+      "invalid_votes": 14,
+      "ballots_cast": 968,
+      "unreturned_ballots": 0,
+      "electors": 1407,
+      "turnout_rate": 68.7989
+    },
+    "CYQ-LIUJIAO-ZHUBEN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "竹本村",
+      "village_en": "Zhuben Village",
+      "votes": {
+        "1": 21,
+        "2": 307,
+        "3": 119,
+        "4": 7
+      },
+      "valid_votes": 454,
+      "invalid_votes": 5,
+      "ballots_cast": 459,
+      "unreturned_ballots": 0,
+      "electors": 752,
+      "turnout_rate": 61.0372
+    },
+    "CYQ-LIUJIAO-YONGXIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "永賢村",
+      "village_en": "Yongxian Village",
+      "votes": {
+        "1": 19,
+        "2": 257,
+        "3": 87,
+        "4": 15
+      },
+      "valid_votes": 378,
+      "invalid_votes": 2,
+      "ballots_cast": 380,
+      "unreturned_ballots": 0,
+      "electors": 621,
+      "turnout_rate": 61.1916
+    },
+    "CYQ-LIUJIAO-YULIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "魚寮村",
+      "village_en": "Yuliao Village",
+      "votes": {
+        "1": 20,
+        "2": 394,
+        "3": 114,
+        "4": 12
+      },
+      "valid_votes": 540,
+      "invalid_votes": 4,
+      "ballots_cast": 544,
+      "unreturned_ballots": 0,
+      "electors": 874,
+      "turnout_rate": 62.2426
+    },
+    "CYQ-LIUJIAO-TANQIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "潭墘村",
+      "village_en": "Tanqian Village",
+      "votes": {
+        "1": 27,
+        "2": 465,
+        "3": 122,
+        "4": 12
+      },
+      "valid_votes": 626,
+      "invalid_votes": 6,
+      "ballots_cast": 632,
+      "unreturned_ballots": 0,
+      "electors": 1002,
+      "turnout_rate": 63.0739
+    },
+    "CYQ-LIUJIAO-LIUJIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "六腳村",
+      "village_en": "Liujiao Village",
+      "votes": {
+        "1": 39,
+        "2": 430,
+        "3": 105,
+        "4": 34
+      },
+      "valid_votes": 608,
+      "invalid_votes": 10,
+      "ballots_cast": 618,
+      "unreturned_ballots": 0,
+      "electors": 985,
+      "turnout_rate": 62.7411
+    },
+    "CYQ-LIUJIAO-LIUNAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "六南村",
+      "village_en": "Liunan Village",
+      "votes": {
+        "1": 26,
+        "2": 330,
+        "3": 108,
+        "4": 18
+      },
+      "valid_votes": 482,
+      "invalid_votes": 3,
+      "ballots_cast": 485,
+      "unreturned_ballots": 0,
+      "electors": 739,
+      "turnout_rate": 65.6292
+    },
+    "CYQ-LIUJIAO-BENGSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "崩山村",
+      "village_en": "Bengshan Village",
+      "votes": {
+        "1": 10,
+        "2": 409,
+        "3": 100,
+        "4": 19
+      },
+      "valid_votes": 538,
+      "invalid_votes": 6,
+      "ballots_cast": 544,
+      "unreturned_ballots": 0,
+      "electors": 834,
+      "turnout_rate": 65.2278
+    },
+    "CYQ-LIUJIAO-GULIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "古林村",
+      "village_en": "Gulin Village",
+      "votes": {
+        "1": 29,
+        "2": 373,
+        "3": 175,
+        "4": 13
+      },
+      "valid_votes": 590,
+      "invalid_votes": 7,
+      "ballots_cast": 597,
+      "unreturned_ballots": 0,
+      "electors": 931,
+      "turnout_rate": 64.1246
+    },
+    "CYQ-LIUJIAO-GENGLIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "六腳鄉",
+      "township_en": "Liujiao Township",
+      "village_zh": "更寮村",
+      "village_en": "Gengliao Village",
+      "votes": {
+        "1": 4,
+        "2": 332,
+        "3": 90,
+        "4": 21
+      },
+      "valid_votes": 447,
+      "invalid_votes": 6,
+      "ballots_cast": 453,
+      "unreturned_ballots": 0,
+      "electors": 705,
+      "turnout_rate": 64.2553
+    },
+    "CYQ-DONGSHI-DONGSHI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "東石村",
+      "village_en": "Dongshi Village",
+      "votes": {
+        "1": 48,
+        "2": 720,
+        "3": 213,
+        "4": 30
+      },
+      "valid_votes": 1011,
+      "invalid_votes": 9,
+      "ballots_cast": 1020,
+      "unreturned_ballots": 0,
+      "electors": 1632,
+      "turnout_rate": 62.5
+    },
+    "CYQ-DONGSHI-YUANSHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "猿樹村",
+      "village_en": "Yuanshu Village",
+      "votes": {
+        "1": 25,
+        "2": 463,
+        "3": 125,
+        "4": 10
+      },
+      "valid_votes": 623,
+      "invalid_votes": 7,
+      "ballots_cast": 630,
+      "unreturned_ballots": 0,
+      "electors": 1019,
+      "turnout_rate": 61.8253
+    },
+    "CYQ-DONGSHI-WENGANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "塭港村",
+      "village_en": "Wengang Village",
+      "votes": {
+        "1": 64,
+        "2": 689,
+        "3": 163,
+        "4": 14
+      },
+      "valid_votes": 930,
+      "invalid_votes": 12,
+      "ballots_cast": 942,
+      "unreturned_ballots": 0,
+      "electors": 1485,
+      "turnout_rate": 63.4343
+    },
+    "CYQ-DONGSHI-XINGCUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "型厝村",
+      "village_en": "Xingcuo Village",
+      "votes": {
+        "1": 41,
+        "2": 644,
+        "3": 188,
+        "4": 55
+      },
+      "valid_votes": 928,
+      "invalid_votes": 15,
+      "ballots_cast": 943,
+      "unreturned_ballots": 0,
+      "electors": 1486,
+      "turnout_rate": 63.459
+    },
+    "CYQ-DONGSHI-SANJIA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "三家村",
+      "village_en": "Sanjia Village",
+      "votes": {
+        "1": 27,
+        "2": 532,
+        "3": 176,
+        "4": 18
+      },
+      "valid_votes": 753,
+      "invalid_votes": 12,
+      "ballots_cast": 765,
+      "unreturned_ballots": 0,
+      "electors": 1264,
+      "turnout_rate": 60.5222
+    },
+    "CYQ-DONGSHI-YONGTUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "永屯村",
+      "village_en": "Yongtun Village",
+      "votes": {
+        "1": 11,
+        "2": 370,
+        "3": 80,
+        "4": 15
+      },
+      "valid_votes": 476,
+      "invalid_votes": 6,
+      "ballots_cast": 482,
+      "unreturned_ballots": 0,
+      "electors": 722,
+      "turnout_rate": 66.759
+    },
+    "CYQ-DONGSHI-HAIPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "海埔村",
+      "village_en": "Haipu Village",
+      "votes": {
+        "1": 16,
+        "2": 203,
+        "3": 61,
+        "4": 8
+      },
+      "valid_votes": 288,
+      "invalid_votes": 5,
+      "ballots_cast": 293,
+      "unreturned_ballots": 0,
+      "electors": 475,
+      "turnout_rate": 61.6842
+    },
+    "CYQ-DONGSHI-LONGGANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "龍港村",
+      "village_en": "Longgang Village",
+      "votes": {
+        "1": 24,
+        "2": 495,
+        "3": 101,
+        "4": 19
+      },
+      "valid_votes": 639,
+      "invalid_votes": 10,
+      "ballots_cast": 649,
+      "unreturned_ballots": 0,
+      "electors": 1100,
+      "turnout_rate": 59.0
+    },
+    "CYQ-DONGSHI-FULAI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "副瀨村",
+      "village_en": "Fulai Village",
+      "votes": {
+        "1": 31,
+        "2": 627,
+        "3": 126,
+        "4": 15
+      },
+      "valid_votes": 799,
+      "invalid_votes": 9,
+      "ballots_cast": 808,
+      "unreturned_ballots": 0,
+      "electors": 1134,
+      "turnout_rate": 71.2522
+    },
+    "CYQ-DONGSHI-XIAYI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "下揖村",
+      "village_en": "Xiayi Village",
+      "votes": {
+        "1": 20,
+        "2": 394,
+        "3": 143,
+        "4": 8
+      },
+      "valid_votes": 565,
+      "invalid_votes": 5,
+      "ballots_cast": 570,
+      "unreturned_ballots": 0,
+      "electors": 937,
+      "turnout_rate": 60.8324
+    },
+    "CYQ-DONGSHI-DINGYI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "頂揖村",
+      "village_en": "Dingyi Village",
+      "votes": {
+        "1": 5,
+        "2": 204,
+        "3": 45,
+        "4": 6
+      },
+      "valid_votes": 260,
+      "invalid_votes": 5,
+      "ballots_cast": 265,
+      "unreturned_ballots": 0,
+      "electors": 474,
+      "turnout_rate": 55.9072
+    },
+    "CYQ-DONGSHI-XIXIA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "溪下村",
+      "village_en": "Xixia Village",
+      "votes": {
+        "1": 21,
+        "2": 545,
+        "3": 99,
+        "4": 14
+      },
+      "valid_votes": 679,
+      "invalid_votes": 7,
+      "ballots_cast": 686,
+      "unreturned_ballots": 0,
+      "electors": 1144,
+      "turnout_rate": 59.965
+    },
+    "CYQ-DONGSHI-GANGKOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "港口村",
+      "village_en": "Gangkou Village",
+      "votes": {
+        "1": 17,
+        "2": 194,
+        "3": 29,
+        "4": 6
+      },
+      "valid_votes": 246,
+      "invalid_votes": 1,
+      "ballots_cast": 247,
+      "unreturned_ballots": 0,
+      "electors": 420,
+      "turnout_rate": 58.8095
+    },
+    "CYQ-DONGSHI-AOGU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "鰲鼓村",
+      "village_en": "Aogu Village",
+      "votes": {
+        "1": 40,
+        "2": 725,
+        "3": 121,
+        "4": 35
+      },
+      "valid_votes": 921,
+      "invalid_votes": 16,
+      "ballots_cast": 937,
+      "unreturned_ballots": 0,
+      "electors": 1390,
+      "turnout_rate": 67.4101
+    },
+    "CYQ-DONGSHI-GANGQIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "港墘村",
+      "village_en": "Gangqian Village",
+      "votes": {
+        "1": 46,
+        "2": 756,
+        "3": 125,
+        "4": 40
+      },
+      "valid_votes": 967,
+      "invalid_votes": 8,
+      "ballots_cast": 975,
+      "unreturned_ballots": 0,
+      "electors": 1321,
+      "turnout_rate": 73.8077
+    },
+    "CYQ-DONGSHI-NIAOSONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "蔦松村",
+      "village_en": "Niaosong Village",
+      "votes": {
+        "1": 33,
+        "2": 445,
+        "3": 148,
+        "4": 18
+      },
+      "valid_votes": 644,
+      "invalid_votes": 18,
+      "ballots_cast": 662,
+      "unreturned_ballots": 0,
+      "electors": 958,
+      "turnout_rate": 69.1023
+    },
+    "CYQ-DONGSHI-WEITAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "圍潭村",
+      "village_en": "Weitan Village",
+      "votes": {
+        "1": 27,
+        "2": 406,
+        "3": 74,
+        "4": 14
+      },
+      "valid_votes": 521,
+      "invalid_votes": 8,
+      "ballots_cast": 529,
+      "unreturned_ballots": 0,
+      "electors": 834,
+      "turnout_rate": 63.4293
+    },
+    "CYQ-DONGSHI-ZHOUZAI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "洲仔村",
+      "village_en": "Zhouzai Village",
+      "votes": {
+        "1": 31,
+        "2": 492,
+        "3": 89,
+        "4": 13
+      },
+      "valid_votes": 625,
+      "invalid_votes": 5,
+      "ballots_cast": 630,
+      "unreturned_ballots": 0,
+      "electors": 946,
+      "turnout_rate": 66.5962
+    },
+    "CYQ-DONGSHI-DONGLUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "東崙村",
+      "village_en": "Donglun Village",
+      "votes": {
+        "1": 23,
+        "2": 383,
+        "3": 121,
+        "4": 23
+      },
+      "valid_votes": 550,
+      "invalid_votes": 11,
+      "ballots_cast": 561,
+      "unreturned_ballots": 0,
+      "electors": 856,
+      "turnout_rate": 65.5374
+    },
+    "CYQ-DONGSHI-XILUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "西崙村",
+      "village_en": "Xilun Village",
+      "votes": {
+        "1": 39,
+        "2": 477,
+        "3": 126,
+        "4": 16
+      },
+      "valid_votes": 658,
+      "invalid_votes": 10,
+      "ballots_cast": 668,
+      "unreturned_ballots": 0,
+      "electors": 997,
+      "turnout_rate": 67.001
+    },
+    "CYQ-DONGSHI-WENZAI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "塭仔村",
+      "village_en": "Wenzai Village",
+      "votes": {
+        "1": 33,
+        "2": 432,
+        "3": 157,
+        "4": 19
+      },
+      "valid_votes": 641,
+      "invalid_votes": 5,
+      "ballots_cast": 646,
+      "unreturned_ballots": 0,
+      "electors": 1022,
+      "turnout_rate": 63.2094
+    },
+    "CYQ-DONGSHI-WANGLIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "網寮村",
+      "village_en": "Wangliao Village",
+      "votes": {
+        "1": 33,
+        "2": 509,
+        "3": 200,
+        "4": 27
+      },
+      "valid_votes": 769,
+      "invalid_votes": 4,
+      "ballots_cast": 773,
+      "unreturned_ballots": 0,
+      "electors": 1215,
+      "turnout_rate": 63.6214
+    },
+    "CYQ-DONGSHI-ZHANGTAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "東石鄉",
+      "township_en": "Dongshi Township",
+      "village_zh": "掌潭村",
+      "village_en": "Zhangtan Village",
+      "votes": {
+        "1": 26,
+        "2": 418,
+        "3": 107,
+        "4": 17
+      },
+      "valid_votes": 568,
+      "invalid_votes": 4,
+      "ballots_cast": 572,
+      "unreturned_ballots": 0,
+      "electors": 831,
+      "turnout_rate": 68.8327
+    },
+    "CYQ-YIZHU-ANJIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "岸腳村",
+      "village_en": "Anjiao Village",
+      "votes": {
+        "1": 36,
+        "2": 443,
+        "3": 99,
+        "4": 16
+      },
+      "valid_votes": 594,
+      "invalid_votes": 4,
+      "ballots_cast": 598,
+      "unreturned_ballots": 0,
+      "electors": 876,
+      "turnout_rate": 68.2648
+    },
+    "CYQ-YIZHU-YIZHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "義竹村",
+      "village_en": "Yizhu Village",
+      "votes": {
+        "1": 65,
+        "2": 735,
+        "3": 265,
+        "4": 54
+      },
+      "valid_votes": 1119,
+      "invalid_votes": 12,
+      "ballots_cast": 1131,
+      "unreturned_ballots": 0,
+      "electors": 1597,
+      "turnout_rate": 70.8203
+    },
+    "CYQ-YIZHU-LIUGUI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "六桂村",
+      "village_en": "Liugui Village",
+      "votes": {
+        "1": 46,
+        "2": 667,
+        "3": 231,
+        "4": 36
+      },
+      "valid_votes": 980,
+      "invalid_votes": 16,
+      "ballots_cast": 996,
+      "unreturned_ballots": 0,
+      "electors": 1371,
+      "turnout_rate": 72.6477
+    },
+    "CYQ-YIZHU-RENLI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "仁里村",
+      "village_en": "Renli Village",
+      "votes": {
+        "1": 27,
+        "2": 469,
+        "3": 162,
+        "4": 23
+      },
+      "valid_votes": 681,
+      "invalid_votes": 11,
+      "ballots_cast": 692,
+      "unreturned_ballots": 0,
+      "electors": 903,
+      "turnout_rate": 76.6334
+    },
+    "CYQ-YIZHU-CHUANFANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "傳芳村",
+      "village_en": "Chuanfang Village",
+      "votes": {
+        "1": 19,
+        "2": 338,
+        "3": 110,
+        "4": 13
+      },
+      "valid_votes": 480,
+      "invalid_votes": 6,
+      "ballots_cast": 486,
+      "unreturned_ballots": 0,
+      "electors": 705,
+      "turnout_rate": 68.9362
+    },
+    "CYQ-YIZHU-TOUZHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "頭竹村",
+      "village_en": "Touzhu Village",
+      "votes": {
+        "1": 46,
+        "2": 739,
+        "3": 137,
+        "4": 11
+      },
+      "valid_votes": 933,
+      "invalid_votes": 19,
+      "ballots_cast": 952,
+      "unreturned_ballots": 0,
+      "electors": 1307,
+      "turnout_rate": 72.8386
+    },
+    "CYQ-YIZHU-WUCUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "五厝村",
+      "village_en": "Wucuo Village",
+      "votes": {
+        "1": 9,
+        "2": 212,
+        "3": 46,
+        "4": 9
+      },
+      "valid_votes": 276,
+      "invalid_votes": 2,
+      "ballots_cast": 278,
+      "unreturned_ballots": 0,
+      "electors": 410,
+      "turnout_rate": 67.8049
+    },
+    "CYQ-YIZHU-ZHONGPING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "中平村",
+      "village_en": "Zhongping Village",
+      "votes": {
+        "1": 8,
+        "2": 288,
+        "3": 40,
+        "4": 5
+      },
+      "valid_votes": 341,
+      "invalid_votes": 3,
+      "ballots_cast": 344,
+      "unreturned_ballots": 0,
+      "electors": 530,
+      "turnout_rate": 64.9057
+    },
+    "CYQ-YIZHU-PIQIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "埤前村",
+      "village_en": "Piqian Village",
+      "votes": {
+        "1": 35,
+        "2": 476,
+        "3": 63,
+        "4": 9
+      },
+      "valid_votes": 583,
+      "invalid_votes": 9,
+      "ballots_cast": 592,
+      "unreturned_ballots": 0,
+      "electors": 819,
+      "turnout_rate": 72.2833
+    },
+    "CYQ-YIZHU-PINGXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "平溪村",
+      "village_en": "Pingxi Village",
+      "votes": {
+        "1": 11,
+        "2": 209,
+        "3": 88,
+        "4": 2
+      },
+      "valid_votes": 310,
+      "invalid_votes": 6,
+      "ballots_cast": 316,
+      "unreturned_ballots": 0,
+      "electors": 439,
+      "turnout_rate": 71.9818
+    },
+    "CYQ-YIZHU-HOUZHEN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "後鎮村",
+      "village_en": "Houzhen Village",
+      "votes": {
+        "1": 16,
+        "2": 298,
+        "3": 59,
+        "4": 10
+      },
+      "valid_votes": 383,
+      "invalid_votes": 3,
+      "ballots_cast": 386,
+      "unreturned_ballots": 0,
+      "electors": 545,
+      "turnout_rate": 70.8257
+    },
+    "CYQ-YIZHU-BEIHUA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "北華村",
+      "village_en": "Beihua Village",
+      "votes": {
+        "1": 17,
+        "2": 310,
+        "3": 75,
+        "4": 8
+      },
+      "valid_votes": 410,
+      "invalid_votes": 2,
+      "ballots_cast": 412,
+      "unreturned_ballots": 0,
+      "electors": 576,
+      "turnout_rate": 71.5278
+    },
+    "CYQ-YIZHU-XINDIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "新店村",
+      "village_en": "Xindian Village",
+      "votes": {
+        "1": 61,
+        "2": 765,
+        "3": 165,
+        "4": 25
+      },
+      "valid_votes": 1016,
+      "invalid_votes": 14,
+      "ballots_cast": 1030,
+      "unreturned_ballots": 0,
+      "electors": 1494,
+      "turnout_rate": 68.9424
+    },
+    "CYQ-YIZHU-DONGGUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "東過村",
+      "village_en": "Dongguo Village",
+      "votes": {
+        "1": 20,
+        "2": 486,
+        "3": 55,
+        "4": 6
+      },
+      "valid_votes": 567,
+      "invalid_votes": 8,
+      "ballots_cast": 575,
+      "unreturned_ballots": 0,
+      "electors": 876,
+      "turnout_rate": 65.6393
+    },
+    "CYQ-YIZHU-XIGUO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "西過村",
+      "village_en": "Xiguo Village",
+      "votes": {
+        "1": 26,
+        "2": 432,
+        "3": 113,
+        "4": 16
+      },
+      "valid_votes": 587,
+      "invalid_votes": 12,
+      "ballots_cast": 599,
+      "unreturned_ballots": 0,
+      "electors": 952,
+      "turnout_rate": 62.9202
+    },
+    "CYQ-YIZHU-GUANHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "官和村",
+      "village_en": "Guanhe Village",
+      "votes": {
+        "1": 25,
+        "2": 464,
+        "3": 115,
+        "4": 12
+      },
+      "valid_votes": 616,
+      "invalid_votes": 9,
+      "ballots_cast": 625,
+      "unreturned_ballots": 0,
+      "electors": 841,
+      "turnout_rate": 74.3163
+    },
+    "CYQ-YIZHU-GUANSHUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "官順村",
+      "village_en": "Guanshun Village",
+      "votes": {
+        "1": 22,
+        "2": 302,
+        "3": 34,
+        "4": 8
+      },
+      "valid_votes": 366,
+      "invalid_votes": 11,
+      "ballots_cast": 377,
+      "unreturned_ballots": 0,
+      "electors": 567,
+      "turnout_rate": 66.4903
+    },
+    "CYQ-YIZHU-XINFU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "新富村",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 8,
+        "2": 285,
+        "3": 87,
+        "4": 5
+      },
+      "valid_votes": 385,
+      "invalid_votes": 5,
+      "ballots_cast": 390,
+      "unreturned_ballots": 0,
+      "electors": 557,
+      "turnout_rate": 70.018
+    },
+    "CYQ-YIZHU-DONGGUANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "東光村",
+      "village_en": "Dongguang Village",
+      "votes": {
+        "1": 35,
+        "2": 429,
+        "3": 159,
+        "4": 15
+      },
+      "valid_votes": 638,
+      "invalid_votes": 3,
+      "ballots_cast": 641,
+      "unreturned_ballots": 0,
+      "electors": 918,
+      "turnout_rate": 69.8257
+    },
+    "CYQ-YIZHU-DONGRONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "東榮村",
+      "village_en": "Dongrong Village",
+      "votes": {
+        "1": 13,
+        "2": 258,
+        "3": 94,
+        "4": 4
+      },
+      "valid_votes": 369,
+      "invalid_votes": 8,
+      "ballots_cast": 377,
+      "unreturned_ballots": 0,
+      "electors": 526,
+      "turnout_rate": 71.673
+    },
+    "CYQ-YIZHU-LONGJIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "龍蛟村",
+      "village_en": "Longjiao Village",
+      "votes": {
+        "1": 23,
+        "2": 369,
+        "3": 106,
+        "4": 17
+      },
+      "valid_votes": 515,
+      "invalid_votes": 8,
+      "ballots_cast": 523,
+      "unreturned_ballots": 0,
+      "electors": 777,
+      "turnout_rate": 67.3102
+    },
+    "CYQ-LUCAO-HOULIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "後寮村",
+      "village_en": "Houliao Village",
+      "votes": {
+        "1": 9,
+        "2": 252,
+        "3": 57,
+        "4": 11
+      },
+      "valid_votes": 329,
+      "invalid_votes": 11,
+      "ballots_cast": 340,
+      "unreturned_ballots": 0,
+      "electors": 490,
+      "turnout_rate": 69.3878
+    },
+    "CYQ-LUCAO-LUDONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "鹿東村",
+      "village_en": "Ludong Village",
+      "votes": {
+        "1": 22,
+        "2": 318,
+        "3": 100,
+        "4": 17
+      },
+      "valid_votes": 457,
+      "invalid_votes": 7,
+      "ballots_cast": 464,
+      "unreturned_ballots": 0,
+      "electors": 658,
+      "turnout_rate": 70.5167
+    },
+    "CYQ-LUCAO-LUCAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "鹿草村",
+      "village_en": "Lucao Village",
+      "votes": {
+        "1": 63,
+        "2": 632,
+        "3": 158,
+        "4": 31
+      },
+      "valid_votes": 884,
+      "invalid_votes": 19,
+      "ballots_cast": 903,
+      "unreturned_ballots": 0,
+      "electors": 1245,
+      "turnout_rate": 72.5301
+    },
+    "CYQ-LUCAO-XIJING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "西井村",
+      "village_en": "Xijing Village",
+      "votes": {
+        "1": 53,
+        "2": 590,
+        "3": 137,
+        "4": 25
+      },
+      "valid_votes": 805,
+      "invalid_votes": 8,
+      "ballots_cast": 813,
+      "unreturned_ballots": 0,
+      "electors": 1164,
+      "turnout_rate": 69.8454
+    },
+    "CYQ-LUCAO-FENGCHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "豐稠村",
+      "village_en": "Fengchou Village",
+      "votes": {
+        "1": 8,
+        "2": 212,
+        "3": 39,
+        "4": 12
+      },
+      "valid_votes": 271,
+      "invalid_votes": 2,
+      "ballots_cast": 273,
+      "unreturned_ballots": 0,
+      "electors": 411,
+      "turnout_rate": 66.4234
+    },
+    "CYQ-LUCAO-ZHONGLIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "重寮村",
+      "village_en": "Zhongliao Village",
+      "votes": {
+        "1": 36,
+        "2": 576,
+        "3": 181,
+        "4": 29
+      },
+      "valid_votes": 822,
+      "invalid_votes": 11,
+      "ballots_cast": 833,
+      "unreturned_ballots": 0,
+      "electors": 1181,
+      "turnout_rate": 70.5334
+    },
+    "CYQ-LUCAO-SHIJIA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "施家村",
+      "village_en": "Shijia Village",
+      "votes": {
+        "1": 22,
+        "2": 288,
+        "3": 44,
+        "4": 21
+      },
+      "valid_votes": 375,
+      "invalid_votes": 7,
+      "ballots_cast": 382,
+      "unreturned_ballots": 0,
+      "electors": 562,
+      "turnout_rate": 67.9715
+    },
+    "CYQ-LUCAO-XIATAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "下潭村",
+      "village_en": "Xiatan Village",
+      "votes": {
+        "1": 32,
+        "2": 430,
+        "3": 148,
+        "4": 11
+      },
+      "valid_votes": 621,
+      "invalid_votes": 7,
+      "ballots_cast": 628,
+      "unreturned_ballots": 0,
+      "electors": 1019,
+      "turnout_rate": 61.629
+    },
+    "CYQ-LUCAO-GUANGTAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "光潭村",
+      "village_en": "Guangtan Village",
+      "votes": {
+        "1": 31,
+        "2": 507,
+        "3": 199,
+        "4": 21
+      },
+      "valid_votes": 758,
+      "invalid_votes": 9,
+      "ballots_cast": 767,
+      "unreturned_ballots": 0,
+      "electors": 1177,
+      "turnout_rate": 65.1657
+    },
+    "CYQ-LUCAO-BITAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "碧潭村",
+      "village_en": "Bitan Village",
+      "votes": {
+        "1": 33,
+        "2": 561,
+        "3": 113,
+        "4": 29
+      },
+      "valid_votes": 736,
+      "invalid_votes": 11,
+      "ballots_cast": 747,
+      "unreturned_ballots": 0,
+      "electors": 1156,
+      "turnout_rate": 64.6194
+    },
+    "CYQ-LUCAO-SONGZHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "松竹村",
+      "village_en": "Songzhu Village",
+      "votes": {
+        "1": 18,
+        "2": 516,
+        "3": 68,
+        "4": 32
+      },
+      "valid_votes": 634,
+      "invalid_votes": 5,
+      "ballots_cast": 639,
+      "unreturned_ballots": 0,
+      "electors": 965,
+      "turnout_rate": 66.2176
+    },
+    "CYQ-LUCAO-ZHUSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "竹山村",
+      "village_en": "Zhushan Village",
+      "votes": {
+        "1": 35,
+        "2": 472,
+        "3": 101,
+        "4": 8
+      },
+      "valid_votes": 616,
+      "invalid_votes": 5,
+      "ballots_cast": 621,
+      "unreturned_ballots": 0,
+      "electors": 945,
+      "turnout_rate": 65.7143
+    },
+    "CYQ-LUCAO-HOUKU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "後堀村",
+      "village_en": "Houku Village",
+      "votes": {
+        "1": 69,
+        "2": 626,
+        "3": 199,
+        "4": 31
+      },
+      "valid_votes": 925,
+      "invalid_votes": 11,
+      "ballots_cast": 936,
+      "unreturned_ballots": 0,
+      "electors": 1358,
+      "turnout_rate": 68.9249
+    },
+    "CYQ-LUCAO-SANJIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "三角村",
+      "village_en": "Sanjiao Village",
+      "votes": {
+        "1": 77,
+        "2": 643,
+        "3": 315,
+        "4": 32
+      },
+      "valid_votes": 1067,
+      "invalid_votes": 14,
+      "ballots_cast": 1081,
+      "unreturned_ballots": 0,
+      "electors": 1550,
+      "turnout_rate": 69.7419
+    },
+    "CYQ-LUCAO-XIAMA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "鹿草鄉",
+      "township_en": "Lucao Township",
+      "village_zh": "下麻村",
+      "village_en": "Xiama Village",
+      "votes": {
+        "1": 20,
+        "2": 232,
+        "3": 115,
+        "4": 17
+      },
+      "valid_votes": 384,
+      "invalid_votes": 6,
+      "ballots_cast": 390,
+      "unreturned_ballots": 0,
+      "electors": 583,
+      "turnout_rate": 66.8954
+    },
+    "CYQ-SHUISHANG-SHUISHANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "水上村",
+      "village_en": "Shuishang Village",
+      "votes": {
+        "1": 149,
+        "2": 1079,
+        "3": 460,
+        "4": 181
+      },
+      "valid_votes": 1869,
+      "invalid_votes": 19,
+      "ballots_cast": 1888,
+      "unreturned_ballots": 0,
+      "electors": 2556,
+      "turnout_rate": 73.8654
+    },
+    "CYQ-SHUISHANG-SHUITOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "水頭村",
+      "village_en": "Shuitou Village",
+      "votes": {
+        "1": 108,
+        "2": 794,
+        "3": 306,
+        "4": 94
+      },
+      "valid_votes": 1302,
+      "invalid_votes": 10,
+      "ballots_cast": 1312,
+      "unreturned_ballots": 0,
+      "electors": 1769,
+      "turnout_rate": 74.1662
+    },
+    "CYQ-SHUISHANG-DAKU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "大堀村",
+      "village_en": "Daku Village",
+      "votes": {
+        "1": 43,
+        "2": 626,
+        "3": 251,
+        "4": 39
+      },
+      "valid_votes": 959,
+      "invalid_votes": 10,
+      "ballots_cast": 969,
+      "unreturned_ballots": 0,
+      "electors": 1279,
+      "turnout_rate": 75.7623
+    },
+    "CYQ-SHUISHANG-DALUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "大崙村",
+      "village_en": "Dalun Village",
+      "votes": {
+        "1": 82,
+        "2": 853,
+        "3": 268,
+        "4": 53
+      },
+      "valid_votes": 1256,
+      "invalid_votes": 18,
+      "ballots_cast": 1274,
+      "unreturned_ballots": 0,
+      "electors": 1776,
+      "turnout_rate": 71.7342
+    },
+    "CYQ-SHUISHANG-TUGOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "塗溝村",
+      "village_en": "Tugou Village",
+      "votes": {
+        "1": 36,
+        "2": 389,
+        "3": 91,
+        "4": 14
+      },
+      "valid_votes": 530,
+      "invalid_votes": 7,
+      "ballots_cast": 537,
+      "unreturned_ballots": 0,
+      "electors": 771,
+      "turnout_rate": 69.6498
+    },
+    "CYQ-SHUISHANG-CUXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "粗溪村",
+      "village_en": "Cuxi Village",
+      "votes": {
+        "1": 64,
+        "2": 653,
+        "3": 227,
+        "4": 62
+      },
+      "valid_votes": 1006,
+      "invalid_votes": 6,
+      "ballots_cast": 1012,
+      "unreturned_ballots": 0,
+      "electors": 1367,
+      "turnout_rate": 74.0307
+    },
+    "CYQ-SHUISHANG-XIALIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "下寮村",
+      "village_en": "Xialiao Village",
+      "votes": {
+        "1": 81,
+        "2": 568,
+        "3": 330,
+        "4": 111
+      },
+      "valid_votes": 1090,
+      "invalid_votes": 7,
+      "ballots_cast": 1097,
+      "unreturned_ballots": 0,
+      "electors": 1495,
+      "turnout_rate": 73.3779
+    },
+    "CYQ-SHUISHANG-SANHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "三和村",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 100,
+        "2": 653,
+        "3": 239,
+        "4": 181
+      },
+      "valid_votes": 1173,
+      "invalid_votes": 15,
+      "ballots_cast": 1188,
+      "unreturned_ballots": 0,
+      "electors": 1606,
+      "turnout_rate": 73.9726
+    },
+    "CYQ-SHUISHANG-HUIGUI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "回歸村",
+      "village_en": "Huigui Village",
+      "votes": {
+        "1": 31,
+        "2": 265,
+        "3": 53,
+        "4": 143
+      },
+      "valid_votes": 492,
+      "invalid_votes": 8,
+      "ballots_cast": 500,
+      "unreturned_ballots": 0,
+      "electors": 667,
+      "turnout_rate": 74.9625
+    },
+    "CYQ-SHUISHANG-SANZHEN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "三鎮村",
+      "village_en": "Sanzhen Village",
+      "votes": {
+        "1": 46,
+        "2": 334,
+        "3": 90,
+        "4": 40
+      },
+      "valid_votes": 510,
+      "invalid_votes": 9,
+      "ballots_cast": 519,
+      "unreturned_ballots": 0,
+      "electors": 682,
+      "turnout_rate": 76.0997
+    },
+    "CYQ-SHUISHANG-JINGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "靖和村",
+      "village_en": "Jinghe Village",
+      "votes": {
+        "1": 28,
+        "2": 271,
+        "3": 79,
+        "4": 51
+      },
+      "valid_votes": 429,
+      "invalid_votes": 4,
+      "ballots_cast": 433,
+      "unreturned_ballots": 0,
+      "electors": 546,
+      "turnout_rate": 79.304
+    },
+    "CYQ-SHUISHANG-NANHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "南和村",
+      "village_en": "Nanhe Village",
+      "votes": {
+        "1": 77,
+        "2": 558,
+        "3": 193,
+        "4": 32
+      },
+      "valid_votes": 860,
+      "invalid_votes": 9,
+      "ballots_cast": 869,
+      "unreturned_ballots": 0,
+      "electors": 1171,
+      "turnout_rate": 74.2101
+    },
+    "CYQ-SHUISHANG-LONGDE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "龍德村",
+      "village_en": "Longde Village",
+      "votes": {
+        "1": 96,
+        "2": 725,
+        "3": 259,
+        "4": 68
+      },
+      "valid_votes": 1148,
+      "invalid_votes": 5,
+      "ballots_cast": 1153,
+      "unreturned_ballots": 0,
+      "electors": 1607,
+      "turnout_rate": 71.7486
+    },
+    "CYQ-SHUISHANG-XIZHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "溪洲村",
+      "village_en": "Xizhou Village",
+      "votes": {
+        "1": 52,
+        "2": 396,
+        "3": 206,
+        "4": 44
+      },
+      "valid_votes": 698,
+      "invalid_votes": 9,
+      "ballots_cast": 707,
+      "unreturned_ballots": 0,
+      "electors": 994,
+      "turnout_rate": 71.1268
+    },
+    "CYQ-SHUISHANG-LIUXIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "柳新村",
+      "village_en": "Liuxin Village",
+      "votes": {
+        "1": 141,
+        "2": 872,
+        "3": 213,
+        "4": 304
+      },
+      "valid_votes": 1530,
+      "invalid_votes": 18,
+      "ballots_cast": 1548,
+      "unreturned_ballots": 0,
+      "electors": 2015,
+      "turnout_rate": 76.8238
+    },
+    "CYQ-SHUISHANG-LIULIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "柳林村",
+      "village_en": "Liulin Village",
+      "votes": {
+        "1": 97,
+        "2": 637,
+        "3": 312,
+        "4": 105
+      },
+      "valid_votes": 1151,
+      "invalid_votes": 15,
+      "ballots_cast": 1166,
+      "unreturned_ballots": 0,
+      "electors": 1642,
+      "turnout_rate": 71.011
+    },
+    "CYQ-SHUISHANG-LIUXIANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "柳鄉村",
+      "village_en": "Liuxiang Village",
+      "votes": {
+        "1": 97,
+        "2": 659,
+        "3": 346,
+        "4": 70
+      },
+      "valid_votes": 1172,
+      "invalid_votes": 11,
+      "ballots_cast": 1183,
+      "unreturned_ballots": 0,
+      "electors": 1601,
+      "turnout_rate": 73.8913
+    },
+    "CYQ-SHUISHANG-NEIXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "內溪村",
+      "village_en": "Neixi Village",
+      "votes": {
+        "1": 32,
+        "2": 420,
+        "3": 150,
+        "4": 36
+      },
+      "valid_votes": 638,
+      "invalid_votes": 10,
+      "ballots_cast": 648,
+      "unreturned_ballots": 0,
+      "electors": 891,
+      "turnout_rate": 72.7273
+    },
+    "CYQ-SHUISHANG-KUANSHI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "寬士村",
+      "village_en": "Kuanshi Village",
+      "votes": {
+        "1": 151,
+        "2": 1083,
+        "3": 582,
+        "4": 144
+      },
+      "valid_votes": 1960,
+      "invalid_votes": 21,
+      "ballots_cast": 1981,
+      "unreturned_ballots": 0,
+      "electors": 2710,
+      "turnout_rate": 73.0996
+    },
+    "CYQ-SHUISHANG-MINSHENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "民生村",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 200,
+        "2": 972,
+        "3": 573,
+        "4": 220
+      },
+      "valid_votes": 1965,
+      "invalid_votes": 15,
+      "ballots_cast": 1980,
+      "unreturned_ballots": 0,
+      "electors": 2671,
+      "turnout_rate": 74.1295
+    },
+    "CYQ-SHUISHANG-YIXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "義興村",
+      "village_en": "Yixing Village",
+      "votes": {
+        "1": 34,
+        "2": 366,
+        "3": 116,
+        "4": 31
+      },
+      "valid_votes": 547,
+      "invalid_votes": 7,
+      "ballots_cast": 554,
+      "unreturned_ballots": 0,
+      "electors": 739,
+      "turnout_rate": 74.9662
+    },
+    "CYQ-SHUISHANG-ZHONGZHUANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "中庄村",
+      "village_en": "Zhongzhuang Village",
+      "votes": {
+        "1": 81,
+        "2": 841,
+        "3": 215,
+        "4": 124
+      },
+      "valid_votes": 1261,
+      "invalid_votes": 18,
+      "ballots_cast": 1279,
+      "unreturned_ballots": 0,
+      "electors": 1775,
+      "turnout_rate": 72.0563
+    },
+    "CYQ-SHUISHANG-ZHONGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "忠和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 100,
+        "2": 803,
+        "3": 241,
+        "4": 166
+      },
+      "valid_votes": 1310,
+      "invalid_votes": 16,
+      "ballots_cast": 1326,
+      "unreturned_ballots": 0,
+      "electors": 1792,
+      "turnout_rate": 73.9955
+    },
+    "CYQ-SHUISHANG-NANXIANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "南鄉村",
+      "village_en": "Nanxiang Village",
+      "votes": {
+        "1": 30,
+        "2": 424,
+        "3": 100,
+        "4": 22
+      },
+      "valid_votes": 576,
+      "invalid_votes": 9,
+      "ballots_cast": 585,
+      "unreturned_ballots": 0,
+      "electors": 835,
+      "turnout_rate": 70.0599
+    },
+    "CYQ-SHUISHANG-SANJIE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "三界村",
+      "village_en": "Sanjie Village",
+      "votes": {
+        "1": 33,
+        "2": 474,
+        "3": 188,
+        "4": 29
+      },
+      "valid_votes": 724,
+      "invalid_votes": 7,
+      "ballots_cast": 731,
+      "unreturned_ballots": 0,
+      "electors": 1021,
+      "turnout_rate": 71.5965
+    },
+    "CYQ-SHUISHANG-GUOXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "水上鄉",
+      "township_en": "Shuishang Township",
+      "village_zh": "國姓村",
+      "village_en": "Guoxing Village",
+      "votes": {
+        "1": 49,
+        "2": 539,
+        "3": 231,
+        "4": 41
+      },
+      "valid_votes": 860,
+      "invalid_votes": 10,
+      "ballots_cast": 870,
+      "unreturned_ballots": 0,
+      "electors": 1291,
+      "turnout_rate": 67.3896
+    },
+    "CYQ-ZHONGPU-ZHONGPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "中埔村",
+      "village_en": "Zhongpu Village",
+      "votes": {
+        "1": 97,
+        "2": 718,
+        "3": 250,
+        "4": 67
+      },
+      "valid_votes": 1132,
+      "invalid_votes": 14,
+      "ballots_cast": 1146,
+      "unreturned_ballots": 0,
+      "electors": 1557,
+      "turnout_rate": 73.6031
+    },
+    "CYQ-ZHONGPU-YANGUAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "鹽館村",
+      "village_en": "Yanguan Village",
+      "votes": {
+        "1": 44,
+        "2": 333,
+        "3": 129,
+        "4": 13
+      },
+      "valid_votes": 519,
+      "invalid_votes": 6,
+      "ballots_cast": 525,
+      "unreturned_ballots": 0,
+      "electors": 754,
+      "turnout_rate": 69.6286
+    },
+    "CYQ-ZHONGPU-LONGMEN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "龍門村",
+      "village_en": "Longmen Village",
+      "votes": {
+        "1": 30,
+        "2": 383,
+        "3": 78,
+        "4": 16
+      },
+      "valid_votes": 507,
+      "invalid_votes": 11,
+      "ballots_cast": 518,
+      "unreturned_ballots": 0,
+      "electors": 710,
+      "turnout_rate": 72.9577
+    },
+    "CYQ-ZHONGPU-YUMIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "裕民村",
+      "village_en": "Yumin Village",
+      "votes": {
+        "1": 27,
+        "2": 323,
+        "3": 186,
+        "4": 14
+      },
+      "valid_votes": 550,
+      "invalid_votes": 3,
+      "ballots_cast": 553,
+      "unreturned_ballots": 0,
+      "electors": 817,
+      "turnout_rate": 67.6867
+    },
+    "CYQ-ZHONGPU-JINLAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "金蘭村",
+      "village_en": "Jinlan Village",
+      "votes": {
+        "1": 64,
+        "2": 524,
+        "3": 229,
+        "4": 59
+      },
+      "valid_votes": 876,
+      "invalid_votes": 8,
+      "ballots_cast": 884,
+      "unreturned_ballots": 0,
+      "electors": 1289,
+      "turnout_rate": 68.5803
+    },
+    "CYQ-ZHONGPU-FUSHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "富收村",
+      "village_en": "Fushou Village",
+      "votes": {
+        "1": 110,
+        "2": 927,
+        "3": 415,
+        "4": 82
+      },
+      "valid_votes": 1534,
+      "invalid_votes": 18,
+      "ballots_cast": 1552,
+      "unreturned_ballots": 0,
+      "electors": 2197,
+      "turnout_rate": 70.6418
+    },
+    "CYQ-ZHONGPU-HEMU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "和睦村",
+      "village_en": "Hemu Village",
+      "votes": {
+        "1": 131,
+        "2": 741,
+        "3": 433,
+        "4": 99
+      },
+      "valid_votes": 1404,
+      "invalid_votes": 12,
+      "ballots_cast": 1416,
+      "unreturned_ballots": 0,
+      "electors": 2129,
+      "turnout_rate": 66.5101
+    },
+    "CYQ-ZHONGPU-HEMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "和美村",
+      "village_en": "Hemei Village",
+      "votes": {
+        "1": 356,
+        "2": 1609,
+        "3": 1053,
+        "4": 335
+      },
+      "valid_votes": 3353,
+      "invalid_votes": 37,
+      "ballots_cast": 3390,
+      "unreturned_ballots": 0,
+      "electors": 4734,
+      "turnout_rate": 71.6096
+    },
+    "CYQ-ZHONGPU-HEXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "和興村",
+      "village_en": "Hexing Village",
+      "votes": {
+        "1": 273,
+        "2": 1480,
+        "3": 876,
+        "4": 267
+      },
+      "valid_votes": 2896,
+      "invalid_votes": 29,
+      "ballots_cast": 2925,
+      "unreturned_ballots": 0,
+      "electors": 4301,
+      "turnout_rate": 68.0074
+    },
+    "CYQ-ZHONGPU-LONGXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "隆興村",
+      "village_en": "Longxing Village",
+      "votes": {
+        "1": 107,
+        "2": 699,
+        "3": 251,
+        "4": 55
+      },
+      "valid_votes": 1112,
+      "invalid_votes": 10,
+      "ballots_cast": 1122,
+      "unreturned_ballots": 0,
+      "electors": 1592,
+      "turnout_rate": 70.4774
+    },
+    "CYQ-ZHONGPU-YIREN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "義仁村",
+      "village_en": "Yiren Village",
+      "votes": {
+        "1": 58,
+        "2": 523,
+        "3": 247,
+        "4": 31
+      },
+      "valid_votes": 859,
+      "invalid_votes": 10,
+      "ballots_cast": 869,
+      "unreturned_ballots": 0,
+      "electors": 1211,
+      "turnout_rate": 71.7589
+    },
+    "CYQ-ZHONGPU-SHEKOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "社口村",
+      "village_en": "Shekou Village",
+      "votes": {
+        "1": 96,
+        "2": 938,
+        "3": 255,
+        "4": 92
+      },
+      "valid_votes": 1381,
+      "invalid_votes": 10,
+      "ballots_cast": 1391,
+      "unreturned_ballots": 0,
+      "electors": 2003,
+      "turnout_rate": 69.4458
+    },
+    "CYQ-ZHONGPU-WANTAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "灣潭村",
+      "village_en": "Wantan Village",
+      "votes": {
+        "1": 61,
+        "2": 580,
+        "3": 134,
+        "4": 26
+      },
+      "valid_votes": 801,
+      "invalid_votes": 7,
+      "ballots_cast": 808,
+      "unreturned_ballots": 0,
+      "electors": 1118,
+      "turnout_rate": 72.2719
+    },
+    "CYQ-ZHONGPU-SHINONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "石弄村",
+      "village_en": "Shinong Village",
+      "votes": {
+        "1": 35,
+        "2": 595,
+        "3": 147,
+        "4": 57
+      },
+      "valid_votes": 834,
+      "invalid_votes": 9,
+      "ballots_cast": 843,
+      "unreturned_ballots": 0,
+      "electors": 1146,
+      "turnout_rate": 73.5602
+    },
+    "CYQ-ZHONGPU-DINGPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "頂埔村",
+      "village_en": "Dingpu Village",
+      "votes": {
+        "1": 36,
+        "2": 467,
+        "3": 153,
+        "4": 10
+      },
+      "valid_votes": 666,
+      "invalid_votes": 3,
+      "ballots_cast": 669,
+      "unreturned_ballots": 0,
+      "electors": 908,
+      "turnout_rate": 73.6784
+    },
+    "CYQ-ZHONGPU-TONGREN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "同仁村",
+      "village_en": "Tongren Village",
+      "votes": {
+        "1": 91,
+        "2": 834,
+        "3": 310,
+        "4": 38
+      },
+      "valid_votes": 1273,
+      "invalid_votes": 11,
+      "ballots_cast": 1284,
+      "unreturned_ballots": 0,
+      "electors": 1833,
+      "turnout_rate": 70.0491
+    },
+    "CYQ-ZHONGPU-SHENKENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "深坑村",
+      "village_en": "Shenkeng Village",
+      "votes": {
+        "1": 31,
+        "2": 368,
+        "3": 121,
+        "4": 19
+      },
+      "valid_votes": 539,
+      "invalid_votes": 2,
+      "ballots_cast": 541,
+      "unreturned_ballots": 0,
+      "electors": 718,
+      "turnout_rate": 75.3482
+    },
+    "CYQ-ZHONGPU-SANCENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "三層村",
+      "village_en": "Sanceng Village",
+      "votes": {
+        "1": 23,
+        "2": 325,
+        "3": 102,
+        "4": 17
+      },
+      "valid_votes": 467,
+      "invalid_votes": 3,
+      "ballots_cast": 470,
+      "unreturned_ballots": 0,
+      "electors": 627,
+      "turnout_rate": 74.9601
+    },
+    "CYQ-ZHONGPU-RUIFENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "瑞豐村",
+      "village_en": "Ruifeng Village",
+      "votes": {
+        "1": 25,
+        "2": 427,
+        "3": 76,
+        "4": 17
+      },
+      "valid_votes": 545,
+      "invalid_votes": 0,
+      "ballots_cast": 545,
+      "unreturned_ballots": 0,
+      "electors": 707,
+      "turnout_rate": 77.0863
+    },
+    "CYQ-ZHONGPU-YUNSHUI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "沄水村",
+      "village_en": "Yunshui Village",
+      "votes": {
+        "1": 43,
+        "2": 516,
+        "3": 205,
+        "4": 33
+      },
+      "valid_votes": 797,
+      "invalid_votes": 6,
+      "ballots_cast": 803,
+      "unreturned_ballots": 0,
+      "electors": 1108,
+      "turnout_rate": 72.4729
+    },
+    "CYQ-ZHONGPU-DONGXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "東興村",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 10,
+        "2": 176,
+        "3": 25,
+        "4": 20
+      },
+      "valid_votes": 231,
+      "invalid_votes": 3,
+      "ballots_cast": 234,
+      "unreturned_ballots": 0,
+      "electors": 319,
+      "turnout_rate": 73.3542
+    },
+    "CYQ-ZHONGPU-ZHONGLUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "中埔鄉",
+      "township_en": "Zhongpu Township",
+      "village_zh": "中崙村",
+      "village_en": "Zhonglun Village",
+      "votes": {
+        "1": 10,
+        "2": 187,
+        "3": 41,
+        "4": 7
+      },
+      "valid_votes": 245,
+      "invalid_votes": 2,
+      "ballots_cast": 247,
+      "unreturned_ballots": 0,
+      "electors": 330,
+      "turnout_rate": 74.8485
+    },
+    "CYQ-ZHUQI-ZHUQI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "竹崎村",
+      "village_en": "Zhuqi Village",
+      "votes": {
+        "1": 112,
+        "2": 909,
+        "3": 342,
+        "4": 93
+      },
+      "valid_votes": 1456,
+      "invalid_votes": 19,
+      "ballots_cast": 1475,
+      "unreturned_ballots": 0,
+      "electors": 2042,
+      "turnout_rate": 72.2331
+    },
+    "CYQ-ZHUQI-HEPING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "和平村",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 65,
+        "2": 769,
+        "3": 296,
+        "4": 55
+      },
+      "valid_votes": 1185,
+      "invalid_votes": 12,
+      "ballots_cast": 1197,
+      "unreturned_ballots": 0,
+      "electors": 1695,
+      "turnout_rate": 70.6195
+    },
+    "CYQ-ZHUQI-KENGTOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "坑頭村",
+      "village_en": "Kengtou Village",
+      "votes": {
+        "1": 20,
+        "2": 378,
+        "3": 92,
+        "4": 10
+      },
+      "valid_votes": 500,
+      "invalid_votes": 5,
+      "ballots_cast": 505,
+      "unreturned_ballots": 0,
+      "electors": 734,
+      "turnout_rate": 68.8011
+    },
+    "CYQ-ZHUQI-SHAKENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "沙坑村",
+      "village_en": "Shakeng Village",
+      "votes": {
+        "1": 29,
+        "2": 389,
+        "3": 180,
+        "4": 14
+      },
+      "valid_votes": 612,
+      "invalid_votes": 12,
+      "ballots_cast": 624,
+      "unreturned_ballots": 0,
+      "electors": 842,
+      "turnout_rate": 74.1093
+    },
+    "CYQ-ZHUQI-SHIYE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "獅埜村",
+      "village_en": "Shiye Village",
+      "votes": {
+        "1": 53,
+        "2": 553,
+        "3": 221,
+        "4": 47
+      },
+      "valid_votes": 874,
+      "invalid_votes": 5,
+      "ballots_cast": 879,
+      "unreturned_ballots": 0,
+      "electors": 1260,
+      "turnout_rate": 69.7619
+    },
+    "CYQ-ZHUQI-YIHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "義和村",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 24,
+        "2": 286,
+        "3": 103,
+        "4": 12
+      },
+      "valid_votes": 425,
+      "invalid_votes": 5,
+      "ballots_cast": 430,
+      "unreturned_ballots": 0,
+      "electors": 552,
+      "turnout_rate": 77.8986
+    },
+    "CYQ-ZHUQI-YIREN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "義仁村",
+      "village_en": "Yiren Village",
+      "votes": {
+        "1": 41,
+        "2": 501,
+        "3": 193,
+        "4": 27
+      },
+      "valid_votes": 762,
+      "invalid_votes": 7,
+      "ballots_cast": 769,
+      "unreturned_ballots": 0,
+      "electors": 1038,
+      "turnout_rate": 74.0848
+    },
+    "CYQ-ZHUQI-WANQIAO": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "灣橋村",
+      "village_en": "Wanqiao Village",
+      "votes": {
+        "1": 208,
+        "2": 1670,
+        "3": 795,
+        "4": 239
+      },
+      "valid_votes": 2912,
+      "invalid_votes": 24,
+      "ballots_cast": 2936,
+      "unreturned_ballots": 0,
+      "electors": 4157,
+      "turnout_rate": 70.6279
+    },
+    "CYQ-ZHUQI-LUMAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "鹿滿村",
+      "village_en": "Luman Village",
+      "votes": {
+        "1": 52,
+        "2": 534,
+        "3": 232,
+        "4": 46
+      },
+      "valid_votes": 864,
+      "invalid_votes": 10,
+      "ballots_cast": 874,
+      "unreturned_ballots": 0,
+      "electors": 1242,
+      "turnout_rate": 70.3704
+    },
+    "CYQ-ZHUQI-ZIYUN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "紫雲村",
+      "village_en": "Ziyun Village",
+      "votes": {
+        "1": 51,
+        "2": 696,
+        "3": 144,
+        "4": 38
+      },
+      "valid_votes": 929,
+      "invalid_votes": 6,
+      "ballots_cast": 935,
+      "unreturned_ballots": 0,
+      "electors": 1297,
+      "turnout_rate": 72.0894
+    },
+    "CYQ-ZHUQI-NEIPU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "內埔村",
+      "village_en": "Neipu Village",
+      "votes": {
+        "1": 86,
+        "2": 740,
+        "3": 219,
+        "4": 46
+      },
+      "valid_votes": 1091,
+      "invalid_votes": 9,
+      "ballots_cast": 1100,
+      "unreturned_ballots": 0,
+      "electors": 1569,
+      "turnout_rate": 70.1083
+    },
+    "CYQ-ZHUQI-SHENGPING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "昇平村",
+      "village_en": "Shengping Village",
+      "votes": {
+        "1": 62,
+        "2": 853,
+        "3": 214,
+        "4": 43
+      },
+      "valid_votes": 1172,
+      "invalid_votes": 15,
+      "ballots_cast": 1187,
+      "unreturned_ballots": 0,
+      "electors": 1668,
+      "turnout_rate": 71.1631
+    },
+    "CYQ-ZHUQI-TAOYUAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "桃源村",
+      "village_en": "Taoyuan Village",
+      "votes": {
+        "1": 39,
+        "2": 521,
+        "3": 161,
+        "4": 47
+      },
+      "valid_votes": 768,
+      "invalid_votes": 6,
+      "ballots_cast": 774,
+      "unreturned_ballots": 0,
+      "electors": 1113,
+      "turnout_rate": 69.5418
+    },
+    "CYQ-ZHUQI-BAIQI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "白杞村",
+      "village_en": "Baiqi Village",
+      "votes": {
+        "1": 24,
+        "2": 409,
+        "3": 55,
+        "4": 17
+      },
+      "valid_votes": 505,
+      "invalid_votes": 4,
+      "ballots_cast": 509,
+      "unreturned_ballots": 0,
+      "electors": 739,
+      "turnout_rate": 68.8769
+    },
+    "CYQ-ZHUQI-TANGXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "塘興村",
+      "village_en": "Tangxing Village",
+      "votes": {
+        "1": 27,
+        "2": 473,
+        "3": 73,
+        "4": 22
+      },
+      "valid_votes": 595,
+      "invalid_votes": 4,
+      "ballots_cast": 599,
+      "unreturned_ballots": 0,
+      "electors": 897,
+      "turnout_rate": 66.7781
+    },
+    "CYQ-ZHUQI-YILONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "義隆村",
+      "village_en": "Yilong Village",
+      "votes": {
+        "1": 19,
+        "2": 281,
+        "3": 71,
+        "4": 13
+      },
+      "valid_votes": 384,
+      "invalid_votes": 2,
+      "ballots_cast": 386,
+      "unreturned_ballots": 0,
+      "electors": 541,
+      "turnout_rate": 71.3494
+    },
+    "CYQ-ZHUQI-LONGSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "龍山村",
+      "village_en": "Longshan Village",
+      "votes": {
+        "1": 48,
+        "2": 773,
+        "3": 227,
+        "4": 58
+      },
+      "valid_votes": 1106,
+      "invalid_votes": 15,
+      "ballots_cast": 1121,
+      "unreturned_ballots": 0,
+      "electors": 1584,
+      "turnout_rate": 70.7702
+    },
+    "CYQ-ZHUQI-WENFENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "文峰村",
+      "village_en": "Wenfeng Village",
+      "votes": {
+        "1": 21,
+        "2": 328,
+        "3": 120,
+        "4": 35
+      },
+      "valid_votes": 504,
+      "invalid_votes": 4,
+      "ballots_cast": 508,
+      "unreturned_ballots": 0,
+      "electors": 843,
+      "turnout_rate": 60.261
+    },
+    "CYQ-ZHUQI-JINSHI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "金獅村",
+      "village_en": "Jinshi Village",
+      "votes": {
+        "1": 6,
+        "2": 266,
+        "3": 51,
+        "4": 8
+      },
+      "valid_votes": 331,
+      "invalid_votes": 0,
+      "ballots_cast": 331,
+      "unreturned_ballots": 0,
+      "electors": 521,
+      "turnout_rate": 63.5317
+    },
+    "CYQ-ZHUQI-FUJIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "復金村",
+      "village_en": "Fujin Village",
+      "votes": {
+        "1": 58,
+        "2": 924,
+        "3": 295,
+        "4": 35
+      },
+      "valid_votes": 1312,
+      "invalid_votes": 14,
+      "ballots_cast": 1326,
+      "unreturned_ballots": 0,
+      "electors": 1780,
+      "turnout_rate": 74.4944
+    },
+    "CYQ-ZHUQI-DUANXU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "緞繻村",
+      "village_en": "Duanxu Village",
+      "votes": {
+        "1": 18,
+        "2": 576,
+        "3": 118,
+        "4": 23
+      },
+      "valid_votes": 735,
+      "invalid_votes": 8,
+      "ballots_cast": 743,
+      "unreturned_ballots": 0,
+      "electors": 1123,
+      "turnout_rate": 66.1621
+    },
+    "CYQ-ZHUQI-RENSHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "仁壽村",
+      "village_en": "Renshou Village",
+      "votes": {
+        "1": 6,
+        "2": 138,
+        "3": 45,
+        "4": 6
+      },
+      "valid_votes": 195,
+      "invalid_votes": 2,
+      "ballots_cast": 197,
+      "unreturned_ballots": 0,
+      "electors": 353,
+      "turnout_rate": 55.8074
+    },
+    "CYQ-ZHUQI-ZHONGHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "中和村",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 46,
+        "2": 358,
+        "3": 92,
+        "4": 46
+      },
+      "valid_votes": 542,
+      "invalid_votes": 11,
+      "ballots_cast": 553,
+      "unreturned_ballots": 0,
+      "electors": 804,
+      "turnout_rate": 68.7811
+    },
+    "CYQ-ZHUQI-GUANGHUA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "竹崎鄉",
+      "township_en": "Zhuqi Township",
+      "village_zh": "光華村",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 11,
+        "2": 378,
+        "3": 106,
+        "4": 11
+      },
+      "valid_votes": 506,
+      "invalid_votes": 7,
+      "ballots_cast": 513,
+      "unreturned_ballots": 0,
+      "electors": 772,
+      "turnout_rate": 66.4508
+    },
+    "CYQ-YIZHU-XIZHOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "義竹鄉",
+      "township_en": "Yizhu Township",
+      "village_zh": "溪洲村",
+      "village_en": "Xizhou Village",
+      "votes": {
+        "1": 24,
+        "2": 349,
+        "3": 152,
+        "4": 10
+      },
+      "valid_votes": 535,
+      "invalid_votes": 10,
+      "ballots_cast": 545,
+      "unreturned_ballots": 0,
+      "electors": 838,
+      "turnout_rate": 65.0358
+    },
+    "CYQ-MEISHAN-MEIDONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "梅東村",
+      "village_en": "Meidong Village",
+      "votes": {
+        "1": 83,
+        "2": 1096,
+        "3": 492,
+        "4": 104
+      },
+      "valid_votes": 1775,
+      "invalid_votes": 14,
+      "ballots_cast": 1789,
+      "unreturned_ballots": 0,
+      "electors": 2485,
+      "turnout_rate": 71.992
+    },
+    "CYQ-MEISHAN-MEINAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "梅南村",
+      "village_en": "Meinan Village",
+      "votes": {
+        "1": 63,
+        "2": 435,
+        "3": 214,
+        "4": 51
+      },
+      "valid_votes": 763,
+      "invalid_votes": 3,
+      "ballots_cast": 766,
+      "unreturned_ballots": 0,
+      "electors": 998,
+      "turnout_rate": 76.7535
+    },
+    "CYQ-MEISHAN-MEIBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "梅北村",
+      "village_en": "Meibei Village",
+      "votes": {
+        "1": 124,
+        "2": 1576,
+        "3": 667,
+        "4": 142
+      },
+      "valid_votes": 2509,
+      "invalid_votes": 11,
+      "ballots_cast": 2520,
+      "unreturned_ballots": 0,
+      "electors": 3479,
+      "turnout_rate": 72.4346
+    },
+    "CYQ-MEISHAN-GUOSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "過山村",
+      "village_en": "Guoshan Village",
+      "votes": {
+        "1": 15,
+        "2": 316,
+        "3": 92,
+        "4": 22
+      },
+      "valid_votes": 445,
+      "invalid_votes": 4,
+      "ballots_cast": 449,
+      "unreturned_ballots": 0,
+      "electors": 595,
+      "turnout_rate": 75.4622
+    },
+    "CYQ-MEISHAN-ZHENNAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "圳南村",
+      "village_en": "Zhennan Village",
+      "votes": {
+        "1": 8,
+        "2": 268,
+        "3": 92,
+        "4": 14
+      },
+      "valid_votes": 382,
+      "invalid_votes": 5,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "electors": 543,
+      "turnout_rate": 71.2707
+    },
+    "CYQ-MEISHAN-ZHENBEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "圳北村",
+      "village_en": "Zhenbei Village",
+      "votes": {
+        "1": 36,
+        "2": 338,
+        "3": 113,
+        "4": 18
+      },
+      "valid_votes": 505,
+      "invalid_votes": 4,
+      "ballots_cast": 509,
+      "unreturned_ballots": 0,
+      "electors": 715,
+      "turnout_rate": 71.1888
+    },
+    "CYQ-MEISHAN-SHUANGXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "雙溪村",
+      "village_en": "Shuangxi Village",
+      "votes": {
+        "1": 21,
+        "2": 341,
+        "3": 83,
+        "4": 18
+      },
+      "valid_votes": 463,
+      "invalid_votes": 1,
+      "ballots_cast": 464,
+      "unreturned_ballots": 0,
+      "electors": 589,
+      "turnout_rate": 78.7776
+    },
+    "CYQ-MEISHAN-DANAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "大南村",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 56,
+        "2": 884,
+        "3": 242,
+        "4": 55
+      },
+      "valid_votes": 1237,
+      "invalid_votes": 9,
+      "ballots_cast": 1246,
+      "unreturned_ballots": 0,
+      "electors": 1708,
+      "turnout_rate": 72.9508
+    },
+    "CYQ-MEISHAN-ANJING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "安靖村",
+      "village_en": "Anjing Village",
+      "votes": {
+        "1": 16,
+        "2": 493,
+        "3": 138,
+        "4": 30
+      },
+      "valid_votes": 677,
+      "invalid_votes": 11,
+      "ballots_cast": 688,
+      "unreturned_ballots": 0,
+      "electors": 975,
+      "turnout_rate": 70.5641
+    },
+    "CYQ-MEISHAN-YONGXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "永興村",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 25,
+        "2": 242,
+        "3": 106,
+        "4": 19
+      },
+      "valid_votes": 392,
+      "invalid_votes": 2,
+      "ballots_cast": 394,
+      "unreturned_ballots": 0,
+      "electors": 543,
+      "turnout_rate": 72.5599
+    },
+    "CYQ-MEISHAN-BANTIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "半天村",
+      "village_en": "Bantian Village",
+      "votes": {
+        "1": 15,
+        "2": 253,
+        "3": 76,
+        "4": 7
+      },
+      "valid_votes": 351,
+      "invalid_votes": 1,
+      "ballots_cast": 352,
+      "unreturned_ballots": 0,
+      "electors": 487,
+      "turnout_rate": 72.2793
+    },
+    "CYQ-MEISHAN-TAIPING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "太平村",
+      "village_en": "Taiping Village",
+      "votes": {
+        "1": 10,
+        "2": 281,
+        "3": 42,
+        "4": 16
+      },
+      "valid_votes": 349,
+      "invalid_votes": 1,
+      "ballots_cast": 350,
+      "unreturned_ballots": 0,
+      "electors": 531,
+      "turnout_rate": 65.9134
+    },
+    "CYQ-MEISHAN-TAIXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "太興村",
+      "village_en": "Taixing Village",
+      "votes": {
+        "1": 14,
+        "2": 226,
+        "3": 40,
+        "4": 13
+      },
+      "valid_votes": 293,
+      "invalid_votes": 6,
+      "ballots_cast": 299,
+      "unreturned_ballots": 0,
+      "electors": 417,
+      "turnout_rate": 71.7026
+    },
+    "CYQ-MEISHAN-LONGYAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "龍眼村",
+      "village_en": "Longyan Village",
+      "votes": {
+        "1": 8,
+        "2": 203,
+        "3": 115,
+        "4": 9
+      },
+      "valid_votes": 335,
+      "invalid_votes": 1,
+      "ballots_cast": 336,
+      "unreturned_ballots": 0,
+      "electors": 492,
+      "turnout_rate": 68.2927
+    },
+    "CYQ-MEISHAN-BIHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "碧湖村",
+      "village_en": "Bihu Village",
+      "votes": {
+        "1": 10,
+        "2": 174,
+        "3": 35,
+        "4": 1
+      },
+      "valid_votes": 220,
+      "invalid_votes": 2,
+      "ballots_cast": 222,
+      "unreturned_ballots": 0,
+      "electors": 353,
+      "turnout_rate": 62.8895
+    },
+    "CYQ-MEISHAN-RUIFENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "瑞峰村",
+      "village_en": "Ruifeng Village",
+      "votes": {
+        "1": 18,
+        "2": 375,
+        "3": 70,
+        "4": 18
+      },
+      "valid_votes": 481,
+      "invalid_votes": 8,
+      "ballots_cast": 489,
+      "unreturned_ballots": 0,
+      "electors": 720,
+      "turnout_rate": 67.9167
+    },
+    "CYQ-MEISHAN-RUILI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "瑞里村",
+      "village_en": "Ruili Village",
+      "votes": {
+        "1": 26,
+        "2": 397,
+        "3": 85,
+        "4": 24
+      },
+      "valid_votes": 532,
+      "invalid_votes": 9,
+      "ballots_cast": 541,
+      "unreturned_ballots": 0,
+      "electors": 734,
+      "turnout_rate": 73.7057
+    },
+    "CYQ-MEISHAN-TAIHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "梅山鄉",
+      "township_en": "Meishan Township",
+      "village_zh": "太和村",
+      "village_en": "Taihe Village",
+      "votes": {
+        "1": 18,
+        "2": 516,
+        "3": 135,
+        "4": 30
+      },
+      "valid_votes": 699,
+      "invalid_votes": 13,
+      "ballots_cast": 712,
+      "unreturned_ballots": 0,
+      "electors": 1032,
+      "turnout_rate": 68.9922
+    },
+    "CYQ-FANLU-JIANGXI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "江西村",
+      "village_en": "Jiangxi Village",
+      "votes": {
+        "1": 37,
+        "2": 401,
+        "3": 186,
+        "4": 29
+      },
+      "valid_votes": 653,
+      "invalid_votes": 7,
+      "ballots_cast": 660,
+      "unreturned_ballots": 0,
+      "electors": 895,
+      "turnout_rate": 73.743
+    },
+    "CYQ-FANLU-NEIWENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "內甕村",
+      "village_en": "Neiweng Village",
+      "votes": {
+        "1": 18,
+        "2": 144,
+        "3": 77,
+        "4": 7
+      },
+      "valid_votes": 246,
+      "invalid_votes": 2,
+      "ballots_cast": 248,
+      "unreturned_ballots": 0,
+      "electors": 353,
+      "turnout_rate": 70.255
+    },
+    "CYQ-FANLU-XINFU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "新福村",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 30,
+        "2": 298,
+        "3": 199,
+        "4": 20
+      },
+      "valid_votes": 547,
+      "invalid_votes": 5,
+      "ballots_cast": 552,
+      "unreturned_ballots": 0,
+      "electors": 751,
+      "turnout_rate": 73.502
+    },
+    "CYQ-FANLU-XIAKENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "下坑村",
+      "village_en": "Xiakeng Village",
+      "votes": {
+        "1": 34,
+        "2": 643,
+        "3": 270,
+        "4": 73
+      },
+      "valid_votes": 1020,
+      "invalid_votes": 13,
+      "ballots_cast": 1033,
+      "unreturned_ballots": 0,
+      "electors": 1453,
+      "turnout_rate": 71.0943
+    },
+    "CYQ-FANLU-FANLU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "番路村",
+      "village_en": "Fanlu Village",
+      "votes": {
+        "1": 27,
+        "2": 384,
+        "3": 184,
+        "4": 28
+      },
+      "valid_votes": 623,
+      "invalid_votes": 9,
+      "ballots_cast": 632,
+      "unreturned_ballots": 0,
+      "electors": 804,
+      "turnout_rate": 78.607
+    },
+    "CYQ-FANLU-MINHE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "民和村",
+      "village_en": "Minhe Village",
+      "votes": {
+        "1": 38,
+        "2": 370,
+        "3": 149,
+        "4": 13
+      },
+      "valid_votes": 570,
+      "invalid_votes": 9,
+      "ballots_cast": 579,
+      "unreturned_ballots": 0,
+      "electors": 795,
+      "turnout_rate": 72.8302
+    },
+    "CYQ-FANLU-CHUKOU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "觸口村",
+      "village_en": "Chukou Village",
+      "votes": {
+        "1": 28,
+        "2": 326,
+        "3": 223,
+        "4": 35
+      },
+      "valid_votes": 612,
+      "invalid_votes": 6,
+      "ballots_cast": 618,
+      "unreturned_ballots": 0,
+      "electors": 861,
+      "turnout_rate": 71.777
+    },
+    "CYQ-FANLU-DAHU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "大湖村",
+      "village_en": "Dahu Village",
+      "votes": {
+        "1": 17,
+        "2": 345,
+        "3": 153,
+        "4": 23
+      },
+      "valid_votes": 538,
+      "invalid_votes": 1,
+      "ballots_cast": 539,
+      "unreturned_ballots": 0,
+      "electors": 886,
+      "turnout_rate": 60.8352
+    },
+    "CYQ-FANLU-GONGTIAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "公田村",
+      "village_en": "Gongtian Village",
+      "votes": {
+        "1": 33,
+        "2": 378,
+        "3": 148,
+        "4": 52
+      },
+      "valid_votes": 611,
+      "invalid_votes": 6,
+      "ballots_cast": 617,
+      "unreturned_ballots": 0,
+      "electors": 884,
+      "turnout_rate": 69.7964
+    },
+    "CYQ-FANLU-GONGXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "公興村",
+      "village_en": "Gongxing Village",
+      "votes": {
+        "1": 28,
+        "2": 192,
+        "3": 96,
+        "4": 41
+      },
+      "valid_votes": 357,
+      "invalid_votes": 7,
+      "ballots_cast": 364,
+      "unreturned_ballots": 0,
+      "electors": 577,
+      "turnout_rate": 63.0849
+    },
+    "CYQ-FANLU-CAOSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "番路鄉",
+      "township_en": "Fanlu Township",
+      "village_zh": "草山村",
+      "village_en": "Caoshan Village",
+      "votes": {
+        "1": 11,
+        "2": 219,
+        "3": 25,
+        "4": 10
+      },
+      "valid_votes": 265,
+      "invalid_votes": 3,
+      "ballots_cast": 268,
+      "unreturned_ballots": 0,
+      "electors": 353,
+      "turnout_rate": 75.9207
+    },
+    "CYQ-DABU-DABU": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大埔鄉",
+      "township_en": "Dabu Township",
+      "village_zh": "大埔村",
+      "village_en": "Dabu Village",
+      "votes": {
+        "1": 28,
+        "2": 438,
+        "3": 122,
+        "4": 24
+      },
+      "valid_votes": 612,
+      "invalid_votes": 10,
+      "ballots_cast": 622,
+      "unreturned_ballots": 0,
+      "electors": 977,
+      "turnout_rate": 63.6643
+    },
+    "CYQ-DABU-HEPING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大埔鄉",
+      "township_en": "Dabu Township",
+      "village_zh": "和平村",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 9,
+        "2": 244,
+        "3": 63,
+        "4": 8
+      },
+      "valid_votes": 324,
+      "invalid_votes": 3,
+      "ballots_cast": 327,
+      "unreturned_ballots": 0,
+      "electors": 492,
+      "turnout_rate": 66.4634
+    },
+    "CYQ-DABU-YONGLE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大埔鄉",
+      "township_en": "Dabu Township",
+      "village_zh": "永樂村",
+      "village_en": "Yongle Village",
+      "votes": {
+        "1": 6,
+        "2": 142,
+        "3": 27,
+        "4": 2
+      },
+      "valid_votes": 177,
+      "invalid_votes": 2,
+      "ballots_cast": 179,
+      "unreturned_ballots": 0,
+      "electors": 306,
+      "turnout_rate": 58.4967
+    },
+    "CYQ-DABU-JIADONG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大埔鄉",
+      "township_en": "Dabu Township",
+      "village_zh": "茄苳村",
+      "village_en": "Jiadong Village",
+      "votes": {
+        "1": 14,
+        "2": 328,
+        "3": 53,
+        "4": 28
+      },
+      "valid_votes": 423,
+      "invalid_votes": 6,
+      "ballots_cast": 429,
+      "unreturned_ballots": 0,
+      "electors": 703,
+      "turnout_rate": 61.0242
+    },
+    "CYQ-DABU-XIXING": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "大埔鄉",
+      "township_en": "Dabu Township",
+      "village_zh": "西興村",
+      "village_en": "Xixing Village",
+      "votes": {
+        "1": 5,
+        "2": 150,
+        "3": 30,
+        "4": 39
+      },
+      "valid_votes": 224,
+      "invalid_votes": 5,
+      "ballots_cast": 229,
+      "unreturned_ballots": 0,
+      "electors": 362,
+      "turnout_rate": 63.2597
+    },
+    "CYQ-ALISHAN-ZHONGSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "中山村",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 10,
+        "2": 167,
+        "3": 38,
+        "4": 15
+      },
+      "valid_votes": 230,
+      "invalid_votes": 3,
+      "ballots_cast": 233,
+      "unreturned_ballots": 0,
+      "electors": 384,
+      "turnout_rate": 60.6771
+    },
+    "CYQ-ALISHAN-ZHONGZHENG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 5,
+        "2": 87,
+        "3": 18,
+        "4": 15
+      },
+      "valid_votes": 125,
+      "invalid_votes": 0,
+      "ballots_cast": 125,
+      "unreturned_ballots": 0,
+      "electors": 200,
+      "turnout_rate": 62.5
+    },
+    "CYQ-ALISHAN-XIANGLIN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "香林村",
+      "village_en": "Xianglin Village",
+      "votes": {
+        "1": 10,
+        "2": 113,
+        "3": 19,
+        "4": 10
+      },
+      "valid_votes": 152,
+      "invalid_votes": 2,
+      "ballots_cast": 154,
+      "unreturned_ballots": 0,
+      "electors": 256,
+      "turnout_rate": 60.1562
+    },
+    "CYQ-ALISHAN-SHIZI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "十字村",
+      "village_en": "Shizi Village",
+      "votes": {
+        "1": 7,
+        "2": 174,
+        "3": 18,
+        "4": 6
+      },
+      "valid_votes": 205,
+      "invalid_votes": 2,
+      "ballots_cast": 207,
+      "unreturned_ballots": 0,
+      "electors": 325,
+      "turnout_rate": 63.6923
+    },
+    "CYQ-ALISHAN-DABANG": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "達邦村",
+      "village_en": "Dabang Village",
+      "votes": {
+        "1": 23,
+        "2": 429,
+        "3": 21,
+        "4": 81
+      },
+      "valid_votes": 554,
+      "invalid_votes": 9,
+      "ballots_cast": 563,
+      "unreturned_ballots": 0,
+      "electors": 868,
+      "turnout_rate": 64.8618
+    },
+    "CYQ-ALISHAN-LEYE": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "樂野村",
+      "village_en": "Leye Village",
+      "votes": {
+        "1": 21,
+        "2": 349,
+        "3": 35,
+        "4": 21
+      },
+      "valid_votes": 426,
+      "invalid_votes": 3,
+      "ballots_cast": 429,
+      "unreturned_ballots": 0,
+      "electors": 667,
+      "turnout_rate": 64.3178
+    },
+    "CYQ-ALISHAN-LAIJI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "來吉村",
+      "village_en": "Laiji Village",
+      "votes": {
+        "1": 3,
+        "2": 179,
+        "3": 26,
+        "4": 20
+      },
+      "valid_votes": 228,
+      "invalid_votes": 1,
+      "ballots_cast": 229,
+      "unreturned_ballots": 0,
+      "electors": 331,
+      "turnout_rate": 69.1843
+    },
+    "CYQ-ALISHAN-FENGSHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "豐山村",
+      "village_en": "Fengshan Village",
+      "votes": {
+        "1": 6,
+        "2": 163,
+        "3": 9,
+        "4": 3
+      },
+      "valid_votes": 181,
+      "invalid_votes": 1,
+      "ballots_cast": 182,
+      "unreturned_ballots": 0,
+      "electors": 261,
+      "turnout_rate": 69.7318
+    },
+    "CYQ-ALISHAN-LIJIA": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "里佳村",
+      "village_en": "Lijia Village",
+      "votes": {
+        "1": 7,
+        "2": 151,
+        "3": 14,
+        "4": 9
+      },
+      "valid_votes": 181,
+      "invalid_votes": 3,
+      "ballots_cast": 184,
+      "unreturned_ballots": 0,
+      "electors": 261,
+      "turnout_rate": 70.4981
+    },
+    "CYQ-ALISHAN-SHANMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "山美村",
+      "village_en": "Shanmei Village",
+      "votes": {
+        "1": 10,
+        "2": 258,
+        "3": 9,
+        "4": 10
+      },
+      "valid_votes": 287,
+      "invalid_votes": 4,
+      "ballots_cast": 291,
+      "unreturned_ballots": 0,
+      "electors": 424,
+      "turnout_rate": 68.6321
+    },
+    "CYQ-ALISHAN-XINMEI": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "新美村",
+      "village_en": "Xinmei Village",
+      "votes": {
+        "1": 5,
+        "2": 162,
+        "3": 10,
+        "4": 8
+      },
+      "valid_votes": 185,
+      "invalid_votes": 7,
+      "ballots_cast": 192,
+      "unreturned_ballots": 0,
+      "electors": 285,
+      "turnout_rate": 67.3684
+    },
+    "CYQ-ALISHAN-CHASHAN": {
+      "county_zh": "嘉義縣",
+      "county_en": "Chiayi County",
+      "township_zh": "阿里山鄉",
+      "township_en": "Alishan Township",
+      "village_zh": "茶山村",
+      "village_en": "Chashan Village",
+      "votes": {
+        "1": 3,
+        "2": 154,
+        "3": 35,
+        "4": 13
+      },
+      "valid_votes": 205,
+      "invalid_votes": 0,
+      "ballots_cast": 205,
+      "unreturned_ballots": 0,
+      "electors": 320,
+      "turnout_rate": 64.0625
+    }
+  }
+}

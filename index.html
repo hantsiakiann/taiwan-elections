@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan Presidential Vote Explorer</title>
+<link rel="icon" href="img/vote.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Titillium+Web:wght@300;400;600;700&display=swap">
+<style>
+  :root{
+    --green:#1B9431; --blue:#000099; --other:#8a8a8a;
+    --ink:#1b1b1b; --mut:#6a6a6a; --line:#e2e2e2; --bg:#fafafa; --card:#ffffff;
+    --accent:#0a5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Titillium Web","Noto Sans TC",system-ui,sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.5}
+  a{color:#0645ad}
+  header{padding:22px 26px 14px;border-bottom:1px solid var(--line);background:var(--card)}
+  header h1{margin:0 0 4px;font-size:22px;font-weight:700}
+  header p{margin:0;color:var(--mut);font-size:13.5px;max-width:60em}
+  .wrap{display:grid;grid-template-columns:300px minmax(0,1fr) 430px;gap:20px;
+    padding:20px 26px;max-width:1680px}
+  @media(max-width:1280px){.wrap{grid-template-columns:300px minmax(0,1fr)}}
+  @media(max-width:900px){.wrap{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:20px}
+  .card h2{margin:0 0 12px;font-size:15px;font-weight:700;letter-spacing:.02em;text-transform:uppercase;color:#333}
+  .card h3{margin:18px 0 8px;font-size:13px;font-weight:700;color:#444}
+  label{font-size:12.5px;color:var(--mut);display:block;margin:10px 0 3px;font-weight:600}
+  select,input[type=text]{width:100%;padding:7px 8px;border:1px solid #ccc;border-radius:6px;
+    font:inherit;font-size:13.5px;background:#fff}
+  button{font:inherit;cursor:pointer}
+  .btn{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:8px 12px;font-weight:600;font-size:13px}
+  .btn.sec{background:#eee;color:#333}
+  .btn.mini{padding:4px 9px;font-size:12px}
+  .btn:disabled{opacity:.45;cursor:default}
+  .pins{display:flex;flex-wrap:wrap;gap:7px;margin-top:6px}
+  .pin{display:flex;align-items:center;gap:6px;border:1px solid #ddd;border-radius:20px;
+    padding:4px 6px 4px 10px;font-size:12.5px;background:#fff}
+  .pin .sw{width:11px;height:11px;border-radius:50%;flex:0 0 auto}
+  .pin.primary{border-color:#999;box-shadow:0 0 0 2px #0001}
+  .pin b{font-weight:700}
+  .pin .x{border:0;background:#0000;color:#999;font-size:15px;line-height:1;padding:0 2px}
+  .pin .x:hover{color:#c00}
+  .muted{color:var(--mut);font-size:12.5px}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{padding:6px 9px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  thead th{border-bottom:2px solid #ccc;font-size:11.5px;text-transform:uppercase;color:#555;font-weight:700}
+  tbody tr:hover{background:#f6f8ff}
+  .num{font-variant-numeric:tabular-nums}
+  .lean{font-weight:700;border-radius:4px;padding:2px 6px}
+  .swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:baseline}
+  .win-G{color:var(--green);font-weight:700}
+  .win-B{color:var(--blue);font-weight:700}
+  .win-O{color:#7a5;font-weight:700}
+  .scroll{overflow-x:auto}
+  .chartwrap{position:relative}
+  svg{display:block;width:100%;height:auto}
+  #chart svg,#turnchart svg{overflow:visible}
+  .gl{stroke:var(--line);stroke-width:1}
+  .gl0{stroke:#bbb;stroke-width:1.4}
+  .axlab{font-size:11px;fill:var(--mut)}
+  .axcap{font-size:11px;font-weight:700;fill:#555}
+  .series{fill:none;stroke-width:2.4}
+  .series.primary{stroke-width:3.6}
+  .dot{stroke:#fff;stroke-width:1.4}
+  .tip{position:fixed;pointer-events:none;background:#222;color:#fff;font-size:12px;
+    padding:6px 9px;border-radius:6px;opacity:0;transition:opacity .1s;white-space:pre;z-index:50}
+  .segleg{display:flex;flex-wrap:wrap;gap:14px;margin:4px 0 12px;font-size:12.5px}
+  .segleg span{display:flex;align-items:center;gap:6px}
+  .opts{display:flex;flex-wrap:wrap;gap:14px 16px;align-items:center;margin-bottom:6px;font-size:13px}
+  .opts label{display:inline-flex;align-items:center;gap:4px;margin:0;color:var(--ink);font-weight:400}
+  details.method{margin-top:4px}
+  details.method summary{cursor:pointer;font-weight:700;font-size:13px;color:#333}
+  details.method p{font-size:13px;color:#333}
+  .toggles{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
+  .toggles fieldset{border:1px solid #ddd;border-radius:8px;padding:6px 10px 8px;margin:0}
+  .toggles legend{font-size:11.5px;color:#666;font-weight:700;padding:0 4px}
+  .toggles label{display:block;margin:2px 0;font-size:12.5px;color:#222;font-weight:400}
+  .bar{height:14px;border-radius:2px;display:inline-block;vertical-align:middle}
+  .err{color:#b00;font-size:13px}
+  .foot{padding:0 26px 40px;color:var(--mut);font-size:12px;max-width:70em}
+  code{background:#f0f0f0;padding:1px 4px;border-radius:3px;font-size:12px}
+  /* map */
+  #mapbox{position:relative;border:1px solid var(--line);border-radius:8px;overflow:hidden;
+    background:#eef2f6;touch-action:none}
+  #mapsvg{display:block;width:100%;height:auto;cursor:grab}
+  #mapsvg.drag{cursor:grabbing}
+  #mapsvg path.town{stroke:#ffffff;stroke-width:.4;fill-rule:evenodd;vector-effect:non-scaling-stroke}
+  #mapsvg path.cob{fill:none;stroke:#333;stroke-width:1;fill-rule:evenodd;vector-effect:non-scaling-stroke;pointer-events:none}
+  #mapsvg path.seltop{fill:none;stroke:#0b0b0b;stroke-width:2.6;stroke-linejoin:round;
+    fill-rule:evenodd;vector-effect:non-scaling-stroke;pointer-events:none}
+  #mapsvg rect.inset{fill:none;stroke:#8a8a8a;stroke-width:1;stroke-dasharray:4 3;
+    vector-effect:non-scaling-stroke;pointer-events:none}
+  #mapsvg text.inslab{font-size:9px;font-weight:600;fill:#555;pointer-events:none}
+  .maprow{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:end;margin-bottom:10px}
+  .maprow > div{flex:1 1 120px}
+  .maplegend{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:9px;font-size:12px;align-items:center}
+  .maplegend .k{display:flex;align-items:center;gap:5px}
+  .maplegend .k i{width:13px;height:13px;border-radius:3px;display:inline-block;border:1px solid #0002}
+  .rampbar{height:12px;flex:1 1 160px;border-radius:3px;min-width:140px}
+  .mapzoom{position:absolute;right:8px;bottom:8px;display:flex;flex-direction:column;gap:4px}
+  .mapzoom button{width:30px;height:30px;border-radius:6px;border:1px solid #bbb;background:#fff;
+    font-size:16px;font-weight:700;line-height:1;color:#333}
+  .maphint{font-size:11.5px;color:var(--mut);margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Taiwan Presidential Vote Explorer &nbsp;<span style="font-weight:400;font-size:15px;color:#999">1996 – 2024</span></h1>
+  <p>How every township (鄉/鎮/市/區) and city/county (縣/市) voted in the eight direct
+  presidential elections, how that compares with the national result, and how each place's
+  partisan lean has evolved &mdash; on a two-camp (Green vs. Blue) or three-force
+  (DPP / KMT / TPP) basis.</p>
+</header>
+
+<div class="wrap">
+  <!-- ================= controls ================= -->
+  <div class="col-controls">
+    <div class="card">
+      <h2>Pick an area</h2>
+      <label for="lvl">Level</label>
+      <select id="lvl">
+        <option value="tw">Township / district (鄉鎮市區)</option>
+        <option value="co">City / county (縣市)</option>
+      </select>
+      <label for="co">City / county</label>
+      <select id="co"></select>
+      <label for="tw" id="twlab">Township / district</label>
+      <select id="tw"></select>
+      <div style="display:flex;gap:8px;margin-top:12px">
+        <button class="btn" id="add">Add to comparison</button>
+        <button class="btn sec" id="clear">Clear</button>
+      </div>
+      <h3>Comparison set</h3>
+      <div class="muted" id="pinhint">The first area is the &ldquo;primary&rdquo; &mdash;
+      its results table, candidate breakdown and map zoom follow it. Click a chip to make
+      it primary; click the map to select.</div>
+      <div class="pins" id="pins"></div>
+    </div>
+
+    <div class="card">
+      <h2>Method</h2>
+      <div class="toggles" id="toggles"></div>
+      <details class="method">
+        <summary>How the lean numbers are calculated</summary>
+        <p><b>Two-camp lean.</b> Every candidate is assigned to <b>Pan-Green</b>,
+        <b>Pan-Blue</b> or <b>Other</b>. We take the Green share of the two-camp vote
+        &mdash; Green &divide; (Green + Blue), ignoring Other &mdash; for the nation and for
+        the area, and the lean is the area's two-camp Green margin <i>minus the national
+        one that year</i>, in points. Measuring against the same election's national
+        result cancels out how big the third-party vote was that year, so all eight
+        elections are comparable even though the field changes (James Soong 2000/2012/2016/2020,
+        Li Ao 2000, Lin Yang-kang 1996, Ko Wen-je 2024). Blue-aligned minor candidates
+        fold into Pan-Blue; non-aligned ones (Ko 2024, Chen Li-an 1996, Hsu Hsin-liang
+        2000) drop out. The toggles above reclassify the ambiguous ones.</p>
+        <p><b>DPP / KMT / TPP lean.</b> The same relative idea with three buckets:
+        <b>DPP camp</b>, <b>KMT camp</b> (including the New Party <i>and</i> James Soong / PFP
+        every time he ran) and <b>TPP camp</b> (Ko Wen-je, 2024 only). Non-aligned
+        independents are excluded. For a place and year we take each bucket's share of the
+        bucket total, do the same nationally, and report the differences (they sum to
+        zero). Because the TPP fielded a presidential candidate only in 2024, this view is
+        an ordinary DPP-KMT lean for 1996&ndash;2020 and three-way only in
+        2024. The two-camp toggles above do <i>not</i> affect this view.</p>
+      </details>
+    </div>
+  </div>
+
+  <!-- ================= main ================= -->
+  <div class="col-main">
+    <div class="card">
+      <h2>Partisan lean over time <span class="muted" id="charttitle"></span></h2>
+      <div class="opts">
+        <span style="font-weight:600">Y-axis:</span>
+        <label><input type="radio" name="metric" value="lean" checked> Two-camp lean vs. nation</label>
+        <label><input type="radio" name="metric" value="margin"> Two-camp Green margin</label>
+        <label><input type="radio" name="metric" value="three"> DPP / KMT / TPP lean</label>
+        <label style="margin-left:8px"><input type="checkbox" id="showturn"> turnout panel</label>
+      </div>
+      <div class="segleg" id="chartleg"></div>
+      <div class="chartwrap">
+        <div id="chart"></div>
+        <div class="tip" id="tip"></div>
+      </div>
+      <div class="chartwrap" id="turnwrap" hidden><div id="turnchart"></div></div>
+      <div id="threewrap" hidden style="margin-top:14px">
+        <h3 style="margin:0 0 6px">DPP / KMT / TPP lean &mdash; <span id="threearea" class="muted"></span></h3>
+        <div class="scroll"><table id="threetable"></table></div>
+        <div class="muted" style="margin-top:6px">Each cell is the primary area's share of
+        the DPP+KMT+TPP bucket vote for that bucket, minus the national share (points);
+        rows sum to zero. James Soong sits in the KMT camp, so 1996&ndash;2020 is a plain
+        DPP-vs-KMT lean and TPP is <i>n/a</i>; 2024 is the only three-way year.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Results by election <span class="muted" id="tabletitle"></span></h2>
+      <div class="scroll"><table id="restable"></table></div>
+      <div class="muted" style="margin-top:8px">Shares are % of valid votes. &ldquo;Two-camp
+      G&rdquo; is Green &divide; (Green+Blue). &ldquo;Lean&rdquo; is the area's two-camp
+      Green margin minus the nation's that year.</div>
+    </div>
+
+    <div class="card">
+      <h2>Candidate breakdown</h2>
+      <div class="opts">
+        <label for="yr" style="margin:0">Election</label>
+        <select id="yr" style="width:auto"></select>
+      </div>
+      <div class="scroll"><table id="candtable"></table></div>
+      <div class="muted" style="margin-top:8px">The dot shows <b>party</b> color.
+      &ldquo;vs nation&rdquo; is the area's share for that candidate minus the candidate's
+      national share (points).</div>
+    </div>
+  </div>
+
+  <!-- ================= map ================= -->
+  <div class="col-map">
+    <div class="card">
+      <h2>Map</h2>
+      <div class="maprow">
+        <div>
+          <label for="mapyear">Election</label>
+          <select id="mapyear"></select>
+        </div>
+        <div>
+          <label for="mapmetric">Color by</label>
+          <select id="mapmetric">
+            <option value="winner">Winner (party)</option>
+            <option value="margin">Two-camp Green margin</option>
+            <option value="lean">Two-camp lean</option>
+            <option value="tlean">Three-camp lean</option>
+            <option value="turnout">Turnout</option>
+          </select>
+        </div>
+        <div>
+          <label for="maplevel">Units</label>
+          <select id="maplevel">
+            <option value="tw">Township</option>
+            <option value="co">County</option>
+          </select>
+        </div>
+      </div>
+      <div id="mapbox">
+        <div id="mapsvg"></div>
+        <div class="mapzoom">
+          <button id="zin" title="zoom in">+</button>
+          <button id="zout" title="zoom out">&minus;</button>
+          <button id="zreset" title="reset view" style="font-size:12px">&#8634;</button>
+        </div>
+      </div>
+      <div class="maplegend" id="maplegend"></div>
+      <div class="maphint">Scroll / pinch to zoom &middot; drag to pan &middot; click an
+      area to select it &middot; double-click to reset. Picking an area on the left zooms
+      the map to it.</div>
+    </div>
+  </div>
+</div>
+
+<div class="foot" id="foot"></div>
+
+<script>
+const CAMP_COLOR = {G:'#1B9431', B:'#000099', O:'#8a8a8a'};
+const CAMP_NAME  = {G:'Pan-Green', B:'Pan-Blue', O:'Other / non-aligned'};
+const FORCE_COLOR = {D:'#1B9431', K:'#000099', T:'#28C7C7'};
+const FORCE_NAME  = {D:'DPP camp', K:'KMT camp', T:'TPP camp'};
+const PARTY_COLOR = {DPP:'#1B9431', KMT:'#000099', TPP:'#28C7C7',
+                     PFP:'#F60', NP:'#F5C518', IND:'#8E44AD'};
+const PALETTE = ['#E8702A','#7B4FA3','#1C7C8C','#C42D78','#5B7C1E','#3A5A80','#B5651D','#444'];
+const $ = s => document.querySelector(s);
+const pct = (x,d=1) => (x*100).toFixed(d);
+const signpp = x => (x>=0?'+':'−') + Math.abs(x).toFixed(1);
+const clamp = (v,a,b) => Math.max(a, Math.min(b, v));
+
+let DATA=null, MAP=null, PINS=[], toggleState={}, TW_BY_KEY={};
+
+Promise.all([
+  fetch('data/president_partisan.json?v=6').then(r=>{if(!r.ok)throw new Error('president_partisan.json '+r.status);return r.json();}),
+  fetch('data/taiwan_map.json?v=6').then(r=>r.ok?r.json():null).catch(()=>null),
+]).then(([d,m])=>{ MAP=m; init(d); })
+ .catch(e=>{$('.col-main').innerHTML='<div class="card err">Could not load '+
+   '<code>data/president_partisan.json</code> — run '+
+   '<code>python build_president_partisan.py</code> first.<br>'+e+'</div>';});
+
+function init(d){
+  DATA=d;
+  TW_BY_KEY=Object.fromEntries(d.townships.map(t=>[t.key,t]));
+
+  const tg=$('#toggles');
+  for(const [id,t] of Object.entries(d.toggles)){
+    toggleState[id]=t.default;
+    const fs=document.createElement('fieldset');
+    fs.innerHTML='<legend>'+t.label+'</legend>'+t.options.map(o=>
+      `<label><input type="radio" name="tg_${id}" value="${o}" ${o===t.default?'checked':''}> ${CAMP_NAME[o]}</label>`).join('');
+    fs.addEventListener('change',e=>{toggleState[id]=e.target.value;render();});
+    tg.appendChild(fs);
+  }
+
+  const cos=Object.entries(d.counties).sort((a,b)=>a[1].en.localeCompare(b[1].en));
+  $('#co').innerHTML=cos.map(([k,v])=>`<option value="${k}">${v.zh} / ${v.en}</option>`).join('');
+  window.TWBY={};
+  for(const t of d.townships){(TWBY[t.county]=TWBY[t.county]||[]).push(t);}
+  for(const k in TWBY) TWBY[k].sort((a,b)=>(a.en||a.key).localeCompare(b.en||b.key));
+  fillTw();
+
+  const yopts=d.elections.map(y=>`<option value="${y}">${y}</option>`).join('');
+  $('#yr').innerHTML=yopts; $('#yr').value=d.elections[d.elections.length-1];
+  $('#mapyear').innerHTML=yopts; $('#mapyear').value=d.elections[d.elections.length-1];
+
+  $('#lvl').addEventListener('change',()=>{
+    const tw=$('#lvl').value==='tw';
+    $('#tw').disabled=!tw; $('#twlab').style.opacity=tw?1:.4;
+  });
+  $('#co').addEventListener('change',fillTw);
+  $('#add').addEventListener('click',addPin);
+  $('#clear').addEventListener('click',()=>{PINS=[];render();});
+  $('#yr').addEventListener('change',renderCand);
+  $('#showturn').addEventListener('change',()=>{ $('#turnwrap').hidden=!$('#showturn').checked; render();});
+  document.querySelectorAll('input[name=metric]').forEach(r=>r.addEventListener('change',render));
+  ['#mapyear','#mapmetric','#maplevel'].forEach(s=>$(s).addEventListener('change',()=>drawMap()));
+
+  $('#foot').innerHTML='Vote data: '+d.meta.source+'. Map: '+((MAP&&MAP.meta&&MAP.meta.source)||'taiwan-atlas TopoJSON')+
+    '. '+d.meta.note+' Modern subdivision names are used throughout (e.g. New Taipei City, not Taipei County). '+
+    'Bundle generated '+d.meta.generated+'.';
+
+  setupMap();
+  seed(['TPE-DAAN','KHH-FENGSHAN','TAO-ZHONGLI','CHA-XIHU']);
+}
+
+function seed(keys){
+  for(const k of keys){ const t=TW_BY_KEY[k]; if(t) PINS.push({type:'tw',key:k,county:t.county}); }
+  if(!PINS.length){const c=Object.keys(DATA.counties)[0];PINS.push({type:'co',key:c,county:c});}
+  render();  // keep the whole island in view on load; zoom only on an explicit pick
+}
+
+function fillTw(){
+  const co=$('#co').value, list=TWBY[co]||[];
+  $('#tw').innerHTML=list.map(t=>`<option value="${t.key}">${t.zh||''} / ${t.en||t.key}</option>`).join('');
+}
+function areaLabel(p){
+  if(p.type==='co'){const c=DATA.counties[p.key];return c.zh+' / '+c.en;}
+  const t=TW_BY_KEY[p.key], c=DATA.counties[t.county];
+  return (t.zh||'')+' '+(t.en||t.key)+' · '+c.en;
+}
+function areaShort(p){
+  if(p.type==='co') return DATA.counties[p.key].en;
+  const t=TW_BY_KEY[p.key]; return (t.en||t.key);
+}
+function addPin(){
+  const lvl=$('#lvl').value; let p;
+  if(lvl==='co'){const k=$('#co').value;p={type:'co',key:k,county:k};}
+  else{const k=$('#tw').value;if(!k)return;p={type:'tw',key:k,county:TW_BY_KEY[k].county};}
+  pinArea(p);
+}
+function pinArea(p){
+  const ix=PINS.findIndex(x=>x.type===p.type&&x.key===p.key);
+  if(ix>=0){ const [x]=PINS.splice(ix,1); PINS.unshift(x); }
+  else { if(PINS.length>=7)PINS.pop(); PINS.unshift(p); }
+  render(true);
+}
+
+/* ---------- camp / force helpers (toggle-aware for camps only) ---------- */
+function campOf(year,c){ return (c.toggle && toggleState[c.toggle]) ? toggleState[c.toggle] : c.camp; }
+function campSums(year,votes){
+  const out={G:0,B:0,O:0};
+  for(const c of DATA.candidatesByYear[year]) out[campOf(year,c)] += (votes[c.n]||0);
+  return out;
+}
+function forceSums(year,votes){
+  const out={D:0,K:0,T:0};
+  for(const c of DATA.candidatesByYear[year]){ const b=c.tf; if(b&&out[b]!==undefined) out[b]+=(votes[c.n]||0); }
+  return out;
+}
+// does the TPP bucket actually field a candidate this year? (only 2024)
+function tActiveYear(ys){ return forceSums(ys,DATA.nationalByYear[ys].cand).T > 0; }
+function twoCampMargin(cs){ const d=cs.G+cs.B; return d? (cs.G-cs.B)/d : null; }
+function natMargin(year){ return twoCampMargin(campSums(year,DATA.nationalByYear[year].cand)); }
+function forceShares(fs){ const d=fs.D+fs.K+fs.T; return d?{D:fs.D/d,K:fs.K/d,T:fs.T/d}:null; }
+function natForceShares(year){ return forceShares(forceSums(year,DATA.nationalByYear[year].cand)); }
+
+function recFor(type,key,ys){
+  if(type==='co') return (DATA.countiesByYear[ys]||{})[key];
+  const t=TW_BY_KEY[key]; return t && t.rows[ys];
+}
+
+function areaRows(p){
+  const rows=[];
+  for(const y of DATA.elections){
+    const ys=String(y), rec=recFor(p.type,p.key,ys);
+    if(!rec){rows.push({year:y,missing:true});continue;}
+    const cs=campSums(ys,rec.cand);
+    const valid=rec.valid || (cs.G+cs.B+cs.O);
+    const m=twoCampMargin(cs), nm=natMargin(ys);
+    const fs=forceShares(forceSums(ys,rec.cand)), nfs=natForceShares(ys);
+    const cands=DATA.candidatesByYear[ys];
+    let wc=cands[0], wv=-1;
+    for(const c of cands){ const v=rec.cand[c.n]||0; if(v>wv){wv=v;wc=c;} }
+    rows.push({year:y,valid,turnout:rec.turnout,cs,
+      share:{G:cs.G/valid,B:cs.B/valid,O:cs.O/valid},
+      m,nm,lean:(m==null||nm==null)?null:(m-nm),
+      three:(fs&&nfs)?{D:fs.D-nfs.D,K:fs.K-nfs.K,T:fs.T-nfs.T}:null,
+      tActive:tActiveYear(ys), fs,
+      winName:wc.name_en, winParty:wc.party, winCamp:campOf(ys,wc)});
+  }
+  return rows;
+}
+
+/* ================= render ================= */
+function render(zoom){
+  renderPins();
+  renderChart();
+  renderTable();
+  renderCand();
+  drawMap();
+  if(zoom) zoomToPrimary();
+  const prim=PINS[0];
+  $('#charttitle').textContent = prim? '— '+PINS.map(areaShort).join(', ') : '';
+  $('#tabletitle').textContent = prim? '— '+areaLabel(prim) : '';
+  $('#threearea').textContent  = prim? areaLabel(prim) : '';
+}
+
+function renderPins(){
+  const el=$('#pins'); el.innerHTML='';
+  PINS.forEach((p,i)=>{
+    const d=document.createElement('div');
+    d.className='pin'+(i===0?' primary':'');
+    d.innerHTML=`<span class="sw" style="background:${PALETTE[i%PALETTE.length]}"></span>`+
+      `<b>${areaShort(p)}</b><span class="muted">${p.type==='co'?'county':''}</span>`+
+      `<button class="x" title="remove">&times;</button>`;
+    d.addEventListener('click',e=>{
+      if(e.target.classList.contains('x')){PINS.splice(i,1);render();}
+      else{const [x]=PINS.splice(i,1);PINS.unshift(x);render(true);}
+    });
+    el.appendChild(d);
+  });
+  if(!PINS.length) el.innerHTML='<span class="muted">No areas selected.</span>';
+}
+
+/* ---------------- trend chart ---------------- */
+function renderChart(){
+  const metric=document.querySelector('input[name=metric]:checked').value;
+  const three = metric==='three';
+  $('#threewrap').hidden=!three;
+  const W=760,H=384,m={t:22,r:16,b:46,l:58};
+  const years=DATA.elections;
+  const x=y=> m.l + years.indexOf(y)/(years.length-1)*(W-m.l-m.r);
+
+  // build series
+  let series;
+  if(three){
+    const prim=PINS[0];
+    if(!prim){ $('#chart').innerHTML='<p class="muted">Add an area.</p>'; $('#chartleg').innerHTML=''; return; }
+    const rows=areaRows(prim);
+    series=['D','K','T'].map(b=>({label:FORCE_NAME[b]+' lean',color:FORCE_COLOR[b],primary:b==='D',bucket:b,
+      rows:rows.map(r=>({year:r.year,
+        v:(r.missing||!r.three||(b==='T'&&!r.tActive))?null:r.three[b]*100}))}));
+  }else{
+    series=PINS.map((p,i)=>({label:areaShort(p)+(i===0?' (primary)':''),color:PALETTE[i%PALETTE.length],primary:i===0,
+      rows:areaRows(p).map(r=>({year:r.year,
+        v:r.missing?null:(metric==='lean'?(r.lean==null?null:r.lean*100):(r.m==null?null:r.m*100))}))}));
+  }
+
+  let vals=[]; series.forEach(s=>s.rows.forEach(r=>{if(r.v!=null)vals.push(r.v);}));
+  if(metric!=='margin') vals.push(0);
+  let lo=Math.min(...vals), hi=Math.max(...vals);
+  if(!isFinite(lo)){lo=-1;hi=1;}
+  const pad=(hi-lo)*0.12||5; lo-=pad; hi+=pad;
+  const Y=v=> m.t + (1-(v-lo)/(hi-lo))*(H-m.t-m.b);
+  const ticks=niceTicks(lo,hi,6);
+
+  let svg=`<svg viewBox="0 0 ${W} ${H}" role="img">`;
+  for(const tk of ticks){
+    const yy=Y(tk);
+    svg+=`<line class="${Math.abs(tk)<1e-9?'gl0':'gl'}" x1="${m.l}" x2="${W-m.r}" y1="${yy}" y2="${yy}"/>`;
+    svg+=`<text class="axlab" x="${m.l-8}" y="${yy+3}" text-anchor="end">${tk>0&&metric!=='margin'?'+':''}${tk}</text>`;
+  }
+  years.forEach(yr=>svg+=`<text class="axlab" x="${x(yr)}" y="${H-m.b+15}" text-anchor="middle">${yr}</text>`);
+
+  // vertical-axis title + directional labels at the two ends of the axis
+  const axTitle = three ? 'bucket share - national (pp)'
+                        : (metric==='margin' ? 'two-camp Green margin (pp)' : 'lean vs. nation (pp)');
+  const cyMid=(m.t+H-m.b)/2;
+  svg+=`<text class="axcap" transform="rotate(-90 12 ${cyMid})" x="12" y="${cyMid}" text-anchor="middle">${axTitle}</text>`;
+  svg+=(three
+    ? `<text class="axcap" x="${m.l}" y="12" fill="#555">&#9650; area ABOVE the nation</text>`
+      +`<text class="axcap" x="${m.l}" y="${H-6}" fill="#555">&#9660; area BELOW the nation</text>`
+    : `<text class="axcap" x="${m.l}" y="12" fill="#1B9431">&#9650; more GREEN than the nation</text>`
+      +`<text class="axcap" x="${m.l}" y="${H-6}" fill="#000099">&#9660; more BLUE than the nation</text>`);
+
+  series.forEach(s=>{
+    const pts=s.rows.filter(r=>r.v!=null).map(r=>[x(r.year),Y(r.v)]);
+    if(pts.length>1) svg+=`<path class="series ${s.primary?'primary':''}" stroke="${s.color}" d="M${pts.map(p=>p.join(',')).join(' L')}"/>`;
+    s.rows.forEach(r=>{ if(r.v==null)return;
+      const dir = r.v>=0 ? (metric==='margin'?'Green +':'+') : (metric==='margin'?'Blue +':'−');
+      svg+=`<circle class="dot" r="${s.primary?4.5:3.5}" cx="${x(r.year)}" cy="${Y(r.v)}" fill="${s.color}" `+
+        `data-t="${escAttr(s.label+'  '+r.year+'\n'+dir+Math.abs(r.v).toFixed(1))}"/>`;
+    });
+  });
+  svg+=`</svg>`;
+  $('#chart').innerHTML=svg;
+  wireTips($('#chart'));
+
+  $('#chartleg').innerHTML = series.map(s=>
+    `<span><span class="sw" style="width:14px;height:3px;background:${s.color};display:inline-block"></span> ${s.label}</span>`
+  ).join('') + (metric!=='margin'?'<span class="muted">0 = national result</span>':'')
+   + (three?'<span class="muted">DPP/KMT/TPP view shows the primary area only; TPP line appears from 2024</span>':'');
+
+  if(three) renderThreeTable();
+  if($('#showturn').checked) renderTurn(x,years,W,m);
+}
+
+function renderThreeTable(){
+  const p=PINS[0], t=$('#threetable');
+  if(!p){t.innerHTML='';return;}
+  const rows=areaRows(p);
+  let h=`<thead><tr><th>Election</th>
+    <th><span class="swatch" style="background:${FORCE_COLOR.D}"></span>DPP camp</th>
+    <th><span class="swatch" style="background:${FORCE_COLOR.K}"></span>KMT camp</th>
+    <th><span class="swatch" style="background:${FORCE_COLOR.T}"></span>TPP camp</th></tr></thead><tbody>`;
+  for(const r of rows){
+    if(r.missing||!r.three){h+=`<tr><td>${r.year}</td><td colspan="3" class="muted">no data</td></tr>`;continue;}
+    // color each cell toward its bucket, shade by the size of the gap
+    const c=(v,col)=>`<span class="lean" style="background:${mix('#ffffff',col,clamp(Math.abs(v)/0.28,0,1)*0.8)};color:${Math.abs(v)>0.13?'#fff':'#111'}">${signpp(v*100)}</span>`;
+    h+=`<tr><td>${r.year}</td><td class="num">${c(r.three.D,FORCE_COLOR.D)}</td>`+
+       `<td class="num">${c(r.three.K,FORCE_COLOR.K)}</td>`+
+       `<td class="num">${r.tActive?c(r.three.T,FORCE_COLOR.T):'<span class="muted">n/a</span>'}</td></tr>`;
+  }
+  t.innerHTML=h+`</tbody>`;
+}
+
+function renderTurn(x,years,W,m){
+  const H=140,mt={t:14,r:16,b:26,l:52};
+  const series=PINS.map((p,i)=>({p,i,color:PALETTE[i%PALETTE.length],
+    rows:areaRows(p).map(r=>({year:r.year,v:r.missing?null:r.turnout}))}));
+  let vals=[]; series.forEach(s=>s.rows.forEach(r=>{if(r.v!=null)vals.push(r.v);}));
+  let lo=Math.min(...vals)-3, hi=Math.max(...vals)+3;
+  if(!isFinite(lo)){lo=50;hi=85;}
+  const Y=v=> mt.t + (1-(v-lo)/(hi-lo))*(H-mt.t-mt.b);
+  let svg=`<svg viewBox="0 0 ${W} ${H}">`;
+  for(const tk of niceTicks(lo,hi,4)){const yy=Y(tk);
+    svg+=`<line class="gl" x1="${mt.l}" x2="${W-mt.r}" y1="${yy}" y2="${yy}"/>`;
+    svg+=`<text class="axlab" x="${mt.l-8}" y="${yy+3}" text-anchor="end">${tk}%</text>`;}
+  years.forEach(yr=>svg+=`<text class="axlab" x="${x(yr)}" y="${H-mt.b+15}" text-anchor="middle">${yr}</text>`);
+  svg+=`<text class="axcap" x="${mt.l}" y="${mt.t-3}">turnout (%)</text>`;
+  series.forEach(s=>{
+    const pts=s.rows.filter(r=>r.v!=null).map(r=>[x(r.year),Y(r.v)]);
+    if(pts.length>1)svg+=`<path class="series ${s.i===0?'primary':''}" stroke="${s.color}" d="M${pts.map(p=>p.join(',')).join(' L')}"/>`;
+    s.rows.forEach(r=>{if(r.v==null)return;
+      svg+=`<circle class="dot" r="3" cx="${x(r.year)}" cy="${Y(r.v)}" fill="${s.color}" data-t="${escAttr(areaShort(s.p)+' '+r.year+'\nturnout '+r.v+'%')}"/>`;});
+  });
+  $('#turnchart').innerHTML=svg+`</svg>`;
+  wireTips($('#turnchart'));
+}
+
+function niceTicks(lo,hi,n){
+  const span=hi-lo, raw=span/n, mag=Math.pow(10,Math.floor(Math.log10(raw)));
+  let step=raw/mag; step=(step<1.5?1:step<3?2:step<7?5:10)*mag;
+  const out=[]; for(let v=Math.ceil(lo/step)*step; v<=hi+1e-9; v+=step) out.push(+v.toFixed(6));
+  return out;
+}
+function escAttr(s){return s.replace(/"/g,'&quot;');}
+function wireTips(c){
+  const tip=$('#tip');
+  c.querySelectorAll('circle[data-t],path[data-t]').forEach(el=>{
+    el.addEventListener('mousemove',e=>{
+      tip.textContent=e.currentTarget.getAttribute('data-t');
+      tip.style.left=(e.clientX+14)+'px'; tip.style.top=(e.clientY-12)+'px'; tip.style.opacity=1;
+    });
+    el.addEventListener('mouseleave',()=>tip.style.opacity=0);
+  });
+}
+
+/* ---------------- results table ---------------- */
+function renderTable(){
+  const p=PINS[0], t=$('#restable');
+  if(!p){t.innerHTML='';return;}
+  let h=`<thead><tr><th>Election</th><th>Turnout</th>
+    <th><span class="swatch" style="background:var(--green)"></span>Green</th>
+    <th><span class="swatch" style="background:var(--blue)"></span>Blue</th>
+    <th><span class="swatch" style="background:var(--other)"></span>Other</th>
+    <th>Two-camp&nbsp;G</th><th>Nation</th><th>Lean</th><th>Winner</th></tr></thead><tbody>`;
+  for(const r of areaRows(p)){
+    if(r.missing){h+=`<tr><td>${r.year}</td><td colspan="8" class="muted">no data</td></tr>`;continue;}
+    h+=`<tr><td>${r.year}</td>
+      <td class="num">${r.turnout!=null?r.turnout+'%':'—'}</td>
+      <td class="num">${pct(r.share.G)}%</td>
+      <td class="num">${pct(r.share.B)}%</td>
+      <td class="num">${r.share.O>0.0005?pct(r.share.O)+'%':'—'}</td>
+      <td class="num">${r.m==null?'—':signGB(r.m)}</td>
+      <td class="num muted">${r.nm==null?'—':signGB(r.nm)}</td>
+      <td class="num">${r.lean==null?'—':`<span class="lean" style="background:${leanBg(r.lean)};color:${leanFg(r.lean)}">${r.lean>=0?'G +':'B +'}${Math.abs(r.lean*100).toFixed(1)}</span>`}</td>
+      <td style="text-align:left"><span class="swatch" style="background:${PARTY_COLOR[r.winParty]||'#999'}"></span>${r.winName} <span class="muted">${r.winParty}</span></td></tr>`;
+  }
+  t.innerHTML=h+`</tbody>`;
+}
+function signGB(m){const v=m*100;return (v>=0?'G +':'B +')+Math.abs(v).toFixed(1);}
+function leanBg(l){ return mix('#ffffff', l>=0?'#1B9431':'#000099', clamp(Math.abs(l)/0.3,0,1)*0.82); }
+function leanFg(l){ return Math.abs(l)>0.12? '#fff':'#1b1b1b'; }
+
+/* ---------------- candidate breakdown ---------------- */
+function renderCand(){
+  const p=PINS[0], y=$('#yr').value, ys=String(y), t=$('#candtable');
+  if(!p){t.innerHTML='';return;}
+  const rec=recFor(p.type,p.key,ys), natRec=DATA.nationalByYear[ys];
+  if(!rec){t.innerHTML='<tbody><tr><td class="muted">No data for this area in '+y+'.</td></tr></tbody>';return;}
+  const cs=DATA.candidatesByYear[ys];
+  const valid=rec.valid||Object.values(rec.cand).reduce((a,b)=>a+b,0);
+  const maxShare=Math.max(...cs.map(c=>(rec.cand[c.n]||0)/valid));
+  let h=`<thead><tr><th>#</th><th>Candidate</th><th>Party</th><th>Camp</th>
+     <th>Votes</th><th>Share</th><th>Nation</th><th>vs&nbsp;nation</th><th></th></tr></thead><tbody>`;
+  for(const c of cs){
+    const v=rec.cand[c.n]||0, sh=v/valid, nat=(natRec.cand[c.n]||0)/natRec.valid;
+    const pcol=PARTY_COLOR[c.party]||'#999';
+    h+=`<tr>
+      <td>${c.n}</td>
+      <td><span class="swatch" style="background:${pcol}"></span>${c.name_en}<span class="muted"> ${c.name||''}</span></td>
+      <td>${c.party||''}</td>
+      <td class="muted">${CAMP_NAME[campOf(ys,c)].replace('Pan-','').replace(' / non-aligned','')}</td>
+      <td class="num">${v.toLocaleString()}</td>
+      <td class="num">${pct(sh)}%</td>
+      <td class="num muted">${pct(nat)}%</td>
+      <td class="num">${signpp((sh-nat)*100)}</td>
+      <td style="width:120px"><span class="bar" style="width:${Math.max(2,sh/maxShare*100)}px;background:${pcol}"></span></td>
+    </tr>`;
+  }
+  t.innerHTML=h+`</tbody>`;
+}
+
+/* ================= color utils ================= */
+function hex2rgb(h){h=h.replace('#','');return [0,2,4].map(i=>parseInt(h.slice(i,i+2),16));}
+function mix(a,b,t){ // t 0..1
+  const A=hex2rgb(a),B=hex2rgb(b);
+  return 'rgb('+A.map((v,i)=>Math.round(v+(B[i]-v)*clamp(t,0,1))).join(',')+')';
+}
+/* ================= MAP ================= */
+let mVB=null, mVB0=null, mapAnim=null;
+function setupMap(){
+  const box=$('#mapsvg');
+  if(!MAP){ box.innerHTML='<p class="muted" style="padding:12px">Map file '+
+    '<code>data/taiwan_map.json</code> not found — run '+
+    '<code>python build_taiwan_map.py</code>.</p>'; return; }
+  mVB0=MAP.viewBox.slice(); mVB=mVB0.slice();
+  drawMap();
+
+  box.addEventListener('wheel',e=>{
+    e.preventDefault();
+    const f=e.deltaY>0?1.12:1/1.12;
+    zoomAt(e, f);
+  },{passive:false});
+
+  let drag=null;
+  box.addEventListener('pointerdown',e=>{
+    drag={x:e.clientX,y:e.clientY,vb:mVB.slice(),moved:0};
+    box.setPointerCapture(e.pointerId); box.classList.add('drag');
+  });
+  box.addEventListener('pointermove',e=>{
+    if(!drag)return;
+    const r=box.getBoundingClientRect();
+    const dx=(e.clientX-drag.x)*mVB[2]/r.width;
+    const dy=(e.clientY-drag.y)*mVB[3]/r.height;
+    drag.moved+=Math.abs(e.clientX-drag.x)+Math.abs(e.clientY-drag.y);
+    mVB=[drag.vb[0]-dx, drag.vb[1]-dy, drag.vb[2], drag.vb[3]];
+    applyVB();
+  });
+  const endDrag=e=>{ if(drag){ box.classList.remove('drag'); const m=drag.moved; drag=null;
+    if(m<4) mapClick(e); } };
+  box.addEventListener('pointerup',endDrag);
+  box.addEventListener('pointercancel',()=>{drag=null;box.classList.remove('drag');});
+  box.addEventListener('dblclick',()=>animVB(mVB0.slice()));
+
+  $('#zin').addEventListener('click',()=>zoomCenter(1/1.35));
+  $('#zout').addEventListener('click',()=>zoomCenter(1.35));
+  $('#zreset').addEventListener('click',()=>animVB(mVB0.slice()));
+}
+
+function zoomAt(e,f){
+  const box=$('#mapsvg'), r=box.getBoundingClientRect();
+  const px=(e.clientX-r.left)/r.width, py=(e.clientY-r.top)/r.height;
+  const ux=mVB[0]+px*mVB[2], uy=mVB[1]+py*mVB[3];
+  let w=clamp(mVB[2]*f, 6, mVB0[2]*1.6), h=w*(mVB0[3]/mVB0[2]);
+  mVB=[ux-px*w, uy-py*h, w, h]; applyVB();
+}
+function zoomCenter(f){
+  const w=clamp(mVB[2]*f,6,mVB0[2]*1.6), h=w*(mVB0[3]/mVB0[2]);
+  mVB=[mVB[0]+(mVB[2]-w)/2, mVB[1]+(mVB[3]-h)/2, w, h]; applyVB();
+}
+function applyVB(){ const s=$('#mapsvg svg'); if(s) s.setAttribute('viewBox',mVB.map(n=>+n.toFixed(2)).join(' ')); }
+function animVB(target){
+  cancelAnimationFrame(mapAnim);
+  const start=mVB.slice(), t0=performance.now(), dur=320;
+  const step=now=>{
+    const k=clamp((now-t0)/dur,0,1), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+    mVB=start.map((v,i)=>v+(target[i]-v)*e); applyVB();
+    if(k<1) mapAnim=requestAnimationFrame(step);
+  };
+  mapAnim=requestAnimationFrame(step);
+}
+function zoomToPrimary(){
+  if(!MAP||!mVB0) return;
+  const p=PINS[0]; if(!p) return;
+  let bb;
+  if(p.type==='co'){ bb=(MAP.counties[p.key]||{}).bbox; }
+  else { bb=(MAP.towns[p.key]||{}).bbox; }
+  if(!bb){ animVB(mVB0.slice()); return; }
+  const cx=bb[0]+bb[2]/2, cy=bb[1]+bb[3]/2;
+  const ar=mVB0[2]/mVB0[3];
+  // keep enough context around the target rather than filling the frame with it
+  const span=Math.max(bb[2], bb[3]*ar);
+  const minSpan = p.type==='co' ? 90 : 34;
+  let w=clamp(Math.max(span*(p.type==='co'?1.7:5), minSpan), 12, mVB0[2]);
+  let h=w/ar;
+  if(h>mVB0[3]){ h=mVB0[3]; w=h*ar; }
+  animVB([clamp(cx-w/2, mVB0[0], mVB0[0]+mVB0[2]-w),
+          clamp(cy-h/2, mVB0[1], mVB0[1]+mVB0[3]-h), w, h]);
+}
+
+function mapClick(e){
+  const el=document.elementFromPoint(e.clientX,e.clientY);
+  if(!el||!el.dataset||!el.dataset.key) return;
+  const lvl=$('#maplevel').value;
+  if(lvl==='co') pinArea({type:'co',key:el.dataset.key,county:el.dataset.key});
+  else pinArea({type:'tw',key:el.dataset.key,county:TW_BY_KEY[el.dataset.key].county});
+}
+
+function mapColor(type,key,ys,metric){
+  const rec=recFor(type,key,ys);
+  if(!rec) return {fill:'#e6e6e6',txt:'no data'};
+  const cs=campSums(ys,rec.cand);
+  const valid=rec.valid||(cs.G+cs.B+cs.O);
+  const m=twoCampMargin(cs), nm=natMargin(ys);
+  if(metric==='winner'){
+    const cands=DATA.candidatesByYear[ys]; let wc=cands[0],wv=-1;
+    for(const c of cands){const v=rec.cand[c.n]||0;if(v>wv){wv=v;wc=c;}}
+    return {fill:PARTY_COLOR[wc.party]||'#999', txt:wc.name_en+' ('+wc.party+') '+pct(wv/valid)+'%'};
+  }
+  if(metric==='margin')
+    return {fill:mix('#ffffff', m>=0?'#1B9431':'#000099', clamp(Math.abs(m)/0.6,0,1)*0.9+0.06),
+            txt:'two-camp '+(m>=0?'Green +':'Blue +')+Math.abs(m*100).toFixed(1)};
+  if(metric==='lean'){
+    const l=(m==null||nm==null)?null:(m-nm);
+    if(l==null) return {fill:'#e6e6e6',txt:'—'};
+    return {fill:mix('#ffffff', l>=0?'#1B9431':'#000099', clamp(Math.abs(l)/0.3,0,1)*0.86+0.05),
+            txt:'lean '+(l>=0?'Green +':'Blue +')+Math.abs(l*100).toFixed(1)};
+  }
+  if(metric==='tlean'){
+    const fs=forceShares(forceSums(ys,rec.cand)), nfs=natForceShares(ys);
+    if(!fs||!nfs) return {fill:'#e6e6e6',txt:'—'};
+    const dl=fs.D-nfs.D, kl=fs.K-nfs.K, tl=fs.T-nfs.T;
+    const dom=[['D',dl],['K',kl],['T',tl]].sort((a,b)=>b[1]-a[1])[0];
+    return {fill:mix('#ffffff',FORCE_COLOR[dom[0]],clamp(dom[1]/0.3,0,1)*0.85+0.06),
+            txt:`DPP ${signpp(dl*100)} · KMT ${signpp(kl*100)} · TPP ${signpp(tl*100)}`};
+  }
+  if(metric==='turnout'){
+    const tv=rec.turnout;
+    if(tv==null) return {fill:'#e6e6e6',txt:'—'};
+    return {fill:mix('#f7fbff','#08519c',clamp((tv-55)/30,0,1)), txt:'turnout '+tv+'%'};
+  }
+  return {fill:'#ccc',txt:''};
+}
+
+function drawMap(){
+  if(!MAP) return;
+  const ys=$('#mapyear').value, metric=$('#mapmetric').value, lvl=$('#maplevel').value;
+  const prim=PINS[0];
+  const insetIso={};   // iso -> inset box, for the relocated islands
+  for(const ins of (MAP.insets||[])) if(ins.iso) insetIso[ins.iso]=ins.box;
+  let paths='', clip={};   // clip[iso] = markup drawn clipped to that island's box
+  const push=(iso,el)=>{ if(insetIso[iso]) clip[iso]=(clip[iso]||'')+el; else paths+=el; };
+
+  if(lvl==='co'){
+    for(const [iso,g] of Object.entries(MAP.counties)){
+      const c=mapColor('co',iso,ys,metric);
+      push(iso,`<path class="town" data-key="${iso}" fill="${c.fill}" d="${g.d}" `+
+        `data-t="${escAttr(DATA.counties[iso].en+'\n'+c.txt)}"/>`);
+    }
+  }else{
+    for(const [key,g] of Object.entries(MAP.towns)){
+      const c=mapColor('tw',key,ys,metric);
+      const t=TW_BY_KEY[key];
+      push(t.county,`<path class="town" data-key="${key}" fill="${c.fill}" d="${g.d}" `+
+        `data-t="${escAttr((t?(t.en||key):key)+' · '+DATA.counties[t.county].en+'\n'+c.txt)}"/>`);
+    }
+    // county borders overlay (skip the inset islands -- the dashed box is their frame)
+    for(const [iso,g] of Object.entries(MAP.counties))
+      if(g.d && !insetIso[iso]) paths+=`<path class="cob" d="${g.d}"/>`;
+  }
+
+  // selected area: an outline drawn on top of everything so neighbours can't cover it
+  let selTop='';
+  if(prim){
+    const g = prim.type==='co' ? MAP.counties[prim.key] : (MAP.towns[prim.key]||null);
+    const iso = prim.type==='co' ? prim.key : (TW_BY_KEY[prim.key]||{}).county;
+    if(g && g.d){
+      if(insetIso[iso]) clip[iso]=(clip[iso]||'')+`<path class="seltop" d="${g.d}"/>`;
+      else selTop=`<path class="seltop" d="${g.d}"/>`;
+    }
+  }
+
+  // clip each island's shapes to its inset box; then the dashed box + label on top
+  let defs='', groups='', ann='';
+  for(const ins of (MAP.insets||[])){
+    if(ins.box && ins.iso){
+      const [x,y,w,h]=ins.box;
+      defs+=`<clipPath id="ins-${ins.iso}"><rect x="${x}" y="${y}" width="${w}" height="${h}"/></clipPath>`;
+      groups+=`<g clip-path="url(#ins-${ins.iso})">${clip[ins.iso]||''}</g>`;
+    }
+    if(ins.box){
+      const [x,y,w,h]=ins.box;
+      ann+=`<rect class="inset" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+      ann+=`<text class="inslab" x="${x}" y="${y-6}">${ins.label}</text>`;
+    }else if(ins.at){
+      ann+=`<text class="inslab" x="${ins.at[0]}" y="${ins.at[1]}">${ins.label}</text>`;
+    }
+  }
+  const vb=(mVB||MAP.viewBox).map(n=>+n.toFixed(2)).join(' ');
+  $('#mapsvg').innerHTML=`<svg viewBox="${vb}" preserveAspectRatio="xMidYMid meet" `+
+    `style="width:100%;aspect-ratio:${MAP.viewBox[2]}/${MAP.viewBox[3]};background:#dce6ef">`+
+    `<defs>${defs}</defs>${paths}${groups}${selTop}${ann}</svg>`;
+  wireTips($('#mapsvg'));
+  drawLegend(metric,ys);
+}
+
+function drawLegend(metric,ys){
+  const el=$('#maplegend');
+  if(metric==='winner'){
+    const parties=new Set(DATA.candidatesByYear[ys].map(c=>c.party));
+    el.innerHTML=[...parties].map(p=>`<span class="k"><i style="background:${PARTY_COLOR[p]||'#999'}"></i>${p}</span>`).join('');
+    return;
+  }
+  if(metric==='turnout'){
+    el.innerHTML=`<span class="muted">low</span><span class="rampbar" style="background:linear-gradient(90deg,#f7fbff,#08519c)"></span><span class="muted">high</span>`;
+    return;
+  }
+  if(metric==='tlean'){
+    const t2024 = tActiveYear(ys);
+    el.innerHTML=`<span class="k"><i style="background:${FORCE_COLOR.D}"></i>DPP over-index</span>`+
+      `<span class="k"><i style="background:${FORCE_COLOR.K}"></i>KMT over-index</span>`+
+      (t2024?`<span class="k"><i style="background:${FORCE_COLOR.T}"></i>TPP over-index</span>`:'')+
+      `<span class="muted">shade = size of the gap vs. nation`+
+      (t2024?'':' &middot; TPP fielded no candidate before 2024, so this is a DPP-vs-KMT lean')+`</span>`;
+    return;
+  }
+  const label = metric==='margin' ? 'Green margin' : 'lean vs. nation';
+  el.innerHTML=`<span class="muted">Blue</span>`+
+    `<span class="rampbar" style="background:linear-gradient(90deg,#000099,#e9e9f2 48%,#e7f3ea 52%,#1B9431)"></span>`+
+    `<span class="muted">Green</span><span class="muted">(${label})</span>`;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+{
+  "election_id": "2012-president",
+  "election_type": "president",
+  "source_file": "2012-PRES-LIE.xls",
+  "county_zh": "連江縣",
+  "county_en": "Lienchiang County",
+  "county_iso": "LIE",
+  "candidates": {
+    "1": {
+      "name_zh": "蔡英文",
+      "running_mate_zh": "蘇嘉全",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "吳敦義",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    },
+    "3": {
+      "name_zh": "宋楚瑜",
+      "running_mate_zh": "林瑞雄",
+      "party_zh": "親民黨",
+      "party_en": "PFP"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 418,
+      "2": 4507,
+      "3": 279
+    },
+    "valid_votes": 5204,
+    "invalid_votes": 51,
+    "ballots_cast": 5255,
+    "unreturned_ballots": 0,
+    "ballots_issued": 5255,
+    "unused_ballots": 2732,
+    "electors": 7987,
+    "turnout_rate": 65.79000091552734
+  },
+  "townships": {
+    "LIE-NANGAN": {
+      "township_zh": "南竿鄉",
+      "township_en": "Nangan Township",
+      "votes": {
+        "1": 273,
+        "2": 2691,
+        "3": 144
+      },
+      "valid_votes": 3108,
+      "invalid_votes": 36,
+      "ballots_cast": 3144,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3144,
+      "unused_ballots": 1533,
+      "electors": 4677,
+      "turnout_rate": 67.22000122070312
+    },
+    "LIE-BEIGAN": {
+      "township_zh": "北竿鄉",
+      "township_en": "Beigan Township",
+      "votes": {
+        "1": 63,
+        "2": 833,
+        "3": 42
+      },
+      "valid_votes": 938,
+      "invalid_votes": 9,
+      "ballots_cast": 947,
+      "unreturned_ballots": 0,
+      "ballots_issued": 947,
+      "unused_ballots": 530,
+      "electors": 1477,
+      "turnout_rate": 64.12000274658203
+    },
+    "LIE-JUGUANG": {
+      "township_zh": "莒光鄉",
+      "township_en": "Juguang Township",
+      "votes": {
+        "1": 30,
+        "2": 459,
+        "3": 48
+      },
+      "valid_votes": 537,
+      "invalid_votes": 4,
+      "ballots_cast": 541,
+      "unreturned_ballots": 0,
+      "ballots_issued": 541,
+      "unused_ballots": 441,
+      "electors": 982,
+      "turnout_rate": 55.09000015258789
+    },
+    "LIE-DONGYIN": {
+      "township_zh": "東引鄉",
+      "township_en": "Dongyin Township",
+      "votes": {
+        "1": 52,
+        "2": 524,
+        "3": 45
+      },
+      "valid_votes": 621,
+      "invalid_votes": 2,
+      "ballots_cast": 623,
+      "unreturned_ballots": 0,
+      "ballots_issued": 623,
+      "unused_ballots": 228,
+      "electors": 851,
+      "turnout_rate": 73.20999908447266
+    }
+  },
+  "villages": {
+    "LIE-NANGAN-JIESHOU": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "南竿鄉",
+      "township_en": "Nangan Township",
+      "village_zh": "介壽村",
+      "village_en": "Jieshou Village",
+      "votes": {
+        "1": 79,
+        "2": 913,
+        "3": 55
+      },
+      "valid_votes": 1047,
+      "invalid_votes": 10,
+      "ballots_cast": 1057,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1057,
+      "unused_ballots": 450,
+      "electors": 1507,
+      "turnout_rate": 70.13999938964844
+    },
+    "LIE-NANGAN-FUXING-AND-FUWO": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "南竿鄉",
+      "township_en": "Nangan Township",
+      "village_zh": "復興村、福沃村",
+      "village_en": "Fuxing and Fuwo Village",
+      "votes": {
+        "1": 95,
+        "2": 800,
+        "3": 38
+      },
+      "valid_votes": 933,
+      "invalid_votes": 13,
+      "ballots_cast": 946,
+      "unreturned_ballots": 0,
+      "ballots_issued": 946,
+      "unused_ballots": 442,
+      "electors": 1388,
+      "turnout_rate": 68.16000366210938
+    },
+    "LIE-NANGAN-RENAI-SIWEI-JINSHA-QINGSHUI-ZHULUO-AND-MAZU": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "南竿鄉",
+      "township_en": "Nangan Township",
+      "village_zh": "仁愛村、四維村、津沙村、清水村、珠螺村、馬祖村",
+      "village_en": "Renai, Siwei, Jinsha, Qingshui, Zhuluo, and Mazu Village",
+      "votes": {
+        "1": 99,
+        "2": 978,
+        "3": 51
+      },
+      "valid_votes": 1128,
+      "invalid_votes": 13,
+      "ballots_cast": 1141,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1141,
+      "unused_ballots": 641,
+      "electors": 1782,
+      "turnout_rate": 64.02999877929688
+    },
+    "LIE-BEIGAN-HOUWO-TANGQI-AND-QIAOZAI": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "北竿鄉",
+      "township_en": "Beigan Township",
+      "village_zh": "后沃村、塘岐村、橋仔村",
+      "village_en": "Houwo, Tangqi, and Qiaozai Village",
+      "votes": {
+        "1": 41,
+        "2": 565,
+        "3": 35
+      },
+      "valid_votes": 641,
+      "invalid_votes": 6,
+      "ballots_cast": 647,
+      "unreturned_ballots": 0,
+      "ballots_issued": 647,
+      "unused_ballots": 358,
+      "electors": 1005,
+      "turnout_rate": 64.37999725341797
+    },
+    "LIE-BEIGAN-BANLI-BAISHA-AND-QINBI": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "北竿鄉",
+      "township_en": "Beigan Township",
+      "village_zh": "坂里村、白沙村、芹壁村",
+      "village_en": "Banli, Baisha, and Qinbi Village",
+      "votes": {
+        "1": 22,
+        "2": 268,
+        "3": 7
+      },
+      "valid_votes": 297,
+      "invalid_votes": 3,
+      "ballots_cast": 300,
+      "unreturned_ballots": 0,
+      "ballots_issued": 300,
+      "unused_ballots": 172,
+      "electors": 472,
+      "turnout_rate": 63.560001373291016
+    },
+    "LIE-JUGUANG-TIANWO-XIQIU-AND-QINGFAN": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "莒光鄉",
+      "township_en": "Juguang Township",
+      "village_zh": "田沃村、西坵村、青帆村",
+      "village_en": "Tianwo, Xiqiu, and Qingfan Village",
+      "votes": {
+        "1": 15,
+        "2": 261,
+        "3": 23
+      },
+      "valid_votes": 299,
+      "invalid_votes": 3,
+      "ballots_cast": 302,
+      "unreturned_ballots": 0,
+      "ballots_issued": 302,
+      "unused_ballots": 258,
+      "electors": 560,
+      "turnout_rate": 53.93000030517578
+    },
+    "LIE-JUGUANG-DAPING-AND-FUZHENG": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "莒光鄉",
+      "township_en": "Juguang Township",
+      "village_zh": "大坪村、福正村",
+      "village_en": "Daping and Fuzheng Village",
+      "votes": {
+        "1": 15,
+        "2": 198,
+        "3": 25
+      },
+      "valid_votes": 238,
+      "invalid_votes": 1,
+      "ballots_cast": 239,
+      "unreturned_ballots": 0,
+      "ballots_issued": 239,
+      "unused_ballots": 183,
+      "electors": 422,
+      "turnout_rate": 56.63999938964844
+    },
+    "LIE-DONGYIN-ZHONGLIU-AND-LEHUA": {
+      "county_zh": "連江縣",
+      "county_en": "Lienchiang County",
+      "township_zh": "東引鄉",
+      "township_en": "Dongyin Township",
+      "village_zh": "中柳村、樂華村",
+      "village_en": "Zhongliu and Lehua Village",
+      "votes": {
+        "1": 52,
+        "2": 524,
+        "3": 45
+      },
+      "valid_votes": 621,
+      "invalid_votes": 2,
+      "ballots_cast": 623,
+      "unreturned_ballots": 0,
+      "ballots_issued": 623,
+      "unused_ballots": 228,
+      "electors": 851,
+      "turnout_rate": 73.20999908447266
+    }
+  }
+}

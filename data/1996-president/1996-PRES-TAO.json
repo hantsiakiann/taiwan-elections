@@ -1,0 +1,7620 @@
+{
+  "election_id": "1996-president",
+  "election_type": "president",
+  "source_file": "1996-PRES.xls",
+  "county_zh": "桃園縣",
+  "county_en": "Taoyuan County",
+  "county_iso": "TAO",
+  "candidates": {
+    "1": {
+      "name_zh": "陳履安",
+      "running_mate_zh": "王清峰",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    },
+    "2": {
+      "name_zh": "李登輝",
+      "running_mate_zh": "連戰",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    },
+    "3": {
+      "name_zh": "彭明敏",
+      "running_mate_zh": "謝長廷",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "4": {
+      "name_zh": "林洋港",
+      "running_mate_zh": "郝柏村",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 91048,
+      "2": 423198,
+      "3": 114901,
+      "4": 128607
+    },
+    "valid_votes": 757754,
+    "invalid_votes": 9955,
+    "ballots_cast": 767709,
+    "unreturned_ballots": 0,
+    "electors": 985365,
+    "turnout_rate": 77.9111
+  },
+  "townships": {
+    "TAO-TAOYUAN": {
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "votes": {
+        "1": 16705,
+        "2": 69681,
+        "3": 24391,
+        "4": 21435
+      },
+      "valid_votes": 132212,
+      "invalid_votes": 1469,
+      "ballots_cast": 133681,
+      "unreturned_ballots": 0,
+      "electors": 171684,
+      "turnout_rate": 77.8646
+    },
+    "TAO-ZHONGLI": {
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "votes": {
+        "1": 20502,
+        "2": 76543,
+        "3": 20738,
+        "4": 33818
+      },
+      "valid_votes": 151601,
+      "invalid_votes": 1819,
+      "ballots_cast": 153420,
+      "unreturned_ballots": 0,
+      "electors": 196752,
+      "turnout_rate": 77.9763
+    },
+    "TAO-BADE": {
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "votes": {
+        "1": 7778,
+        "2": 40705,
+        "3": 9027,
+        "4": 14894
+      },
+      "valid_votes": 72404,
+      "invalid_votes": 1141,
+      "ballots_cast": 73545,
+      "unreturned_ballots": 0,
+      "electors": 95501,
+      "turnout_rate": 77.0097
+    },
+    "TAO-DAXI": {
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "votes": {
+        "1": 3996,
+        "2": 24075,
+        "3": 7290,
+        "4": 6250
+      },
+      "valid_votes": 41611,
+      "invalid_votes": 554,
+      "ballots_cast": 42165,
+      "unreturned_ballots": 0,
+      "electors": 53753,
+      "turnout_rate": 78.4421
+    },
+    "TAO-GUISHAN": {
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "votes": {
+        "1": 5892,
+        "2": 27043,
+        "3": 8244,
+        "4": 9693
+      },
+      "valid_votes": 50872,
+      "invalid_votes": 703,
+      "ballots_cast": 51575,
+      "unreturned_ballots": 0,
+      "electors": 68967,
+      "turnout_rate": 74.7821
+    },
+    "TAO-FUXING": {
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "votes": {
+        "1": 297,
+        "2": 3871,
+        "3": 479,
+        "4": 464
+      },
+      "valid_votes": 5111,
+      "invalid_votes": 107,
+      "ballots_cast": 5218,
+      "unreturned_ballots": 0,
+      "electors": 7735,
+      "turnout_rate": 67.4596
+    },
+    "TAO-LUZHU": {
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "votes": {
+        "1": 3447,
+        "2": 21761,
+        "3": 6066,
+        "4": 4100
+      },
+      "valid_votes": 35374,
+      "invalid_votes": 482,
+      "ballots_cast": 35856,
+      "unreturned_ballots": 0,
+      "electors": 44544,
+      "turnout_rate": 80.4957
+    },
+    "TAO-DAYUAN": {
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "votes": {
+        "1": 3329,
+        "2": 23096,
+        "3": 5068,
+        "4": 3497
+      },
+      "valid_votes": 34990,
+      "invalid_votes": 477,
+      "ballots_cast": 35467,
+      "unreturned_ballots": 0,
+      "electors": 44565,
+      "turnout_rate": 79.5849
+    },
+    "TAO-GUANYIN": {
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "votes": {
+        "1": 2703,
+        "2": 16011,
+        "3": 4988,
+        "4": 1653
+      },
+      "valid_votes": 25355,
+      "invalid_votes": 329,
+      "ballots_cast": 25684,
+      "unreturned_ballots": 0,
+      "electors": 33248,
+      "turnout_rate": 77.2498
+    },
+    "TAO-XINWU": {
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "votes": {
+        "1": 2731,
+        "2": 16804,
+        "3": 4522,
+        "4": 1506
+      },
+      "valid_votes": 25563,
+      "invalid_votes": 305,
+      "ballots_cast": 25868,
+      "unreturned_ballots": 0,
+      "electors": 33075,
+      "turnout_rate": 78.2101
+    },
+    "TAO-PINGZHEN": {
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "votes": {
+        "1": 10620,
+        "2": 45470,
+        "3": 11162,
+        "4": 15149
+      },
+      "valid_votes": 82401,
+      "invalid_votes": 1134,
+      "ballots_cast": 83535,
+      "unreturned_ballots": 0,
+      "electors": 106540,
+      "turnout_rate": 78.4072
+    },
+    "TAO-YANGMEI": {
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "votes": {
+        "1": 7341,
+        "2": 32169,
+        "3": 7604,
+        "4": 7488
+      },
+      "valid_votes": 54602,
+      "invalid_votes": 804,
+      "ballots_cast": 55406,
+      "unreturned_ballots": 0,
+      "electors": 70412,
+      "turnout_rate": 78.6883
+    },
+    "TAO-LONGTAN": {
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "votes": {
+        "1": 5707,
+        "2": 25969,
+        "3": 5322,
+        "4": 8660
+      },
+      "valid_votes": 45658,
+      "invalid_votes": 631,
+      "ballots_cast": 46289,
+      "unreturned_ballots": 0,
+      "electors": 58589,
+      "turnout_rate": 79.0063
+    }
+  },
+  "villages": {
+    "TAO-TAOYUAN-WULING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "武陵里",
+      "village_en": "Wuling Village",
+      "votes": {
+        "1": 130,
+        "2": 588,
+        "3": 251,
+        "4": 158
+      },
+      "valid_votes": 1127,
+      "invalid_votes": 11,
+      "ballots_cast": 1138,
+      "unreturned_ballots": 0,
+      "electors": 1523,
+      "turnout_rate": 74.7209
+    },
+    "TAO-TAOYUAN-MINSHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 102,
+        "2": 636,
+        "3": 238,
+        "4": 115
+      },
+      "valid_votes": 1091,
+      "invalid_votes": 12,
+      "ballots_cast": 1103,
+      "unreturned_ballots": 0,
+      "electors": 1400,
+      "turnout_rate": 78.7857
+    },
+    "TAO-TAOYUAN-DONGMEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "東門里",
+      "village_en": "Dongmen Village",
+      "votes": {
+        "1": 257,
+        "2": 851,
+        "3": 299,
+        "4": 287
+      },
+      "valid_votes": 1694,
+      "invalid_votes": 13,
+      "ballots_cast": 1707,
+      "unreturned_ballots": 0,
+      "electors": 2212,
+      "turnout_rate": 77.17
+    },
+    "TAO-TAOYUAN-DONGSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "東山里",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 181,
+        "2": 781,
+        "3": 321,
+        "4": 197
+      },
+      "valid_votes": 1480,
+      "invalid_votes": 13,
+      "ballots_cast": 1493,
+      "unreturned_ballots": 0,
+      "electors": 1935,
+      "turnout_rate": 77.1576
+    },
+    "TAO-TAOYUAN-WANSHOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "萬壽里",
+      "village_en": "Wanshou Village",
+      "votes": {
+        "1": 100,
+        "2": 385,
+        "3": 150,
+        "4": 158
+      },
+      "valid_votes": 793,
+      "invalid_votes": 10,
+      "ballots_cast": 803,
+      "unreturned_ballots": 0,
+      "electors": 1010,
+      "turnout_rate": 79.505
+    },
+    "TAO-TAOYUAN-YUNLIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "雲林里",
+      "village_en": "Yunlin Village",
+      "votes": {
+        "1": 295,
+        "2": 1154,
+        "3": 401,
+        "4": 374
+      },
+      "valid_votes": 2224,
+      "invalid_votes": 23,
+      "ballots_cast": 2247,
+      "unreturned_ballots": 0,
+      "electors": 2889,
+      "turnout_rate": 77.7778
+    },
+    "TAO-TAOYUAN-DAFENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "大豐里",
+      "village_en": "Dafeng Village",
+      "votes": {
+        "1": 363,
+        "2": 1501,
+        "3": 504,
+        "4": 410
+      },
+      "valid_votes": 2778,
+      "invalid_votes": 20,
+      "ballots_cast": 2798,
+      "unreturned_ballots": 0,
+      "electors": 3608,
+      "turnout_rate": 77.5499
+    },
+    "TAO-TAOYUAN-JIANGUO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "建國里",
+      "village_en": "Jianguo Village",
+      "votes": {
+        "1": 372,
+        "2": 1537,
+        "3": 507,
+        "4": 565
+      },
+      "valid_votes": 2981,
+      "invalid_votes": 28,
+      "ballots_cast": 3009,
+      "unreturned_ballots": 0,
+      "electors": 3901,
+      "turnout_rate": 77.1341
+    },
+    "TAO-TAOYUAN-FENGLIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "豐林里",
+      "village_en": "Fenglin Village",
+      "votes": {
+        "1": 487,
+        "2": 1886,
+        "3": 724,
+        "4": 575
+      },
+      "valid_votes": 3672,
+      "invalid_votes": 34,
+      "ballots_cast": 3706,
+      "unreturned_ballots": 0,
+      "electors": 4686,
+      "turnout_rate": 79.0866
+    },
+    "TAO-TAOYUAN-FULIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "福林里",
+      "village_en": "Fulin Village",
+      "votes": {
+        "1": 356,
+        "2": 1747,
+        "3": 571,
+        "4": 585
+      },
+      "valid_votes": 3259,
+      "invalid_votes": 39,
+      "ballots_cast": 3298,
+      "unreturned_ballots": 0,
+      "electors": 4052,
+      "turnout_rate": 81.3919
+    },
+    "TAO-TAOYUAN-FUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "福安里",
+      "village_en": "Fuan Village",
+      "votes": {
+        "1": 326,
+        "2": 1218,
+        "3": 418,
+        "4": 385
+      },
+      "valid_votes": 2347,
+      "invalid_votes": 16,
+      "ballots_cast": 2363,
+      "unreturned_ballots": 0,
+      "electors": 2930,
+      "turnout_rate": 80.6485
+    },
+    "TAO-TAOYUAN-DALIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "大林里",
+      "village_en": "Dalin Village",
+      "votes": {
+        "1": 421,
+        "2": 1881,
+        "3": 606,
+        "4": 413
+      },
+      "valid_votes": 3321,
+      "invalid_votes": 37,
+      "ballots_cast": 3358,
+      "unreturned_ballots": 0,
+      "electors": 4284,
+      "turnout_rate": 78.3847
+    },
+    "TAO-TAOYUAN-WENHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "文化里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 74,
+        "2": 298,
+        "3": 151,
+        "4": 124
+      },
+      "valid_votes": 647,
+      "invalid_votes": 5,
+      "ballots_cast": 652,
+      "unreturned_ballots": 0,
+      "electors": 870,
+      "turnout_rate": 74.9425
+    },
+    "TAO-TAOYUAN-WENMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "文明里",
+      "village_en": "Wenming Village",
+      "votes": {
+        "1": 133,
+        "2": 549,
+        "3": 250,
+        "4": 211
+      },
+      "valid_votes": 1143,
+      "invalid_votes": 8,
+      "ballots_cast": 1151,
+      "unreturned_ballots": 0,
+      "electors": 1486,
+      "turnout_rate": 77.4563
+    },
+    "TAO-TAOYUAN-WENCHANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "文昌里",
+      "village_en": "Wenchang Village",
+      "votes": {
+        "1": 93,
+        "2": 496,
+        "3": 235,
+        "4": 92
+      },
+      "valid_votes": 916,
+      "invalid_votes": 13,
+      "ballots_cast": 929,
+      "unreturned_ballots": 0,
+      "electors": 1160,
+      "turnout_rate": 80.0862
+    },
+    "TAO-TAOYUAN-NANMEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "南門里",
+      "village_en": "Nanmen Village",
+      "votes": {
+        "1": 392,
+        "2": 1635,
+        "3": 632,
+        "4": 547
+      },
+      "valid_votes": 3206,
+      "invalid_votes": 26,
+      "ballots_cast": 3232,
+      "unreturned_ballots": 0,
+      "electors": 4149,
+      "turnout_rate": 77.8983
+    },
+    "TAO-TAOYUAN-NANHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "南華里",
+      "village_en": "Nanhua Village",
+      "votes": {
+        "1": 136,
+        "2": 634,
+        "3": 292,
+        "4": 106
+      },
+      "valid_votes": 1168,
+      "invalid_votes": 14,
+      "ballots_cast": 1182,
+      "unreturned_ballots": 0,
+      "electors": 1491,
+      "turnout_rate": 79.2757
+    },
+    "TAO-TAOYUAN-ZHONGLU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中路里",
+      "village_en": "Zhonglu Village",
+      "votes": {
+        "1": 509,
+        "2": 1842,
+        "3": 644,
+        "4": 635
+      },
+      "valid_votes": 3630,
+      "invalid_votes": 35,
+      "ballots_cast": 3665,
+      "unreturned_ballots": 0,
+      "electors": 4746,
+      "turnout_rate": 77.2229
+    },
+    "TAO-TAOYUAN-ZHONGSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 757,
+        "2": 2529,
+        "3": 895,
+        "4": 1116
+      },
+      "valid_votes": 5297,
+      "invalid_votes": 52,
+      "ballots_cast": 5349,
+      "unreturned_ballots": 0,
+      "electors": 6967,
+      "turnout_rate": 76.7762
+    },
+    "TAO-TAOYUAN-ZHONGDE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中德里",
+      "village_en": "Zhongde Village",
+      "votes": {
+        "1": 266,
+        "2": 1416,
+        "3": 429,
+        "4": 458
+      },
+      "valid_votes": 2569,
+      "invalid_votes": 33,
+      "ballots_cast": 2602,
+      "unreturned_ballots": 0,
+      "electors": 3235,
+      "turnout_rate": 80.4328
+    },
+    "TAO-TAOYUAN-YUSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "玉山里",
+      "village_en": "Yushan Village",
+      "votes": {
+        "1": 349,
+        "2": 1745,
+        "3": 596,
+        "4": 432
+      },
+      "valid_votes": 3122,
+      "invalid_votes": 45,
+      "ballots_cast": 3167,
+      "unreturned_ballots": 0,
+      "electors": 4101,
+      "turnout_rate": 77.2251
+    },
+    "TAO-TAOYUAN-TAISHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "泰山里",
+      "village_en": "Taishan Village",
+      "votes": {
+        "1": 277,
+        "2": 947,
+        "3": 424,
+        "4": 399
+      },
+      "valid_votes": 2047,
+      "invalid_votes": 21,
+      "ballots_cast": 2068,
+      "unreturned_ballots": 0,
+      "electors": 2636,
+      "turnout_rate": 78.4522
+    },
+    "TAO-TAOYUAN-WENZHONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "文中里",
+      "village_en": "Wenzhong Village",
+      "votes": {
+        "1": 225,
+        "2": 1037,
+        "3": 362,
+        "4": 379
+      },
+      "valid_votes": 2003,
+      "invalid_votes": 12,
+      "ballots_cast": 2015,
+      "unreturned_ballots": 0,
+      "electors": 2628,
+      "turnout_rate": 76.6743
+    },
+    "TAO-TAOYUAN-ZHONGZHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 421,
+        "2": 1440,
+        "3": 491,
+        "4": 566
+      },
+      "valid_votes": 2918,
+      "invalid_votes": 39,
+      "ballots_cast": 2957,
+      "unreturned_ballots": 0,
+      "electors": 3795,
+      "turnout_rate": 77.9183
+    },
+    "TAO-TAOYUAN-ZHONGCHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中成里",
+      "village_en": "Zhongcheng Village",
+      "votes": {
+        "1": 222,
+        "2": 1174,
+        "3": 391,
+        "4": 302
+      },
+      "valid_votes": 2089,
+      "invalid_votes": 13,
+      "ballots_cast": 2102,
+      "unreturned_ballots": 0,
+      "electors": 2681,
+      "turnout_rate": 78.4036
+    },
+    "TAO-TAOYUAN-ZHONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 493,
+        "2": 1796,
+        "3": 631,
+        "4": 438
+      },
+      "valid_votes": 3358,
+      "invalid_votes": 32,
+      "ballots_cast": 3390,
+      "unreturned_ballots": 0,
+      "electors": 4320,
+      "turnout_rate": 78.4722
+    },
+    "TAO-TAOYUAN-GUANGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "光興里",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 424,
+        "2": 1771,
+        "3": 669,
+        "4": 510
+      },
+      "valid_votes": 3374,
+      "invalid_votes": 29,
+      "ballots_cast": 3403,
+      "unreturned_ballots": 0,
+      "electors": 4335,
+      "turnout_rate": 78.5006
+    },
+    "TAO-TAOYUAN-LONGGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "龍岡里",
+      "village_en": "Longgang Village",
+      "votes": {
+        "1": 628,
+        "2": 2035,
+        "3": 691,
+        "4": 896
+      },
+      "valid_votes": 4250,
+      "invalid_votes": 38,
+      "ballots_cast": 4288,
+      "unreturned_ballots": 0,
+      "electors": 5579,
+      "turnout_rate": 76.8597
+    },
+    "TAO-TAOYUAN-LONGXIANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "龍祥里",
+      "village_en": "Longxiang Village",
+      "votes": {
+        "1": 303,
+        "2": 1251,
+        "3": 295,
+        "4": 432
+      },
+      "valid_votes": 2281,
+      "invalid_votes": 22,
+      "ballots_cast": 2303,
+      "unreturned_ballots": 0,
+      "electors": 2924,
+      "turnout_rate": 78.762
+    },
+    "TAO-TAOYUAN-LONGSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "龍山里",
+      "village_en": "Longshan Village",
+      "votes": {
+        "1": 284,
+        "2": 1401,
+        "3": 283,
+        "4": 564
+      },
+      "valid_votes": 2532,
+      "invalid_votes": 41,
+      "ballots_cast": 2573,
+      "unreturned_ballots": 0,
+      "electors": 3303,
+      "turnout_rate": 77.8989
+    },
+    "TAO-TAOYUAN-ZHANGMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "長美里",
+      "village_en": "Zhangmei Village",
+      "votes": {
+        "1": 94,
+        "2": 397,
+        "3": 239,
+        "4": 76
+      },
+      "valid_votes": 806,
+      "invalid_votes": 9,
+      "ballots_cast": 815,
+      "unreturned_ballots": 0,
+      "electors": 1093,
+      "turnout_rate": 74.5654
+    },
+    "TAO-TAOYUAN-YONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "永興里",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 149,
+        "2": 810,
+        "3": 379,
+        "4": 108
+      },
+      "valid_votes": 1446,
+      "invalid_votes": 17,
+      "ballots_cast": 1463,
+      "unreturned_ballots": 0,
+      "electors": 1874,
+      "turnout_rate": 78.0683
+    },
+    "TAO-TAOYUAN-XIMEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "西門里",
+      "village_en": "Ximen Village",
+      "votes": {
+        "1": 138,
+        "2": 626,
+        "3": 216,
+        "4": 139
+      },
+      "valid_votes": 1119,
+      "invalid_votes": 10,
+      "ballots_cast": 1129,
+      "unreturned_ballots": 0,
+      "electors": 1512,
+      "turnout_rate": 74.6693
+    },
+    "TAO-TAOYUAN-XIHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "西湖里",
+      "village_en": "Xihu Village",
+      "votes": {
+        "1": 115,
+        "2": 484,
+        "3": 220,
+        "4": 129
+      },
+      "valid_votes": 948,
+      "invalid_votes": 8,
+      "ballots_cast": 956,
+      "unreturned_ballots": 0,
+      "electors": 1205,
+      "turnout_rate": 79.3361
+    },
+    "TAO-TAOYUAN-DONGPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "東埔里",
+      "village_en": "Dongpu Village",
+      "votes": {
+        "1": 330,
+        "2": 1571,
+        "3": 541,
+        "4": 298
+      },
+      "valid_votes": 2740,
+      "invalid_votes": 40,
+      "ballots_cast": 2780,
+      "unreturned_ballots": 0,
+      "electors": 3602,
+      "turnout_rate": 77.1793
+    },
+    "TAO-TAOYUAN-XINGUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "信光里",
+      "village_en": "Xinguang Village",
+      "votes": {
+        "1": 293,
+        "2": 1485,
+        "3": 479,
+        "4": 345
+      },
+      "valid_votes": 2602,
+      "invalid_votes": 34,
+      "ballots_cast": 2636,
+      "unreturned_ballots": 0,
+      "electors": 3455,
+      "turnout_rate": 76.2952
+    },
+    "TAO-TAOYUAN-YONGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "永安里",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 317,
+        "2": 1615,
+        "3": 613,
+        "4": 274
+      },
+      "valid_votes": 2819,
+      "invalid_votes": 34,
+      "ballots_cast": 2853,
+      "unreturned_ballots": 0,
+      "electors": 3688,
+      "turnout_rate": 77.359
+    },
+    "TAO-TAOYUAN-ZHANGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "長安里",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 450,
+        "2": 2092,
+        "3": 758,
+        "4": 490
+      },
+      "valid_votes": 3790,
+      "invalid_votes": 35,
+      "ballots_cast": 3825,
+      "unreturned_ballots": 0,
+      "electors": 4890,
+      "turnout_rate": 78.2209
+    },
+    "TAO-TAOYUAN-XIPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "西埔里",
+      "village_en": "Xipu Village",
+      "votes": {
+        "1": 167,
+        "2": 901,
+        "3": 367,
+        "4": 114
+      },
+      "valid_votes": 1549,
+      "invalid_votes": 22,
+      "ballots_cast": 1571,
+      "unreturned_ballots": 0,
+      "electors": 1894,
+      "turnout_rate": 82.9461
+    },
+    "TAO-TAOYUAN-ZHONGPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中埔里",
+      "village_en": "Zhongpu Village",
+      "votes": {
+        "1": 639,
+        "2": 2616,
+        "3": 956,
+        "4": 755
+      },
+      "valid_votes": 4966,
+      "invalid_votes": 69,
+      "ballots_cast": 5035,
+      "unreturned_ballots": 0,
+      "electors": 6571,
+      "turnout_rate": 76.6246
+    },
+    "TAO-TAOYUAN-ZHONGNING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中寧里",
+      "village_en": "Zhongning Village",
+      "votes": {
+        "1": 294,
+        "2": 1155,
+        "3": 404,
+        "4": 439
+      },
+      "valid_votes": 2292,
+      "invalid_votes": 25,
+      "ballots_cast": 2317,
+      "unreturned_ballots": 0,
+      "electors": 2994,
+      "turnout_rate": 77.3881
+    },
+    "TAO-TAOYUAN-XINPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "新埔里",
+      "village_en": "Xinpu Village",
+      "votes": {
+        "1": 326,
+        "2": 1194,
+        "3": 347,
+        "4": 602
+      },
+      "valid_votes": 2469,
+      "invalid_votes": 33,
+      "ballots_cast": 2502,
+      "unreturned_ballots": 0,
+      "electors": 3154,
+      "turnout_rate": 79.3278
+    },
+    "TAO-TAOYUAN-TONGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "同安里",
+      "village_en": "Tongan Village",
+      "votes": {
+        "1": 260,
+        "2": 1199,
+        "3": 381,
+        "4": 260
+      },
+      "valid_votes": 2100,
+      "invalid_votes": 36,
+      "ballots_cast": 2136,
+      "unreturned_ballots": 0,
+      "electors": 2751,
+      "turnout_rate": 77.6445
+    },
+    "TAO-TAOYUAN-ZHUANGJING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "莊敬里",
+      "village_en": "Zhuangjing Village",
+      "votes": {
+        "1": 401,
+        "2": 1394,
+        "3": 377,
+        "4": 563
+      },
+      "valid_votes": 2735,
+      "invalid_votes": 42,
+      "ballots_cast": 2777,
+      "unreturned_ballots": 0,
+      "electors": 3573,
+      "turnout_rate": 77.7218
+    },
+    "TAO-TAOYUAN-CIWEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "慈文里",
+      "village_en": "Ciwen Village",
+      "votes": {
+        "1": 365,
+        "2": 1462,
+        "3": 452,
+        "4": 467
+      },
+      "valid_votes": 2746,
+      "invalid_votes": 37,
+      "ballots_cast": 2783,
+      "unreturned_ballots": 0,
+      "electors": 3676,
+      "turnout_rate": 75.7073
+    },
+    "TAO-TAOYUAN-ZHONGHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "中和里",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 156,
+        "2": 691,
+        "3": 301,
+        "4": 110
+      },
+      "valid_votes": 1258,
+      "invalid_votes": 11,
+      "ballots_cast": 1269,
+      "unreturned_ballots": 0,
+      "electors": 1574,
+      "turnout_rate": 80.6226
+    },
+    "TAO-TAOYUAN-BEIMEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "北門里",
+      "village_en": "Beimen Village",
+      "votes": {
+        "1": 113,
+        "2": 738,
+        "3": 312,
+        "4": 103
+      },
+      "valid_votes": 1266,
+      "invalid_votes": 10,
+      "ballots_cast": 1276,
+      "unreturned_ballots": 0,
+      "electors": 1594,
+      "turnout_rate": 80.0502
+    },
+    "TAO-TAOYUAN-QINGXI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "青溪里",
+      "village_en": "Qingxi Village",
+      "votes": {
+        "1": 362,
+        "2": 1680,
+        "3": 687,
+        "4": 403
+      },
+      "valid_votes": 3132,
+      "invalid_votes": 34,
+      "ballots_cast": 3166,
+      "unreturned_ballots": 0,
+      "electors": 4067,
+      "turnout_rate": 77.8461
+    },
+    "TAO-TAOYUAN-CHAOYANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "朝陽里",
+      "village_en": "Chaoyang Village",
+      "votes": {
+        "1": 144,
+        "2": 727,
+        "3": 236,
+        "4": 133
+      },
+      "valid_votes": 1240,
+      "invalid_votes": 12,
+      "ballots_cast": 1252,
+      "unreturned_ballots": 0,
+      "electors": 1651,
+      "turnout_rate": 75.8328
+    },
+    "TAO-TAOYUAN-CHENGGONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 302,
+        "2": 1052,
+        "3": 440,
+        "4": 459
+      },
+      "valid_votes": 2253,
+      "invalid_votes": 18,
+      "ballots_cast": 2271,
+      "unreturned_ballots": 0,
+      "electors": 2866,
+      "turnout_rate": 79.2394
+    },
+    "TAO-TAOYUAN-SANMIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "三民里",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 339,
+        "2": 940,
+        "3": 365,
+        "4": 566
+      },
+      "valid_votes": 2210,
+      "invalid_votes": 25,
+      "ballots_cast": 2235,
+      "unreturned_ballots": 0,
+      "electors": 2816,
+      "turnout_rate": 79.3679
+    },
+    "TAO-TAOYUAN-HUIJI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "會稽里",
+      "village_en": "Huiji Village",
+      "votes": {
+        "1": 530,
+        "2": 1637,
+        "3": 466,
+        "4": 783
+      },
+      "valid_votes": 3416,
+      "invalid_votes": 35,
+      "ballots_cast": 3451,
+      "unreturned_ballots": 0,
+      "electors": 4512,
+      "turnout_rate": 76.4849
+    },
+    "TAO-TAOYUAN-DAXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "大興里",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 343,
+        "2": 1546,
+        "3": 493,
+        "4": 404
+      },
+      "valid_votes": 2786,
+      "invalid_votes": 42,
+      "ballots_cast": 2828,
+      "unreturned_ballots": 0,
+      "electors": 3696,
+      "turnout_rate": 76.5152
+    },
+    "TAO-TAOYUAN-CHUNRI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "春日里",
+      "village_en": "Chunri Village",
+      "votes": {
+        "1": 224,
+        "2": 1130,
+        "3": 311,
+        "4": 293
+      },
+      "valid_votes": 1958,
+      "invalid_votes": 27,
+      "ballots_cast": 1985,
+      "unreturned_ballots": 0,
+      "electors": 2517,
+      "turnout_rate": 78.8637
+    },
+    "TAO-TAOYUAN-ZHONGYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "忠義里",
+      "village_en": "Zhongyi Village",
+      "votes": {
+        "1": 269,
+        "2": 1035,
+        "3": 351,
+        "4": 459
+      },
+      "valid_votes": 2114,
+      "invalid_votes": 38,
+      "ballots_cast": 2152,
+      "unreturned_ballots": 0,
+      "electors": 2827,
+      "turnout_rate": 76.1231
+    },
+    "TAO-TAOYUAN-BIANZHOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "桃園市",
+      "township_en": "Taoyuan City",
+      "village_zh": "汴洲里",
+      "village_en": "Bianzhou Village",
+      "votes": {
+        "1": 209,
+        "2": 1343,
+        "3": 349,
+        "4": 234
+      },
+      "valid_votes": 2135,
+      "invalid_votes": 32,
+      "ballots_cast": 2167,
+      "unreturned_ballots": 0,
+      "electors": 2796,
+      "turnout_rate": 77.5036
+    },
+    "TAO-ZHONGLI-HOULIAO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "後寮里",
+      "village_en": "Houliao Village",
+      "votes": {
+        "1": 816,
+        "2": 2838,
+        "3": 720,
+        "4": 1225
+      },
+      "valid_votes": 5599,
+      "invalid_votes": 80,
+      "ballots_cast": 5679,
+      "unreturned_ballots": 0,
+      "electors": 7433,
+      "turnout_rate": 76.4025
+    },
+    "TAO-ZHONGLI-LONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "龍興里",
+      "village_en": "Longxing Village",
+      "votes": {
+        "1": 582,
+        "2": 2297,
+        "3": 512,
+        "4": 1089
+      },
+      "valid_votes": 4480,
+      "invalid_votes": 50,
+      "ballots_cast": 4530,
+      "unreturned_ballots": 0,
+      "electors": 5751,
+      "turnout_rate": 78.7689
+    },
+    "TAO-ZHONGLI-LONGGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "龍岡里",
+      "village_en": "Longgang Village",
+      "votes": {
+        "1": 304,
+        "2": 1309,
+        "3": 189,
+        "4": 869
+      },
+      "valid_votes": 2671,
+      "invalid_votes": 41,
+      "ballots_cast": 2712,
+      "unreturned_ballots": 0,
+      "electors": 3365,
+      "turnout_rate": 80.5944
+    },
+    "TAO-ZHONGLI-LONGDONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "龍東里",
+      "village_en": "Longdong Village",
+      "votes": {
+        "1": 349,
+        "2": 1359,
+        "3": 134,
+        "4": 1291
+      },
+      "valid_votes": 3133,
+      "invalid_votes": 31,
+      "ballots_cast": 3164,
+      "unreturned_ballots": 0,
+      "electors": 3947,
+      "turnout_rate": 80.1621
+    },
+    "TAO-ZHONGLI-LONGCHANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "龍昌里",
+      "village_en": "Longchang Village",
+      "votes": {
+        "1": 377,
+        "2": 1436,
+        "3": 237,
+        "4": 879
+      },
+      "valid_votes": 2929,
+      "invalid_votes": 42,
+      "ballots_cast": 2971,
+      "unreturned_ballots": 0,
+      "electors": 3708,
+      "turnout_rate": 80.1241
+    },
+    "TAO-ZHONGLI-LONGPING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "龍平里",
+      "village_en": "Longping Village",
+      "votes": {
+        "1": 463,
+        "2": 1878,
+        "3": 187,
+        "4": 1764
+      },
+      "valid_votes": 4292,
+      "invalid_votes": 50,
+      "ballots_cast": 4342,
+      "unreturned_ballots": 0,
+      "electors": 5442,
+      "turnout_rate": 79.7868
+    },
+    "TAO-ZHONGLI-RENMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "仁美里",
+      "village_en": "Renmei Village",
+      "votes": {
+        "1": 590,
+        "2": 2100,
+        "3": 414,
+        "4": 1247
+      },
+      "valid_votes": 4351,
+      "invalid_votes": 45,
+      "ballots_cast": 4396,
+      "unreturned_ballots": 0,
+      "electors": 5572,
+      "turnout_rate": 78.8945
+    },
+    "TAO-ZHONGLI-RENAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "仁愛里",
+      "village_en": "Renai Village",
+      "votes": {
+        "1": 307,
+        "2": 1178,
+        "3": 253,
+        "4": 662
+      },
+      "valid_votes": 2400,
+      "invalid_votes": 31,
+      "ballots_cast": 2431,
+      "unreturned_ballots": 0,
+      "electors": 3143,
+      "turnout_rate": 77.3465
+    },
+    "TAO-ZHONGLI-RENDE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "仁德里",
+      "village_en": "Rende Village",
+      "votes": {
+        "1": 339,
+        "2": 1453,
+        "3": 202,
+        "4": 840
+      },
+      "valid_votes": 2834,
+      "invalid_votes": 29,
+      "ballots_cast": 2863,
+      "unreturned_ballots": 0,
+      "electors": 3690,
+      "turnout_rate": 77.5881
+    },
+    "TAO-ZHONGLI-RENXIANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "仁祥里",
+      "village_en": "Renxiang Village",
+      "votes": {
+        "1": 475,
+        "2": 1914,
+        "3": 239,
+        "4": 1357
+      },
+      "valid_votes": 3985,
+      "invalid_votes": 47,
+      "ballots_cast": 4032,
+      "unreturned_ballots": 0,
+      "electors": 5156,
+      "turnout_rate": 78.2002
+    },
+    "TAO-ZHONGLI-ZHONGJIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "中建里",
+      "village_en": "Zhongjian Village",
+      "votes": {
+        "1": 104,
+        "2": 473,
+        "3": 215,
+        "4": 91
+      },
+      "valid_votes": 883,
+      "invalid_votes": 7,
+      "ballots_cast": 890,
+      "unreturned_ballots": 0,
+      "electors": 1134,
+      "turnout_rate": 78.4832
+    },
+    "TAO-ZHONGLI-PUREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "普仁里",
+      "village_en": "Puren Village",
+      "votes": {
+        "1": 904,
+        "2": 2416,
+        "3": 729,
+        "4": 1268
+      },
+      "valid_votes": 5317,
+      "invalid_votes": 55,
+      "ballots_cast": 5372,
+      "unreturned_ballots": 0,
+      "electors": 7093,
+      "turnout_rate": 75.7366
+    },
+    "TAO-ZHONGLI-PUQING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "普慶里",
+      "village_en": "Puqing Village",
+      "votes": {
+        "1": 263,
+        "2": 1001,
+        "3": 201,
+        "4": 356
+      },
+      "valid_votes": 1821,
+      "invalid_votes": 17,
+      "ballots_cast": 1838,
+      "unreturned_ballots": 0,
+      "electors": 2405,
+      "turnout_rate": 76.4241
+    },
+    "TAO-ZHONGLI-PUYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "普義里",
+      "village_en": "Puyi Village",
+      "votes": {
+        "1": 674,
+        "2": 2141,
+        "3": 695,
+        "4": 849
+      },
+      "valid_votes": 4359,
+      "invalid_votes": 49,
+      "ballots_cast": 4408,
+      "unreturned_ballots": 0,
+      "electors": 5620,
+      "turnout_rate": 78.4342
+    },
+    "TAO-ZHONGLI-XINYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "信義里",
+      "village_en": "Xinyi Village",
+      "votes": {
+        "1": 665,
+        "2": 2026,
+        "3": 773,
+        "4": 812
+      },
+      "valid_votes": 4276,
+      "invalid_votes": 54,
+      "ballots_cast": 4330,
+      "unreturned_ballots": 0,
+      "electors": 5566,
+      "turnout_rate": 77.7937
+    },
+    "TAO-ZHONGLI-ZHONGYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "忠義里",
+      "village_en": "Zhongyi Village",
+      "votes": {
+        "1": 142,
+        "2": 601,
+        "3": 174,
+        "4": 212
+      },
+      "valid_votes": 1129,
+      "invalid_votes": 20,
+      "ballots_cast": 1149,
+      "unreturned_ballots": 0,
+      "electors": 1472,
+      "turnout_rate": 78.0571
+    },
+    "TAO-ZHONGLI-XINGREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "興仁里",
+      "village_en": "Xingren Village",
+      "votes": {
+        "1": 338,
+        "2": 1211,
+        "3": 199,
+        "4": 1123
+      },
+      "valid_votes": 2871,
+      "invalid_votes": 38,
+      "ballots_cast": 2909,
+      "unreturned_ballots": 0,
+      "electors": 3729,
+      "turnout_rate": 78.0102
+    },
+    "TAO-ZHONGLI-ZHONGZHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 482,
+        "2": 1590,
+        "3": 261,
+        "4": 1048
+      },
+      "valid_votes": 3381,
+      "invalid_votes": 45,
+      "ballots_cast": 3426,
+      "unreturned_ballots": 0,
+      "electors": 4340,
+      "turnout_rate": 78.9401
+    },
+    "TAO-ZHONGLI-DUXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "篤行里",
+      "village_en": "Duxing Village",
+      "votes": {
+        "1": 91,
+        "2": 544,
+        "3": 49,
+        "4": 533
+      },
+      "valid_votes": 1217,
+      "invalid_votes": 10,
+      "ballots_cast": 1227,
+      "unreturned_ballots": 0,
+      "electors": 1541,
+      "turnout_rate": 79.6236
+    },
+    "TAO-ZHONGLI-NEILI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "內壢里",
+      "village_en": "Neili Village",
+      "votes": {
+        "1": 265,
+        "2": 962,
+        "3": 194,
+        "4": 579
+      },
+      "valid_votes": 2000,
+      "invalid_votes": 34,
+      "ballots_cast": 2034,
+      "unreturned_ballots": 0,
+      "electors": 2572,
+      "turnout_rate": 79.0824
+    },
+    "TAO-ZHONGLI-CHENGGONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 475,
+        "2": 1799,
+        "3": 380,
+        "4": 962
+      },
+      "valid_votes": 3616,
+      "invalid_votes": 40,
+      "ballots_cast": 3656,
+      "unreturned_ballots": 0,
+      "electors": 4634,
+      "turnout_rate": 78.8951
+    },
+    "TAO-ZHONGLI-ZHONGYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "中原里",
+      "village_en": "Zhongyuan Village",
+      "votes": {
+        "1": 531,
+        "2": 2074,
+        "3": 479,
+        "4": 755
+      },
+      "valid_votes": 3839,
+      "invalid_votes": 42,
+      "ballots_cast": 3881,
+      "unreturned_ballots": 0,
+      "electors": 4893,
+      "turnout_rate": 79.3174
+    },
+    "TAO-ZHONGLI-FUXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 675,
+        "2": 2333,
+        "3": 525,
+        "4": 1012
+      },
+      "valid_votes": 4545,
+      "invalid_votes": 49,
+      "ballots_cast": 4594,
+      "unreturned_ballots": 0,
+      "electors": 5764,
+      "turnout_rate": 79.7016
+    },
+    "TAO-ZHONGLI-WENHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "文化里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 531,
+        "2": 2144,
+        "3": 500,
+        "4": 723
+      },
+      "valid_votes": 3898,
+      "invalid_votes": 56,
+      "ballots_cast": 3954,
+      "unreturned_ballots": 0,
+      "electors": 5096,
+      "turnout_rate": 77.5903
+    },
+    "TAO-ZHONGLI-ZILI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "自立里",
+      "village_en": "Zili Village",
+      "votes": {
+        "1": 247,
+        "2": 944,
+        "3": 80,
+        "4": 1051
+      },
+      "valid_votes": 2322,
+      "invalid_votes": 17,
+      "ballots_cast": 2339,
+      "unreturned_ballots": 0,
+      "electors": 2903,
+      "turnout_rate": 80.5718
+    },
+    "TAO-ZHONGLI-ZIQIANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "自強里",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 479,
+        "2": 1580,
+        "3": 184,
+        "4": 1305
+      },
+      "valid_votes": 3548,
+      "invalid_votes": 31,
+      "ballots_cast": 3579,
+      "unreturned_ballots": 0,
+      "electors": 4438,
+      "turnout_rate": 80.6444
+    },
+    "TAO-ZHONGLI-NEIDING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "內定里",
+      "village_en": "Neiding Village",
+      "votes": {
+        "1": 216,
+        "2": 1022,
+        "3": 338,
+        "4": 193
+      },
+      "valid_votes": 1769,
+      "invalid_votes": 32,
+      "ballots_cast": 1801,
+      "unreturned_ballots": 0,
+      "electors": 2290,
+      "turnout_rate": 78.6463
+    },
+    "TAO-ZHONGLI-SHITOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "石頭里",
+      "village_en": "Shitou Village",
+      "votes": {
+        "1": 209,
+        "2": 812,
+        "3": 312,
+        "4": 181
+      },
+      "valid_votes": 1514,
+      "invalid_votes": 15,
+      "ballots_cast": 1529,
+      "unreturned_ballots": 0,
+      "electors": 2030,
+      "turnout_rate": 75.3202
+    },
+    "TAO-ZHONGLI-ZHONGYANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "中央里",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 424,
+        "2": 1355,
+        "3": 505,
+        "4": 389
+      },
+      "valid_votes": 2673,
+      "invalid_votes": 35,
+      "ballots_cast": 2708,
+      "unreturned_ballots": 0,
+      "electors": 3525,
+      "turnout_rate": 76.8227
+    },
+    "TAO-ZHONGLI-XINXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "新興里",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 542,
+        "2": 1584,
+        "3": 499,
+        "4": 600
+      },
+      "valid_votes": 3225,
+      "invalid_votes": 33,
+      "ballots_cast": 3258,
+      "unreturned_ballots": 0,
+      "electors": 4189,
+      "turnout_rate": 77.7751
+    },
+    "TAO-ZHONGLI-ZHENXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "振興里",
+      "village_en": "Zhenxing Village",
+      "votes": {
+        "1": 353,
+        "2": 1373,
+        "3": 321,
+        "4": 574
+      },
+      "valid_votes": 2621,
+      "invalid_votes": 39,
+      "ballots_cast": 2660,
+      "unreturned_ballots": 0,
+      "electors": 3401,
+      "turnout_rate": 78.2123
+    },
+    "TAO-ZHONGLI-DONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "東興里",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 594,
+        "2": 1925,
+        "3": 564,
+        "4": 543
+      },
+      "valid_votes": 3626,
+      "invalid_votes": 49,
+      "ballots_cast": 3675,
+      "unreturned_ballots": 0,
+      "electors": 4764,
+      "turnout_rate": 77.1411
+    },
+    "TAO-ZHONGLI-SHUIWEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "水尾里",
+      "village_en": "Shuiwei Village",
+      "votes": {
+        "1": 345,
+        "2": 1322,
+        "3": 451,
+        "4": 408
+      },
+      "valid_votes": 2526,
+      "invalid_votes": 27,
+      "ballots_cast": 2553,
+      "unreturned_ballots": 0,
+      "electors": 3340,
+      "turnout_rate": 76.4371
+    },
+    "TAO-ZHONGLI-ZHONGFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "忠福里",
+      "village_en": "Zhongfu Village",
+      "votes": {
+        "1": 1117,
+        "2": 3969,
+        "3": 1194,
+        "4": 1308
+      },
+      "valid_votes": 7588,
+      "invalid_votes": 88,
+      "ballots_cast": 7676,
+      "unreturned_ballots": 0,
+      "electors": 10032,
+      "turnout_rate": 76.5152
+    },
+    "TAO-ZHONGLI-QINGPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "青埔里",
+      "village_en": "Qingpu Village",
+      "votes": {
+        "1": 102,
+        "2": 681,
+        "3": 188,
+        "4": 88
+      },
+      "valid_votes": 1059,
+      "invalid_votes": 6,
+      "ballots_cast": 1065,
+      "unreturned_ballots": 0,
+      "electors": 1305,
+      "turnout_rate": 81.6092
+    },
+    "TAO-ZHONGLI-XINJIE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "新街里",
+      "village_en": "Xinjie Village",
+      "votes": {
+        "1": 219,
+        "2": 647,
+        "3": 256,
+        "4": 235
+      },
+      "valid_votes": 1357,
+      "invalid_votes": 13,
+      "ballots_cast": 1370,
+      "unreturned_ballots": 0,
+      "electors": 1774,
+      "turnout_rate": 77.2266
+    },
+    "TAO-ZHONGLI-XINGNAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "興南里",
+      "village_en": "Xingnan Village",
+      "votes": {
+        "1": 181,
+        "2": 630,
+        "3": 196,
+        "4": 145
+      },
+      "valid_votes": 1152,
+      "invalid_votes": 13,
+      "ballots_cast": 1165,
+      "unreturned_ballots": 0,
+      "electors": 1517,
+      "turnout_rate": 76.7963
+    },
+    "TAO-ZHONGLI-XINGGUO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "興國里",
+      "village_en": "Xingguo Village",
+      "votes": {
+        "1": 472,
+        "2": 1782,
+        "3": 629,
+        "4": 371
+      },
+      "valid_votes": 3254,
+      "invalid_votes": 28,
+      "ballots_cast": 3282,
+      "unreturned_ballots": 0,
+      "electors": 4229,
+      "turnout_rate": 77.607
+    },
+    "TAO-ZHONGLI-XINGHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "興和里",
+      "village_en": "Xinghe Village",
+      "votes": {
+        "1": 229,
+        "2": 1047,
+        "3": 299,
+        "4": 207
+      },
+      "valid_votes": 1782,
+      "invalid_votes": 21,
+      "ballots_cast": 1803,
+      "unreturned_ballots": 0,
+      "electors": 2286,
+      "turnout_rate": 78.8714
+    },
+    "TAO-ZHONGLI-YONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "永興里",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 122,
+        "2": 449,
+        "3": 125,
+        "4": 120
+      },
+      "valid_votes": 816,
+      "invalid_votes": 9,
+      "ballots_cast": 825,
+      "unreturned_ballots": 0,
+      "electors": 1095,
+      "turnout_rate": 75.3425
+    },
+    "TAO-ZHONGLI-ZHONGLI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "中壢里",
+      "village_en": "Zhongli Village",
+      "votes": {
+        "1": 130,
+        "2": 377,
+        "3": 172,
+        "4": 82
+      },
+      "valid_votes": 761,
+      "invalid_votes": 5,
+      "ballots_cast": 766,
+      "unreturned_ballots": 0,
+      "electors": 994,
+      "turnout_rate": 77.0624
+    },
+    "TAO-ZHONGLI-ZHONGRONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "中榮里",
+      "village_en": "Zhongrong Village",
+      "votes": {
+        "1": 126,
+        "2": 462,
+        "3": 206,
+        "4": 90
+      },
+      "valid_votes": 884,
+      "invalid_votes": 9,
+      "ballots_cast": 893,
+      "unreturned_ballots": 0,
+      "electors": 1198,
+      "turnout_rate": 74.5409
+    },
+    "TAO-ZHONGLI-JIUMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "舊明里",
+      "village_en": "Jiuming Village",
+      "votes": {
+        "1": 241,
+        "2": 851,
+        "3": 321,
+        "4": 382
+      },
+      "valid_votes": 1795,
+      "invalid_votes": 12,
+      "ballots_cast": 1807,
+      "unreturned_ballots": 0,
+      "electors": 2276,
+      "turnout_rate": 79.3937
+    },
+    "TAO-ZHONGLI-XINMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "新明里",
+      "village_en": "Xinming Village",
+      "votes": {
+        "1": 375,
+        "2": 1420,
+        "3": 527,
+        "4": 369
+      },
+      "valid_votes": 2691,
+      "invalid_votes": 37,
+      "ballots_cast": 2728,
+      "unreturned_ballots": 0,
+      "electors": 3514,
+      "turnout_rate": 77.6323
+    },
+    "TAO-ZHONGLI-GUANGMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "光明里",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 491,
+        "2": 1513,
+        "3": 488,
+        "4": 639
+      },
+      "valid_votes": 3131,
+      "invalid_votes": 28,
+      "ballots_cast": 3159,
+      "unreturned_ballots": 0,
+      "electors": 4204,
+      "turnout_rate": 75.1427
+    },
+    "TAO-ZHONGLI-YONGGUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "永光里",
+      "village_en": "Yongguang Village",
+      "votes": {
+        "1": 283,
+        "2": 1080,
+        "3": 369,
+        "4": 303
+      },
+      "valid_votes": 2035,
+      "invalid_votes": 24,
+      "ballots_cast": 2059,
+      "unreturned_ballots": 0,
+      "electors": 2631,
+      "turnout_rate": 78.2592
+    },
+    "TAO-ZHONGLI-SANMIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "三民里",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 228,
+        "2": 969,
+        "3": 424,
+        "4": 170
+      },
+      "valid_votes": 1791,
+      "invalid_votes": 33,
+      "ballots_cast": 1824,
+      "unreturned_ballots": 0,
+      "electors": 2340,
+      "turnout_rate": 77.9487
+    },
+    "TAO-ZHONGLI-WUQUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "五權里",
+      "village_en": "Wuquan Village",
+      "votes": {
+        "1": 731,
+        "2": 2768,
+        "3": 960,
+        "4": 590
+      },
+      "valid_votes": 5049,
+      "invalid_votes": 71,
+      "ballots_cast": 5120,
+      "unreturned_ballots": 0,
+      "electors": 6722,
+      "turnout_rate": 76.1678
+    },
+    "TAO-ZHONGLI-ZHIBA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "芝芭里",
+      "village_en": "Zhiba Village",
+      "votes": {
+        "1": 140,
+        "2": 776,
+        "3": 363,
+        "4": 71
+      },
+      "valid_votes": 1350,
+      "invalid_votes": 18,
+      "ballots_cast": 1368,
+      "unreturned_ballots": 0,
+      "electors": 1772,
+      "turnout_rate": 77.2009
+    },
+    "TAO-ZHONGLI-QIAXI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "洽溪里",
+      "village_en": "Qiaxi Village",
+      "votes": {
+        "1": 87,
+        "2": 564,
+        "3": 296,
+        "4": 56
+      },
+      "valid_votes": 1003,
+      "invalid_votes": 22,
+      "ballots_cast": 1025,
+      "unreturned_ballots": 0,
+      "electors": 1294,
+      "turnout_rate": 79.2117
+    },
+    "TAO-ZHONGLI-NEICUO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "內厝里",
+      "village_en": "Neicuo Village",
+      "votes": {
+        "1": 290,
+        "2": 1283,
+        "3": 503,
+        "4": 214
+      },
+      "valid_votes": 2290,
+      "invalid_votes": 28,
+      "ballots_cast": 2318,
+      "unreturned_ballots": 0,
+      "electors": 2959,
+      "turnout_rate": 78.3373
+    },
+    "TAO-ZHONGLI-YUEMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "月眉里",
+      "village_en": "Yuemei Village",
+      "votes": {
+        "1": 170,
+        "2": 988,
+        "3": 510,
+        "4": 96
+      },
+      "valid_votes": 1764,
+      "invalid_votes": 34,
+      "ballots_cast": 1798,
+      "unreturned_ballots": 0,
+      "electors": 2358,
+      "turnout_rate": 76.2511
+    },
+    "TAO-ZHONGLI-SHANDONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "山東里",
+      "village_en": "Shandong Village",
+      "votes": {
+        "1": 172,
+        "2": 1020,
+        "3": 558,
+        "4": 109
+      },
+      "valid_votes": 1859,
+      "invalid_votes": 24,
+      "ballots_cast": 1883,
+      "unreturned_ballots": 0,
+      "electors": 2408,
+      "turnout_rate": 78.1977
+    },
+    "TAO-ZHONGLI-GUOLING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "中壢市",
+      "township_en": "Zhongli City",
+      "village_zh": "過嶺里",
+      "village_en": "Guoling Village",
+      "votes": {
+        "1": 204,
+        "2": 895,
+        "3": 372,
+        "4": 135
+      },
+      "valid_votes": 1606,
+      "invalid_votes": 21,
+      "ballots_cast": 1627,
+      "unreturned_ballots": 0,
+      "electors": 2121,
+      "turnout_rate": 76.7091
+    },
+    "TAO-BADE-XINGREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "興仁里",
+      "village_en": "Xingren Village",
+      "votes": {
+        "1": 189,
+        "2": 999,
+        "3": 308,
+        "4": 307
+      },
+      "valid_votes": 1803,
+      "invalid_votes": 27,
+      "ballots_cast": 1830,
+      "unreturned_ballots": 0,
+      "electors": 2421,
+      "turnout_rate": 75.5886
+    },
+    "TAO-BADE-FUXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "福興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 152,
+        "2": 1009,
+        "3": 267,
+        "4": 300
+      },
+      "valid_votes": 1728,
+      "invalid_votes": 34,
+      "ballots_cast": 1762,
+      "unreturned_ballots": 0,
+      "electors": 2309,
+      "turnout_rate": 76.3101
+    },
+    "TAO-BADE-RUIFENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "瑞豐里",
+      "village_en": "Ruifeng Village",
+      "votes": {
+        "1": 207,
+        "2": 1413,
+        "3": 296,
+        "4": 362
+      },
+      "valid_votes": 2278,
+      "invalid_votes": 31,
+      "ballots_cast": 2309,
+      "unreturned_ballots": 0,
+      "electors": 2909,
+      "turnout_rate": 79.3744
+    },
+    "TAO-BADE-RUITAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "瑞泰里",
+      "village_en": "Ruitai Village",
+      "votes": {
+        "1": 243,
+        "2": 1143,
+        "3": 298,
+        "4": 362
+      },
+      "valid_votes": 2046,
+      "invalid_votes": 30,
+      "ballots_cast": 2076,
+      "unreturned_ballots": 0,
+      "electors": 2719,
+      "turnout_rate": 76.3516
+    },
+    "TAO-BADE-RUIFA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "瑞發里",
+      "village_en": "Ruifa Village",
+      "votes": {
+        "1": 274,
+        "2": 1262,
+        "3": 234,
+        "4": 663
+      },
+      "valid_votes": 2433,
+      "invalid_votes": 40,
+      "ballots_cast": 2473,
+      "unreturned_ballots": 0,
+      "electors": 3135,
+      "turnout_rate": 78.8836
+    },
+    "TAO-BADE-RUIDE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "瑞德里",
+      "village_en": "Ruide Village",
+      "votes": {
+        "1": 225,
+        "2": 1385,
+        "3": 164,
+        "4": 638
+      },
+      "valid_votes": 2412,
+      "invalid_votes": 55,
+      "ballots_cast": 2467,
+      "unreturned_ballots": 0,
+      "electors": 3137,
+      "turnout_rate": 78.642
+    },
+    "TAO-BADE-RUIXIANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "瑞祥里",
+      "village_en": "Ruixiang Village",
+      "votes": {
+        "1": 238,
+        "2": 1098,
+        "3": 143,
+        "4": 739
+      },
+      "valid_votes": 2218,
+      "invalid_votes": 37,
+      "ballots_cast": 2255,
+      "unreturned_ballots": 0,
+      "electors": 2885,
+      "turnout_rate": 78.1629
+    },
+    "TAO-BADE-GUANGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "廣興里",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 228,
+        "2": 1592,
+        "3": 375,
+        "4": 413
+      },
+      "valid_votes": 2608,
+      "invalid_votes": 53,
+      "ballots_cast": 2661,
+      "unreturned_ballots": 0,
+      "electors": 3367,
+      "turnout_rate": 79.0318
+    },
+    "TAO-BADE-GUANGLONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "廣隆里",
+      "village_en": "Guanglong Village",
+      "votes": {
+        "1": 223,
+        "2": 1062,
+        "3": 230,
+        "4": 509
+      },
+      "valid_votes": 2024,
+      "invalid_votes": 44,
+      "ballots_cast": 2068,
+      "unreturned_ballots": 0,
+      "electors": 2577,
+      "turnout_rate": 80.2484
+    },
+    "TAO-BADE-ZHUYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "竹園里",
+      "village_en": "Zhuyuan Village",
+      "votes": {
+        "1": 152,
+        "2": 1018,
+        "3": 210,
+        "4": 263
+      },
+      "valid_votes": 1643,
+      "invalid_votes": 24,
+      "ballots_cast": 1667,
+      "unreturned_ballots": 0,
+      "electors": 2190,
+      "turnout_rate": 76.1187
+    },
+    "TAO-BADE-XIAOLI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "霄裡里",
+      "village_en": "Xiaoli Village",
+      "votes": {
+        "1": 271,
+        "2": 1334,
+        "3": 258,
+        "4": 863
+      },
+      "valid_votes": 2726,
+      "invalid_votes": 37,
+      "ballots_cast": 2763,
+      "unreturned_ballots": 0,
+      "electors": 3673,
+      "turnout_rate": 75.2246
+    },
+    "TAO-BADE-JIADONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "茄苳里",
+      "village_en": "Jiadong Village",
+      "votes": {
+        "1": 455,
+        "2": 2132,
+        "3": 546,
+        "4": 594
+      },
+      "valid_votes": 3727,
+      "invalid_votes": 69,
+      "ballots_cast": 3796,
+      "unreturned_ballots": 0,
+      "electors": 4835,
+      "turnout_rate": 78.5109
+    },
+    "TAO-BADE-GAOMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "高明里",
+      "village_en": "Gaoming Village",
+      "votes": {
+        "1": 386,
+        "2": 2025,
+        "3": 445,
+        "4": 556
+      },
+      "valid_votes": 3412,
+      "invalid_votes": 60,
+      "ballots_cast": 3472,
+      "unreturned_ballots": 0,
+      "electors": 4377,
+      "turnout_rate": 79.3237
+    },
+    "TAO-BADE-BAILU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "白鷺里",
+      "village_en": "Bailu Village",
+      "votes": {
+        "1": 118,
+        "2": 902,
+        "3": 209,
+        "4": 219
+      },
+      "valid_votes": 1448,
+      "invalid_votes": 20,
+      "ballots_cast": 1468,
+      "unreturned_ballots": 0,
+      "electors": 1853,
+      "turnout_rate": 79.2229
+    },
+    "TAO-BADE-DANAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大湳里",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 172,
+        "2": 947,
+        "3": 274,
+        "4": 170
+      },
+      "valid_votes": 1563,
+      "invalid_votes": 16,
+      "ballots_cast": 1579,
+      "unreturned_ballots": 0,
+      "electors": 2111,
+      "turnout_rate": 74.7987
+    },
+    "TAO-BADE-DAFA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大發里",
+      "village_en": "Dafa Village",
+      "votes": {
+        "1": 105,
+        "2": 668,
+        "3": 132,
+        "4": 115
+      },
+      "valid_votes": 1020,
+      "invalid_votes": 14,
+      "ballots_cast": 1034,
+      "unreturned_ballots": 0,
+      "electors": 1298,
+      "turnout_rate": 79.661
+    },
+    "TAO-BADE-DAREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大仁里",
+      "village_en": "Daren Village",
+      "votes": {
+        "1": 245,
+        "2": 1121,
+        "3": 314,
+        "4": 250
+      },
+      "valid_votes": 1930,
+      "invalid_votes": 31,
+      "ballots_cast": 1961,
+      "unreturned_ballots": 0,
+      "electors": 2513,
+      "turnout_rate": 78.0342
+    },
+    "TAO-BADE-DAMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大明里",
+      "village_en": "Daming Village",
+      "votes": {
+        "1": 159,
+        "2": 802,
+        "3": 255,
+        "4": 183
+      },
+      "valid_votes": 1399,
+      "invalid_votes": 16,
+      "ballots_cast": 1415,
+      "unreturned_ballots": 0,
+      "electors": 1890,
+      "turnout_rate": 74.8677
+    },
+    "TAO-BADE-DAAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大安里",
+      "village_en": "Daan Village",
+      "votes": {
+        "1": 88,
+        "2": 592,
+        "3": 161,
+        "4": 103
+      },
+      "valid_votes": 944,
+      "invalid_votes": 18,
+      "ballots_cast": 962,
+      "unreturned_ballots": 0,
+      "electors": 1206,
+      "turnout_rate": 79.7678
+    },
+    "TAO-BADE-DAZHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大竹里",
+      "village_en": "Dazhu Village",
+      "votes": {
+        "1": 82,
+        "2": 477,
+        "3": 137,
+        "4": 143
+      },
+      "valid_votes": 839,
+      "invalid_votes": 15,
+      "ballots_cast": 854,
+      "unreturned_ballots": 0,
+      "electors": 1086,
+      "turnout_rate": 78.6372
+    },
+    "TAO-BADE-DAXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大興里",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 295,
+        "2": 1354,
+        "3": 295,
+        "4": 521
+      },
+      "valid_votes": 2465,
+      "invalid_votes": 26,
+      "ballots_cast": 2491,
+      "unreturned_ballots": 0,
+      "electors": 3217,
+      "turnout_rate": 77.4324
+    },
+    "TAO-BADE-DAHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大華里",
+      "village_en": "Dahua Village",
+      "votes": {
+        "1": 301,
+        "2": 1543,
+        "3": 293,
+        "4": 628
+      },
+      "valid_votes": 2765,
+      "invalid_votes": 37,
+      "ballots_cast": 2802,
+      "unreturned_ballots": 0,
+      "electors": 3634,
+      "turnout_rate": 77.1051
+    },
+    "TAO-BADE-DAXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大信里",
+      "village_en": "Daxin Village",
+      "votes": {
+        "1": 260,
+        "2": 2575,
+        "3": 204,
+        "4": 864
+      },
+      "valid_votes": 3903,
+      "invalid_votes": 102,
+      "ballots_cast": 4005,
+      "unreturned_ballots": 0,
+      "electors": 6069,
+      "turnout_rate": 65.9911
+    },
+    "TAO-BADE-DAHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大和里",
+      "village_en": "Dahe Village",
+      "votes": {
+        "1": 146,
+        "2": 718,
+        "3": 165,
+        "4": 272
+      },
+      "valid_votes": 1301,
+      "invalid_votes": 17,
+      "ballots_cast": 1318,
+      "unreturned_ballots": 0,
+      "electors": 1779,
+      "turnout_rate": 74.0866
+    },
+    "TAO-BADE-DACHANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大昌里",
+      "village_en": "Dachang Village",
+      "votes": {
+        "1": 217,
+        "2": 977,
+        "3": 210,
+        "4": 450
+      },
+      "valid_votes": 1854,
+      "invalid_votes": 23,
+      "ballots_cast": 1877,
+      "unreturned_ballots": 0,
+      "electors": 2405,
+      "turnout_rate": 78.0457
+    },
+    "TAO-BADE-DATONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大同里",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 129,
+        "2": 745,
+        "3": 194,
+        "4": 355
+      },
+      "valid_votes": 1423,
+      "invalid_votes": 13,
+      "ballots_cast": 1436,
+      "unreturned_ballots": 0,
+      "electors": 1825,
+      "turnout_rate": 78.6849
+    },
+    "TAO-BADE-DACHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大成里",
+      "village_en": "Dacheng Village",
+      "votes": {
+        "1": 433,
+        "2": 1873,
+        "3": 490,
+        "4": 776
+      },
+      "valid_votes": 3572,
+      "invalid_votes": 44,
+      "ballots_cast": 3616,
+      "unreturned_ballots": 0,
+      "electors": 4590,
+      "turnout_rate": 78.78
+    },
+    "TAO-BADE-DAYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大義里",
+      "village_en": "Dayi Village",
+      "votes": {
+        "1": 326,
+        "2": 1642,
+        "3": 366,
+        "4": 731
+      },
+      "valid_votes": 3065,
+      "invalid_votes": 39,
+      "ballots_cast": 3104,
+      "unreturned_ballots": 0,
+      "electors": 4050,
+      "turnout_rate": 76.642
+    },
+    "TAO-BADE-DAZHONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大忠里",
+      "village_en": "Dazhong Village",
+      "votes": {
+        "1": 154,
+        "2": 675,
+        "3": 185,
+        "4": 365
+      },
+      "valid_votes": 1379,
+      "invalid_votes": 24,
+      "ballots_cast": 1403,
+      "unreturned_ballots": 0,
+      "electors": 1824,
+      "turnout_rate": 76.9189
+    },
+    "TAO-BADE-DAZHI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大智里",
+      "village_en": "Dazhi Village",
+      "votes": {
+        "1": 356,
+        "2": 1333,
+        "3": 290,
+        "4": 823
+      },
+      "valid_votes": 2802,
+      "invalid_votes": 29,
+      "ballots_cast": 2831,
+      "unreturned_ballots": 0,
+      "electors": 3617,
+      "turnout_rate": 78.2693
+    },
+    "TAO-BADE-DAZHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大正里",
+      "village_en": "Dazheng Village",
+      "votes": {
+        "1": 245,
+        "2": 946,
+        "3": 199,
+        "4": 454
+      },
+      "valid_votes": 1844,
+      "invalid_votes": 29,
+      "ballots_cast": 1873,
+      "unreturned_ballots": 0,
+      "electors": 2387,
+      "turnout_rate": 78.4667
+    },
+    "TAO-BADE-DAFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大福里",
+      "village_en": "Dafu Village",
+      "votes": {
+        "1": 263,
+        "2": 1084,
+        "3": 310,
+        "4": 308
+      },
+      "valid_votes": 1965,
+      "invalid_votes": 29,
+      "ballots_cast": 1994,
+      "unreturned_ballots": 0,
+      "electors": 2588,
+      "turnout_rate": 77.0479
+    },
+    "TAO-BADE-DAQIANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大強里",
+      "village_en": "Daqiang Village",
+      "votes": {
+        "1": 161,
+        "2": 969,
+        "3": 243,
+        "4": 173
+      },
+      "valid_votes": 1546,
+      "invalid_votes": 17,
+      "ballots_cast": 1563,
+      "unreturned_ballots": 0,
+      "electors": 1952,
+      "turnout_rate": 80.0717
+    },
+    "TAO-BADE-DAYONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "八德市",
+      "township_en": "Bade City",
+      "village_zh": "大勇里",
+      "village_en": "Dayong Village",
+      "votes": {
+        "1": 280,
+        "2": 1290,
+        "3": 327,
+        "4": 422
+      },
+      "valid_votes": 2319,
+      "invalid_votes": 41,
+      "ballots_cast": 2360,
+      "unreturned_ballots": 0,
+      "electors": 3073,
+      "turnout_rate": 76.7979
+    },
+    "TAO-DAXI-XINGHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "興和里",
+      "village_en": "Xinghe Village",
+      "votes": {
+        "1": 178,
+        "2": 716,
+        "3": 351,
+        "4": 139
+      },
+      "valid_votes": 1384,
+      "invalid_votes": 17,
+      "ballots_cast": 1401,
+      "unreturned_ballots": 0,
+      "electors": 1753,
+      "turnout_rate": 79.9201
+    },
+    "TAO-DAXI-FUREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "福仁里",
+      "village_en": "Furen Village",
+      "votes": {
+        "1": 92,
+        "2": 560,
+        "3": 221,
+        "4": 44
+      },
+      "valid_votes": 917,
+      "invalid_votes": 11,
+      "ballots_cast": 928,
+      "unreturned_ballots": 0,
+      "electors": 1148,
+      "turnout_rate": 80.8362
+    },
+    "TAO-DAXI-YIXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "一心里",
+      "village_en": "Yixin Village",
+      "votes": {
+        "1": 468,
+        "2": 2592,
+        "3": 960,
+        "4": 419
+      },
+      "valid_votes": 4439,
+      "invalid_votes": 41,
+      "ballots_cast": 4480,
+      "unreturned_ballots": 0,
+      "electors": 5678,
+      "turnout_rate": 78.901
+    },
+    "TAO-DAXI-YIDE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "一德里",
+      "village_en": "Yide Village",
+      "votes": {
+        "1": 230,
+        "2": 1640,
+        "3": 520,
+        "4": 241
+      },
+      "valid_votes": 2631,
+      "invalid_votes": 29,
+      "ballots_cast": 2660,
+      "unreturned_ballots": 0,
+      "electors": 3373,
+      "turnout_rate": 78.8615
+    },
+    "TAO-DAXI-YUEMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "月眉里",
+      "village_en": "Yuemei Village",
+      "votes": {
+        "1": 59,
+        "2": 499,
+        "3": 180,
+        "4": 53
+      },
+      "valid_votes": 791,
+      "invalid_votes": 6,
+      "ballots_cast": 797,
+      "unreturned_ballots": 0,
+      "electors": 1001,
+      "turnout_rate": 79.6204
+    },
+    "TAO-DAXI-YONGFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "永福里",
+      "village_en": "Yongfu Village",
+      "votes": {
+        "1": 68,
+        "2": 431,
+        "3": 193,
+        "4": 43
+      },
+      "valid_votes": 735,
+      "invalid_votes": 6,
+      "ballots_cast": 741,
+      "unreturned_ballots": 0,
+      "electors": 915,
+      "turnout_rate": 80.9836
+    },
+    "TAO-DAXI-KANGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "康安里",
+      "village_en": "Kangan Village",
+      "votes": {
+        "1": 65,
+        "2": 443,
+        "3": 194,
+        "4": 56
+      },
+      "valid_votes": 758,
+      "invalid_votes": 7,
+      "ballots_cast": 765,
+      "unreturned_ballots": 0,
+      "electors": 987,
+      "turnout_rate": 77.5076
+    },
+    "TAO-DAXI-YIHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "義和里",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 110,
+        "2": 675,
+        "3": 325,
+        "4": 80
+      },
+      "valid_votes": 1190,
+      "invalid_votes": 10,
+      "ballots_cast": 1200,
+      "unreturned_ballots": 0,
+      "electors": 1597,
+      "turnout_rate": 75.1409
+    },
+    "TAO-DAXI-MEIHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "美華里",
+      "village_en": "Meihua Village",
+      "votes": {
+        "1": 143,
+        "2": 1037,
+        "3": 412,
+        "4": 105
+      },
+      "valid_votes": 1697,
+      "invalid_votes": 25,
+      "ballots_cast": 1722,
+      "unreturned_ballots": 0,
+      "electors": 2218,
+      "turnout_rate": 77.6375
+    },
+    "TAO-DAXI-FUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "福安里",
+      "village_en": "Fuan Village",
+      "votes": {
+        "1": 128,
+        "2": 871,
+        "3": 477,
+        "4": 108
+      },
+      "valid_votes": 1584,
+      "invalid_votes": 18,
+      "ballots_cast": 1602,
+      "unreturned_ballots": 0,
+      "electors": 2083,
+      "turnout_rate": 76.9083
+    },
+    "TAO-DAXI-FUXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 39,
+        "2": 486,
+        "3": 123,
+        "4": 60
+      },
+      "valid_votes": 708,
+      "invalid_votes": 16,
+      "ballots_cast": 724,
+      "unreturned_ballots": 0,
+      "electors": 955,
+      "turnout_rate": 75.8115
+    },
+    "TAO-DAXI-XINFENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "新峰里",
+      "village_en": "Xinfeng Village",
+      "votes": {
+        "1": 68,
+        "2": 513,
+        "3": 106,
+        "4": 55
+      },
+      "valid_votes": 742,
+      "invalid_votes": 12,
+      "ballots_cast": 754,
+      "unreturned_ballots": 0,
+      "electors": 1006,
+      "turnout_rate": 74.9503
+    },
+    "TAO-DAXI-ZHONGXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "中新里",
+      "village_en": "Zhongxin Village",
+      "votes": {
+        "1": 78,
+        "2": 795,
+        "3": 232,
+        "4": 97
+      },
+      "valid_votes": 1202,
+      "invalid_votes": 24,
+      "ballots_cast": 1226,
+      "unreturned_ballots": 0,
+      "electors": 1571,
+      "turnout_rate": 78.0395
+    },
+    "TAO-DAXI-RUIXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "瑞興里",
+      "village_en": "Ruixing Village",
+      "votes": {
+        "1": 115,
+        "2": 890,
+        "3": 422,
+        "4": 100
+      },
+      "valid_votes": 1527,
+      "invalid_votes": 23,
+      "ballots_cast": 1550,
+      "unreturned_ballots": 0,
+      "electors": 1926,
+      "turnout_rate": 80.4777
+    },
+    "TAO-DAXI-RENSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "仁善里",
+      "village_en": "Renshan Village",
+      "votes": {
+        "1": 160,
+        "2": 1154,
+        "3": 238,
+        "4": 251
+      },
+      "valid_votes": 1803,
+      "invalid_votes": 27,
+      "ballots_cast": 1830,
+      "unreturned_ballots": 0,
+      "electors": 2291,
+      "turnout_rate": 79.8778
+    },
+    "TAO-DAXI-QIAOAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "僑愛里",
+      "village_en": "Qiaoai Village",
+      "votes": {
+        "1": 89,
+        "2": 434,
+        "3": 22,
+        "4": 611
+      },
+      "valid_votes": 1156,
+      "invalid_votes": 12,
+      "ballots_cast": 1168,
+      "unreturned_ballots": 0,
+      "electors": 1458,
+      "turnout_rate": 80.1097
+    },
+    "TAO-DAXI-RENYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "仁義里",
+      "village_en": "Renyi Village",
+      "votes": {
+        "1": 174,
+        "2": 1305,
+        "3": 86,
+        "4": 586
+      },
+      "valid_votes": 2151,
+      "invalid_votes": 34,
+      "ballots_cast": 2185,
+      "unreturned_ballots": 0,
+      "electors": 2818,
+      "turnout_rate": 77.5373
+    },
+    "TAO-DAXI-RENAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "仁愛里",
+      "village_en": "Renai Village",
+      "votes": {
+        "1": 284,
+        "2": 1888,
+        "3": 355,
+        "4": 446
+      },
+      "valid_votes": 2973,
+      "invalid_votes": 54,
+      "ballots_cast": 3027,
+      "unreturned_ballots": 0,
+      "electors": 3897,
+      "turnout_rate": 77.6751
+    },
+    "TAO-DAXI-RENWU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "仁武里",
+      "village_en": "Renwu Village",
+      "votes": {
+        "1": 474,
+        "2": 2214,
+        "3": 534,
+        "4": 1030
+      },
+      "valid_votes": 4252,
+      "invalid_votes": 43,
+      "ballots_cast": 4295,
+      "unreturned_ballots": 0,
+      "electors": 5527,
+      "turnout_rate": 77.7094
+    },
+    "TAO-DAXI-NANXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "南興里",
+      "village_en": "Nanxing Village",
+      "votes": {
+        "1": 288,
+        "2": 1769,
+        "3": 550,
+        "4": 270
+      },
+      "valid_votes": 2877,
+      "invalid_votes": 51,
+      "ballots_cast": 2928,
+      "unreturned_ballots": 0,
+      "electors": 3665,
+      "turnout_rate": 79.8909
+    },
+    "TAO-DAXI-YUANLIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "員林里",
+      "village_en": "Yuanlin Village",
+      "votes": {
+        "1": 468,
+        "2": 2186,
+        "3": 387,
+        "4": 1117
+      },
+      "valid_votes": 4158,
+      "invalid_votes": 68,
+      "ballots_cast": 4226,
+      "unreturned_ballots": 0,
+      "electors": 5345,
+      "turnout_rate": 79.0645
+    },
+    "TAO-DAXI-RUIYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大溪鎮",
+      "township_en": "Daxi Township",
+      "village_zh": "瑞源里",
+      "village_en": "Ruiyuan Village",
+      "votes": {
+        "1": 218,
+        "2": 977,
+        "3": 402,
+        "4": 339
+      },
+      "valid_votes": 1936,
+      "invalid_votes": 20,
+      "ballots_cast": 1956,
+      "unreturned_ballots": 0,
+      "electors": 2541,
+      "turnout_rate": 76.9776
+    },
+    "TAO-GUISHAN-GUISHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "龜山村",
+      "village_en": "Guishan Village",
+      "votes": {
+        "1": 390,
+        "2": 1720,
+        "3": 555,
+        "4": 582
+      },
+      "valid_votes": 3247,
+      "invalid_votes": 44,
+      "ballots_cast": 3291,
+      "unreturned_ballots": 0,
+      "electors": 4136,
+      "turnout_rate": 79.5696
+    },
+    "TAO-GUISHAN-XINLU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "新路村",
+      "village_en": "Xinlu Village",
+      "votes": {
+        "1": 455,
+        "2": 2076,
+        "3": 653,
+        "4": 737
+      },
+      "valid_votes": 3921,
+      "invalid_votes": 48,
+      "ballots_cast": 3969,
+      "unreturned_ballots": 0,
+      "electors": 4958,
+      "turnout_rate": 80.0524
+    },
+    "TAO-GUISHAN-DATONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "大同村",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 306,
+        "2": 1518,
+        "3": 345,
+        "4": 491
+      },
+      "valid_votes": 2660,
+      "invalid_votes": 35,
+      "ballots_cast": 2695,
+      "unreturned_ballots": 0,
+      "electors": 3422,
+      "turnout_rate": 78.7551
+    },
+    "TAO-GUISHAN-ZHONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "中興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 426,
+        "2": 1900,
+        "3": 542,
+        "4": 820
+      },
+      "valid_votes": 3688,
+      "invalid_votes": 51,
+      "ballots_cast": 3739,
+      "unreturned_ballots": 0,
+      "electors": 4881,
+      "turnout_rate": 76.6032
+    },
+    "TAO-GUISHAN-LUGUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "陸光村",
+      "village_en": "Luguang Village",
+      "votes": {
+        "1": 187,
+        "2": 821,
+        "3": 26,
+        "4": 1004
+      },
+      "valid_votes": 2038,
+      "invalid_votes": 27,
+      "ballots_cast": 2065,
+      "unreturned_ballots": 0,
+      "electors": 2540,
+      "turnout_rate": 81.2992
+    },
+    "TAO-GUISHAN-JINGZHONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "精忠村",
+      "village_en": "Jingzhong Village",
+      "votes": {
+        "1": 187,
+        "2": 859,
+        "3": 114,
+        "4": 818
+      },
+      "valid_votes": 1978,
+      "invalid_votes": 12,
+      "ballots_cast": 1990,
+      "unreturned_ballots": 0,
+      "electors": 2406,
+      "turnout_rate": 82.7099
+    },
+    "TAO-GUISHAN-TUKENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "兔坑村",
+      "village_en": "Tukeng Village",
+      "votes": {
+        "1": 215,
+        "2": 1211,
+        "3": 399,
+        "4": 290
+      },
+      "valid_votes": 2115,
+      "invalid_votes": 36,
+      "ballots_cast": 2151,
+      "unreturned_ballots": 0,
+      "electors": 2806,
+      "turnout_rate": 76.6572
+    },
+    "TAO-GUISHAN-LONGSHOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "龍壽村",
+      "village_en": "Longshou Village",
+      "votes": {
+        "1": 569,
+        "2": 2374,
+        "3": 1068,
+        "4": 622
+      },
+      "valid_votes": 4633,
+      "invalid_votes": 61,
+      "ballots_cast": 4694,
+      "unreturned_ballots": 0,
+      "electors": 6333,
+      "turnout_rate": 74.1197
+    },
+    "TAO-GUISHAN-LINGDING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "嶺頂村",
+      "village_en": "Lingding Village",
+      "votes": {
+        "1": 466,
+        "2": 1678,
+        "3": 731,
+        "4": 539
+      },
+      "valid_votes": 3414,
+      "invalid_votes": 62,
+      "ballots_cast": 3476,
+      "unreturned_ballots": 0,
+      "electors": 4725,
+      "turnout_rate": 73.5661
+    },
+    "TAO-GUISHAN-JIULU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "舊路村",
+      "village_en": "Jiulu Village",
+      "votes": {
+        "1": 122,
+        "2": 856,
+        "3": 272,
+        "4": 99
+      },
+      "valid_votes": 1349,
+      "invalid_votes": 11,
+      "ballots_cast": 1360,
+      "unreturned_ballots": 0,
+      "electors": 1749,
+      "turnout_rate": 77.7587
+    },
+    "TAO-GUISHAN-SHANDE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "山德村",
+      "village_en": "Shande Village",
+      "votes": {
+        "1": 373,
+        "2": 1795,
+        "3": 569,
+        "4": 686
+      },
+      "valid_votes": 3423,
+      "invalid_votes": 49,
+      "ballots_cast": 3472,
+      "unreturned_ballots": 0,
+      "electors": 4596,
+      "turnout_rate": 75.544
+    },
+    "TAO-GUISHAN-SHANDING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "山頂村",
+      "village_en": "Shanding Village",
+      "votes": {
+        "1": 273,
+        "2": 1300,
+        "3": 324,
+        "4": 471
+      },
+      "valid_votes": 2368,
+      "invalid_votes": 34,
+      "ballots_cast": 2402,
+      "unreturned_ballots": 0,
+      "electors": 4882,
+      "turnout_rate": 49.2011
+    },
+    "TAO-GUISHAN-SHANFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "山福村",
+      "village_en": "Shanfu Village",
+      "votes": {
+        "1": 548,
+        "2": 2612,
+        "3": 629,
+        "4": 955
+      },
+      "valid_votes": 4744,
+      "invalid_votes": 76,
+      "ballots_cast": 4820,
+      "unreturned_ballots": 0,
+      "electors": 6613,
+      "turnout_rate": 72.8867
+    },
+    "TAO-GUISHAN-DAGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "大崗村",
+      "village_en": "Dagang Village",
+      "votes": {
+        "1": 396,
+        "2": 2043,
+        "3": 461,
+        "4": 490
+      },
+      "valid_votes": 3390,
+      "invalid_votes": 35,
+      "ballots_cast": 3425,
+      "unreturned_ballots": 0,
+      "electors": 4445,
+      "turnout_rate": 77.0529
+    },
+    "TAO-GUISHAN-GONGXI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "公西村",
+      "village_en": "Gongxi Village",
+      "votes": {
+        "1": 170,
+        "2": 901,
+        "3": 283,
+        "4": 277
+      },
+      "valid_votes": 1631,
+      "invalid_votes": 25,
+      "ballots_cast": 1656,
+      "unreturned_ballots": 0,
+      "electors": 2173,
+      "turnout_rate": 76.208
+    },
+    "TAO-GUISHAN-LESHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "樂善村",
+      "village_en": "Leshan Village",
+      "votes": {
+        "1": 353,
+        "2": 928,
+        "3": 579,
+        "4": 437
+      },
+      "valid_votes": 2297,
+      "invalid_votes": 35,
+      "ballots_cast": 2332,
+      "unreturned_ballots": 0,
+      "electors": 3261,
+      "turnout_rate": 71.5118
+    },
+    "TAO-GUISHAN-DAKENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "大坑村",
+      "village_en": "Dakeng Village",
+      "votes": {
+        "1": 77,
+        "2": 552,
+        "3": 145,
+        "4": 39
+      },
+      "valid_votes": 813,
+      "invalid_votes": 17,
+      "ballots_cast": 830,
+      "unreturned_ballots": 0,
+      "electors": 1040,
+      "turnout_rate": 79.8077
+    },
+    "TAO-GUISHAN-NANSHANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "南上村",
+      "village_en": "Nanshang Village",
+      "votes": {
+        "1": 194,
+        "2": 1046,
+        "3": 275,
+        "4": 147
+      },
+      "valid_votes": 1662,
+      "invalid_votes": 26,
+      "ballots_cast": 1688,
+      "unreturned_ballots": 0,
+      "electors": 2099,
+      "turnout_rate": 80.4192
+    },
+    "TAO-GUISHAN-FENGSHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龜山鄉",
+      "township_en": "Guishan Township",
+      "village_zh": "楓樹村",
+      "village_en": "Fengshu Village",
+      "votes": {
+        "1": 185,
+        "2": 853,
+        "3": 274,
+        "4": 189
+      },
+      "valid_votes": 1501,
+      "invalid_votes": 19,
+      "ballots_cast": 1520,
+      "unreturned_ballots": 0,
+      "electors": 1902,
+      "turnout_rate": 79.9159
+    },
+    "TAO-FUXING-SANMIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "三民村",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 76,
+        "2": 860,
+        "3": 179,
+        "4": 76
+      },
+      "valid_votes": 1191,
+      "invalid_votes": 25,
+      "ballots_cast": 1216,
+      "unreturned_ballots": 0,
+      "electors": 1753,
+      "turnout_rate": 69.3668
+    },
+    "TAO-FUXING-ZEREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "澤仁村",
+      "village_en": "Zeren Village",
+      "votes": {
+        "1": 58,
+        "2": 560,
+        "3": 71,
+        "4": 93
+      },
+      "valid_votes": 782,
+      "invalid_votes": 11,
+      "ballots_cast": 793,
+      "unreturned_ballots": 0,
+      "electors": 1153,
+      "turnout_rate": 68.7771
+    },
+    "TAO-FUXING-ZHANGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "長興村",
+      "village_en": "Zhangxing Village",
+      "votes": {
+        "1": 19,
+        "2": 274,
+        "3": 30,
+        "4": 30
+      },
+      "valid_votes": 353,
+      "invalid_votes": 10,
+      "ballots_cast": 363,
+      "unreturned_ballots": 0,
+      "electors": 549,
+      "turnout_rate": 66.1202
+    },
+    "TAO-FUXING-KUIHUI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "奎輝村",
+      "village_en": "Kuihui Village",
+      "votes": {
+        "1": 17,
+        "2": 270,
+        "3": 17,
+        "4": 16
+      },
+      "valid_votes": 320,
+      "invalid_votes": 10,
+      "ballots_cast": 330,
+      "unreturned_ballots": 0,
+      "electors": 462,
+      "turnout_rate": 71.4286
+    },
+    "TAO-FUXING-LUOFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "羅浮村",
+      "village_en": "Luofu Village",
+      "votes": {
+        "1": 39,
+        "2": 406,
+        "3": 53,
+        "4": 68
+      },
+      "valid_votes": 566,
+      "invalid_votes": 13,
+      "ballots_cast": 579,
+      "unreturned_ballots": 0,
+      "electors": 881,
+      "turnout_rate": 65.7208
+    },
+    "TAO-FUXING-XIAYUN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "霞雲村",
+      "village_en": "Xiayun Village",
+      "votes": {
+        "1": 12,
+        "2": 272,
+        "3": 7,
+        "4": 28
+      },
+      "valid_votes": 319,
+      "invalid_votes": 6,
+      "ballots_cast": 325,
+      "unreturned_ballots": 0,
+      "electors": 457,
+      "turnout_rate": 71.116
+    },
+    "TAO-FUXING-YISHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "義盛村",
+      "village_en": "Yisheng Village",
+      "votes": {
+        "1": 20,
+        "2": 287,
+        "3": 12,
+        "4": 51
+      },
+      "valid_votes": 370,
+      "invalid_votes": 6,
+      "ballots_cast": 376,
+      "unreturned_ballots": 0,
+      "electors": 539,
+      "turnout_rate": 69.7588
+    },
+    "TAO-FUXING-GAOYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "高義村",
+      "village_en": "Gaoyi Village",
+      "votes": {
+        "1": 15,
+        "2": 287,
+        "3": 35,
+        "4": 20
+      },
+      "valid_votes": 357,
+      "invalid_votes": 8,
+      "ballots_cast": 365,
+      "unreturned_ballots": 0,
+      "electors": 569,
+      "turnout_rate": 64.1476
+    },
+    "TAO-FUXING-SANGUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "三光村",
+      "village_en": "Sanguang Village",
+      "votes": {
+        "1": 14,
+        "2": 262,
+        "3": 12,
+        "4": 38
+      },
+      "valid_votes": 326,
+      "invalid_votes": 9,
+      "ballots_cast": 335,
+      "unreturned_ballots": 0,
+      "electors": 480,
+      "turnout_rate": 69.7917
+    },
+    "TAO-FUXING-HUALING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "復興鄉",
+      "township_en": "Fuxing Township",
+      "village_zh": "華陵村",
+      "village_en": "Hualing Village",
+      "votes": {
+        "1": 27,
+        "2": 393,
+        "3": 63,
+        "4": 44
+      },
+      "valid_votes": 527,
+      "invalid_votes": 9,
+      "ballots_cast": 536,
+      "unreturned_ballots": 0,
+      "electors": 892,
+      "turnout_rate": 60.0897
+    },
+    "TAO-LUZHU-XINXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "新興村",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 192,
+        "2": 1168,
+        "3": 385,
+        "4": 131
+      },
+      "valid_votes": 1876,
+      "invalid_votes": 31,
+      "ballots_cast": 1907,
+      "unreturned_ballots": 0,
+      "electors": 2402,
+      "turnout_rate": 79.3922
+    },
+    "TAO-LUZHU-ZHONGFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "中福村",
+      "village_en": "Zhongfu Village",
+      "votes": {
+        "1": 155,
+        "2": 1035,
+        "3": 414,
+        "4": 112
+      },
+      "valid_votes": 1716,
+      "invalid_votes": 17,
+      "ballots_cast": 1733,
+      "unreturned_ballots": 0,
+      "electors": 2192,
+      "turnout_rate": 79.0602
+    },
+    "TAO-LUZHU-XINZHUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "新莊村",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 194,
+        "2": 1185,
+        "3": 350,
+        "4": 172
+      },
+      "valid_votes": 1901,
+      "invalid_votes": 20,
+      "ballots_cast": 1921,
+      "unreturned_ballots": 0,
+      "electors": 2336,
+      "turnout_rate": 82.2346
+    },
+    "TAO-LUZHU-SHANGZHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "上竹村",
+      "village_en": "Shangzhu Village",
+      "votes": {
+        "1": 114,
+        "2": 710,
+        "3": 179,
+        "4": 199
+      },
+      "valid_votes": 1202,
+      "invalid_votes": 17,
+      "ballots_cast": 1219,
+      "unreturned_ballots": 0,
+      "electors": 1505,
+      "turnout_rate": 80.9967
+    },
+    "TAO-LUZHU-HONGZHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "宏竹村",
+      "village_en": "Hongzhu Village",
+      "votes": {
+        "1": 135,
+        "2": 787,
+        "3": 324,
+        "4": 121
+      },
+      "valid_votes": 1367,
+      "invalid_votes": 20,
+      "ballots_cast": 1387,
+      "unreturned_ballots": 0,
+      "electors": 1767,
+      "turnout_rate": 78.4946
+    },
+    "TAO-LUZHU-DAZHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "大竹村",
+      "village_en": "Dazhu Village",
+      "votes": {
+        "1": 115,
+        "2": 758,
+        "3": 235,
+        "4": 278
+      },
+      "valid_votes": 1386,
+      "invalid_votes": 7,
+      "ballots_cast": 1393,
+      "unreturned_ballots": 0,
+      "electors": 1714,
+      "turnout_rate": 81.2719
+    },
+    "TAO-LUZHU-FUZHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "富竹村",
+      "village_en": "Fuzhu Village",
+      "votes": {
+        "1": 56,
+        "2": 355,
+        "3": 235,
+        "4": 22
+      },
+      "valid_votes": 668,
+      "invalid_votes": 9,
+      "ballots_cast": 677,
+      "unreturned_ballots": 0,
+      "electors": 809,
+      "turnout_rate": 83.6836
+    },
+    "TAO-LUZHU-DAHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "大華村",
+      "village_en": "Dahua Village",
+      "votes": {
+        "1": 133,
+        "2": 594,
+        "3": 13,
+        "4": 802
+      },
+      "valid_votes": 1542,
+      "invalid_votes": 26,
+      "ballots_cast": 1568,
+      "unreturned_ballots": 0,
+      "electors": 1901,
+      "turnout_rate": 82.4829
+    },
+    "TAO-LUZHU-LUZHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "蘆竹村",
+      "village_en": "Luzhu Village",
+      "votes": {
+        "1": 179,
+        "2": 1345,
+        "3": 509,
+        "4": 106
+      },
+      "valid_votes": 2139,
+      "invalid_votes": 33,
+      "ballots_cast": 2172,
+      "unreturned_ballots": 0,
+      "electors": 2693,
+      "turnout_rate": 80.6535
+    },
+    "TAO-LUZHU-NANKAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "南崁村",
+      "village_en": "Nankan Village",
+      "votes": {
+        "1": 145,
+        "2": 926,
+        "3": 268,
+        "4": 158
+      },
+      "valid_votes": 1497,
+      "invalid_votes": 18,
+      "ballots_cast": 1515,
+      "unreturned_ballots": 0,
+      "electors": 1852,
+      "turnout_rate": 81.8035
+    },
+    "TAO-LUZHU-NANXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "南興村",
+      "village_en": "Nanxing Village",
+      "votes": {
+        "1": 174,
+        "2": 973,
+        "3": 299,
+        "4": 218
+      },
+      "valid_votes": 1664,
+      "invalid_votes": 19,
+      "ballots_cast": 1683,
+      "unreturned_ballots": 0,
+      "electors": 2127,
+      "turnout_rate": 79.1255
+    },
+    "TAO-LUZHU-NANRONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "南榮村",
+      "village_en": "Nanrong Village",
+      "votes": {
+        "1": 115,
+        "2": 796,
+        "3": 178,
+        "4": 135
+      },
+      "valid_votes": 1224,
+      "invalid_votes": 17,
+      "ballots_cast": 1241,
+      "unreturned_ballots": 0,
+      "electors": 1521,
+      "turnout_rate": 81.5911
+    },
+    "TAO-LUZHU-JINZHONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "錦中村",
+      "village_en": "Jinzhong Village",
+      "votes": {
+        "1": 108,
+        "2": 816,
+        "3": 216,
+        "4": 122
+      },
+      "valid_votes": 1262,
+      "invalid_votes": 14,
+      "ballots_cast": 1276,
+      "unreturned_ballots": 0,
+      "electors": 1572,
+      "turnout_rate": 81.1705
+    },
+    "TAO-LUZHU-JINXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "錦興村",
+      "village_en": "Jinxing Village",
+      "votes": {
+        "1": 191,
+        "2": 954,
+        "3": 239,
+        "4": 207
+      },
+      "valid_votes": 1591,
+      "invalid_votes": 13,
+      "ballots_cast": 1604,
+      "unreturned_ballots": 0,
+      "electors": 2014,
+      "turnout_rate": 79.6425
+    },
+    "TAO-LUZHU-ZHANGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "長興村",
+      "village_en": "Zhangxing Village",
+      "votes": {
+        "1": 69,
+        "2": 504,
+        "3": 121,
+        "4": 65
+      },
+      "valid_votes": 759,
+      "invalid_votes": 20,
+      "ballots_cast": 779,
+      "unreturned_ballots": 0,
+      "electors": 945,
+      "turnout_rate": 82.4339
+    },
+    "TAO-LUZHU-WUFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "五福村",
+      "village_en": "Wufu Village",
+      "votes": {
+        "1": 489,
+        "2": 1719,
+        "3": 506,
+        "4": 653
+      },
+      "valid_votes": 3367,
+      "invalid_votes": 55,
+      "ballots_cast": 3422,
+      "unreturned_ballots": 0,
+      "electors": 4417,
+      "turnout_rate": 77.4734
+    },
+    "TAO-LUZHU-NEICUO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "內厝村",
+      "village_en": "Neicuo Village",
+      "votes": {
+        "1": 121,
+        "2": 901,
+        "3": 207,
+        "4": 71
+      },
+      "valid_votes": 1300,
+      "invalid_votes": 20,
+      "ballots_cast": 1320,
+      "unreturned_ballots": 0,
+      "electors": 1613,
+      "turnout_rate": 81.8351
+    },
+    "TAO-LUZHU-SHANBI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "山鼻村",
+      "village_en": "Shanbi Village",
+      "votes": {
+        "1": 91,
+        "2": 630,
+        "3": 154,
+        "4": 76
+      },
+      "valid_votes": 951,
+      "invalid_votes": 17,
+      "ballots_cast": 968,
+      "unreturned_ballots": 0,
+      "electors": 1175,
+      "turnout_rate": 82.383
+    },
+    "TAO-LUZHU-KENGZI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "坑子村",
+      "village_en": "Kengzi Village",
+      "votes": {
+        "1": 100,
+        "2": 813,
+        "3": 244,
+        "4": 53
+      },
+      "valid_votes": 1210,
+      "invalid_votes": 19,
+      "ballots_cast": 1229,
+      "unreturned_ballots": 0,
+      "electors": 1512,
+      "turnout_rate": 81.2831
+    },
+    "TAO-LUZHU-WAISHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "外社村",
+      "village_en": "Waishe Village",
+      "votes": {
+        "1": 67,
+        "2": 669,
+        "3": 181,
+        "4": 36
+      },
+      "valid_votes": 953,
+      "invalid_votes": 11,
+      "ballots_cast": 964,
+      "unreturned_ballots": 0,
+      "electors": 1170,
+      "turnout_rate": 82.3932
+    },
+    "TAO-LUZHU-SHANJIAO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "山腳村",
+      "village_en": "Shanjiao Village",
+      "votes": {
+        "1": 212,
+        "2": 1550,
+        "3": 349,
+        "4": 126
+      },
+      "valid_votes": 2237,
+      "invalid_votes": 37,
+      "ballots_cast": 2274,
+      "unreturned_ballots": 0,
+      "electors": 2775,
+      "turnout_rate": 81.9459
+    },
+    "TAO-LUZHU-KENGKOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "坑口村",
+      "village_en": "Kengkou Village",
+      "votes": {
+        "1": 96,
+        "2": 1140,
+        "3": 218,
+        "4": 64
+      },
+      "valid_votes": 1518,
+      "invalid_votes": 19,
+      "ballots_cast": 1537,
+      "unreturned_ballots": 0,
+      "electors": 1909,
+      "turnout_rate": 80.5134
+    },
+    "TAO-LUZHU-HAIHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "蘆竹鄉",
+      "township_en": "Luzhu Township",
+      "village_zh": "海湖村",
+      "village_en": "Haihu Village",
+      "votes": {
+        "1": 196,
+        "2": 1433,
+        "3": 242,
+        "4": 173
+      },
+      "valid_votes": 2044,
+      "invalid_votes": 23,
+      "ballots_cast": 2067,
+      "unreturned_ballots": 0,
+      "electors": 2623,
+      "turnout_rate": 78.8029
+    },
+    "TAO-DAYUAN-DAYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "大園村",
+      "village_en": "Dayuan Village",
+      "votes": {
+        "1": 397,
+        "2": 2468,
+        "3": 570,
+        "4": 294
+      },
+      "valid_votes": 3729,
+      "invalid_votes": 57,
+      "ballots_cast": 3786,
+      "unreturned_ballots": 0,
+      "electors": 4673,
+      "turnout_rate": 81.0186
+    },
+    "TAO-DAYUAN-TIANXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "田心村",
+      "village_en": "Tianxin Village",
+      "votes": {
+        "1": 318,
+        "2": 1826,
+        "3": 412,
+        "4": 176
+      },
+      "valid_votes": 2732,
+      "invalid_votes": 28,
+      "ballots_cast": 2760,
+      "unreturned_ballots": 0,
+      "electors": 3471,
+      "turnout_rate": 79.516
+    },
+    "TAO-DAYUAN-XIHAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "溪海村",
+      "village_en": "Xihai Village",
+      "votes": {
+        "1": 138,
+        "2": 1170,
+        "3": 308,
+        "4": 125
+      },
+      "valid_votes": 1741,
+      "invalid_votes": 30,
+      "ballots_cast": 1771,
+      "unreturned_ballots": 0,
+      "electors": 2335,
+      "turnout_rate": 75.8458
+    },
+    "TAO-DAYUAN-HEPING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "和平村",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 115,
+        "2": 739,
+        "3": 177,
+        "4": 43
+      },
+      "valid_votes": 1074,
+      "invalid_votes": 16,
+      "ballots_cast": 1090,
+      "unreturned_ballots": 0,
+      "electors": 1391,
+      "turnout_rate": 78.3609
+    },
+    "TAO-DAYUAN-HENGFENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "橫峰村",
+      "village_en": "Hengfeng Village",
+      "votes": {
+        "1": 344,
+        "2": 2397,
+        "3": 498,
+        "4": 305
+      },
+      "valid_votes": 3544,
+      "invalid_votes": 51,
+      "ballots_cast": 3595,
+      "unreturned_ballots": 0,
+      "electors": 4447,
+      "turnout_rate": 80.841
+    },
+    "TAO-DAYUAN-WUQUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "五權村",
+      "village_en": "Wuquan Village",
+      "votes": {
+        "1": 168,
+        "2": 1677,
+        "3": 454,
+        "4": 139
+      },
+      "valid_votes": 2438,
+      "invalid_votes": 29,
+      "ballots_cast": 2467,
+      "unreturned_ballots": 0,
+      "electors": 3028,
+      "turnout_rate": 81.4729
+    },
+    "TAO-DAYUAN-PUXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "埔心村",
+      "village_en": "Puxin Village",
+      "votes": {
+        "1": 232,
+        "2": 1845,
+        "3": 493,
+        "4": 317
+      },
+      "valid_votes": 2887,
+      "invalid_votes": 52,
+      "ballots_cast": 2939,
+      "unreturned_ballots": 0,
+      "electors": 3710,
+      "turnout_rate": 79.2183
+    },
+    "TAO-DAYUAN-DAHAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "大海村",
+      "village_en": "Dahai Village",
+      "votes": {
+        "1": 96,
+        "2": 522,
+        "3": 121,
+        "4": 189
+      },
+      "valid_votes": 928,
+      "invalid_votes": 14,
+      "ballots_cast": 942,
+      "unreturned_ballots": 0,
+      "electors": 1193,
+      "turnout_rate": 78.9606
+    },
+    "TAO-DAYUAN-JIANHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "建華村",
+      "village_en": "Jianhua Village",
+      "votes": {
+        "1": 54,
+        "2": 376,
+        "3": 7,
+        "4": 388
+      },
+      "valid_votes": 825,
+      "invalid_votes": 8,
+      "ballots_cast": 833,
+      "unreturned_ballots": 0,
+      "electors": 1017,
+      "turnout_rate": 81.9076
+    },
+    "TAO-DAYUAN-SANSHI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "三石村",
+      "village_en": "Sanshi Village",
+      "votes": {
+        "1": 139,
+        "2": 1090,
+        "3": 251,
+        "4": 306
+      },
+      "valid_votes": 1786,
+      "invalid_votes": 18,
+      "ballots_cast": 1804,
+      "unreturned_ballots": 0,
+      "electors": 2205,
+      "turnout_rate": 81.8141
+    },
+    "TAO-DAYUAN-GUOLIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "果林村",
+      "village_en": "Guolin Village",
+      "votes": {
+        "1": 281,
+        "2": 1790,
+        "3": 413,
+        "4": 345
+      },
+      "valid_votes": 2829,
+      "invalid_votes": 25,
+      "ballots_cast": 2854,
+      "unreturned_ballots": 0,
+      "electors": 3613,
+      "turnout_rate": 78.9925
+    },
+    "TAO-DAYUAN-ZHUWEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "竹圍村",
+      "village_en": "Zhuwei Village",
+      "votes": {
+        "1": 175,
+        "2": 1104,
+        "3": 191,
+        "4": 197
+      },
+      "valid_votes": 1667,
+      "invalid_votes": 11,
+      "ballots_cast": 1678,
+      "unreturned_ballots": 0,
+      "electors": 2120,
+      "turnout_rate": 79.1509
+    },
+    "TAO-DAYUAN-HAIKOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "海口村",
+      "village_en": "Haikou Village",
+      "votes": {
+        "1": 101,
+        "2": 679,
+        "3": 98,
+        "4": 100
+      },
+      "valid_votes": 978,
+      "invalid_votes": 20,
+      "ballots_cast": 998,
+      "unreturned_ballots": 0,
+      "electors": 1271,
+      "turnout_rate": 78.5208
+    },
+    "TAO-DAYUAN-SHALUN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "沙崙村",
+      "village_en": "Shalun Village",
+      "votes": {
+        "1": 153,
+        "2": 1197,
+        "3": 217,
+        "4": 133
+      },
+      "valid_votes": 1700,
+      "invalid_votes": 28,
+      "ballots_cast": 1728,
+      "unreturned_ballots": 0,
+      "electors": 2205,
+      "turnout_rate": 78.3673
+    },
+    "TAO-DAYUAN-HOUCUO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "后厝村",
+      "village_en": "Houcuo Village",
+      "votes": {
+        "1": 83,
+        "2": 737,
+        "3": 141,
+        "4": 75
+      },
+      "valid_votes": 1036,
+      "invalid_votes": 13,
+      "ballots_cast": 1049,
+      "unreturned_ballots": 0,
+      "electors": 1299,
+      "turnout_rate": 80.7544
+    },
+    "TAO-DAYUAN-ZHENTOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "圳頭村",
+      "village_en": "Zhentou Village",
+      "votes": {
+        "1": 147,
+        "2": 928,
+        "3": 188,
+        "4": 85
+      },
+      "valid_votes": 1348,
+      "invalid_votes": 27,
+      "ballots_cast": 1375,
+      "unreturned_ballots": 0,
+      "electors": 1715,
+      "turnout_rate": 80.1749
+    },
+    "TAO-DAYUAN-NEIHAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "內海村",
+      "village_en": "Neihai Village",
+      "votes": {
+        "1": 140,
+        "2": 892,
+        "3": 185,
+        "4": 87
+      },
+      "valid_votes": 1304,
+      "invalid_votes": 16,
+      "ballots_cast": 1320,
+      "unreturned_ballots": 0,
+      "electors": 1640,
+      "turnout_rate": 80.4878
+    },
+    "TAO-DAYUAN-BEIGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "北港村",
+      "village_en": "Beigang Village",
+      "votes": {
+        "1": 104,
+        "2": 782,
+        "3": 136,
+        "4": 78
+      },
+      "valid_votes": 1100,
+      "invalid_votes": 17,
+      "ballots_cast": 1117,
+      "unreturned_ballots": 0,
+      "electors": 1416,
+      "turnout_rate": 78.8842
+    },
+    "TAO-DAYUAN-NANGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "大園鄉",
+      "township_en": "Dayuan Township",
+      "village_zh": "南港村",
+      "village_en": "Nangang Village",
+      "votes": {
+        "1": 144,
+        "2": 877,
+        "3": 208,
+        "4": 115
+      },
+      "valid_votes": 1344,
+      "invalid_votes": 17,
+      "ballots_cast": 1361,
+      "unreturned_ballots": 0,
+      "electors": 1816,
+      "turnout_rate": 74.9449
+    },
+    "TAO-GUANYIN-GUANYIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "觀音村",
+      "village_en": "Guanyin Village",
+      "votes": {
+        "1": 184,
+        "2": 1067,
+        "3": 310,
+        "4": 119
+      },
+      "valid_votes": 1680,
+      "invalid_votes": 21,
+      "ballots_cast": 1701,
+      "unreturned_ballots": 0,
+      "electors": 2153,
+      "turnout_rate": 79.006
+    },
+    "TAO-GUANYIN-BAIYU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "白玉村",
+      "village_en": "Baiyu Village",
+      "votes": {
+        "1": 89,
+        "2": 550,
+        "3": 202,
+        "4": 61
+      },
+      "valid_votes": 902,
+      "invalid_votes": 15,
+      "ballots_cast": 917,
+      "unreturned_ballots": 0,
+      "electors": 1155,
+      "turnout_rate": 79.3939
+    },
+    "TAO-GUANYIN-GUANGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "廣興村",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 85,
+        "2": 578,
+        "3": 173,
+        "4": 89
+      },
+      "valid_votes": 925,
+      "invalid_votes": 12,
+      "ballots_cast": 937,
+      "unreturned_ballots": 0,
+      "electors": 1304,
+      "turnout_rate": 71.8558
+    },
+    "TAO-GUANYIN-DATAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "大潭村",
+      "village_en": "Datan Village",
+      "votes": {
+        "1": 56,
+        "2": 520,
+        "3": 227,
+        "4": 43
+      },
+      "valid_votes": 846,
+      "invalid_votes": 8,
+      "ballots_cast": 854,
+      "unreturned_ballots": 0,
+      "electors": 1127,
+      "turnout_rate": 75.7764
+    },
+    "TAO-GUANYIN-BAOSHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "保生村",
+      "village_en": "Baosheng Village",
+      "votes": {
+        "1": 106,
+        "2": 681,
+        "3": 181,
+        "4": 62
+      },
+      "valid_votes": 1030,
+      "invalid_votes": 17,
+      "ballots_cast": 1047,
+      "unreturned_ballots": 0,
+      "electors": 1370,
+      "turnout_rate": 76.4234
+    },
+    "TAO-GUANYIN-WUWEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "武威村",
+      "village_en": "Wuwei Village",
+      "votes": {
+        "1": 32,
+        "2": 374,
+        "3": 81,
+        "4": 22
+      },
+      "valid_votes": 509,
+      "invalid_votes": 10,
+      "ballots_cast": 519,
+      "unreturned_ballots": 0,
+      "electors": 684,
+      "turnout_rate": 75.8772
+    },
+    "TAO-GUANYIN-SANHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "三和村",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 62,
+        "2": 407,
+        "3": 106,
+        "4": 22
+      },
+      "valid_votes": 597,
+      "invalid_votes": 8,
+      "ballots_cast": 605,
+      "unreturned_ballots": 0,
+      "electors": 746,
+      "turnout_rate": 81.0992
+    },
+    "TAO-GUANYIN-XINXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "新興村",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 63,
+        "2": 336,
+        "3": 102,
+        "4": 27
+      },
+      "valid_votes": 528,
+      "invalid_votes": 6,
+      "ballots_cast": 534,
+      "unreturned_ballots": 0,
+      "electors": 679,
+      "turnout_rate": 78.6451
+    },
+    "TAO-GUANYIN-KENGWEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "坑尾村",
+      "village_en": "Kengwei Village",
+      "votes": {
+        "1": 96,
+        "2": 537,
+        "3": 145,
+        "4": 46
+      },
+      "valid_votes": 824,
+      "invalid_votes": 17,
+      "ballots_cast": 841,
+      "unreturned_ballots": 0,
+      "electors": 1039,
+      "turnout_rate": 80.9432
+    },
+    "TAO-GUANYIN-JINHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "金湖村",
+      "village_en": "Jinhu Village",
+      "votes": {
+        "1": 158,
+        "2": 677,
+        "3": 242,
+        "4": 92
+      },
+      "valid_votes": 1169,
+      "invalid_votes": 17,
+      "ballots_cast": 1186,
+      "unreturned_ballots": 0,
+      "electors": 1548,
+      "turnout_rate": 76.615
+    },
+    "TAO-GUANYIN-LANPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "藍埔村",
+      "village_en": "Lanpu Village",
+      "votes": {
+        "1": 122,
+        "2": 738,
+        "3": 266,
+        "4": 76
+      },
+      "valid_votes": 1202,
+      "invalid_votes": 21,
+      "ballots_cast": 1223,
+      "unreturned_ballots": 0,
+      "electors": 1547,
+      "turnout_rate": 79.0562
+    },
+    "TAO-GUANYIN-DATONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "大同村",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 157,
+        "2": 627,
+        "3": 274,
+        "4": 76
+      },
+      "valid_votes": 1134,
+      "invalid_votes": 18,
+      "ballots_cast": 1152,
+      "unreturned_ballots": 0,
+      "electors": 1485,
+      "turnout_rate": 77.5758
+    },
+    "TAO-GUANYIN-DAKU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "大堀村",
+      "village_en": "Daku Village",
+      "votes": {
+        "1": 77,
+        "2": 365,
+        "3": 174,
+        "4": 51
+      },
+      "valid_votes": 667,
+      "invalid_votes": 5,
+      "ballots_cast": 672,
+      "unreturned_ballots": 0,
+      "electors": 874,
+      "turnout_rate": 76.8879
+    },
+    "TAO-GUANYIN-LUNPING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "崙坪村",
+      "village_en": "Lunping Village",
+      "votes": {
+        "1": 215,
+        "2": 1422,
+        "3": 451,
+        "4": 199
+      },
+      "valid_votes": 2287,
+      "invalid_votes": 28,
+      "ballots_cast": 2315,
+      "unreturned_ballots": 0,
+      "electors": 3056,
+      "turnout_rate": 75.7526
+    },
+    "TAO-GUANYIN-FUYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "富源村",
+      "village_en": "Fuyuan Village",
+      "votes": {
+        "1": 138,
+        "2": 685,
+        "3": 191,
+        "4": 96
+      },
+      "valid_votes": 1110,
+      "invalid_votes": 14,
+      "ballots_cast": 1124,
+      "unreturned_ballots": 0,
+      "electors": 1467,
+      "turnout_rate": 76.619
+    },
+    "TAO-GUANYIN-SHANGDA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "上大村",
+      "village_en": "Shangda Village",
+      "votes": {
+        "1": 97,
+        "2": 624,
+        "3": 222,
+        "4": 68
+      },
+      "valid_votes": 1011,
+      "invalid_votes": 9,
+      "ballots_cast": 1020,
+      "unreturned_ballots": 0,
+      "electors": 1310,
+      "turnout_rate": 77.8626
+    },
+    "TAO-GUANYIN-XINPO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "新坡村",
+      "village_en": "Xinpo Village",
+      "votes": {
+        "1": 184,
+        "2": 1186,
+        "3": 378,
+        "4": 109
+      },
+      "valid_votes": 1857,
+      "invalid_votes": 19,
+      "ballots_cast": 1876,
+      "unreturned_ballots": 0,
+      "electors": 2441,
+      "turnout_rate": 76.8537
+    },
+    "TAO-GUANYIN-GUANGFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "廣福村",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 132,
+        "2": 772,
+        "3": 242,
+        "4": 80
+      },
+      "valid_votes": 1226,
+      "invalid_votes": 16,
+      "ballots_cast": 1242,
+      "unreturned_ballots": 0,
+      "electors": 1629,
+      "turnout_rate": 76.2431
+    },
+    "TAO-GUANYIN-TAJIAO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "塔腳村",
+      "village_en": "Tajiao Village",
+      "votes": {
+        "1": 78,
+        "2": 522,
+        "3": 115,
+        "4": 43
+      },
+      "valid_votes": 758,
+      "invalid_votes": 9,
+      "ballots_cast": 767,
+      "unreturned_ballots": 0,
+      "electors": 969,
+      "turnout_rate": 79.1538
+    },
+    "TAO-GUANYIN-BAOZHANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "保障村",
+      "village_en": "Baozhang Village",
+      "votes": {
+        "1": 129,
+        "2": 814,
+        "3": 181,
+        "4": 40
+      },
+      "valid_votes": 1164,
+      "invalid_votes": 15,
+      "ballots_cast": 1179,
+      "unreturned_ballots": 0,
+      "electors": 1513,
+      "turnout_rate": 77.9247
+    },
+    "TAO-GUANYIN-CAOLUO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "草漯村",
+      "village_en": "Caoluo Village",
+      "votes": {
+        "1": 241,
+        "2": 1286,
+        "3": 357,
+        "4": 121
+      },
+      "valid_votes": 2005,
+      "invalid_votes": 22,
+      "ballots_cast": 2027,
+      "unreturned_ballots": 0,
+      "electors": 2575,
+      "turnout_rate": 78.7184
+    },
+    "TAO-GUANYIN-SHULIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "樹林村",
+      "village_en": "Shulin Village",
+      "votes": {
+        "1": 98,
+        "2": 632,
+        "3": 185,
+        "4": 68
+      },
+      "valid_votes": 983,
+      "invalid_votes": 13,
+      "ballots_cast": 996,
+      "unreturned_ballots": 0,
+      "electors": 1382,
+      "turnout_rate": 72.0695
+    },
+    "TAO-GUANYIN-FULIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "觀音鄉",
+      "township_en": "Guanyin Township",
+      "village_zh": "富林村",
+      "village_en": "Fulin Village",
+      "votes": {
+        "1": 104,
+        "2": 611,
+        "3": 183,
+        "4": 43
+      },
+      "valid_votes": 941,
+      "invalid_votes": 9,
+      "ballots_cast": 950,
+      "unreturned_ballots": 0,
+      "electors": 1195,
+      "turnout_rate": 79.4979
+    },
+    "TAO-XINWU-XINWU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "新屋村",
+      "village_en": "Xinwu Village",
+      "votes": {
+        "1": 243,
+        "2": 1170,
+        "3": 315,
+        "4": 122
+      },
+      "valid_votes": 1850,
+      "invalid_votes": 15,
+      "ballots_cast": 1865,
+      "unreturned_ballots": 0,
+      "electors": 2276,
+      "turnout_rate": 81.942
+    },
+    "TAO-XINWU-XINSHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "新生村",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 254,
+        "2": 1360,
+        "3": 338,
+        "4": 160
+      },
+      "valid_votes": 2112,
+      "invalid_votes": 27,
+      "ballots_cast": 2139,
+      "unreturned_ballots": 0,
+      "electors": 2658,
+      "turnout_rate": 80.474
+    },
+    "TAO-XINWU-HOUHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "後湖村",
+      "village_en": "Houhu Village",
+      "votes": {
+        "1": 90,
+        "2": 576,
+        "3": 153,
+        "4": 35
+      },
+      "valid_votes": 854,
+      "invalid_votes": 7,
+      "ballots_cast": 861,
+      "unreturned_ballots": 0,
+      "electors": 1055,
+      "turnout_rate": 81.6114
+    },
+    "TAO-XINWU-QINGHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "清華村",
+      "village_en": "Qinghua Village",
+      "votes": {
+        "1": 180,
+        "2": 1288,
+        "3": 325,
+        "4": 96
+      },
+      "valid_votes": 1889,
+      "invalid_votes": 28,
+      "ballots_cast": 1917,
+      "unreturned_ballots": 0,
+      "electors": 2434,
+      "turnout_rate": 78.7592
+    },
+    "TAO-XINWU-SHILEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "石磊村",
+      "village_en": "Shilei Village",
+      "votes": {
+        "1": 136,
+        "2": 709,
+        "3": 275,
+        "4": 74
+      },
+      "valid_votes": 1194,
+      "invalid_votes": 16,
+      "ballots_cast": 1210,
+      "unreturned_ballots": 0,
+      "electors": 1563,
+      "turnout_rate": 77.4152
+    },
+    "TAO-XINWU-DONGMING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "東明村",
+      "village_en": "Dongming Village",
+      "votes": {
+        "1": 110,
+        "2": 505,
+        "3": 157,
+        "4": 39
+      },
+      "valid_votes": 811,
+      "invalid_votes": 9,
+      "ballots_cast": 820,
+      "unreturned_ballots": 0,
+      "electors": 1030,
+      "turnout_rate": 79.6117
+    },
+    "TAO-XINWU-SHEZI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "社子村",
+      "village_en": "Shezi Village",
+      "votes": {
+        "1": 86,
+        "2": 679,
+        "3": 226,
+        "4": 47
+      },
+      "valid_votes": 1038,
+      "invalid_votes": 15,
+      "ballots_cast": 1053,
+      "unreturned_ballots": 0,
+      "electors": 1297,
+      "turnout_rate": 81.1874
+    },
+    "TAO-XINWU-PUDING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "埔頂村",
+      "village_en": "Puding Village",
+      "votes": {
+        "1": 155,
+        "2": 858,
+        "3": 222,
+        "4": 91
+      },
+      "valid_votes": 1326,
+      "invalid_votes": 18,
+      "ballots_cast": 1344,
+      "unreturned_ballots": 0,
+      "electors": 1769,
+      "turnout_rate": 75.9751
+    },
+    "TAO-XINWU-JIUDOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "九斗村",
+      "village_en": "Jiudou Village",
+      "votes": {
+        "1": 143,
+        "2": 823,
+        "3": 198,
+        "4": 78
+      },
+      "valid_votes": 1242,
+      "invalid_votes": 10,
+      "ballots_cast": 1252,
+      "unreturned_ballots": 0,
+      "electors": 1610,
+      "turnout_rate": 77.764
+    },
+    "TAO-XINWU-TOUZHOU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "頭洲村",
+      "village_en": "Touzhou Village",
+      "votes": {
+        "1": 263,
+        "2": 1132,
+        "3": 342,
+        "4": 171
+      },
+      "valid_votes": 1908,
+      "invalid_votes": 36,
+      "ballots_cast": 1944,
+      "unreturned_ballots": 0,
+      "electors": 2537,
+      "turnout_rate": 76.6259
+    },
+    "TAO-XINWU-DAPO": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "大坡村",
+      "village_en": "Dapo Village",
+      "votes": {
+        "1": 101,
+        "2": 639,
+        "3": 225,
+        "4": 58
+      },
+      "valid_votes": 1023,
+      "invalid_votes": 5,
+      "ballots_cast": 1028,
+      "unreturned_ballots": 0,
+      "electors": 1369,
+      "turnout_rate": 75.0913
+    },
+    "TAO-XINWU-WANGJIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "望間村",
+      "village_en": "Wangjian Village",
+      "votes": {
+        "1": 114,
+        "2": 761,
+        "3": 238,
+        "4": 52
+      },
+      "valid_votes": 1165,
+      "invalid_votes": 15,
+      "ballots_cast": 1180,
+      "unreturned_ballots": 0,
+      "electors": 1540,
+      "turnout_rate": 76.6234
+    },
+    "TAO-XINWU-HOUZHUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "後庄村",
+      "village_en": "Houzhuang Village",
+      "votes": {
+        "1": 97,
+        "2": 595,
+        "3": 105,
+        "4": 46
+      },
+      "valid_votes": 843,
+      "invalid_votes": 13,
+      "ballots_cast": 856,
+      "unreturned_ballots": 0,
+      "electors": 1146,
+      "turnout_rate": 74.6946
+    },
+    "TAO-XINWU-HEJIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "蚵間村",
+      "village_en": "Hejian Village",
+      "votes": {
+        "1": 45,
+        "2": 422,
+        "3": 107,
+        "4": 37
+      },
+      "valid_votes": 611,
+      "invalid_votes": 5,
+      "ballots_cast": 616,
+      "unreturned_ballots": 0,
+      "electors": 805,
+      "turnout_rate": 76.5217
+    },
+    "TAO-XINWU-SHENZHEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "深圳村",
+      "village_en": "Shenzhen Village",
+      "votes": {
+        "1": 27,
+        "2": 402,
+        "3": 82,
+        "4": 37
+      },
+      "valid_votes": 548,
+      "invalid_votes": 3,
+      "ballots_cast": 551,
+      "unreturned_ballots": 0,
+      "electors": 717,
+      "turnout_rate": 76.848
+    },
+    "TAO-XINWU-KANGLANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "康榔村",
+      "village_en": "Kanglang Village",
+      "votes": {
+        "1": 66,
+        "2": 558,
+        "3": 169,
+        "4": 47
+      },
+      "valid_votes": 840,
+      "invalid_votes": 5,
+      "ballots_cast": 845,
+      "unreturned_ballots": 0,
+      "electors": 1096,
+      "turnout_rate": 77.0985
+    },
+    "TAO-XINWU-BENGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "笨港村",
+      "village_en": "Bengang Village",
+      "votes": {
+        "1": 92,
+        "2": 579,
+        "3": 111,
+        "4": 37
+      },
+      "valid_votes": 819,
+      "invalid_votes": 9,
+      "ballots_cast": 828,
+      "unreturned_ballots": 0,
+      "electors": 1101,
+      "turnout_rate": 75.2044
+    },
+    "TAO-XINWU-YONGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "永安村",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 160,
+        "2": 1147,
+        "3": 232,
+        "4": 81
+      },
+      "valid_votes": 1620,
+      "invalid_votes": 25,
+      "ballots_cast": 1645,
+      "unreturned_ballots": 0,
+      "electors": 2080,
+      "turnout_rate": 79.0865
+    },
+    "TAO-XINWU-YONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "永興村",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 55,
+        "2": 473,
+        "3": 156,
+        "4": 39
+      },
+      "valid_votes": 723,
+      "invalid_votes": 7,
+      "ballots_cast": 730,
+      "unreturned_ballots": 0,
+      "electors": 945,
+      "turnout_rate": 77.2487
+    },
+    "TAO-XINWU-XIAPU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "下埔村",
+      "village_en": "Xiapu Village",
+      "votes": {
+        "1": 50,
+        "2": 359,
+        "3": 126,
+        "4": 17
+      },
+      "valid_votes": 552,
+      "invalid_votes": 4,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "electors": 736,
+      "turnout_rate": 75.5435
+    },
+    "TAO-XINWU-SHIPAI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "石牌村",
+      "village_en": "Shipai Village",
+      "votes": {
+        "1": 64,
+        "2": 452,
+        "3": 102,
+        "4": 33
+      },
+      "valid_votes": 651,
+      "invalid_votes": 9,
+      "ballots_cast": 660,
+      "unreturned_ballots": 0,
+      "electors": 831,
+      "turnout_rate": 79.4224
+    },
+    "TAO-XINWU-XIATIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "下田村",
+      "village_en": "Xiatian Village",
+      "votes": {
+        "1": 118,
+        "2": 752,
+        "3": 215,
+        "4": 59
+      },
+      "valid_votes": 1144,
+      "invalid_votes": 15,
+      "ballots_cast": 1159,
+      "unreturned_ballots": 0,
+      "electors": 1450,
+      "turnout_rate": 79.931
+    },
+    "TAO-XINWU-CHILAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "新屋鄉",
+      "township_en": "Xinwu Township",
+      "village_zh": "赤欄村",
+      "village_en": "Chilan Village",
+      "votes": {
+        "1": 82,
+        "2": 565,
+        "3": 103,
+        "4": 50
+      },
+      "valid_votes": 800,
+      "invalid_votes": 9,
+      "ballots_cast": 809,
+      "unreturned_ballots": 0,
+      "electors": 1030,
+      "turnout_rate": 78.5437
+    },
+    "TAO-PINGZHEN-XINSHI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "新勢里",
+      "village_en": "Xinshi Village",
+      "votes": {
+        "1": 368,
+        "2": 1349,
+        "3": 397,
+        "4": 260
+      },
+      "valid_votes": 2374,
+      "invalid_votes": 31,
+      "ballots_cast": 2405,
+      "unreturned_ballots": 0,
+      "electors": 3043,
+      "turnout_rate": 79.0338
+    },
+    "TAO-PINGZHEN-XINRONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "新榮里",
+      "village_en": "Xinrong Village",
+      "votes": {
+        "1": 365,
+        "2": 1210,
+        "3": 304,
+        "4": 318
+      },
+      "valid_votes": 2197,
+      "invalid_votes": 30,
+      "ballots_cast": 2227,
+      "unreturned_ballots": 0,
+      "electors": 2819,
+      "turnout_rate": 78.9996
+    },
+    "TAO-PINGZHEN-XINFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "新富里",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 344,
+        "2": 892,
+        "3": 251,
+        "4": 475
+      },
+      "valid_votes": 1962,
+      "invalid_votes": 18,
+      "ballots_cast": 1980,
+      "unreturned_ballots": 0,
+      "electors": 2632,
+      "turnout_rate": 75.228
+    },
+    "TAO-PINGZHEN-BEIHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "北華里",
+      "village_en": "Beihua Village",
+      "votes": {
+        "1": 206,
+        "2": 711,
+        "3": 198,
+        "4": 228
+      },
+      "valid_votes": 1343,
+      "invalid_votes": 16,
+      "ballots_cast": 1359,
+      "unreturned_ballots": 0,
+      "electors": 1752,
+      "turnout_rate": 77.5685
+    },
+    "TAO-PINGZHEN-BEIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "北安里",
+      "village_en": "Beian Village",
+      "votes": {
+        "1": 202,
+        "2": 644,
+        "3": 228,
+        "4": 139
+      },
+      "valid_votes": 1213,
+      "invalid_votes": 13,
+      "ballots_cast": 1226,
+      "unreturned_ballots": 0,
+      "electors": 1588,
+      "turnout_rate": 77.204
+    },
+    "TAO-PINGZHEN-BEISHI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "北勢里",
+      "village_en": "Beishi Village",
+      "votes": {
+        "1": 227,
+        "2": 961,
+        "3": 254,
+        "4": 218
+      },
+      "valid_votes": 1660,
+      "invalid_votes": 14,
+      "ballots_cast": 1674,
+      "unreturned_ballots": 0,
+      "electors": 2082,
+      "turnout_rate": 80.4035
+    },
+    "TAO-PINGZHEN-XINGUI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "新貴里",
+      "village_en": "Xingui Village",
+      "votes": {
+        "1": 220,
+        "2": 1012,
+        "3": 261,
+        "4": 243
+      },
+      "valid_votes": 1736,
+      "invalid_votes": 33,
+      "ballots_cast": 1769,
+      "unreturned_ballots": 0,
+      "electors": 2266,
+      "turnout_rate": 78.0671
+    },
+    "TAO-PINGZHEN-JINLING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "金陵里",
+      "village_en": "Jinling Village",
+      "votes": {
+        "1": 181,
+        "2": 644,
+        "3": 186,
+        "4": 203
+      },
+      "valid_votes": 1214,
+      "invalid_votes": 17,
+      "ballots_cast": 1231,
+      "unreturned_ballots": 0,
+      "electors": 1504,
+      "turnout_rate": 81.8484
+    },
+    "TAO-PINGZHEN-BEIXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "北興里",
+      "village_en": "Beixing Village",
+      "votes": {
+        "1": 271,
+        "2": 1282,
+        "3": 354,
+        "4": 367
+      },
+      "valid_votes": 2274,
+      "invalid_votes": 33,
+      "ballots_cast": 2307,
+      "unreturned_ballots": 0,
+      "electors": 2916,
+      "turnout_rate": 79.1152
+    },
+    "TAO-PINGZHEN-BEIGUI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "北貴里",
+      "village_en": "Beigui Village",
+      "votes": {
+        "1": 267,
+        "2": 1138,
+        "3": 291,
+        "4": 272
+      },
+      "valid_votes": 1968,
+      "invalid_votes": 19,
+      "ballots_cast": 1987,
+      "unreturned_ballots": 0,
+      "electors": 2479,
+      "turnout_rate": 80.1533
+    },
+    "TAO-PINGZHEN-BEIFU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "北富里",
+      "village_en": "Beifu Village",
+      "votes": {
+        "1": 204,
+        "2": 823,
+        "3": 229,
+        "4": 221
+      },
+      "valid_votes": 1477,
+      "invalid_votes": 17,
+      "ballots_cast": 1494,
+      "unreturned_ballots": 0,
+      "electors": 1960,
+      "turnout_rate": 76.2245
+    },
+    "TAO-PINGZHEN-LONGEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "龍恩里",
+      "village_en": "Longen Village",
+      "votes": {
+        "1": 197,
+        "2": 1046,
+        "3": 118,
+        "4": 486
+      },
+      "valid_votes": 1847,
+      "invalid_votes": 41,
+      "ballots_cast": 1888,
+      "unreturned_ballots": 0,
+      "electors": 2423,
+      "turnout_rate": 77.9199
+    },
+    "TAO-PINGZHEN-DONGSHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "東社里",
+      "village_en": "Dongshe Village",
+      "votes": {
+        "1": 229,
+        "2": 1145,
+        "3": 281,
+        "4": 559
+      },
+      "valid_votes": 2214,
+      "invalid_votes": 26,
+      "ballots_cast": 2240,
+      "unreturned_ballots": 0,
+      "electors": 2814,
+      "turnout_rate": 79.602
+    },
+    "TAO-PINGZHEN-LONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "龍興里",
+      "village_en": "Longxing Village",
+      "votes": {
+        "1": 192,
+        "2": 869,
+        "3": 127,
+        "4": 523
+      },
+      "valid_votes": 1711,
+      "invalid_votes": 21,
+      "ballots_cast": 1732,
+      "unreturned_ballots": 0,
+      "electors": 2230,
+      "turnout_rate": 77.6682
+    },
+    "TAO-PINGZHEN-ZHONGZHEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "忠貞里",
+      "village_en": "Zhongzhen Village",
+      "votes": {
+        "1": 73,
+        "2": 379,
+        "3": 10,
+        "4": 521
+      },
+      "valid_votes": 983,
+      "invalid_votes": 19,
+      "ballots_cast": 1002,
+      "unreturned_ballots": 0,
+      "electors": 1341,
+      "turnout_rate": 74.7204
+    },
+    "TAO-PINGZHEN-ZHONGZHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 91,
+        "2": 377,
+        "3": 23,
+        "4": 494
+      },
+      "valid_votes": 985,
+      "invalid_votes": 13,
+      "ballots_cast": 998,
+      "unreturned_ballots": 0,
+      "electors": 1245,
+      "turnout_rate": 80.1606
+    },
+    "TAO-PINGZHEN-MAOYI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "貿易里",
+      "village_en": "Maoyi Village",
+      "votes": {
+        "1": 201,
+        "2": 889,
+        "3": 15,
+        "4": 851
+      },
+      "valid_votes": 1956,
+      "invalid_votes": 23,
+      "ballots_cast": 1979,
+      "unreturned_ballots": 0,
+      "electors": 2439,
+      "turnout_rate": 81.1398
+    },
+    "TAO-PINGZHEN-JIANAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "建安里",
+      "village_en": "Jianan Village",
+      "votes": {
+        "1": 225,
+        "2": 1276,
+        "3": 288,
+        "4": 268
+      },
+      "valid_votes": 2057,
+      "invalid_votes": 32,
+      "ballots_cast": 2089,
+      "unreturned_ballots": 0,
+      "electors": 2616,
+      "turnout_rate": 79.8547
+    },
+    "TAO-PINGZHEN-HUAAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "華安里",
+      "village_en": "Huaan Village",
+      "votes": {
+        "1": 240,
+        "2": 1104,
+        "3": 161,
+        "4": 503
+      },
+      "valid_votes": 2008,
+      "invalid_votes": 36,
+      "ballots_cast": 2044,
+      "unreturned_ballots": 0,
+      "electors": 2572,
+      "turnout_rate": 79.4712
+    },
+    "TAO-PINGZHEN-DONGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 177,
+        "2": 815,
+        "3": 154,
+        "4": 388
+      },
+      "valid_votes": 1534,
+      "invalid_votes": 20,
+      "ballots_cast": 1554,
+      "unreturned_ballots": 0,
+      "electors": 1995,
+      "turnout_rate": 77.8947
+    },
+    "TAO-PINGZHEN-XINAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "新安里",
+      "village_en": "Xinan Village",
+      "votes": {
+        "1": 226,
+        "2": 949,
+        "3": 187,
+        "4": 462
+      },
+      "valid_votes": 1824,
+      "invalid_votes": 29,
+      "ballots_cast": 1853,
+      "unreturned_ballots": 0,
+      "electors": 2383,
+      "turnout_rate": 77.7591
+    },
+    "TAO-PINGZHEN-DONGSHI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "東勢里",
+      "village_en": "Dongshi Village",
+      "votes": {
+        "1": 243,
+        "2": 1474,
+        "3": 499,
+        "4": 249
+      },
+      "valid_votes": 2465,
+      "invalid_votes": 35,
+      "ballots_cast": 2500,
+      "unreturned_ballots": 0,
+      "electors": 3247,
+      "turnout_rate": 76.9941
+    },
+    "TAO-PINGZHEN-ZHUANGJING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "莊敬里",
+      "village_en": "Zhuangjing Village",
+      "votes": {
+        "1": 323,
+        "2": 1655,
+        "3": 236,
+        "4": 752
+      },
+      "valid_votes": 2966,
+      "invalid_votes": 38,
+      "ballots_cast": 3004,
+      "unreturned_ballots": 0,
+      "electors": 3824,
+      "turnout_rate": 78.5565
+    },
+    "TAO-PINGZHEN-YONGFENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "湧豐里",
+      "village_en": "Yongfeng Village",
+      "votes": {
+        "1": 107,
+        "2": 562,
+        "3": 167,
+        "4": 167
+      },
+      "valid_votes": 1003,
+      "invalid_votes": 14,
+      "ballots_cast": 1017,
+      "unreturned_ballots": 0,
+      "electors": 1295,
+      "turnout_rate": 78.5328
+    },
+    "TAO-PINGZHEN-YONGGUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "湧光里",
+      "village_en": "Yongguang Village",
+      "votes": {
+        "1": 348,
+        "2": 1698,
+        "3": 328,
+        "4": 704
+      },
+      "valid_votes": 3078,
+      "invalid_votes": 56,
+      "ballots_cast": 3134,
+      "unreturned_ballots": 0,
+      "electors": 3999,
+      "turnout_rate": 78.3696
+    },
+    "TAO-PINGZHEN-YONGAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "湧安里",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 201,
+        "2": 1030,
+        "3": 233,
+        "4": 315
+      },
+      "valid_votes": 1779,
+      "invalid_votes": 30,
+      "ballots_cast": 1809,
+      "unreturned_ballots": 0,
+      "electors": 2351,
+      "turnout_rate": 76.946
+    },
+    "TAO-PINGZHEN-GUANGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "廣興里",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 338,
+        "2": 1208,
+        "3": 523,
+        "4": 342
+      },
+      "valid_votes": 2411,
+      "invalid_votes": 25,
+      "ballots_cast": 2436,
+      "unreturned_ballots": 0,
+      "electors": 3112,
+      "turnout_rate": 78.2776
+    },
+    "TAO-PINGZHEN-GUANGDA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "廣達里",
+      "village_en": "Guangda Village",
+      "votes": {
+        "1": 297,
+        "2": 1112,
+        "3": 442,
+        "4": 317
+      },
+      "valid_votes": 2168,
+      "invalid_votes": 26,
+      "ballots_cast": 2194,
+      "unreturned_ballots": 0,
+      "electors": 2765,
+      "turnout_rate": 79.349
+    },
+    "TAO-PINGZHEN-FUDAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "復旦里",
+      "village_en": "Fudan Village",
+      "votes": {
+        "1": 494,
+        "2": 1566,
+        "3": 510,
+        "4": 531
+      },
+      "valid_votes": 3101,
+      "invalid_votes": 27,
+      "ballots_cast": 3128,
+      "unreturned_ballots": 0,
+      "electors": 4008,
+      "turnout_rate": 78.0439
+    },
+    "TAO-PINGZHEN-YIXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "義興里",
+      "village_en": "Yixing Village",
+      "votes": {
+        "1": 423,
+        "2": 1770,
+        "3": 480,
+        "4": 320
+      },
+      "valid_votes": 2993,
+      "invalid_votes": 43,
+      "ballots_cast": 3036,
+      "unreturned_ballots": 0,
+      "electors": 3826,
+      "turnout_rate": 79.3518
+    },
+    "TAO-PINGZHEN-YIMIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "義民里",
+      "village_en": "Yimin Village",
+      "votes": {
+        "1": 359,
+        "2": 1085,
+        "3": 277,
+        "4": 404
+      },
+      "valid_votes": 2125,
+      "invalid_votes": 27,
+      "ballots_cast": 2152,
+      "unreturned_ballots": 0,
+      "electors": 2760,
+      "turnout_rate": 77.971
+    },
+    "TAO-PINGZHEN-SONGWU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "宋屋里",
+      "village_en": "Songwu Village",
+      "votes": {
+        "1": 339,
+        "2": 1119,
+        "3": 269,
+        "4": 304
+      },
+      "valid_votes": 2031,
+      "invalid_votes": 38,
+      "ballots_cast": 2069,
+      "unreturned_ballots": 0,
+      "electors": 2650,
+      "turnout_rate": 78.0755
+    },
+    "TAO-PINGZHEN-GUANGREN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "廣仁里",
+      "village_en": "Guangren Village",
+      "votes": {
+        "1": 311,
+        "2": 1380,
+        "3": 345,
+        "4": 282
+      },
+      "valid_votes": 2318,
+      "invalid_votes": 40,
+      "ballots_cast": 2358,
+      "unreturned_ballots": 0,
+      "electors": 3110,
+      "turnout_rate": 75.8199
+    },
+    "TAO-PINGZHEN-SHUANGLIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "雙連里",
+      "village_en": "Shuanglian Village",
+      "votes": {
+        "1": 252,
+        "2": 1481,
+        "3": 239,
+        "4": 459
+      },
+      "valid_votes": 2431,
+      "invalid_votes": 40,
+      "ballots_cast": 2471,
+      "unreturned_ballots": 0,
+      "electors": 3118,
+      "turnout_rate": 79.2495
+    },
+    "TAO-PINGZHEN-GAOSHUANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "高雙里",
+      "village_en": "Gaoshuang Village",
+      "votes": {
+        "1": 171,
+        "2": 921,
+        "3": 352,
+        "4": 167
+      },
+      "valid_votes": 1611,
+      "invalid_votes": 14,
+      "ballots_cast": 1625,
+      "unreturned_ballots": 0,
+      "electors": 2150,
+      "turnout_rate": 75.5814
+    },
+    "TAO-PINGZHEN-PINGZHEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "平鎮里",
+      "village_en": "Pingzhen Village",
+      "votes": {
+        "1": 321,
+        "2": 1377,
+        "3": 309,
+        "4": 260
+      },
+      "valid_votes": 2267,
+      "invalid_votes": 39,
+      "ballots_cast": 2306,
+      "unreturned_ballots": 0,
+      "electors": 2913,
+      "turnout_rate": 79.1624
+    },
+    "TAO-PINGZHEN-ZHENXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "鎮興里",
+      "village_en": "Zhenxing Village",
+      "votes": {
+        "1": 213,
+        "2": 854,
+        "3": 261,
+        "4": 152
+      },
+      "valid_votes": 1480,
+      "invalid_votes": 20,
+      "ballots_cast": 1500,
+      "unreturned_ballots": 0,
+      "electors": 1941,
+      "turnout_rate": 77.2798
+    },
+    "TAO-PINGZHEN-JINXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "金星里",
+      "village_en": "Jinxing Village",
+      "votes": {
+        "1": 572,
+        "2": 2515,
+        "3": 642,
+        "4": 591
+      },
+      "valid_votes": 4320,
+      "invalid_votes": 52,
+      "ballots_cast": 4372,
+      "unreturned_ballots": 0,
+      "electors": 5522,
+      "turnout_rate": 79.1742
+    },
+    "TAO-PINGZHEN-NANSHI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "南勢里",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 252,
+        "2": 1319,
+        "3": 365,
+        "4": 236
+      },
+      "valid_votes": 2172,
+      "invalid_votes": 20,
+      "ballots_cast": 2192,
+      "unreturned_ballots": 0,
+      "electors": 2810,
+      "turnout_rate": 78.0071
+    },
+    "TAO-PINGZHEN-FULIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "福林里",
+      "village_en": "Fulin Village",
+      "votes": {
+        "1": 153,
+        "2": 890,
+        "3": 217,
+        "4": 199
+      },
+      "valid_votes": 1459,
+      "invalid_votes": 22,
+      "ballots_cast": 1481,
+      "unreturned_ballots": 0,
+      "electors": 1838,
+      "turnout_rate": 80.5767
+    },
+    "TAO-PINGZHEN-SHANFENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "平鎮市",
+      "township_en": "Pingzhen City",
+      "village_zh": "山峰里",
+      "village_en": "Shanfeng Village",
+      "votes": {
+        "1": 197,
+        "2": 939,
+        "3": 151,
+        "4": 399
+      },
+      "valid_votes": 1686,
+      "invalid_votes": 27,
+      "ballots_cast": 1713,
+      "unreturned_ballots": 0,
+      "electors": 2202,
+      "turnout_rate": 77.7929
+    },
+    "TAO-YANGMEI-RENMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "仁美里",
+      "village_en": "Renmei Village",
+      "votes": {
+        "1": 422,
+        "2": 1545,
+        "3": 392,
+        "4": 519
+      },
+      "valid_votes": 2878,
+      "invalid_votes": 42,
+      "ballots_cast": 2920,
+      "unreturned_ballots": 0,
+      "electors": 3664,
+      "turnout_rate": 79.6943
+    },
+    "TAO-YANGMEI-PUXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "埔心里",
+      "village_en": "Puxin Village",
+      "votes": {
+        "1": 186,
+        "2": 727,
+        "3": 226,
+        "4": 135
+      },
+      "valid_votes": 1274,
+      "invalid_votes": 20,
+      "ballots_cast": 1294,
+      "unreturned_ballots": 0,
+      "electors": 1609,
+      "turnout_rate": 80.4226
+    },
+    "TAO-YANGMEI-GUANGHUA": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "光華里",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 275,
+        "2": 1063,
+        "3": 253,
+        "4": 431
+      },
+      "valid_votes": 2022,
+      "invalid_votes": 24,
+      "ballots_cast": 2046,
+      "unreturned_ballots": 0,
+      "electors": 2541,
+      "turnout_rate": 80.5195
+    },
+    "TAO-YANGMEI-JINLONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "金龍里",
+      "village_en": "Jinlong Village",
+      "votes": {
+        "1": 109,
+        "2": 559,
+        "3": 21,
+        "4": 673
+      },
+      "valid_votes": 1362,
+      "invalid_votes": 17,
+      "ballots_cast": 1379,
+      "unreturned_ballots": 0,
+      "electors": 1714,
+      "turnout_rate": 80.4551
+    },
+    "TAO-YANGMEI-SIWEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "四維里",
+      "village_en": "Siwei Village",
+      "votes": {
+        "1": 152,
+        "2": 644,
+        "3": 64,
+        "4": 524
+      },
+      "valid_votes": 1384,
+      "invalid_votes": 13,
+      "ballots_cast": 1397,
+      "unreturned_ballots": 0,
+      "electors": 1756,
+      "turnout_rate": 79.5558
+    },
+    "TAO-YANGMEI-RUITANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "瑞塘里",
+      "village_en": "Ruitang Village",
+      "votes": {
+        "1": 630,
+        "2": 2153,
+        "3": 588,
+        "4": 790
+      },
+      "valid_votes": 4161,
+      "invalid_votes": 53,
+      "ballots_cast": 4214,
+      "unreturned_ballots": 0,
+      "electors": 5546,
+      "turnout_rate": 75.9827
+    },
+    "TAO-YANGMEI-MEIXI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "梅溪里",
+      "village_en": "Meixi Village",
+      "votes": {
+        "1": 617,
+        "2": 1965,
+        "3": 549,
+        "4": 818
+      },
+      "valid_votes": 3949,
+      "invalid_votes": 44,
+      "ballots_cast": 3993,
+      "unreturned_ballots": 0,
+      "electors": 5315,
+      "turnout_rate": 75.127
+    },
+    "TAO-YANGMEI-DATONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "大同里",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 435,
+        "2": 1886,
+        "3": 355,
+        "4": 311
+      },
+      "valid_votes": 2987,
+      "invalid_votes": 35,
+      "ballots_cast": 3022,
+      "unreturned_ballots": 0,
+      "electors": 3772,
+      "turnout_rate": 80.1166
+    },
+    "TAO-YANGMEI-YANGMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "楊梅里",
+      "village_en": "Yangmei Village",
+      "votes": {
+        "1": 287,
+        "2": 1384,
+        "3": 351,
+        "4": 204
+      },
+      "valid_votes": 2226,
+      "invalid_votes": 26,
+      "ballots_cast": 2252,
+      "unreturned_ballots": 0,
+      "electors": 2772,
+      "turnout_rate": 81.241
+    },
+    "TAO-YANGMEI-YANGJIANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "楊江里",
+      "village_en": "Yangjiang Village",
+      "votes": {
+        "1": 115,
+        "2": 546,
+        "3": 135,
+        "4": 76
+      },
+      "valid_votes": 872,
+      "invalid_votes": 14,
+      "ballots_cast": 886,
+      "unreturned_ballots": 0,
+      "electors": 1145,
+      "turnout_rate": 77.3799
+    },
+    "TAO-YANGMEI-MEIXIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "梅新里",
+      "village_en": "Meixin Village",
+      "votes": {
+        "1": 184,
+        "2": 796,
+        "3": 142,
+        "4": 131
+      },
+      "valid_votes": 1253,
+      "invalid_votes": 16,
+      "ballots_cast": 1269,
+      "unreturned_ballots": 0,
+      "electors": 1643,
+      "turnout_rate": 77.2368
+    },
+    "TAO-YANGMEI-HONGMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "紅梅里",
+      "village_en": "Hongmei Village",
+      "votes": {
+        "1": 220,
+        "2": 1053,
+        "3": 236,
+        "4": 159
+      },
+      "valid_votes": 1668,
+      "invalid_votes": 21,
+      "ballots_cast": 1689,
+      "unreturned_ballots": 0,
+      "electors": 2065,
+      "turnout_rate": 81.7918
+    },
+    "TAO-YANGMEI-YONGNING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "永寧里",
+      "village_en": "Yongning Village",
+      "votes": {
+        "1": 320,
+        "2": 1443,
+        "3": 349,
+        "4": 280
+      },
+      "valid_votes": 2392,
+      "invalid_votes": 33,
+      "ballots_cast": 2425,
+      "unreturned_ballots": 0,
+      "electors": 2942,
+      "turnout_rate": 82.4269
+    },
+    "TAO-YANGMEI-DAPING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "大平里",
+      "village_en": "Daping Village",
+      "votes": {
+        "1": 533,
+        "2": 2468,
+        "3": 653,
+        "4": 498
+      },
+      "valid_votes": 4152,
+      "invalid_votes": 65,
+      "ballots_cast": 4217,
+      "unreturned_ballots": 0,
+      "electors": 5275,
+      "turnout_rate": 79.9431
+    },
+    "TAO-YANGMEI-DONGLIU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "東流里",
+      "village_en": "Dongliu Village",
+      "votes": {
+        "1": 124,
+        "2": 613,
+        "3": 271,
+        "4": 134
+      },
+      "valid_votes": 1142,
+      "invalid_votes": 13,
+      "ballots_cast": 1155,
+      "unreturned_ballots": 0,
+      "electors": 1435,
+      "turnout_rate": 80.4878
+    },
+    "TAO-YANGMEI-FENGYE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "豐野里",
+      "village_en": "Fengye Village",
+      "votes": {
+        "1": 276,
+        "2": 1402,
+        "3": 308,
+        "4": 153
+      },
+      "valid_votes": 2139,
+      "invalid_votes": 38,
+      "ballots_cast": 2177,
+      "unreturned_ballots": 0,
+      "electors": 2762,
+      "turnout_rate": 78.8197
+    },
+    "TAO-YANGMEI-FUGANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "富岡里",
+      "village_en": "Fugang Village",
+      "votes": {
+        "1": 350,
+        "2": 1985,
+        "3": 428,
+        "4": 199
+      },
+      "valid_votes": 2962,
+      "invalid_votes": 66,
+      "ballots_cast": 3028,
+      "unreturned_ballots": 0,
+      "electors": 3867,
+      "turnout_rate": 78.3036
+    },
+    "TAO-YANGMEI-YUANBEN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "員本里",
+      "village_en": "Yuanben Village",
+      "votes": {
+        "1": 132,
+        "2": 752,
+        "3": 173,
+        "4": 81
+      },
+      "valid_votes": 1138,
+      "invalid_votes": 26,
+      "ballots_cast": 1164,
+      "unreturned_ballots": 0,
+      "electors": 1511,
+      "turnout_rate": 77.0351
+    },
+    "TAO-YANGMEI-SANHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "三湖里",
+      "village_en": "Sanhu Village",
+      "votes": {
+        "1": 168,
+        "2": 713,
+        "3": 206,
+        "4": 117
+      },
+      "valid_votes": 1204,
+      "invalid_votes": 17,
+      "ballots_cast": 1221,
+      "unreturned_ballots": 0,
+      "electors": 1528,
+      "turnout_rate": 79.9084
+    },
+    "TAO-YANGMEI-SHANGHU": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "上湖里",
+      "village_en": "Shanghu Village",
+      "votes": {
+        "1": 217,
+        "2": 1265,
+        "3": 233,
+        "4": 147
+      },
+      "valid_votes": 1862,
+      "invalid_votes": 38,
+      "ballots_cast": 1900,
+      "unreturned_ballots": 0,
+      "electors": 2428,
+      "turnout_rate": 78.2537
+    },
+    "TAO-YANGMEI-SHANGTIAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "上田里",
+      "village_en": "Shangtian Village",
+      "votes": {
+        "1": 181,
+        "2": 914,
+        "3": 267,
+        "4": 128
+      },
+      "valid_votes": 1490,
+      "invalid_votes": 18,
+      "ballots_cast": 1508,
+      "unreturned_ballots": 0,
+      "electors": 1891,
+      "turnout_rate": 79.7462
+    },
+    "TAO-YANGMEI-GAOSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "高山里",
+      "village_en": "Gaoshan Village",
+      "votes": {
+        "1": 387,
+        "2": 1594,
+        "3": 328,
+        "4": 297
+      },
+      "valid_votes": 2606,
+      "invalid_votes": 46,
+      "ballots_cast": 2652,
+      "unreturned_ballots": 0,
+      "electors": 3514,
+      "turnout_rate": 75.4696
+    },
+    "TAO-YANGMEI-GAORONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "高榮里",
+      "village_en": "Gaorong Village",
+      "votes": {
+        "1": 487,
+        "2": 2096,
+        "3": 448,
+        "4": 372
+      },
+      "valid_votes": 3403,
+      "invalid_votes": 62,
+      "ballots_cast": 3465,
+      "unreturned_ballots": 0,
+      "electors": 4478,
+      "turnout_rate": 77.3783
+    },
+    "TAO-YANGMEI-SHUIMEI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "水美里",
+      "village_en": "Shuimei Village",
+      "votes": {
+        "1": 291,
+        "2": 1309,
+        "3": 339,
+        "4": 166
+      },
+      "valid_votes": 2105,
+      "invalid_votes": 24,
+      "ballots_cast": 2129,
+      "unreturned_ballots": 0,
+      "electors": 2679,
+      "turnout_rate": 79.47
+    },
+    "TAO-YANGMEI-RUIYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "楊梅鎮",
+      "township_en": "Yangmei Township",
+      "village_zh": "瑞原里",
+      "village_en": "Ruiyuan Village",
+      "votes": {
+        "1": 243,
+        "2": 1294,
+        "3": 289,
+        "4": 145
+      },
+      "valid_votes": 1971,
+      "invalid_votes": 33,
+      "ballots_cast": 2004,
+      "unreturned_ballots": 0,
+      "electors": 2560,
+      "turnout_rate": 78.2812
+    },
+    "TAO-LONGTAN-HUANGTANG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "黃唐村",
+      "village_en": "Huangtang Village",
+      "votes": {
+        "1": 402,
+        "2": 2304,
+        "3": 419,
+        "4": 631
+      },
+      "valid_votes": 3756,
+      "invalid_votes": 47,
+      "ballots_cast": 3803,
+      "unreturned_ballots": 0,
+      "electors": 4816,
+      "turnout_rate": 78.9659
+    },
+    "TAO-LONGTAN-ZHONGSHAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "中山村",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 301,
+        "2": 1562,
+        "3": 380,
+        "4": 301
+      },
+      "valid_votes": 2544,
+      "invalid_votes": 24,
+      "ballots_cast": 2568,
+      "unreturned_ballots": 0,
+      "electors": 3152,
+      "turnout_rate": 81.4721
+    },
+    "TAO-LONGTAN-WULIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "烏林村",
+      "village_en": "Wulin Village",
+      "votes": {
+        "1": 396,
+        "2": 2074,
+        "3": 368,
+        "4": 456
+      },
+      "valid_votes": 3294,
+      "invalid_votes": 61,
+      "ballots_cast": 3355,
+      "unreturned_ballots": 0,
+      "electors": 4323,
+      "turnout_rate": 77.6081
+    },
+    "TAO-LONGTAN-GANCHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "干城村",
+      "village_en": "Gancheng Village",
+      "votes": {
+        "1": 26,
+        "2": 272,
+        "3": 5,
+        "4": 281
+      },
+      "valid_votes": 584,
+      "invalid_votes": 8,
+      "ballots_cast": 592,
+      "unreturned_ballots": 0,
+      "electors": 741,
+      "turnout_rate": 79.892
+    },
+    "TAO-LONGTAN-LINGYUN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "凌雲村",
+      "village_en": "Lingyun Village",
+      "votes": {
+        "1": 379,
+        "2": 2316,
+        "3": 375,
+        "4": 672
+      },
+      "valid_votes": 3742,
+      "invalid_votes": 49,
+      "ballots_cast": 3791,
+      "unreturned_ballots": 0,
+      "electors": 4839,
+      "turnout_rate": 78.3426
+    },
+    "TAO-LONGTAN-BADE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "八德村",
+      "village_en": "Bade Village",
+      "votes": {
+        "1": 456,
+        "2": 1949,
+        "3": 535,
+        "4": 504
+      },
+      "valid_votes": 3444,
+      "invalid_votes": 62,
+      "ballots_cast": 3506,
+      "unreturned_ballots": 0,
+      "electors": 4528,
+      "turnout_rate": 77.4293
+    },
+    "TAO-LONGTAN-SHANGLIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "上林村",
+      "village_en": "Shanglin Village",
+      "votes": {
+        "1": 242,
+        "2": 943,
+        "3": 235,
+        "4": 175
+      },
+      "valid_votes": 1595,
+      "invalid_votes": 29,
+      "ballots_cast": 1624,
+      "unreturned_ballots": 0,
+      "electors": 2061,
+      "turnout_rate": 78.7967
+    },
+    "TAO-LONGTAN-LONGTAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "龍潭村",
+      "village_en": "Longtan Village",
+      "votes": {
+        "1": 211,
+        "2": 994,
+        "3": 271,
+        "4": 152
+      },
+      "valid_votes": 1628,
+      "invalid_votes": 15,
+      "ballots_cast": 1643,
+      "unreturned_ballots": 0,
+      "electors": 1987,
+      "turnout_rate": 82.6875
+    },
+    "TAO-LONGTAN-ZHONGZHENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 604,
+        "2": 2361,
+        "3": 487,
+        "4": 774
+      },
+      "valid_votes": 4226,
+      "invalid_votes": 63,
+      "ballots_cast": 4289,
+      "unreturned_ballots": 0,
+      "electors": 5387,
+      "turnout_rate": 79.6176
+    },
+    "TAO-LONGTAN-JIULONG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "九龍村",
+      "village_en": "Jiulong Village",
+      "votes": {
+        "1": 287,
+        "2": 1585,
+        "3": 330,
+        "4": 533
+      },
+      "valid_votes": 2735,
+      "invalid_votes": 43,
+      "ballots_cast": 2778,
+      "unreturned_ballots": 0,
+      "electors": 3583,
+      "turnout_rate": 77.5328
+    },
+    "TAO-LONGTAN-ZHONGXING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "中興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 567,
+        "2": 2919,
+        "3": 383,
+        "4": 1323
+      },
+      "valid_votes": 5192,
+      "invalid_votes": 90,
+      "ballots_cast": 5282,
+      "unreturned_ballots": 0,
+      "electors": 6813,
+      "turnout_rate": 77.5283
+    },
+    "TAO-LONGTAN-JIAAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "佳安村",
+      "village_en": "Jiaan Village",
+      "votes": {
+        "1": 396,
+        "2": 914,
+        "3": 168,
+        "4": 772
+      },
+      "valid_votes": 2250,
+      "invalid_votes": 18,
+      "ballots_cast": 2268,
+      "unreturned_ballots": 0,
+      "electors": 2796,
+      "turnout_rate": 81.1159
+    },
+    "TAO-LONGTAN-SANKENG": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "三坑村",
+      "village_en": "Sankeng Village",
+      "votes": {
+        "1": 95,
+        "2": 627,
+        "3": 166,
+        "4": 80
+      },
+      "valid_votes": 968,
+      "invalid_votes": 10,
+      "ballots_cast": 978,
+      "unreturned_ballots": 0,
+      "electors": 1262,
+      "turnout_rate": 77.496
+    },
+    "TAO-LONGTAN-DAPING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "大平村",
+      "village_en": "Daping Village",
+      "votes": {
+        "1": 48,
+        "2": 368,
+        "3": 132,
+        "4": 34
+      },
+      "valid_votes": 582,
+      "invalid_votes": 5,
+      "ballots_cast": 587,
+      "unreturned_ballots": 0,
+      "electors": 761,
+      "turnout_rate": 77.1353
+    },
+    "TAO-LONGTAN-SANLIN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "三林村",
+      "village_en": "Sanlin Village",
+      "votes": {
+        "1": 850,
+        "2": 2091,
+        "3": 379,
+        "4": 1645
+      },
+      "valid_votes": 4965,
+      "invalid_votes": 42,
+      "ballots_cast": 5007,
+      "unreturned_ballots": 0,
+      "electors": 6207,
+      "turnout_rate": 80.667
+    },
+    "TAO-LONGTAN-GAOPING": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "高平村",
+      "village_en": "Gaoping Village",
+      "votes": {
+        "1": 176,
+        "2": 964,
+        "3": 204,
+        "4": 124
+      },
+      "valid_votes": 1468,
+      "invalid_votes": 19,
+      "ballots_cast": 1487,
+      "unreturned_ballots": 0,
+      "electors": 1886,
+      "turnout_rate": 78.8441
+    },
+    "TAO-LONGTAN-GAOYUAN": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "高原村",
+      "village_en": "Gaoyuan Village",
+      "votes": {
+        "1": 148,
+        "2": 954,
+        "3": 272,
+        "4": 133
+      },
+      "valid_votes": 1507,
+      "invalid_votes": 26,
+      "ballots_cast": 1533,
+      "unreturned_ballots": 0,
+      "electors": 1938,
+      "turnout_rate": 79.1022
+    },
+    "TAO-LONGTAN-SANHE": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "三和村",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 70,
+        "2": 416,
+        "3": 124,
+        "4": 47
+      },
+      "valid_votes": 657,
+      "invalid_votes": 12,
+      "ballots_cast": 669,
+      "unreturned_ballots": 0,
+      "electors": 850,
+      "turnout_rate": 78.7059
+    },
+    "TAO-LONGTAN-SANSHUI": {
+      "county_zh": "桃園縣",
+      "county_en": "Taoyuan County",
+      "township_zh": "龍潭鄉",
+      "township_en": "Longtan Township",
+      "village_zh": "三水村",
+      "village_en": "Sanshui Village",
+      "votes": {
+        "1": 53,
+        "2": 356,
+        "3": 89,
+        "4": 23
+      },
+      "valid_votes": 521,
+      "invalid_votes": 8,
+      "ballots_cast": 529,
+      "unreturned_ballots": 0,
+      "electors": 659,
+      "turnout_rate": 80.2731
+    }
+  }
+}

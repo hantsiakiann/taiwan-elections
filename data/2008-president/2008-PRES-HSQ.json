@@ -1,0 +1,3888 @@
+{
+  "election_id": "2008-president",
+  "election_type": "president",
+  "source_file": "2008-PRES-HSQ.xls",
+  "county_zh": "新竹縣",
+  "county_en": "Hsinchu County",
+  "county_iso": "HSQ",
+  "candidates": {
+    "1": {
+      "name_zh": "謝長廷",
+      "running_mate_zh": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "蕭萬長",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 73178,
+      "2": 208445
+    },
+    "valid_votes": 281623,
+    "invalid_votes": 2723,
+    "ballots_cast": 284346,
+    "unreturned_ballots": 3,
+    "ballots_issued": 284349,
+    "unused_ballots": 74084,
+    "electors": 358433,
+    "turnout_rate": 79.33000183105469
+  },
+  "townships": {
+    "HSQ-ZHUBEI": {
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "votes": {
+        "1": 20704,
+        "2": 49264
+      },
+      "valid_votes": 69968,
+      "invalid_votes": 573,
+      "ballots_cast": 70541,
+      "unreturned_ballots": 1,
+      "ballots_issued": 70542,
+      "unused_ballots": 17237,
+      "electors": 87779,
+      "turnout_rate": 80.36000061035156
+    },
+    "HSQ-ZHUDONG": {
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "votes": {
+        "1": 11054,
+        "2": 43311
+      },
+      "valid_votes": 54365,
+      "invalid_votes": 507,
+      "ballots_cast": 54872,
+      "unreturned_ballots": 0,
+      "ballots_issued": 54872,
+      "unused_ballots": 13720,
+      "electors": 68592,
+      "turnout_rate": 80.0
+    },
+    "HSQ-XINPU": {
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "votes": {
+        "1": 6939,
+        "2": 14877
+      },
+      "valid_votes": 21816,
+      "invalid_votes": 226,
+      "ballots_cast": 22042,
+      "unreturned_ballots": 0,
+      "ballots_issued": 22042,
+      "unused_ballots": 5729,
+      "electors": 27771,
+      "turnout_rate": 79.37000274658203
+    },
+    "HSQ-GUANXI": {
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "votes": {
+        "1": 5595,
+        "2": 13492
+      },
+      "valid_votes": 19087,
+      "invalid_votes": 207,
+      "ballots_cast": 19294,
+      "unreturned_ballots": 0,
+      "ballots_issued": 19294,
+      "unused_ballots": 5472,
+      "electors": 24766,
+      "turnout_rate": 77.91000366210938
+    },
+    "HSQ-HUKOU": {
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "votes": {
+        "1": 9931,
+        "2": 31629
+      },
+      "valid_votes": 41560,
+      "invalid_votes": 465,
+      "ballots_cast": 42025,
+      "unreturned_ballots": 0,
+      "ballots_issued": 42025,
+      "unused_ballots": 11129,
+      "electors": 53154,
+      "turnout_rate": 79.05999755859375
+    },
+    "HSQ-XINFENG": {
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "votes": {
+        "1": 7977,
+        "2": 20360
+      },
+      "valid_votes": 28337,
+      "invalid_votes": 294,
+      "ballots_cast": 28631,
+      "unreturned_ballots": 1,
+      "ballots_issued": 28632,
+      "unused_ballots": 7972,
+      "electors": 36604,
+      "turnout_rate": 78.22000122070312
+    },
+    "HSQ-QIONGLIN": {
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "votes": {
+        "1": 3006,
+        "2": 9474
+      },
+      "valid_votes": 12480,
+      "invalid_votes": 122,
+      "ballots_cast": 12602,
+      "unreturned_ballots": 1,
+      "ballots_issued": 12603,
+      "unused_ballots": 3033,
+      "electors": 15636,
+      "turnout_rate": 80.5999984741211
+    },
+    "HSQ-HENGSHAN": {
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "votes": {
+        "1": 1966,
+        "2": 6991
+      },
+      "valid_votes": 8957,
+      "invalid_votes": 80,
+      "ballots_cast": 9037,
+      "unreturned_ballots": 0,
+      "ballots_issued": 9037,
+      "unused_ballots": 2370,
+      "electors": 11407,
+      "turnout_rate": 79.22000122070312
+    },
+    "HSQ-BEIPU": {
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "votes": {
+        "1": 1568,
+        "2": 4644
+      },
+      "valid_votes": 6212,
+      "invalid_votes": 71,
+      "ballots_cast": 6283,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6283,
+      "unused_ballots": 1648,
+      "electors": 7931,
+      "turnout_rate": 79.22000122070312
+    },
+    "HSQ-BAOSHAN": {
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "votes": {
+        "1": 2188,
+        "2": 6009
+      },
+      "valid_votes": 8197,
+      "invalid_votes": 74,
+      "ballots_cast": 8271,
+      "unreturned_ballots": 0,
+      "ballots_issued": 8271,
+      "unused_ballots": 2162,
+      "electors": 10433,
+      "turnout_rate": 79.27999877929688
+    },
+    "HSQ-EMEI": {
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "votes": {
+        "1": 1403,
+        "2": 2471
+      },
+      "valid_votes": 3874,
+      "invalid_votes": 32,
+      "ballots_cast": 3906,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3906,
+      "unused_ballots": 1097,
+      "electors": 5003,
+      "turnout_rate": 78.06999969482422
+    },
+    "HSQ-JIANSHI": {
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "votes": {
+        "1": 550,
+        "2": 3703
+      },
+      "valid_votes": 4253,
+      "invalid_votes": 46,
+      "ballots_cast": 4299,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4299,
+      "unused_ballots": 1615,
+      "electors": 5914,
+      "turnout_rate": 72.69000244140625
+    },
+    "HSQ-WUFENG": {
+      "township_zh": "五峰鄉",
+      "township_en": "Wufeng Township",
+      "votes": {
+        "1": 297,
+        "2": 2220
+      },
+      "valid_votes": 2517,
+      "invalid_votes": 26,
+      "ballots_cast": 2543,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2543,
+      "unused_ballots": 900,
+      "electors": 3443,
+      "turnout_rate": 73.86000061035156
+    }
+  },
+  "villages": {
+    "HSQ-ZHUBEI-LUCHANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "鹿場里",
+      "village_en": "Luchang Village",
+      "votes": {
+        "1": 709,
+        "2": 2024
+      },
+      "valid_votes": 2733,
+      "invalid_votes": 18,
+      "ballots_cast": 2751,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2751,
+      "unused_ballots": 583,
+      "electors": 3334,
+      "turnout_rate": 82.51000213623047
+    },
+    "HSQ-ZHUBEI-DONGPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "東平里",
+      "village_en": "Dongping Village",
+      "votes": {
+        "1": 377,
+        "2": 1056
+      },
+      "valid_votes": 1433,
+      "invalid_votes": 10,
+      "ballots_cast": 1443,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1443,
+      "unused_ballots": 312,
+      "electors": 1755,
+      "turnout_rate": 82.22000122070312
+    },
+    "HSQ-ZHUBEI-ZHONGXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 574,
+        "2": 1439
+      },
+      "valid_votes": 2013,
+      "invalid_votes": 15,
+      "ballots_cast": 2028,
+      "unreturned_ballots": 1,
+      "ballots_issued": 2029,
+      "unused_ballots": 473,
+      "electors": 2502,
+      "turnout_rate": 81.05999755859375
+    },
+    "HSQ-ZHUBEI-AIKOU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "隘口里",
+      "village_en": "Aikou Village",
+      "votes": {
+        "1": 134,
+        "2": 341
+      },
+      "valid_votes": 475,
+      "invalid_votes": 9,
+      "ballots_cast": 484,
+      "unreturned_ballots": 0,
+      "ballots_issued": 484,
+      "unused_ballots": 93,
+      "electors": 577,
+      "turnout_rate": 83.87999725341797
+    },
+    "HSQ-ZHUBEI-DONGHAI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "東海里",
+      "village_en": "Donghai Village",
+      "votes": {
+        "1": 543,
+        "2": 1529
+      },
+      "valid_votes": 2072,
+      "invalid_votes": 19,
+      "ballots_cast": 2091,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2091,
+      "unused_ballots": 511,
+      "electors": 2602,
+      "turnout_rate": 80.36000061035156
+    },
+    "HSQ-ZHUBEI-SHIXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "十興里",
+      "village_en": "Shixing Village",
+      "votes": {
+        "1": 2691,
+        "2": 8042
+      },
+      "valid_votes": 10733,
+      "invalid_votes": 73,
+      "ballots_cast": 10806,
+      "unreturned_ballots": 0,
+      "ballots_issued": 10806,
+      "unused_ballots": 2441,
+      "electors": 13247,
+      "turnout_rate": 81.56999969482422
+    },
+    "HSQ-ZHUBEI-DOULUN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "斗崙里",
+      "village_en": "Doulun Village",
+      "votes": {
+        "1": 1386,
+        "2": 3904
+      },
+      "valid_votes": 5290,
+      "invalid_votes": 27,
+      "ballots_cast": 5317,
+      "unreturned_ballots": 0,
+      "ballots_issued": 5317,
+      "unused_ballots": 1148,
+      "electors": 6465,
+      "turnout_rate": 82.23999786376953
+    },
+    "HSQ-ZHUBEI-BEILUN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "北崙里",
+      "village_en": "Beilun Village",
+      "votes": {
+        "1": 630,
+        "2": 1969
+      },
+      "valid_votes": 2599,
+      "invalid_votes": 13,
+      "ballots_cast": 2612,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2612,
+      "unused_ballots": 523,
+      "electors": 3135,
+      "turnout_rate": 83.31999969482422
+    },
+    "HSQ-ZHUBEI-XINLUN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "新崙里",
+      "village_en": "Xinlun Village",
+      "votes": {
+        "1": 1074,
+        "2": 2311
+      },
+      "valid_votes": 3385,
+      "invalid_votes": 34,
+      "ballots_cast": 3419,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3419,
+      "unused_ballots": 771,
+      "electors": 4190,
+      "turnout_rate": 81.5999984741211
+    },
+    "HSQ-ZHUBEI-ZHUBEI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "竹北里",
+      "village_en": "Zhubei Village",
+      "votes": {
+        "1": 840,
+        "2": 2601
+      },
+      "valid_votes": 3441,
+      "invalid_votes": 28,
+      "ballots_cast": 3469,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3469,
+      "unused_ballots": 868,
+      "electors": 4337,
+      "turnout_rate": 79.98999786376953
+    },
+    "HSQ-ZHUBEI-ZHUREN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "竹仁里",
+      "village_en": "Zhuren Village",
+      "votes": {
+        "1": 1503,
+        "2": 4564
+      },
+      "valid_votes": 6067,
+      "invalid_votes": 43,
+      "ballots_cast": 6110,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6110,
+      "unused_ballots": 1463,
+      "electors": 7573,
+      "turnout_rate": 80.68000030517578
+    },
+    "HSQ-ZHUBEI-FUDE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "福德里",
+      "village_en": "Fude Village",
+      "votes": {
+        "1": 685,
+        "2": 1669
+      },
+      "valid_votes": 2354,
+      "invalid_votes": 23,
+      "ballots_cast": 2377,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2377,
+      "unused_ballots": 599,
+      "electors": 2976,
+      "turnout_rate": 79.87000274658203
+    },
+    "HSQ-ZHUBEI-ZHUYI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "竹義里",
+      "village_en": "Zhuyi Village",
+      "votes": {
+        "1": 991,
+        "2": 2421
+      },
+      "valid_votes": 3412,
+      "invalid_votes": 26,
+      "ballots_cast": 3438,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3438,
+      "unused_ballots": 970,
+      "electors": 4408,
+      "turnout_rate": 77.98999786376953
+    },
+    "HSQ-ZHUBEI-TAIHE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "泰和里",
+      "village_en": "Taihe Village",
+      "votes": {
+        "1": 887,
+        "2": 2228
+      },
+      "valid_votes": 3115,
+      "invalid_votes": 36,
+      "ballots_cast": 3151,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3151,
+      "unused_ballots": 830,
+      "electors": 3981,
+      "turnout_rate": 79.1500015258789
+    },
+    "HSQ-ZHUBEI-XINSHE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "新社里",
+      "village_en": "Xinshe Village",
+      "votes": {
+        "1": 1242,
+        "2": 3175
+      },
+      "valid_votes": 4417,
+      "invalid_votes": 37,
+      "ballots_cast": 4454,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4454,
+      "unused_ballots": 1236,
+      "electors": 5690,
+      "turnout_rate": 78.27999877929688
+    },
+    "HSQ-ZHUBEI-XINGUO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "新國里",
+      "village_en": "Xinguo Village",
+      "votes": {
+        "1": 963,
+        "2": 2113
+      },
+      "valid_votes": 3076,
+      "invalid_votes": 34,
+      "ballots_cast": 3110,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3110,
+      "unused_ballots": 813,
+      "electors": 3923,
+      "turnout_rate": 79.27999877929688
+    },
+    "HSQ-ZHUBEI-LIANXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "聯興里",
+      "village_en": "Lianxing Village",
+      "votes": {
+        "1": 884,
+        "2": 1944
+      },
+      "valid_votes": 2828,
+      "invalid_votes": 30,
+      "ballots_cast": 2858,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2858,
+      "unused_ballots": 742,
+      "electors": 3600,
+      "turnout_rate": 79.38999938964844
+    },
+    "HSQ-ZHUBEI-MAYUAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "麻園里",
+      "village_en": "Mayuan Village",
+      "votes": {
+        "1": 479,
+        "2": 680
+      },
+      "valid_votes": 1159,
+      "invalid_votes": 9,
+      "ballots_cast": 1168,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1168,
+      "unused_ballots": 283,
+      "electors": 1451,
+      "turnout_rate": 80.5
+    },
+    "HSQ-ZHUBEI-XIZHOU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "溪州里",
+      "village_en": "Xizhou Village",
+      "votes": {
+        "1": 564,
+        "2": 991
+      },
+      "valid_votes": 1555,
+      "invalid_votes": 16,
+      "ballots_cast": 1571,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1571,
+      "unused_ballots": 413,
+      "electors": 1984,
+      "turnout_rate": 79.18000030517578
+    },
+    "HSQ-ZHUBEI-XINZHUANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "新庄里",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 284,
+        "2": 427
+      },
+      "valid_votes": 711,
+      "invalid_votes": 8,
+      "ballots_cast": 719,
+      "unreturned_ballots": 0,
+      "ballots_issued": 719,
+      "unused_ballots": 228,
+      "electors": 947,
+      "turnout_rate": 75.91999816894531
+    },
+    "HSQ-ZHUBEI-BAIDI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "白地里",
+      "village_en": "Baidi Village",
+      "votes": {
+        "1": 632,
+        "2": 788
+      },
+      "valid_votes": 1420,
+      "invalid_votes": 26,
+      "ballots_cast": 1446,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1446,
+      "unused_ballots": 396,
+      "electors": 1842,
+      "turnout_rate": 78.5
+    },
+    "HSQ-ZHUBEI-XINGANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "新港里",
+      "village_en": "Xingang Village",
+      "votes": {
+        "1": 490,
+        "2": 375
+      },
+      "valid_votes": 865,
+      "invalid_votes": 9,
+      "ballots_cast": 874,
+      "unreturned_ballots": 0,
+      "ballots_issued": 874,
+      "unused_ballots": 247,
+      "electors": 1121,
+      "turnout_rate": 77.97000122070312
+    },
+    "HSQ-ZHUBEI-DAMEI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "大眉里",
+      "village_en": "Damei Village",
+      "votes": {
+        "1": 390,
+        "2": 796
+      },
+      "valid_votes": 1186,
+      "invalid_votes": 3,
+      "ballots_cast": 1189,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1189,
+      "unused_ballots": 311,
+      "electors": 1500,
+      "turnout_rate": 79.2699966430664
+    },
+    "HSQ-ZHUBEI-DAYI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "大義里",
+      "village_en": "Dayi Village",
+      "votes": {
+        "1": 547,
+        "2": 617
+      },
+      "valid_votes": 1164,
+      "invalid_votes": 8,
+      "ballots_cast": 1172,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1172,
+      "unused_ballots": 303,
+      "electors": 1475,
+      "turnout_rate": 79.45999908447266
+    },
+    "HSQ-ZHUBEI-SHANGYI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "尚義里",
+      "village_en": "Shangyi Village",
+      "votes": {
+        "1": 565,
+        "2": 539
+      },
+      "valid_votes": 1104,
+      "invalid_votes": 8,
+      "ballots_cast": 1112,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1112,
+      "unused_ballots": 292,
+      "electors": 1404,
+      "turnout_rate": 79.19999694824219
+    },
+    "HSQ-ZHUBEI-CHONGYI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹北市",
+      "township_en": "Zhubei City",
+      "village_zh": "崇義里",
+      "village_en": "Chongyi Village",
+      "votes": {
+        "1": 640,
+        "2": 721
+      },
+      "valid_votes": 1361,
+      "invalid_votes": 11,
+      "ballots_cast": 1372,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1372,
+      "unused_ballots": 388,
+      "electors": 1760,
+      "turnout_rate": 77.94999694824219
+    },
+    "HSQ-ZHUDONG-SHANGPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "上坪里",
+      "village_en": "Shangping Village",
+      "votes": {
+        "1": 60,
+        "2": 213
+      },
+      "valid_votes": 273,
+      "invalid_votes": 1,
+      "ballots_cast": 274,
+      "unreturned_ballots": 0,
+      "ballots_issued": 274,
+      "unused_ballots": 104,
+      "electors": 378,
+      "turnout_rate": 72.48999786376953
+    },
+    "HSQ-ZHUDONG-RUIFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "瑞峰里",
+      "village_en": "Ruifeng Village",
+      "votes": {
+        "1": 63,
+        "2": 218
+      },
+      "valid_votes": 281,
+      "invalid_votes": 1,
+      "ballots_cast": 282,
+      "unreturned_ballots": 0,
+      "ballots_issued": 282,
+      "unused_ballots": 80,
+      "electors": 362,
+      "turnout_rate": 77.9000015258789
+    },
+    "HSQ-ZHUDONG-RUANQIAO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "軟橋里",
+      "village_en": "Ruanqiao Village",
+      "votes": {
+        "1": 64,
+        "2": 213
+      },
+      "valid_votes": 277,
+      "invalid_votes": 3,
+      "ballots_cast": 280,
+      "unreturned_ballots": 0,
+      "ballots_issued": 280,
+      "unused_ballots": 94,
+      "electors": 374,
+      "turnout_rate": 74.87000274658203
+    },
+    "HSQ-ZHUDONG-YUANDONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "員崠里",
+      "village_en": "Yuandong Village",
+      "votes": {
+        "1": 271,
+        "2": 1339
+      },
+      "valid_votes": 1610,
+      "invalid_votes": 15,
+      "ballots_cast": 1625,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1625,
+      "unused_ballots": 429,
+      "electors": 2054,
+      "turnout_rate": 79.11000061035156
+    },
+    "HSQ-ZHUDONG-SHANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "上�里",
+      "village_en": "Shang� Village",
+      "votes": {
+        "1": 1071,
+        "2": 5032
+      },
+      "valid_votes": 6103,
+      "invalid_votes": 46,
+      "ballots_cast": 6149,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6149,
+      "unused_ballots": 1538,
+      "electors": 7687,
+      "turnout_rate": 79.98999786376953
+    },
+    "HSQ-ZHUDONG-DONGNING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "東寧里",
+      "village_en": "Dongning Village",
+      "votes": {
+        "1": 421,
+        "2": 1961
+      },
+      "valid_votes": 2382,
+      "invalid_votes": 20,
+      "ballots_cast": 2402,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2402,
+      "unused_ballots": 560,
+      "electors": 2962,
+      "turnout_rate": 81.08999633789062
+    },
+    "HSQ-ZHUDONG-ZHONGZHENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 330,
+        "2": 982
+      },
+      "valid_votes": 1312,
+      "invalid_votes": 9,
+      "ballots_cast": 1321,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1321,
+      "unused_ballots": 324,
+      "electors": 1645,
+      "turnout_rate": 80.30000305175781
+    },
+    "HSQ-ZHUDONG-DAXIANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "大鄉里",
+      "village_en": "Daxiang Village",
+      "votes": {
+        "1": 591,
+        "2": 2565
+      },
+      "valid_votes": 3156,
+      "invalid_votes": 44,
+      "ballots_cast": 3200,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3200,
+      "unused_ballots": 876,
+      "electors": 4076,
+      "turnout_rate": 78.51000213623047
+    },
+    "HSQ-ZHUDONG-ZHONGSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 333,
+        "2": 1125
+      },
+      "valid_votes": 1458,
+      "invalid_votes": 10,
+      "ballots_cast": 1468,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1468,
+      "unused_ballots": 321,
+      "electors": 1789,
+      "turnout_rate": 82.05999755859375
+    },
+    "HSQ-ZHUDONG-NANHUA": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "南華里",
+      "village_en": "Nanhua Village",
+      "votes": {
+        "1": 219,
+        "2": 691
+      },
+      "valid_votes": 910,
+      "invalid_votes": 5,
+      "ballots_cast": 915,
+      "unreturned_ballots": 0,
+      "ballots_issued": 915,
+      "unused_ballots": 208,
+      "electors": 1123,
+      "turnout_rate": 81.4800033569336
+    },
+    "HSQ-ZHUDONG-DONGHUA": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "東華里",
+      "village_en": "Donghua Village",
+      "votes": {
+        "1": 184,
+        "2": 447
+      },
+      "valid_votes": 631,
+      "invalid_votes": 8,
+      "ballots_cast": 639,
+      "unreturned_ballots": 0,
+      "ballots_issued": 639,
+      "unused_ballots": 130,
+      "electors": 769,
+      "turnout_rate": 83.08999633789062
+    },
+    "HSQ-ZHUDONG-SHANGHUA": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "商華里",
+      "village_en": "Shanghua Village",
+      "votes": {
+        "1": 407,
+        "2": 1605
+      },
+      "valid_votes": 2012,
+      "invalid_votes": 48,
+      "ballots_cast": 2060,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2060,
+      "unused_ballots": 659,
+      "electors": 2719,
+      "turnout_rate": 75.76000213623047
+    },
+    "HSQ-ZHUDONG-LIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "�林里",
+      "village_en": "�lin Village",
+      "votes": {
+        "1": 522,
+        "2": 2189
+      },
+      "valid_votes": 2711,
+      "invalid_votes": 22,
+      "ballots_cast": 2733,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2733,
+      "unused_ballots": 678,
+      "electors": 3411,
+      "turnout_rate": 80.12000274658203
+    },
+    "HSQ-ZHUDONG-RENAI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "仁愛里",
+      "village_en": "Renai Village",
+      "votes": {
+        "1": 509,
+        "2": 1844
+      },
+      "valid_votes": 2353,
+      "invalid_votes": 28,
+      "ballots_cast": 2381,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2381,
+      "unused_ballots": 575,
+      "electors": 2956,
+      "turnout_rate": 80.55000305175781
+    },
+    "HSQ-ZHUDONG-ZHUDONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "竹東里",
+      "village_en": "Zhudong Village",
+      "votes": {
+        "1": 313,
+        "2": 856
+      },
+      "valid_votes": 1169,
+      "invalid_votes": 8,
+      "ballots_cast": 1177,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1177,
+      "unused_ballots": 268,
+      "electors": 1445,
+      "turnout_rate": 81.44999694824219
+    },
+    "HSQ-ZHUDONG-ZHONGXIAO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "忠孝里",
+      "village_en": "Zhongxiao Village",
+      "votes": {
+        "1": 251,
+        "2": 995
+      },
+      "valid_votes": 1246,
+      "invalid_votes": 12,
+      "ballots_cast": 1258,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1258,
+      "unused_ballots": 299,
+      "electors": 1557,
+      "turnout_rate": 80.80000305175781
+    },
+    "HSQ-ZHUDONG-RONGLE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "榮樂里",
+      "village_en": "Rongle Village",
+      "votes": {
+        "1": 251,
+        "2": 892
+      },
+      "valid_votes": 1143,
+      "invalid_votes": 5,
+      "ballots_cast": 1148,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1148,
+      "unused_ballots": 282,
+      "electors": 1430,
+      "turnout_rate": 80.27999877929688
+    },
+    "HSQ-ZHUDONG-RONGHUA": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "榮華里",
+      "village_en": "Ronghua Village",
+      "votes": {
+        "1": 876,
+        "2": 3951
+      },
+      "valid_votes": 4827,
+      "invalid_votes": 38,
+      "ballots_cast": 4865,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4865,
+      "unused_ballots": 1065,
+      "electors": 5930,
+      "turnout_rate": 82.04000091552734
+    },
+    "HSQ-ZHUDONG-WUFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "五豐里",
+      "village_en": "Wufeng Village",
+      "votes": {
+        "1": 860,
+        "2": 4084
+      },
+      "valid_votes": 4944,
+      "invalid_votes": 44,
+      "ballots_cast": 4988,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4988,
+      "unused_ballots": 1406,
+      "electors": 6394,
+      "turnout_rate": 78.01000213623047
+    },
+    "HSQ-ZHUDONG-LUFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "陸豐里",
+      "village_en": "Lufeng Village",
+      "votes": {
+        "1": 87,
+        "2": 327
+      },
+      "valid_votes": 414,
+      "invalid_votes": 1,
+      "ballots_cast": 415,
+      "unreturned_ballots": 0,
+      "ballots_issued": 415,
+      "unused_ballots": 119,
+      "electors": 534,
+      "turnout_rate": 77.72000122070312
+    },
+    "HSQ-ZHUDONG-SANCHONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "三重里",
+      "village_en": "Sanchong Village",
+      "votes": {
+        "1": 874,
+        "2": 3265
+      },
+      "valid_votes": 4139,
+      "invalid_votes": 39,
+      "ballots_cast": 4178,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4178,
+      "unused_ballots": 1036,
+      "electors": 5214,
+      "turnout_rate": 80.12999725341797
+    },
+    "HSQ-ZHUDONG-ERCHONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "二重里",
+      "village_en": "Erchong Village",
+      "votes": {
+        "1": 1375,
+        "2": 4796
+      },
+      "valid_votes": 6171,
+      "invalid_votes": 61,
+      "ballots_cast": 6232,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6232,
+      "unused_ballots": 1509,
+      "electors": 7741,
+      "turnout_rate": 80.51000213623047
+    },
+    "HSQ-ZHUDONG-TOUZHONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "頭重里",
+      "village_en": "Touzhong Village",
+      "votes": {
+        "1": 645,
+        "2": 2344
+      },
+      "valid_votes": 2989,
+      "invalid_votes": 21,
+      "ballots_cast": 3010,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3010,
+      "unused_ballots": 714,
+      "electors": 3724,
+      "turnout_rate": 80.83000183105469
+    },
+    "HSQ-ZHUDONG-YUANSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "員山里",
+      "village_en": "Yuanshan Village",
+      "votes": {
+        "1": 304,
+        "2": 1033
+      },
+      "valid_votes": 1337,
+      "invalid_votes": 10,
+      "ballots_cast": 1347,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1347,
+      "unused_ballots": 303,
+      "electors": 1650,
+      "turnout_rate": 81.63999938964844
+    },
+    "HSQ-ZHUDONG-KEHU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "竹東鎮",
+      "township_en": "Zhudong Township",
+      "village_zh": "柯湖里",
+      "village_en": "Kehu Village",
+      "votes": {
+        "1": 173,
+        "2": 344
+      },
+      "valid_votes": 517,
+      "invalid_votes": 8,
+      "ballots_cast": 525,
+      "unreturned_ballots": 0,
+      "ballots_issued": 525,
+      "unused_ballots": 143,
+      "electors": 668,
+      "turnout_rate": 78.58999633789062
+    },
+    "HSQ-XINPU-XINPU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "新埔里",
+      "village_en": "Xinpu Village",
+      "votes": {
+        "1": 253,
+        "2": 591
+      },
+      "valid_votes": 844,
+      "invalid_votes": 6,
+      "ballots_cast": 850,
+      "unreturned_ballots": 0,
+      "ballots_issued": 850,
+      "unused_ballots": 186,
+      "electors": 1036,
+      "turnout_rate": 82.05000305175781
+    },
+    "HSQ-XINPU-XINSHENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "新生里",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 182,
+        "2": 341
+      },
+      "valid_votes": 523,
+      "invalid_votes": 5,
+      "ballots_cast": 528,
+      "unreturned_ballots": 0,
+      "ballots_issued": 528,
+      "unused_ballots": 124,
+      "electors": 652,
+      "turnout_rate": 80.9800033569336
+    },
+    "HSQ-XINPU-XINMIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "新民里",
+      "village_en": "Xinmin Village",
+      "votes": {
+        "1": 237,
+        "2": 662
+      },
+      "valid_votes": 899,
+      "invalid_votes": 6,
+      "ballots_cast": 905,
+      "unreturned_ballots": 0,
+      "ballots_issued": 905,
+      "unused_ballots": 233,
+      "electors": 1138,
+      "turnout_rate": 79.52999877929688
+    },
+    "HSQ-XINPU-TIANXIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "田新里",
+      "village_en": "Tianxin Village",
+      "votes": {
+        "1": 509,
+        "2": 1448
+      },
+      "valid_votes": 1957,
+      "invalid_votes": 14,
+      "ballots_cast": 1971,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1971,
+      "unused_ballots": 462,
+      "electors": 2433,
+      "turnout_rate": 81.01000213623047
+    },
+    "HSQ-XINPU-HANKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "旱坑里",
+      "village_en": "Hankeng Village",
+      "votes": {
+        "1": 400,
+        "2": 981
+      },
+      "valid_votes": 1381,
+      "invalid_votes": 21,
+      "ballots_cast": 1402,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1402,
+      "unused_ballots": 399,
+      "electors": 1801,
+      "turnout_rate": 77.8499984741211
+    },
+    "HSQ-XINPU-WUPU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "五埔里",
+      "village_en": "Wupu Village",
+      "votes": {
+        "1": 400,
+        "2": 1085
+      },
+      "valid_votes": 1485,
+      "invalid_votes": 15,
+      "ballots_cast": 1500,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1500,
+      "unused_ballots": 410,
+      "electors": 1910,
+      "turnout_rate": 78.52999877929688
+    },
+    "HSQ-XINPU-SIZUO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "四座里",
+      "village_en": "Sizuo Village",
+      "votes": {
+        "1": 806,
+        "2": 1637
+      },
+      "valid_votes": 2443,
+      "invalid_votes": 21,
+      "ballots_cast": 2464,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2464,
+      "unused_ballots": 636,
+      "electors": 3100,
+      "turnout_rate": 79.4800033569336
+    },
+    "HSQ-XINPU-ZHAOMEN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "照門里",
+      "village_en": "Zhaomen Village",
+      "votes": {
+        "1": 402,
+        "2": 657
+      },
+      "valid_votes": 1059,
+      "invalid_votes": 17,
+      "ballots_cast": 1076,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1076,
+      "unused_ballots": 317,
+      "electors": 1393,
+      "turnout_rate": 77.23999786376953
+    },
+    "HSQ-XINPU-QINGSHUI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "清水里",
+      "village_en": "Qingshui Village",
+      "votes": {
+        "1": 142,
+        "2": 208
+      },
+      "valid_votes": 350,
+      "invalid_votes": 5,
+      "ballots_cast": 355,
+      "unreturned_ballots": 0,
+      "ballots_issued": 355,
+      "unused_ballots": 96,
+      "electors": 451,
+      "turnout_rate": 78.70999908447266
+    },
+    "HSQ-XINPU-LUMING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "鹿鳴里",
+      "village_en": "Luming Village",
+      "votes": {
+        "1": 271,
+        "2": 318
+      },
+      "valid_votes": 589,
+      "invalid_votes": 11,
+      "ballots_cast": 600,
+      "unreturned_ballots": 0,
+      "ballots_issued": 600,
+      "unused_ballots": 148,
+      "electors": 748,
+      "turnout_rate": 80.20999908447266
+    },
+    "HSQ-XINPU-XINBEI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "新北里",
+      "village_en": "Xinbei Village",
+      "votes": {
+        "1": 207,
+        "2": 245
+      },
+      "valid_votes": 452,
+      "invalid_votes": 9,
+      "ballots_cast": 461,
+      "unreturned_ballots": 0,
+      "ballots_issued": 461,
+      "unused_ballots": 137,
+      "electors": 598,
+      "turnout_rate": 77.08999633789062
+    },
+    "HSQ-XINPU-JUPU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "巨埔里",
+      "village_en": "Jupu Village",
+      "votes": {
+        "1": 351,
+        "2": 546
+      },
+      "valid_votes": 897,
+      "invalid_votes": 9,
+      "ballots_cast": 906,
+      "unreturned_ballots": 0,
+      "ballots_issued": 906,
+      "unused_ballots": 222,
+      "electors": 1128,
+      "turnout_rate": 80.31999969482422
+    },
+    "HSQ-XINPU-NEILI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "內立里",
+      "village_en": "Neili Village",
+      "votes": {
+        "1": 300,
+        "2": 599
+      },
+      "valid_votes": 899,
+      "invalid_votes": 12,
+      "ballots_cast": 911,
+      "unreturned_ballots": 0,
+      "ballots_issued": 911,
+      "unused_ballots": 242,
+      "electors": 1153,
+      "turnout_rate": 79.01000213623047
+    },
+    "HSQ-XINPU-BAOSHI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "寶石里",
+      "village_en": "Baoshi Village",
+      "votes": {
+        "1": 248,
+        "2": 417
+      },
+      "valid_votes": 665,
+      "invalid_votes": 9,
+      "ballots_cast": 674,
+      "unreturned_ballots": 0,
+      "ballots_issued": 674,
+      "unused_ballots": 166,
+      "electors": 840,
+      "turnout_rate": 80.23999786376953
+    },
+    "HSQ-XINPU-WENSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "文山里",
+      "village_en": "Wenshan Village",
+      "votes": {
+        "1": 800,
+        "2": 2340
+      },
+      "valid_votes": 3140,
+      "invalid_votes": 23,
+      "ballots_cast": 3163,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3163,
+      "unused_ballots": 800,
+      "electors": 3963,
+      "turnout_rate": 79.80999755859375
+    },
+    "HSQ-XINPU-SHANGLIAO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "上寮里",
+      "village_en": "Shangliao Village",
+      "votes": {
+        "1": 458,
+        "2": 897
+      },
+      "valid_votes": 1355,
+      "invalid_votes": 12,
+      "ballots_cast": 1367,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1367,
+      "unused_ballots": 390,
+      "electors": 1757,
+      "turnout_rate": 77.80000305175781
+    },
+    "HSQ-XINPU-XIALIAO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "下寮里",
+      "village_en": "Xialiao Village",
+      "votes": {
+        "1": 473,
+        "2": 1067
+      },
+      "valid_votes": 1540,
+      "invalid_votes": 11,
+      "ballots_cast": 1551,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1551,
+      "unused_ballots": 426,
+      "electors": 1977,
+      "turnout_rate": 78.44999694824219
+    },
+    "HSQ-XINPU-NANPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "南平里",
+      "village_en": "Nanping Village",
+      "votes": {
+        "1": 290,
+        "2": 521
+      },
+      "valid_votes": 811,
+      "invalid_votes": 15,
+      "ballots_cast": 826,
+      "unreturned_ballots": 0,
+      "ballots_issued": 826,
+      "unused_ballots": 192,
+      "electors": 1018,
+      "turnout_rate": 81.13999938964844
+    },
+    "HSQ-XINPU-BEIPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新埔鎮",
+      "township_en": "Xinpu Township",
+      "village_zh": "北平里",
+      "village_en": "Beiping Village",
+      "votes": {
+        "1": 210,
+        "2": 317
+      },
+      "valid_votes": 527,
+      "invalid_votes": 5,
+      "ballots_cast": 532,
+      "unreturned_ballots": 0,
+      "ballots_issued": 532,
+      "unused_ballots": 143,
+      "electors": 675,
+      "turnout_rate": 78.80999755859375
+    },
+    "HSQ-GUANXI-DONGXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "東興里",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 120,
+        "2": 344
+      },
+      "valid_votes": 464,
+      "invalid_votes": 3,
+      "ballots_cast": 467,
+      "unreturned_ballots": 0,
+      "ballots_issued": 467,
+      "unused_ballots": 84,
+      "electors": 551,
+      "turnout_rate": 84.75
+    },
+    "HSQ-GUANXI-XIAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "西安里",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 252,
+        "2": 1173
+      },
+      "valid_votes": 1425,
+      "invalid_votes": 16,
+      "ballots_cast": 1441,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1441,
+      "unused_ballots": 383,
+      "electors": 1824,
+      "turnout_rate": 79.0
+    },
+    "HSQ-GUANXI-NANXIONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "南雄里",
+      "village_en": "Nanxiong Village",
+      "votes": {
+        "1": 165,
+        "2": 430
+      },
+      "valid_votes": 595,
+      "invalid_votes": 7,
+      "ballots_cast": 602,
+      "unreturned_ballots": 0,
+      "ballots_issued": 602,
+      "unused_ballots": 146,
+      "electors": 748,
+      "turnout_rate": 80.4800033569336
+    },
+    "HSQ-GUANXI-BEIDOU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "北斗里",
+      "village_en": "Beidou Village",
+      "votes": {
+        "1": 753,
+        "2": 2084
+      },
+      "valid_votes": 2837,
+      "invalid_votes": 17,
+      "ballots_cast": 2854,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2854,
+      "unused_ballots": 824,
+      "electors": 3678,
+      "turnout_rate": 77.5999984741211
+    },
+    "HSQ-GUANXI-BEISHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "北山里",
+      "village_en": "Beishan Village",
+      "votes": {
+        "1": 201,
+        "2": 402
+      },
+      "valid_votes": 603,
+      "invalid_votes": 10,
+      "ballots_cast": 613,
+      "unreturned_ballots": 0,
+      "ballots_issued": 613,
+      "unused_ballots": 172,
+      "electors": 785,
+      "turnout_rate": 78.08999633789062
+    },
+    "HSQ-GUANXI-RENAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "仁安里",
+      "village_en": "Renan Village",
+      "votes": {
+        "1": 316,
+        "2": 552
+      },
+      "valid_votes": 868,
+      "invalid_votes": 6,
+      "ballots_cast": 874,
+      "unreturned_ballots": 0,
+      "ballots_issued": 874,
+      "unused_ballots": 262,
+      "electors": 1136,
+      "turnout_rate": 76.94000244140625
+    },
+    "HSQ-GUANXI-NANSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "南山里",
+      "village_en": "Nanshan Village",
+      "votes": {
+        "1": 252,
+        "2": 540
+      },
+      "valid_votes": 792,
+      "invalid_votes": 8,
+      "ballots_cast": 800,
+      "unreturned_ballots": 0,
+      "ballots_issued": 800,
+      "unused_ballots": 282,
+      "electors": 1082,
+      "turnout_rate": 73.94000244140625
+    },
+    "HSQ-GUANXI-DONGAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 640,
+        "2": 1854
+      },
+      "valid_votes": 2494,
+      "invalid_votes": 28,
+      "ballots_cast": 2522,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2522,
+      "unused_ballots": 682,
+      "electors": 3204,
+      "turnout_rate": 78.70999908447266
+    },
+    "HSQ-GUANXI-DONGSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "東山里",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 226,
+        "2": 412
+      },
+      "valid_votes": 638,
+      "invalid_votes": 11,
+      "ballots_cast": 649,
+      "unreturned_ballots": 0,
+      "ballots_issued": 649,
+      "unused_ballots": 189,
+      "electors": 838,
+      "turnout_rate": 77.44999694824219
+    },
+    "HSQ-GUANXI-DONGGUANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "東光里",
+      "village_en": "Dongguang Village",
+      "votes": {
+        "1": 326,
+        "2": 652
+      },
+      "valid_votes": 978,
+      "invalid_votes": 6,
+      "ballots_cast": 984,
+      "unreturned_ballots": 0,
+      "ballots_issued": 984,
+      "unused_ballots": 245,
+      "electors": 1229,
+      "turnout_rate": 80.06999969482422
+    },
+    "HSQ-GUANXI-NANXIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "南新里",
+      "village_en": "Nanxin Village",
+      "votes": {
+        "1": 225,
+        "2": 528
+      },
+      "valid_votes": 753,
+      "invalid_votes": 8,
+      "ballots_cast": 761,
+      "unreturned_ballots": 0,
+      "ballots_issued": 761,
+      "unused_ballots": 235,
+      "electors": 996,
+      "turnout_rate": 76.41000366210938
+    },
+    "HSQ-GUANXI-XINFU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "新富里",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 200,
+        "2": 285
+      },
+      "valid_votes": 485,
+      "invalid_votes": 5,
+      "ballots_cast": 490,
+      "unreturned_ballots": 0,
+      "ballots_issued": 490,
+      "unused_ballots": 142,
+      "electors": 632,
+      "turnout_rate": 77.52999877929688
+    },
+    "HSQ-GUANXI-YUSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "玉山里",
+      "village_en": "Yushan Village",
+      "votes": {
+        "1": 121,
+        "2": 272
+      },
+      "valid_votes": 393,
+      "invalid_votes": 7,
+      "ballots_cast": 400,
+      "unreturned_ballots": 0,
+      "ballots_issued": 400,
+      "unused_ballots": 122,
+      "electors": 522,
+      "turnout_rate": 76.62999725341797
+    },
+    "HSQ-GUANXI-JINSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "錦山里",
+      "village_en": "Jinshan Village",
+      "votes": {
+        "1": 220,
+        "2": 555
+      },
+      "valid_votes": 775,
+      "invalid_votes": 10,
+      "ballots_cast": 785,
+      "unreturned_ballots": 0,
+      "ballots_issued": 785,
+      "unused_ballots": 290,
+      "electors": 1075,
+      "turnout_rate": 73.0199966430664
+    },
+    "HSQ-GUANXI-DATONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "大同里",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 269,
+        "2": 333
+      },
+      "valid_votes": 602,
+      "invalid_votes": 15,
+      "ballots_cast": 617,
+      "unreturned_ballots": 0,
+      "ballots_issued": 617,
+      "unused_ballots": 154,
+      "electors": 771,
+      "turnout_rate": 80.02999877929688
+    },
+    "HSQ-GUANXI-SHIGUANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "石光里",
+      "village_en": "Shiguang Village",
+      "votes": {
+        "1": 377,
+        "2": 1006
+      },
+      "valid_votes": 1383,
+      "invalid_votes": 18,
+      "ballots_cast": 1401,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1401,
+      "unused_ballots": 417,
+      "electors": 1818,
+      "turnout_rate": 77.05999755859375
+    },
+    "HSQ-GUANXI-DONGPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "東平里",
+      "village_en": "Dongping Village",
+      "votes": {
+        "1": 292,
+        "2": 460
+      },
+      "valid_votes": 752,
+      "invalid_votes": 9,
+      "ballots_cast": 761,
+      "unreturned_ballots": 0,
+      "ballots_issued": 761,
+      "unused_ballots": 212,
+      "electors": 973,
+      "turnout_rate": 78.20999908447266
+    },
+    "HSQ-GUANXI-SHANGLIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "上林里",
+      "village_en": "Shanglin Village",
+      "votes": {
+        "1": 183,
+        "2": 501
+      },
+      "valid_votes": 684,
+      "invalid_votes": 3,
+      "ballots_cast": 687,
+      "unreturned_ballots": 0,
+      "ballots_issued": 687,
+      "unused_ballots": 167,
+      "electors": 854,
+      "turnout_rate": 80.44000244140625
+    },
+    "HSQ-GUANXI-XINLI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "新力里",
+      "village_en": "Xinli Village",
+      "votes": {
+        "1": 130,
+        "2": 330
+      },
+      "valid_votes": 460,
+      "invalid_votes": 5,
+      "ballots_cast": 465,
+      "unreturned_ballots": 0,
+      "ballots_issued": 465,
+      "unused_ballots": 113,
+      "electors": 578,
+      "turnout_rate": 80.44999694824219
+    },
+    "HSQ-GUANXI-NANHE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "關西鎮",
+      "township_en": "Guanxi Township",
+      "village_zh": "南和里",
+      "village_en": "Nanhe Village",
+      "votes": {
+        "1": 183,
+        "2": 470
+      },
+      "valid_votes": 653,
+      "invalid_votes": 9,
+      "ballots_cast": 662,
+      "unreturned_ballots": 0,
+      "ballots_issued": 662,
+      "unused_ballots": 149,
+      "electors": 811,
+      "turnout_rate": 81.62999725341797
+    },
+    "HSQ-HUKOU-HEXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "和興村",
+      "village_en": "Hexing Village",
+      "votes": {
+        "1": 693,
+        "2": 1292
+      },
+      "valid_votes": 1985,
+      "invalid_votes": 20,
+      "ballots_cast": 2005,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2005,
+      "unused_ballots": 513,
+      "electors": 2518,
+      "turnout_rate": 79.62999725341797
+    },
+    "HSQ-HUKOU-DONGXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "東興村",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 653,
+        "2": 1965
+      },
+      "valid_votes": 2618,
+      "invalid_votes": 19,
+      "ballots_cast": 2637,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2637,
+      "unused_ballots": 717,
+      "electors": 3354,
+      "turnout_rate": 78.62000274658203
+    },
+    "HSQ-HUKOU-DESHENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "德盛村",
+      "village_en": "Desheng Village",
+      "votes": {
+        "1": 818,
+        "2": 2151
+      },
+      "valid_votes": 2969,
+      "invalid_votes": 29,
+      "ballots_cast": 2998,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2998,
+      "unused_ballots": 814,
+      "electors": 3812,
+      "turnout_rate": 78.6500015258789
+    },
+    "HSQ-HUKOU-AISHI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "愛勢村",
+      "village_en": "Aishi Village",
+      "votes": {
+        "1": 780,
+        "2": 2303
+      },
+      "valid_votes": 3083,
+      "invalid_votes": 35,
+      "ballots_cast": 3118,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3118,
+      "unused_ballots": 792,
+      "electors": 3910,
+      "turnout_rate": 79.73999786376953
+    },
+    "HSQ-HUKOU-RENSHI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "仁勢村",
+      "village_en": "Renshi Village",
+      "votes": {
+        "1": 193,
+        "2": 505
+      },
+      "valid_votes": 698,
+      "invalid_votes": 3,
+      "ballots_cast": 701,
+      "unreturned_ballots": 0,
+      "ballots_issued": 701,
+      "unused_ballots": 145,
+      "electors": 846,
+      "turnout_rate": 82.86000061035156
+    },
+    "HSQ-HUKOU-XIAOSHI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "孝勢村",
+      "village_en": "Xiaoshi Village",
+      "votes": {
+        "1": 248,
+        "2": 798
+      },
+      "valid_votes": 1046,
+      "invalid_votes": 11,
+      "ballots_cast": 1057,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1057,
+      "unused_ballots": 238,
+      "electors": 1295,
+      "turnout_rate": 81.62000274658203
+    },
+    "HSQ-HUKOU-ZHONGSHI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "中勢村",
+      "village_en": "Zhongshi Village",
+      "votes": {
+        "1": 504,
+        "2": 1478
+      },
+      "valid_votes": 1982,
+      "invalid_votes": 12,
+      "ballots_cast": 1994,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1994,
+      "unused_ballots": 461,
+      "electors": 2455,
+      "turnout_rate": 81.22000122070312
+    },
+    "HSQ-HUKOU-ZHONGZHENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 492,
+        "2": 1333
+      },
+      "valid_votes": 1825,
+      "invalid_votes": 16,
+      "ballots_cast": 1841,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1841,
+      "unused_ballots": 399,
+      "electors": 2240,
+      "turnout_rate": 82.19000244140625
+    },
+    "HSQ-HUKOU-XINSHI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "信勢村",
+      "village_en": "Xinshi Village",
+      "votes": {
+        "1": 795,
+        "2": 2250
+      },
+      "valid_votes": 3045,
+      "invalid_votes": 35,
+      "ballots_cast": 3080,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3080,
+      "unused_ballots": 807,
+      "electors": 3887,
+      "turnout_rate": 79.23999786376953
+    },
+    "HSQ-HUKOU-XINYI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "信義村",
+      "village_en": "Xinyi Village",
+      "votes": {
+        "1": 474,
+        "2": 1373
+      },
+      "valid_votes": 1847,
+      "invalid_votes": 19,
+      "ballots_cast": 1866,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1866,
+      "unused_ballots": 468,
+      "electors": 2334,
+      "turnout_rate": 79.94999694824219
+    },
+    "HSQ-HUKOU-BOLUO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "波羅村",
+      "village_en": "Boluo Village",
+      "votes": {
+        "1": 369,
+        "2": 1008
+      },
+      "valid_votes": 1377,
+      "invalid_votes": 15,
+      "ballots_cast": 1392,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1392,
+      "unused_ballots": 504,
+      "electors": 1896,
+      "turnout_rate": 73.41999816894531
+    },
+    "HSQ-HUKOU-ZHANGLING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "長嶺村",
+      "village_en": "Zhangling Village",
+      "votes": {
+        "1": 561,
+        "2": 1569
+      },
+      "valid_votes": 2130,
+      "invalid_votes": 33,
+      "ballots_cast": 2163,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2163,
+      "unused_ballots": 544,
+      "electors": 2707,
+      "turnout_rate": 79.9000015258789
+    },
+    "HSQ-HUKOU-ZHANGAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "長安村",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 242,
+        "2": 532
+      },
+      "valid_votes": 774,
+      "invalid_votes": 12,
+      "ballots_cast": 786,
+      "unreturned_ballots": 0,
+      "ballots_issued": 786,
+      "unused_ballots": 252,
+      "electors": 1038,
+      "turnout_rate": 75.72000122070312
+    },
+    "HSQ-HUKOU-HUKOU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "湖口村",
+      "village_en": "Hukou Village",
+      "votes": {
+        "1": 501,
+        "2": 1430
+      },
+      "valid_votes": 1931,
+      "invalid_votes": 25,
+      "ballots_cast": 1956,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1956,
+      "unused_ballots": 510,
+      "electors": 2466,
+      "turnout_rate": 79.31999969482422
+    },
+    "HSQ-HUKOU-HUJING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "湖鏡村",
+      "village_en": "Hujing Village",
+      "votes": {
+        "1": 349,
+        "2": 1475
+      },
+      "valid_votes": 1824,
+      "invalid_votes": 16,
+      "ballots_cast": 1840,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1840,
+      "unused_ballots": 435,
+      "electors": 2275,
+      "turnout_rate": 80.87999725341797
+    },
+    "HSQ-HUKOU-HUNAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "湖南村",
+      "village_en": "Hunan Village",
+      "votes": {
+        "1": 225,
+        "2": 892
+      },
+      "valid_votes": 1117,
+      "invalid_votes": 19,
+      "ballots_cast": 1136,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1136,
+      "unused_ballots": 303,
+      "electors": 1439,
+      "turnout_rate": 78.94000244140625
+    },
+    "HSQ-HUKOU-ZHONGXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "中興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 549,
+        "2": 3145
+      },
+      "valid_votes": 3694,
+      "invalid_votes": 45,
+      "ballots_cast": 3739,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3739,
+      "unused_ballots": 959,
+      "electors": 4698,
+      "turnout_rate": 79.58999633789062
+    },
+    "HSQ-HUKOU-FENGHUANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "鳳凰村",
+      "village_en": "Fenghuang Village",
+      "votes": {
+        "1": 726,
+        "2": 2392
+      },
+      "valid_votes": 3118,
+      "invalid_votes": 39,
+      "ballots_cast": 3157,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3157,
+      "unused_ballots": 1037,
+      "electors": 4194,
+      "turnout_rate": 75.2699966430664
+    },
+    "HSQ-HUKOU-SHENGLI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "勝利村",
+      "village_en": "Shengli Village",
+      "votes": {
+        "1": 411,
+        "2": 1968
+      },
+      "valid_votes": 2379,
+      "invalid_votes": 30,
+      "ballots_cast": 2409,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2409,
+      "unused_ballots": 593,
+      "electors": 3002,
+      "turnout_rate": 80.25
+    },
+    "HSQ-HUKOU-FENGSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "湖口鄉",
+      "township_en": "Hukou Township",
+      "village_zh": "鳳山村",
+      "village_en": "Fengshan Village",
+      "votes": {
+        "1": 348,
+        "2": 1770
+      },
+      "valid_votes": 2118,
+      "invalid_votes": 32,
+      "ballots_cast": 2150,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2150,
+      "unused_ballots": 638,
+      "electors": 2788,
+      "turnout_rate": 77.12000274658203
+    },
+    "HSQ-XINFENG-FUXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 251,
+        "2": 494
+      },
+      "valid_votes": 745,
+      "invalid_votes": 7,
+      "ballots_cast": 752,
+      "unreturned_ballots": 0,
+      "ballots_issued": 752,
+      "unused_ballots": 207,
+      "electors": 959,
+      "turnout_rate": 78.41999816894531
+    },
+    "HSQ-XINFENG-QINGPU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "青埔村",
+      "village_en": "Qingpu Village",
+      "votes": {
+        "1": 320,
+        "2": 785
+      },
+      "valid_votes": 1105,
+      "invalid_votes": 11,
+      "ballots_cast": 1116,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1116,
+      "unused_ballots": 330,
+      "electors": 1446,
+      "turnout_rate": 77.18000030517578
+    },
+    "HSQ-XINFENG-HOUHU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "後湖村",
+      "village_en": "Houhu Village",
+      "votes": {
+        "1": 430,
+        "2": 901
+      },
+      "valid_votes": 1331,
+      "invalid_votes": 8,
+      "ballots_cast": 1339,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1339,
+      "unused_ballots": 403,
+      "electors": 1742,
+      "turnout_rate": 76.87000274658203
+    },
+    "HSQ-XINFENG-RUIXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "瑞興村",
+      "village_en": "Ruixing Village",
+      "votes": {
+        "1": 364,
+        "2": 705
+      },
+      "valid_votes": 1069,
+      "invalid_votes": 13,
+      "ballots_cast": 1082,
+      "unreturned_ballots": 1,
+      "ballots_issued": 1083,
+      "unused_ballots": 390,
+      "electors": 1473,
+      "turnout_rate": 73.45999908447266
+    },
+    "HSQ-XINFENG-POTOU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "坡頭村",
+      "village_en": "Potou Village",
+      "votes": {
+        "1": 266,
+        "2": 361
+      },
+      "valid_votes": 627,
+      "invalid_votes": 16,
+      "ballots_cast": 643,
+      "unreturned_ballots": 0,
+      "ballots_issued": 643,
+      "unused_ballots": 172,
+      "electors": 815,
+      "turnout_rate": 78.9000015258789
+    },
+    "HSQ-XINFENG-PUHE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "埔和村",
+      "village_en": "Puhe Village",
+      "votes": {
+        "1": 846,
+        "2": 1000
+      },
+      "valid_votes": 1846,
+      "invalid_votes": 23,
+      "ballots_cast": 1869,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1869,
+      "unused_ballots": 610,
+      "electors": 2479,
+      "turnout_rate": 75.38999938964844
+    },
+    "HSQ-XINFENG-XINFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "新豐村",
+      "village_en": "Xinfeng Village",
+      "votes": {
+        "1": 809,
+        "2": 829
+      },
+      "valid_votes": 1638,
+      "invalid_votes": 20,
+      "ballots_cast": 1658,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1658,
+      "unused_ballots": 447,
+      "electors": 2105,
+      "turnout_rate": 78.76000213623047
+    },
+    "HSQ-XINFENG-YUANSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "員山村",
+      "village_en": "Yuanshan Village",
+      "votes": {
+        "1": 1421,
+        "2": 4939
+      },
+      "valid_votes": 6360,
+      "invalid_votes": 49,
+      "ballots_cast": 6409,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6409,
+      "unused_ballots": 1529,
+      "electors": 7938,
+      "turnout_rate": 80.73999786376953
+    },
+    "HSQ-XINFENG-ZHONGLUN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "中崙村",
+      "village_en": "Zhonglun Village",
+      "votes": {
+        "1": 527,
+        "2": 1449
+      },
+      "valid_votes": 1976,
+      "invalid_votes": 19,
+      "ballots_cast": 1995,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1995,
+      "unused_ballots": 592,
+      "electors": 2587,
+      "turnout_rate": 77.12000274658203
+    },
+    "HSQ-XINFENG-SHANGKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "上坑村",
+      "village_en": "Shangkeng Village",
+      "votes": {
+        "1": 315,
+        "2": 932
+      },
+      "valid_votes": 1247,
+      "invalid_votes": 13,
+      "ballots_cast": 1260,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1260,
+      "unused_ballots": 377,
+      "electors": 1637,
+      "turnout_rate": 76.97000122070312
+    },
+    "HSQ-XINFENG-FENGKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "鳳坑村",
+      "village_en": "Fengkeng Village",
+      "votes": {
+        "1": 233,
+        "2": 532
+      },
+      "valid_votes": 765,
+      "invalid_votes": 9,
+      "ballots_cast": 774,
+      "unreturned_ballots": 0,
+      "ballots_issued": 774,
+      "unused_ballots": 229,
+      "electors": 1003,
+      "turnout_rate": 77.16999816894531
+    },
+    "HSQ-XINFENG-ZHONGXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "重興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 1140,
+        "2": 3768
+      },
+      "valid_votes": 4908,
+      "invalid_votes": 56,
+      "ballots_cast": 4964,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4964,
+      "unused_ballots": 1419,
+      "electors": 6383,
+      "turnout_rate": 77.7699966430664
+    },
+    "HSQ-XINFENG-SONGLIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "新豐鄉",
+      "township_en": "Xinfeng Township",
+      "village_zh": "松林村",
+      "village_en": "Songlin Village",
+      "votes": {
+        "1": 1055,
+        "2": 3665
+      },
+      "valid_votes": 4720,
+      "invalid_votes": 50,
+      "ballots_cast": 4770,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4770,
+      "unused_ballots": 1267,
+      "electors": 6037,
+      "turnout_rate": 79.01000213623047
+    },
+    "HSQ-QIONGLIN-HUALONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "華龍村",
+      "village_en": "Hualong Village",
+      "votes": {
+        "1": 87,
+        "2": 264
+      },
+      "valid_votes": 351,
+      "invalid_votes": 4,
+      "ballots_cast": 355,
+      "unreturned_ballots": 0,
+      "ballots_issued": 355,
+      "unused_ballots": 100,
+      "electors": 455,
+      "turnout_rate": 78.0199966430664
+    },
+    "HSQ-QIONGLIN-WULONG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "五龍村",
+      "village_en": "Wulong Village",
+      "votes": {
+        "1": 65,
+        "2": 343
+      },
+      "valid_votes": 408,
+      "invalid_votes": 3,
+      "ballots_cast": 411,
+      "unreturned_ballots": 0,
+      "ballots_issued": 411,
+      "unused_ballots": 96,
+      "electors": 507,
+      "turnout_rate": 81.06999969482422
+    },
+    "HSQ-QIONGLIN-XIUHU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "秀湖村",
+      "village_en": "Xiuhu Village",
+      "votes": {
+        "1": 121,
+        "2": 590
+      },
+      "valid_votes": 711,
+      "invalid_votes": 4,
+      "ballots_cast": 715,
+      "unreturned_ballots": 0,
+      "ballots_issued": 715,
+      "unused_ballots": 164,
+      "electors": 879,
+      "turnout_rate": 81.33999633789062
+    },
+    "HSQ-QIONGLIN-YONGXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "永興村",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 57,
+        "2": 279
+      },
+      "valid_votes": 336,
+      "invalid_votes": 4,
+      "ballots_cast": 340,
+      "unreturned_ballots": 0,
+      "ballots_issued": 340,
+      "unused_ballots": 70,
+      "electors": 410,
+      "turnout_rate": 82.93000030517578
+    },
+    "HSQ-QIONGLIN-SHITAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "石潭村",
+      "village_en": "Shitan Village",
+      "votes": {
+        "1": 453,
+        "2": 1462
+      },
+      "valid_votes": 1915,
+      "invalid_votes": 9,
+      "ballots_cast": 1924,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1924,
+      "unused_ballots": 511,
+      "electors": 2435,
+      "turnout_rate": 79.01000213623047
+    },
+    "HSQ-QIONGLIN-XINFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "新鳳村",
+      "village_en": "Xinfeng Village",
+      "votes": {
+        "1": 322,
+        "2": 853
+      },
+      "valid_votes": 1175,
+      "invalid_votes": 16,
+      "ballots_cast": 1191,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1191,
+      "unused_ballots": 310,
+      "electors": 1501,
+      "turnout_rate": 79.3499984741211
+    },
+    "HSQ-QIONGLIN-ZHONGKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "中坑村",
+      "village_en": "Zhongkeng Village",
+      "votes": {
+        "1": 75,
+        "2": 376
+      },
+      "valid_votes": 451,
+      "invalid_votes": 7,
+      "ballots_cast": 458,
+      "unreturned_ballots": 1,
+      "ballots_issued": 459,
+      "unused_ballots": 108,
+      "electors": 567,
+      "turnout_rate": 80.77999877929688
+    },
+    "HSQ-QIONGLIN-SHUIKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "水坑村",
+      "village_en": "Shuikeng Village",
+      "votes": {
+        "1": 146,
+        "2": 392
+      },
+      "valid_votes": 538,
+      "invalid_votes": 8,
+      "ballots_cast": 546,
+      "unreturned_ballots": 0,
+      "ballots_issued": 546,
+      "unused_ballots": 143,
+      "electors": 689,
+      "turnout_rate": 79.25
+    },
+    "HSQ-QIONGLIN-WENLIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "文林村",
+      "village_en": "Wenlin Village",
+      "votes": {
+        "1": 421,
+        "2": 1372
+      },
+      "valid_votes": 1793,
+      "invalid_votes": 15,
+      "ballots_cast": 1808,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1808,
+      "unused_ballots": 435,
+      "electors": 2243,
+      "turnout_rate": 80.61000061035156
+    },
+    "HSQ-QIONGLIN-QIONGLIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "芎林村",
+      "village_en": "Qionglin Village",
+      "votes": {
+        "1": 328,
+        "2": 915
+      },
+      "valid_votes": 1243,
+      "invalid_votes": 18,
+      "ballots_cast": 1261,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1261,
+      "unused_ballots": 246,
+      "electors": 1507,
+      "turnout_rate": 83.68000030517578
+    },
+    "HSQ-QIONGLIN-SHANGSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "上山村",
+      "village_en": "Shangshan Village",
+      "votes": {
+        "1": 718,
+        "2": 1965
+      },
+      "valid_votes": 2683,
+      "invalid_votes": 27,
+      "ballots_cast": 2710,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2710,
+      "unused_ballots": 634,
+      "electors": 3344,
+      "turnout_rate": 81.04000091552734
+    },
+    "HSQ-QIONGLIN-XIASHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "芎林鄉",
+      "township_en": "Qionglin Township",
+      "village_zh": "下山村",
+      "village_en": "Xiashan Village",
+      "votes": {
+        "1": 213,
+        "2": 663
+      },
+      "valid_votes": 876,
+      "invalid_votes": 7,
+      "ballots_cast": 883,
+      "unreturned_ballots": 0,
+      "ballots_issued": 883,
+      "unused_ballots": 216,
+      "electors": 1099,
+      "turnout_rate": 80.3499984741211
+    },
+    "HSQ-HENGSHAN-HENGSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "橫山村",
+      "village_en": "Hengshan Village",
+      "votes": {
+        "1": 520,
+        "2": 2057
+      },
+      "valid_votes": 2577,
+      "invalid_votes": 19,
+      "ballots_cast": 2596,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2596,
+      "unused_ballots": 747,
+      "electors": 3343,
+      "turnout_rate": 77.6500015258789
+    },
+    "HSQ-HENGSHAN-TIANLIAO": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "田寮村",
+      "village_en": "Tianliao Village",
+      "votes": {
+        "1": 190,
+        "2": 506
+      },
+      "valid_votes": 696,
+      "invalid_votes": 9,
+      "ballots_cast": 705,
+      "unreturned_ballots": 0,
+      "ballots_issued": 705,
+      "unused_ballots": 166,
+      "electors": 871,
+      "turnout_rate": 80.94000244140625
+    },
+    "HSQ-HENGSHAN-NANCHANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "南昌村",
+      "village_en": "Nanchang Village",
+      "votes": {
+        "1": 37,
+        "2": 104
+      },
+      "valid_votes": 141,
+      "invalid_votes": 1,
+      "ballots_cast": 142,
+      "unreturned_ballots": 0,
+      "ballots_issued": 142,
+      "unused_ballots": 45,
+      "electors": 187,
+      "turnout_rate": 75.94000244140625
+    },
+    "HSQ-HENGSHAN-FENGXIANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "豐鄉村",
+      "village_en": "Fengxiang Village",
+      "votes": {
+        "1": 56,
+        "2": 129
+      },
+      "valid_votes": 185,
+      "invalid_votes": 2,
+      "ballots_cast": 187,
+      "unreturned_ballots": 0,
+      "ballots_issued": 187,
+      "unused_ballots": 79,
+      "electors": 266,
+      "turnout_rate": 70.30000305175781
+    },
+    "HSQ-HENGSHAN-FENGTIAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "豐田村",
+      "village_en": "Fengtian Village",
+      "votes": {
+        "1": 74,
+        "2": 183
+      },
+      "valid_votes": 257,
+      "invalid_votes": 5,
+      "ballots_cast": 262,
+      "unreturned_ballots": 0,
+      "ballots_issued": 262,
+      "unused_ballots": 66,
+      "electors": 328,
+      "turnout_rate": 79.87999725341797
+    },
+    "HSQ-HENGSHAN-NEIWAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "內灣村",
+      "village_en": "Neiwan Village",
+      "votes": {
+        "1": 144,
+        "2": 646
+      },
+      "valid_votes": 790,
+      "invalid_votes": 9,
+      "ballots_cast": 799,
+      "unreturned_ballots": 0,
+      "ballots_issued": 799,
+      "unused_ballots": 251,
+      "electors": 1050,
+      "turnout_rate": 76.0999984741211
+    },
+    "HSQ-HENGSHAN-LIXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "力行村",
+      "village_en": "Lixing Village",
+      "votes": {
+        "1": 124,
+        "2": 577
+      },
+      "valid_votes": 701,
+      "invalid_votes": 3,
+      "ballots_cast": 704,
+      "unreturned_ballots": 0,
+      "ballots_issued": 704,
+      "unused_ballots": 138,
+      "electors": 842,
+      "turnout_rate": 83.61000061035156
+    },
+    "HSQ-HENGSHAN-FUXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 111,
+        "2": 235
+      },
+      "valid_votes": 346,
+      "invalid_votes": 4,
+      "ballots_cast": 350,
+      "unreturned_ballots": 0,
+      "ballots_issued": 350,
+      "unused_ballots": 114,
+      "electors": 464,
+      "turnout_rate": 75.43000030517578
+    },
+    "HSQ-HENGSHAN-SHAKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "沙坑村",
+      "village_en": "Shakeng Village",
+      "votes": {
+        "1": 251,
+        "2": 602
+      },
+      "valid_votes": 853,
+      "invalid_votes": 2,
+      "ballots_cast": 855,
+      "unreturned_ballots": 0,
+      "ballots_issued": 855,
+      "unused_ballots": 201,
+      "electors": 1056,
+      "turnout_rate": 80.97000122070312
+    },
+    "HSQ-HENGSHAN-XINXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "新興村",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 265,
+        "2": 987
+      },
+      "valid_votes": 1252,
+      "invalid_votes": 7,
+      "ballots_cast": 1259,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1259,
+      "unused_ballots": 293,
+      "electors": 1552,
+      "turnout_rate": 81.12000274658203
+    },
+    "HSQ-HENGSHAN-DADU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "橫山鄉",
+      "township_en": "Hengshan Township",
+      "village_zh": "大肚村",
+      "village_en": "Dadu Village",
+      "votes": {
+        "1": 194,
+        "2": 965
+      },
+      "valid_votes": 1159,
+      "invalid_votes": 19,
+      "ballots_cast": 1178,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1178,
+      "unused_ballots": 270,
+      "electors": 1448,
+      "turnout_rate": 81.3499984741211
+    },
+    "HSQ-BEIPU-BEIPU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "北埔村",
+      "village_en": "Beipu Village",
+      "votes": {
+        "1": 209,
+        "2": 675
+      },
+      "valid_votes": 884,
+      "invalid_votes": 11,
+      "ballots_cast": 895,
+      "unreturned_ballots": 0,
+      "ballots_issued": 895,
+      "unused_ballots": 251,
+      "electors": 1146,
+      "turnout_rate": 78.0999984741211
+    },
+    "HSQ-BEIPU-NANXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "南興村",
+      "village_en": "Nanxing Village",
+      "votes": {
+        "1": 218,
+        "2": 780
+      },
+      "valid_votes": 998,
+      "invalid_votes": 7,
+      "ballots_cast": 1005,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1005,
+      "unused_ballots": 247,
+      "electors": 1252,
+      "turnout_rate": 80.2699966430664
+    },
+    "HSQ-BEIPU-DAHU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "大湖村",
+      "village_en": "Dahu Village",
+      "votes": {
+        "1": 99,
+        "2": 306
+      },
+      "valid_votes": 405,
+      "invalid_votes": 8,
+      "ballots_cast": 413,
+      "unreturned_ballots": 0,
+      "ballots_issued": 413,
+      "unused_ballots": 119,
+      "electors": 532,
+      "turnout_rate": 77.62999725341797
+    },
+    "HSQ-BEIPU-PUWEI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "埔尾村",
+      "village_en": "Puwei Village",
+      "votes": {
+        "1": 486,
+        "2": 1412
+      },
+      "valid_votes": 1898,
+      "invalid_votes": 18,
+      "ballots_cast": 1916,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1916,
+      "unused_ballots": 483,
+      "electors": 2399,
+      "turnout_rate": 79.87000274658203
+    },
+    "HSQ-BEIPU-SHUI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "水�村",
+      "village_en": "Shui� Village",
+      "votes": {
+        "1": 195,
+        "2": 405
+      },
+      "valid_votes": 600,
+      "invalid_votes": 6,
+      "ballots_cast": 606,
+      "unreturned_ballots": 0,
+      "ballots_issued": 606,
+      "unused_ballots": 184,
+      "electors": 790,
+      "turnout_rate": 76.70999908447266
+    },
+    "HSQ-BEIPU-NANPU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "南埔村",
+      "village_en": "Nanpu Village",
+      "votes": {
+        "1": 84,
+        "2": 262
+      },
+      "valid_votes": 346,
+      "invalid_votes": 7,
+      "ballots_cast": 353,
+      "unreturned_ballots": 0,
+      "ballots_issued": 353,
+      "unused_ballots": 73,
+      "electors": 426,
+      "turnout_rate": 82.86000061035156
+    },
+    "HSQ-BEIPU-DALIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "大林村",
+      "village_en": "Dalin Village",
+      "votes": {
+        "1": 115,
+        "2": 457
+      },
+      "valid_votes": 572,
+      "invalid_votes": 10,
+      "ballots_cast": 582,
+      "unreturned_ballots": 0,
+      "ballots_issued": 582,
+      "unused_ballots": 123,
+      "electors": 705,
+      "turnout_rate": 82.55000305175781
+    },
+    "HSQ-BEIPU-NANKENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "南坑村",
+      "village_en": "Nankeng Village",
+      "votes": {
+        "1": 77,
+        "2": 217
+      },
+      "valid_votes": 294,
+      "invalid_votes": 2,
+      "ballots_cast": 296,
+      "unreturned_ballots": 0,
+      "ballots_issued": 296,
+      "unused_ballots": 77,
+      "electors": 373,
+      "turnout_rate": 79.36000061035156
+    },
+    "HSQ-BEIPU-WAIPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "北埔鄉",
+      "township_en": "Beipu Township",
+      "village_zh": "外坪村",
+      "village_en": "Waiping Village",
+      "votes": {
+        "1": 85,
+        "2": 130
+      },
+      "valid_votes": 215,
+      "invalid_votes": 2,
+      "ballots_cast": 217,
+      "unreturned_ballots": 0,
+      "ballots_issued": 217,
+      "unused_ballots": 91,
+      "electors": 308,
+      "turnout_rate": 70.44999694824219
+    },
+    "HSQ-BAOSHAN-SHUANGXI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "雙溪村",
+      "village_en": "Shuangxi Village",
+      "votes": {
+        "1": 747,
+        "2": 2395
+      },
+      "valid_votes": 3142,
+      "invalid_votes": 31,
+      "ballots_cast": 3173,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3173,
+      "unused_ballots": 788,
+      "electors": 3961,
+      "turnout_rate": 80.11000061035156
+    },
+    "HSQ-BAOSHAN-DAQI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "大崎村",
+      "village_en": "Daqi Village",
+      "votes": {
+        "1": 310,
+        "2": 771
+      },
+      "valid_votes": 1081,
+      "invalid_votes": 11,
+      "ballots_cast": 1092,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1092,
+      "unused_ballots": 289,
+      "electors": 1381,
+      "turnout_rate": 79.06999969482422
+    },
+    "HSQ-BAOSHAN-SANFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "三峰村",
+      "village_en": "Sanfeng Village",
+      "votes": {
+        "1": 212,
+        "2": 491
+      },
+      "valid_votes": 703,
+      "invalid_votes": 4,
+      "ballots_cast": 707,
+      "unreturned_ballots": 0,
+      "ballots_issued": 707,
+      "unused_ballots": 194,
+      "electors": 901,
+      "turnout_rate": 78.47000122070312
+    },
+    "HSQ-BAOSHAN-XINCHENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "新城村",
+      "village_en": "Xincheng Village",
+      "votes": {
+        "1": 272,
+        "2": 589
+      },
+      "valid_votes": 861,
+      "invalid_votes": 7,
+      "ballots_cast": 868,
+      "unreturned_ballots": 0,
+      "ballots_issued": 868,
+      "unused_ballots": 250,
+      "electors": 1118,
+      "turnout_rate": 77.63999938964844
+    },
+    "HSQ-BAOSHAN-BAODOU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "寶斗村",
+      "village_en": "Baodou Village",
+      "votes": {
+        "1": 156,
+        "2": 338
+      },
+      "valid_votes": 494,
+      "invalid_votes": 4,
+      "ballots_cast": 498,
+      "unreturned_ballots": 0,
+      "ballots_issued": 498,
+      "unused_ballots": 141,
+      "electors": 639,
+      "turnout_rate": 77.93000030517578
+    },
+    "HSQ-BAOSHAN-SHENJING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "深井村",
+      "village_en": "Shenjing Village",
+      "votes": {
+        "1": 167,
+        "2": 404
+      },
+      "valid_votes": 571,
+      "invalid_votes": 6,
+      "ballots_cast": 577,
+      "unreturned_ballots": 0,
+      "ballots_issued": 577,
+      "unused_ballots": 137,
+      "electors": 714,
+      "turnout_rate": 80.80999755859375
+    },
+    "HSQ-BAOSHAN-BAOSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "寶山村",
+      "village_en": "Baoshan Village",
+      "votes": {
+        "1": 106,
+        "2": 428
+      },
+      "valid_votes": 534,
+      "invalid_votes": 5,
+      "ballots_cast": 539,
+      "unreturned_ballots": 0,
+      "ballots_issued": 539,
+      "unused_ballots": 132,
+      "electors": 671,
+      "turnout_rate": 80.33000183105469
+    },
+    "HSQ-BAOSHAN-YOUTIAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "油田村",
+      "village_en": "Youtian Village",
+      "votes": {
+        "1": 117,
+        "2": 328
+      },
+      "valid_votes": 445,
+      "invalid_votes": 4,
+      "ballots_cast": 449,
+      "unreturned_ballots": 0,
+      "ballots_issued": 449,
+      "unused_ballots": 130,
+      "electors": 579,
+      "turnout_rate": 77.55000305175781
+    },
+    "HSQ-BAOSHAN-SHANHU": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "寶山鄉",
+      "township_en": "Baoshan Township",
+      "village_zh": "山湖村",
+      "village_en": "Shanhu Village",
+      "votes": {
+        "1": 101,
+        "2": 265
+      },
+      "valid_votes": 366,
+      "invalid_votes": 2,
+      "ballots_cast": 368,
+      "unreturned_ballots": 0,
+      "ballots_issued": 368,
+      "unused_ballots": 101,
+      "electors": 469,
+      "turnout_rate": 78.45999908447266
+    },
+    "HSQ-EMEI-EMEI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "village_zh": "峨眉村",
+      "village_en": "Emei Village",
+      "votes": {
+        "1": 187,
+        "2": 506
+      },
+      "valid_votes": 693,
+      "invalid_votes": 4,
+      "ballots_cast": 697,
+      "unreturned_ballots": 0,
+      "ballots_issued": 697,
+      "unused_ballots": 154,
+      "electors": 851,
+      "turnout_rate": 81.9000015258789
+    },
+    "HSQ-EMEI-ZHONGSHENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "village_zh": "中盛村",
+      "village_en": "Zhongsheng Village",
+      "votes": {
+        "1": 228,
+        "2": 334
+      },
+      "valid_votes": 562,
+      "invalid_votes": 5,
+      "ballots_cast": 567,
+      "unreturned_ballots": 0,
+      "ballots_issued": 567,
+      "unused_ballots": 145,
+      "electors": 712,
+      "turnout_rate": 79.62999725341797
+    },
+    "HSQ-EMEI-SHIJING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "village_zh": "石井村",
+      "village_en": "Shijing Village",
+      "votes": {
+        "1": 183,
+        "2": 310
+      },
+      "valid_votes": 493,
+      "invalid_votes": 3,
+      "ballots_cast": 496,
+      "unreturned_ballots": 0,
+      "ballots_issued": 496,
+      "unused_ballots": 151,
+      "electors": 647,
+      "turnout_rate": 76.66000366210938
+    },
+    "HSQ-EMEI-QIXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "village_zh": "七星村",
+      "village_en": "Qixing Village",
+      "votes": {
+        "1": 199,
+        "2": 286
+      },
+      "valid_votes": 485,
+      "invalid_votes": 5,
+      "ballots_cast": 490,
+      "unreturned_ballots": 0,
+      "ballots_issued": 490,
+      "unused_ballots": 138,
+      "electors": 628,
+      "turnout_rate": 78.02999877929688
+    },
+    "HSQ-EMEI-FUXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "village_zh": "富興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 311,
+        "2": 643
+      },
+      "valid_votes": 954,
+      "invalid_votes": 10,
+      "ballots_cast": 964,
+      "unreturned_ballots": 0,
+      "ballots_issued": 964,
+      "unused_ballots": 293,
+      "electors": 1257,
+      "turnout_rate": 76.69000244140625
+    },
+    "HSQ-EMEI-HUGUANG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "峨眉鄉",
+      "township_en": "Emei Township",
+      "village_zh": "湖光村",
+      "village_en": "Huguang Village",
+      "votes": {
+        "1": 295,
+        "2": 392
+      },
+      "valid_votes": 687,
+      "invalid_votes": 5,
+      "ballots_cast": 692,
+      "unreturned_ballots": 0,
+      "ballots_issued": 692,
+      "unused_ballots": 216,
+      "electors": 908,
+      "turnout_rate": 76.20999908447266
+    },
+    "HSQ-JIANSHI-JIALE-AND-YIXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "嘉樂村、義興村",
+      "village_en": "Jiale and Yixing Village",
+      "votes": {
+        "1": 104,
+        "2": 453
+      },
+      "valid_votes": 557,
+      "invalid_votes": 6,
+      "ballots_cast": 563,
+      "unreturned_ballots": 0,
+      "ballots_issued": 563,
+      "unused_ballots": 174,
+      "electors": 737,
+      "turnout_rate": 76.38999938964844
+    },
+    "HSQ-JIANSHI-YIXING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "義興村",
+      "village_en": "Yixing Village",
+      "votes": {
+        "1": 26,
+        "2": 197
+      },
+      "valid_votes": 223,
+      "invalid_votes": 4,
+      "ballots_cast": 227,
+      "unreturned_ballots": 0,
+      "ballots_issued": 227,
+      "unused_ballots": 78,
+      "electors": 305,
+      "turnout_rate": 74.43000030517578
+    },
+    "HSQ-JIANSHI-JIALE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "嘉樂村",
+      "village_en": "Jiale Village",
+      "votes": {
+        "1": 32,
+        "2": 245
+      },
+      "valid_votes": 277,
+      "invalid_votes": 4,
+      "ballots_cast": 281,
+      "unreturned_ballots": 0,
+      "ballots_issued": 281,
+      "unused_ballots": 70,
+      "electors": 351,
+      "turnout_rate": 80.05999755859375
+    },
+    "HSQ-JIANSHI-XINLE": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "新樂村",
+      "village_en": "Xinle Village",
+      "votes": {
+        "1": 50,
+        "2": 747
+      },
+      "valid_votes": 797,
+      "invalid_votes": 8,
+      "ballots_cast": 805,
+      "unreturned_ballots": 0,
+      "ballots_issued": 805,
+      "unused_ballots": 264,
+      "electors": 1069,
+      "turnout_rate": 75.30000305175781
+    },
+    "HSQ-JIANSHI-JINPING": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "錦屏村",
+      "village_en": "Jinping Village",
+      "votes": {
+        "1": 68,
+        "2": 713
+      },
+      "valid_votes": 781,
+      "invalid_votes": 5,
+      "ballots_cast": 786,
+      "unreturned_ballots": 0,
+      "ballots_issued": 786,
+      "unused_ballots": 257,
+      "electors": 1043,
+      "turnout_rate": 75.36000061035156
+    },
+    "HSQ-JIANSHI-MEIHUA": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "梅花村",
+      "village_en": "Meihua Village",
+      "votes": {
+        "1": 45,
+        "2": 314
+      },
+      "valid_votes": 359,
+      "invalid_votes": 4,
+      "ballots_cast": 363,
+      "unreturned_ballots": 0,
+      "ballots_issued": 363,
+      "unused_ballots": 149,
+      "electors": 512,
+      "turnout_rate": 70.9000015258789
+    },
+    "HSQ-JIANSHI-YUFENG": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "玉峰村",
+      "village_en": "Yufeng Village",
+      "votes": {
+        "1": 35,
+        "2": 21
+      },
+      "valid_votes": 56,
+      "invalid_votes": 1,
+      "ballots_cast": 57,
+      "unreturned_ballots": 0,
+      "ballots_issued": 57,
+      "unused_ballots": 26,
+      "electors": 83,
+      "turnout_rate": 68.66999816894531
+    },
+    "HSQ-JIANSHI-XIULUAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "尖石鄉",
+      "township_en": "Jianshi Township",
+      "village_zh": "秀巒村",
+      "village_en": "Xiuluan Village",
+      "votes": {
+        "1": 126,
+        "2": 562
+      },
+      "valid_votes": 688,
+      "invalid_votes": 6,
+      "ballots_cast": 694,
+      "unreturned_ballots": 0,
+      "ballots_issued": 694,
+      "unused_ballots": 379,
+      "electors": 1073,
+      "turnout_rate": 64.68000030517578
+    },
+    "HSQ-WUFENG-DAAI": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "五峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "大隘村",
+      "village_en": "Daai Village",
+      "votes": {
+        "1": 61,
+        "2": 860
+      },
+      "valid_votes": 921,
+      "invalid_votes": 9,
+      "ballots_cast": 930,
+      "unreturned_ballots": 0,
+      "ballots_issued": 930,
+      "unused_ballots": 315,
+      "electors": 1245,
+      "turnout_rate": 74.69999694824219
+    },
+    "HSQ-WUFENG-TAOSHAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "五峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "桃山村",
+      "village_en": "Taoshan Village",
+      "votes": {
+        "1": 140,
+        "2": 795
+      },
+      "valid_votes": 935,
+      "invalid_votes": 10,
+      "ballots_cast": 945,
+      "unreturned_ballots": 0,
+      "ballots_issued": 945,
+      "unused_ballots": 334,
+      "electors": 1279,
+      "turnout_rate": 73.88999938964844
+    },
+    "HSQ-WUFENG-HUAYUAN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "五峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "花園村",
+      "village_en": "Huayuan Village",
+      "votes": {
+        "1": 73,
+        "2": 356
+      },
+      "valid_votes": 429,
+      "invalid_votes": 4,
+      "ballots_cast": 433,
+      "unreturned_ballots": 0,
+      "ballots_issued": 433,
+      "unused_ballots": 171,
+      "electors": 604,
+      "turnout_rate": 71.69000244140625
+    },
+    "HSQ-WUFENG-ZHULIN": {
+      "county_zh": "新竹縣",
+      "county_en": "Hsinchu County",
+      "township_zh": "五峰鄉",
+      "township_en": "Wufeng Township",
+      "village_zh": "竹林村",
+      "village_en": "Zhulin Village",
+      "votes": {
+        "1": 23,
+        "2": 209
+      },
+      "valid_votes": 232,
+      "invalid_votes": 3,
+      "ballots_cast": 235,
+      "unreturned_ballots": 0,
+      "ballots_issued": 235,
+      "unused_ballots": 80,
+      "electors": 315,
+      "turnout_rate": 74.5999984741211
+    }
+  }
+}

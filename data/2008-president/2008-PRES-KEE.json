@@ -1,0 +1,3292 @@
+{
+  "election_id": "2008-president",
+  "election_type": "president",
+  "source_file": "2008-PRES-KEE.xls",
+  "county_zh": "基隆市",
+  "county_en": "Keelung City",
+  "county_iso": "KEE",
+  "candidates": {
+    "1": {
+      "name_zh": "謝長廷",
+      "running_mate_zh": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "蕭萬長",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 72562,
+      "2": 152327
+    },
+    "valid_votes": 224889,
+    "invalid_votes": 1701,
+    "ballots_cast": 226590,
+    "unreturned_ballots": 4,
+    "ballots_issued": 226594,
+    "unused_ballots": 71200,
+    "electors": 297794,
+    "turnout_rate": 76.08999633789062
+  },
+  "townships": {
+    "KEE-ZHONGZHENG": {
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "votes": {
+        "1": 10465,
+        "2": 22654
+      },
+      "valid_votes": 33119,
+      "invalid_votes": 248,
+      "ballots_cast": 33367,
+      "unreturned_ballots": 0,
+      "ballots_issued": 33367,
+      "unused_ballots": 11613,
+      "electors": 44980,
+      "turnout_rate": 74.18000030517578
+    },
+    "KEE-XINYI": {
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "votes": {
+        "1": 8541,
+        "2": 21966
+      },
+      "valid_votes": 30507,
+      "invalid_votes": 234,
+      "ballots_cast": 30741,
+      "unreturned_ballots": 0,
+      "ballots_issued": 30741,
+      "unused_ballots": 9129,
+      "electors": 39870,
+      "turnout_rate": 77.0999984741211
+    },
+    "KEE-RENAI": {
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "votes": {
+        "1": 10663,
+        "2": 18508
+      },
+      "valid_votes": 29171,
+      "invalid_votes": 224,
+      "ballots_cast": 29395,
+      "unreturned_ballots": 2,
+      "ballots_issued": 29397,
+      "unused_ballots": 9042,
+      "electors": 38439,
+      "turnout_rate": 76.47000122070312
+    },
+    "KEE-ZHONGSHAN": {
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "votes": {
+        "1": 10147,
+        "2": 20022
+      },
+      "valid_votes": 30169,
+      "invalid_votes": 242,
+      "ballots_cast": 30411,
+      "unreturned_ballots": 1,
+      "ballots_issued": 30412,
+      "unused_ballots": 10016,
+      "electors": 40428,
+      "turnout_rate": 75.22000122070312
+    },
+    "KEE-ANLE": {
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "votes": {
+        "1": 15511,
+        "2": 33206
+      },
+      "valid_votes": 48717,
+      "invalid_votes": 338,
+      "ballots_cast": 49055,
+      "unreturned_ballots": 1,
+      "ballots_issued": 49056,
+      "unused_ballots": 14693,
+      "electors": 63749,
+      "turnout_rate": 76.94999694824219
+    },
+    "KEE-NUANNUAN": {
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "votes": {
+        "1": 6270,
+        "2": 15219
+      },
+      "valid_votes": 21489,
+      "invalid_votes": 168,
+      "ballots_cast": 21657,
+      "unreturned_ballots": 0,
+      "ballots_issued": 21657,
+      "unused_ballots": 6906,
+      "electors": 28563,
+      "turnout_rate": 75.81999969482422
+    },
+    "KEE-QIDU": {
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "votes": {
+        "1": 10965,
+        "2": 20752
+      },
+      "valid_votes": 31717,
+      "invalid_votes": 247,
+      "ballots_cast": 31964,
+      "unreturned_ballots": 0,
+      "ballots_issued": 31964,
+      "unused_ballots": 9801,
+      "electors": 41765,
+      "turnout_rate": 76.52999877929688
+    }
+  },
+  "villages": {
+    "KEE-ZHONGZHENG-ZHANGTAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "長潭里",
+      "village_en": "Zhangtan Village",
+      "votes": {
+        "1": 272,
+        "2": 203
+      },
+      "valid_votes": 475,
+      "invalid_votes": 1,
+      "ballots_cast": 476,
+      "unreturned_ballots": 0,
+      "ballots_issued": 476,
+      "unused_ballots": 70,
+      "electors": 546,
+      "turnout_rate": 87.18000030517578
+    },
+    "KEE-ZHONGZHENG-SHAZI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "砂子里",
+      "village_en": "Shazi Village",
+      "votes": {
+        "1": 909,
+        "2": 1978
+      },
+      "valid_votes": 2887,
+      "invalid_votes": 32,
+      "ballots_cast": 2919,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2919,
+      "unused_ballots": 1138,
+      "electors": 4057,
+      "turnout_rate": 71.94999694824219
+    },
+    "KEE-ZHONGZHENG-BADOU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "八斗里",
+      "village_en": "Badou Village",
+      "votes": {
+        "1": 663,
+        "2": 473
+      },
+      "valid_votes": 1136,
+      "invalid_votes": 9,
+      "ballots_cast": 1145,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1145,
+      "unused_ballots": 427,
+      "electors": 1572,
+      "turnout_rate": 72.83999633789062
+    },
+    "KEE-ZHONGZHENG-BISHA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "碧砂里",
+      "village_en": "Bisha Village",
+      "votes": {
+        "1": 426,
+        "2": 544
+      },
+      "valid_votes": 970,
+      "invalid_votes": 3,
+      "ballots_cast": 973,
+      "unreturned_ballots": 0,
+      "ballots_issued": 973,
+      "unused_ballots": 383,
+      "electors": 1356,
+      "turnout_rate": 71.76000213623047
+    },
+    "KEE-ZHONGZHENG-XINFU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "新富里",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 869,
+        "2": 2176
+      },
+      "valid_votes": 3045,
+      "invalid_votes": 25,
+      "ballots_cast": 3070,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3070,
+      "unused_ballots": 1266,
+      "electors": 4336,
+      "turnout_rate": 70.80000305175781
+    },
+    "KEE-ZHONGZHENG-XINFENG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "新豐里",
+      "village_en": "Xinfeng Village",
+      "votes": {
+        "1": 744,
+        "2": 2139
+      },
+      "valid_votes": 2883,
+      "invalid_votes": 16,
+      "ballots_cast": 2899,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2899,
+      "unused_ballots": 1141,
+      "electors": 4040,
+      "turnout_rate": 71.76000213623047
+    },
+    "KEE-ZHONGZHENG-PINGLIAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "平寮里",
+      "village_en": "Pingliao Village",
+      "votes": {
+        "1": 452,
+        "2": 661
+      },
+      "valid_votes": 1113,
+      "invalid_votes": 15,
+      "ballots_cast": 1128,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1128,
+      "unused_ballots": 349,
+      "electors": 1477,
+      "turnout_rate": 76.37000274658203
+    },
+    "KEE-ZHONGZHENG-SHELIAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "社寮里",
+      "village_en": "Sheliao Village",
+      "votes": {
+        "1": 597,
+        "2": 787
+      },
+      "valid_votes": 1384,
+      "invalid_votes": 12,
+      "ballots_cast": 1396,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1396,
+      "unused_ballots": 473,
+      "electors": 1869,
+      "turnout_rate": 74.69000244140625
+    },
+    "KEE-ZHONGZHENG-HEXIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "和憲里",
+      "village_en": "Hexian Village",
+      "votes": {
+        "1": 148,
+        "2": 639
+      },
+      "valid_votes": 787,
+      "invalid_votes": 5,
+      "ballots_cast": 792,
+      "unreturned_ballots": 0,
+      "ballots_issued": 792,
+      "unused_ballots": 345,
+      "electors": 1137,
+      "turnout_rate": 69.66000366210938
+    },
+    "KEE-ZHONGZHENG-HAIBIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "海濱里",
+      "village_en": "Haibin Village",
+      "votes": {
+        "1": 228,
+        "2": 728
+      },
+      "valid_votes": 956,
+      "invalid_votes": 7,
+      "ballots_cast": 963,
+      "unreturned_ballots": 0,
+      "ballots_issued": 963,
+      "unused_ballots": 345,
+      "electors": 1308,
+      "turnout_rate": 73.62000274658203
+    },
+    "KEE-ZHONGZHENG-ZHENGBIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "正濱里",
+      "village_en": "Zhengbin Village",
+      "votes": {
+        "1": 248,
+        "2": 593
+      },
+      "valid_votes": 841,
+      "invalid_votes": 5,
+      "ballots_cast": 846,
+      "unreturned_ballots": 0,
+      "ballots_issued": 846,
+      "unused_ballots": 309,
+      "electors": 1155,
+      "turnout_rate": 73.25
+    },
+    "KEE-ZHONGZHENG-ZHONGZHENG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 426,
+        "2": 973
+      },
+      "valid_votes": 1399,
+      "invalid_votes": 5,
+      "ballots_cast": 1404,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1404,
+      "unused_ballots": 625,
+      "electors": 2029,
+      "turnout_rate": 69.19999694824219
+    },
+    "KEE-ZHONGZHENG-ZHONGBIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "中濱里",
+      "village_en": "Zhongbin Village",
+      "votes": {
+        "1": 272,
+        "2": 724
+      },
+      "valid_votes": 996,
+      "invalid_votes": 14,
+      "ballots_cast": 1010,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1010,
+      "unused_ballots": 339,
+      "electors": 1349,
+      "turnout_rate": 74.87000274658203
+    },
+    "KEE-ZHONGZHENG-JIANGUO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "建國里",
+      "village_en": "Jianguo Village",
+      "votes": {
+        "1": 377,
+        "2": 1259
+      },
+      "valid_votes": 1636,
+      "invalid_votes": 11,
+      "ballots_cast": 1647,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1647,
+      "unused_ballots": 508,
+      "electors": 2155,
+      "turnout_rate": 76.43000030517578
+    },
+    "KEE-ZHONGZHENG-SHAWAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "砂灣里",
+      "village_en": "Shawan Village",
+      "votes": {
+        "1": 386,
+        "2": 1142
+      },
+      "valid_votes": 1528,
+      "invalid_votes": 13,
+      "ballots_cast": 1541,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1541,
+      "unused_ballots": 549,
+      "electors": 2090,
+      "turnout_rate": 73.7300033569336
+    },
+    "KEE-ZHONGZHENG-ZHENSHA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "真砂里",
+      "village_en": "Zhensha Village",
+      "votes": {
+        "1": 325,
+        "2": 781
+      },
+      "valid_votes": 1106,
+      "invalid_votes": 11,
+      "ballots_cast": 1117,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1117,
+      "unused_ballots": 328,
+      "electors": 1445,
+      "turnout_rate": 77.30000305175781
+    },
+    "KEE-ZHONGZHENG-ZHENGSHA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "正砂里",
+      "village_en": "Zhengsha Village",
+      "votes": {
+        "1": 477,
+        "2": 1380
+      },
+      "valid_votes": 1857,
+      "invalid_votes": 16,
+      "ballots_cast": 1873,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1873,
+      "unused_ballots": 518,
+      "electors": 2391,
+      "turnout_rate": 78.33999633789062
+    },
+    "KEE-ZHONGZHENG-ZHONGSHA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "中砂里",
+      "village_en": "Zhongsha Village",
+      "votes": {
+        "1": 283,
+        "2": 651
+      },
+      "valid_votes": 934,
+      "invalid_votes": 4,
+      "ballots_cast": 938,
+      "unreturned_ballots": 0,
+      "ballots_issued": 938,
+      "unused_ballots": 281,
+      "electors": 1219,
+      "turnout_rate": 76.94999694824219
+    },
+    "KEE-ZHONGZHENG-RUCHUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "入船里",
+      "village_en": "Ruchuan Village",
+      "votes": {
+        "1": 259,
+        "2": 609
+      },
+      "valid_votes": 868,
+      "invalid_votes": 6,
+      "ballots_cast": 874,
+      "unreturned_ballots": 0,
+      "ballots_issued": 874,
+      "unused_ballots": 289,
+      "electors": 1163,
+      "turnout_rate": 75.1500015258789
+    },
+    "KEE-ZHONGZHENG-ZHENGCHUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "正船里",
+      "village_en": "Zhengchuan Village",
+      "votes": {
+        "1": 283,
+        "2": 739
+      },
+      "valid_votes": 1022,
+      "invalid_votes": 8,
+      "ballots_cast": 1030,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1030,
+      "unused_ballots": 326,
+      "electors": 1356,
+      "turnout_rate": 75.95999908447266
+    },
+    "KEE-ZHONGZHENG-ZHONGCHUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "中船里",
+      "village_en": "Zhongchuan Village",
+      "votes": {
+        "1": 264,
+        "2": 709
+      },
+      "valid_votes": 973,
+      "invalid_votes": 4,
+      "ballots_cast": 977,
+      "unreturned_ballots": 0,
+      "ballots_issued": 977,
+      "unused_ballots": 327,
+      "electors": 1304,
+      "turnout_rate": 74.91999816894531
+    },
+    "KEE-ZHONGZHENG-GANGTONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "港通里",
+      "village_en": "Gangtong Village",
+      "votes": {
+        "1": 405,
+        "2": 616
+      },
+      "valid_votes": 1021,
+      "invalid_votes": 3,
+      "ballots_cast": 1024,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1024,
+      "unused_ballots": 290,
+      "electors": 1314,
+      "turnout_rate": 77.93000030517578
+    },
+    "KEE-ZHONGZHENG-YIZHONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "義重里",
+      "village_en": "Yizhong Village",
+      "votes": {
+        "1": 281,
+        "2": 579
+      },
+      "valid_votes": 860,
+      "invalid_votes": 5,
+      "ballots_cast": 865,
+      "unreturned_ballots": 0,
+      "ballots_issued": 865,
+      "unused_ballots": 275,
+      "electors": 1140,
+      "turnout_rate": 75.87999725341797
+    },
+    "KEE-ZHONGZHENG-ZHENGYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "正義里",
+      "village_en": "Zhengyi Village",
+      "votes": {
+        "1": 361,
+        "2": 708
+      },
+      "valid_votes": 1069,
+      "invalid_votes": 9,
+      "ballots_cast": 1078,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1078,
+      "unused_ballots": 321,
+      "electors": 1399,
+      "turnout_rate": 77.05999755859375
+    },
+    "KEE-ZHONGZHENG-XINYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "信義里",
+      "village_en": "Xinyi Village",
+      "votes": {
+        "1": 277,
+        "2": 479
+      },
+      "valid_votes": 756,
+      "invalid_votes": 7,
+      "ballots_cast": 763,
+      "unreturned_ballots": 0,
+      "ballots_issued": 763,
+      "unused_ballots": 230,
+      "electors": 993,
+      "turnout_rate": 76.83999633789062
+    },
+    "KEE-ZHONGZHENG-DEYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中正區",
+      "township_en": "Zhongzheng District",
+      "village_zh": "德義里",
+      "village_en": "Deyi Village",
+      "votes": {
+        "1": 233,
+        "2": 384
+      },
+      "valid_votes": 617,
+      "invalid_votes": 2,
+      "ballots_cast": 619,
+      "unreturned_ballots": 0,
+      "ballots_issued": 619,
+      "unused_ballots": 161,
+      "electors": 780,
+      "turnout_rate": 79.36000061035156
+    },
+    "KEE-XINYI-RENSHOU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "仁壽里",
+      "village_en": "Renshou Village",
+      "votes": {
+        "1": 293,
+        "2": 625
+      },
+      "valid_votes": 918,
+      "invalid_votes": 9,
+      "ballots_cast": 927,
+      "unreturned_ballots": 0,
+      "ballots_issued": 927,
+      "unused_ballots": 221,
+      "electors": 1148,
+      "turnout_rate": 80.75
+    },
+    "KEE-XINYI-RENYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "仁義里",
+      "village_en": "Renyi Village",
+      "votes": {
+        "1": 268,
+        "2": 744
+      },
+      "valid_votes": 1012,
+      "invalid_votes": 11,
+      "ballots_cast": 1023,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1023,
+      "unused_ballots": 275,
+      "electors": 1298,
+      "turnout_rate": 78.80999755859375
+    },
+    "KEE-XINYI-YIZHAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "義昭里",
+      "village_en": "Yizhao Village",
+      "votes": {
+        "1": 169,
+        "2": 538
+      },
+      "valid_votes": 707,
+      "invalid_votes": 3,
+      "ballots_cast": 710,
+      "unreturned_ballots": 0,
+      "ballots_issued": 710,
+      "unused_ballots": 208,
+      "electors": 918,
+      "turnout_rate": 77.33999633789062
+    },
+    "KEE-XINYI-YIXING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "義幸里",
+      "village_en": "Yixing Village",
+      "votes": {
+        "1": 549,
+        "2": 1362
+      },
+      "valid_votes": 1911,
+      "invalid_votes": 14,
+      "ballots_cast": 1925,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1925,
+      "unused_ballots": 441,
+      "electors": 2366,
+      "turnout_rate": 81.36000061035156
+    },
+    "KEE-XINYI-YIMIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "義民里",
+      "village_en": "Yimin Village",
+      "votes": {
+        "1": 209,
+        "2": 401
+      },
+      "valid_votes": 610,
+      "invalid_votes": 2,
+      "ballots_cast": 612,
+      "unreturned_ballots": 0,
+      "ballots_issued": 612,
+      "unused_ballots": 177,
+      "electors": 789,
+      "turnout_rate": 77.56999969482422
+    },
+    "KEE-XINYI-YIHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "義和里",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 280,
+        "2": 688
+      },
+      "valid_votes": 968,
+      "invalid_votes": 5,
+      "ballots_cast": 973,
+      "unreturned_ballots": 0,
+      "ballots_issued": 973,
+      "unused_ballots": 357,
+      "electors": 1330,
+      "turnout_rate": 73.16000366210938
+    },
+    "KEE-XINYI-ZHIHUI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "智慧里",
+      "village_en": "Zhihui Village",
+      "votes": {
+        "1": 156,
+        "2": 360
+      },
+      "valid_votes": 516,
+      "invalid_votes": 7,
+      "ballots_cast": 523,
+      "unreturned_ballots": 0,
+      "ballots_issued": 523,
+      "unused_ballots": 150,
+      "electors": 673,
+      "turnout_rate": 77.70999908447266
+    },
+    "KEE-XINYI-ZHICHENG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "智誠里",
+      "village_en": "Zhicheng Village",
+      "votes": {
+        "1": 475,
+        "2": 729
+      },
+      "valid_votes": 1204,
+      "invalid_votes": 6,
+      "ballots_cast": 1210,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1210,
+      "unused_ballots": 430,
+      "electors": 1640,
+      "turnout_rate": 73.77999877929688
+    },
+    "KEE-XINYI-LIYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "禮儀里",
+      "village_en": "Liyi Village",
+      "votes": {
+        "1": 331,
+        "2": 874
+      },
+      "valid_votes": 1205,
+      "invalid_votes": 7,
+      "ballots_cast": 1212,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1212,
+      "unused_ballots": 328,
+      "electors": 1540,
+      "turnout_rate": 78.69999694824219
+    },
+    "KEE-XINYI-LIDONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "禮東里",
+      "village_en": "Lidong Village",
+      "votes": {
+        "1": 321,
+        "2": 921
+      },
+      "valid_votes": 1242,
+      "invalid_votes": 14,
+      "ballots_cast": 1256,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1256,
+      "unused_ballots": 326,
+      "electors": 1582,
+      "turnout_rate": 79.38999938964844
+    },
+    "KEE-XINYI-XINLV": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "信綠里",
+      "village_en": "Xinlv Village",
+      "votes": {
+        "1": 477,
+        "2": 1286
+      },
+      "valid_votes": 1763,
+      "invalid_votes": 18,
+      "ballots_cast": 1781,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1781,
+      "unused_ballots": 490,
+      "electors": 2271,
+      "turnout_rate": 78.41999816894531
+    },
+    "KEE-XINYI-DONGXIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "東信里",
+      "village_en": "Dongxin Village",
+      "votes": {
+        "1": 671,
+        "2": 2095
+      },
+      "valid_votes": 2766,
+      "invalid_votes": 25,
+      "ballots_cast": 2791,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2791,
+      "unused_ballots": 734,
+      "electors": 3525,
+      "turnout_rate": 79.18000030517578
+    },
+    "KEE-XINYI-DONGGUANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "東光里",
+      "village_en": "Dongguang Village",
+      "votes": {
+        "1": 406,
+        "2": 1008
+      },
+      "valid_votes": 1414,
+      "invalid_votes": 7,
+      "ballots_cast": 1421,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1421,
+      "unused_ballots": 444,
+      "electors": 1865,
+      "turnout_rate": 76.19000244140625
+    },
+    "KEE-XINYI-DONGMING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "東明里",
+      "village_en": "Dongming Village",
+      "votes": {
+        "1": 603,
+        "2": 1935
+      },
+      "valid_votes": 2538,
+      "invalid_votes": 17,
+      "ballots_cast": 2555,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2555,
+      "unused_ballots": 733,
+      "electors": 3288,
+      "turnout_rate": 77.70999908447266
+    },
+    "KEE-XINYI-DONGAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 577,
+        "2": 1490
+      },
+      "valid_votes": 2067,
+      "invalid_votes": 17,
+      "ballots_cast": 2084,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2084,
+      "unused_ballots": 585,
+      "electors": 2669,
+      "turnout_rate": 78.08000183105469
+    },
+    "KEE-XINYI-XIAOXIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "孝賢里",
+      "village_en": "Xiaoxian Village",
+      "votes": {
+        "1": 617,
+        "2": 1674
+      },
+      "valid_votes": 2291,
+      "invalid_votes": 14,
+      "ballots_cast": 2305,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2305,
+      "unused_ballots": 579,
+      "electors": 2884,
+      "turnout_rate": 79.91999816894531
+    },
+    "KEE-XINYI-XIAOZHONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "孝忠里",
+      "village_en": "Xiaozhong Village",
+      "votes": {
+        "1": 868,
+        "2": 2448
+      },
+      "valid_votes": 3316,
+      "invalid_votes": 18,
+      "ballots_cast": 3334,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3334,
+      "unused_ballots": 982,
+      "electors": 4316,
+      "turnout_rate": 77.25
+    },
+    "KEE-XINYI-XIAODE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "孝德里",
+      "village_en": "Xiaode Village",
+      "votes": {
+        "1": 487,
+        "2": 1056
+      },
+      "valid_votes": 1543,
+      "invalid_votes": 14,
+      "ballots_cast": 1557,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1557,
+      "unused_ballots": 622,
+      "electors": 2179,
+      "turnout_rate": 71.44999694824219
+    },
+    "KEE-XINYI-XIAOSHEN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "孝深里",
+      "village_en": "Xiaoshen Village",
+      "votes": {
+        "1": 580,
+        "2": 1282
+      },
+      "valid_votes": 1862,
+      "invalid_votes": 23,
+      "ballots_cast": 1885,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1885,
+      "unused_ballots": 781,
+      "electors": 2666,
+      "turnout_rate": 70.70999908447266
+    },
+    "KEE-XINYI-XIAOGANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "信義區",
+      "township_en": "Xinyi District",
+      "village_zh": "孝岡里",
+      "village_en": "Xiaogang Village",
+      "votes": {
+        "1": 204,
+        "2": 450
+      },
+      "valid_votes": 654,
+      "invalid_votes": 3,
+      "ballots_cast": 657,
+      "unreturned_ballots": 0,
+      "ballots_issued": 657,
+      "unused_ballots": 266,
+      "electors": 923,
+      "turnout_rate": 71.18000030517578
+    },
+    "KEE-RENAI-LINQUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "林泉里",
+      "village_en": "Linquan Village",
+      "votes": {
+        "1": 506,
+        "2": 884
+      },
+      "valid_votes": 1390,
+      "invalid_votes": 6,
+      "ballots_cast": 1396,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1396,
+      "unused_ballots": 477,
+      "electors": 1873,
+      "turnout_rate": 74.52999877929688
+    },
+    "KEE-RENAI-HUAGANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "花崗里",
+      "village_en": "Huagang Village",
+      "votes": {
+        "1": 309,
+        "2": 558
+      },
+      "valid_votes": 867,
+      "invalid_votes": 6,
+      "ballots_cast": 873,
+      "unreturned_ballots": 0,
+      "ballots_issued": 873,
+      "unused_ballots": 228,
+      "electors": 1101,
+      "turnout_rate": 79.29000091552734
+    },
+    "KEE-RENAI-HONGQIAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "虹橋里",
+      "village_en": "Hongqiao Village",
+      "votes": {
+        "1": 465,
+        "2": 870
+      },
+      "valid_votes": 1335,
+      "invalid_votes": 10,
+      "ballots_cast": 1345,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1345,
+      "unused_ballots": 359,
+      "electors": 1704,
+      "turnout_rate": 78.93000030517578
+    },
+    "KEE-RENAI-SHUIJIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "水錦里",
+      "village_en": "Shuijin Village",
+      "votes": {
+        "1": 473,
+        "2": 1028
+      },
+      "valid_votes": 1501,
+      "invalid_votes": 14,
+      "ballots_cast": 1515,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1515,
+      "unused_ballots": 414,
+      "electors": 1929,
+      "turnout_rate": 78.54000091552734
+    },
+    "KEE-RENAI-ZHIREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "智仁里",
+      "village_en": "Zhiren Village",
+      "votes": {
+        "1": 669,
+        "2": 1353
+      },
+      "valid_votes": 2022,
+      "invalid_votes": 10,
+      "ballots_cast": 2032,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2032,
+      "unused_ballots": 538,
+      "electors": 2570,
+      "turnout_rate": 79.06999969482422
+    },
+    "KEE-RENAI-HEMING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "和明里",
+      "village_en": "Heming Village",
+      "votes": {
+        "1": 299,
+        "2": 622
+      },
+      "valid_votes": 921,
+      "invalid_votes": 2,
+      "ballots_cast": 923,
+      "unreturned_ballots": 0,
+      "ballots_issued": 923,
+      "unused_ballots": 303,
+      "electors": 1226,
+      "turnout_rate": 75.29000091552734
+    },
+    "KEE-RENAI-ZHONGYONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "忠勇里",
+      "village_en": "Zhongyong Village",
+      "votes": {
+        "1": 304,
+        "2": 510
+      },
+      "valid_votes": 814,
+      "invalid_votes": 7,
+      "ballots_cast": 821,
+      "unreturned_ballots": 0,
+      "ballots_issued": 821,
+      "unused_ballots": 259,
+      "electors": 1080,
+      "turnout_rate": 76.0199966430664
+    },
+    "KEE-RENAI-YUTIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "玉田里",
+      "village_en": "Yutian Village",
+      "votes": {
+        "1": 330,
+        "2": 530
+      },
+      "valid_votes": 860,
+      "invalid_votes": 2,
+      "ballots_cast": 862,
+      "unreturned_ballots": 0,
+      "ballots_issued": 862,
+      "unused_ballots": 261,
+      "electors": 1123,
+      "turnout_rate": 76.76000213623047
+    },
+    "KEE-RENAI-RENDE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "仁德里",
+      "village_en": "Rende Village",
+      "votes": {
+        "1": 323,
+        "2": 444
+      },
+      "valid_votes": 767,
+      "invalid_votes": 6,
+      "ballots_cast": 773,
+      "unreturned_ballots": 2,
+      "ballots_issued": 775,
+      "unused_ballots": 206,
+      "electors": 981,
+      "turnout_rate": 78.80000305175781
+    },
+    "KEE-RENAI-BOAI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "博愛里",
+      "village_en": "Boai Village",
+      "votes": {
+        "1": 501,
+        "2": 789
+      },
+      "valid_votes": 1290,
+      "invalid_votes": 11,
+      "ballots_cast": 1301,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1301,
+      "unused_ballots": 327,
+      "electors": 1628,
+      "turnout_rate": 79.91000366210938
+    },
+    "KEE-RENAI-FUREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "福仁里",
+      "village_en": "Furen Village",
+      "votes": {
+        "1": 257,
+        "2": 345
+      },
+      "valid_votes": 602,
+      "invalid_votes": 6,
+      "ballots_cast": 608,
+      "unreturned_ballots": 0,
+      "ballots_issued": 608,
+      "unused_ballots": 233,
+      "electors": 841,
+      "turnout_rate": 72.29000091552734
+    },
+    "KEE-RENAI-CHENGREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "誠仁里",
+      "village_en": "Chengren Village",
+      "votes": {
+        "1": 295,
+        "2": 458
+      },
+      "valid_votes": 753,
+      "invalid_votes": 4,
+      "ballots_cast": 757,
+      "unreturned_ballots": 0,
+      "ballots_issued": 757,
+      "unused_ballots": 262,
+      "electors": 1019,
+      "turnout_rate": 74.29000091552734
+    },
+    "KEE-RENAI-JIREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "吉仁里",
+      "village_en": "Jiren Village",
+      "votes": {
+        "1": 811,
+        "2": 1247
+      },
+      "valid_votes": 2058,
+      "invalid_votes": 19,
+      "ballots_cast": 2077,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2077,
+      "unused_ballots": 691,
+      "electors": 2768,
+      "turnout_rate": 75.04000091552734
+    },
+    "KEE-RENAI-YUREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "育仁里",
+      "village_en": "Yuren Village",
+      "votes": {
+        "1": 259,
+        "2": 363
+      },
+      "valid_votes": 622,
+      "invalid_votes": 4,
+      "ballots_cast": 626,
+      "unreturned_ballots": 0,
+      "ballots_issued": 626,
+      "unused_ballots": 218,
+      "electors": 844,
+      "turnout_rate": 74.16999816894531
+    },
+    "KEE-RENAI-YINGREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "英仁里",
+      "village_en": "Yingren Village",
+      "votes": {
+        "1": 423,
+        "2": 589
+      },
+      "valid_votes": 1012,
+      "invalid_votes": 12,
+      "ballots_cast": 1024,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1024,
+      "unused_ballots": 333,
+      "electors": 1357,
+      "turnout_rate": 75.45999908447266
+    },
+    "KEE-RENAI-LONGMEN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "龍門里",
+      "village_en": "Longmen Village",
+      "votes": {
+        "1": 253,
+        "2": 356
+      },
+      "valid_votes": 609,
+      "invalid_votes": 10,
+      "ballots_cast": 619,
+      "unreturned_ballots": 0,
+      "ballots_issued": 619,
+      "unused_ballots": 205,
+      "electors": 824,
+      "turnout_rate": 75.12000274658203
+    },
+    "KEE-RENAI-DEHOU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "德厚里",
+      "village_en": "Dehou Village",
+      "votes": {
+        "1": 372,
+        "2": 839
+      },
+      "valid_votes": 1211,
+      "invalid_votes": 10,
+      "ballots_cast": 1221,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1221,
+      "unused_ballots": 419,
+      "electors": 1640,
+      "turnout_rate": 74.44999694824219
+    },
+    "KEE-RENAI-QUSHUI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "曲水里",
+      "village_en": "Qushui Village",
+      "votes": {
+        "1": 311,
+        "2": 412
+      },
+      "valid_votes": 723,
+      "invalid_votes": 6,
+      "ballots_cast": 729,
+      "unreturned_ballots": 0,
+      "ballots_issued": 729,
+      "unused_ballots": 198,
+      "electors": 927,
+      "turnout_rate": 78.63999938964844
+    },
+    "KEE-RENAI-CHONGWEN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "崇文里",
+      "village_en": "Chongwen Village",
+      "votes": {
+        "1": 269,
+        "2": 418
+      },
+      "valid_votes": 687,
+      "invalid_votes": 9,
+      "ballots_cast": 696,
+      "unreturned_ballots": 0,
+      "ballots_issued": 696,
+      "unused_ballots": 227,
+      "electors": 923,
+      "turnout_rate": 75.41000366210938
+    },
+    "KEE-RENAI-WENAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "文安里",
+      "village_en": "Wenan Village",
+      "votes": {
+        "1": 273,
+        "2": 428
+      },
+      "valid_votes": 701,
+      "invalid_votes": 3,
+      "ballots_cast": 704,
+      "unreturned_ballots": 0,
+      "ballots_issued": 704,
+      "unused_ballots": 264,
+      "electors": 968,
+      "turnout_rate": 72.7300033569336
+    },
+    "KEE-RENAI-ZHAOLIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "兆連里",
+      "village_en": "Zhaolian Village",
+      "votes": {
+        "1": 192,
+        "2": 393
+      },
+      "valid_votes": 585,
+      "invalid_votes": 2,
+      "ballots_cast": 587,
+      "unreturned_ballots": 0,
+      "ballots_issued": 587,
+      "unused_ballots": 199,
+      "electors": 786,
+      "turnout_rate": 74.68000030517578
+    },
+    "KEE-RENAI-SHIQIU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "獅球里",
+      "village_en": "Shiqiu Village",
+      "votes": {
+        "1": 281,
+        "2": 512
+      },
+      "valid_votes": 793,
+      "invalid_votes": 7,
+      "ballots_cast": 800,
+      "unreturned_ballots": 0,
+      "ballots_issued": 800,
+      "unused_ballots": 282,
+      "electors": 1082,
+      "turnout_rate": 73.94000244140625
+    },
+    "KEE-RENAI-SHUYUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "書院里",
+      "village_en": "Shuyuan Village",
+      "votes": {
+        "1": 362,
+        "2": 469
+      },
+      "valid_votes": 831,
+      "invalid_votes": 7,
+      "ballots_cast": 838,
+      "unreturned_ballots": 0,
+      "ballots_issued": 838,
+      "unused_ballots": 310,
+      "electors": 1148,
+      "turnout_rate": 73.0
+    },
+    "KEE-RENAI-CHAODONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "朝棟里",
+      "village_en": "Chaodong Village",
+      "votes": {
+        "1": 538,
+        "2": 1665
+      },
+      "valid_votes": 2203,
+      "invalid_votes": 21,
+      "ballots_cast": 2224,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2224,
+      "unused_ballots": 684,
+      "electors": 2908,
+      "turnout_rate": 76.4800033569336
+    },
+    "KEE-RENAI-GUANGHUA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "光華里",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 672,
+        "2": 1127
+      },
+      "valid_votes": 1799,
+      "invalid_votes": 6,
+      "ballots_cast": 1805,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1805,
+      "unused_ballots": 538,
+      "electors": 2343,
+      "turnout_rate": 77.04000091552734
+    },
+    "KEE-RENAI-MINGDE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "明德里",
+      "village_en": "Mingde Village",
+      "votes": {
+        "1": 219,
+        "2": 353
+      },
+      "valid_votes": 572,
+      "invalid_votes": 6,
+      "ballots_cast": 578,
+      "unreturned_ballots": 0,
+      "ballots_issued": 578,
+      "unused_ballots": 151,
+      "electors": 729,
+      "turnout_rate": 79.29000091552734
+    },
+    "KEE-RENAI-TONGFENG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "同風里",
+      "village_en": "Tongfeng Village",
+      "votes": {
+        "1": 164,
+        "2": 310
+      },
+      "valid_votes": 474,
+      "invalid_votes": 6,
+      "ballots_cast": 480,
+      "unreturned_ballots": 0,
+      "ballots_issued": 480,
+      "unused_ballots": 149,
+      "electors": 629,
+      "turnout_rate": 76.30999755859375
+    },
+    "KEE-RENAI-WENCHANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "文昌里",
+      "village_en": "Wenchang Village",
+      "votes": {
+        "1": 332,
+        "2": 333
+      },
+      "valid_votes": 665,
+      "invalid_votes": 8,
+      "ballots_cast": 673,
+      "unreturned_ballots": 0,
+      "ballots_issued": 673,
+      "unused_ballots": 164,
+      "electors": 837,
+      "turnout_rate": 80.41000366210938
+    },
+    "KEE-RENAI-XINDIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "仁愛區",
+      "township_en": "Renai District",
+      "village_zh": "新店里",
+      "village_en": "Xindian Village",
+      "votes": {
+        "1": 201,
+        "2": 303
+      },
+      "valid_votes": 504,
+      "invalid_votes": 4,
+      "ballots_cast": 508,
+      "unreturned_ballots": 0,
+      "ballots_issued": 508,
+      "unused_ballots": 143,
+      "electors": 651,
+      "turnout_rate": 78.02999877929688
+    },
+    "KEE-ZHONGSHAN-XINJIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "新建里",
+      "village_en": "Xinjian Village",
+      "votes": {
+        "1": 257,
+        "2": 305
+      },
+      "valid_votes": 562,
+      "invalid_votes": 7,
+      "ballots_cast": 569,
+      "unreturned_ballots": 0,
+      "ballots_issued": 569,
+      "unused_ballots": 188,
+      "electors": 757,
+      "turnout_rate": 75.16999816894531
+    },
+    "KEE-ZHONGSHAN-ANMIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "安民里",
+      "village_en": "Anmin Village",
+      "votes": {
+        "1": 309,
+        "2": 528
+      },
+      "valid_votes": 837,
+      "invalid_votes": 11,
+      "ballots_cast": 848,
+      "unreturned_ballots": 0,
+      "ballots_issued": 848,
+      "unused_ballots": 245,
+      "electors": 1093,
+      "turnout_rate": 77.58000183105469
+    },
+    "KEE-ZHONGSHAN-ANPING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "安平里",
+      "village_en": "Anping Village",
+      "votes": {
+        "1": 275,
+        "2": 415
+      },
+      "valid_votes": 690,
+      "invalid_votes": 4,
+      "ballots_cast": 694,
+      "unreturned_ballots": 0,
+      "ballots_issued": 694,
+      "unused_ballots": 208,
+      "electors": 902,
+      "turnout_rate": 76.94000244140625
+    },
+    "KEE-ZHONGSHAN-ZHONGSHAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 336,
+        "2": 456
+      },
+      "valid_votes": 792,
+      "invalid_votes": 5,
+      "ballots_cast": 797,
+      "unreturned_ballots": 0,
+      "ballots_issued": 797,
+      "unused_ballots": 234,
+      "electors": 1031,
+      "turnout_rate": 77.30000305175781
+    },
+    "KEE-ZHONGSHAN-MINZHI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "民治里",
+      "village_en": "Minzhi Village",
+      "votes": {
+        "1": 254,
+        "2": 409
+      },
+      "valid_votes": 663,
+      "invalid_votes": 6,
+      "ballots_cast": 669,
+      "unreturned_ballots": 0,
+      "ballots_issued": 669,
+      "unused_ballots": 246,
+      "electors": 915,
+      "turnout_rate": 73.11000061035156
+    },
+    "KEE-ZHONGSHAN-ZHONGXING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 323,
+        "2": 635
+      },
+      "valid_votes": 958,
+      "invalid_votes": 7,
+      "ballots_cast": 965,
+      "unreturned_ballots": 0,
+      "ballots_issued": 965,
+      "unused_ballots": 285,
+      "electors": 1250,
+      "turnout_rate": 77.19999694824219
+    },
+    "KEE-ZHONGSHAN-RENZHENG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "仁正里",
+      "village_en": "Renzheng Village",
+      "votes": {
+        "1": 172,
+        "2": 415
+      },
+      "valid_votes": 587,
+      "invalid_votes": 6,
+      "ballots_cast": 593,
+      "unreturned_ballots": 0,
+      "ballots_issued": 593,
+      "unused_ballots": 213,
+      "electors": 806,
+      "turnout_rate": 73.56999969482422
+    },
+    "KEE-ZHONGSHAN-JIANMIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "健民里",
+      "village_en": "Jianmin Village",
+      "votes": {
+        "1": 396,
+        "2": 578
+      },
+      "valid_votes": 974,
+      "invalid_votes": 13,
+      "ballots_cast": 987,
+      "unreturned_ballots": 0,
+      "ballots_issued": 987,
+      "unused_ballots": 357,
+      "electors": 1344,
+      "turnout_rate": 73.44000244140625
+    },
+    "KEE-ZHONGSHAN-TONGHUA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "通化里",
+      "village_en": "Tonghua Village",
+      "votes": {
+        "1": 249,
+        "2": 562
+      },
+      "valid_votes": 811,
+      "invalid_votes": 6,
+      "ballots_cast": 817,
+      "unreturned_ballots": 0,
+      "ballots_issued": 817,
+      "unused_ballots": 278,
+      "electors": 1095,
+      "turnout_rate": 74.61000061035156
+    },
+    "KEE-ZHONGSHAN-JUREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "居仁里",
+      "village_en": "Juren Village",
+      "votes": {
+        "1": 345,
+        "2": 660
+      },
+      "valid_votes": 1005,
+      "invalid_votes": 9,
+      "ballots_cast": 1014,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1014,
+      "unused_ballots": 393,
+      "electors": 1407,
+      "turnout_rate": 72.06999969482422
+    },
+    "KEE-ZHONGSHAN-TONGMING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "通明里",
+      "village_en": "Tongming Village",
+      "votes": {
+        "1": 484,
+        "2": 926
+      },
+      "valid_votes": 1410,
+      "invalid_votes": 13,
+      "ballots_cast": 1423,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1423,
+      "unused_ballots": 483,
+      "electors": 1906,
+      "turnout_rate": 74.66000366210938
+    },
+    "KEE-ZHONGSHAN-HEPING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "和平里",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 115,
+        "2": 318
+      },
+      "valid_votes": 433,
+      "invalid_votes": 4,
+      "ballots_cast": 437,
+      "unreturned_ballots": 0,
+      "ballots_issued": 437,
+      "unused_ballots": 128,
+      "electors": 565,
+      "turnout_rate": 77.3499984741211
+    },
+    "KEE-ZHONGSHAN-XIANDONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "仙洞里",
+      "village_en": "Xiandong Village",
+      "votes": {
+        "1": 211,
+        "2": 296
+      },
+      "valid_votes": 507,
+      "invalid_votes": 3,
+      "ballots_cast": 510,
+      "unreturned_ballots": 0,
+      "ballots_issued": 510,
+      "unused_ballots": 189,
+      "electors": 699,
+      "turnout_rate": 72.95999908447266
+    },
+    "KEE-ZHONGSHAN-TAIBAI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "太白里",
+      "village_en": "Taibai Village",
+      "votes": {
+        "1": 228,
+        "2": 411
+      },
+      "valid_votes": 639,
+      "invalid_votes": 4,
+      "ballots_cast": 643,
+      "unreturned_ballots": 0,
+      "ballots_issued": 643,
+      "unused_ballots": 277,
+      "electors": 920,
+      "turnout_rate": 69.88999938964844
+    },
+    "KEE-ZHONGSHAN-XIEHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "協和里",
+      "village_en": "Xiehe Village",
+      "votes": {
+        "1": 462,
+        "2": 790
+      },
+      "valid_votes": 1252,
+      "invalid_votes": 7,
+      "ballots_cast": 1259,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1259,
+      "unused_ballots": 401,
+      "electors": 1660,
+      "turnout_rate": 75.83999633789062
+    },
+    "KEE-ZHONGSHAN-WENHUA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "文化里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 228,
+        "2": 518
+      },
+      "valid_votes": 746,
+      "invalid_votes": 3,
+      "ballots_cast": 749,
+      "unreturned_ballots": 0,
+      "ballots_issued": 749,
+      "unused_ballots": 370,
+      "electors": 1119,
+      "turnout_rate": 66.93000030517578
+    },
+    "KEE-ZHONGSHAN-DEAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "德安里",
+      "village_en": "Dean Village",
+      "votes": {
+        "1": 858,
+        "2": 1695
+      },
+      "valid_votes": 2553,
+      "invalid_votes": 17,
+      "ballots_cast": 2570,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2570,
+      "unused_ballots": 756,
+      "electors": 3326,
+      "turnout_rate": 77.2699966430664
+    },
+    "KEE-ZHONGSHAN-DEHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "德和里",
+      "village_en": "Dehe Village",
+      "votes": {
+        "1": 1176,
+        "2": 2878
+      },
+      "valid_votes": 4054,
+      "invalid_votes": 28,
+      "ballots_cast": 4082,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4082,
+      "unused_ballots": 979,
+      "electors": 5061,
+      "turnout_rate": 80.66000366210938
+    },
+    "KEE-ZHONGSHAN-ZHONGHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "中和里",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 1022,
+        "2": 2594
+      },
+      "valid_votes": 3616,
+      "invalid_votes": 24,
+      "ballots_cast": 3640,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3640,
+      "unused_ballots": 1252,
+      "electors": 4892,
+      "turnout_rate": 74.41000366210938
+    },
+    "KEE-ZHONGSHAN-HEQING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "和慶里",
+      "village_en": "Heqing Village",
+      "votes": {
+        "1": 1240,
+        "2": 2630
+      },
+      "valid_votes": 3870,
+      "invalid_votes": 34,
+      "ballots_cast": 3904,
+      "unreturned_ballots": 1,
+      "ballots_issued": 3905,
+      "unused_ballots": 1427,
+      "electors": 5332,
+      "turnout_rate": 73.22000122070312
+    },
+    "KEE-ZHONGSHAN-XIKANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "西康里",
+      "village_en": "Xikang Village",
+      "votes": {
+        "1": 444,
+        "2": 730
+      },
+      "valid_votes": 1174,
+      "invalid_votes": 11,
+      "ballots_cast": 1185,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1185,
+      "unused_ballots": 427,
+      "electors": 1612,
+      "turnout_rate": 73.51000213623047
+    },
+    "KEE-ZHONGSHAN-XIDING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "西定里",
+      "village_en": "Xiding Village",
+      "votes": {
+        "1": 257,
+        "2": 458
+      },
+      "valid_votes": 715,
+      "invalid_votes": 8,
+      "ballots_cast": 723,
+      "unreturned_ballots": 0,
+      "ballots_issued": 723,
+      "unused_ballots": 262,
+      "electors": 985,
+      "turnout_rate": 73.4000015258789
+    },
+    "KEE-ZHONGSHAN-XIHUA": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "西華里",
+      "village_en": "Xihua Village",
+      "votes": {
+        "1": 303,
+        "2": 446
+      },
+      "valid_votes": 749,
+      "invalid_votes": 6,
+      "ballots_cast": 755,
+      "unreturned_ballots": 0,
+      "ballots_issued": 755,
+      "unused_ballots": 215,
+      "electors": 970,
+      "turnout_rate": 77.83999633789062
+    },
+    "KEE-ZHONGSHAN-XIRONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "中山區",
+      "township_en": "Zhongshan District",
+      "village_zh": "西榮里",
+      "village_en": "Xirong Village",
+      "votes": {
+        "1": 203,
+        "2": 369
+      },
+      "valid_votes": 572,
+      "invalid_votes": 6,
+      "ballots_cast": 578,
+      "unreturned_ballots": 0,
+      "ballots_issued": 578,
+      "unused_ballots": 203,
+      "electors": 781,
+      "turnout_rate": 74.01000213623047
+    },
+    "KEE-ANLE-XINXI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "新西里",
+      "village_en": "Xinxi Village",
+      "votes": {
+        "1": 388,
+        "2": 644
+      },
+      "valid_votes": 1032,
+      "invalid_votes": 14,
+      "ballots_cast": 1046,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1046,
+      "unused_ballots": 331,
+      "electors": 1377,
+      "turnout_rate": 75.95999908447266
+    },
+    "KEE-ANLE-XICHUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "西川里",
+      "village_en": "Xichuan Village",
+      "votes": {
+        "1": 290,
+        "2": 647
+      },
+      "valid_votes": 937,
+      "invalid_votes": 6,
+      "ballots_cast": 943,
+      "unreturned_ballots": 0,
+      "ballots_issued": 943,
+      "unused_ballots": 329,
+      "electors": 1272,
+      "turnout_rate": 74.13999938964844
+    },
+    "KEE-ANLE-DINGGUO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "定國里",
+      "village_en": "Dingguo Village",
+      "votes": {
+        "1": 294,
+        "2": 499
+      },
+      "valid_votes": 793,
+      "invalid_votes": 9,
+      "ballots_cast": 802,
+      "unreturned_ballots": 0,
+      "ballots_issued": 802,
+      "unused_ballots": 303,
+      "electors": 1105,
+      "turnout_rate": 72.58000183105469
+    },
+    "KEE-ANLE-DINGBANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "定邦里",
+      "village_en": "Dingbang Village",
+      "votes": {
+        "1": 356,
+        "2": 611
+      },
+      "valid_votes": 967,
+      "invalid_votes": 11,
+      "ballots_cast": 978,
+      "unreturned_ballots": 0,
+      "ballots_issued": 978,
+      "unused_ballots": 257,
+      "electors": 1235,
+      "turnout_rate": 79.19000244140625
+    },
+    "KEE-ANLE-CIREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "慈仁里",
+      "village_en": "Ciren Village",
+      "votes": {
+        "1": 365,
+        "2": 397
+      },
+      "valid_votes": 762,
+      "invalid_votes": 5,
+      "ballots_cast": 767,
+      "unreturned_ballots": 0,
+      "ballots_issued": 767,
+      "unused_ballots": 239,
+      "electors": 1006,
+      "turnout_rate": 76.23999786376953
+    },
+    "KEE-ANLE-GANCHENG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "干城里",
+      "village_en": "Gancheng Village",
+      "votes": {
+        "1": 611,
+        "2": 1062
+      },
+      "valid_votes": 1673,
+      "invalid_votes": 19,
+      "ballots_cast": 1692,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1692,
+      "unused_ballots": 589,
+      "electors": 2281,
+      "turnout_rate": 74.18000030517578
+    },
+    "KEE-ANLE-YONGKANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "永康里",
+      "village_en": "Yongkang Village",
+      "votes": {
+        "1": 569,
+        "2": 839
+      },
+      "valid_votes": 1408,
+      "invalid_votes": 9,
+      "ballots_cast": 1417,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1417,
+      "unused_ballots": 492,
+      "electors": 1909,
+      "turnout_rate": 74.2300033569336
+    },
+    "KEE-ANLE-ANHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "安和里",
+      "village_en": "Anhe Village",
+      "votes": {
+        "1": 278,
+        "2": 416
+      },
+      "valid_votes": 694,
+      "invalid_votes": 3,
+      "ballots_cast": 697,
+      "unreturned_ballots": 0,
+      "ballots_issued": 697,
+      "unused_ballots": 193,
+      "electors": 890,
+      "turnout_rate": 78.30999755859375
+    },
+    "KEE-ANLE-LEYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "樂一里",
+      "village_en": "Leyi Village",
+      "votes": {
+        "1": 192,
+        "2": 273
+      },
+      "valid_votes": 465,
+      "invalid_votes": 3,
+      "ballots_cast": 468,
+      "unreturned_ballots": 0,
+      "ballots_issued": 468,
+      "unused_ballots": 162,
+      "electors": 630,
+      "turnout_rate": 74.29000091552734
+    },
+    "KEE-ANLE-JIAREN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "嘉仁里",
+      "village_en": "Jiaren Village",
+      "votes": {
+        "1": 1048,
+        "2": 1416
+      },
+      "valid_votes": 2464,
+      "invalid_votes": 23,
+      "ballots_cast": 2487,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2487,
+      "unused_ballots": 779,
+      "electors": 3266,
+      "turnout_rate": 76.1500015258789
+    },
+    "KEE-ANLE-SANMIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "三民里",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 680,
+        "2": 1594
+      },
+      "valid_votes": 2274,
+      "invalid_votes": 12,
+      "ballots_cast": 2286,
+      "unreturned_ballots": 1,
+      "ballots_issued": 2287,
+      "unused_ballots": 658,
+      "electors": 2945,
+      "turnout_rate": 77.62000274658203
+    },
+    "KEE-ANLE-ZHUANGGUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "壯觀里",
+      "village_en": "Zhuangguan Village",
+      "votes": {
+        "1": 555,
+        "2": 1714
+      },
+      "valid_votes": 2269,
+      "invalid_votes": 13,
+      "ballots_cast": 2282,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2282,
+      "unused_ballots": 611,
+      "electors": 2893,
+      "turnout_rate": 78.87999725341797
+    },
+    "KEE-ANLE-SIWEI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "四維里",
+      "village_en": "Siwei Village",
+      "votes": {
+        "1": 1067,
+        "2": 2528
+      },
+      "valid_votes": 3595,
+      "invalid_votes": 18,
+      "ballots_cast": 3613,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3613,
+      "unused_ballots": 833,
+      "electors": 4446,
+      "turnout_rate": 81.26000213623047
+    },
+    "KEE-ANLE-WUFU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "五福里",
+      "village_en": "Wufu Village",
+      "votes": {
+        "1": 781,
+        "2": 1990
+      },
+      "valid_votes": 2771,
+      "invalid_votes": 18,
+      "ballots_cast": 2789,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2789,
+      "unused_ballots": 730,
+      "electors": 3519,
+      "turnout_rate": 79.26000213623047
+    },
+    "KEE-ANLE-LIUHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "六合里",
+      "village_en": "Liuhe Village",
+      "votes": {
+        "1": 848,
+        "2": 2098
+      },
+      "valid_votes": 2946,
+      "invalid_votes": 12,
+      "ballots_cast": 2958,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2958,
+      "unused_ballots": 731,
+      "electors": 3689,
+      "turnout_rate": 80.18000030517578
+    },
+    "KEE-ANLE-QIXIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "七賢里",
+      "village_en": "Qixian Village",
+      "votes": {
+        "1": 739,
+        "2": 1425
+      },
+      "valid_votes": 2164,
+      "invalid_votes": 19,
+      "ballots_cast": 2183,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2183,
+      "unused_ballots": 646,
+      "electors": 2829,
+      "turnout_rate": 77.16999816894531
+    },
+    "KEE-ANLE-ZHANGLE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "長樂里",
+      "village_en": "Zhangle Village",
+      "votes": {
+        "1": 593,
+        "2": 1740
+      },
+      "valid_votes": 2333,
+      "invalid_votes": 11,
+      "ballots_cast": 2344,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2344,
+      "unused_ballots": 516,
+      "electors": 2860,
+      "turnout_rate": 81.95999908447266
+    },
+    "KEE-ANLE-YINGGE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "鶯歌里",
+      "village_en": "Yingge Village",
+      "votes": {
+        "1": 675,
+        "2": 1439
+      },
+      "valid_votes": 2114,
+      "invalid_votes": 18,
+      "ballots_cast": 2132,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2132,
+      "unused_ballots": 810,
+      "electors": 2942,
+      "turnout_rate": 72.47000122070312
+    },
+    "KEE-ANLE-YINGAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "鶯安里",
+      "village_en": "Yingan Village",
+      "votes": {
+        "1": 590,
+        "2": 1491
+      },
+      "valid_votes": 2081,
+      "invalid_votes": 6,
+      "ballots_cast": 2087,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2087,
+      "unused_ballots": 602,
+      "electors": 2689,
+      "turnout_rate": 77.61000061035156
+    },
+    "KEE-ANLE-XINGLIAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "興寮里",
+      "village_en": "Xingliao Village",
+      "votes": {
+        "1": 797,
+        "2": 2012
+      },
+      "valid_votes": 2809,
+      "invalid_votes": 20,
+      "ballots_cast": 2829,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2829,
+      "unused_ballots": 992,
+      "electors": 3821,
+      "turnout_rate": 74.04000091552734
+    },
+    "KEE-ANLE-WAILIAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "外寮里",
+      "village_en": "Wailiao Village",
+      "votes": {
+        "1": 835,
+        "2": 1907
+      },
+      "valid_votes": 2742,
+      "invalid_votes": 14,
+      "ballots_cast": 2756,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2756,
+      "unused_ballots": 849,
+      "electors": 3605,
+      "turnout_rate": 76.44999694824219
+    },
+    "KEE-ANLE-XINLUN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "新崙里",
+      "village_en": "Xinlun Village",
+      "votes": {
+        "1": 819,
+        "2": 1680
+      },
+      "valid_votes": 2499,
+      "invalid_votes": 16,
+      "ballots_cast": 2515,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2515,
+      "unused_ballots": 821,
+      "electors": 3336,
+      "turnout_rate": 75.38999938964844
+    },
+    "KEE-ANLE-WULUN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "武崙里",
+      "village_en": "Wulun Village",
+      "votes": {
+        "1": 834,
+        "2": 2039
+      },
+      "valid_votes": 2873,
+      "invalid_votes": 23,
+      "ballots_cast": 2896,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2896,
+      "unused_ballots": 831,
+      "electors": 3727,
+      "turnout_rate": 77.69999694824219
+    },
+    "KEE-ANLE-ZHONGLUN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "中崙里",
+      "village_en": "Zhonglun Village",
+      "votes": {
+        "1": 361,
+        "2": 692
+      },
+      "valid_votes": 1053,
+      "invalid_votes": 9,
+      "ballots_cast": 1062,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1062,
+      "unused_ballots": 354,
+      "electors": 1416,
+      "turnout_rate": 75.0
+    },
+    "KEE-ANLE-NEILIAO": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "安樂區",
+      "township_en": "Anle District",
+      "village_zh": "內寮里",
+      "village_en": "Neiliao Village",
+      "votes": {
+        "1": 946,
+        "2": 2053
+      },
+      "valid_votes": 2999,
+      "invalid_votes": 27,
+      "ballots_cast": 3026,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3026,
+      "unused_ballots": 1035,
+      "electors": 4061,
+      "turnout_rate": 74.51000213623047
+    },
+    "KEE-NUANNUAN-BAXI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "八西里",
+      "village_en": "Baxi Village",
+      "votes": {
+        "1": 363,
+        "2": 693
+      },
+      "valid_votes": 1056,
+      "invalid_votes": 13,
+      "ballots_cast": 1069,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1069,
+      "unused_ballots": 342,
+      "electors": 1411,
+      "turnout_rate": 75.76000213623047
+    },
+    "KEE-NUANNUAN-BAZHONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "八中里",
+      "village_en": "Bazhong Village",
+      "votes": {
+        "1": 172,
+        "2": 226
+      },
+      "valid_votes": 398,
+      "invalid_votes": 5,
+      "ballots_cast": 403,
+      "unreturned_ballots": 0,
+      "ballots_issued": 403,
+      "unused_ballots": 166,
+      "electors": 569,
+      "turnout_rate": 70.83000183105469
+    },
+    "KEE-NUANNUAN-BADU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "八堵里",
+      "village_en": "Badu Village",
+      "votes": {
+        "1": 193,
+        "2": 322
+      },
+      "valid_votes": 515,
+      "invalid_votes": 5,
+      "ballots_cast": 520,
+      "unreturned_ballots": 0,
+      "ballots_issued": 520,
+      "unused_ballots": 164,
+      "electors": 684,
+      "turnout_rate": 76.0199966430664
+    },
+    "KEE-NUANNUAN-BANAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "八南里",
+      "village_en": "Banan Village",
+      "votes": {
+        "1": 169,
+        "2": 272
+      },
+      "valid_votes": 441,
+      "invalid_votes": 6,
+      "ballots_cast": 447,
+      "unreturned_ballots": 0,
+      "ballots_issued": 447,
+      "unused_ballots": 173,
+      "electors": 620,
+      "turnout_rate": 72.0999984741211
+    },
+    "KEE-NUANNUAN-GUOGANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "過港里",
+      "village_en": "Guogang Village",
+      "votes": {
+        "1": 734,
+        "2": 1826
+      },
+      "valid_votes": 2560,
+      "invalid_votes": 15,
+      "ballots_cast": 2575,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2575,
+      "unused_ballots": 846,
+      "electors": 3421,
+      "turnout_rate": 75.2699966430664
+    },
+    "KEE-NUANNUAN-NUANNUAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "暖暖里",
+      "village_en": "Nuannuan Village",
+      "votes": {
+        "1": 568,
+        "2": 1242
+      },
+      "valid_votes": 1810,
+      "invalid_votes": 8,
+      "ballots_cast": 1818,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1818,
+      "unused_ballots": 513,
+      "electors": 2331,
+      "turnout_rate": 77.98999786376953
+    },
+    "KEE-NUANNUAN-NUANTONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "暖同里",
+      "village_en": "Nuantong Village",
+      "votes": {
+        "1": 550,
+        "2": 1201
+      },
+      "valid_votes": 1751,
+      "invalid_votes": 17,
+      "ballots_cast": 1768,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1768,
+      "unused_ballots": 592,
+      "electors": 2360,
+      "turnout_rate": 74.91999816894531
+    },
+    "KEE-NUANNUAN-NUANDONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "暖東里",
+      "village_en": "Nuandong Village",
+      "votes": {
+        "1": 101,
+        "2": 183
+      },
+      "valid_votes": 284,
+      "invalid_votes": 7,
+      "ballots_cast": 291,
+      "unreturned_ballots": 0,
+      "ballots_issued": 291,
+      "unused_ballots": 117,
+      "electors": 408,
+      "turnout_rate": 71.31999969482422
+    },
+    "KEE-NUANNUAN-NUANXI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "暖西里",
+      "village_en": "Nuanxi Village",
+      "votes": {
+        "1": 950,
+        "2": 2045
+      },
+      "valid_votes": 2995,
+      "invalid_votes": 24,
+      "ballots_cast": 3019,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3019,
+      "unused_ballots": 955,
+      "electors": 3974,
+      "turnout_rate": 75.97000122070312
+    },
+    "KEE-NUANNUAN-DINGNEI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "碇內里",
+      "village_en": "Dingnei Village",
+      "votes": {
+        "1": 410,
+        "2": 1284
+      },
+      "valid_votes": 1694,
+      "invalid_votes": 12,
+      "ballots_cast": 1706,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1706,
+      "unused_ballots": 537,
+      "electors": 2243,
+      "turnout_rate": 76.05999755859375
+    },
+    "KEE-NUANNUAN-DINGHE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "碇和里",
+      "village_en": "Dinghe Village",
+      "votes": {
+        "1": 416,
+        "2": 1428
+      },
+      "valid_votes": 1844,
+      "invalid_votes": 19,
+      "ballots_cast": 1863,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1863,
+      "unused_ballots": 532,
+      "electors": 2395,
+      "turnout_rate": 77.79000091552734
+    },
+    "KEE-NUANNUAN-DINGXIANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "碇祥里",
+      "village_en": "Dingxiang Village",
+      "votes": {
+        "1": 737,
+        "2": 2044
+      },
+      "valid_votes": 2781,
+      "invalid_votes": 19,
+      "ballots_cast": 2800,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2800,
+      "unused_ballots": 976,
+      "electors": 3776,
+      "turnout_rate": 74.1500015258789
+    },
+    "KEE-NUANNUAN-DINGAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "暖暖區",
+      "township_en": "Nuannuan District",
+      "village_zh": "碇安里",
+      "village_en": "Dingan Village",
+      "votes": {
+        "1": 907,
+        "2": 2453
+      },
+      "valid_votes": 3360,
+      "invalid_votes": 18,
+      "ballots_cast": 3378,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3378,
+      "unused_ballots": 993,
+      "electors": 4371,
+      "turnout_rate": 77.27999877929688
+    },
+    "KEE-QIDU-ZHANGXING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "長興里",
+      "village_en": "Zhangxing Village",
+      "votes": {
+        "1": 923,
+        "2": 1909
+      },
+      "valid_votes": 2832,
+      "invalid_votes": 21,
+      "ballots_cast": 2853,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2853,
+      "unused_ballots": 856,
+      "electors": 3709,
+      "turnout_rate": 76.91999816894531
+    },
+    "KEE-QIDU-ZHENGGUANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "正光里",
+      "village_en": "Zhengguang Village",
+      "votes": {
+        "1": 591,
+        "2": 1099
+      },
+      "valid_votes": 1690,
+      "invalid_votes": 14,
+      "ballots_cast": 1704,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1704,
+      "unused_ballots": 559,
+      "electors": 2263,
+      "turnout_rate": 75.30000305175781
+    },
+    "KEE-QIDU-ZHENGMING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "正明里",
+      "village_en": "Zhengming Village",
+      "votes": {
+        "1": 536,
+        "2": 991
+      },
+      "valid_votes": 1527,
+      "invalid_votes": 12,
+      "ballots_cast": 1539,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1539,
+      "unused_ballots": 440,
+      "electors": 1979,
+      "turnout_rate": 77.7699966430664
+    },
+    "KEE-QIDU-FUMIN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "富民里",
+      "village_en": "Fumin Village",
+      "votes": {
+        "1": 824,
+        "2": 2000
+      },
+      "valid_votes": 2824,
+      "invalid_votes": 18,
+      "ballots_cast": 2842,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2842,
+      "unused_ballots": 776,
+      "electors": 3618,
+      "turnout_rate": 78.55000305175781
+    },
+    "KEE-QIDU-YONGPING": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "永平里",
+      "village_en": "Yongping Village",
+      "votes": {
+        "1": 459,
+        "2": 1115
+      },
+      "valid_votes": 1574,
+      "invalid_votes": 13,
+      "ballots_cast": 1587,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1587,
+      "unused_ballots": 427,
+      "electors": 2014,
+      "turnout_rate": 78.80000305175781
+    },
+    "KEE-QIDU-YONGAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "永安里",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 484,
+        "2": 1060
+      },
+      "valid_votes": 1544,
+      "invalid_votes": 10,
+      "ballots_cast": 1554,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1554,
+      "unused_ballots": 470,
+      "electors": 2024,
+      "turnout_rate": 76.77999877929688
+    },
+    "KEE-QIDU-BADE": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "八德里",
+      "village_en": "Bade Village",
+      "votes": {
+        "1": 422,
+        "2": 737
+      },
+      "valid_votes": 1159,
+      "invalid_votes": 5,
+      "ballots_cast": 1164,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1164,
+      "unused_ballots": 347,
+      "electors": 1511,
+      "turnout_rate": 77.04000091552734
+    },
+    "KEE-QIDU-ZIQIANG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "自強里",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 248,
+        "2": 433
+      },
+      "valid_votes": 681,
+      "invalid_votes": 5,
+      "ballots_cast": 686,
+      "unreturned_ballots": 0,
+      "ballots_issued": 686,
+      "unused_ballots": 224,
+      "electors": 910,
+      "turnout_rate": 75.37999725341797
+    },
+    "KEE-QIDU-TAIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "泰安里",
+      "village_en": "Taian Village",
+      "votes": {
+        "1": 838,
+        "2": 1755
+      },
+      "valid_votes": 2593,
+      "invalid_votes": 28,
+      "ballots_cast": 2621,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2621,
+      "unused_ballots": 823,
+      "electors": 3444,
+      "turnout_rate": 76.0999984741211
+    },
+    "KEE-QIDU-LIUDU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "六堵里",
+      "village_en": "Liudu Village",
+      "votes": {
+        "1": 448,
+        "2": 746
+      },
+      "valid_votes": 1194,
+      "invalid_votes": 8,
+      "ballots_cast": 1202,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1202,
+      "unused_ballots": 356,
+      "electors": 1558,
+      "turnout_rate": 77.1500015258789
+    },
+    "KEE-QIDU-DUNAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "堵南里",
+      "village_en": "Dunan Village",
+      "votes": {
+        "1": 536,
+        "2": 865
+      },
+      "valid_votes": 1401,
+      "invalid_votes": 7,
+      "ballots_cast": 1408,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1408,
+      "unused_ballots": 535,
+      "electors": 1943,
+      "turnout_rate": 72.47000122070312
+    },
+    "KEE-QIDU-ZHANGAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "長安里",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 435,
+        "2": 982
+      },
+      "valid_votes": 1417,
+      "invalid_votes": 15,
+      "ballots_cast": 1432,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1432,
+      "unused_ballots": 548,
+      "electors": 1980,
+      "turnout_rate": 72.31999969482422
+    },
+    "KEE-QIDU-DUBEI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "堵北里",
+      "village_en": "Dubei Village",
+      "votes": {
+        "1": 919,
+        "2": 1521
+      },
+      "valid_votes": 2440,
+      "invalid_votes": 18,
+      "ballots_cast": 2458,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2458,
+      "unused_ballots": 725,
+      "electors": 3183,
+      "turnout_rate": 77.22000122070312
+    },
+    "KEE-QIDU-BAIFU": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "百福里",
+      "village_en": "Baifu Village",
+      "votes": {
+        "1": 1369,
+        "2": 2412
+      },
+      "valid_votes": 3781,
+      "invalid_votes": 37,
+      "ballots_cast": 3818,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3818,
+      "unused_ballots": 1164,
+      "electors": 4982,
+      "turnout_rate": 76.63999938964844
+    },
+    "KEE-QIDU-SHIJIAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "實踐里",
+      "village_en": "Shijian Village",
+      "votes": {
+        "1": 961,
+        "2": 1697
+      },
+      "valid_votes": 2658,
+      "invalid_votes": 18,
+      "ballots_cast": 2676,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2676,
+      "unused_ballots": 866,
+      "electors": 3542,
+      "turnout_rate": 75.55000305175781
+    },
+    "KEE-QIDU-MANAN": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "瑪南里",
+      "village_en": "Manan Village",
+      "votes": {
+        "1": 155,
+        "2": 164
+      },
+      "valid_votes": 319,
+      "invalid_votes": 1,
+      "ballots_cast": 320,
+      "unreturned_ballots": 0,
+      "ballots_issued": 320,
+      "unused_ballots": 101,
+      "electors": 421,
+      "turnout_rate": 76.01000213623047
+    },
+    "KEE-QIDU-MADONG": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "瑪東里",
+      "village_en": "Madong Village",
+      "votes": {
+        "1": 89,
+        "2": 134
+      },
+      "valid_votes": 223,
+      "invalid_votes": 1,
+      "ballots_cast": 224,
+      "unreturned_ballots": 0,
+      "ballots_issued": 224,
+      "unused_ballots": 71,
+      "electors": 295,
+      "turnout_rate": 75.93000030517578
+    },
+    "KEE-QIDU-MAXI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "瑪西里",
+      "village_en": "Maxi Village",
+      "votes": {
+        "1": 133,
+        "2": 144
+      },
+      "valid_votes": 277,
+      "invalid_votes": 4,
+      "ballots_cast": 281,
+      "unreturned_ballots": 0,
+      "ballots_issued": 281,
+      "unused_ballots": 69,
+      "electors": 350,
+      "turnout_rate": 80.29000091552734
+    },
+    "KEE-QIDU-YOUYI": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "友一里",
+      "village_en": "Youyi Village",
+      "votes": {
+        "1": 442,
+        "2": 797
+      },
+      "valid_votes": 1239,
+      "invalid_votes": 10,
+      "ballots_cast": 1249,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1249,
+      "unused_ballots": 330,
+      "electors": 1579,
+      "turnout_rate": 79.0999984741211
+    },
+    "KEE-QIDU-YOUER": {
+      "county_zh": "基隆市",
+      "county_en": "Keelung City",
+      "township_zh": "七堵區",
+      "township_en": "Qidu District",
+      "village_zh": "友二里",
+      "village_en": "Youer Village",
+      "votes": {
+        "1": 153,
+        "2": 191
+      },
+      "valid_votes": 344,
+      "invalid_votes": 2,
+      "ballots_cast": 346,
+      "unreturned_ballots": 0,
+      "ballots_issued": 346,
+      "unused_ballots": 114,
+      "electors": 460,
+      "turnout_rate": 75.22000122070312
+    }
+  }
+}

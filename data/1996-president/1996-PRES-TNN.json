@@ -1,0 +1,5184 @@
+{
+  "election_id": "1996-president",
+  "election_type": "president",
+  "source_file": "1996-PRES.xls",
+  "county_zh": "臺南市",
+  "county_en": "Tainan City",
+  "county_iso": "TNN",
+  "candidates": {
+    "1": {
+      "name_zh": "陳履安",
+      "running_mate_zh": "王清峰",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    },
+    "2": {
+      "name_zh": "李登輝",
+      "running_mate_zh": "連戰",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    },
+    "3": {
+      "name_zh": "彭明敏",
+      "running_mate_zh": "謝長廷",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "4": {
+      "name_zh": "林洋港",
+      "running_mate_zh": "郝柏村",
+      "party_zh": "無黨籍",
+      "party_en": "IND"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 39058,
+      "2": 201436,
+      "3": 84929,
+      "4": 30603
+    },
+    "valid_votes": 356026,
+    "invalid_votes": 3136,
+    "ballots_cast": 359162,
+    "unreturned_ballots": 0,
+    "electors": 469463,
+    "turnout_rate": 76.5049
+  },
+  "townships": {
+    "TNN-DONG": {
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "votes": {
+        "1": 10441,
+        "2": 44393,
+        "3": 18855,
+        "4": 10329
+      },
+      "valid_votes": 84018,
+      "invalid_votes": 707,
+      "ballots_cast": 84725,
+      "unreturned_ballots": 0,
+      "electors": 110753,
+      "turnout_rate": 76.4991
+    },
+    "TNN-NAN": {
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "votes": {
+        "1": 7634,
+        "2": 39759,
+        "3": 16989,
+        "4": 5972
+      },
+      "valid_votes": 70354,
+      "invalid_votes": 556,
+      "ballots_cast": 70910,
+      "unreturned_ballots": 0,
+      "electors": 93693,
+      "turnout_rate": 75.6833
+    },
+    "TNN-ZHONG": {
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "votes": {
+        "1": 3105,
+        "2": 13321,
+        "3": 7370,
+        "4": 2255
+      },
+      "valid_votes": 26051,
+      "invalid_votes": 176,
+      "ballots_cast": 26227,
+      "unreturned_ballots": 0,
+      "electors": 34182,
+      "turnout_rate": 76.7275
+    },
+    "TNN-ANPING": {
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "votes": {
+        "1": 1865,
+        "2": 9024,
+        "3": 3881,
+        "4": 1433
+      },
+      "valid_votes": 16203,
+      "invalid_votes": 143,
+      "ballots_cast": 16346,
+      "unreturned_ballots": 0,
+      "electors": 21701,
+      "turnout_rate": 75.3237
+    },
+    "TNN-XI": {
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "votes": {
+        "1": 2851,
+        "2": 14584,
+        "3": 7059,
+        "4": 1270
+      },
+      "valid_votes": 25764,
+      "invalid_votes": 219,
+      "ballots_cast": 25983,
+      "unreturned_ballots": 0,
+      "electors": 33142,
+      "turnout_rate": 78.399
+    },
+    "TNN-BEI": {
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "votes": {
+        "1": 6819,
+        "2": 34601,
+        "3": 14673,
+        "4": 6453
+      },
+      "valid_votes": 62546,
+      "invalid_votes": 584,
+      "ballots_cast": 63130,
+      "unreturned_ballots": 0,
+      "electors": 82132,
+      "turnout_rate": 76.8641
+    },
+    "TNN-ANNAN": {
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "votes": {
+        "1": 6343,
+        "2": 45754,
+        "3": 16102,
+        "4": 2891
+      },
+      "valid_votes": 71090,
+      "invalid_votes": 751,
+      "ballots_cast": 71841,
+      "unreturned_ballots": 0,
+      "electors": 93860,
+      "turnout_rate": 76.5406
+    }
+  },
+  "villages": {
+    "TNN-DONG-CHONGXUE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇學里",
+      "village_en": "Chongxue Village",
+      "votes": {
+        "1": 540,
+        "2": 2037,
+        "3": 988,
+        "4": 414
+      },
+      "valid_votes": 3979,
+      "invalid_votes": 31,
+      "ballots_cast": 4010,
+      "unreturned_ballots": 0,
+      "electors": 5273,
+      "turnout_rate": 76.0478
+    },
+    "TNN-DONG-CHONGDE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇德里",
+      "village_en": "Chongde Village",
+      "votes": {
+        "1": 364,
+        "2": 1329,
+        "3": 497,
+        "4": 290
+      },
+      "valid_votes": 2480,
+      "invalid_votes": 13,
+      "ballots_cast": 2493,
+      "unreturned_ballots": 0,
+      "electors": 3182,
+      "turnout_rate": 78.347
+    },
+    "TNN-DONG-CHONGSHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇善里",
+      "village_en": "Chongshan Village",
+      "votes": {
+        "1": 239,
+        "2": 953,
+        "3": 522,
+        "4": 172
+      },
+      "valid_votes": 1886,
+      "invalid_votes": 5,
+      "ballots_cast": 1891,
+      "unreturned_ballots": 0,
+      "electors": 2522,
+      "turnout_rate": 74.9802
+    },
+    "TNN-DONG-CHONGCHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇成里",
+      "village_en": "Chongcheng Village",
+      "votes": {
+        "1": 446,
+        "2": 1646,
+        "3": 736,
+        "4": 481
+      },
+      "valid_votes": 3309,
+      "invalid_votes": 21,
+      "ballots_cast": 3330,
+      "unreturned_ballots": 0,
+      "electors": 4342,
+      "turnout_rate": 76.6928
+    },
+    "TNN-DONG-DAZHI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大智里",
+      "village_en": "Dazhi Village",
+      "votes": {
+        "1": 377,
+        "2": 1606,
+        "3": 583,
+        "4": 425
+      },
+      "valid_votes": 2991,
+      "invalid_votes": 25,
+      "ballots_cast": 3016,
+      "unreturned_ballots": 0,
+      "electors": 3874,
+      "turnout_rate": 77.8523
+    },
+    "TNN-DONG-DONGZHI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東智里",
+      "village_en": "Dongzhi Village",
+      "votes": {
+        "1": 192,
+        "2": 695,
+        "3": 287,
+        "4": 193
+      },
+      "valid_votes": 1367,
+      "invalid_votes": 9,
+      "ballots_cast": 1376,
+      "unreturned_ballots": 0,
+      "electors": 1792,
+      "turnout_rate": 76.7857
+    },
+    "TNN-DONG-DEGAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "德高里",
+      "village_en": "Degao Village",
+      "votes": {
+        "1": 234,
+        "2": 1093,
+        "3": 372,
+        "4": 109
+      },
+      "valid_votes": 1808,
+      "invalid_votes": 19,
+      "ballots_cast": 1827,
+      "unreturned_ballots": 0,
+      "electors": 2493,
+      "turnout_rate": 73.2852
+    },
+    "TNN-DONG-HEPING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "和平里",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 192,
+        "2": 906,
+        "3": 356,
+        "4": 128
+      },
+      "valid_votes": 1582,
+      "invalid_votes": 14,
+      "ballots_cast": 1596,
+      "unreturned_ballots": 0,
+      "electors": 2101,
+      "turnout_rate": 75.9638
+    },
+    "TNN-DONG-RENHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "仁和里",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 183,
+        "2": 923,
+        "3": 344,
+        "4": 133
+      },
+      "valid_votes": 1583,
+      "invalid_votes": 17,
+      "ballots_cast": 1600,
+      "unreturned_ballots": 0,
+      "electors": 2101,
+      "turnout_rate": 76.1542
+    },
+    "TNN-DONG-HUWEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "虎尾里",
+      "village_en": "Huwei Village",
+      "votes": {
+        "1": 330,
+        "2": 1925,
+        "3": 757,
+        "4": 307
+      },
+      "valid_votes": 3319,
+      "invalid_votes": 27,
+      "ballots_cast": 3346,
+      "unreturned_ballots": 0,
+      "electors": 4402,
+      "turnout_rate": 76.0109
+    },
+    "TNN-DONG-ZIQIANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "自強里",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 455,
+        "2": 1815,
+        "3": 872,
+        "4": 357
+      },
+      "valid_votes": 3499,
+      "invalid_votes": 25,
+      "ballots_cast": 3524,
+      "unreturned_ballots": 0,
+      "electors": 4532,
+      "turnout_rate": 77.7582
+    },
+    "TNN-DONG-DONGSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東聖里",
+      "village_en": "Dongsheng Village",
+      "votes": {
+        "1": 182,
+        "2": 778,
+        "3": 328,
+        "4": 149
+      },
+      "valid_votes": 1437,
+      "invalid_votes": 8,
+      "ballots_cast": 1445,
+      "unreturned_ballots": 0,
+      "electors": 1943,
+      "turnout_rate": 74.3695
+    },
+    "TNN-DONG-GUANSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "關聖里",
+      "village_en": "Guansheng Village",
+      "votes": {
+        "1": 212,
+        "2": 1074,
+        "3": 381,
+        "4": 180
+      },
+      "valid_votes": 1847,
+      "invalid_votes": 20,
+      "ballots_cast": 1867,
+      "unreturned_ballots": 0,
+      "electors": 2409,
+      "turnout_rate": 77.501
+    },
+    "TNN-DONG-HOUJIA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "後甲里",
+      "village_en": "Houjia Village",
+      "votes": {
+        "1": 219,
+        "2": 1076,
+        "3": 511,
+        "4": 168
+      },
+      "valid_votes": 1974,
+      "invalid_votes": 14,
+      "ballots_cast": 1988,
+      "unreturned_ballots": 0,
+      "electors": 2613,
+      "turnout_rate": 76.0811
+    },
+    "TNN-DONG-FUGUO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "復國里",
+      "village_en": "Fuguo Village",
+      "votes": {
+        "1": 155,
+        "2": 1119,
+        "3": 44,
+        "4": 513
+      },
+      "valid_votes": 1831,
+      "invalid_votes": 22,
+      "ballots_cast": 1853,
+      "unreturned_ballots": 0,
+      "electors": 2290,
+      "turnout_rate": 80.917
+    },
+    "TNN-DONG-ZHONGXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 122,
+        "2": 1026,
+        "3": 49,
+        "4": 361
+      },
+      "valid_votes": 1558,
+      "invalid_votes": 24,
+      "ballots_cast": 1582,
+      "unreturned_ballots": 0,
+      "electors": 1974,
+      "turnout_rate": 80.1418
+    },
+    "TNN-DONG-DONGGUANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東光里",
+      "village_en": "Dongguang Village",
+      "votes": {
+        "1": 339,
+        "2": 1264,
+        "3": 521,
+        "4": 363
+      },
+      "valid_votes": 2487,
+      "invalid_votes": 13,
+      "ballots_cast": 2500,
+      "unreturned_ballots": 0,
+      "electors": 3168,
+      "turnout_rate": 78.9141
+    },
+    "TNN-DONG-DONGMING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東明里",
+      "village_en": "Dongming Village",
+      "votes": {
+        "1": 364,
+        "2": 1123,
+        "3": 547,
+        "4": 325
+      },
+      "valid_votes": 2359,
+      "invalid_votes": 13,
+      "ballots_cast": 2372,
+      "unreturned_ballots": 0,
+      "electors": 3017,
+      "turnout_rate": 78.6211
+    },
+    "TNN-DONG-ZHUANGJING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "莊敬里",
+      "village_en": "Zhuangjing Village",
+      "votes": {
+        "1": 241,
+        "2": 996,
+        "3": 433,
+        "4": 334
+      },
+      "valid_votes": 2004,
+      "invalid_votes": 22,
+      "ballots_cast": 2026,
+      "unreturned_ballots": 0,
+      "electors": 2640,
+      "turnout_rate": 76.7424
+    },
+    "TNN-DONG-XIAODONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "小東里",
+      "village_en": "Xiaodong Village",
+      "votes": {
+        "1": 345,
+        "2": 1409,
+        "3": 601,
+        "4": 394
+      },
+      "valid_votes": 2749,
+      "invalid_votes": 19,
+      "ballots_cast": 2768,
+      "unreturned_ballots": 0,
+      "electors": 3594,
+      "turnout_rate": 77.0173
+    },
+    "TNN-DONG-DAXUE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大學里",
+      "village_en": "Daxue Village",
+      "votes": {
+        "1": 215,
+        "2": 478,
+        "3": 297,
+        "4": 268
+      },
+      "valid_votes": 1258,
+      "invalid_votes": 4,
+      "ballots_cast": 1262,
+      "unreturned_ballots": 0,
+      "electors": 1693,
+      "turnout_rate": 74.5422
+    },
+    "TNN-DONG-YULE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "育樂里",
+      "village_en": "Yule Village",
+      "votes": {
+        "1": 97,
+        "2": 414,
+        "3": 176,
+        "4": 93
+      },
+      "valid_votes": 780,
+      "invalid_votes": 8,
+      "ballots_cast": 788,
+      "unreturned_ballots": 0,
+      "electors": 1019,
+      "turnout_rate": 77.3307
+    },
+    "TNN-DONG-QIANFENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "前鋒里",
+      "village_en": "Qianfeng Village",
+      "votes": {
+        "1": 98,
+        "2": 350,
+        "3": 127,
+        "4": 67
+      },
+      "valid_votes": 642,
+      "invalid_votes": 6,
+      "ballots_cast": 648,
+      "unreturned_ballots": 0,
+      "electors": 887,
+      "turnout_rate": 73.0552
+    },
+    "TNN-DONG-DAMIAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大廟里",
+      "village_en": "Damiao Village",
+      "votes": {
+        "1": 94,
+        "2": 447,
+        "3": 304,
+        "4": 97
+      },
+      "valid_votes": 942,
+      "invalid_votes": 9,
+      "ballots_cast": 951,
+      "unreturned_ballots": 0,
+      "electors": 1317,
+      "turnout_rate": 72.2096
+    },
+    "TNN-DONG-QUANBEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "泉北里",
+      "village_en": "Quanbei Village",
+      "votes": {
+        "1": 121,
+        "2": 419,
+        "3": 236,
+        "4": 63
+      },
+      "valid_votes": 839,
+      "invalid_votes": 5,
+      "ballots_cast": 844,
+      "unreturned_ballots": 0,
+      "electors": 1106,
+      "turnout_rate": 76.311
+    },
+    "TNN-DONG-WEISHANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "圍上里",
+      "village_en": "Weishang Village",
+      "votes": {
+        "1": 88,
+        "2": 286,
+        "3": 132,
+        "4": 88
+      },
+      "valid_votes": 594,
+      "invalid_votes": 8,
+      "ballots_cast": 602,
+      "unreturned_ballots": 0,
+      "electors": 830,
+      "turnout_rate": 72.5301
+    },
+    "TNN-DONG-WEIXIA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "圍下里",
+      "village_en": "Weixia Village",
+      "votes": {
+        "1": 157,
+        "2": 658,
+        "3": 372,
+        "4": 158
+      },
+      "valid_votes": 1345,
+      "invalid_votes": 9,
+      "ballots_cast": 1354,
+      "unreturned_ballots": 0,
+      "electors": 1769,
+      "turnout_rate": 76.5404
+    },
+    "TNN-DONG-ZHONGXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "中西里",
+      "village_en": "Zhongxi Village",
+      "votes": {
+        "1": 269,
+        "2": 991,
+        "3": 532,
+        "4": 259
+      },
+      "valid_votes": 2051,
+      "invalid_votes": 12,
+      "ballots_cast": 2063,
+      "unreturned_ballots": 0,
+      "electors": 2769,
+      "turnout_rate": 74.5034
+    },
+    "TNN-DONG-DONGAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 148,
+        "2": 687,
+        "3": 354,
+        "4": 108
+      },
+      "valid_votes": 1297,
+      "invalid_votes": 8,
+      "ballots_cast": 1305,
+      "unreturned_ballots": 0,
+      "electors": 1742,
+      "turnout_rate": 74.9139
+    },
+    "TNN-DONG-XINDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "新東里",
+      "village_en": "Xindong Village",
+      "votes": {
+        "1": 232,
+        "2": 932,
+        "3": 440,
+        "4": 159
+      },
+      "valid_votes": 1763,
+      "invalid_votes": 17,
+      "ballots_cast": 1780,
+      "unreturned_ballots": 0,
+      "electors": 2349,
+      "turnout_rate": 75.7769
+    },
+    "TNN-DONG-CHONGHUI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇誨里",
+      "village_en": "Chonghui Village",
+      "votes": {
+        "1": 263,
+        "2": 1003,
+        "3": 365,
+        "4": 507
+      },
+      "valid_votes": 2138,
+      "invalid_votes": 18,
+      "ballots_cast": 2156,
+      "unreturned_ballots": 0,
+      "electors": 2768,
+      "turnout_rate": 77.8902
+    },
+    "TNN-DONG-WEIGUO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "衛國里",
+      "village_en": "Weiguo Village",
+      "votes": {
+        "1": 137,
+        "2": 575,
+        "3": 274,
+        "4": 145
+      },
+      "valid_votes": 1131,
+      "invalid_votes": 13,
+      "ballots_cast": 1144,
+      "unreturned_ballots": 0,
+      "electors": 1545,
+      "turnout_rate": 74.0453
+    },
+    "TNN-DONG-YUNONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "裕農里",
+      "village_en": "Yunong Village",
+      "votes": {
+        "1": 260,
+        "2": 978,
+        "3": 514,
+        "4": 233
+      },
+      "valid_votes": 1985,
+      "invalid_votes": 15,
+      "ballots_cast": 2000,
+      "unreturned_ballots": 0,
+      "electors": 2578,
+      "turnout_rate": 77.5795
+    },
+    "TNN-DONG-FUYU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "富裕里",
+      "village_en": "Fuyu Village",
+      "votes": {
+        "1": 179,
+        "2": 713,
+        "3": 435,
+        "4": 129
+      },
+      "valid_votes": 1456,
+      "invalid_votes": 18,
+      "ballots_cast": 1474,
+      "unreturned_ballots": 0,
+      "electors": 1910,
+      "turnout_rate": 77.1728
+    },
+    "TNN-DONG-FUQIANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "富強里",
+      "village_en": "Fuqiang Village",
+      "votes": {
+        "1": 276,
+        "2": 1557,
+        "3": 665,
+        "4": 162
+      },
+      "valid_votes": 2660,
+      "invalid_votes": 27,
+      "ballots_cast": 2687,
+      "unreturned_ballots": 0,
+      "electors": 3452,
+      "turnout_rate": 77.8389
+    },
+    "TNN-DONG-CHONGMING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "崇明里",
+      "village_en": "Chongming Village",
+      "votes": {
+        "1": 161,
+        "2": 634,
+        "3": 303,
+        "4": 193
+      },
+      "valid_votes": 1291,
+      "invalid_votes": 12,
+      "ballots_cast": 1303,
+      "unreturned_ballots": 0,
+      "electors": 1716,
+      "turnout_rate": 75.9324
+    },
+    "TNN-DONG-DADE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大德里",
+      "village_en": "Dade Village",
+      "votes": {
+        "1": 189,
+        "2": 729,
+        "3": 322,
+        "4": 147
+      },
+      "valid_votes": 1387,
+      "invalid_votes": 23,
+      "ballots_cast": 1410,
+      "unreturned_ballots": 0,
+      "electors": 1857,
+      "turnout_rate": 75.9289
+    },
+    "TNN-DONG-ZHONGXIAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "忠孝里",
+      "village_en": "Zhongxiao Village",
+      "votes": {
+        "1": 332,
+        "2": 2072,
+        "3": 552,
+        "4": 550
+      },
+      "valid_votes": 3506,
+      "invalid_votes": 51,
+      "ballots_cast": 3557,
+      "unreturned_ballots": 0,
+      "electors": 4795,
+      "turnout_rate": 74.1814
+    },
+    "TNN-DONG-DAFU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大福里",
+      "village_en": "Dafu Village",
+      "votes": {
+        "1": 202,
+        "2": 785,
+        "3": 354,
+        "4": 163
+      },
+      "valid_votes": 1504,
+      "invalid_votes": 17,
+      "ballots_cast": 1521,
+      "unreturned_ballots": 0,
+      "electors": 2024,
+      "turnout_rate": 75.1482
+    },
+    "TNN-DONG-LUDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "路東里",
+      "village_en": "Ludong Village",
+      "votes": {
+        "1": 103,
+        "2": 395,
+        "3": 176,
+        "4": 160
+      },
+      "valid_votes": 834,
+      "invalid_votes": 6,
+      "ballots_cast": 840,
+      "unreturned_ballots": 0,
+      "electors": 1161,
+      "turnout_rate": 72.3514
+    },
+    "TNN-DONG-FUZHAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "府宅里",
+      "village_en": "Fuzhai Village",
+      "votes": {
+        "1": 110,
+        "2": 503,
+        "3": 252,
+        "4": 78
+      },
+      "valid_votes": 943,
+      "invalid_votes": 8,
+      "ballots_cast": 951,
+      "unreturned_ballots": 0,
+      "electors": 1242,
+      "turnout_rate": 76.57
+    },
+    "TNN-DONG-CHUANDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "川東里",
+      "village_en": "Chuandong Village",
+      "votes": {
+        "1": 92,
+        "2": 364,
+        "3": 164,
+        "4": 50
+      },
+      "valid_votes": 670,
+      "invalid_votes": 5,
+      "ballots_cast": 675,
+      "unreturned_ballots": 0,
+      "electors": 875,
+      "turnout_rate": 77.1429
+    },
+    "TNN-DONG-DAXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "大興里",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 98,
+        "2": 473,
+        "3": 192,
+        "4": 94
+      },
+      "valid_votes": 857,
+      "invalid_votes": 6,
+      "ballots_cast": 863,
+      "unreturned_ballots": 0,
+      "electors": 1114,
+      "turnout_rate": 77.4686
+    },
+    "TNN-DONG-QUANNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "泉南里",
+      "village_en": "Quannan Village",
+      "votes": {
+        "1": 346,
+        "2": 1517,
+        "3": 778,
+        "4": 253
+      },
+      "valid_votes": 2894,
+      "invalid_votes": 18,
+      "ballots_cast": 2912,
+      "unreturned_ballots": 0,
+      "electors": 3767,
+      "turnout_rate": 77.3029
+    },
+    "TNN-DONG-LONGSHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "龍山里",
+      "village_en": "Longshan Village",
+      "votes": {
+        "1": 443,
+        "2": 1640,
+        "3": 810,
+        "4": 309
+      },
+      "valid_votes": 3202,
+      "invalid_votes": 23,
+      "ballots_cast": 3225,
+      "unreturned_ballots": 0,
+      "electors": 4206,
+      "turnout_rate": 76.6762
+    },
+    "TNN-NAN-DAEN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "大恩里",
+      "village_en": "Daen Village",
+      "votes": {
+        "1": 285,
+        "2": 1197,
+        "3": 421,
+        "4": 318
+      },
+      "valid_votes": 2221,
+      "invalid_votes": 22,
+      "ballots_cast": 2243,
+      "unreturned_ballots": 0,
+      "electors": 2928,
+      "turnout_rate": 76.6052
+    },
+    "TNN-NAN-DALIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "大林里",
+      "village_en": "Dalin Village",
+      "votes": {
+        "1": 206,
+        "2": 746,
+        "3": 259,
+        "4": 300
+      },
+      "valid_votes": 1511,
+      "invalid_votes": 9,
+      "ballots_cast": 1520,
+      "unreturned_ballots": 0,
+      "electors": 1994,
+      "turnout_rate": 76.2287
+    },
+    "TNN-NAN-DAZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "大忠里",
+      "village_en": "Dazhong Village",
+      "votes": {
+        "1": 340,
+        "2": 1689,
+        "3": 727,
+        "4": 313
+      },
+      "valid_votes": 3069,
+      "invalid_votes": 36,
+      "ballots_cast": 3105,
+      "unreturned_ballots": 0,
+      "electors": 4149,
+      "turnout_rate": 74.8373
+    },
+    "TNN-NAN-XINSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "新生里",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 55,
+        "2": 175,
+        "3": 28,
+        "4": 234
+      },
+      "valid_votes": 492,
+      "invalid_votes": 7,
+      "ballots_cast": 499,
+      "unreturned_ballots": 0,
+      "electors": 782,
+      "turnout_rate": 63.8107
+    },
+    "TNN-NAN-ZHUXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "竹溪里",
+      "village_en": "Zhuxi Village",
+      "votes": {
+        "1": 131,
+        "2": 507,
+        "3": 226,
+        "4": 181
+      },
+      "valid_votes": 1045,
+      "invalid_votes": 6,
+      "ballots_cast": 1051,
+      "unreturned_ballots": 0,
+      "electors": 1417,
+      "turnout_rate": 74.1708
+    },
+    "TNN-NAN-MINGDE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "明德里",
+      "village_en": "Mingde Village",
+      "votes": {
+        "1": 91,
+        "2": 439,
+        "3": 43,
+        "4": 320
+      },
+      "valid_votes": 893,
+      "invalid_votes": 7,
+      "ballots_cast": 900,
+      "unreturned_ballots": 0,
+      "electors": 1214,
+      "turnout_rate": 74.1351
+    },
+    "TNN-NAN-XINGZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "興中里",
+      "village_en": "Xingzhong Village",
+      "votes": {
+        "1": 103,
+        "2": 383,
+        "3": 56,
+        "4": 441
+      },
+      "valid_votes": 983,
+      "invalid_votes": 8,
+      "ballots_cast": 991,
+      "unreturned_ballots": 0,
+      "electors": 1292,
+      "turnout_rate": 76.7028
+    },
+    "TNN-NAN-LIZHAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "荔宅里",
+      "village_en": "Lizhai Village",
+      "votes": {
+        "1": 110,
+        "2": 564,
+        "3": 53,
+        "4": 388
+      },
+      "valid_votes": 1115,
+      "invalid_votes": 7,
+      "ballots_cast": 1122,
+      "unreturned_ballots": 0,
+      "electors": 1536,
+      "turnout_rate": 73.0469
+    },
+    "TNN-NAN-DACHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "大成里",
+      "village_en": "Dacheng Village",
+      "votes": {
+        "1": 94,
+        "2": 404,
+        "3": 187,
+        "4": 86
+      },
+      "valid_votes": 771,
+      "invalid_votes": 10,
+      "ballots_cast": 781,
+      "unreturned_ballots": 0,
+      "electors": 1034,
+      "turnout_rate": 75.5319
+    },
+    "TNN-NAN-TIANLIAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "田寮里",
+      "village_en": "Tianliao Village",
+      "votes": {
+        "1": 309,
+        "2": 1354,
+        "3": 669,
+        "4": 170
+      },
+      "valid_votes": 2502,
+      "invalid_votes": 10,
+      "ballots_cast": 2512,
+      "unreturned_ballots": 0,
+      "electors": 3334,
+      "turnout_rate": 75.3449
+    },
+    "TNN-NAN-XINXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "新興里",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 227,
+        "2": 1045,
+        "3": 538,
+        "4": 132
+      },
+      "valid_votes": 1942,
+      "invalid_votes": 21,
+      "ballots_cast": 1963,
+      "unreturned_ballots": 0,
+      "electors": 2534,
+      "turnout_rate": 77.4665
+    },
+    "TNN-NAN-ZAIXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "再興里",
+      "village_en": "Zaixing Village",
+      "votes": {
+        "1": 171,
+        "2": 876,
+        "3": 451,
+        "4": 89
+      },
+      "valid_votes": 1587,
+      "invalid_votes": 7,
+      "ballots_cast": 1594,
+      "unreturned_ballots": 0,
+      "electors": 2058,
+      "turnout_rate": 77.4538
+    },
+    "TNN-NAN-GUANGZHOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "廣州里",
+      "village_en": "Guangzhou Village",
+      "votes": {
+        "1": 207,
+        "2": 1162,
+        "3": 603,
+        "4": 92
+      },
+      "valid_votes": 2064,
+      "invalid_votes": 13,
+      "ballots_cast": 2077,
+      "unreturned_ballots": 0,
+      "electors": 2626,
+      "turnout_rate": 79.0937
+    },
+    "TNN-NAN-XINCHANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "新昌里",
+      "village_en": "Xinchang Village",
+      "votes": {
+        "1": 233,
+        "2": 1032,
+        "3": 441,
+        "4": 131
+      },
+      "valid_votes": 1837,
+      "invalid_votes": 12,
+      "ballots_cast": 1849,
+      "unreturned_ballots": 0,
+      "electors": 2477,
+      "turnout_rate": 74.6468
+    },
+    "TNN-NAN-WENHUA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "文華里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 261,
+        "2": 1302,
+        "3": 586,
+        "4": 115
+      },
+      "valid_votes": 2264,
+      "invalid_votes": 18,
+      "ballots_cast": 2282,
+      "unreturned_ballots": 0,
+      "electors": 2981,
+      "turnout_rate": 76.5515
+    },
+    "TNN-NAN-WENNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "文南里",
+      "village_en": "Wennan Village",
+      "votes": {
+        "1": 252,
+        "2": 1279,
+        "3": 703,
+        "4": 133
+      },
+      "valid_votes": 2367,
+      "invalid_votes": 16,
+      "ballots_cast": 2383,
+      "unreturned_ballots": 0,
+      "electors": 3021,
+      "turnout_rate": 78.8812
+    },
+    "TNN-NAN-JINHUA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "金華里",
+      "village_en": "Jinhua Village",
+      "votes": {
+        "1": 407,
+        "2": 1928,
+        "3": 842,
+        "4": 224
+      },
+      "valid_votes": 3401,
+      "invalid_votes": 19,
+      "ballots_cast": 3420,
+      "unreturned_ballots": 0,
+      "electors": 4421,
+      "turnout_rate": 77.3581
+    },
+    "TNN-NAN-GUOZHAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "國宅里",
+      "village_en": "Guozhai Village",
+      "votes": {
+        "1": 268,
+        "2": 1299,
+        "3": 576,
+        "4": 188
+      },
+      "valid_votes": 2331,
+      "invalid_votes": 20,
+      "ballots_cast": 2351,
+      "unreturned_ballots": 0,
+      "electors": 3061,
+      "turnout_rate": 76.805
+    },
+    "TNN-NAN-RIXIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "日新里",
+      "village_en": "Rixin Village",
+      "votes": {
+        "1": 149,
+        "2": 886,
+        "3": 390,
+        "4": 93
+      },
+      "valid_votes": 1518,
+      "invalid_votes": 11,
+      "ballots_cast": 1529,
+      "unreturned_ballots": 0,
+      "electors": 2022,
+      "turnout_rate": 75.6182
+    },
+    "TNN-NAN-GUANGMING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "光明里",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 260,
+        "2": 1656,
+        "3": 751,
+        "4": 150
+      },
+      "valid_votes": 2817,
+      "invalid_votes": 17,
+      "ballots_cast": 2834,
+      "unreturned_ballots": 0,
+      "electors": 3668,
+      "turnout_rate": 77.2628
+    },
+    "TNN-NAN-BAIXUE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "白雪里",
+      "village_en": "Baixue Village",
+      "votes": {
+        "1": 135,
+        "2": 876,
+        "3": 383,
+        "4": 110
+      },
+      "valid_votes": 1504,
+      "invalid_votes": 17,
+      "ballots_cast": 1521,
+      "unreturned_ballots": 0,
+      "electors": 1966,
+      "turnout_rate": 77.3652
+    },
+    "TNN-NAN-MINGLIANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "明亮里",
+      "village_en": "Mingliang Village",
+      "votes": {
+        "1": 276,
+        "2": 1465,
+        "3": 549,
+        "4": 149
+      },
+      "valid_votes": 2439,
+      "invalid_votes": 18,
+      "ballots_cast": 2457,
+      "unreturned_ballots": 0,
+      "electors": 3281,
+      "turnout_rate": 74.8857
+    },
+    "TNN-NAN-FUNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "府南里",
+      "village_en": "Funan Village",
+      "votes": {
+        "1": 348,
+        "2": 1427,
+        "3": 596,
+        "4": 210
+      },
+      "valid_votes": 2581,
+      "invalid_votes": 22,
+      "ballots_cast": 2603,
+      "unreturned_ballots": 0,
+      "electors": 3485,
+      "turnout_rate": 74.6915
+    },
+    "TNN-NAN-MINGXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "明興里",
+      "village_en": "Mingxing Village",
+      "votes": {
+        "1": 257,
+        "2": 1256,
+        "3": 637,
+        "4": 137
+      },
+      "valid_votes": 2287,
+      "invalid_votes": 16,
+      "ballots_cast": 2303,
+      "unreturned_ballots": 0,
+      "electors": 2953,
+      "turnout_rate": 77.9885
+    },
+    "TNN-NAN-JUNNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "郡南里",
+      "village_en": "Junnan Village",
+      "votes": {
+        "1": 274,
+        "2": 1403,
+        "3": 513,
+        "4": 244
+      },
+      "valid_votes": 2434,
+      "invalid_votes": 21,
+      "ballots_cast": 2455,
+      "unreturned_ballots": 0,
+      "electors": 3212,
+      "turnout_rate": 76.4321
+    },
+    "TNN-NAN-JIANNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "建南里",
+      "village_en": "Jiannan Village",
+      "votes": {
+        "1": 257,
+        "2": 1406,
+        "3": 591,
+        "4": 135
+      },
+      "valid_votes": 2389,
+      "invalid_votes": 11,
+      "ballots_cast": 2400,
+      "unreturned_ballots": 0,
+      "electors": 3087,
+      "turnout_rate": 77.7454
+    },
+    "TNN-NAN-NANDOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "南都里",
+      "village_en": "Nandou Village",
+      "votes": {
+        "1": 365,
+        "2": 1705,
+        "3": 799,
+        "4": 204
+      },
+      "valid_votes": 3073,
+      "invalid_votes": 26,
+      "ballots_cast": 3099,
+      "unreturned_ballots": 0,
+      "electors": 4145,
+      "turnout_rate": 74.7648
+    },
+    "TNN-NAN-KAINAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "開南里",
+      "village_en": "Kainan Village",
+      "votes": {
+        "1": 328,
+        "2": 1341,
+        "3": 602,
+        "4": 196
+      },
+      "valid_votes": 2467,
+      "invalid_votes": 22,
+      "ballots_cast": 2489,
+      "unreturned_ballots": 0,
+      "electors": 3405,
+      "turnout_rate": 73.0984
+    },
+    "TNN-NAN-ZHANGNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "彰南里",
+      "village_en": "Zhangnan Village",
+      "votes": {
+        "1": 171,
+        "2": 861,
+        "3": 327,
+        "4": 92
+      },
+      "valid_votes": 1451,
+      "invalid_votes": 10,
+      "ballots_cast": 1461,
+      "unreturned_ballots": 0,
+      "electors": 1966,
+      "turnout_rate": 74.3133
+    },
+    "TNN-NAN-QINGQUAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "清泉里",
+      "village_en": "Qingquan Village",
+      "votes": {
+        "1": 75,
+        "2": 494,
+        "3": 159,
+        "4": 23
+      },
+      "valid_votes": 751,
+      "invalid_votes": 8,
+      "ballots_cast": 759,
+      "unreturned_ballots": 0,
+      "electors": 1028,
+      "turnout_rate": 73.8327
+    },
+    "TNN-NAN-LONGGANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "龍崗里",
+      "village_en": "Longgang Village",
+      "votes": {
+        "1": 57,
+        "2": 424,
+        "3": 165,
+        "4": 19
+      },
+      "valid_votes": 665,
+      "invalid_votes": 7,
+      "ballots_cast": 672,
+      "unreturned_ballots": 0,
+      "electors": 946,
+      "turnout_rate": 71.0359
+    },
+    "TNN-NAN-XIBEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "喜北里",
+      "village_en": "Xibei Village",
+      "votes": {
+        "1": 133,
+        "2": 888,
+        "3": 437,
+        "4": 48
+      },
+      "valid_votes": 1506,
+      "invalid_votes": 15,
+      "ballots_cast": 1521,
+      "unreturned_ballots": 0,
+      "electors": 2007,
+      "turnout_rate": 75.7848
+    },
+    "TNN-NAN-XINAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "喜南里",
+      "village_en": "Xinan Village",
+      "votes": {
+        "1": 82,
+        "2": 604,
+        "3": 363,
+        "4": 29
+      },
+      "valid_votes": 1078,
+      "invalid_votes": 10,
+      "ballots_cast": 1088,
+      "unreturned_ballots": 0,
+      "electors": 1546,
+      "turnout_rate": 70.3752
+    },
+    "TNN-NAN-XIDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "喜東里",
+      "village_en": "Xidong Village",
+      "votes": {
+        "1": 105,
+        "2": 574,
+        "3": 316,
+        "4": 32
+      },
+      "valid_votes": 1027,
+      "invalid_votes": 8,
+      "ballots_cast": 1035,
+      "unreturned_ballots": 0,
+      "electors": 1392,
+      "turnout_rate": 74.3534
+    },
+    "TNN-NAN-SHENGGONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "省躬里",
+      "village_en": "Shenggong Village",
+      "votes": {
+        "1": 127,
+        "2": 1097,
+        "3": 476,
+        "4": 62
+      },
+      "valid_votes": 1762,
+      "invalid_votes": 7,
+      "ballots_cast": 1769,
+      "unreturned_ballots": 0,
+      "electors": 2327,
+      "turnout_rate": 76.0206
+    },
+    "TNN-NAN-JUEXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "覺醒里",
+      "village_en": "Juexing Village",
+      "votes": {
+        "1": 20,
+        "2": 288,
+        "3": 120,
+        "4": 17
+      },
+      "valid_votes": 445,
+      "invalid_votes": 3,
+      "ballots_cast": 448,
+      "unreturned_ballots": 0,
+      "electors": 602,
+      "turnout_rate": 74.4186
+    },
+    "TNN-NAN-HAIFENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "海豐里",
+      "village_en": "Haifeng Village",
+      "votes": {
+        "1": 35,
+        "2": 297,
+        "3": 101,
+        "4": 15
+      },
+      "valid_votes": 448,
+      "invalid_votes": 4,
+      "ballots_cast": 452,
+      "unreturned_ballots": 0,
+      "electors": 587,
+      "turnout_rate": 77.0017
+    },
+    "TNN-NAN-SONGSHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "松山里",
+      "village_en": "Songshan Village",
+      "votes": {
+        "1": 48,
+        "2": 481,
+        "3": 140,
+        "4": 22
+      },
+      "valid_votes": 691,
+      "invalid_votes": 11,
+      "ballots_cast": 702,
+      "unreturned_ballots": 0,
+      "electors": 978,
+      "turnout_rate": 71.7791
+    },
+    "TNN-NAN-NANSHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "南山里",
+      "village_en": "Nanshan Village",
+      "votes": {
+        "1": 27,
+        "2": 348,
+        "3": 135,
+        "4": 22
+      },
+      "valid_votes": 532,
+      "invalid_votes": 6,
+      "ballots_cast": 538,
+      "unreturned_ballots": 0,
+      "electors": 714,
+      "turnout_rate": 75.3501
+    },
+    "TNN-NAN-FUTAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "佛壇里",
+      "village_en": "Futan Village",
+      "votes": {
+        "1": 84,
+        "2": 644,
+        "3": 264,
+        "4": 22
+      },
+      "valid_votes": 1014,
+      "invalid_votes": 8,
+      "ballots_cast": 1022,
+      "unreturned_ballots": 0,
+      "electors": 1431,
+      "turnout_rate": 71.4186
+    },
+    "TNN-NAN-TONGAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "同安里",
+      "village_en": "Tongan Village",
+      "votes": {
+        "1": 129,
+        "2": 764,
+        "3": 316,
+        "4": 50
+      },
+      "valid_votes": 1259,
+      "invalid_votes": 12,
+      "ballots_cast": 1271,
+      "unreturned_ballots": 0,
+      "electors": 1707,
+      "turnout_rate": 74.4581
+    },
+    "TNN-NAN-ZHONGHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "中和里",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 33,
+        "2": 369,
+        "3": 137,
+        "4": 10
+      },
+      "valid_votes": 549,
+      "invalid_votes": 8,
+      "ballots_cast": 557,
+      "unreturned_ballots": 0,
+      "electors": 729,
+      "turnout_rate": 76.406
+    },
+    "TNN-NAN-XINGNONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "南區",
+      "township_en": "Nan District",
+      "village_zh": "興農里",
+      "village_en": "Xingnong Village",
+      "votes": {
+        "1": 109,
+        "2": 824,
+        "3": 313,
+        "4": 26
+      },
+      "valid_votes": 1272,
+      "invalid_votes": 10,
+      "ballots_cast": 1282,
+      "unreturned_ballots": 0,
+      "electors": 1650,
+      "turnout_rate": 77.697
+    },
+    "TNN-ZHONG-WANSHOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "萬壽里",
+      "village_en": "Wanshou Village",
+      "votes": {
+        "1": 96,
+        "2": 559,
+        "3": 368,
+        "4": 54
+      },
+      "valid_votes": 1077,
+      "invalid_votes": 10,
+      "ballots_cast": 1087,
+      "unreturned_ballots": 0,
+      "electors": 1370,
+      "turnout_rate": 79.3431
+    },
+    "TNN-ZHONG-WENCHANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "文昌里",
+      "village_en": "Wenchang Village",
+      "votes": {
+        "1": 101,
+        "2": 450,
+        "3": 289,
+        "4": 37
+      },
+      "valid_votes": 877,
+      "invalid_votes": 4,
+      "ballots_cast": 881,
+      "unreturned_ballots": 0,
+      "electors": 1128,
+      "turnout_rate": 78.1028
+    },
+    "TNN-ZHONG-WANZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "萬鍾里",
+      "village_en": "Wanzhong Village",
+      "votes": {
+        "1": 94,
+        "2": 445,
+        "3": 244,
+        "4": 86
+      },
+      "valid_votes": 869,
+      "invalid_votes": 7,
+      "ballots_cast": 876,
+      "unreturned_ballots": 0,
+      "electors": 1131,
+      "turnout_rate": 77.4536
+    },
+    "TNN-ZHONG-YINTONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "銀同里",
+      "village_en": "Yintong Village",
+      "votes": {
+        "1": 134,
+        "2": 553,
+        "3": 363,
+        "4": 62
+      },
+      "valid_votes": 1112,
+      "invalid_votes": 8,
+      "ballots_cast": 1120,
+      "unreturned_ballots": 0,
+      "electors": 1500,
+      "turnout_rate": 74.6667
+    },
+    "TNN-ZHONG-QINGSHUI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "清水里",
+      "village_en": "Qingshui Village",
+      "votes": {
+        "1": 56,
+        "2": 308,
+        "3": 179,
+        "4": 56
+      },
+      "valid_votes": 599,
+      "invalid_votes": 5,
+      "ballots_cast": 604,
+      "unreturned_ballots": 0,
+      "electors": 794,
+      "turnout_rate": 76.0705
+    },
+    "TNN-ZHONG-HUANCUI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "環翠里",
+      "village_en": "Huancui Village",
+      "votes": {
+        "1": 54,
+        "2": 245,
+        "3": 173,
+        "4": 28
+      },
+      "valid_votes": 500,
+      "invalid_votes": 4,
+      "ballots_cast": 504,
+      "unreturned_ballots": 0,
+      "electors": 669,
+      "turnout_rate": 75.3363
+    },
+    "TNN-ZHONG-GONGZHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "公正里",
+      "village_en": "Gongzheng Village",
+      "votes": {
+        "1": 45,
+        "2": 182,
+        "3": 104,
+        "4": 27
+      },
+      "valid_votes": 358,
+      "invalid_votes": 4,
+      "ballots_cast": 362,
+      "unreturned_ballots": 0,
+      "electors": 483,
+      "turnout_rate": 74.9482
+    },
+    "TNN-ZHONG-GUANGCI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "廣慈里",
+      "village_en": "Guangci Village",
+      "votes": {
+        "1": 46,
+        "2": 198,
+        "3": 123,
+        "4": 33
+      },
+      "valid_votes": 400,
+      "invalid_votes": 2,
+      "ballots_cast": 402,
+      "unreturned_ballots": 0,
+      "electors": 517,
+      "turnout_rate": 77.7563
+    },
+    "TNN-ZHONG-QIZHI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "啟智里",
+      "village_en": "Qizhi Village",
+      "votes": {
+        "1": 91,
+        "2": 530,
+        "3": 298,
+        "4": 73
+      },
+      "valid_votes": 992,
+      "invalid_votes": 10,
+      "ballots_cast": 1002,
+      "unreturned_ballots": 0,
+      "electors": 1297,
+      "turnout_rate": 77.2552
+    },
+    "TNN-ZHONG-YONGQING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "永慶里",
+      "village_en": "Yongqing Village",
+      "votes": {
+        "1": 28,
+        "2": 181,
+        "3": 104,
+        "4": 24
+      },
+      "valid_votes": 337,
+      "invalid_votes": 1,
+      "ballots_cast": 338,
+      "unreturned_ballots": 0,
+      "electors": 435,
+      "turnout_rate": 77.7011
+    },
+    "TNN-ZHONG-TIANZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "天中里",
+      "village_en": "Tianzhong Village",
+      "votes": {
+        "1": 48,
+        "2": 237,
+        "3": 131,
+        "4": 25
+      },
+      "valid_votes": 441,
+      "invalid_votes": 2,
+      "ballots_cast": 443,
+      "unreturned_ballots": 0,
+      "electors": 561,
+      "turnout_rate": 78.9661
+    },
+    "TNN-ZHONG-ZHONGSHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 48,
+        "2": 218,
+        "3": 147,
+        "4": 34
+      },
+      "valid_votes": 447,
+      "invalid_votes": 8,
+      "ballots_cast": 455,
+      "unreturned_ballots": 0,
+      "electors": 595,
+      "turnout_rate": 76.4706
+    },
+    "TNN-ZHONG-BAIJIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "白金里",
+      "village_en": "Baijin Village",
+      "votes": {
+        "1": 57,
+        "2": 298,
+        "3": 178,
+        "4": 29
+      },
+      "valid_votes": 562,
+      "invalid_votes": 8,
+      "ballots_cast": 570,
+      "unreturned_ballots": 0,
+      "electors": 720,
+      "turnout_rate": 79.1667
+    },
+    "TNN-ZHONG-WUSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "武聖里",
+      "village_en": "Wusheng Village",
+      "votes": {
+        "1": 50,
+        "2": 316,
+        "3": 210,
+        "4": 22
+      },
+      "valid_votes": 598,
+      "invalid_votes": 3,
+      "ballots_cast": 601,
+      "unreturned_ballots": 0,
+      "electors": 769,
+      "turnout_rate": 78.1534
+    },
+    "TNN-ZHONG-PENGHU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "蓬壺里",
+      "village_en": "Penghu Village",
+      "votes": {
+        "1": 81,
+        "2": 466,
+        "3": 241,
+        "4": 45
+      },
+      "valid_votes": 833,
+      "invalid_votes": 5,
+      "ballots_cast": 838,
+      "unreturned_ballots": 0,
+      "electors": 1133,
+      "turnout_rate": 73.9629
+    },
+    "TNN-ZHONG-CHIQIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "赤嵌里",
+      "village_en": "Chiqian Village",
+      "votes": {
+        "1": 52,
+        "2": 242,
+        "3": 106,
+        "4": 19
+      },
+      "valid_votes": 419,
+      "invalid_votes": 3,
+      "ballots_cast": 422,
+      "unreturned_ballots": 0,
+      "electors": 558,
+      "turnout_rate": 75.6272
+    },
+    "TNN-ZHONG-GUANYIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "觀音里",
+      "village_en": "Guanyin Village",
+      "votes": {
+        "1": 61,
+        "2": 247,
+        "3": 157,
+        "4": 34
+      },
+      "valid_votes": 499,
+      "invalid_votes": 5,
+      "ballots_cast": 504,
+      "unreturned_ballots": 0,
+      "electors": 651,
+      "turnout_rate": 77.4194
+    },
+    "TNN-ZHONG-ZHUCUI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "竹翠里",
+      "village_en": "Zhucui Village",
+      "votes": {
+        "1": 38,
+        "2": 238,
+        "3": 133,
+        "4": 16
+      },
+      "valid_votes": 425,
+      "invalid_votes": 5,
+      "ballots_cast": 430,
+      "unreturned_ballots": 0,
+      "electors": 553,
+      "turnout_rate": 77.7577
+    },
+    "TNN-ZHONG-WENLING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "溫陵里",
+      "village_en": "Wenling Village",
+      "votes": {
+        "1": 49,
+        "2": 254,
+        "3": 186,
+        "4": 23
+      },
+      "valid_votes": 512,
+      "invalid_votes": 5,
+      "ballots_cast": 517,
+      "unreturned_ballots": 0,
+      "electors": 698,
+      "turnout_rate": 74.0688
+    },
+    "TNN-ZHONG-KAIXIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "開仙里",
+      "village_en": "Kaixian Village",
+      "votes": {
+        "1": 69,
+        "2": 348,
+        "3": 181,
+        "4": 35
+      },
+      "valid_votes": 633,
+      "invalid_votes": 2,
+      "ballots_cast": 635,
+      "unreturned_ballots": 0,
+      "electors": 838,
+      "turnout_rate": 75.7757
+    },
+    "TNN-ZHONG-BAOXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "保西里",
+      "village_en": "Baoxi Village",
+      "votes": {
+        "1": 55,
+        "2": 359,
+        "3": 186,
+        "4": 24
+      },
+      "valid_votes": 624,
+      "invalid_votes": 3,
+      "ballots_cast": 627,
+      "unreturned_ballots": 0,
+      "electors": 835,
+      "turnout_rate": 75.0898
+    },
+    "TNN-ZHONG-ZHONGNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "中南里",
+      "village_en": "Zhongnan Village",
+      "votes": {
+        "1": 47,
+        "2": 273,
+        "3": 133,
+        "4": 20
+      },
+      "valid_votes": 473,
+      "invalid_votes": 1,
+      "ballots_cast": 474,
+      "unreturned_ballots": 0,
+      "electors": 599,
+      "turnout_rate": 79.1319
+    },
+    "TNN-ZHONG-FUAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "福安里",
+      "village_en": "Fuan Village",
+      "votes": {
+        "1": 80,
+        "2": 401,
+        "3": 219,
+        "4": 48
+      },
+      "valid_votes": 748,
+      "invalid_votes": 3,
+      "ballots_cast": 751,
+      "unreturned_ballots": 0,
+      "electors": 998,
+      "turnout_rate": 75.2505
+    },
+    "TNN-ZHONG-SHENGPING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "昇平里",
+      "village_en": "Shengping Village",
+      "votes": {
+        "1": 46,
+        "2": 230,
+        "3": 119,
+        "4": 28
+      },
+      "valid_votes": 423,
+      "invalid_votes": 0,
+      "ballots_cast": 423,
+      "unreturned_ballots": 0,
+      "electors": 529,
+      "turnout_rate": 79.9622
+    },
+    "TNN-ZHONG-SHENGQIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "聖前里",
+      "village_en": "Shengqian Village",
+      "votes": {
+        "1": 57,
+        "2": 169,
+        "3": 92,
+        "4": 67
+      },
+      "valid_votes": 385,
+      "invalid_votes": 1,
+      "ballots_cast": 386,
+      "unreturned_ballots": 0,
+      "electors": 501,
+      "turnout_rate": 77.0459
+    },
+    "TNN-ZHONG-XIAOXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "小西里",
+      "village_en": "Xiaoxi Village",
+      "votes": {
+        "1": 112,
+        "2": 474,
+        "3": 226,
+        "4": 104
+      },
+      "valid_votes": 916,
+      "invalid_votes": 14,
+      "ballots_cast": 930,
+      "unreturned_ballots": 0,
+      "electors": 1230,
+      "turnout_rate": 75.6098
+    },
+    "TNN-ZHONG-XIANCAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "仙草里",
+      "village_en": "Xiancao Village",
+      "votes": {
+        "1": 239,
+        "2": 885,
+        "3": 440,
+        "4": 148
+      },
+      "valid_votes": 1712,
+      "invalid_votes": 14,
+      "ballots_cast": 1726,
+      "unreturned_ballots": 0,
+      "electors": 2382,
+      "turnout_rate": 72.4601
+    },
+    "TNN-ZHONG-WUFEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "五妃里",
+      "village_en": "Wufei Village",
+      "votes": {
+        "1": 123,
+        "2": 407,
+        "3": 243,
+        "4": 98
+      },
+      "valid_votes": 871,
+      "invalid_votes": 2,
+      "ballots_cast": 873,
+      "unreturned_ballots": 0,
+      "electors": 1102,
+      "turnout_rate": 79.2196
+    },
+    "TNN-ZHONG-DANAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "大南里",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 148,
+        "2": 626,
+        "3": 228,
+        "4": 193
+      },
+      "valid_votes": 1195,
+      "invalid_votes": 7,
+      "ballots_cast": 1202,
+      "unreturned_ballots": 0,
+      "electors": 1554,
+      "turnout_rate": 77.3488
+    },
+    "TNN-ZHONG-JINXUE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "進學里",
+      "village_en": "Jinxue Village",
+      "votes": {
+        "1": 61,
+        "2": 324,
+        "3": 139,
+        "4": 49
+      },
+      "valid_votes": 573,
+      "invalid_votes": 4,
+      "ballots_cast": 577,
+      "unreturned_ballots": 0,
+      "electors": 723,
+      "turnout_rate": 79.8064
+    },
+    "TNN-ZHONG-CHUANXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "川西里",
+      "village_en": "Chuanxi Village",
+      "votes": {
+        "1": 72,
+        "2": 359,
+        "3": 178,
+        "4": 32
+      },
+      "valid_votes": 641,
+      "invalid_votes": 8,
+      "ballots_cast": 649,
+      "unreturned_ballots": 0,
+      "electors": 829,
+      "turnout_rate": 78.2871
+    },
+    "TNN-ZHONG-KAISHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "開山里",
+      "village_en": "Kaishan Village",
+      "votes": {
+        "1": 171,
+        "2": 665,
+        "3": 287,
+        "4": 89
+      },
+      "valid_votes": 1212,
+      "invalid_votes": 10,
+      "ballots_cast": 1222,
+      "unreturned_ballots": 0,
+      "electors": 1606,
+      "turnout_rate": 76.0897
+    },
+    "TNN-ZHONG-JUNWANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "郡王里",
+      "village_en": "Junwang Village",
+      "votes": {
+        "1": 212,
+        "2": 618,
+        "3": 357,
+        "4": 190
+      },
+      "valid_votes": 1377,
+      "invalid_votes": 5,
+      "ballots_cast": 1382,
+      "unreturned_ballots": 0,
+      "electors": 1764,
+      "turnout_rate": 78.3447
+    },
+    "TNN-ZHONG-FAHUA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "中區",
+      "township_en": "Zhong District",
+      "village_zh": "法華里",
+      "village_en": "Fahua Village",
+      "votes": {
+        "1": 384,
+        "2": 1016,
+        "3": 608,
+        "4": 403
+      },
+      "valid_votes": 2411,
+      "invalid_votes": 3,
+      "ballots_cast": 2414,
+      "unreturned_ballots": 0,
+      "electors": 3130,
+      "turnout_rate": 77.1246
+    },
+    "TNN-ANPING-XIAOQIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "校前里",
+      "village_en": "Xiaoqian Village",
+      "votes": {
+        "1": 965,
+        "2": 4061,
+        "3": 1953,
+        "4": 629
+      },
+      "valid_votes": 7608,
+      "invalid_votes": 60,
+      "ballots_cast": 7668,
+      "unreturned_ballots": 0,
+      "electors": 10470,
+      "turnout_rate": 73.2378
+    },
+    "TNN-ANPING-SHIMEN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "石門里",
+      "village_en": "Shimen Village",
+      "votes": {
+        "1": 364,
+        "2": 1821,
+        "3": 828,
+        "4": 159
+      },
+      "valid_votes": 3172,
+      "invalid_votes": 25,
+      "ballots_cast": 3197,
+      "unreturned_ballots": 0,
+      "electors": 4120,
+      "turnout_rate": 77.5971
+    },
+    "TNN-ANPING-PUSA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "菩薩里",
+      "village_en": "Pusa Village",
+      "votes": {
+        "1": 23,
+        "2": 175,
+        "3": 88,
+        "4": 12
+      },
+      "valid_votes": 298,
+      "invalid_votes": 2,
+      "ballots_cast": 300,
+      "unreturned_ballots": 0,
+      "electors": 361,
+      "turnout_rate": 83.1025
+    },
+    "TNN-ANPING-ANZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "安中里",
+      "village_en": "Anzhong Village",
+      "votes": {
+        "1": 41,
+        "2": 217,
+        "3": 76,
+        "4": 24
+      },
+      "valid_votes": 358,
+      "invalid_votes": 2,
+      "ballots_cast": 360,
+      "unreturned_ballots": 0,
+      "electors": 479,
+      "turnout_rate": 75.1566
+    },
+    "TNN-ANPING-WENZHU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "文朱里",
+      "village_en": "Wenzhu Village",
+      "votes": {
+        "1": 30,
+        "2": 147,
+        "3": 95,
+        "4": 15
+      },
+      "valid_votes": 287,
+      "invalid_votes": 6,
+      "ballots_cast": 293,
+      "unreturned_ballots": 0,
+      "electors": 374,
+      "turnout_rate": 78.3422
+    },
+    "TNN-ANPING-MIAOSHOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "妙壽里",
+      "village_en": "Miaoshou Village",
+      "votes": {
+        "1": 27,
+        "2": 199,
+        "3": 70,
+        "4": 9
+      },
+      "valid_votes": 305,
+      "invalid_votes": 3,
+      "ballots_cast": 308,
+      "unreturned_ballots": 0,
+      "electors": 394,
+      "turnout_rate": 78.1726
+    },
+    "TNN-ANPING-HAIXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "海興里",
+      "village_en": "Haixing Village",
+      "votes": {
+        "1": 81,
+        "2": 407,
+        "3": 119,
+        "4": 41
+      },
+      "valid_votes": 648,
+      "invalid_votes": 6,
+      "ballots_cast": 654,
+      "unreturned_ballots": 0,
+      "electors": 882,
+      "turnout_rate": 74.1497
+    },
+    "TNN-ANPING-XIMEN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "西門里",
+      "village_en": "Ximen Village",
+      "votes": {
+        "1": 164,
+        "2": 918,
+        "3": 282,
+        "4": 343
+      },
+      "valid_votes": 1707,
+      "invalid_votes": 25,
+      "ballots_cast": 1732,
+      "unreturned_ballots": 0,
+      "electors": 2179,
+      "turnout_rate": 79.486
+    },
+    "TNN-ANPING-JINCHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "金城里",
+      "village_en": "Jincheng Village",
+      "votes": {
+        "1": 154,
+        "2": 825,
+        "3": 317,
+        "4": 187
+      },
+      "valid_votes": 1483,
+      "invalid_votes": 11,
+      "ballots_cast": 1494,
+      "unreturned_ballots": 0,
+      "electors": 2011,
+      "turnout_rate": 74.2914
+    },
+    "TNN-ANPING-YUGUANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安平區",
+      "township_en": "Anping District",
+      "village_zh": "漁光里",
+      "village_en": "Yuguang Village",
+      "votes": {
+        "1": 16,
+        "2": 254,
+        "3": 53,
+        "4": 14
+      },
+      "valid_votes": 337,
+      "invalid_votes": 3,
+      "ballots_cast": 340,
+      "unreturned_ballots": 0,
+      "electors": 431,
+      "turnout_rate": 78.8863
+    },
+    "TNN-XI-PUJI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "普濟里",
+      "village_en": "Puji Village",
+      "votes": {
+        "1": 64,
+        "2": 377,
+        "3": 151,
+        "4": 21
+      },
+      "valid_votes": 613,
+      "invalid_votes": 9,
+      "ballots_cast": 622,
+      "unreturned_ballots": 0,
+      "electors": 787,
+      "turnout_rate": 79.0343
+    },
+    "TNN-XI-JITONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "濟同里",
+      "village_en": "Jitong Village",
+      "votes": {
+        "1": 46,
+        "2": 282,
+        "3": 182,
+        "4": 21
+      },
+      "valid_votes": 531,
+      "invalid_votes": 5,
+      "ballots_cast": 536,
+      "unreturned_ballots": 0,
+      "electors": 689,
+      "turnout_rate": 77.7939
+    },
+    "TNN-XI-JINAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "金安里",
+      "village_en": "Jinan Village",
+      "votes": {
+        "1": 55,
+        "2": 298,
+        "3": 155,
+        "4": 20
+      },
+      "valid_votes": 528,
+      "invalid_votes": 7,
+      "ballots_cast": 535,
+      "unreturned_ballots": 0,
+      "electors": 674,
+      "turnout_rate": 79.3769
+    },
+    "TNN-XI-ZHONGXIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "忠信里",
+      "village_en": "Zhongxin Village",
+      "votes": {
+        "1": 71,
+        "2": 346,
+        "3": 171,
+        "4": 27
+      },
+      "valid_votes": 615,
+      "invalid_votes": 4,
+      "ballots_cast": 619,
+      "unreturned_ballots": 0,
+      "electors": 784,
+      "turnout_rate": 78.9541
+    },
+    "TNN-XI-GONGYE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "工業里",
+      "village_en": "Gongye Village",
+      "votes": {
+        "1": 67,
+        "2": 349,
+        "3": 166,
+        "4": 26
+      },
+      "valid_votes": 608,
+      "invalid_votes": 1,
+      "ballots_cast": 609,
+      "unreturned_ballots": 0,
+      "electors": 818,
+      "turnout_rate": 74.4499
+    },
+    "TNN-XI-XIEHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "協和里",
+      "village_en": "Xiehe Village",
+      "votes": {
+        "1": 153,
+        "2": 988,
+        "3": 505,
+        "4": 64
+      },
+      "valid_votes": 1710,
+      "invalid_votes": 18,
+      "ballots_cast": 1728,
+      "unreturned_ballots": 0,
+      "electors": 2158,
+      "turnout_rate": 80.0741
+    },
+    "TNN-XI-WENXIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "文賢里",
+      "village_en": "Wenxian Village",
+      "votes": {
+        "1": 115,
+        "2": 584,
+        "3": 294,
+        "4": 55
+      },
+      "valid_votes": 1048,
+      "invalid_votes": 8,
+      "ballots_cast": 1056,
+      "unreturned_ballots": 0,
+      "electors": 1349,
+      "turnout_rate": 78.2802
+    },
+    "TNN-XI-GUANGXIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "光賢里",
+      "village_en": "Guangxian Village",
+      "votes": {
+        "1": 185,
+        "2": 1084,
+        "3": 452,
+        "4": 81
+      },
+      "valid_votes": 1802,
+      "invalid_votes": 12,
+      "ballots_cast": 1814,
+      "unreturned_ballots": 0,
+      "electors": 2239,
+      "turnout_rate": 81.0183
+    },
+    "TNN-XI-XIHU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "西湖里",
+      "village_en": "Xihu Village",
+      "votes": {
+        "1": 237,
+        "2": 992,
+        "3": 424,
+        "4": 130
+      },
+      "valid_votes": 1783,
+      "invalid_votes": 14,
+      "ballots_cast": 1797,
+      "unreturned_ballots": 0,
+      "electors": 2285,
+      "turnout_rate": 78.6433
+    },
+    "TNN-XI-XIXIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "西賢里",
+      "village_en": "Xixian Village",
+      "votes": {
+        "1": 269,
+        "2": 1112,
+        "3": 458,
+        "4": 129
+      },
+      "valid_votes": 1968,
+      "invalid_votes": 10,
+      "ballots_cast": 1978,
+      "unreturned_ballots": 0,
+      "electors": 2526,
+      "turnout_rate": 78.3056
+    },
+    "TNN-XI-YAOWANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "藥王里",
+      "village_en": "Yaowang Village",
+      "votes": {
+        "1": 191,
+        "2": 998,
+        "3": 493,
+        "4": 98
+      },
+      "valid_votes": 1780,
+      "invalid_votes": 10,
+      "ballots_cast": 1790,
+      "unreturned_ballots": 0,
+      "electors": 2281,
+      "turnout_rate": 78.4744
+    },
+    "TNN-XI-BEISHI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "北勢里",
+      "village_en": "Beishi Village",
+      "votes": {
+        "1": 75,
+        "2": 377,
+        "3": 251,
+        "4": 24
+      },
+      "valid_votes": 727,
+      "invalid_votes": 8,
+      "ballots_cast": 735,
+      "unreturned_ballots": 0,
+      "electors": 916,
+      "turnout_rate": 80.2402
+    },
+    "TNN-XI-SHUIXIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "水仙里",
+      "village_en": "Shuixian Village",
+      "votes": {
+        "1": 82,
+        "2": 458,
+        "3": 209,
+        "4": 13
+      },
+      "valid_votes": 762,
+      "invalid_votes": 6,
+      "ballots_cast": 768,
+      "unreturned_ballots": 0,
+      "electors": 993,
+      "turnout_rate": 77.3414
+    },
+    "TNN-XI-XIEJIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "協進里",
+      "village_en": "Xiejin Village",
+      "votes": {
+        "1": 81,
+        "2": 513,
+        "3": 204,
+        "4": 43
+      },
+      "valid_votes": 841,
+      "invalid_votes": 6,
+      "ballots_cast": 847,
+      "unreturned_ballots": 0,
+      "electors": 1090,
+      "turnout_rate": 77.7064
+    },
+    "TNN-XI-XILUO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "西羅里",
+      "village_en": "Xiluo Village",
+      "votes": {
+        "1": 56,
+        "2": 416,
+        "3": 217,
+        "4": 35
+      },
+      "valid_votes": 724,
+      "invalid_votes": 6,
+      "ballots_cast": 730,
+      "unreturned_ballots": 0,
+      "electors": 923,
+      "turnout_rate": 79.0899
+    },
+    "TNN-XI-ANXIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "安新里",
+      "village_en": "Anxin Village",
+      "votes": {
+        "1": 49,
+        "2": 231,
+        "3": 128,
+        "4": 16
+      },
+      "valid_votes": 424,
+      "invalid_votes": 4,
+      "ballots_cast": 428,
+      "unreturned_ballots": 0,
+      "electors": 544,
+      "turnout_rate": 78.6765
+    },
+    "TNN-XI-ANHAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "安海里",
+      "village_en": "Anhai Village",
+      "votes": {
+        "1": 62,
+        "2": 414,
+        "3": 217,
+        "4": 28
+      },
+      "valid_votes": 721,
+      "invalid_votes": 2,
+      "ballots_cast": 723,
+      "unreturned_ballots": 0,
+      "electors": 932,
+      "turnout_rate": 77.5751
+    },
+    "TNN-XI-ZHENGDE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "正德里",
+      "village_en": "Zhengde Village",
+      "votes": {
+        "1": 62,
+        "2": 307,
+        "3": 111,
+        "4": 16
+      },
+      "valid_votes": 496,
+      "invalid_votes": 4,
+      "ballots_cast": 500,
+      "unreturned_ballots": 0,
+      "electors": 628,
+      "turnout_rate": 79.6178
+    },
+    "TNN-XI-ZHONGZHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 78,
+        "2": 415,
+        "3": 199,
+        "4": 38
+      },
+      "valid_votes": 730,
+      "invalid_votes": 9,
+      "ballots_cast": 739,
+      "unreturned_ballots": 0,
+      "electors": 950,
+      "turnout_rate": 77.7895
+    },
+    "TNN-XI-DALIANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "大涼里",
+      "village_en": "Daliang Village",
+      "votes": {
+        "1": 199,
+        "2": 911,
+        "3": 345,
+        "4": 127
+      },
+      "valid_votes": 1582,
+      "invalid_votes": 20,
+      "ballots_cast": 1602,
+      "unreturned_ballots": 0,
+      "electors": 2116,
+      "turnout_rate": 75.7089
+    },
+    "TNN-XI-MINZHU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "民主里",
+      "village_en": "Minzhu Village",
+      "votes": {
+        "1": 73,
+        "2": 353,
+        "3": 168,
+        "4": 46
+      },
+      "valid_votes": 640,
+      "invalid_votes": 12,
+      "ballots_cast": 652,
+      "unreturned_ballots": 0,
+      "electors": 888,
+      "turnout_rate": 73.4234
+    },
+    "TNN-XI-YUNHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "運河里",
+      "village_en": "Yunhe Village",
+      "votes": {
+        "1": 56,
+        "2": 256,
+        "3": 129,
+        "4": 22
+      },
+      "valid_votes": 463,
+      "invalid_votes": 6,
+      "ballots_cast": 469,
+      "unreturned_ballots": 0,
+      "electors": 593,
+      "turnout_rate": 79.0894
+    },
+    "TNN-XI-BEITOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "北頭里",
+      "village_en": "Beitou Village",
+      "votes": {
+        "1": 13,
+        "2": 86,
+        "3": 74,
+        "4": 9
+      },
+      "valid_votes": 182,
+      "invalid_votes": 2,
+      "ballots_cast": 184,
+      "unreturned_ballots": 0,
+      "electors": 238,
+      "turnout_rate": 77.3109
+    },
+    "TNN-XI-BAOMIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "保民里",
+      "village_en": "Baomin Village",
+      "votes": {
+        "1": 52,
+        "2": 184,
+        "3": 105,
+        "4": 20
+      },
+      "valid_votes": 361,
+      "invalid_votes": 4,
+      "ballots_cast": 365,
+      "unreturned_ballots": 0,
+      "electors": 436,
+      "turnout_rate": 83.7156
+    },
+    "TNN-XI-BAOLIANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "保良里",
+      "village_en": "Baoliang Village",
+      "votes": {
+        "1": 40,
+        "2": 222,
+        "3": 127,
+        "4": 11
+      },
+      "valid_votes": 400,
+      "invalid_votes": 1,
+      "ballots_cast": 401,
+      "unreturned_ballots": 0,
+      "electors": 510,
+      "turnout_rate": 78.6275
+    },
+    "TNN-XI-YUANAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "元安里",
+      "village_en": "Yuanan Village",
+      "votes": {
+        "1": 138,
+        "2": 594,
+        "3": 385,
+        "4": 49
+      },
+      "valid_votes": 1166,
+      "invalid_votes": 7,
+      "ballots_cast": 1173,
+      "unreturned_ballots": 0,
+      "electors": 1531,
+      "turnout_rate": 76.6166
+    },
+    "TNN-XI-TIANCHI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "天池里",
+      "village_en": "Tianchi Village",
+      "votes": {
+        "1": 24,
+        "2": 112,
+        "3": 94,
+        "4": 3
+      },
+      "valid_votes": 233,
+      "invalid_votes": 2,
+      "ballots_cast": 235,
+      "unreturned_ballots": 0,
+      "electors": 301,
+      "turnout_rate": 78.0731
+    },
+    "TNN-XI-XINAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "新安里",
+      "village_en": "Xinan Village",
+      "votes": {
+        "1": 68,
+        "2": 409,
+        "3": 157,
+        "4": 26
+      },
+      "valid_votes": 660,
+      "invalid_votes": 12,
+      "ballots_cast": 672,
+      "unreturned_ballots": 0,
+      "electors": 831,
+      "turnout_rate": 80.8664
+    },
+    "TNN-XI-ZHONGTOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "中頭里",
+      "village_en": "Zhongtou Village",
+      "votes": {
+        "1": 84,
+        "2": 446,
+        "3": 185,
+        "4": 26
+      },
+      "valid_votes": 741,
+      "invalid_votes": 7,
+      "ballots_cast": 748,
+      "unreturned_ballots": 0,
+      "electors": 990,
+      "turnout_rate": 75.5556
+    },
+    "TNN-XI-MINSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "西區",
+      "township_en": "Xi District",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 106,
+        "2": 470,
+        "3": 303,
+        "4": 46
+      },
+      "valid_votes": 925,
+      "invalid_votes": 3,
+      "ballots_cast": 928,
+      "unreturned_ballots": 0,
+      "electors": 1142,
+      "turnout_rate": 81.2609
+    },
+    "TNN-BEI-BAOSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "保生里",
+      "village_en": "Baosheng Village",
+      "votes": {
+        "1": 80,
+        "2": 416,
+        "3": 199,
+        "4": 22
+      },
+      "valid_votes": 717,
+      "invalid_votes": 9,
+      "ballots_cast": 726,
+      "unreturned_ballots": 0,
+      "electors": 969,
+      "turnout_rate": 74.9226
+    },
+    "TNN-BEI-YUANHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "元和里",
+      "village_en": "Yuanhe Village",
+      "votes": {
+        "1": 89,
+        "2": 420,
+        "3": 259,
+        "4": 24
+      },
+      "valid_votes": 792,
+      "invalid_votes": 9,
+      "ballots_cast": 801,
+      "unreturned_ballots": 0,
+      "electors": 1061,
+      "turnout_rate": 75.4948
+    },
+    "TNN-BEI-CHENGSHUO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "城朔里",
+      "village_en": "Chengshuo Village",
+      "votes": {
+        "1": 66,
+        "2": 402,
+        "3": 186,
+        "4": 31
+      },
+      "valid_votes": 685,
+      "invalid_votes": 3,
+      "ballots_cast": 688,
+      "unreturned_ballots": 0,
+      "electors": 964,
+      "turnout_rate": 71.3693
+    },
+    "TNN-BEI-GONGHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "共和里",
+      "village_en": "Gonghe Village",
+      "votes": {
+        "1": 83,
+        "2": 535,
+        "3": 237,
+        "4": 65
+      },
+      "valid_votes": 920,
+      "invalid_votes": 8,
+      "ballots_cast": 928,
+      "unreturned_ballots": 0,
+      "electors": 1283,
+      "turnout_rate": 72.3305
+    },
+    "TNN-BEI-SANAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "三安里",
+      "village_en": "Sanan Village",
+      "votes": {
+        "1": 76,
+        "2": 425,
+        "3": 213,
+        "4": 24
+      },
+      "valid_votes": 738,
+      "invalid_votes": 10,
+      "ballots_cast": 748,
+      "unreturned_ballots": 0,
+      "electors": 975,
+      "turnout_rate": 76.7179
+    },
+    "TNN-BEI-DAGONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大公里",
+      "village_en": "Dagong Village",
+      "votes": {
+        "1": 74,
+        "2": 491,
+        "3": 219,
+        "4": 28
+      },
+      "valid_votes": 812,
+      "invalid_votes": 5,
+      "ballots_cast": 817,
+      "unreturned_ballots": 0,
+      "electors": 1104,
+      "turnout_rate": 74.0036
+    },
+    "TNN-BEI-XIHUA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "西華里",
+      "village_en": "Xihua Village",
+      "votes": {
+        "1": 102,
+        "2": 472,
+        "3": 213,
+        "4": 110
+      },
+      "valid_votes": 897,
+      "invalid_votes": 8,
+      "ballots_cast": 905,
+      "unreturned_ballots": 0,
+      "electors": 1186,
+      "turnout_rate": 76.3069
+    },
+    "TNN-BEI-BEIMEN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "北門里",
+      "village_en": "Beimen Village",
+      "votes": {
+        "1": 66,
+        "2": 349,
+        "3": 154,
+        "4": 94
+      },
+      "valid_votes": 663,
+      "invalid_votes": 6,
+      "ballots_cast": 669,
+      "unreturned_ballots": 0,
+      "electors": 924,
+      "turnout_rate": 72.4026
+    },
+    "TNN-BEI-DONGFENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "東豐里",
+      "village_en": "Dongfeng Village",
+      "votes": {
+        "1": 122,
+        "2": 476,
+        "3": 127,
+        "4": 170
+      },
+      "valid_votes": 895,
+      "invalid_votes": 8,
+      "ballots_cast": 903,
+      "unreturned_ballots": 0,
+      "electors": 1186,
+      "turnout_rate": 76.1383
+    },
+    "TNN-BEI-SHUIYUAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "水源里",
+      "village_en": "Shuiyuan Village",
+      "votes": {
+        "1": 71,
+        "2": 431,
+        "3": 205,
+        "4": 80
+      },
+      "valid_votes": 787,
+      "invalid_votes": 7,
+      "ballots_cast": 794,
+      "unreturned_ballots": 0,
+      "electors": 1039,
+      "turnout_rate": 76.4196
+    },
+    "TNN-BEI-RENAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "仁愛里",
+      "village_en": "Renai Village",
+      "votes": {
+        "1": 184,
+        "2": 702,
+        "3": 304,
+        "4": 148
+      },
+      "valid_votes": 1338,
+      "invalid_votes": 10,
+      "ballots_cast": 1348,
+      "unreturned_ballots": 0,
+      "electors": 1754,
+      "turnout_rate": 76.8529
+    },
+    "TNN-BEI-ZHENXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "振興里",
+      "village_en": "Zhenxing Village",
+      "votes": {
+        "1": 217,
+        "2": 781,
+        "3": 393,
+        "4": 142
+      },
+      "valid_votes": 1533,
+      "invalid_votes": 11,
+      "ballots_cast": 1544,
+      "unreturned_ballots": 0,
+      "electors": 2056,
+      "turnout_rate": 75.0973
+    },
+    "TNN-BEI-DONGXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "東興里",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 178,
+        "2": 778,
+        "3": 321,
+        "4": 271
+      },
+      "valid_votes": 1548,
+      "invalid_votes": 20,
+      "ballots_cast": 1568,
+      "unreturned_ballots": 0,
+      "electors": 2038,
+      "turnout_rate": 76.9382
+    },
+    "TNN-BEI-ZHONGXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "重興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 193,
+        "2": 1048,
+        "3": 247,
+        "4": 403
+      },
+      "valid_votes": 1891,
+      "invalid_votes": 16,
+      "ballots_cast": 1907,
+      "unreturned_ballots": 0,
+      "electors": 2456,
+      "turnout_rate": 77.6466
+    },
+    "TNN-BEI-HUAXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "華興里",
+      "village_en": "Huaxing Village",
+      "votes": {
+        "1": 204,
+        "2": 883,
+        "3": 395,
+        "4": 125
+      },
+      "valid_votes": 1607,
+      "invalid_votes": 12,
+      "ballots_cast": 1619,
+      "unreturned_ballots": 0,
+      "electors": 2132,
+      "turnout_rate": 75.9381
+    },
+    "TNN-BEI-LIXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "力行里",
+      "village_en": "Lixing Village",
+      "votes": {
+        "1": 186,
+        "2": 821,
+        "3": 367,
+        "4": 178
+      },
+      "valid_votes": 1552,
+      "invalid_votes": 15,
+      "ballots_cast": 1567,
+      "unreturned_ballots": 0,
+      "electors": 2017,
+      "turnout_rate": 77.6896
+    },
+    "TNN-BEI-GUOXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "國姓里",
+      "village_en": "Guoxing Village",
+      "votes": {
+        "1": 133,
+        "2": 688,
+        "3": 332,
+        "4": 53
+      },
+      "valid_votes": 1206,
+      "invalid_votes": 7,
+      "ballots_cast": 1213,
+      "unreturned_ballots": 0,
+      "electors": 1596,
+      "turnout_rate": 76.0025
+    },
+    "TNN-BEI-XINSHENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "新勝里",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 171,
+        "2": 757,
+        "3": 344,
+        "4": 195
+      },
+      "valid_votes": 1467,
+      "invalid_votes": 25,
+      "ballots_cast": 1492,
+      "unreturned_ballots": 0,
+      "electors": 1928,
+      "turnout_rate": 77.3859
+    },
+    "TNN-BEI-KAIYUAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "開元里",
+      "village_en": "Kaiyuan Village",
+      "votes": {
+        "1": 234,
+        "2": 1261,
+        "3": 520,
+        "4": 189
+      },
+      "valid_votes": 2204,
+      "invalid_votes": 17,
+      "ballots_cast": 2221,
+      "unreturned_ballots": 0,
+      "electors": 2838,
+      "turnout_rate": 78.2593
+    },
+    "TNN-BEI-BEIYUAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "北垣里",
+      "village_en": "Beiyuan Village",
+      "votes": {
+        "1": 75,
+        "2": 405,
+        "3": 77,
+        "4": 248
+      },
+      "valid_votes": 805,
+      "invalid_votes": 7,
+      "ballots_cast": 812,
+      "unreturned_ballots": 0,
+      "electors": 1005,
+      "turnout_rate": 80.796
+    },
+    "TNN-BEI-FUTAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "富台里",
+      "village_en": "Futai Village",
+      "votes": {
+        "1": 48,
+        "2": 245,
+        "3": 9,
+        "4": 154
+      },
+      "valid_votes": 456,
+      "invalid_votes": 7,
+      "ballots_cast": 463,
+      "unreturned_ballots": 0,
+      "electors": 597,
+      "turnout_rate": 77.5544
+    },
+    "TNN-BEI-SHENGAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "勝安里",
+      "village_en": "Shengan Village",
+      "votes": {
+        "1": 112,
+        "2": 563,
+        "3": 237,
+        "4": 99
+      },
+      "valid_votes": 1011,
+      "invalid_votes": 6,
+      "ballots_cast": 1017,
+      "unreturned_ballots": 0,
+      "electors": 1360,
+      "turnout_rate": 74.7794
+    },
+    "TNN-BEI-DAREN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大仁里",
+      "village_en": "Daren Village",
+      "votes": {
+        "1": 96,
+        "2": 493,
+        "3": 138,
+        "4": 165
+      },
+      "valid_votes": 892,
+      "invalid_votes": 9,
+      "ballots_cast": 901,
+      "unreturned_ballots": 0,
+      "electors": 1161,
+      "turnout_rate": 77.6055
+    },
+    "TNN-BEI-DASHAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大山里",
+      "village_en": "Dashan Village",
+      "votes": {
+        "1": 115,
+        "2": 564,
+        "3": 131,
+        "4": 302
+      },
+      "valid_votes": 1112,
+      "invalid_votes": 11,
+      "ballots_cast": 1123,
+      "unreturned_ballots": 0,
+      "electors": 1485,
+      "turnout_rate": 75.6229
+    },
+    "TNN-BEI-DADAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大道里",
+      "village_en": "Dadao Village",
+      "votes": {
+        "1": 98,
+        "2": 497,
+        "3": 59,
+        "4": 398
+      },
+      "valid_votes": 1052,
+      "invalid_votes": 12,
+      "ballots_cast": 1064,
+      "unreturned_ballots": 0,
+      "electors": 1352,
+      "turnout_rate": 78.6982
+    },
+    "TNN-BEI-GUANGWU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "光武里",
+      "village_en": "Guangwu Village",
+      "votes": {
+        "1": 69,
+        "2": 345,
+        "3": 58,
+        "4": 273
+      },
+      "valid_votes": 745,
+      "invalid_votes": 10,
+      "ballots_cast": 755,
+      "unreturned_ballots": 0,
+      "electors": 986,
+      "turnout_rate": 76.572
+    },
+    "TNN-BEI-SHIJIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "實踐里",
+      "village_en": "Shijian Village",
+      "votes": {
+        "1": 163,
+        "2": 763,
+        "3": 217,
+        "4": 347
+      },
+      "valid_votes": 1490,
+      "invalid_votes": 11,
+      "ballots_cast": 1501,
+      "unreturned_ballots": 0,
+      "electors": 1980,
+      "turnout_rate": 75.8081
+    },
+    "TNN-BEI-XIAOKANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "小康里",
+      "village_en": "Xiaokang Village",
+      "votes": {
+        "1": 419,
+        "2": 2015,
+        "3": 777,
+        "4": 406
+      },
+      "valid_votes": 3617,
+      "invalid_votes": 37,
+      "ballots_cast": 3654,
+      "unreturned_ballots": 0,
+      "electors": 4678,
+      "turnout_rate": 78.1103
+    },
+    "TNN-BEI-ZHENGFENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "正風里",
+      "village_en": "Zhengfeng Village",
+      "votes": {
+        "1": 118,
+        "2": 670,
+        "3": 302,
+        "4": 67
+      },
+      "valid_votes": 1157,
+      "invalid_votes": 12,
+      "ballots_cast": 1169,
+      "unreturned_ballots": 0,
+      "electors": 1531,
+      "turnout_rate": 76.3553
+    },
+    "TNN-BEI-YANPING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "延平里",
+      "village_en": "Yanping Village",
+      "votes": {
+        "1": 150,
+        "2": 845,
+        "3": 436,
+        "4": 69
+      },
+      "valid_votes": 1500,
+      "invalid_votes": 10,
+      "ballots_cast": 1510,
+      "unreturned_ballots": 0,
+      "electors": 1982,
+      "turnout_rate": 76.1857
+    },
+    "TNN-BEI-XINGBEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "興北里",
+      "village_en": "Xingbei Village",
+      "votes": {
+        "1": 162,
+        "2": 649,
+        "3": 321,
+        "4": 106
+      },
+      "valid_votes": 1238,
+      "invalid_votes": 17,
+      "ballots_cast": 1255,
+      "unreturned_ballots": 0,
+      "electors": 1643,
+      "turnout_rate": 76.3847
+    },
+    "TNN-BEI-XINGNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "興南里",
+      "village_en": "Xingnan Village",
+      "votes": {
+        "1": 94,
+        "2": 558,
+        "3": 250,
+        "4": 115
+      },
+      "valid_votes": 1017,
+      "invalid_votes": 13,
+      "ballots_cast": 1030,
+      "unreturned_ballots": 0,
+      "electors": 1384,
+      "turnout_rate": 74.422
+    },
+    "TNN-BEI-LIUJIA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "六甲里",
+      "village_en": "Liujia Village",
+      "votes": {
+        "1": 165,
+        "2": 759,
+        "3": 319,
+        "4": 96
+      },
+      "valid_votes": 1339,
+      "invalid_votes": 15,
+      "ballots_cast": 1354,
+      "unreturned_ballots": 0,
+      "electors": 1834,
+      "turnout_rate": 73.8277
+    },
+    "TNN-BEI-ZHENGJUE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "正覺里",
+      "village_en": "Zhengjue Village",
+      "votes": {
+        "1": 237,
+        "2": 1466,
+        "3": 740,
+        "4": 124
+      },
+      "valid_votes": 2567,
+      "invalid_votes": 15,
+      "ballots_cast": 2582,
+      "unreturned_ballots": 0,
+      "electors": 3366,
+      "turnout_rate": 76.7083
+    },
+    "TNN-BEI-CHENGGONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 321,
+        "2": 1932,
+        "3": 950,
+        "4": 204
+      },
+      "valid_votes": 3407,
+      "invalid_votes": 26,
+      "ballots_cast": 3433,
+      "unreturned_ballots": 0,
+      "electors": 4460,
+      "turnout_rate": 76.9731
+    },
+    "TNN-BEI-HESHUN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "和順里",
+      "village_en": "Heshun Village",
+      "votes": {
+        "1": 283,
+        "2": 1335,
+        "3": 662,
+        "4": 151
+      },
+      "valid_votes": 2431,
+      "invalid_votes": 15,
+      "ballots_cast": 2446,
+      "unreturned_ballots": 0,
+      "electors": 3135,
+      "turnout_rate": 78.0223
+    },
+    "TNN-BEI-ANMIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "安民里",
+      "village_en": "Anmin Village",
+      "votes": {
+        "1": 96,
+        "2": 561,
+        "3": 269,
+        "4": 42
+      },
+      "valid_votes": 968,
+      "invalid_votes": 11,
+      "ballots_cast": 979,
+      "unreturned_ballots": 0,
+      "electors": 1219,
+      "turnout_rate": 80.3117
+    },
+    "TNN-BEI-YUMIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "裕民里",
+      "village_en": "Yumin Village",
+      "votes": {
+        "1": 113,
+        "2": 606,
+        "3": 289,
+        "4": 39
+      },
+      "valid_votes": 1047,
+      "invalid_votes": 12,
+      "ballots_cast": 1059,
+      "unreturned_ballots": 0,
+      "electors": 1377,
+      "turnout_rate": 76.9063
+    },
+    "TNN-BEI-WENYUAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "文元里",
+      "village_en": "Wenyuan Village",
+      "votes": {
+        "1": 351,
+        "2": 1915,
+        "3": 840,
+        "4": 146
+      },
+      "valid_votes": 3252,
+      "invalid_votes": 37,
+      "ballots_cast": 3289,
+      "unreturned_ballots": 0,
+      "electors": 4275,
+      "turnout_rate": 76.9357
+    },
+    "TNN-BEI-DAGANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大港里",
+      "village_en": "Dagang Village",
+      "votes": {
+        "1": 450,
+        "2": 2471,
+        "3": 1169,
+        "4": 261
+      },
+      "valid_votes": 4351,
+      "invalid_votes": 35,
+      "ballots_cast": 4386,
+      "unreturned_ballots": 0,
+      "electors": 5549,
+      "turnout_rate": 79.0413
+    },
+    "TNN-BEI-DAFENG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大豐里",
+      "village_en": "Dafeng Village",
+      "votes": {
+        "1": 427,
+        "2": 2180,
+        "3": 917,
+        "4": 188
+      },
+      "valid_votes": 3712,
+      "invalid_votes": 37,
+      "ballots_cast": 3749,
+      "unreturned_ballots": 0,
+      "electors": 4847,
+      "turnout_rate": 77.3468
+    },
+    "TNN-ANNAN-XIDING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "溪頂里",
+      "village_en": "Xiding Village",
+      "votes": {
+        "1": 198,
+        "2": 1186,
+        "3": 548,
+        "4": 89
+      },
+      "valid_votes": 2021,
+      "invalid_votes": 17,
+      "ballots_cast": 2038,
+      "unreturned_ballots": 0,
+      "electors": 2655,
+      "turnout_rate": 76.7608
+    },
+    "TNN-ANNAN-XIBEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "溪北里",
+      "village_en": "Xibei Village",
+      "votes": {
+        "1": 192,
+        "2": 866,
+        "3": 388,
+        "4": 97
+      },
+      "valid_votes": 1543,
+      "invalid_votes": 21,
+      "ballots_cast": 1564,
+      "unreturned_ballots": 0,
+      "electors": 2046,
+      "turnout_rate": 76.4418
+    },
+    "TNN-ANNAN-ANHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "安和里",
+      "village_en": "Anhe Village",
+      "votes": {
+        "1": 153,
+        "2": 773,
+        "3": 408,
+        "4": 56
+      },
+      "valid_votes": 1390,
+      "invalid_votes": 11,
+      "ballots_cast": 1401,
+      "unreturned_ballots": 0,
+      "electors": 1818,
+      "turnout_rate": 77.0627
+    },
+    "TNN-ANNAN-ANXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "安西里",
+      "village_en": "Anxi Village",
+      "votes": {
+        "1": 128,
+        "2": 897,
+        "3": 401,
+        "4": 69
+      },
+      "valid_votes": 1495,
+      "invalid_votes": 19,
+      "ballots_cast": 1514,
+      "unreturned_ballots": 0,
+      "electors": 1938,
+      "turnout_rate": 78.1218
+    },
+    "TNN-ANNAN-ANDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "安東里",
+      "village_en": "Andong Village",
+      "votes": {
+        "1": 172,
+        "2": 1074,
+        "3": 527,
+        "4": 83
+      },
+      "valid_votes": 1856,
+      "invalid_votes": 16,
+      "ballots_cast": 1872,
+      "unreturned_ballots": 0,
+      "electors": 2456,
+      "turnout_rate": 76.2215
+    },
+    "TNN-ANNAN-ANQING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "安慶里",
+      "village_en": "Anqing Village",
+      "votes": {
+        "1": 222,
+        "2": 1547,
+        "3": 623,
+        "4": 103
+      },
+      "valid_votes": 2495,
+      "invalid_votes": 16,
+      "ballots_cast": 2511,
+      "unreturned_ballots": 0,
+      "electors": 3290,
+      "turnout_rate": 76.3222
+    },
+    "TNN-ANNAN-DINGAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "頂安里",
+      "village_en": "Dingan Village",
+      "votes": {
+        "1": 127,
+        "2": 927,
+        "3": 472,
+        "4": 39
+      },
+      "valid_votes": 1565,
+      "invalid_votes": 15,
+      "ballots_cast": 1580,
+      "unreturned_ballots": 0,
+      "electors": 2060,
+      "turnout_rate": 76.699
+    },
+    "TNN-ANNAN-FENGHUANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "鳳凰里",
+      "village_en": "Fenghuang Village",
+      "votes": {
+        "1": 211,
+        "2": 1105,
+        "3": 370,
+        "4": 92
+      },
+      "valid_votes": 1778,
+      "invalid_votes": 13,
+      "ballots_cast": 1791,
+      "unreturned_ballots": 0,
+      "electors": 2432,
+      "turnout_rate": 73.6431
+    },
+    "TNN-ANNAN-MEIHUA": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "梅花里",
+      "village_en": "Meihua Village",
+      "votes": {
+        "1": 183,
+        "2": 1018,
+        "3": 459,
+        "4": 117
+      },
+      "valid_votes": 1777,
+      "invalid_votes": 13,
+      "ballots_cast": 1790,
+      "unreturned_ballots": 0,
+      "electors": 2372,
+      "turnout_rate": 75.4637
+    },
+    "TNN-ANNAN-XINSHUN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "新順里",
+      "village_en": "Xinshun Village",
+      "votes": {
+        "1": 130,
+        "2": 967,
+        "3": 328,
+        "4": 57
+      },
+      "valid_votes": 1482,
+      "invalid_votes": 13,
+      "ballots_cast": 1495,
+      "unreturned_ballots": 0,
+      "electors": 1943,
+      "turnout_rate": 76.9429
+    },
+    "TNN-ANNAN-ANSHUN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "安順里",
+      "village_en": "Anshun Village",
+      "votes": {
+        "1": 136,
+        "2": 952,
+        "3": 277,
+        "4": 40
+      },
+      "valid_votes": 1405,
+      "invalid_votes": 17,
+      "ballots_cast": 1422,
+      "unreturned_ballots": 0,
+      "electors": 1836,
+      "turnout_rate": 77.451
+    },
+    "TNN-ANNAN-ZHOUNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "州南里",
+      "village_en": "Zhounan Village",
+      "votes": {
+        "1": 280,
+        "2": 1845,
+        "3": 717,
+        "4": 117
+      },
+      "valid_votes": 2959,
+      "invalid_votes": 25,
+      "ballots_cast": 2984,
+      "unreturned_ballots": 0,
+      "electors": 3870,
+      "turnout_rate": 77.1059
+    },
+    "TNN-ANNAN-DONGHE": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "東和里",
+      "village_en": "Donghe Village",
+      "votes": {
+        "1": 21,
+        "2": 265,
+        "3": 81,
+        "4": 6
+      },
+      "valid_votes": 373,
+      "invalid_votes": 5,
+      "ballots_cast": 378,
+      "unreturned_ballots": 0,
+      "electors": 475,
+      "turnout_rate": 79.5789
+    },
+    "TNN-ANNAN-ZHOUBEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "州北里",
+      "village_en": "Zhoubei Village",
+      "votes": {
+        "1": 153,
+        "2": 1178,
+        "3": 384,
+        "4": 81
+      },
+      "valid_votes": 1796,
+      "invalid_votes": 17,
+      "ballots_cast": 1813,
+      "unreturned_ballots": 0,
+      "electors": 2378,
+      "turnout_rate": 76.2405
+    },
+    "TNN-ANNAN-WENNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "塭南里",
+      "village_en": "Wennan Village",
+      "votes": {
+        "1": 170,
+        "2": 1393,
+        "3": 417,
+        "4": 91
+      },
+      "valid_votes": 2071,
+      "invalid_votes": 16,
+      "ballots_cast": 2087,
+      "unreturned_ballots": 0,
+      "electors": 2871,
+      "turnout_rate": 72.6924
+    },
+    "TNN-ANNAN-BUDAI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "布袋里",
+      "village_en": "Budai Village",
+      "votes": {
+        "1": 69,
+        "2": 481,
+        "3": 162,
+        "4": 35
+      },
+      "valid_votes": 747,
+      "invalid_votes": 2,
+      "ballots_cast": 749,
+      "unreturned_ballots": 0,
+      "electors": 987,
+      "turnout_rate": 75.8865
+    },
+    "TNN-ANNAN-ZONGTOU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "總頭里",
+      "village_en": "Zongtou Village",
+      "votes": {
+        "1": 67,
+        "2": 701,
+        "3": 307,
+        "4": 49
+      },
+      "valid_votes": 1124,
+      "invalid_votes": 8,
+      "ballots_cast": 1132,
+      "unreturned_ballots": 0,
+      "electors": 1458,
+      "turnout_rate": 77.6406
+    },
+    "TNN-ANNAN-YUANDIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "原佃里",
+      "village_en": "Yuandian Village",
+      "votes": {
+        "1": 64,
+        "2": 557,
+        "3": 237,
+        "4": 23
+      },
+      "valid_votes": 881,
+      "invalid_votes": 12,
+      "ballots_cast": 893,
+      "unreturned_ballots": 0,
+      "electors": 1168,
+      "turnout_rate": 76.4555
+    },
+    "TNN-ANNAN-ZHANGAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "長安里",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 167,
+        "2": 1216,
+        "3": 419,
+        "4": 80
+      },
+      "valid_votes": 1882,
+      "invalid_votes": 13,
+      "ballots_cast": 1895,
+      "unreturned_ballots": 0,
+      "electors": 2457,
+      "turnout_rate": 77.1266
+    },
+    "TNN-ANNAN-GONGQIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "公親里",
+      "village_en": "Gongqin Village",
+      "votes": {
+        "1": 41,
+        "2": 433,
+        "3": 143,
+        "4": 16
+      },
+      "valid_votes": 633,
+      "invalid_votes": 13,
+      "ballots_cast": 646,
+      "unreturned_ballots": 0,
+      "electors": 815,
+      "turnout_rate": 79.2638
+    },
+    "TNN-ANNAN-DIANDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "佃東里",
+      "village_en": "Diandong Village",
+      "votes": {
+        "1": 115,
+        "2": 1005,
+        "3": 203,
+        "4": 38
+      },
+      "valid_votes": 1361,
+      "invalid_votes": 27,
+      "ballots_cast": 1388,
+      "unreturned_ballots": 0,
+      "electors": 1792,
+      "turnout_rate": 77.4554
+    },
+    "TNN-ANNAN-DIANXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "佃西里",
+      "village_en": "Dianxi Village",
+      "votes": {
+        "1": 66,
+        "2": 572,
+        "3": 147,
+        "4": 25
+      },
+      "valid_votes": 810,
+      "invalid_votes": 10,
+      "ballots_cast": 820,
+      "unreturned_ballots": 0,
+      "electors": 1077,
+      "turnout_rate": 76.1374
+    },
+    "TNN-ANNAN-GONGWEN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "公塭里",
+      "village_en": "Gongwen Village",
+      "votes": {
+        "1": 50,
+        "2": 445,
+        "3": 129,
+        "4": 18
+      },
+      "valid_votes": 642,
+      "invalid_votes": 4,
+      "ballots_cast": 646,
+      "unreturned_ballots": 0,
+      "electors": 775,
+      "turnout_rate": 83.3548
+    },
+    "TNN-ANNAN-NANXING": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "南興里",
+      "village_en": "Nanxing Village",
+      "votes": {
+        "1": 42,
+        "2": 560,
+        "3": 140,
+        "4": 27
+      },
+      "valid_votes": 769,
+      "invalid_votes": 6,
+      "ballots_cast": 775,
+      "unreturned_ballots": 0,
+      "electors": 1033,
+      "turnout_rate": 75.0242
+    },
+    "TNN-ANNAN-XUEDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "學東里",
+      "village_en": "Xuedong Village",
+      "votes": {
+        "1": 71,
+        "2": 862,
+        "3": 161,
+        "4": 36
+      },
+      "valid_votes": 1130,
+      "invalid_votes": 17,
+      "ballots_cast": 1147,
+      "unreturned_ballots": 0,
+      "electors": 1542,
+      "turnout_rate": 74.3839
+    },
+    "TNN-ANNAN-SHALUN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "砂崙里",
+      "village_en": "Shalun Village",
+      "votes": {
+        "1": 50,
+        "2": 505,
+        "3": 148,
+        "4": 19
+      },
+      "valid_votes": 722,
+      "invalid_votes": 13,
+      "ballots_cast": 735,
+      "unreturned_ballots": 0,
+      "electors": 915,
+      "turnout_rate": 80.3279
+    },
+    "TNN-ANNAN-QINGCAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "青草里",
+      "village_en": "Qingcao Village",
+      "votes": {
+        "1": 50,
+        "2": 563,
+        "3": 124,
+        "4": 10
+      },
+      "valid_votes": 747,
+      "invalid_votes": 15,
+      "ballots_cast": 762,
+      "unreturned_ballots": 0,
+      "electors": 1031,
+      "turnout_rate": 73.9088
+    },
+    "TNN-ANNAN-CHENGXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "城西里",
+      "village_en": "Chengxi Village",
+      "votes": {
+        "1": 40,
+        "2": 465,
+        "3": 82,
+        "4": 15
+      },
+      "valid_votes": 602,
+      "invalid_votes": 7,
+      "ballots_cast": 609,
+      "unreturned_ballots": 0,
+      "electors": 778,
+      "turnout_rate": 78.2776
+    },
+    "TNN-ANNAN-CHENGNAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "城南里",
+      "village_en": "Chengnan Village",
+      "votes": {
+        "1": 99,
+        "2": 1143,
+        "3": 233,
+        "4": 29
+      },
+      "valid_votes": 1504,
+      "invalid_votes": 19,
+      "ballots_cast": 1523,
+      "unreturned_ballots": 0,
+      "electors": 2001,
+      "turnout_rate": 76.1119
+    },
+    "TNN-ANNAN-CHENGZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "城中里",
+      "village_en": "Chengzhong Village",
+      "votes": {
+        "1": 34,
+        "2": 342,
+        "3": 72,
+        "4": 12
+      },
+      "valid_votes": 460,
+      "invalid_votes": 7,
+      "ballots_cast": 467,
+      "unreturned_ballots": 0,
+      "electors": 559,
+      "turnout_rate": 83.542
+    },
+    "TNN-ANNAN-CHENGBEI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "城北里",
+      "village_en": "Chengbei Village",
+      "votes": {
+        "1": 61,
+        "2": 562,
+        "3": 150,
+        "4": 19
+      },
+      "valid_votes": 792,
+      "invalid_votes": 9,
+      "ballots_cast": 801,
+      "unreturned_ballots": 0,
+      "electors": 1042,
+      "turnout_rate": 76.8714
+    },
+    "TNN-ANNAN-CHENGDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "城東里",
+      "village_en": "Chengdong Village",
+      "votes": {
+        "1": 73,
+        "2": 698,
+        "3": 135,
+        "4": 23
+      },
+      "valid_votes": 929,
+      "invalid_votes": 8,
+      "ballots_cast": 937,
+      "unreturned_ballots": 0,
+      "electors": 1253,
+      "turnout_rate": 74.7805
+    },
+    "TNN-ANNAN-XIANGONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "顯宮里",
+      "village_en": "Xiangong Village",
+      "votes": {
+        "1": 52,
+        "2": 594,
+        "3": 74,
+        "4": 35
+      },
+      "valid_votes": 755,
+      "invalid_votes": 12,
+      "ballots_cast": 767,
+      "unreturned_ballots": 0,
+      "electors": 946,
+      "turnout_rate": 81.0782
+    },
+    "TNN-ANNAN-LUER": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "鹿耳里",
+      "village_en": "Luer Village",
+      "votes": {
+        "1": 39,
+        "2": 320,
+        "3": 60,
+        "4": 19
+      },
+      "valid_votes": 438,
+      "invalid_votes": 4,
+      "ballots_cast": 442,
+      "unreturned_ballots": 0,
+      "electors": 560,
+      "turnout_rate": 78.9286
+    },
+    "TNN-ANNAN-SICAO": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "四草里",
+      "village_en": "Sicao Village",
+      "votes": {
+        "1": 72,
+        "2": 689,
+        "3": 173,
+        "4": 30
+      },
+      "valid_votes": 964,
+      "invalid_votes": 6,
+      "ballots_cast": 970,
+      "unreturned_ballots": 0,
+      "electors": 1244,
+      "turnout_rate": 77.9743
+    },
+    "TNN-ANNAN-YANTIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "鹽田里",
+      "village_en": "Yantian Village",
+      "votes": {
+        "1": 29,
+        "2": 281,
+        "3": 87,
+        "4": 13
+      },
+      "valid_votes": 410,
+      "invalid_votes": 7,
+      "ballots_cast": 417,
+      "unreturned_ballots": 0,
+      "electors": 496,
+      "turnout_rate": 84.0726
+    },
+    "TNN-ANNAN-YUANXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "淵西里",
+      "village_en": "Yuanxi Village",
+      "votes": {
+        "1": 124,
+        "2": 944,
+        "3": 257,
+        "4": 65
+      },
+      "valid_votes": 1390,
+      "invalid_votes": 21,
+      "ballots_cast": 1411,
+      "unreturned_ballots": 0,
+      "electors": 1890,
+      "turnout_rate": 74.6561
+    },
+    "TNN-ANNAN-YUANZHONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "淵中里",
+      "village_en": "Yuanzhong Village",
+      "votes": {
+        "1": 133,
+        "2": 1245,
+        "3": 337,
+        "4": 77
+      },
+      "valid_votes": 1792,
+      "invalid_votes": 24,
+      "ballots_cast": 1816,
+      "unreturned_ballots": 0,
+      "electors": 2352,
+      "turnout_rate": 77.2109
+    },
+    "TNN-ANNAN-XIXIN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "溪心里",
+      "village_en": "Xixin Village",
+      "votes": {
+        "1": 152,
+        "2": 1115,
+        "3": 389,
+        "4": 76
+      },
+      "valid_votes": 1732,
+      "invalid_votes": 25,
+      "ballots_cast": 1757,
+      "unreturned_ballots": 0,
+      "electors": 2325,
+      "turnout_rate": 75.5699
+    },
+    "TNN-ANNAN-YUANDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "淵東里",
+      "village_en": "Yuandong Village",
+      "votes": {
+        "1": 135,
+        "2": 994,
+        "3": 290,
+        "4": 54
+      },
+      "valid_votes": 1473,
+      "invalid_votes": 17,
+      "ballots_cast": 1490,
+      "unreturned_ballots": 0,
+      "electors": 1911,
+      "turnout_rate": 77.9696
+    },
+    "TNN-ANNAN-HAIXI": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "海西里",
+      "village_en": "Haixi Village",
+      "votes": {
+        "1": 136,
+        "2": 1000,
+        "3": 274,
+        "4": 58
+      },
+      "valid_votes": 1468,
+      "invalid_votes": 18,
+      "ballots_cast": 1486,
+      "unreturned_ballots": 0,
+      "electors": 2025,
+      "turnout_rate": 73.3827
+    },
+    "TNN-ANNAN-HAIDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "海東里",
+      "village_en": "Haidong Village",
+      "votes": {
+        "1": 169,
+        "2": 1060,
+        "3": 460,
+        "4": 62
+      },
+      "valid_votes": 1751,
+      "invalid_votes": 16,
+      "ballots_cast": 1767,
+      "unreturned_ballots": 0,
+      "electors": 2346,
+      "turnout_rate": 75.3197
+    },
+    "TNN-ANNAN-LIXIANG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "理想里",
+      "village_en": "Lixiang Village",
+      "votes": {
+        "1": 386,
+        "2": 2317,
+        "3": 907,
+        "4": 190
+      },
+      "valid_votes": 3800,
+      "invalid_votes": 47,
+      "ballots_cast": 3847,
+      "unreturned_ballots": 0,
+      "electors": 5115,
+      "turnout_rate": 75.2102
+    },
+    "TNN-ANNAN-HAIDIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "海佃里",
+      "village_en": "Haidian Village",
+      "votes": {
+        "1": 287,
+        "2": 2205,
+        "3": 926,
+        "4": 140
+      },
+      "valid_votes": 3558,
+      "invalid_votes": 44,
+      "ballots_cast": 3602,
+      "unreturned_ballots": 0,
+      "electors": 4646,
+      "turnout_rate": 77.5291
+    },
+    "TNN-ANNAN-XINGFU": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "幸福里",
+      "village_en": "Xingfu Village",
+      "votes": {
+        "1": 229,
+        "2": 1411,
+        "3": 627,
+        "4": 115
+      },
+      "valid_votes": 2382,
+      "invalid_votes": 28,
+      "ballots_cast": 2410,
+      "unreturned_ballots": 0,
+      "electors": 3150,
+      "turnout_rate": 76.5079
+    },
+    "TNN-ANNAN-HAINAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "海南里",
+      "village_en": "Hainan Village",
+      "votes": {
+        "1": 159,
+        "2": 837,
+        "3": 318,
+        "4": 81
+      },
+      "valid_votes": 1395,
+      "invalid_votes": 13,
+      "ballots_cast": 1408,
+      "unreturned_ballots": 0,
+      "electors": 1871,
+      "turnout_rate": 75.2539
+    },
+    "TNN-ANNAN-XIQIAN": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "溪墘里",
+      "village_en": "Xiqian Village",
+      "votes": {
+        "1": 165,
+        "2": 1176,
+        "3": 477,
+        "4": 75
+      },
+      "valid_votes": 1893,
+      "invalid_votes": 14,
+      "ballots_cast": 1907,
+      "unreturned_ballots": 0,
+      "electors": 2465,
+      "turnout_rate": 77.3631
+    },
+    "TNN-ANNAN-XIDONG": {
+      "county_zh": "臺南市",
+      "county_en": "Tainan City",
+      "township_zh": "安南區",
+      "township_en": "Annan District",
+      "village_zh": "溪東里",
+      "village_en": "Xidong Village",
+      "votes": {
+        "1": 441,
+        "2": 2463,
+        "3": 1054,
+        "4": 190
+      },
+      "valid_votes": 4148,
+      "invalid_votes": 31,
+      "ballots_cast": 4179,
+      "unreturned_ballots": 0,
+      "electors": 5395,
+      "turnout_rate": 77.4606
+    }
+  }
+}

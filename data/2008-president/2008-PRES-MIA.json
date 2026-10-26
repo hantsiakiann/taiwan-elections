@@ -1,0 +1,5768 @@
+{
+  "election_id": "2008-president",
+  "election_type": "president",
+  "source_file": "2008-PRES-MIA.xls",
+  "county_zh": "苗栗縣",
+  "county_en": "Miaoli County",
+  "county_iso": "MIA",
+  "candidates": {
+    "1": {
+      "name_zh": "謝長廷",
+      "running_mate_zh": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "蕭萬長",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 92795,
+      "2": 227069
+    },
+    "valid_votes": 319864,
+    "invalid_votes": 2974,
+    "ballots_cast": 322838,
+    "unreturned_ballots": 4,
+    "ballots_issued": 322842,
+    "unused_ballots": 97334,
+    "electors": 420176,
+    "turnout_rate": 76.83000183105469
+  },
+  "townships": {
+    "MIA-MIAOLI": {
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "votes": {
+        "1": 11734,
+        "2": 41749
+      },
+      "valid_votes": 53483,
+      "invalid_votes": 547,
+      "ballots_cast": 54030,
+      "unreturned_ballots": 0,
+      "ballots_issued": 54030,
+      "unused_ballots": 14134,
+      "electors": 68164,
+      "turnout_rate": 79.26000213623047
+    },
+    "MIA-YUANLI": {
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "votes": {
+        "1": 12858,
+        "2": 13955
+      },
+      "valid_votes": 26813,
+      "invalid_votes": 222,
+      "ballots_cast": 27035,
+      "unreturned_ballots": 1,
+      "ballots_issued": 27036,
+      "unused_ballots": 9372,
+      "electors": 36408,
+      "turnout_rate": 74.26000213623047
+    },
+    "MIA-TONGXIAO": {
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "votes": {
+        "1": 9149,
+        "2": 12785
+      },
+      "valid_votes": 21934,
+      "invalid_votes": 189,
+      "ballots_cast": 22123,
+      "unreturned_ballots": 0,
+      "ballots_issued": 22123,
+      "unused_ballots": 8028,
+      "electors": 30151,
+      "turnout_rate": 73.37000274658203
+    },
+    "MIA-ZHUNAN": {
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "votes": {
+        "1": 14232,
+        "2": 27563
+      },
+      "valid_votes": 41795,
+      "invalid_votes": 450,
+      "ballots_cast": 42245,
+      "unreturned_ballots": 1,
+      "ballots_issued": 42246,
+      "unused_ballots": 12115,
+      "electors": 54361,
+      "turnout_rate": 77.70999908447266
+    },
+    "MIA-TOUFEN": {
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "votes": {
+        "1": 11356,
+        "2": 42573
+      },
+      "valid_votes": 53929,
+      "invalid_votes": 433,
+      "ballots_cast": 54362,
+      "unreturned_ballots": 1,
+      "ballots_issued": 54363,
+      "unused_ballots": 14504,
+      "electors": 68867,
+      "turnout_rate": 78.94000244140625
+    },
+    "MIA-HOULONG": {
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "votes": {
+        "1": 8081,
+        "2": 14257
+      },
+      "valid_votes": 22338,
+      "invalid_votes": 248,
+      "ballots_cast": 22586,
+      "unreturned_ballots": 1,
+      "ballots_issued": 22587,
+      "unused_ballots": 8191,
+      "electors": 30778,
+      "turnout_rate": 73.37999725341797
+    },
+    "MIA-ZHUOLAN": {
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "votes": {
+        "1": 4732,
+        "2": 6095
+      },
+      "valid_votes": 10827,
+      "invalid_votes": 106,
+      "ballots_cast": 10933,
+      "unreturned_ballots": 0,
+      "ballots_issued": 10933,
+      "unused_ballots": 3588,
+      "electors": 14521,
+      "turnout_rate": 75.29000091552734
+    },
+    "MIA-DAHU": {
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "votes": {
+        "1": 2282,
+        "2": 6890
+      },
+      "valid_votes": 9172,
+      "invalid_votes": 70,
+      "ballots_cast": 9242,
+      "unreturned_ballots": 0,
+      "ballots_issued": 9242,
+      "unused_ballots": 3305,
+      "electors": 12547,
+      "turnout_rate": 73.66000366210938
+    },
+    "MIA-GONGGUAN": {
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "votes": {
+        "1": 5128,
+        "2": 14582
+      },
+      "valid_votes": 19710,
+      "invalid_votes": 224,
+      "ballots_cast": 19934,
+      "unreturned_ballots": 0,
+      "ballots_issued": 19934,
+      "unused_ballots": 5949,
+      "electors": 25883,
+      "turnout_rate": 77.0199966430664
+    },
+    "MIA-TONGLUO": {
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "votes": {
+        "1": 2486,
+        "2": 8912
+      },
+      "valid_votes": 11398,
+      "invalid_votes": 87,
+      "ballots_cast": 11485,
+      "unreturned_ballots": 0,
+      "ballots_issued": 11485,
+      "unused_ballots": 3723,
+      "electors": 15208,
+      "turnout_rate": 75.5199966430664
+    },
+    "MIA-NANZHUANG": {
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "votes": {
+        "1": 1305,
+        "2": 5299
+      },
+      "valid_votes": 6604,
+      "invalid_votes": 47,
+      "ballots_cast": 6651,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6651,
+      "unused_ballots": 2298,
+      "electors": 8949,
+      "turnout_rate": 74.31999969482422
+    },
+    "MIA-TOUWU": {
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "votes": {
+        "1": 1648,
+        "2": 5637
+      },
+      "valid_votes": 7285,
+      "invalid_votes": 74,
+      "ballots_cast": 7359,
+      "unreturned_ballots": 0,
+      "ballots_issued": 7359,
+      "unused_ballots": 1986,
+      "electors": 9345,
+      "turnout_rate": 78.75
+    },
+    "MIA-SANYI": {
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "votes": {
+        "1": 2588,
+        "2": 7890
+      },
+      "valid_votes": 10478,
+      "invalid_votes": 82,
+      "ballots_cast": 10560,
+      "unreturned_ballots": 0,
+      "ballots_issued": 10560,
+      "unused_ballots": 2690,
+      "electors": 13250,
+      "turnout_rate": 79.69999694824219
+    },
+    "MIA-XIHU": {
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "votes": {
+        "1": 1041,
+        "2": 3770
+      },
+      "valid_votes": 4811,
+      "invalid_votes": 37,
+      "ballots_cast": 4848,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4848,
+      "unused_ballots": 1610,
+      "electors": 6458,
+      "turnout_rate": 75.06999969482422
+    },
+    "MIA-ZAOQIAO": {
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "votes": {
+        "1": 1942,
+        "2": 6336
+      },
+      "valid_votes": 8278,
+      "invalid_votes": 62,
+      "ballots_cast": 8340,
+      "unreturned_ballots": 0,
+      "ballots_issued": 8340,
+      "unused_ballots": 2328,
+      "electors": 10668,
+      "turnout_rate": 78.18000030517578
+    },
+    "MIA-SANWAN": {
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "votes": {
+        "1": 1140,
+        "2": 3459
+      },
+      "valid_votes": 4599,
+      "invalid_votes": 49,
+      "ballots_cast": 4648,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4648,
+      "unused_ballots": 1242,
+      "electors": 5890,
+      "turnout_rate": 78.91000366210938
+    },
+    "MIA-SHITAN": {
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "votes": {
+        "1": 746,
+        "2": 2434
+      },
+      "valid_votes": 3180,
+      "invalid_votes": 32,
+      "ballots_cast": 3212,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3212,
+      "unused_ballots": 1103,
+      "electors": 4315,
+      "turnout_rate": 74.44000244140625
+    },
+    "MIA-TAIAN": {
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "votes": {
+        "1": 347,
+        "2": 2883
+      },
+      "valid_votes": 3230,
+      "invalid_votes": 15,
+      "ballots_cast": 3245,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3245,
+      "unused_ballots": 1168,
+      "electors": 4413,
+      "turnout_rate": 73.52999877929688
+    }
+  },
+  "villages": {
+    "MIA-MIAOLI-ZHONGMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "中苗里",
+      "village_en": "Zhongmiao Village",
+      "votes": {
+        "1": 207,
+        "2": 663
+      },
+      "valid_votes": 870,
+      "invalid_votes": 11,
+      "ballots_cast": 881,
+      "unreturned_ballots": 0,
+      "ballots_issued": 881,
+      "unused_ballots": 217,
+      "electors": 1098,
+      "turnout_rate": 80.23999786376953
+    },
+    "MIA-MIAOLI-QINGMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "青苗里",
+      "village_en": "Qingmiao Village",
+      "votes": {
+        "1": 194,
+        "2": 579
+      },
+      "valid_votes": 773,
+      "invalid_votes": 6,
+      "ballots_cast": 779,
+      "unreturned_ballots": 0,
+      "ballots_issued": 779,
+      "unused_ballots": 239,
+      "electors": 1018,
+      "turnout_rate": 76.5199966430664
+    },
+    "MIA-MIAOLI-WEIXIANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "維祥里",
+      "village_en": "Weixiang Village",
+      "votes": {
+        "1": 552,
+        "2": 2065
+      },
+      "valid_votes": 2617,
+      "invalid_votes": 23,
+      "ballots_cast": 2640,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2640,
+      "unused_ballots": 639,
+      "electors": 3279,
+      "turnout_rate": 80.51000213623047
+    },
+    "MIA-MIAOLI-WEIXIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "維新里",
+      "village_en": "Weixin Village",
+      "votes": {
+        "1": 652,
+        "2": 2360
+      },
+      "valid_votes": 3012,
+      "invalid_votes": 30,
+      "ballots_cast": 3042,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3042,
+      "unused_ballots": 735,
+      "electors": 3777,
+      "turnout_rate": 80.54000091552734
+    },
+    "MIA-MIAOLI-YUQING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "玉清里",
+      "village_en": "Yuqing Village",
+      "votes": {
+        "1": 382,
+        "2": 1445
+      },
+      "valid_votes": 1827,
+      "invalid_votes": 13,
+      "ballots_cast": 1840,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1840,
+      "unused_ballots": 438,
+      "electors": 2278,
+      "turnout_rate": 80.7699966430664
+    },
+    "MIA-MIAOLI-YUHUA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "玉華里",
+      "village_en": "Yuhua Village",
+      "votes": {
+        "1": 539,
+        "2": 2159
+      },
+      "valid_votes": 2698,
+      "invalid_votes": 25,
+      "ballots_cast": 2723,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2723,
+      "unused_ballots": 633,
+      "electors": 3356,
+      "turnout_rate": 81.13999938964844
+    },
+    "MIA-MIAOLI-LVMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "綠苗里",
+      "village_en": "Lvmiao Village",
+      "votes": {
+        "1": 166,
+        "2": 521
+      },
+      "valid_votes": 687,
+      "invalid_votes": 9,
+      "ballots_cast": 696,
+      "unreturned_ballots": 0,
+      "ballots_issued": 696,
+      "unused_ballots": 177,
+      "electors": 873,
+      "turnout_rate": 79.7300033569336
+    },
+    "MIA-MIAOLI-GAOMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "高苗里",
+      "village_en": "Gaomiao Village",
+      "votes": {
+        "1": 476,
+        "2": 1727
+      },
+      "valid_votes": 2203,
+      "invalid_votes": 37,
+      "ballots_cast": 2240,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2240,
+      "unused_ballots": 609,
+      "electors": 2849,
+      "turnout_rate": 78.62000274658203
+    },
+    "MIA-MIAOLI-XINMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "新苗里",
+      "village_en": "Xinmiao Village",
+      "votes": {
+        "1": 230,
+        "2": 510
+      },
+      "valid_votes": 740,
+      "invalid_votes": 15,
+      "ballots_cast": 755,
+      "unreturned_ballots": 0,
+      "ballots_issued": 755,
+      "unused_ballots": 181,
+      "electors": 936,
+      "turnout_rate": 80.66000366210938
+    },
+    "MIA-MIAOLI-YUMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "玉苗里",
+      "village_en": "Yumiao Village",
+      "votes": {
+        "1": 221,
+        "2": 558
+      },
+      "valid_votes": 779,
+      "invalid_votes": 11,
+      "ballots_cast": 790,
+      "unreturned_ballots": 0,
+      "ballots_issued": 790,
+      "unused_ballots": 200,
+      "electors": 990,
+      "turnout_rate": 79.80000305175781
+    },
+    "MIA-MIAOLI-DATONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "大同里",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 101,
+        "2": 358
+      },
+      "valid_votes": 459,
+      "invalid_votes": 11,
+      "ballots_cast": 470,
+      "unreturned_ballots": 0,
+      "ballots_issued": 470,
+      "unused_ballots": 131,
+      "electors": 601,
+      "turnout_rate": 78.19999694824219
+    },
+    "MIA-MIAOLI-GONGJING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "恭敬里",
+      "village_en": "Gongjing Village",
+      "votes": {
+        "1": 244,
+        "2": 716
+      },
+      "valid_votes": 960,
+      "invalid_votes": 10,
+      "ballots_cast": 970,
+      "unreturned_ballots": 0,
+      "ballots_issued": 970,
+      "unused_ballots": 258,
+      "electors": 1228,
+      "turnout_rate": 78.98999786376953
+    },
+    "MIA-MIAOLI-SHUIYUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "水源里",
+      "village_en": "Shuiyuan Village",
+      "votes": {
+        "1": 358,
+        "2": 1319
+      },
+      "valid_votes": 1677,
+      "invalid_votes": 15,
+      "ballots_cast": 1692,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1692,
+      "unused_ballots": 431,
+      "electors": 2123,
+      "turnout_rate": 79.69999694824219
+    },
+    "MIA-MIAOLI-SHENGLI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "勝利里",
+      "village_en": "Shengli Village",
+      "votes": {
+        "1": 653,
+        "2": 2250
+      },
+      "valid_votes": 2903,
+      "invalid_votes": 21,
+      "ballots_cast": 2924,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2924,
+      "unused_ballots": 742,
+      "electors": 3666,
+      "turnout_rate": 79.76000213623047
+    },
+    "MIA-MIAOLI-QINGHUA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "清華里",
+      "village_en": "Qinghua Village",
+      "votes": {
+        "1": 530,
+        "2": 1920
+      },
+      "valid_votes": 2450,
+      "invalid_votes": 19,
+      "ballots_cast": 2469,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2469,
+      "unused_ballots": 637,
+      "electors": 3106,
+      "turnout_rate": 79.48999786376953
+    },
+    "MIA-MIAOLI-SHANGMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "上苗里",
+      "village_en": "Shangmiao Village",
+      "votes": {
+        "1": 354,
+        "2": 1021
+      },
+      "valid_votes": 1375,
+      "invalid_votes": 12,
+      "ballots_cast": 1387,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1387,
+      "unused_ballots": 316,
+      "electors": 1703,
+      "turnout_rate": 81.44000244140625
+    },
+    "MIA-MIAOLI-BEIMIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "北苗里",
+      "village_en": "Beimiao Village",
+      "votes": {
+        "1": 777,
+        "2": 2797
+      },
+      "valid_votes": 3574,
+      "invalid_votes": 29,
+      "ballots_cast": 3603,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3603,
+      "unused_ballots": 885,
+      "electors": 4488,
+      "turnout_rate": 80.27999877929688
+    },
+    "MIA-MIAOLI-JIASHENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "嘉盛里",
+      "village_en": "Jiasheng Village",
+      "votes": {
+        "1": 597,
+        "2": 2006
+      },
+      "valid_votes": 2603,
+      "invalid_votes": 22,
+      "ballots_cast": 2625,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2625,
+      "unused_ballots": 715,
+      "electors": 3340,
+      "turnout_rate": 78.58999633789062
+    },
+    "MIA-MIAOLI-JIAXIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "嘉新里",
+      "village_en": "Jiaxin Village",
+      "votes": {
+        "1": 438,
+        "2": 1732
+      },
+      "valid_votes": 2170,
+      "invalid_votes": 32,
+      "ballots_cast": 2202,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2202,
+      "unused_ballots": 519,
+      "electors": 2721,
+      "turnout_rate": 80.93000030517578
+    },
+    "MIA-MIAOLI-FUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "福星里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 601,
+        "2": 2208
+      },
+      "valid_votes": 2809,
+      "invalid_votes": 20,
+      "ballots_cast": 2829,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2829,
+      "unused_ballots": 749,
+      "electors": 3578,
+      "turnout_rate": 79.06999969482422
+    },
+    "MIA-MIAOLI-FUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "福安里",
+      "village_en": "Fuan Village",
+      "votes": {
+        "1": 458,
+        "2": 1754
+      },
+      "valid_votes": 2212,
+      "invalid_votes": 26,
+      "ballots_cast": 2238,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2238,
+      "unused_ballots": 643,
+      "electors": 2881,
+      "turnout_rate": 77.68000030517578
+    },
+    "MIA-MIAOLI-JIANGONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "建功里",
+      "village_en": "Jiangong Village",
+      "votes": {
+        "1": 582,
+        "2": 2393
+      },
+      "valid_votes": 2975,
+      "invalid_votes": 38,
+      "ballots_cast": 3013,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3013,
+      "unused_ballots": 701,
+      "electors": 3714,
+      "turnout_rate": 81.12999725341797
+    },
+    "MIA-MIAOLI-FULI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "福麗里",
+      "village_en": "Fuli Village",
+      "votes": {
+        "1": 686,
+        "2": 2784
+      },
+      "valid_votes": 3470,
+      "invalid_votes": 35,
+      "ballots_cast": 3505,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3505,
+      "unused_ballots": 1025,
+      "electors": 4530,
+      "turnout_rate": 77.37000274658203
+    },
+    "MIA-MIAOLI-WENSHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "文山里",
+      "village_en": "Wenshan Village",
+      "votes": {
+        "1": 504,
+        "2": 1802
+      },
+      "valid_votes": 2306,
+      "invalid_votes": 23,
+      "ballots_cast": 2329,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2329,
+      "unused_ballots": 573,
+      "electors": 2902,
+      "turnout_rate": 80.25
+    },
+    "MIA-MIAOLI-WENSHENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "文聖里",
+      "village_en": "Wensheng Village",
+      "votes": {
+        "1": 436,
+        "2": 1507
+      },
+      "valid_votes": 1943,
+      "invalid_votes": 20,
+      "ballots_cast": 1963,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1963,
+      "unused_ballots": 602,
+      "electors": 2565,
+      "turnout_rate": 76.52999877929688
+    },
+    "MIA-MIAOLI-XINCHUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "新川里",
+      "village_en": "Xinchuan Village",
+      "votes": {
+        "1": 217,
+        "2": 637
+      },
+      "valid_votes": 854,
+      "invalid_votes": 6,
+      "ballots_cast": 860,
+      "unreturned_ballots": 0,
+      "ballots_issued": 860,
+      "unused_ballots": 260,
+      "electors": 1120,
+      "turnout_rate": 76.79000091552734
+    },
+    "MIA-MIAOLI-XINYING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "新英里",
+      "village_en": "Xinying Village",
+      "votes": {
+        "1": 264,
+        "2": 920
+      },
+      "valid_votes": 1184,
+      "invalid_votes": 10,
+      "ballots_cast": 1194,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1194,
+      "unused_ballots": 423,
+      "electors": 1617,
+      "turnout_rate": 73.83999633789062
+    },
+    "MIA-MIAOLI-NANSHI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苗栗市",
+      "township_en": "Miaoli City",
+      "village_zh": "南勢里",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 315,
+        "2": 1038
+      },
+      "valid_votes": 1353,
+      "invalid_votes": 18,
+      "ballots_cast": 1371,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1371,
+      "unused_ballots": 456,
+      "electors": 1827,
+      "turnout_rate": 75.04000091552734
+    },
+    "MIA-YUANLI-YUANDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "苑東里",
+      "village_en": "Yuandong Village",
+      "votes": {
+        "1": 652,
+        "2": 759
+      },
+      "valid_votes": 1411,
+      "invalid_votes": 11,
+      "ballots_cast": 1422,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1422,
+      "unused_ballots": 478,
+      "electors": 1900,
+      "turnout_rate": 74.83999633789062
+    },
+    "MIA-YUANLI-YUANNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "苑南里",
+      "village_en": "Yuannan Village",
+      "votes": {
+        "1": 587,
+        "2": 665
+      },
+      "valid_votes": 1252,
+      "invalid_votes": 11,
+      "ballots_cast": 1263,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1263,
+      "unused_ballots": 423,
+      "electors": 1686,
+      "turnout_rate": 74.91000366210938
+    },
+    "MIA-YUANLI-YUANBEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "苑北里",
+      "village_en": "Yuanbei Village",
+      "votes": {
+        "1": 331,
+        "2": 331
+      },
+      "valid_votes": 662,
+      "invalid_votes": 9,
+      "ballots_cast": 671,
+      "unreturned_ballots": 0,
+      "ballots_issued": 671,
+      "unused_ballots": 225,
+      "electors": 896,
+      "turnout_rate": 74.88999938964844
+    },
+    "MIA-YUANLI-XIPING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "西平里",
+      "village_en": "Xiping Village",
+      "votes": {
+        "1": 539,
+        "2": 460
+      },
+      "valid_votes": 999,
+      "invalid_votes": 10,
+      "ballots_cast": 1009,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1009,
+      "unused_ballots": 330,
+      "electors": 1339,
+      "turnout_rate": 75.3499984741211
+    },
+    "MIA-YUANLI-YUANGANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "苑港里",
+      "village_en": "Yuangang Village",
+      "votes": {
+        "1": 508,
+        "2": 350
+      },
+      "valid_votes": 858,
+      "invalid_votes": 5,
+      "ballots_cast": 863,
+      "unreturned_ballots": 0,
+      "ballots_issued": 863,
+      "unused_ballots": 261,
+      "electors": 1124,
+      "turnout_rate": 76.77999877929688
+    },
+    "MIA-YUANLI-XISHI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "西勢里",
+      "village_en": "Xishi Village",
+      "votes": {
+        "1": 586,
+        "2": 702
+      },
+      "valid_votes": 1288,
+      "invalid_votes": 7,
+      "ballots_cast": 1295,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1295,
+      "unused_ballots": 445,
+      "electors": 1740,
+      "turnout_rate": 74.43000030517578
+    },
+    "MIA-YUANLI-HAIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "海岸里",
+      "village_en": "Haian Village",
+      "votes": {
+        "1": 436,
+        "2": 335
+      },
+      "valid_votes": 771,
+      "invalid_votes": 6,
+      "ballots_cast": 777,
+      "unreturned_ballots": 0,
+      "ballots_issued": 777,
+      "unused_ballots": 297,
+      "electors": 1074,
+      "turnout_rate": 72.3499984741211
+    },
+    "MIA-YUANLI-FANGLI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "房裡里",
+      "village_en": "Fangli Village",
+      "votes": {
+        "1": 774,
+        "2": 846
+      },
+      "valid_votes": 1620,
+      "invalid_votes": 12,
+      "ballots_cast": 1632,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1632,
+      "unused_ballots": 555,
+      "electors": 2187,
+      "turnout_rate": 74.62000274658203
+    },
+    "MIA-YUANLI-KEZHUANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "客庄里",
+      "village_en": "Kezhuang Village",
+      "votes": {
+        "1": 1198,
+        "2": 1509
+      },
+      "valid_votes": 2707,
+      "invalid_votes": 12,
+      "ballots_cast": 2719,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2719,
+      "unused_ballots": 783,
+      "electors": 3502,
+      "turnout_rate": 77.63999938964844
+    },
+    "MIA-YUANLI-ZHONGZHENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 748,
+        "2": 712
+      },
+      "valid_votes": 1460,
+      "invalid_votes": 8,
+      "ballots_cast": 1468,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1468,
+      "unused_ballots": 419,
+      "electors": 1887,
+      "turnout_rate": 77.80000305175781
+    },
+    "MIA-YUANLI-YUANKENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "苑坑里",
+      "village_en": "Yuankeng Village",
+      "votes": {
+        "1": 385,
+        "2": 300
+      },
+      "valid_votes": 685,
+      "invalid_votes": 6,
+      "ballots_cast": 691,
+      "unreturned_ballots": 1,
+      "ballots_issued": 692,
+      "unused_ballots": 280,
+      "electors": 972,
+      "turnout_rate": 71.08999633789062
+    },
+    "MIA-YUANLI-SHUIPO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "水坡里",
+      "village_en": "Shuipo Village",
+      "votes": {
+        "1": 248,
+        "2": 195
+      },
+      "valid_votes": 443,
+      "invalid_votes": 5,
+      "ballots_cast": 448,
+      "unreturned_ballots": 0,
+      "ballots_issued": 448,
+      "unused_ballots": 169,
+      "electors": 617,
+      "turnout_rate": 72.61000061035156
+    },
+    "MIA-YUANLI-XINFU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "新復里",
+      "village_en": "Xinfu Village",
+      "votes": {
+        "1": 426,
+        "2": 493
+      },
+      "valid_votes": 919,
+      "invalid_votes": 6,
+      "ballots_cast": 925,
+      "unreturned_ballots": 0,
+      "ballots_issued": 925,
+      "unused_ballots": 292,
+      "electors": 1217,
+      "turnout_rate": 76.01000213623047
+    },
+    "MIA-YUANLI-SHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "山�里",
+      "village_en": "Shan� Village",
+      "votes": {
+        "1": 528,
+        "2": 547
+      },
+      "valid_votes": 1075,
+      "invalid_votes": 14,
+      "ballots_cast": 1089,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1089,
+      "unused_ballots": 362,
+      "electors": 1451,
+      "turnout_rate": 75.05000305175781
+    },
+    "MIA-YUANLI-JIUSHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "舊社里",
+      "village_en": "Jiushe Village",
+      "votes": {
+        "1": 593,
+        "2": 715
+      },
+      "valid_votes": 1308,
+      "invalid_votes": 8,
+      "ballots_cast": 1316,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1316,
+      "unused_ballots": 421,
+      "electors": 1737,
+      "turnout_rate": 75.76000213623047
+    },
+    "MIA-YUANLI-FUTIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "福田里",
+      "village_en": "Futian Village",
+      "votes": {
+        "1": 411,
+        "2": 430
+      },
+      "valid_votes": 841,
+      "invalid_votes": 7,
+      "ballots_cast": 848,
+      "unreturned_ballots": 0,
+      "ballots_issued": 848,
+      "unused_ballots": 401,
+      "electors": 1249,
+      "turnout_rate": 67.88999938964844
+    },
+    "MIA-YUANLI-SHIZHEN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "石鎮里",
+      "village_en": "Shizhen Village",
+      "votes": {
+        "1": 216,
+        "2": 247
+      },
+      "valid_votes": 463,
+      "invalid_votes": 5,
+      "ballots_cast": 468,
+      "unreturned_ballots": 0,
+      "ballots_issued": 468,
+      "unused_ballots": 128,
+      "electors": 596,
+      "turnout_rate": 78.5199966430664
+    },
+    "MIA-YUANLI-JIAOPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "蕉埔里",
+      "village_en": "Jiaopu Village",
+      "votes": {
+        "1": 284,
+        "2": 378
+      },
+      "valid_votes": 662,
+      "invalid_votes": 4,
+      "ballots_cast": 666,
+      "unreturned_ballots": 0,
+      "ballots_issued": 666,
+      "unused_ballots": 235,
+      "electors": 901,
+      "turnout_rate": 73.91999816894531
+    },
+    "MIA-YUANLI-NANSHI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "南勢里",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 241,
+        "2": 244
+      },
+      "valid_votes": 485,
+      "invalid_votes": 3,
+      "ballots_cast": 488,
+      "unreturned_ballots": 0,
+      "ballots_issued": 488,
+      "unused_ballots": 204,
+      "electors": 692,
+      "turnout_rate": 70.5199966430664
+    },
+    "MIA-YUANLI-TAITIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "泰田里",
+      "village_en": "Taitian Village",
+      "votes": {
+        "1": 515,
+        "2": 582
+      },
+      "valid_votes": 1097,
+      "invalid_votes": 13,
+      "ballots_cast": 1110,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1110,
+      "unused_ballots": 414,
+      "electors": 1524,
+      "turnout_rate": 72.83000183105469
+    },
+    "MIA-YUANLI-SHANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "上�里",
+      "village_en": "Shang� Village",
+      "votes": {
+        "1": 495,
+        "2": 619
+      },
+      "valid_votes": 1114,
+      "invalid_votes": 6,
+      "ballots_cast": 1120,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1120,
+      "unused_ballots": 443,
+      "electors": 1563,
+      "turnout_rate": 71.66000366210938
+    },
+    "MIA-YUANLI-YUTIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "玉田里",
+      "village_en": "Yutian Village",
+      "votes": {
+        "1": 544,
+        "2": 616
+      },
+      "valid_votes": 1160,
+      "invalid_votes": 14,
+      "ballots_cast": 1174,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1174,
+      "unused_ballots": 490,
+      "electors": 1664,
+      "turnout_rate": 70.55000305175781
+    },
+    "MIA-YUANLI-SHELING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "社苓里",
+      "village_en": "Sheling Village",
+      "votes": {
+        "1": 734,
+        "2": 802
+      },
+      "valid_votes": 1536,
+      "invalid_votes": 20,
+      "ballots_cast": 1556,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1556,
+      "unused_ballots": 568,
+      "electors": 2124,
+      "turnout_rate": 73.26000213623047
+    },
+    "MIA-YUANLI-SHANGAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "山柑里",
+      "village_en": "Shangan Village",
+      "votes": {
+        "1": 397,
+        "2": 538
+      },
+      "valid_votes": 935,
+      "invalid_votes": 11,
+      "ballots_cast": 946,
+      "unreturned_ballots": 0,
+      "ballots_issued": 946,
+      "unused_ballots": 328,
+      "electors": 1274,
+      "turnout_rate": 74.25
+    },
+    "MIA-YUANLI-TIANXIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "苑裡鎮",
+      "township_en": "Yuanli Township",
+      "village_zh": "田心里",
+      "village_en": "Tianxin Village",
+      "votes": {
+        "1": 482,
+        "2": 580
+      },
+      "valid_votes": 1062,
+      "invalid_votes": 9,
+      "ballots_cast": 1071,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1071,
+      "unused_ballots": 421,
+      "electors": 1492,
+      "turnout_rate": 71.77999877929688
+    },
+    "MIA-TONGXIAO-TONGDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "通東里",
+      "village_en": "Tongdong Village",
+      "votes": {
+        "1": 419,
+        "2": 522
+      },
+      "valid_votes": 941,
+      "invalid_votes": 9,
+      "ballots_cast": 950,
+      "unreturned_ballots": 0,
+      "ballots_issued": 950,
+      "unused_ballots": 289,
+      "electors": 1239,
+      "turnout_rate": 76.66999816894531
+    },
+    "MIA-TONGXIAO-TONGXI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "通西里",
+      "village_en": "Tongxi Village",
+      "votes": {
+        "1": 644,
+        "2": 928
+      },
+      "valid_votes": 1572,
+      "invalid_votes": 10,
+      "ballots_cast": 1582,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1582,
+      "unused_ballots": 460,
+      "electors": 2042,
+      "turnout_rate": 77.47000122070312
+    },
+    "MIA-TONGXIAO-PINGYUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "平元里",
+      "village_en": "Pingyuan Village",
+      "votes": {
+        "1": 629,
+        "2": 774
+      },
+      "valid_votes": 1403,
+      "invalid_votes": 10,
+      "ballots_cast": 1413,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1413,
+      "unused_ballots": 400,
+      "electors": 1813,
+      "turnout_rate": 77.94000244140625
+    },
+    "MIA-TONGXIAO-PINGAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "平安里",
+      "village_en": "Pingan Village",
+      "votes": {
+        "1": 596,
+        "2": 856
+      },
+      "valid_votes": 1452,
+      "invalid_votes": 5,
+      "ballots_cast": 1457,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1457,
+      "unused_ballots": 581,
+      "electors": 2038,
+      "turnout_rate": 71.48999786376953
+    },
+    "MIA-TONGXIAO-ZHENTOU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "圳頭里",
+      "village_en": "Zhentou Village",
+      "votes": {
+        "1": 234,
+        "2": 311
+      },
+      "valid_votes": 545,
+      "invalid_votes": 3,
+      "ballots_cast": 548,
+      "unreturned_ballots": 0,
+      "ballots_issued": 548,
+      "unused_ballots": 197,
+      "electors": 745,
+      "turnout_rate": 73.55999755859375
+    },
+    "MIA-TONGXIAO-MEINAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "梅南里",
+      "village_en": "Meinan Village",
+      "votes": {
+        "1": 472,
+        "2": 613
+      },
+      "valid_votes": 1085,
+      "invalid_votes": 2,
+      "ballots_cast": 1087,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1087,
+      "unused_ballots": 407,
+      "electors": 1494,
+      "turnout_rate": 72.76000213623047
+    },
+    "MIA-TONGXIAO-TONGNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "通南里",
+      "village_en": "Tongnan Village",
+      "votes": {
+        "1": 734,
+        "2": 1157
+      },
+      "valid_votes": 1891,
+      "invalid_votes": 17,
+      "ballots_cast": 1908,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1908,
+      "unused_ballots": 709,
+      "electors": 2617,
+      "turnout_rate": 72.91000366210938
+    },
+    "MIA-TONGXIAO-NEIHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "內湖里",
+      "village_en": "Neihu Village",
+      "votes": {
+        "1": 549,
+        "2": 820
+      },
+      "valid_votes": 1369,
+      "invalid_votes": 4,
+      "ballots_cast": 1373,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1373,
+      "unused_ballots": 440,
+      "electors": 1813,
+      "turnout_rate": 75.7300033569336
+    },
+    "MIA-TONGXIAO-FENGSHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "楓樹里",
+      "village_en": "Fengshu Village",
+      "votes": {
+        "1": 126,
+        "2": 245
+      },
+      "valid_votes": 371,
+      "invalid_votes": 6,
+      "ballots_cast": 377,
+      "unreturned_ballots": 0,
+      "ballots_issued": 377,
+      "unused_ballots": 141,
+      "electors": 518,
+      "turnout_rate": 72.77999877929688
+    },
+    "MIA-TONGXIAO-WUMEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "烏眉里",
+      "village_en": "Wumei Village",
+      "votes": {
+        "1": 195,
+        "2": 509
+      },
+      "valid_votes": 704,
+      "invalid_votes": 5,
+      "ballots_cast": 709,
+      "unreturned_ballots": 0,
+      "ballots_issued": 709,
+      "unused_ballots": 245,
+      "electors": 954,
+      "turnout_rate": 74.31999969482422
+    },
+    "MIA-TONGXIAO-FULONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "福龍里",
+      "village_en": "Fulong Village",
+      "votes": {
+        "1": 77,
+        "2": 232
+      },
+      "valid_votes": 309,
+      "invalid_votes": 3,
+      "ballots_cast": 312,
+      "unreturned_ballots": 0,
+      "ballots_issued": 312,
+      "unused_ballots": 158,
+      "electors": 470,
+      "turnout_rate": 66.37999725341797
+    },
+    "MIA-TONGXIAO-FUYUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "福源里",
+      "village_en": "Fuyuan Village",
+      "votes": {
+        "1": 206,
+        "2": 362
+      },
+      "valid_votes": 568,
+      "invalid_votes": 3,
+      "ballots_cast": 571,
+      "unreturned_ballots": 0,
+      "ballots_issued": 571,
+      "unused_ballots": 239,
+      "electors": 810,
+      "turnout_rate": 70.48999786376953
+    },
+    "MIA-TONGXIAO-CHENGBEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "城北里",
+      "village_en": "Chengbei Village",
+      "votes": {
+        "1": 245,
+        "2": 282
+      },
+      "valid_votes": 527,
+      "invalid_votes": 6,
+      "ballots_cast": 533,
+      "unreturned_ballots": 0,
+      "ballots_issued": 533,
+      "unused_ballots": 158,
+      "electors": 691,
+      "turnout_rate": 77.12999725341797
+    },
+    "MIA-TONGXIAO-CHENGNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "城南里",
+      "village_en": "Chengnan Village",
+      "votes": {
+        "1": 324,
+        "2": 345
+      },
+      "valid_votes": 669,
+      "invalid_votes": 12,
+      "ballots_cast": 681,
+      "unreturned_ballots": 0,
+      "ballots_issued": 681,
+      "unused_ballots": 268,
+      "electors": 949,
+      "turnout_rate": 71.76000213623047
+    },
+    "MIA-TONGXIAO-NANHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "南和里",
+      "village_en": "Nanhe Village",
+      "votes": {
+        "1": 299,
+        "2": 339
+      },
+      "valid_votes": 638,
+      "invalid_votes": 8,
+      "ballots_cast": 646,
+      "unreturned_ballots": 0,
+      "ballots_issued": 646,
+      "unused_ballots": 186,
+      "electors": 832,
+      "turnout_rate": 77.63999938964844
+    },
+    "MIA-TONGXIAO-FUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "福興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 218,
+        "2": 226
+      },
+      "valid_votes": 444,
+      "invalid_votes": 4,
+      "ballots_cast": 448,
+      "unreturned_ballots": 0,
+      "ballots_issued": 448,
+      "unused_ballots": 195,
+      "electors": 643,
+      "turnout_rate": 69.66999816894531
+    },
+    "MIA-TONGXIAO-PINGDING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "坪頂里",
+      "village_en": "Pingding Village",
+      "votes": {
+        "1": 336,
+        "2": 535
+      },
+      "valid_votes": 871,
+      "invalid_votes": 20,
+      "ballots_cast": 891,
+      "unreturned_ballots": 0,
+      "ballots_issued": 891,
+      "unused_ballots": 286,
+      "electors": 1177,
+      "turnout_rate": 75.69999694824219
+    },
+    "MIA-TONGXIAO-WUNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "五南里",
+      "village_en": "Wunan Village",
+      "votes": {
+        "1": 371,
+        "2": 581
+      },
+      "valid_votes": 952,
+      "invalid_votes": 10,
+      "ballots_cast": 962,
+      "unreturned_ballots": 0,
+      "ballots_issued": 962,
+      "unused_ballots": 361,
+      "electors": 1323,
+      "turnout_rate": 72.70999908447266
+    },
+    "MIA-TONGXIAO-WUBEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "五北里",
+      "village_en": "Wubei Village",
+      "votes": {
+        "1": 512,
+        "2": 573
+      },
+      "valid_votes": 1085,
+      "invalid_votes": 9,
+      "ballots_cast": 1094,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1094,
+      "unused_ballots": 405,
+      "electors": 1499,
+      "turnout_rate": 72.9800033569336
+    },
+    "MIA-TONGXIAO-TONGWAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "通灣里",
+      "village_en": "Tongwan Village",
+      "votes": {
+        "1": 600,
+        "2": 979
+      },
+      "valid_votes": 1579,
+      "invalid_votes": 11,
+      "ballots_cast": 1590,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1590,
+      "unused_ballots": 621,
+      "electors": 2211,
+      "turnout_rate": 71.91000366210938
+    },
+    "MIA-TONGXIAO-XINPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "新埔里",
+      "village_en": "Xinpu Village",
+      "votes": {
+        "1": 491,
+        "2": 390
+      },
+      "valid_votes": 881,
+      "invalid_votes": 12,
+      "ballots_cast": 893,
+      "unreturned_ballots": 0,
+      "ballots_issued": 893,
+      "unused_ballots": 397,
+      "electors": 1290,
+      "turnout_rate": 69.22000122070312
+    },
+    "MIA-TONGXIAO-NEIDAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "內島里",
+      "village_en": "Neidao Village",
+      "votes": {
+        "1": 241,
+        "2": 326
+      },
+      "valid_votes": 567,
+      "invalid_votes": 4,
+      "ballots_cast": 571,
+      "unreturned_ballots": 0,
+      "ballots_issued": 571,
+      "unused_ballots": 224,
+      "electors": 795,
+      "turnout_rate": 71.81999969482422
+    },
+    "MIA-TONGXIAO-BAIDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "白東里",
+      "village_en": "Baidong Village",
+      "votes": {
+        "1": 370,
+        "2": 587
+      },
+      "valid_votes": 957,
+      "invalid_votes": 14,
+      "ballots_cast": 971,
+      "unreturned_ballots": 0,
+      "ballots_issued": 971,
+      "unused_ballots": 403,
+      "electors": 1374,
+      "turnout_rate": 70.66999816894531
+    },
+    "MIA-TONGXIAO-BAIXI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "通霄鎮",
+      "township_en": "Tongxiao Township",
+      "village_zh": "白西里",
+      "village_en": "Baixi Village",
+      "votes": {
+        "1": 261,
+        "2": 293
+      },
+      "valid_votes": 554,
+      "invalid_votes": 2,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "ballots_issued": 556,
+      "unused_ballots": 258,
+      "electors": 814,
+      "turnout_rate": 68.30000305175781
+    },
+    "MIA-ZHUNAN-ZHUNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "竹南里",
+      "village_en": "Zhunan Village",
+      "votes": {
+        "1": 535,
+        "2": 970
+      },
+      "valid_votes": 1505,
+      "invalid_votes": 13,
+      "ballots_cast": 1518,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1518,
+      "unused_ballots": 373,
+      "electors": 1891,
+      "turnout_rate": 80.2699966430664
+    },
+    "MIA-ZHUNAN-ZHAONAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "照南里",
+      "village_en": "Zhaonan Village",
+      "votes": {
+        "1": 772,
+        "2": 1148
+      },
+      "valid_votes": 1920,
+      "invalid_votes": 15,
+      "ballots_cast": 1935,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1935,
+      "unused_ballots": 496,
+      "electors": 2431,
+      "turnout_rate": 79.5999984741211
+    },
+    "MIA-ZHUNAN-ZHENGNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "正南里",
+      "village_en": "Zhengnan Village",
+      "votes": {
+        "1": 662,
+        "2": 1119
+      },
+      "valid_votes": 1781,
+      "invalid_votes": 19,
+      "ballots_cast": 1800,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1800,
+      "unused_ballots": 568,
+      "electors": 2368,
+      "turnout_rate": 76.01000213623047
+    },
+    "MIA-ZHUNAN-XINNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "新南里",
+      "village_en": "Xinnan Village",
+      "votes": {
+        "1": 873,
+        "2": 1672
+      },
+      "valid_votes": 2545,
+      "invalid_votes": 20,
+      "ballots_cast": 2565,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2565,
+      "unused_ballots": 590,
+      "electors": 3155,
+      "turnout_rate": 81.30000305175781
+    },
+    "MIA-ZHUNAN-DACUO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "大厝里",
+      "village_en": "Dacuo Village",
+      "votes": {
+        "1": 883,
+        "2": 1800
+      },
+      "valid_votes": 2683,
+      "invalid_votes": 38,
+      "ballots_cast": 2721,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2721,
+      "unused_ballots": 686,
+      "electors": 3407,
+      "turnout_rate": 79.86000061035156
+    },
+    "MIA-ZHUNAN-YINGPAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "營盤里",
+      "village_en": "Yingpan Village",
+      "votes": {
+        "1": 794,
+        "2": 1399
+      },
+      "valid_votes": 2193,
+      "invalid_votes": 29,
+      "ballots_cast": 2222,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2222,
+      "unused_ballots": 634,
+      "electors": 2856,
+      "turnout_rate": 77.80000305175781
+    },
+    "MIA-ZHUNAN-SHENGFU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "聖福里",
+      "village_en": "Shengfu Village",
+      "votes": {
+        "1": 636,
+        "2": 1420
+      },
+      "valid_votes": 2056,
+      "invalid_votes": 27,
+      "ballots_cast": 2083,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2083,
+      "unused_ballots": 522,
+      "electors": 2605,
+      "turnout_rate": 79.95999908447266
+    },
+    "MIA-ZHUNAN-ZHUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "竹興里",
+      "village_en": "Zhuxing Village",
+      "votes": {
+        "1": 703,
+        "2": 1349
+      },
+      "valid_votes": 2052,
+      "invalid_votes": 30,
+      "ballots_cast": 2082,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2082,
+      "unused_ballots": 804,
+      "electors": 2886,
+      "turnout_rate": 72.13999938964844
+    },
+    "MIA-ZHUNAN-LONGFENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "龍鳳里",
+      "village_en": "Longfeng Village",
+      "votes": {
+        "1": 1162,
+        "2": 2666
+      },
+      "valid_votes": 3828,
+      "invalid_votes": 34,
+      "ballots_cast": 3862,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3862,
+      "unused_ballots": 1080,
+      "electors": 4942,
+      "turnout_rate": 78.1500015258789
+    },
+    "MIA-ZHUNAN-SHANJIA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "山佳里",
+      "village_en": "Shanjia Village",
+      "votes": {
+        "1": 743,
+        "2": 1762
+      },
+      "valid_votes": 2505,
+      "invalid_votes": 32,
+      "ballots_cast": 2537,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2537,
+      "unused_ballots": 787,
+      "electors": 3324,
+      "turnout_rate": 76.31999969482422
+    },
+    "MIA-ZHUNAN-JIAXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "佳興里",
+      "village_en": "Jiaxing Village",
+      "votes": {
+        "1": 609,
+        "2": 1283
+      },
+      "valid_votes": 1892,
+      "invalid_votes": 26,
+      "ballots_cast": 1918,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1918,
+      "unused_ballots": 458,
+      "electors": 2376,
+      "turnout_rate": 80.72000122070312
+    },
+    "MIA-ZHUNAN-ZHONGGANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "中港里",
+      "village_en": "Zhonggang Village",
+      "votes": {
+        "1": 232,
+        "2": 542
+      },
+      "valid_votes": 774,
+      "invalid_votes": 8,
+      "ballots_cast": 782,
+      "unreturned_ballots": 0,
+      "ballots_issued": 782,
+      "unused_ballots": 214,
+      "electors": 996,
+      "turnout_rate": 78.51000213623047
+    },
+    "MIA-ZHUNAN-ZHONGHUA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "中華里",
+      "village_en": "Zhonghua Village",
+      "votes": {
+        "1": 665,
+        "2": 1224
+      },
+      "valid_votes": 1889,
+      "invalid_votes": 18,
+      "ballots_cast": 1907,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1907,
+      "unused_ballots": 491,
+      "electors": 2398,
+      "turnout_rate": 79.5199966430664
+    },
+    "MIA-ZHUNAN-ZHONGYING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "中英里",
+      "village_en": "Zhongying Village",
+      "votes": {
+        "1": 324,
+        "2": 663
+      },
+      "valid_votes": 987,
+      "invalid_votes": 7,
+      "ballots_cast": 994,
+      "unreturned_ballots": 0,
+      "ballots_issued": 994,
+      "unused_ballots": 320,
+      "electors": 1314,
+      "turnout_rate": 75.6500015258789
+    },
+    "MIA-ZHUNAN-ZHONGMEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "中美里",
+      "village_en": "Zhongmei Village",
+      "votes": {
+        "1": 430,
+        "2": 904
+      },
+      "valid_votes": 1334,
+      "invalid_votes": 16,
+      "ballots_cast": 1350,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1350,
+      "unused_ballots": 422,
+      "electors": 1772,
+      "turnout_rate": 76.19000244140625
+    },
+    "MIA-ZHUNAN-KAIYUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "開元里",
+      "village_en": "Kaiyuan Village",
+      "votes": {
+        "1": 183,
+        "2": 293
+      },
+      "valid_votes": 476,
+      "invalid_votes": 5,
+      "ballots_cast": 481,
+      "unreturned_ballots": 1,
+      "ballots_issued": 482,
+      "unused_ballots": 134,
+      "electors": 616,
+      "turnout_rate": 78.08000183105469
+    },
+    "MIA-ZHUNAN-HAIKOU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "海口里",
+      "village_en": "Haikou Village",
+      "votes": {
+        "1": 765,
+        "2": 1326
+      },
+      "valid_votes": 2091,
+      "invalid_votes": 21,
+      "ballots_cast": 2112,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2112,
+      "unused_ballots": 716,
+      "electors": 2828,
+      "turnout_rate": 74.68000030517578
+    },
+    "MIA-ZHUNAN-GANGQIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "港墘里",
+      "village_en": "Gangqian Village",
+      "votes": {
+        "1": 450,
+        "2": 869
+      },
+      "valid_votes": 1319,
+      "invalid_votes": 15,
+      "ballots_cast": 1334,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1334,
+      "unused_ballots": 337,
+      "electors": 1671,
+      "turnout_rate": 79.83000183105469
+    },
+    "MIA-ZHUNAN-GONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "公�里",
+      "village_en": "Gong� Village",
+      "votes": {
+        "1": 212,
+        "2": 660
+      },
+      "valid_votes": 872,
+      "invalid_votes": 7,
+      "ballots_cast": 879,
+      "unreturned_ballots": 0,
+      "ballots_issued": 879,
+      "unused_ballots": 279,
+      "electors": 1158,
+      "turnout_rate": 75.91000366210938
+    },
+    "MIA-ZHUNAN-DABU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "大埔里",
+      "village_en": "Dabu Village",
+      "votes": {
+        "1": 892,
+        "2": 1520
+      },
+      "valid_votes": 2412,
+      "invalid_votes": 28,
+      "ballots_cast": 2440,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2440,
+      "unused_ballots": 790,
+      "electors": 3230,
+      "turnout_rate": 75.54000091552734
+    },
+    "MIA-ZHUNAN-DINGPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "頂埔里",
+      "village_en": "Dingpu Village",
+      "votes": {
+        "1": 516,
+        "2": 1115
+      },
+      "valid_votes": 1631,
+      "invalid_votes": 22,
+      "ballots_cast": 1653,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1653,
+      "unused_ballots": 453,
+      "electors": 2106,
+      "turnout_rate": 78.48999786376953
+    },
+    "MIA-ZHUNAN-QIDING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "崎頂里",
+      "village_en": "Qiding Village",
+      "votes": {
+        "1": 851,
+        "2": 1447
+      },
+      "valid_votes": 2298,
+      "invalid_votes": 13,
+      "ballots_cast": 2311,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2311,
+      "unused_ballots": 738,
+      "electors": 3049,
+      "turnout_rate": 75.80000305175781
+    },
+    "MIA-ZHUNAN-GONGYI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "竹南鎮",
+      "township_en": "Zhunan Township",
+      "village_zh": "公義里",
+      "village_en": "Gongyi Village",
+      "votes": {
+        "1": 340,
+        "2": 412
+      },
+      "valid_votes": 752,
+      "invalid_votes": 7,
+      "ballots_cast": 759,
+      "unreturned_ballots": 0,
+      "ballots_issued": 759,
+      "unused_ballots": 223,
+      "electors": 982,
+      "turnout_rate": 77.29000091552734
+    },
+    "MIA-TOUFEN-LIUDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "流東里",
+      "village_en": "Liudong Village",
+      "votes": {
+        "1": 293,
+        "2": 1309
+      },
+      "valid_votes": 1602,
+      "invalid_votes": 9,
+      "ballots_cast": 1611,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1611,
+      "unused_ballots": 470,
+      "electors": 2081,
+      "turnout_rate": 77.41000366210938
+    },
+    "MIA-TOUFEN-SHANHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "珊湖里",
+      "village_en": "Shanhu Village",
+      "votes": {
+        "1": 276,
+        "2": 1098
+      },
+      "valid_votes": 1374,
+      "invalid_votes": 6,
+      "ballots_cast": 1380,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1380,
+      "unused_ballots": 380,
+      "electors": 1760,
+      "turnout_rate": 78.41000366210938
+    },
+    "MIA-TOUFEN-DOUHUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "斗煥里",
+      "village_en": "Douhuan Village",
+      "votes": {
+        "1": 490,
+        "2": 1694
+      },
+      "valid_votes": 2184,
+      "invalid_votes": 18,
+      "ballots_cast": 2202,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2202,
+      "unused_ballots": 638,
+      "electors": 2840,
+      "turnout_rate": 77.54000091552734
+    },
+    "MIA-TOUFEN-XINHUA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "新華里",
+      "village_en": "Xinhua Village",
+      "votes": {
+        "1": 548,
+        "2": 2254
+      },
+      "valid_votes": 2802,
+      "invalid_votes": 26,
+      "ballots_cast": 2828,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2828,
+      "unused_ballots": 698,
+      "electors": 3526,
+      "turnout_rate": 80.19999694824219
+    },
+    "MIA-TOUFEN-XINGLONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "興隆里",
+      "village_en": "Xinglong Village",
+      "votes": {
+        "1": 528,
+        "2": 1905
+      },
+      "valid_votes": 2433,
+      "invalid_votes": 24,
+      "ballots_cast": 2457,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2457,
+      "unused_ballots": 702,
+      "electors": 3159,
+      "turnout_rate": 77.77999877929688
+    },
+    "MIA-TOUFEN-SHANGPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "上埔里",
+      "village_en": "Shangpu Village",
+      "votes": {
+        "1": 322,
+        "2": 1613
+      },
+      "valid_votes": 1935,
+      "invalid_votes": 12,
+      "ballots_cast": 1947,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1947,
+      "unused_ballots": 474,
+      "electors": 2421,
+      "turnout_rate": 80.41999816894531
+    },
+    "MIA-TOUFEN-TUNIU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "土牛里",
+      "village_en": "Tuniu Village",
+      "votes": {
+        "1": 182,
+        "2": 435
+      },
+      "valid_votes": 617,
+      "invalid_votes": 6,
+      "ballots_cast": 623,
+      "unreturned_ballots": 0,
+      "ballots_issued": 623,
+      "unused_ballots": 178,
+      "electors": 801,
+      "turnout_rate": 77.77999877929688
+    },
+    "MIA-TOUFEN-TOUFEN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "頭份里",
+      "village_en": "Toufen Village",
+      "votes": {
+        "1": 403,
+        "2": 1791
+      },
+      "valid_votes": 2194,
+      "invalid_votes": 13,
+      "ballots_cast": 2207,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2207,
+      "unused_ballots": 580,
+      "electors": 2787,
+      "turnout_rate": 79.19000244140625
+    },
+    "MIA-TOUFEN-ZIQIANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "自強里",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 346,
+        "2": 1149
+      },
+      "valid_votes": 1495,
+      "invalid_votes": 10,
+      "ballots_cast": 1505,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1505,
+      "unused_ballots": 391,
+      "electors": 1896,
+      "turnout_rate": 79.37999725341797
+    },
+    "MIA-TOUFEN-ZHONGXIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "忠孝里",
+      "village_en": "Zhongxiao Village",
+      "votes": {
+        "1": 397,
+        "2": 1771
+      },
+      "valid_votes": 2168,
+      "invalid_votes": 18,
+      "ballots_cast": 2186,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2186,
+      "unused_ballots": 490,
+      "electors": 2676,
+      "turnout_rate": 81.69000244140625
+    },
+    "MIA-TOUFEN-RENAI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "仁愛里",
+      "village_en": "Renai Village",
+      "votes": {
+        "1": 300,
+        "2": 902
+      },
+      "valid_votes": 1202,
+      "invalid_votes": 12,
+      "ballots_cast": 1214,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1214,
+      "unused_ballots": 354,
+      "electors": 1568,
+      "turnout_rate": 77.41999816894531
+    },
+    "MIA-TOUFEN-XINYI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "信義里",
+      "village_en": "Xinyi Village",
+      "votes": {
+        "1": 137,
+        "2": 432
+      },
+      "valid_votes": 569,
+      "invalid_votes": 8,
+      "ballots_cast": 577,
+      "unreturned_ballots": 0,
+      "ballots_issued": 577,
+      "unused_ballots": 229,
+      "electors": 806,
+      "turnout_rate": 71.58999633789062
+    },
+    "MIA-TOUFEN-HEPING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "和平里",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 273,
+        "2": 583
+      },
+      "valid_votes": 856,
+      "invalid_votes": 7,
+      "ballots_cast": 863,
+      "unreturned_ballots": 0,
+      "ballots_issued": 863,
+      "unused_ballots": 204,
+      "electors": 1067,
+      "turnout_rate": 80.87999725341797
+    },
+    "MIA-TOUFEN-SHANGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "上興里",
+      "village_en": "Shangxing Village",
+      "votes": {
+        "1": 226,
+        "2": 813
+      },
+      "valid_votes": 1039,
+      "invalid_votes": 4,
+      "ballots_cast": 1043,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1043,
+      "unused_ballots": 336,
+      "electors": 1379,
+      "turnout_rate": 75.62999725341797
+    },
+    "MIA-TOUFEN-XIAXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "下興里",
+      "village_en": "Xiaxing Village",
+      "votes": {
+        "1": 341,
+        "2": 1248
+      },
+      "valid_votes": 1589,
+      "invalid_votes": 12,
+      "ballots_cast": 1601,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1601,
+      "unused_ballots": 519,
+      "electors": 2120,
+      "turnout_rate": 75.5199966430664
+    },
+    "MIA-TOUFEN-SHANXIA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "山下里",
+      "village_en": "Shanxia Village",
+      "votes": {
+        "1": 435,
+        "2": 1846
+      },
+      "valid_votes": 2281,
+      "invalid_votes": 18,
+      "ballots_cast": 2299,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2299,
+      "unused_ballots": 529,
+      "electors": 2828,
+      "turnout_rate": 81.29000091552734
+    },
+    "MIA-TOUFEN-HEXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "合興里",
+      "village_en": "Hexing Village",
+      "votes": {
+        "1": 708,
+        "2": 2508
+      },
+      "valid_votes": 3216,
+      "invalid_votes": 26,
+      "ballots_cast": 3242,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3242,
+      "unused_ballots": 835,
+      "electors": 4077,
+      "turnout_rate": 79.5199966430664
+    },
+    "MIA-TOUFEN-HOUZHUANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "後庄里",
+      "village_en": "Houzhuang Village",
+      "votes": {
+        "1": 512,
+        "2": 1632
+      },
+      "valid_votes": 2144,
+      "invalid_votes": 17,
+      "ballots_cast": 2161,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2161,
+      "unused_ballots": 501,
+      "electors": 2662,
+      "turnout_rate": 81.18000030517578
+    },
+    "MIA-TOUFEN-JIANGUO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "建國里",
+      "village_en": "Jianguo Village",
+      "votes": {
+        "1": 519,
+        "2": 1997
+      },
+      "valid_votes": 2516,
+      "invalid_votes": 14,
+      "ballots_cast": 2530,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2530,
+      "unused_ballots": 552,
+      "electors": 3082,
+      "turnout_rate": 82.08999633789062
+    },
+    "MIA-TOUFEN-CHENGGONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 423,
+        "2": 2021
+      },
+      "valid_votes": 2444,
+      "invalid_votes": 17,
+      "ballots_cast": 2461,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2461,
+      "unused_ballots": 649,
+      "electors": 3110,
+      "turnout_rate": 79.12999725341797
+    },
+    "MIA-TOUFEN-PANTAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "蟠桃里",
+      "village_en": "Pantao Village",
+      "votes": {
+        "1": 497,
+        "2": 2146
+      },
+      "valid_votes": 2643,
+      "invalid_votes": 18,
+      "ballots_cast": 2661,
+      "unreturned_ballots": 1,
+      "ballots_issued": 2662,
+      "unused_ballots": 712,
+      "electors": 3374,
+      "turnout_rate": 78.87000274658203
+    },
+    "MIA-TOUFEN-DONGZHUANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "東庄里",
+      "village_en": "Dongzhuang Village",
+      "votes": {
+        "1": 378,
+        "2": 1464
+      },
+      "valid_votes": 1842,
+      "invalid_votes": 16,
+      "ballots_cast": 1858,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1858,
+      "unused_ballots": 526,
+      "electors": 2384,
+      "turnout_rate": 77.94000244140625
+    },
+    "MIA-TOUFEN-MINZU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "民族里",
+      "village_en": "Minzu Village",
+      "votes": {
+        "1": 257,
+        "2": 1045
+      },
+      "valid_votes": 1302,
+      "invalid_votes": 13,
+      "ballots_cast": 1315,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1315,
+      "unused_ballots": 347,
+      "electors": 1662,
+      "turnout_rate": 79.12000274658203
+    },
+    "MIA-TOUFEN-MINQUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "民權里",
+      "village_en": "Minquan Village",
+      "votes": {
+        "1": 325,
+        "2": 1046
+      },
+      "valid_votes": 1371,
+      "invalid_votes": 17,
+      "ballots_cast": 1388,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1388,
+      "unused_ballots": 369,
+      "electors": 1757,
+      "turnout_rate": 79.0
+    },
+    "MIA-TOUFEN-MINSHENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 348,
+        "2": 1186
+      },
+      "valid_votes": 1534,
+      "invalid_votes": 17,
+      "ballots_cast": 1551,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1551,
+      "unused_ballots": 491,
+      "electors": 2042,
+      "turnout_rate": 75.94999694824219
+    },
+    "MIA-TOUFEN-TIANLIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "田寮里",
+      "village_en": "Tianliao Village",
+      "votes": {
+        "1": 524,
+        "2": 1785
+      },
+      "valid_votes": 2309,
+      "invalid_votes": 16,
+      "ballots_cast": 2325,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2325,
+      "unused_ballots": 618,
+      "electors": 2943,
+      "turnout_rate": 79.0
+    },
+    "MIA-TOUFEN-LUZHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "蘆竹里",
+      "village_en": "Luzhu Village",
+      "votes": {
+        "1": 361,
+        "2": 659
+      },
+      "valid_votes": 1020,
+      "invalid_votes": 11,
+      "ballots_cast": 1031,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1031,
+      "unused_ballots": 316,
+      "electors": 1347,
+      "turnout_rate": 76.54000091552734
+    },
+    "MIA-TOUFEN-JIANSHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "尖山里",
+      "village_en": "Jianshan Village",
+      "votes": {
+        "1": 199,
+        "2": 849
+      },
+      "valid_votes": 1048,
+      "invalid_votes": 8,
+      "ballots_cast": 1056,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1056,
+      "unused_ballots": 249,
+      "electors": 1305,
+      "turnout_rate": 80.91999816894531
+    },
+    "MIA-TOUFEN-GUANGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "廣興里",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 137,
+        "2": 583
+      },
+      "valid_votes": 720,
+      "invalid_votes": 5,
+      "ballots_cast": 725,
+      "unreturned_ballots": 0,
+      "ballots_issued": 725,
+      "unused_ballots": 165,
+      "electors": 890,
+      "turnout_rate": 81.45999908447266
+    },
+    "MIA-TOUFEN-JIANXIA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "尖下里",
+      "village_en": "Jianxia Village",
+      "votes": {
+        "1": 361,
+        "2": 1576
+      },
+      "valid_votes": 1937,
+      "invalid_votes": 21,
+      "ballots_cast": 1958,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1958,
+      "unused_ballots": 550,
+      "electors": 2508,
+      "turnout_rate": 78.06999969482422
+    },
+    "MIA-TOUFEN-LANKENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭份鎮",
+      "township_en": "Toufen Township",
+      "village_zh": "濫坑里",
+      "village_en": "Lankeng Village",
+      "votes": {
+        "1": 310,
+        "2": 1233
+      },
+      "valid_votes": 1543,
+      "invalid_votes": 14,
+      "ballots_cast": 1557,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1557,
+      "unused_ballots": 452,
+      "electors": 2009,
+      "turnout_rate": 77.5
+    },
+    "MIA-HOULONG-NANLONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "南龍里",
+      "village_en": "Nanlong Village",
+      "votes": {
+        "1": 374,
+        "2": 682
+      },
+      "valid_votes": 1056,
+      "invalid_votes": 3,
+      "ballots_cast": 1059,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1059,
+      "unused_ballots": 355,
+      "electors": 1414,
+      "turnout_rate": 74.88999938964844
+    },
+    "MIA-HOULONG-ZHONGLONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "中龍里",
+      "village_en": "Zhonglong Village",
+      "votes": {
+        "1": 316,
+        "2": 409
+      },
+      "valid_votes": 725,
+      "invalid_votes": 10,
+      "ballots_cast": 735,
+      "unreturned_ballots": 0,
+      "ballots_issued": 735,
+      "unused_ballots": 178,
+      "electors": 913,
+      "turnout_rate": 80.5
+    },
+    "MIA-HOULONG-BEILONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "北龍里",
+      "village_en": "Beilong Village",
+      "votes": {
+        "1": 452,
+        "2": 651
+      },
+      "valid_votes": 1103,
+      "invalid_votes": 19,
+      "ballots_cast": 1122,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1122,
+      "unused_ballots": 304,
+      "electors": 1426,
+      "turnout_rate": 78.68000030517578
+    },
+    "MIA-HOULONG-DAZHUANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "大庄里",
+      "village_en": "Dazhuang Village",
+      "votes": {
+        "1": 888,
+        "2": 1809
+      },
+      "valid_votes": 2697,
+      "invalid_votes": 35,
+      "ballots_cast": 2732,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2732,
+      "unused_ballots": 894,
+      "electors": 3626,
+      "turnout_rate": 75.33999633789062
+    },
+    "MIA-HOULONG-XIZHOU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "溪洲里",
+      "village_en": "Xizhou Village",
+      "votes": {
+        "1": 525,
+        "2": 1110
+      },
+      "valid_votes": 1635,
+      "invalid_votes": 16,
+      "ballots_cast": 1651,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1651,
+      "unused_ballots": 600,
+      "electors": 2251,
+      "turnout_rate": 73.3499984741211
+    },
+    "MIA-HOULONG-FENGFU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "豐富里",
+      "village_en": "Fengfu Village",
+      "votes": {
+        "1": 186,
+        "2": 813
+      },
+      "valid_votes": 999,
+      "invalid_votes": 9,
+      "ballots_cast": 1008,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1008,
+      "unused_ballots": 237,
+      "electors": 1245,
+      "turnout_rate": 80.95999908447266
+    },
+    "MIA-HOULONG-XIAOYI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "校椅里",
+      "village_en": "Xiaoyi Village",
+      "votes": {
+        "1": 273,
+        "2": 612
+      },
+      "valid_votes": 885,
+      "invalid_votes": 10,
+      "ballots_cast": 895,
+      "unreturned_ballots": 0,
+      "ballots_issued": 895,
+      "unused_ballots": 281,
+      "electors": 1176,
+      "turnout_rate": 76.11000061035156
+    },
+    "MIA-HOULONG-PUDING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "埔頂里",
+      "village_en": "Puding Village",
+      "votes": {
+        "1": 629,
+        "2": 1152
+      },
+      "valid_votes": 1781,
+      "invalid_votes": 19,
+      "ballots_cast": 1800,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1800,
+      "unused_ballots": 661,
+      "electors": 2461,
+      "turnout_rate": 73.13999938964844
+    },
+    "MIA-HOULONG-XINMIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "新民里",
+      "village_en": "Xinmin Village",
+      "votes": {
+        "1": 309,
+        "2": 713
+      },
+      "valid_votes": 1022,
+      "invalid_votes": 18,
+      "ballots_cast": 1040,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1040,
+      "unused_ballots": 338,
+      "electors": 1378,
+      "turnout_rate": 75.47000122070312
+    },
+    "MIA-HOULONG-FUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 195,
+        "2": 294
+      },
+      "valid_votes": 489,
+      "invalid_votes": 8,
+      "ballots_cast": 497,
+      "unreturned_ballots": 0,
+      "ballots_issued": 497,
+      "unused_ballots": 151,
+      "electors": 648,
+      "turnout_rate": 76.69999694824219
+    },
+    "MIA-HOULONG-DONGMING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "東明里",
+      "village_en": "Dongming Village",
+      "votes": {
+        "1": 366,
+        "2": 610
+      },
+      "valid_votes": 976,
+      "invalid_votes": 15,
+      "ballots_cast": 991,
+      "unreturned_ballots": 0,
+      "ballots_issued": 991,
+      "unused_ballots": 370,
+      "electors": 1361,
+      "turnout_rate": 72.80999755859375
+    },
+    "MIA-HOULONG-DASHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "大山里",
+      "village_en": "Dashan Village",
+      "votes": {
+        "1": 463,
+        "2": 667
+      },
+      "valid_votes": 1130,
+      "invalid_votes": 13,
+      "ballots_cast": 1143,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1143,
+      "unused_ballots": 424,
+      "electors": 1567,
+      "turnout_rate": 72.94000244140625
+    },
+    "MIA-HOULONG-WANBAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "灣寶里",
+      "village_en": "Wanbao Village",
+      "votes": {
+        "1": 404,
+        "2": 454
+      },
+      "valid_votes": 858,
+      "invalid_votes": 4,
+      "ballots_cast": 862,
+      "unreturned_ballots": 0,
+      "ballots_issued": 862,
+      "unused_ballots": 400,
+      "electors": 1262,
+      "turnout_rate": 68.30000305175781
+    },
+    "MIA-HOULONG-HAIBAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "海寶里",
+      "village_en": "Haibao Village",
+      "votes": {
+        "1": 279,
+        "2": 394
+      },
+      "valid_votes": 673,
+      "invalid_votes": 2,
+      "ballots_cast": 675,
+      "unreturned_ballots": 0,
+      "ballots_issued": 675,
+      "unused_ballots": 298,
+      "electors": 973,
+      "turnout_rate": 69.37000274658203
+    },
+    "MIA-HOULONG-WAIPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "外埔里",
+      "village_en": "Waipu Village",
+      "votes": {
+        "1": 232,
+        "2": 555
+      },
+      "valid_votes": 787,
+      "invalid_votes": 6,
+      "ballots_cast": 793,
+      "unreturned_ballots": 0,
+      "ballots_issued": 793,
+      "unused_ballots": 310,
+      "electors": 1103,
+      "turnout_rate": 71.88999938964844
+    },
+    "MIA-HOULONG-HAIPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "海埔里",
+      "village_en": "Haipu Village",
+      "votes": {
+        "1": 273,
+        "2": 385
+      },
+      "valid_votes": 658,
+      "invalid_votes": 11,
+      "ballots_cast": 669,
+      "unreturned_ballots": 1,
+      "ballots_issued": 670,
+      "unused_ballots": 336,
+      "electors": 1006,
+      "turnout_rate": 66.5
+    },
+    "MIA-HOULONG-XIUSHUI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "秀水里",
+      "village_en": "Xiushui Village",
+      "votes": {
+        "1": 225,
+        "2": 313
+      },
+      "valid_votes": 538,
+      "invalid_votes": 5,
+      "ballots_cast": 543,
+      "unreturned_ballots": 0,
+      "ballots_issued": 543,
+      "unused_ballots": 174,
+      "electors": 717,
+      "turnout_rate": 75.7300033569336
+    },
+    "MIA-HOULONG-SHUIWEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "水尾里",
+      "village_en": "Shuiwei Village",
+      "votes": {
+        "1": 289,
+        "2": 513
+      },
+      "valid_votes": 802,
+      "invalid_votes": 4,
+      "ballots_cast": 806,
+      "unreturned_ballots": 0,
+      "ballots_issued": 806,
+      "unused_ballots": 295,
+      "electors": 1101,
+      "turnout_rate": 73.20999908447266
+    },
+    "MIA-HOULONG-LONGJIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "龍津里",
+      "village_en": "Longjin Village",
+      "votes": {
+        "1": 176,
+        "2": 272
+      },
+      "valid_votes": 448,
+      "invalid_votes": 7,
+      "ballots_cast": 455,
+      "unreturned_ballots": 0,
+      "ballots_issued": 455,
+      "unused_ballots": 167,
+      "electors": 622,
+      "turnout_rate": 73.1500015258789
+    },
+    "MIA-HOULONG-LONGKENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "龍坑里",
+      "village_en": "Longkeng Village",
+      "votes": {
+        "1": 359,
+        "2": 576
+      },
+      "valid_votes": 935,
+      "invalid_votes": 10,
+      "ballots_cast": 945,
+      "unreturned_ballots": 0,
+      "ballots_issued": 945,
+      "unused_ballots": 333,
+      "electors": 1278,
+      "turnout_rate": 73.94000244140625
+    },
+    "MIA-HOULONG-FUNING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "福寧里",
+      "village_en": "Funing Village",
+      "votes": {
+        "1": 217,
+        "2": 327
+      },
+      "valid_votes": 544,
+      "invalid_votes": 4,
+      "ballots_cast": 548,
+      "unreturned_ballots": 0,
+      "ballots_issued": 548,
+      "unused_ballots": 244,
+      "electors": 792,
+      "turnout_rate": 69.19000244140625
+    },
+    "MIA-HOULONG-ZHONGHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "中和里",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 261,
+        "2": 499
+      },
+      "valid_votes": 760,
+      "invalid_votes": 7,
+      "ballots_cast": 767,
+      "unreturned_ballots": 0,
+      "ballots_issued": 767,
+      "unused_ballots": 418,
+      "electors": 1185,
+      "turnout_rate": 64.7300033569336
+    },
+    "MIA-HOULONG-NANGANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "後龍鎮",
+      "township_en": "Houlong Township",
+      "village_zh": "南港里",
+      "village_en": "Nangang Village",
+      "votes": {
+        "1": 390,
+        "2": 447
+      },
+      "valid_votes": 837,
+      "invalid_votes": 13,
+      "ballots_cast": 850,
+      "unreturned_ballots": 0,
+      "ballots_issued": 850,
+      "unused_ballots": 423,
+      "electors": 1273,
+      "turnout_rate": 66.7699966430664
+    },
+    "MIA-ZHUOLAN-LAOZHUANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "老庄里",
+      "village_en": "Laozhuang Village",
+      "votes": {
+        "1": 751,
+        "2": 916
+      },
+      "valid_votes": 1667,
+      "invalid_votes": 14,
+      "ballots_cast": 1681,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1681,
+      "unused_ballots": 460,
+      "electors": 2141,
+      "turnout_rate": 78.51000213623047
+    },
+    "MIA-ZHUOLAN-XINRONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "新榮里",
+      "village_en": "Xinrong Village",
+      "votes": {
+        "1": 458,
+        "2": 475
+      },
+      "valid_votes": 933,
+      "invalid_votes": 4,
+      "ballots_cast": 937,
+      "unreturned_ballots": 0,
+      "ballots_issued": 937,
+      "unused_ballots": 212,
+      "electors": 1149,
+      "turnout_rate": 81.55000305175781
+    },
+    "MIA-ZHUOLAN-ZHONGJIE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "中街里",
+      "village_en": "Zhongjie Village",
+      "votes": {
+        "1": 281,
+        "2": 373
+      },
+      "valid_votes": 654,
+      "invalid_votes": 6,
+      "ballots_cast": 660,
+      "unreturned_ballots": 0,
+      "ballots_issued": 660,
+      "unused_ballots": 157,
+      "electors": 817,
+      "turnout_rate": 80.77999877929688
+    },
+    "MIA-ZHUOLAN-XINCUO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "新厝里",
+      "village_en": "Xincuo Village",
+      "votes": {
+        "1": 516,
+        "2": 654
+      },
+      "valid_votes": 1170,
+      "invalid_votes": 10,
+      "ballots_cast": 1180,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1180,
+      "unused_ballots": 393,
+      "electors": 1573,
+      "turnout_rate": 75.0199966430664
+    },
+    "MIA-ZHUOLAN-FENGTIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "豐田里",
+      "village_en": "Fengtian Village",
+      "votes": {
+        "1": 361,
+        "2": 421
+      },
+      "valid_votes": 782,
+      "invalid_votes": 11,
+      "ballots_cast": 793,
+      "unreturned_ballots": 0,
+      "ballots_issued": 793,
+      "unused_ballots": 237,
+      "electors": 1030,
+      "turnout_rate": 76.98999786376953
+    },
+    "MIA-ZHUOLAN-XIPING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "西坪里",
+      "village_en": "Xiping Village",
+      "votes": {
+        "1": 157,
+        "2": 240
+      },
+      "valid_votes": 397,
+      "invalid_votes": 3,
+      "ballots_cast": 400,
+      "unreturned_ballots": 0,
+      "ballots_issued": 400,
+      "unused_ballots": 145,
+      "electors": 545,
+      "turnout_rate": 73.38999938964844
+    },
+    "MIA-ZHUOLAN-MIAOFENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "苗豐里",
+      "village_en": "Miaofeng Village",
+      "votes": {
+        "1": 282,
+        "2": 317
+      },
+      "valid_votes": 599,
+      "invalid_votes": 6,
+      "ballots_cast": 605,
+      "unreturned_ballots": 0,
+      "ballots_issued": 605,
+      "unused_ballots": 201,
+      "electors": 806,
+      "turnout_rate": 75.05999755859375
+    },
+    "MIA-ZHUOLAN-SHANGXIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "上新里",
+      "village_en": "Shangxin Village",
+      "votes": {
+        "1": 699,
+        "2": 828
+      },
+      "valid_votes": 1527,
+      "invalid_votes": 17,
+      "ballots_cast": 1544,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1544,
+      "unused_ballots": 578,
+      "electors": 2122,
+      "turnout_rate": 72.76000213623047
+    },
+    "MIA-ZHUOLAN-NEIWAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "內灣里",
+      "village_en": "Neiwan Village",
+      "votes": {
+        "1": 724,
+        "2": 851
+      },
+      "valid_votes": 1575,
+      "invalid_votes": 23,
+      "ballots_cast": 1598,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1598,
+      "unused_ballots": 570,
+      "electors": 2168,
+      "turnout_rate": 73.70999908447266
+    },
+    "MIA-ZHUOLAN-PINGLIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "坪林里",
+      "village_en": "Pinglin Village",
+      "votes": {
+        "1": 232,
+        "2": 421
+      },
+      "valid_votes": 653,
+      "invalid_votes": 6,
+      "ballots_cast": 659,
+      "unreturned_ballots": 0,
+      "ballots_issued": 659,
+      "unused_ballots": 288,
+      "electors": 947,
+      "turnout_rate": 69.58999633789062
+    },
+    "MIA-ZHUOLAN-PINGLIN-AND-XIPING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "坪林里、西坪里",
+      "village_en": "Pinglin and Xiping Village",
+      "votes": {
+        "1": 89,
+        "2": 305
+      },
+      "valid_votes": 394,
+      "invalid_votes": 3,
+      "ballots_cast": 397,
+      "unreturned_ballots": 0,
+      "ballots_issued": 397,
+      "unused_ballots": 122,
+      "electors": 519,
+      "turnout_rate": 76.48999786376953
+    },
+    "MIA-ZHUOLAN-JINGSHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "卓蘭鎮",
+      "township_en": "Zhuolan Township",
+      "village_zh": "景山里",
+      "village_en": "Jingshan Village",
+      "votes": {
+        "1": 182,
+        "2": 294
+      },
+      "valid_votes": 476,
+      "invalid_votes": 3,
+      "ballots_cast": 479,
+      "unreturned_ballots": 0,
+      "ballots_issued": 479,
+      "unused_ballots": 225,
+      "electors": 704,
+      "turnout_rate": 68.04000091552734
+    },
+    "MIA-DAHU-DAHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "大湖村",
+      "village_en": "Dahu Village",
+      "votes": {
+        "1": 271,
+        "2": 1019
+      },
+      "valid_votes": 1290,
+      "invalid_votes": 7,
+      "ballots_cast": 1297,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1297,
+      "unused_ballots": 411,
+      "electors": 1708,
+      "turnout_rate": 75.94000244140625
+    },
+    "MIA-DAHU-MINGHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "明湖村",
+      "village_en": "Minghu Village",
+      "votes": {
+        "1": 91,
+        "2": 429
+      },
+      "valid_votes": 520,
+      "invalid_votes": 3,
+      "ballots_cast": 523,
+      "unreturned_ballots": 0,
+      "ballots_issued": 523,
+      "unused_ballots": 125,
+      "electors": 648,
+      "turnout_rate": 80.70999908447266
+    },
+    "MIA-DAHU-DALIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "大寮村",
+      "village_en": "Daliao Village",
+      "votes": {
+        "1": 203,
+        "2": 719
+      },
+      "valid_votes": 922,
+      "invalid_votes": 9,
+      "ballots_cast": 931,
+      "unreturned_ballots": 0,
+      "ballots_issued": 931,
+      "unused_ballots": 295,
+      "electors": 1226,
+      "turnout_rate": 75.94000244140625
+    },
+    "MIA-DAHU-JINGHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "靜湖村",
+      "village_en": "Jinghu Village",
+      "votes": {
+        "1": 253,
+        "2": 1052
+      },
+      "valid_votes": 1305,
+      "invalid_votes": 9,
+      "ballots_cast": 1314,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1314,
+      "unused_ballots": 405,
+      "electors": 1719,
+      "turnout_rate": 76.44000244140625
+    },
+    "MIA-DAHU-FUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "富興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 246,
+        "2": 741
+      },
+      "valid_votes": 987,
+      "invalid_votes": 10,
+      "ballots_cast": 997,
+      "unreturned_ballots": 0,
+      "ballots_issued": 997,
+      "unused_ballots": 377,
+      "electors": 1374,
+      "turnout_rate": 72.55999755859375
+    },
+    "MIA-DAHU-DANAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "大南村",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 88,
+        "2": 327
+      },
+      "valid_votes": 415,
+      "invalid_votes": 4,
+      "ballots_cast": 419,
+      "unreturned_ballots": 0,
+      "ballots_issued": 419,
+      "unused_ballots": 180,
+      "electors": 599,
+      "turnout_rate": 69.94999694824219
+    },
+    "MIA-DAHU-NANHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "南湖村",
+      "village_en": "Nanhu Village",
+      "votes": {
+        "1": 157,
+        "2": 350
+      },
+      "valid_votes": 507,
+      "invalid_votes": 4,
+      "ballots_cast": 511,
+      "unreturned_ballots": 0,
+      "ballots_issued": 511,
+      "unused_ballots": 195,
+      "electors": 706,
+      "turnout_rate": 72.37999725341797
+    },
+    "MIA-DAHU-DONGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "東興村",
+      "village_en": "Dongxing Village",
+      "votes": {
+        "1": 140,
+        "2": 377
+      },
+      "valid_votes": 517,
+      "invalid_votes": 4,
+      "ballots_cast": 521,
+      "unreturned_ballots": 0,
+      "ballots_issued": 521,
+      "unused_ballots": 212,
+      "electors": 733,
+      "turnout_rate": 71.08000183105469
+    },
+    "MIA-DAHU-WURONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "武榮村",
+      "village_en": "Wurong Village",
+      "votes": {
+        "1": 94,
+        "2": 283
+      },
+      "valid_votes": 377,
+      "invalid_votes": 1,
+      "ballots_cast": 378,
+      "unreturned_ballots": 0,
+      "ballots_issued": 378,
+      "unused_ballots": 151,
+      "electors": 529,
+      "turnout_rate": 71.45999908447266
+    },
+    "MIA-DAHU-YIHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "義和村",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 317,
+        "2": 777
+      },
+      "valid_votes": 1094,
+      "invalid_votes": 7,
+      "ballots_cast": 1101,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1101,
+      "unused_ballots": 434,
+      "electors": 1535,
+      "turnout_rate": 71.7300033569336
+    },
+    "MIA-DAHU-LILIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "栗林村",
+      "village_en": "Lilin Village",
+      "votes": {
+        "1": 206,
+        "2": 426
+      },
+      "valid_votes": 632,
+      "invalid_votes": 8,
+      "ballots_cast": 640,
+      "unreturned_ballots": 0,
+      "ballots_issued": 640,
+      "unused_ballots": 268,
+      "electors": 908,
+      "turnout_rate": 70.4800033569336
+    },
+    "MIA-DAHU-XINKAI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "大湖鄉",
+      "township_en": "Dahu Township",
+      "village_zh": "新開村",
+      "village_en": "Xinkai Village",
+      "votes": {
+        "1": 216,
+        "2": 390
+      },
+      "valid_votes": 606,
+      "invalid_votes": 4,
+      "ballots_cast": 610,
+      "unreturned_ballots": 0,
+      "ballots_issued": 610,
+      "unused_ballots": 252,
+      "electors": 862,
+      "turnout_rate": 70.7699966430664
+    },
+    "MIA-GONGGUAN-GUANZHONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "館中村",
+      "village_en": "Guanzhong Village",
+      "votes": {
+        "1": 393,
+        "2": 888
+      },
+      "valid_votes": 1281,
+      "invalid_votes": 10,
+      "ballots_cast": 1291,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1291,
+      "unused_ballots": 307,
+      "electors": 1598,
+      "turnout_rate": 80.79000091552734
+    },
+    "MIA-GONGGUAN-GUANDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "館東村",
+      "village_en": "Guandong Village",
+      "votes": {
+        "1": 477,
+        "2": 1268
+      },
+      "valid_votes": 1745,
+      "invalid_votes": 20,
+      "ballots_cast": 1765,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1765,
+      "unused_ballots": 451,
+      "electors": 2216,
+      "turnout_rate": 79.6500015258789
+    },
+    "MIA-GONGGUAN-GUANNAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "館南村",
+      "village_en": "Guannan Village",
+      "votes": {
+        "1": 544,
+        "2": 1768
+      },
+      "valid_votes": 2312,
+      "invalid_votes": 22,
+      "ballots_cast": 2334,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2334,
+      "unused_ballots": 693,
+      "electors": 3027,
+      "turnout_rate": 77.11000061035156
+    },
+    "MIA-GONGGUAN-ZHONGYI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "中義村",
+      "village_en": "Zhongyi Village",
+      "votes": {
+        "1": 412,
+        "2": 1092
+      },
+      "valid_votes": 1504,
+      "invalid_votes": 20,
+      "ballots_cast": 1524,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1524,
+      "unused_ballots": 552,
+      "electors": 2076,
+      "turnout_rate": 73.41000366210938
+    },
+    "MIA-GONGGUAN-YUQUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "玉泉村",
+      "village_en": "Yuquan Village",
+      "votes": {
+        "1": 404,
+        "2": 1100
+      },
+      "valid_votes": 1504,
+      "invalid_votes": 17,
+      "ballots_cast": 1521,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1521,
+      "unused_ballots": 392,
+      "electors": 1913,
+      "turnout_rate": 79.51000213623047
+    },
+    "MIA-GONGGUAN-DAKENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "大坑村",
+      "village_en": "Dakeng Village",
+      "votes": {
+        "1": 206,
+        "2": 504
+      },
+      "valid_votes": 710,
+      "invalid_votes": 16,
+      "ballots_cast": 726,
+      "unreturned_ballots": 0,
+      "ballots_issued": 726,
+      "unused_ballots": 269,
+      "electors": 995,
+      "turnout_rate": 72.95999908447266
+    },
+    "MIA-GONGGUAN-FUJI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "福基村",
+      "village_en": "Fuji Village",
+      "votes": {
+        "1": 159,
+        "2": 622
+      },
+      "valid_votes": 781,
+      "invalid_votes": 2,
+      "ballots_cast": 783,
+      "unreturned_ballots": 0,
+      "ballots_issued": 783,
+      "unused_ballots": 277,
+      "electors": 1060,
+      "turnout_rate": 73.87000274658203
+    },
+    "MIA-GONGGUAN-FUDE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "福德村",
+      "village_en": "Fude Village",
+      "votes": {
+        "1": 80,
+        "2": 225
+      },
+      "valid_votes": 305,
+      "invalid_votes": 4,
+      "ballots_cast": 309,
+      "unreturned_ballots": 0,
+      "ballots_issued": 309,
+      "unused_ballots": 89,
+      "electors": 398,
+      "turnout_rate": 77.63999938964844
+    },
+    "MIA-GONGGUAN-FUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "福星村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 338,
+        "2": 1014
+      },
+      "valid_votes": 1352,
+      "invalid_votes": 10,
+      "ballots_cast": 1362,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1362,
+      "unused_ballots": 384,
+      "electors": 1746,
+      "turnout_rate": 78.01000213623047
+    },
+    "MIA-GONGGUAN-SHI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "石�村",
+      "village_en": "Shi� Village",
+      "votes": {
+        "1": 243,
+        "2": 841
+      },
+      "valid_votes": 1084,
+      "invalid_votes": 16,
+      "ballots_cast": 1100,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1100,
+      "unused_ballots": 368,
+      "electors": 1468,
+      "turnout_rate": 74.93000030517578
+    },
+    "MIA-GONGGUAN-KAIKUANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "開礦村",
+      "village_en": "Kaikuang Village",
+      "votes": {
+        "1": 69,
+        "2": 150
+      },
+      "valid_votes": 219,
+      "invalid_votes": 1,
+      "ballots_cast": 220,
+      "unreturned_ballots": 0,
+      "ballots_issued": 220,
+      "unused_ballots": 88,
+      "electors": 308,
+      "turnout_rate": 71.43000030517578
+    },
+    "MIA-GONGGUAN-WUGU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "五穀村",
+      "village_en": "Wugu Village",
+      "votes": {
+        "1": 427,
+        "2": 1046
+      },
+      "valid_votes": 1473,
+      "invalid_votes": 20,
+      "ballots_cast": 1493,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1493,
+      "unused_ballots": 444,
+      "electors": 1937,
+      "turnout_rate": 77.08000183105469
+    },
+    "MIA-GONGGUAN-YUGU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "玉榖村",
+      "village_en": "Yugu Village",
+      "votes": {
+        "1": 250,
+        "2": 651
+      },
+      "valid_votes": 901,
+      "invalid_votes": 16,
+      "ballots_cast": 917,
+      "unreturned_ballots": 0,
+      "ballots_issued": 917,
+      "unused_ballots": 282,
+      "electors": 1199,
+      "turnout_rate": 76.4800033569336
+    },
+    "MIA-GONGGUAN-HEGANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "鶴岡村",
+      "village_en": "Hegang Village",
+      "votes": {
+        "1": 254,
+        "2": 837
+      },
+      "valid_votes": 1091,
+      "invalid_votes": 14,
+      "ballots_cast": 1105,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1105,
+      "unused_ballots": 278,
+      "electors": 1383,
+      "turnout_rate": 79.9000015258789
+    },
+    "MIA-GONGGUAN-HESHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "鶴山村",
+      "village_en": "Heshan Village",
+      "votes": {
+        "1": 260,
+        "2": 800
+      },
+      "valid_votes": 1060,
+      "invalid_votes": 7,
+      "ballots_cast": 1067,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1067,
+      "unused_ballots": 330,
+      "electors": 1397,
+      "turnout_rate": 76.37999725341797
+    },
+    "MIA-GONGGUAN-JIANSHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "尖山村",
+      "village_en": "Jianshan Village",
+      "votes": {
+        "1": 259,
+        "2": 805
+      },
+      "valid_votes": 1064,
+      "invalid_votes": 14,
+      "ballots_cast": 1078,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1078,
+      "unused_ballots": 327,
+      "electors": 1405,
+      "turnout_rate": 76.7300033569336
+    },
+    "MIA-GONGGUAN-RENAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "仁安村",
+      "village_en": "Renan Village",
+      "votes": {
+        "1": 267,
+        "2": 640
+      },
+      "valid_votes": 907,
+      "invalid_votes": 9,
+      "ballots_cast": 916,
+      "unreturned_ballots": 0,
+      "ballots_issued": 916,
+      "unused_ballots": 288,
+      "electors": 1204,
+      "turnout_rate": 76.08000183105469
+    },
+    "MIA-GONGGUAN-NANHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "南河村",
+      "village_en": "Nanhe Village",
+      "votes": {
+        "1": 28,
+        "2": 145
+      },
+      "valid_votes": 173,
+      "invalid_votes": 2,
+      "ballots_cast": 175,
+      "unreturned_ballots": 0,
+      "ballots_issued": 175,
+      "unused_ballots": 60,
+      "electors": 235,
+      "turnout_rate": 74.47000122070312
+    },
+    "MIA-GONGGUAN-BEIHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "公館鄉",
+      "township_en": "Gongguan Township",
+      "village_zh": "北河村",
+      "village_en": "Beihe Village",
+      "votes": {
+        "1": 58,
+        "2": 186
+      },
+      "valid_votes": 244,
+      "invalid_votes": 4,
+      "ballots_cast": 248,
+      "unreturned_ballots": 0,
+      "ballots_issued": 248,
+      "unused_ballots": 70,
+      "electors": 318,
+      "turnout_rate": 77.98999786376953
+    },
+    "MIA-TONGLUO-TONGLUO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "銅鑼村",
+      "village_en": "Tongluo Village",
+      "votes": {
+        "1": 644,
+        "2": 2660
+      },
+      "valid_votes": 3304,
+      "invalid_votes": 23,
+      "ballots_cast": 3327,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3327,
+      "unused_ballots": 925,
+      "electors": 4252,
+      "turnout_rate": 78.25
+    },
+    "MIA-TONGLUO-ZHANGSHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "樟樹村",
+      "village_en": "Zhangshu Village",
+      "votes": {
+        "1": 218,
+        "2": 772
+      },
+      "valid_votes": 990,
+      "invalid_votes": 8,
+      "ballots_cast": 998,
+      "unreturned_ballots": 0,
+      "ballots_issued": 998,
+      "unused_ballots": 275,
+      "electors": 1273,
+      "turnout_rate": 78.4000015258789
+    },
+    "MIA-TONGLUO-JIUHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "九湖村",
+      "village_en": "Jiuhu Village",
+      "votes": {
+        "1": 182,
+        "2": 700
+      },
+      "valid_votes": 882,
+      "invalid_votes": 7,
+      "ballots_cast": 889,
+      "unreturned_ballots": 0,
+      "ballots_issued": 889,
+      "unused_ballots": 297,
+      "electors": 1186,
+      "turnout_rate": 74.95999908447266
+    },
+    "MIA-TONGLUO-CHAOYANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "朝陽村",
+      "village_en": "Chaoyang Village",
+      "votes": {
+        "1": 266,
+        "2": 1061
+      },
+      "valid_votes": 1327,
+      "invalid_votes": 9,
+      "ballots_cast": 1336,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1336,
+      "unused_ballots": 393,
+      "electors": 1729,
+      "turnout_rate": 77.2699966430664
+    },
+    "MIA-TONGLUO-ZHUSEN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "竹森村",
+      "village_en": "Zhusen Village",
+      "votes": {
+        "1": 144,
+        "2": 655
+      },
+      "valid_votes": 799,
+      "invalid_votes": 7,
+      "ballots_cast": 806,
+      "unreturned_ballots": 0,
+      "ballots_issued": 806,
+      "unused_ballots": 327,
+      "electors": 1133,
+      "turnout_rate": 71.13999938964844
+    },
+    "MIA-TONGLUO-FUXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 93,
+        "2": 672
+      },
+      "valid_votes": 765,
+      "invalid_votes": 6,
+      "ballots_cast": 771,
+      "unreturned_ballots": 0,
+      "ballots_issued": 771,
+      "unused_ballots": 256,
+      "electors": 1027,
+      "turnout_rate": 75.06999969482422
+    },
+    "MIA-TONGLUO-ZHONGPING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "中平村",
+      "village_en": "Zhongping Village",
+      "votes": {
+        "1": 619,
+        "2": 1501
+      },
+      "valid_votes": 2120,
+      "invalid_votes": 20,
+      "ballots_cast": 2140,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2140,
+      "unused_ballots": 791,
+      "electors": 2931,
+      "turnout_rate": 73.01000213623047
+    },
+    "MIA-TONGLUO-XINGLONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "興隆村",
+      "village_en": "Xinglong Village",
+      "votes": {
+        "1": 126,
+        "2": 329
+      },
+      "valid_votes": 455,
+      "invalid_votes": 5,
+      "ballots_cast": 460,
+      "unreturned_ballots": 0,
+      "ballots_issued": 460,
+      "unused_ballots": 151,
+      "electors": 611,
+      "turnout_rate": 75.29000091552734
+    },
+    "MIA-TONGLUO-SHENGLONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "盛隆村",
+      "village_en": "Shenglong Village",
+      "votes": {
+        "1": 95,
+        "2": 249
+      },
+      "valid_votes": 344,
+      "invalid_votes": 1,
+      "ballots_cast": 345,
+      "unreturned_ballots": 0,
+      "ballots_issued": 345,
+      "unused_ballots": 144,
+      "electors": 489,
+      "turnout_rate": 70.55000305175781
+    },
+    "MIA-TONGLUO-XINLONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "銅鑼鄉",
+      "township_en": "Tongluo Township",
+      "village_zh": "新隆村",
+      "village_en": "Xinlong Village",
+      "votes": {
+        "1": 99,
+        "2": 313
+      },
+      "valid_votes": 412,
+      "invalid_votes": 1,
+      "ballots_cast": 413,
+      "unreturned_ballots": 0,
+      "ballots_issued": 413,
+      "unused_ballots": 164,
+      "electors": 577,
+      "turnout_rate": 71.58000183105469
+    },
+    "MIA-NANZHUANG-DONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "東村",
+      "village_en": "Dong Village",
+      "votes": {
+        "1": 187,
+        "2": 702
+      },
+      "valid_votes": 889,
+      "invalid_votes": 2,
+      "ballots_cast": 891,
+      "unreturned_ballots": 0,
+      "ballots_issued": 891,
+      "unused_ballots": 292,
+      "electors": 1183,
+      "turnout_rate": 75.31999969482422
+    },
+    "MIA-NANZHUANG-XI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "西村",
+      "village_en": "Xi Village",
+      "votes": {
+        "1": 110,
+        "2": 437
+      },
+      "valid_votes": 547,
+      "invalid_votes": 3,
+      "ballots_cast": 550,
+      "unreturned_ballots": 0,
+      "ballots_issued": 550,
+      "unused_ballots": 145,
+      "electors": 695,
+      "turnout_rate": 79.13999938964844
+    },
+    "MIA-NANZHUANG-NANJIANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "南江村",
+      "village_en": "Nanjiang Village",
+      "votes": {
+        "1": 152,
+        "2": 820
+      },
+      "valid_votes": 972,
+      "invalid_votes": 13,
+      "ballots_cast": 985,
+      "unreturned_ballots": 0,
+      "ballots_issued": 985,
+      "unused_ballots": 358,
+      "electors": 1343,
+      "turnout_rate": 73.33999633789062
+    },
+    "MIA-NANZHUANG-TIANMEI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "田美村",
+      "village_en": "Tianmei Village",
+      "votes": {
+        "1": 130,
+        "2": 517
+      },
+      "valid_votes": 647,
+      "invalid_votes": 6,
+      "ballots_cast": 653,
+      "unreturned_ballots": 0,
+      "ballots_issued": 653,
+      "unused_ballots": 223,
+      "electors": 876,
+      "turnout_rate": 74.54000091552734
+    },
+    "MIA-NANZHUANG-SHISHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "獅山村",
+      "village_en": "Shishan Village",
+      "votes": {
+        "1": 183,
+        "2": 498
+      },
+      "valid_votes": 681,
+      "invalid_votes": 4,
+      "ballots_cast": 685,
+      "unreturned_ballots": 0,
+      "ballots_issued": 685,
+      "unused_ballots": 253,
+      "electors": 938,
+      "turnout_rate": 73.02999877929688
+    },
+    "MIA-NANZHUANG-NANFU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "南富村",
+      "village_en": "Nanfu Village",
+      "votes": {
+        "1": 186,
+        "2": 639
+      },
+      "valid_votes": 825,
+      "invalid_votes": 4,
+      "ballots_cast": 829,
+      "unreturned_ballots": 0,
+      "ballots_issued": 829,
+      "unused_ballots": 212,
+      "electors": 1041,
+      "turnout_rate": 79.62999725341797
+    },
+    "MIA-NANZHUANG-YUANLIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "員林村",
+      "village_en": "Yuanlin Village",
+      "votes": {
+        "1": 218,
+        "2": 547
+      },
+      "valid_votes": 765,
+      "invalid_votes": 6,
+      "ballots_cast": 771,
+      "unreturned_ballots": 0,
+      "ballots_issued": 771,
+      "unused_ballots": 241,
+      "electors": 1012,
+      "turnout_rate": 76.19000244140625
+    },
+    "MIA-NANZHUANG-PENGLAI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "蓬萊村",
+      "village_en": "Penglai Village",
+      "votes": {
+        "1": 84,
+        "2": 544
+      },
+      "valid_votes": 628,
+      "invalid_votes": 7,
+      "ballots_cast": 635,
+      "unreturned_ballots": 0,
+      "ballots_issued": 635,
+      "unused_ballots": 252,
+      "electors": 887,
+      "turnout_rate": 71.58999633789062
+    },
+    "MIA-NANZHUANG-DONGHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "南庄鄉",
+      "township_en": "Nanzhuang Township",
+      "village_zh": "東河村",
+      "village_en": "Donghe Village",
+      "votes": {
+        "1": 55,
+        "2": 595
+      },
+      "valid_votes": 650,
+      "invalid_votes": 2,
+      "ballots_cast": 652,
+      "unreturned_ballots": 0,
+      "ballots_issued": 652,
+      "unused_ballots": 322,
+      "electors": 974,
+      "turnout_rate": 66.94000244140625
+    },
+    "MIA-TOUWU-TOUWU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "頭屋村",
+      "village_en": "Touwu Village",
+      "votes": {
+        "1": 346,
+        "2": 1568
+      },
+      "valid_votes": 1914,
+      "invalid_votes": 20,
+      "ballots_cast": 1934,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1934,
+      "unused_ballots": 472,
+      "electors": 2406,
+      "turnout_rate": 80.37999725341797
+    },
+    "MIA-TOUWU-SHITAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "獅潭村",
+      "village_en": "Shitan Village",
+      "votes": {
+        "1": 285,
+        "2": 1001
+      },
+      "valid_votes": 1286,
+      "invalid_votes": 14,
+      "ballots_cast": 1300,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1300,
+      "unused_ballots": 339,
+      "electors": 1639,
+      "turnout_rate": 79.31999969482422
+    },
+    "MIA-TOUWU-BEIKENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "北坑村",
+      "village_en": "Beikeng Village",
+      "votes": {
+        "1": 109,
+        "2": 411
+      },
+      "valid_votes": 520,
+      "invalid_votes": 8,
+      "ballots_cast": 528,
+      "unreturned_ballots": 0,
+      "ballots_issued": 528,
+      "unused_ballots": 166,
+      "electors": 694,
+      "turnout_rate": 76.08000183105469
+    },
+    "MIA-TOUWU-QUDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "曲洞村",
+      "village_en": "Qudong Village",
+      "votes": {
+        "1": 222,
+        "2": 476
+      },
+      "valid_votes": 698,
+      "invalid_votes": 13,
+      "ballots_cast": 711,
+      "unreturned_ballots": 0,
+      "ballots_issued": 711,
+      "unused_ballots": 174,
+      "electors": 885,
+      "turnout_rate": 80.33999633789062
+    },
+    "MIA-TOUWU-FEIFENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "飛鳳村",
+      "village_en": "Feifeng Village",
+      "votes": {
+        "1": 81,
+        "2": 209
+      },
+      "valid_votes": 290,
+      "invalid_votes": 1,
+      "ballots_cast": 291,
+      "unreturned_ballots": 0,
+      "ballots_issued": 291,
+      "unused_ballots": 93,
+      "electors": 384,
+      "turnout_rate": 75.77999877929688
+    },
+    "MIA-TOUWU-XIANGSHAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "象山村",
+      "village_en": "Xiangshan Village",
+      "votes": {
+        "1": 330,
+        "2": 1104
+      },
+      "valid_votes": 1434,
+      "invalid_votes": 13,
+      "ballots_cast": 1447,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1447,
+      "unused_ballots": 431,
+      "electors": 1878,
+      "turnout_rate": 77.05000305175781
+    },
+    "MIA-TOUWU-MINGDE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "明德村",
+      "village_en": "Mingde Village",
+      "votes": {
+        "1": 189,
+        "2": 670
+      },
+      "valid_votes": 859,
+      "invalid_votes": 3,
+      "ballots_cast": 862,
+      "unreturned_ballots": 0,
+      "ballots_issued": 862,
+      "unused_ballots": 243,
+      "electors": 1105,
+      "turnout_rate": 78.01000213623047
+    },
+    "MIA-TOUWU-MINGFENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "頭屋鄉",
+      "township_en": "Touwu Township",
+      "village_zh": "鳴鳳村",
+      "village_en": "Mingfeng Village",
+      "votes": {
+        "1": 86,
+        "2": 198
+      },
+      "valid_votes": 284,
+      "invalid_votes": 2,
+      "ballots_cast": 286,
+      "unreturned_ballots": 0,
+      "ballots_issued": 286,
+      "unused_ballots": 68,
+      "electors": 354,
+      "turnout_rate": 80.79000091552734
+    },
+    "MIA-SANYI-GUANGSHENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "廣盛村",
+      "village_en": "Guangsheng Village",
+      "votes": {
+        "1": 747,
+        "2": 2436
+      },
+      "valid_votes": 3183,
+      "invalid_votes": 22,
+      "ballots_cast": 3205,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3205,
+      "unused_ballots": 744,
+      "electors": 3949,
+      "turnout_rate": 81.16000366210938
+    },
+    "MIA-SANYI-SHENGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "勝興村",
+      "village_en": "Shengxing Village",
+      "votes": {
+        "1": 590,
+        "2": 1889
+      },
+      "valid_votes": 2479,
+      "invalid_votes": 26,
+      "ballots_cast": 2505,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2505,
+      "unused_ballots": 704,
+      "electors": 3209,
+      "turnout_rate": 78.05999755859375
+    },
+    "MIA-SANYI-HU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "�湖村",
+      "village_en": "�hu Village",
+      "votes": {
+        "1": 306,
+        "2": 1050
+      },
+      "valid_votes": 1356,
+      "invalid_votes": 8,
+      "ballots_cast": 1364,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1364,
+      "unused_ballots": 345,
+      "electors": 1709,
+      "turnout_rate": 79.80999755859375
+    },
+    "MIA-SANYI-TAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "�潭村",
+      "village_en": "�tan Village",
+      "votes": {
+        "1": 261,
+        "2": 814
+      },
+      "valid_votes": 1075,
+      "invalid_votes": 11,
+      "ballots_cast": 1086,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1086,
+      "unused_ballots": 295,
+      "electors": 1381,
+      "turnout_rate": 78.63999938964844
+    },
+    "MIA-SANYI-XIHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "西湖村",
+      "village_en": "Xihu Village",
+      "votes": {
+        "1": 208,
+        "2": 908
+      },
+      "valid_votes": 1116,
+      "invalid_votes": 9,
+      "ballots_cast": 1125,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1125,
+      "unused_ballots": 271,
+      "electors": 1396,
+      "turnout_rate": 80.58999633789062
+    },
+    "MIA-SANYI-LONGTENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "龍騰村",
+      "village_en": "Longteng Village",
+      "votes": {
+        "1": 66,
+        "2": 286
+      },
+      "valid_votes": 352,
+      "invalid_votes": 2,
+      "ballots_cast": 354,
+      "unreturned_ballots": 0,
+      "ballots_issued": 354,
+      "unused_ballots": 60,
+      "electors": 414,
+      "turnout_rate": 85.51000213623047
+    },
+    "MIA-SANYI-LIYUTAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三義鄉",
+      "township_en": "Sanyi Township",
+      "village_zh": "鯉魚潭村",
+      "village_en": "Liyutan Village",
+      "votes": {
+        "1": 410,
+        "2": 507
+      },
+      "valid_votes": 917,
+      "invalid_votes": 4,
+      "ballots_cast": 921,
+      "unreturned_ballots": 0,
+      "ballots_issued": 921,
+      "unused_ballots": 271,
+      "electors": 1192,
+      "turnout_rate": 77.2699966430664
+    },
+    "MIA-XIHU-GAOPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "高埔村",
+      "village_en": "Gaopu Village",
+      "votes": {
+        "1": 75,
+        "2": 367
+      },
+      "valid_votes": 442,
+      "invalid_votes": 5,
+      "ballots_cast": 447,
+      "unreturned_ballots": 0,
+      "ballots_issued": 447,
+      "unused_ballots": 132,
+      "electors": 579,
+      "turnout_rate": 77.19999694824219
+    },
+    "MIA-XIHU-XIAPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "下埔村",
+      "village_en": "Xiapu Village",
+      "votes": {
+        "1": 90,
+        "2": 386
+      },
+      "valid_votes": 476,
+      "invalid_votes": 1,
+      "ballots_cast": 477,
+      "unreturned_ballots": 0,
+      "ballots_issued": 477,
+      "unused_ballots": 108,
+      "electors": 585,
+      "turnout_rate": 81.54000091552734
+    },
+    "MIA-XIHU-WUHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "五湖村",
+      "village_en": "Wuhu Village",
+      "votes": {
+        "1": 113,
+        "2": 538
+      },
+      "valid_votes": 651,
+      "invalid_votes": 5,
+      "ballots_cast": 656,
+      "unreturned_ballots": 0,
+      "ballots_issued": 656,
+      "unused_ballots": 226,
+      "electors": 882,
+      "turnout_rate": 74.37999725341797
+    },
+    "MIA-XIHU-SIHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "四湖村",
+      "village_en": "Sihu Village",
+      "votes": {
+        "1": 77,
+        "2": 405
+      },
+      "valid_votes": 482,
+      "invalid_votes": 4,
+      "ballots_cast": 486,
+      "unreturned_ballots": 0,
+      "ballots_issued": 486,
+      "unused_ballots": 154,
+      "electors": 640,
+      "turnout_rate": 75.94000244140625
+    },
+    "MIA-XIHU-SANHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "三湖村",
+      "village_en": "Sanhu Village",
+      "votes": {
+        "1": 181,
+        "2": 525
+      },
+      "valid_votes": 706,
+      "invalid_votes": 6,
+      "ballots_cast": 712,
+      "unreturned_ballots": 0,
+      "ballots_issued": 712,
+      "unused_ballots": 204,
+      "electors": 916,
+      "turnout_rate": 77.7300033569336
+    },
+    "MIA-XIHU-LONGDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "龍洞村",
+      "village_en": "Longdong Village",
+      "votes": {
+        "1": 96,
+        "2": 265
+      },
+      "valid_votes": 361,
+      "invalid_votes": 1,
+      "ballots_cast": 362,
+      "unreturned_ballots": 0,
+      "ballots_issued": 362,
+      "unused_ballots": 118,
+      "electors": 480,
+      "turnout_rate": 75.41999816894531
+    },
+    "MIA-XIHU-JINSHI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "金獅村",
+      "village_en": "Jinshi Village",
+      "votes": {
+        "1": 78,
+        "2": 318
+      },
+      "valid_votes": 396,
+      "invalid_votes": 1,
+      "ballots_cast": 397,
+      "unreturned_ballots": 0,
+      "ballots_issued": 397,
+      "unused_ballots": 144,
+      "electors": 541,
+      "turnout_rate": 73.37999725341797
+    },
+    "MIA-XIHU-HUDONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "湖東村",
+      "village_en": "Hudong Village",
+      "votes": {
+        "1": 195,
+        "2": 598
+      },
+      "valid_votes": 793,
+      "invalid_votes": 11,
+      "ballots_cast": 804,
+      "unreturned_ballots": 0,
+      "ballots_issued": 804,
+      "unused_ballots": 331,
+      "electors": 1135,
+      "turnout_rate": 70.83999633789062
+    },
+    "MIA-XIHU-ERHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "西湖鄉",
+      "township_en": "Xihu Township",
+      "village_zh": "二湖村",
+      "village_en": "Erhu Village",
+      "votes": {
+        "1": 136,
+        "2": 368
+      },
+      "valid_votes": 504,
+      "invalid_votes": 3,
+      "ballots_cast": 507,
+      "unreturned_ballots": 0,
+      "ballots_issued": 507,
+      "unused_ballots": 193,
+      "electors": 700,
+      "turnout_rate": 72.43000030517578
+    },
+    "MIA-ZAOQIAO-ZAOQIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "造橋村",
+      "village_en": "Zaoqiao Village",
+      "votes": {
+        "1": 273,
+        "2": 1225
+      },
+      "valid_votes": 1498,
+      "invalid_votes": 15,
+      "ballots_cast": 1513,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1513,
+      "unused_ballots": 438,
+      "electors": 1951,
+      "turnout_rate": 77.55000305175781
+    },
+    "MIA-ZAOQIAO-PINGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "平興村",
+      "village_en": "Pingxing Village",
+      "votes": {
+        "1": 59,
+        "2": 299
+      },
+      "valid_votes": 358,
+      "invalid_votes": 2,
+      "ballots_cast": 360,
+      "unreturned_ballots": 0,
+      "ballots_issued": 360,
+      "unused_ballots": 95,
+      "electors": 455,
+      "turnout_rate": 79.12000274658203
+    },
+    "MIA-ZAOQIAO-FENGHU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "豐湖村",
+      "village_en": "Fenghu Village",
+      "votes": {
+        "1": 164,
+        "2": 608
+      },
+      "valid_votes": 772,
+      "invalid_votes": 5,
+      "ballots_cast": 777,
+      "unreturned_ballots": 0,
+      "ballots_issued": 777,
+      "unused_ballots": 207,
+      "electors": 984,
+      "turnout_rate": 78.95999908447266
+    },
+    "MIA-ZAOQIAO-DAXI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "大西村",
+      "village_en": "Daxi Village",
+      "votes": {
+        "1": 464,
+        "2": 2031
+      },
+      "valid_votes": 2495,
+      "invalid_votes": 15,
+      "ballots_cast": 2510,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2510,
+      "unused_ballots": 673,
+      "electors": 3183,
+      "turnout_rate": 78.86000061035156
+    },
+    "MIA-ZAOQIAO-JINSHUI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "錦水村",
+      "village_en": "Jinshui Village",
+      "votes": {
+        "1": 94,
+        "2": 329
+      },
+      "valid_votes": 423,
+      "invalid_votes": 2,
+      "ballots_cast": 425,
+      "unreturned_ballots": 0,
+      "ballots_issued": 425,
+      "unused_ballots": 89,
+      "electors": 514,
+      "turnout_rate": 82.68000030517578
+    },
+    "MIA-ZAOQIAO-DALONG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "大龍村",
+      "village_en": "Dalong Village",
+      "votes": {
+        "1": 77,
+        "2": 335
+      },
+      "valid_votes": 412,
+      "invalid_votes": 3,
+      "ballots_cast": 415,
+      "unreturned_ballots": 0,
+      "ballots_issued": 415,
+      "unused_ballots": 86,
+      "electors": 501,
+      "turnout_rate": 82.83000183105469
+    },
+    "MIA-ZAOQIAO-CHAOYANG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "朝陽村",
+      "village_en": "Chaoyang Village",
+      "votes": {
+        "1": 364,
+        "2": 683
+      },
+      "valid_votes": 1047,
+      "invalid_votes": 6,
+      "ballots_cast": 1053,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1053,
+      "unused_ballots": 301,
+      "electors": 1354,
+      "turnout_rate": 77.7699966430664
+    },
+    "MIA-ZAOQIAO-TANWEN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "談文村",
+      "village_en": "Tanwen Village",
+      "votes": {
+        "1": 182,
+        "2": 370
+      },
+      "valid_votes": 552,
+      "invalid_votes": 7,
+      "ballots_cast": 559,
+      "unreturned_ballots": 0,
+      "ballots_issued": 559,
+      "unused_ballots": 163,
+      "electors": 722,
+      "turnout_rate": 77.41999816894531
+    },
+    "MIA-ZAOQIAO-LONGSHENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "造橋鄉",
+      "township_en": "Zaoqiao Township",
+      "village_zh": "龍昇村",
+      "village_en": "Longsheng Village",
+      "votes": {
+        "1": 265,
+        "2": 456
+      },
+      "valid_votes": 721,
+      "invalid_votes": 7,
+      "ballots_cast": 728,
+      "unreturned_ballots": 0,
+      "ballots_issued": 728,
+      "unused_ballots": 276,
+      "electors": 1004,
+      "turnout_rate": 72.51000213623047
+    },
+    "MIA-SANWAN-SANWAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "三灣村",
+      "village_en": "Sanwan Village",
+      "votes": {
+        "1": 441,
+        "2": 1333
+      },
+      "valid_votes": 1774,
+      "invalid_votes": 20,
+      "ballots_cast": 1794,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1794,
+      "unused_ballots": 401,
+      "electors": 2195,
+      "turnout_rate": 81.7300033569336
+    },
+    "MIA-SANWAN-NEIWAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "內灣村",
+      "village_en": "Neiwan Village",
+      "votes": {
+        "1": 107,
+        "2": 384
+      },
+      "valid_votes": 491,
+      "invalid_votes": 5,
+      "ballots_cast": 496,
+      "unreturned_ballots": 0,
+      "ballots_issued": 496,
+      "unused_ballots": 114,
+      "electors": 610,
+      "turnout_rate": 81.30999755859375
+    },
+    "MIA-SANWAN-TONGJING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "銅鏡村",
+      "village_en": "Tongjing Village",
+      "votes": {
+        "1": 153,
+        "2": 539
+      },
+      "valid_votes": 692,
+      "invalid_votes": 7,
+      "ballots_cast": 699,
+      "unreturned_ballots": 0,
+      "ballots_issued": 699,
+      "unused_ballots": 202,
+      "electors": 901,
+      "turnout_rate": 77.58000183105469
+    },
+    "MIA-SANWAN-DINGLIAO": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "頂寮村",
+      "village_en": "Dingliao Village",
+      "votes": {
+        "1": 31,
+        "2": 144
+      },
+      "valid_votes": 175,
+      "invalid_votes": 2,
+      "ballots_cast": 177,
+      "unreturned_ballots": 0,
+      "ballots_issued": 177,
+      "unused_ballots": 58,
+      "electors": 235,
+      "turnout_rate": 75.31999969482422
+    },
+    "MIA-SANWAN-BEIPU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "北埔村",
+      "village_en": "Beipu Village",
+      "votes": {
+        "1": 118,
+        "2": 274
+      },
+      "valid_votes": 392,
+      "invalid_votes": 1,
+      "ballots_cast": 393,
+      "unreturned_ballots": 0,
+      "ballots_issued": 393,
+      "unused_ballots": 133,
+      "electors": 526,
+      "turnout_rate": 74.70999908447266
+    },
+    "MIA-SANWAN-DAHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "大河村",
+      "village_en": "Dahe Village",
+      "votes": {
+        "1": 125,
+        "2": 309
+      },
+      "valid_votes": 434,
+      "invalid_votes": 2,
+      "ballots_cast": 436,
+      "unreturned_ballots": 0,
+      "ballots_issued": 436,
+      "unused_ballots": 148,
+      "electors": 584,
+      "turnout_rate": 74.66000366210938
+    },
+    "MIA-SANWAN-DAPING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "大坪村",
+      "village_en": "Daping Village",
+      "votes": {
+        "1": 98,
+        "2": 263
+      },
+      "valid_votes": 361,
+      "invalid_votes": 6,
+      "ballots_cast": 367,
+      "unreturned_ballots": 0,
+      "ballots_issued": 367,
+      "unused_ballots": 86,
+      "electors": 453,
+      "turnout_rate": 81.0199966430664
+    },
+    "MIA-SANWAN-YONGHE": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "三灣鄉",
+      "township_en": "Sanwan Township",
+      "village_zh": "永和村",
+      "village_en": "Yonghe Village",
+      "votes": {
+        "1": 67,
+        "2": 213
+      },
+      "valid_votes": 280,
+      "invalid_votes": 6,
+      "ballots_cast": 286,
+      "unreturned_ballots": 0,
+      "ballots_issued": 286,
+      "unused_ballots": 100,
+      "electors": 386,
+      "turnout_rate": 74.08999633789062
+    },
+    "MIA-SHITAN-BAISHOU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "百壽村",
+      "village_en": "Baishou Village",
+      "votes": {
+        "1": 39,
+        "2": 256
+      },
+      "valid_votes": 295,
+      "invalid_votes": 3,
+      "ballots_cast": 298,
+      "unreturned_ballots": 0,
+      "ballots_issued": 298,
+      "unused_ballots": 93,
+      "electors": 391,
+      "turnout_rate": 76.20999908447266
+    },
+    "MIA-SHITAN-YONGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "永興村",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 131,
+        "2": 313
+      },
+      "valid_votes": 444,
+      "invalid_votes": 6,
+      "ballots_cast": 450,
+      "unreturned_ballots": 0,
+      "ballots_issued": 450,
+      "unused_ballots": 173,
+      "electors": 623,
+      "turnout_rate": 72.2300033569336
+    },
+    "MIA-SHITAN-XINDIAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "新店村",
+      "village_en": "Xindian Village",
+      "votes": {
+        "1": 179,
+        "2": 545
+      },
+      "valid_votes": 724,
+      "invalid_votes": 5,
+      "ballots_cast": 729,
+      "unreturned_ballots": 0,
+      "ballots_issued": 729,
+      "unused_ballots": 218,
+      "electors": 947,
+      "turnout_rate": 76.9800033569336
+    },
+    "MIA-SHITAN-HEXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "和興村",
+      "village_en": "Hexing Village",
+      "votes": {
+        "1": 109,
+        "2": 336
+      },
+      "valid_votes": 445,
+      "invalid_votes": 6,
+      "ballots_cast": 451,
+      "unreturned_ballots": 0,
+      "ballots_issued": 451,
+      "unused_ballots": 146,
+      "electors": 597,
+      "turnout_rate": 75.54000091552734
+    },
+    "MIA-SHITAN-FENGLIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "豐林村",
+      "village_en": "Fenglin Village",
+      "votes": {
+        "1": 86,
+        "2": 384
+      },
+      "valid_votes": 470,
+      "invalid_votes": 7,
+      "ballots_cast": 477,
+      "unreturned_ballots": 0,
+      "ballots_issued": 477,
+      "unused_ballots": 167,
+      "electors": 644,
+      "turnout_rate": 74.06999969482422
+    },
+    "MIA-SHITAN-XINFENG": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "新豐村",
+      "village_en": "Xinfeng Village",
+      "votes": {
+        "1": 69,
+        "2": 198
+      },
+      "valid_votes": 267,
+      "invalid_votes": 1,
+      "ballots_cast": 268,
+      "unreturned_ballots": 0,
+      "ballots_issued": 268,
+      "unused_ballots": 98,
+      "electors": 366,
+      "turnout_rate": 73.22000122070312
+    },
+    "MIA-SHITAN-ZHUMU": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "獅潭鄉",
+      "township_en": "Shitan Township",
+      "village_zh": "竹木村",
+      "village_en": "Zhumu Village",
+      "votes": {
+        "1": 133,
+        "2": 402
+      },
+      "valid_votes": 535,
+      "invalid_votes": 4,
+      "ballots_cast": 539,
+      "unreturned_ballots": 0,
+      "ballots_issued": 539,
+      "unused_ballots": 208,
+      "electors": 747,
+      "turnout_rate": 72.16000366210938
+    },
+    "MIA-TAIAN-BAGUA": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "八卦村",
+      "village_en": "Bagua Village",
+      "votes": {
+        "1": 24,
+        "2": 159
+      },
+      "valid_votes": 183,
+      "invalid_votes": 0,
+      "ballots_cast": 183,
+      "unreturned_ballots": 0,
+      "ballots_issued": 183,
+      "unused_ballots": 89,
+      "electors": 272,
+      "turnout_rate": 67.27999877929688
+    },
+    "MIA-TAIAN-JINSHUI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "錦水村",
+      "village_en": "Jinshui Village",
+      "votes": {
+        "1": 72,
+        "2": 630
+      },
+      "valid_votes": 702,
+      "invalid_votes": 0,
+      "ballots_cast": 702,
+      "unreturned_ballots": 0,
+      "ballots_issued": 702,
+      "unused_ballots": 262,
+      "electors": 964,
+      "turnout_rate": 72.81999969482422
+    },
+    "MIA-TAIAN-QINGAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "清安村",
+      "village_en": "Qingan Village",
+      "votes": {
+        "1": 92,
+        "2": 519
+      },
+      "valid_votes": 611,
+      "invalid_votes": 3,
+      "ballots_cast": 614,
+      "unreturned_ballots": 0,
+      "ballots_issued": 614,
+      "unused_ballots": 228,
+      "electors": 842,
+      "turnout_rate": 72.91999816894531
+    },
+    "MIA-TAIAN-DAXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "大興村",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 16,
+        "2": 288
+      },
+      "valid_votes": 304,
+      "invalid_votes": 3,
+      "ballots_cast": 307,
+      "unreturned_ballots": 0,
+      "ballots_issued": 307,
+      "unused_ballots": 123,
+      "electors": 430,
+      "turnout_rate": 71.4000015258789
+    },
+    "MIA-TAIAN-ZHONGXING": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "中興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 35,
+        "2": 297
+      },
+      "valid_votes": 332,
+      "invalid_votes": 4,
+      "ballots_cast": 336,
+      "unreturned_ballots": 0,
+      "ballots_issued": 336,
+      "unused_ballots": 127,
+      "electors": 463,
+      "turnout_rate": 72.56999969482422
+    },
+    "MIA-TAIAN-MEIYUAN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "梅園村",
+      "village_en": "Meiyuan Village",
+      "votes": {
+        "1": 30,
+        "2": 278
+      },
+      "valid_votes": 308,
+      "invalid_votes": 2,
+      "ballots_cast": 310,
+      "unreturned_ballots": 0,
+      "ballots_issued": 310,
+      "unused_ballots": 99,
+      "electors": 409,
+      "turnout_rate": 75.79000091552734
+    },
+    "MIA-TAIAN-XIANGBI": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "象鼻村",
+      "village_en": "Xiangbi Village",
+      "votes": {
+        "1": 66,
+        "2": 337
+      },
+      "valid_votes": 403,
+      "invalid_votes": 2,
+      "ballots_cast": 405,
+      "unreturned_ballots": 0,
+      "ballots_issued": 405,
+      "unused_ballots": 136,
+      "electors": 541,
+      "turnout_rate": 74.86000061035156
+    },
+    "MIA-TAIAN-SHILIN": {
+      "county_zh": "苗栗縣",
+      "county_en": "Miaoli County",
+      "township_zh": "泰安鄉",
+      "township_en": "Taian Township",
+      "village_zh": "士林村",
+      "village_en": "Shilin Village",
+      "votes": {
+        "1": 12,
+        "2": 375
+      },
+      "valid_votes": 387,
+      "invalid_votes": 1,
+      "ballots_cast": 388,
+      "unreturned_ballots": 0,
+      "ballots_issued": 388,
+      "unused_ballots": 104,
+      "electors": 492,
+      "turnout_rate": 78.86000061035156
+    }
+  }
+}

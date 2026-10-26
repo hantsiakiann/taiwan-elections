@@ -1,0 +1,2258 @@
+{
+  "election_id": "2004-president",
+  "election_type": "president",
+  "source_file": "2004-PRES.xls",
+  "county_zh": "新竹市",
+  "county_en": "Hsinchu City",
+  "county_iso": "HSZ",
+  "candidates": {
+    "1": {
+      "name_zh": "陳水扁",
+      "running_mate_zh": "呂秀蓮",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "連戰",
+      "running_mate_zh": "宋楚瑜",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 96818,
+      "2": 118924
+    },
+    "valid_votes": 215742,
+    "invalid_votes": 5143,
+    "ballots_cast": 220885,
+    "unreturned_ballots": 5,
+    "electors": 271967,
+    "turnout_rate": 81.2176
+  },
+  "townships": {
+    "HSZ-DONG": {
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "votes": {
+        "1": 40497,
+        "2": 60784
+      },
+      "valid_votes": 101281,
+      "invalid_votes": 2280,
+      "ballots_cast": 103561,
+      "unreturned_ballots": 4,
+      "electors": 127098,
+      "turnout_rate": 81.4812
+    },
+    "HSZ-BEI": {
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "votes": {
+        "1": 36358,
+        "2": 40411
+      },
+      "valid_votes": 76769,
+      "invalid_votes": 1785,
+      "ballots_cast": 78554,
+      "unreturned_ballots": 1,
+      "electors": 96898,
+      "turnout_rate": 81.0688
+    },
+    "HSZ-XIANGSHAN": {
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "votes": {
+        "1": 19963,
+        "2": 17729
+      },
+      "valid_votes": 37692,
+      "invalid_votes": 1078,
+      "ballots_cast": 38770,
+      "unreturned_ballots": 0,
+      "electors": 47971,
+      "turnout_rate": 80.8197
+    }
+  },
+  "villages": {
+    "HSZ-DONG-NANMEN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "南門里",
+      "village_en": "Nanmen Village",
+      "votes": {
+        "1": 311,
+        "2": 230
+      },
+      "valid_votes": 541,
+      "invalid_votes": 11,
+      "ballots_cast": 552,
+      "unreturned_ballots": 0,
+      "electors": 701,
+      "turnout_rate": 78.7447
+    },
+    "HSZ-DONG-FUDE": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "福德里",
+      "village_en": "Fude Village",
+      "votes": {
+        "1": 550,
+        "2": 454
+      },
+      "valid_votes": 1004,
+      "invalid_votes": 30,
+      "ballots_cast": 1034,
+      "unreturned_ballots": 0,
+      "electors": 1292,
+      "turnout_rate": 80.031
+    },
+    "HSZ-DONG-NANSHI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "南市里",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 446,
+        "2": 283
+      },
+      "valid_votes": 729,
+      "invalid_votes": 9,
+      "ballots_cast": 738,
+      "unreturned_ballots": 0,
+      "electors": 911,
+      "turnout_rate": 81.0099
+    },
+    "HSZ-DONG-GUANDI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "關帝里",
+      "village_en": "Guandi Village",
+      "votes": {
+        "1": 268,
+        "2": 200
+      },
+      "valid_votes": 468,
+      "invalid_votes": 5,
+      "ballots_cast": 473,
+      "unreturned_ballots": 0,
+      "electors": 601,
+      "turnout_rate": 78.7022
+    },
+    "HSZ-DONG-DONGMEN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東門里",
+      "village_en": "Dongmen Village",
+      "votes": {
+        "1": 331,
+        "2": 237
+      },
+      "valid_votes": 568,
+      "invalid_votes": 18,
+      "ballots_cast": 586,
+      "unreturned_ballots": 0,
+      "electors": 715,
+      "turnout_rate": 81.958
+    },
+    "HSZ-DONG-RONGGUANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "榮光里",
+      "village_en": "Rongguang Village",
+      "votes": {
+        "1": 175,
+        "2": 170
+      },
+      "valid_votes": 345,
+      "invalid_votes": 8,
+      "ballots_cast": 353,
+      "unreturned_ballots": 0,
+      "electors": 467,
+      "turnout_rate": 75.5889
+    },
+    "HSZ-DONG-CHENGGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 331,
+        "2": 246
+      },
+      "valid_votes": 577,
+      "invalid_votes": 10,
+      "ballots_cast": 587,
+      "unreturned_ballots": 0,
+      "electors": 758,
+      "turnout_rate": 77.4406
+    },
+    "HSZ-DONG-XIAZHU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "下竹里",
+      "village_en": "Xiazhu Village",
+      "votes": {
+        "1": 235,
+        "2": 351
+      },
+      "valid_votes": 586,
+      "invalid_votes": 25,
+      "ballots_cast": 611,
+      "unreturned_ballots": 0,
+      "electors": 766,
+      "turnout_rate": 79.765
+    },
+    "HSZ-DONG-ZHULIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "竹蓮里",
+      "village_en": "Zhulian Village",
+      "votes": {
+        "1": 416,
+        "2": 240
+      },
+      "valid_votes": 656,
+      "invalid_votes": 17,
+      "ballots_cast": 673,
+      "unreturned_ballots": 0,
+      "electors": 806,
+      "turnout_rate": 83.4988
+    },
+    "HSZ-DONG-SIQIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "寺前里",
+      "village_en": "Siqian Village",
+      "votes": {
+        "1": 354,
+        "2": 283
+      },
+      "valid_votes": 637,
+      "invalid_votes": 20,
+      "ballots_cast": 657,
+      "unreturned_ballots": 0,
+      "electors": 858,
+      "turnout_rate": 76.5734
+    },
+    "HSZ-DONG-YUXIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "育賢里",
+      "village_en": "Yuxian Village",
+      "votes": {
+        "1": 327,
+        "2": 404
+      },
+      "valid_votes": 731,
+      "invalid_votes": 18,
+      "ballots_cast": 749,
+      "unreturned_ballots": 0,
+      "electors": 1207,
+      "turnout_rate": 62.0547
+    },
+    "HSZ-DONG-ZHONGZHENG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 202,
+        "2": 175
+      },
+      "valid_votes": 377,
+      "invalid_votes": 10,
+      "ballots_cast": 387,
+      "unreturned_ballots": 0,
+      "electors": 505,
+      "turnout_rate": 76.6337
+    },
+    "HSZ-DONG-GONGYUAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "公園里",
+      "village_en": "Gongyuan Village",
+      "votes": {
+        "1": 705,
+        "2": 1106
+      },
+      "valid_votes": 1811,
+      "invalid_votes": 41,
+      "ballots_cast": 1852,
+      "unreturned_ballots": 0,
+      "electors": 2256,
+      "turnout_rate": 82.0922
+    },
+    "HSZ-DONG-DINGZHU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "頂竹里",
+      "village_en": "Dingzhu Village",
+      "votes": {
+        "1": 1202,
+        "2": 1179
+      },
+      "valid_votes": 2381,
+      "invalid_votes": 50,
+      "ballots_cast": 2431,
+      "unreturned_ballots": 2,
+      "electors": 2996,
+      "turnout_rate": 81.1415
+    },
+    "HSZ-DONG-NANDA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "南大里",
+      "village_en": "Nanda Village",
+      "votes": {
+        "1": 611,
+        "2": 571
+      },
+      "valid_votes": 1182,
+      "invalid_votes": 34,
+      "ballots_cast": 1216,
+      "unreturned_ballots": 0,
+      "electors": 1506,
+      "turnout_rate": 80.7437
+    },
+    "HSZ-DONG-ZHENXING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "振興里",
+      "village_en": "Zhenxing Village",
+      "votes": {
+        "1": 1598,
+        "2": 1871
+      },
+      "valid_votes": 3469,
+      "invalid_votes": 65,
+      "ballots_cast": 3534,
+      "unreturned_ballots": 0,
+      "electors": 4490,
+      "turnout_rate": 78.7082
+    },
+    "HSZ-DONG-QINREN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "親仁里",
+      "village_en": "Qinren Village",
+      "votes": {
+        "1": 295,
+        "2": 1080
+      },
+      "valid_votes": 1375,
+      "invalid_votes": 32,
+      "ballots_cast": 1407,
+      "unreturned_ballots": 0,
+      "electors": 1773,
+      "turnout_rate": 79.357
+    },
+    "HSZ-DONG-WENHUA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "文華里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 1172,
+        "2": 1704
+      },
+      "valid_votes": 2876,
+      "invalid_votes": 48,
+      "ballots_cast": 2924,
+      "unreturned_ballots": 0,
+      "electors": 3536,
+      "turnout_rate": 82.6923
+    },
+    "HSZ-DONG-FUZHONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "復中里",
+      "village_en": "Fuzhong Village",
+      "votes": {
+        "1": 1319,
+        "2": 1757
+      },
+      "valid_votes": 3076,
+      "invalid_votes": 53,
+      "ballots_cast": 3129,
+      "unreturned_ballots": 0,
+      "electors": 3833,
+      "turnout_rate": 81.6332
+    },
+    "HSZ-DONG-SANMIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "三民里",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 1531,
+        "2": 1688
+      },
+      "valid_votes": 3219,
+      "invalid_votes": 69,
+      "ballots_cast": 3288,
+      "unreturned_ballots": 0,
+      "electors": 3927,
+      "turnout_rate": 83.728
+    },
+    "HSZ-DONG-DONGYUAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東園里",
+      "village_en": "Dongyuan Village",
+      "votes": {
+        "1": 874,
+        "2": 1186
+      },
+      "valid_votes": 2060,
+      "invalid_votes": 42,
+      "ballots_cast": 2102,
+      "unreturned_ballots": 0,
+      "electors": 2610,
+      "turnout_rate": 80.5364
+    },
+    "HSZ-DONG-DONGSHI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東勢里",
+      "village_en": "Dongshi Village",
+      "votes": {
+        "1": 445,
+        "2": 412
+      },
+      "valid_votes": 857,
+      "invalid_votes": 11,
+      "ballots_cast": 868,
+      "unreturned_ballots": 0,
+      "electors": 1063,
+      "turnout_rate": 81.6557
+    },
+    "HSZ-DONG-GUANGFU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "光復里",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 728,
+        "2": 746
+      },
+      "valid_votes": 1474,
+      "invalid_votes": 52,
+      "ballots_cast": 1526,
+      "unreturned_ballots": 0,
+      "electors": 1844,
+      "turnout_rate": 82.7549
+    },
+    "HSZ-DONG-FENGGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "豐功里",
+      "village_en": "Fenggong Village",
+      "votes": {
+        "1": 649,
+        "2": 1361
+      },
+      "valid_votes": 2010,
+      "invalid_votes": 53,
+      "ballots_cast": 2063,
+      "unreturned_ballots": 0,
+      "electors": 2551,
+      "turnout_rate": 80.8702
+    },
+    "HSZ-DONG-WUGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "武功里",
+      "village_en": "Wugong Village",
+      "votes": {
+        "1": 309,
+        "2": 2200
+      },
+      "valid_votes": 2509,
+      "invalid_votes": 65,
+      "ballots_cast": 2574,
+      "unreturned_ballots": 0,
+      "electors": 3008,
+      "turnout_rate": 85.5718
+    },
+    "HSZ-DONG-LVSHUI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "綠水里",
+      "village_en": "Lvshui Village",
+      "votes": {
+        "1": 1103,
+        "2": 2163
+      },
+      "valid_votes": 3266,
+      "invalid_votes": 59,
+      "ballots_cast": 3325,
+      "unreturned_ballots": 0,
+      "electors": 4107,
+      "turnout_rate": 80.9593
+    },
+    "HSZ-DONG-DONGSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "東山里",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 887,
+        "2": 1457
+      },
+      "valid_votes": 2344,
+      "invalid_votes": 42,
+      "ballots_cast": 2386,
+      "unreturned_ballots": 0,
+      "electors": 2903,
+      "turnout_rate": 82.1908
+    },
+    "HSZ-DONG-GUANGZHEN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "光鎮里",
+      "village_en": "Guangzhen Village",
+      "votes": {
+        "1": 1139,
+        "2": 1287
+      },
+      "valid_votes": 2426,
+      "invalid_votes": 43,
+      "ballots_cast": 2469,
+      "unreturned_ballots": 0,
+      "electors": 3028,
+      "turnout_rate": 81.539
+    },
+    "HSZ-DONG-XINXING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "新興里",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 1285,
+        "2": 1172
+      },
+      "valid_votes": 2457,
+      "invalid_votes": 48,
+      "ballots_cast": 2505,
+      "unreturned_ballots": 0,
+      "electors": 3078,
+      "turnout_rate": 81.384
+    },
+    "HSZ-DONG-CHAIQIAO": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "柴橋里",
+      "village_en": "Chaiqiao Village",
+      "votes": {
+        "1": 1132,
+        "2": 1739
+      },
+      "valid_votes": 2871,
+      "invalid_votes": 48,
+      "ballots_cast": 2919,
+      "unreturned_ballots": 0,
+      "electors": 3492,
+      "turnout_rate": 83.5911
+    },
+    "HSZ-DONG-GAOFENG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "高峰里",
+      "village_en": "Gaofeng Village",
+      "votes": {
+        "1": 1755,
+        "2": 2110
+      },
+      "valid_votes": 3865,
+      "invalid_votes": 85,
+      "ballots_cast": 3950,
+      "unreturned_ballots": 0,
+      "electors": 4945,
+      "turnout_rate": 79.8787
+    },
+    "HSZ-DONG-XIANGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "仙宮里",
+      "village_en": "Xiangong Village",
+      "votes": {
+        "1": 266,
+        "2": 436
+      },
+      "valid_votes": 702,
+      "invalid_votes": 20,
+      "ballots_cast": 722,
+      "unreturned_ballots": 0,
+      "electors": 871,
+      "turnout_rate": 82.8932
+    },
+    "HSZ-DONG-GUANGMING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "光明里",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 719,
+        "2": 1844
+      },
+      "valid_votes": 2563,
+      "invalid_votes": 34,
+      "ballots_cast": 2597,
+      "unreturned_ballots": 0,
+      "electors": 3273,
+      "turnout_rate": 79.3462
+    },
+    "HSZ-DONG-WEIGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "偉功里",
+      "village_en": "Weigong Village",
+      "votes": {
+        "1": 9,
+        "2": 90
+      },
+      "valid_votes": 99,
+      "invalid_votes": 4,
+      "ballots_cast": 103,
+      "unreturned_ballots": 0,
+      "electors": 168,
+      "turnout_rate": 61.3095
+    },
+    "HSZ-DONG-LIGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "立功里",
+      "village_en": "Ligong Village",
+      "votes": {
+        "1": 120,
+        "2": 559
+      },
+      "valid_votes": 679,
+      "invalid_votes": 19,
+      "ballots_cast": 698,
+      "unreturned_ballots": 0,
+      "electors": 857,
+      "turnout_rate": 81.4469
+    },
+    "HSZ-DONG-JUNGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "軍功里",
+      "village_en": "Jungong Village",
+      "votes": {
+        "1": 546,
+        "2": 2078
+      },
+      "valid_votes": 2624,
+      "invalid_votes": 79,
+      "ballots_cast": 2703,
+      "unreturned_ballots": 0,
+      "electors": 3235,
+      "turnout_rate": 83.5549
+    },
+    "HSZ-DONG-JIANGONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "建功里",
+      "village_en": "Jiangong Village",
+      "votes": {
+        "1": 302,
+        "2": 1721
+      },
+      "valid_votes": 2023,
+      "invalid_votes": 38,
+      "ballots_cast": 2061,
+      "unreturned_ballots": 0,
+      "electors": 2471,
+      "turnout_rate": 83.4075
+    },
+    "HSZ-DONG-QIANXI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "前溪里",
+      "village_en": "Qianxi Village",
+      "votes": {
+        "1": 1048,
+        "2": 883
+      },
+      "valid_votes": 1931,
+      "invalid_votes": 48,
+      "ballots_cast": 1979,
+      "unreturned_ballots": 0,
+      "electors": 2448,
+      "turnout_rate": 80.8415
+    },
+    "HSZ-DONG-SHUIYUAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "水源里",
+      "village_en": "Shuiyuan Village",
+      "votes": {
+        "1": 1383,
+        "2": 1017
+      },
+      "valid_votes": 2400,
+      "invalid_votes": 100,
+      "ballots_cast": 2500,
+      "unreturned_ballots": 0,
+      "electors": 3057,
+      "turnout_rate": 81.7795
+    },
+    "HSZ-DONG-QIANJIA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "千甲里",
+      "village_en": "Qianjia Village",
+      "votes": {
+        "1": 608,
+        "2": 761
+      },
+      "valid_votes": 1369,
+      "invalid_votes": 63,
+      "ballots_cast": 1432,
+      "unreturned_ballots": 0,
+      "electors": 1751,
+      "turnout_rate": 81.7818
+    },
+    "HSZ-DONG-PUDING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "埔頂里",
+      "village_en": "Puding Village",
+      "votes": {
+        "1": 896,
+        "2": 907
+      },
+      "valid_votes": 1803,
+      "invalid_votes": 36,
+      "ballots_cast": 1839,
+      "unreturned_ballots": 0,
+      "electors": 2247,
+      "turnout_rate": 81.8425
+    },
+    "HSZ-DONG-LONGSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "龍山里",
+      "village_en": "Longshan Village",
+      "votes": {
+        "1": 821,
+        "2": 1448
+      },
+      "valid_votes": 2269,
+      "invalid_votes": 47,
+      "ballots_cast": 2316,
+      "unreturned_ballots": 0,
+      "electors": 2772,
+      "turnout_rate": 83.5498
+    },
+    "HSZ-DONG-XINZHUANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "新莊里",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 1167,
+        "2": 2085
+      },
+      "valid_votes": 3252,
+      "invalid_votes": 72,
+      "ballots_cast": 3324,
+      "unreturned_ballots": 0,
+      "electors": 4015,
+      "turnout_rate": 82.7895
+    },
+    "HSZ-DONG-XIANSHUI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "仙水里",
+      "village_en": "Xianshui Village",
+      "votes": {
+        "1": 948,
+        "2": 1771
+      },
+      "valid_votes": 2719,
+      "invalid_votes": 55,
+      "ballots_cast": 2774,
+      "unreturned_ballots": 0,
+      "electors": 3316,
+      "turnout_rate": 83.655
+    },
+    "HSZ-DONG-JINSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "金山里",
+      "village_en": "Jinshan Village",
+      "votes": {
+        "1": 1007,
+        "2": 2457
+      },
+      "valid_votes": 3464,
+      "invalid_votes": 93,
+      "ballots_cast": 3557,
+      "unreturned_ballots": 2,
+      "electors": 4372,
+      "turnout_rate": 81.3586
+    },
+    "HSZ-DONG-GUANDONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "關東里",
+      "village_en": "Guandong Village",
+      "votes": {
+        "1": 945,
+        "2": 1996
+      },
+      "valid_votes": 2941,
+      "invalid_votes": 92,
+      "ballots_cast": 3033,
+      "unreturned_ballots": 0,
+      "electors": 3688,
+      "turnout_rate": 82.2397
+    },
+    "HSZ-DONG-KEYUAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "科園里",
+      "village_en": "Keyuan Village",
+      "votes": {
+        "1": 1366,
+        "2": 2929
+      },
+      "valid_votes": 4295,
+      "invalid_votes": 77,
+      "ballots_cast": 4372,
+      "unreturned_ballots": 0,
+      "electors": 5103,
+      "turnout_rate": 85.6751
+    },
+    "HSZ-DONG-JIANHUA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "建華里",
+      "village_en": "Jianhua Village",
+      "votes": {
+        "1": 840,
+        "2": 896
+      },
+      "valid_votes": 1736,
+      "invalid_votes": 38,
+      "ballots_cast": 1774,
+      "unreturned_ballots": 0,
+      "electors": 2157,
+      "turnout_rate": 82.2439
+    },
+    "HSZ-DONG-XINGUANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "新光里",
+      "village_en": "Xinguang Village",
+      "votes": {
+        "1": 1243,
+        "2": 1340
+      },
+      "valid_votes": 2583,
+      "invalid_votes": 79,
+      "ballots_cast": 2662,
+      "unreturned_ballots": 0,
+      "electors": 3275,
+      "turnout_rate": 81.2824
+    },
+    "HSZ-DONG-FUXING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 1186,
+        "2": 1710
+      },
+      "valid_votes": 2896,
+      "invalid_votes": 58,
+      "ballots_cast": 2954,
+      "unreturned_ballots": 0,
+      "electors": 3582,
+      "turnout_rate": 82.4679
+    },
+    "HSZ-DONG-JINHUA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "錦華里",
+      "village_en": "Jinhua Village",
+      "votes": {
+        "1": 387,
+        "2": 949
+      },
+      "valid_votes": 1336,
+      "invalid_votes": 23,
+      "ballots_cast": 1359,
+      "unreturned_ballots": 0,
+      "electors": 1722,
+      "turnout_rate": 78.9199
+    },
+    "HSZ-DONG-HUBIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "湖濱里",
+      "village_en": "Hubin Village",
+      "votes": {
+        "1": 1098,
+        "2": 1231
+      },
+      "valid_votes": 2329,
+      "invalid_votes": 34,
+      "ballots_cast": 2363,
+      "unreturned_ballots": 0,
+      "electors": 2914,
+      "turnout_rate": 81.0913
+    },
+    "HSZ-DONG-MINGHU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "東區",
+      "township_en": "Dong District",
+      "village_zh": "明湖里",
+      "village_en": "Minghu Village",
+      "votes": {
+        "1": 907,
+        "2": 1614
+      },
+      "valid_votes": 2521,
+      "invalid_votes": 50,
+      "ballots_cast": 2571,
+      "unreturned_ballots": 0,
+      "electors": 3271,
+      "turnout_rate": 78.5998
+    },
+    "HSZ-BEI-XIMEN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "西門里",
+      "village_en": "Ximen Village",
+      "votes": {
+        "1": 220,
+        "2": 188
+      },
+      "valid_votes": 408,
+      "invalid_votes": 14,
+      "ballots_cast": 422,
+      "unreturned_ballots": 0,
+      "electors": 521,
+      "turnout_rate": 80.9981
+    },
+    "HSZ-BEI-RENDE": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "仁德里",
+      "village_en": "Rende Village",
+      "votes": {
+        "1": 369,
+        "2": 237
+      },
+      "valid_votes": 606,
+      "invalid_votes": 15,
+      "ballots_cast": 621,
+      "unreturned_ballots": 0,
+      "electors": 761,
+      "turnout_rate": 81.6032
+    },
+    "HSZ-BEI-QIANYUAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "潛園里",
+      "village_en": "Qianyuan Village",
+      "votes": {
+        "1": 374,
+        "2": 273
+      },
+      "valid_votes": 647,
+      "invalid_votes": 12,
+      "ballots_cast": 659,
+      "unreturned_ballots": 0,
+      "electors": 808,
+      "turnout_rate": 81.5594
+    },
+    "HSZ-BEI-ZHONGYANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "中央里",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 276,
+        "2": 136
+      },
+      "valid_votes": 412,
+      "invalid_votes": 17,
+      "ballots_cast": 429,
+      "unreturned_ballots": 0,
+      "electors": 523,
+      "turnout_rate": 82.0268
+    },
+    "HSZ-BEI-CHONGLI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "崇禮里",
+      "village_en": "Chongli Village",
+      "votes": {
+        "1": 561,
+        "2": 364
+      },
+      "valid_votes": 925,
+      "invalid_votes": 32,
+      "ballots_cast": 957,
+      "unreturned_ballots": 0,
+      "electors": 1154,
+      "turnout_rate": 82.9289
+    },
+    "HSZ-BEI-SHIFANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "石坊里",
+      "village_en": "Shifang Village",
+      "votes": {
+        "1": 217,
+        "2": 193
+      },
+      "valid_votes": 410,
+      "invalid_votes": 13,
+      "ballots_cast": 423,
+      "unreturned_ballots": 0,
+      "electors": 550,
+      "turnout_rate": 76.9091
+    },
+    "HSZ-BEI-XINGNAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "興南里",
+      "village_en": "Xingnan Village",
+      "votes": {
+        "1": 563,
+        "2": 440
+      },
+      "valid_votes": 1003,
+      "invalid_votes": 21,
+      "ballots_cast": 1024,
+      "unreturned_ballots": 0,
+      "electors": 1238,
+      "turnout_rate": 82.7141
+    },
+    "HSZ-BEI-BEIMEN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "北門里",
+      "village_en": "Beimen Village",
+      "votes": {
+        "1": 460,
+        "2": 269
+      },
+      "valid_votes": 729,
+      "invalid_votes": 10,
+      "ballots_cast": 739,
+      "unreturned_ballots": 0,
+      "electors": 924,
+      "turnout_rate": 79.9784
+    },
+    "HSZ-BEI-ZHONGXING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "中興里",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 283,
+        "2": 171
+      },
+      "valid_votes": 454,
+      "invalid_votes": 13,
+      "ballots_cast": 467,
+      "unreturned_ballots": 0,
+      "electors": 588,
+      "turnout_rate": 79.4218
+    },
+    "HSZ-BEI-DATONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大同里",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 258,
+        "2": 405
+      },
+      "valid_votes": 663,
+      "invalid_votes": 19,
+      "ballots_cast": 682,
+      "unreturned_ballots": 0,
+      "electors": 838,
+      "turnout_rate": 81.3842
+    },
+    "HSZ-BEI-ZHONGSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 328,
+        "2": 212
+      },
+      "valid_votes": 540,
+      "invalid_votes": 7,
+      "ballots_cast": 547,
+      "unreturned_ballots": 0,
+      "electors": 664,
+      "turnout_rate": 82.3795
+    },
+    "HSZ-BEI-ZHANGHE": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "長和里",
+      "village_en": "Zhanghe Village",
+      "votes": {
+        "1": 533,
+        "2": 386
+      },
+      "valid_votes": 919,
+      "invalid_votes": 24,
+      "ballots_cast": 943,
+      "unreturned_ballots": 0,
+      "electors": 1167,
+      "turnout_rate": 80.8055
+    },
+    "HSZ-BEI-XINMIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "新民里",
+      "village_en": "Xinmin Village",
+      "votes": {
+        "1": 542,
+        "2": 496
+      },
+      "valid_votes": 1038,
+      "invalid_votes": 19,
+      "ballots_cast": 1057,
+      "unreturned_ballots": 0,
+      "electors": 1312,
+      "turnout_rate": 80.564
+    },
+    "HSZ-BEI-MINFU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "民富里",
+      "village_en": "Minfu Village",
+      "votes": {
+        "1": 1678,
+        "2": 1412
+      },
+      "valid_votes": 3090,
+      "invalid_votes": 77,
+      "ballots_cast": 3167,
+      "unreturned_ballots": 1,
+      "electors": 4014,
+      "turnout_rate": 78.8989
+    },
+    "HSZ-BEI-SHUITIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "水田里",
+      "village_en": "Shuitian Village",
+      "votes": {
+        "1": 990,
+        "2": 1113
+      },
+      "valid_votes": 2103,
+      "invalid_votes": 47,
+      "ballots_cast": 2150,
+      "unreturned_ballots": 0,
+      "electors": 2663,
+      "turnout_rate": 80.736
+    },
+    "HSZ-BEI-WENYA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "文雅里",
+      "village_en": "Wenya Village",
+      "votes": {
+        "1": 1307,
+        "2": 1275
+      },
+      "valid_votes": 2582,
+      "invalid_votes": 53,
+      "ballots_cast": 2635,
+      "unreturned_ballots": 0,
+      "electors": 3177,
+      "turnout_rate": 82.9399
+    },
+    "HSZ-BEI-GUANGTIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "光田里",
+      "village_en": "Guangtian Village",
+      "votes": {
+        "1": 790,
+        "2": 844
+      },
+      "valid_votes": 1634,
+      "invalid_votes": 29,
+      "ballots_cast": 1663,
+      "unreturned_ballots": 0,
+      "electors": 2021,
+      "turnout_rate": 82.286
+    },
+    "HSZ-BEI-SHILIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "士林里",
+      "village_en": "Shilin Village",
+      "votes": {
+        "1": 876,
+        "2": 1517
+      },
+      "valid_votes": 2393,
+      "invalid_votes": 71,
+      "ballots_cast": 2464,
+      "unreturned_ballots": 0,
+      "electors": 2936,
+      "turnout_rate": 83.9237
+    },
+    "HSZ-BEI-FULIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "福林里",
+      "village_en": "Fulin Village",
+      "votes": {
+        "1": 1057,
+        "2": 1308
+      },
+      "valid_votes": 2365,
+      "invalid_votes": 48,
+      "ballots_cast": 2413,
+      "unreturned_ballots": 0,
+      "electors": 2954,
+      "turnout_rate": 81.6858
+    },
+    "HSZ-BEI-GUXIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "古賢里",
+      "village_en": "Guxian Village",
+      "votes": {
+        "1": 433,
+        "2": 244
+      },
+      "valid_votes": 677,
+      "invalid_votes": 21,
+      "ballots_cast": 698,
+      "unreturned_ballots": 0,
+      "electors": 882,
+      "turnout_rate": 79.1383
+    },
+    "HSZ-BEI-NANYA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "湳雅里",
+      "village_en": "Nanya Village",
+      "votes": {
+        "1": 824,
+        "2": 1187
+      },
+      "valid_votes": 2011,
+      "invalid_votes": 40,
+      "ballots_cast": 2051,
+      "unreturned_ballots": 0,
+      "electors": 2531,
+      "turnout_rate": 81.0352
+    },
+    "HSZ-BEI-JIUSHE": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "舊社里",
+      "village_en": "Jiushe Village",
+      "votes": {
+        "1": 1772,
+        "2": 2021
+      },
+      "valid_votes": 3793,
+      "invalid_votes": 85,
+      "ballots_cast": 3878,
+      "unreturned_ballots": 0,
+      "electors": 4702,
+      "turnout_rate": 82.4755
+    },
+    "HSZ-BEI-WULING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "武陵里",
+      "village_en": "Wuling Village",
+      "votes": {
+        "1": 145,
+        "2": 1165
+      },
+      "valid_votes": 1310,
+      "invalid_votes": 25,
+      "ballots_cast": 1335,
+      "unreturned_ballots": 0,
+      "electors": 1585,
+      "turnout_rate": 84.2271
+    },
+    "HSZ-BEI-NANLIAO": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "南寮里",
+      "village_en": "Nanliao Village",
+      "votes": {
+        "1": 1449,
+        "2": 1385
+      },
+      "valid_votes": 2834,
+      "invalid_votes": 82,
+      "ballots_cast": 2916,
+      "unreturned_ballots": 0,
+      "electors": 3809,
+      "turnout_rate": 76.5555
+    },
+    "HSZ-BEI-JIUGANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "舊港里",
+      "village_en": "Jiugang Village",
+      "votes": {
+        "1": 213,
+        "2": 207
+      },
+      "valid_votes": 420,
+      "invalid_votes": 3,
+      "ballots_cast": 423,
+      "unreturned_ballots": 0,
+      "electors": 555,
+      "turnout_rate": 76.2162
+    },
+    "HSZ-BEI-KANGLE": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "康樂里",
+      "village_en": "Kangle Village",
+      "votes": {
+        "1": 734,
+        "2": 633
+      },
+      "valid_votes": 1367,
+      "invalid_votes": 44,
+      "ballots_cast": 1411,
+      "unreturned_ballots": 0,
+      "electors": 1765,
+      "turnout_rate": 79.9433
+    },
+    "HSZ-BEI-GANGBEI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "港北里",
+      "village_en": "Gangbei Village",
+      "votes": {
+        "1": 584,
+        "2": 359
+      },
+      "valid_votes": 943,
+      "invalid_votes": 27,
+      "ballots_cast": 970,
+      "unreturned_ballots": 0,
+      "electors": 1195,
+      "turnout_rate": 81.1715
+    },
+    "HSZ-BEI-ZHONGLIAO": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "中寮里",
+      "village_en": "Zhongliao Village",
+      "votes": {
+        "1": 652,
+        "2": 488
+      },
+      "valid_votes": 1140,
+      "invalid_votes": 24,
+      "ballots_cast": 1164,
+      "unreturned_ballots": 0,
+      "electors": 1477,
+      "turnout_rate": 78.8084
+    },
+    "HSZ-BEI-HAIBIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "海濱里",
+      "village_en": "Haibin Village",
+      "votes": {
+        "1": 699,
+        "2": 598
+      },
+      "valid_votes": 1297,
+      "invalid_votes": 33,
+      "ballots_cast": 1330,
+      "unreturned_ballots": 0,
+      "electors": 1682,
+      "turnout_rate": 79.0725
+    },
+    "HSZ-BEI-KEYA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "客雅里",
+      "village_en": "Keya Village",
+      "votes": {
+        "1": 991,
+        "2": 1291
+      },
+      "valid_votes": 2282,
+      "invalid_votes": 63,
+      "ballots_cast": 2345,
+      "unreturned_ballots": 0,
+      "electors": 2939,
+      "turnout_rate": 79.789
+    },
+    "HSZ-BEI-YUYING": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "育英里",
+      "village_en": "Yuying Village",
+      "votes": {
+        "1": 1272,
+        "2": 1439
+      },
+      "valid_votes": 2711,
+      "invalid_votes": 50,
+      "ballots_cast": 2761,
+      "unreturned_ballots": 0,
+      "electors": 3389,
+      "turnout_rate": 81.4695
+    },
+    "HSZ-BEI-QUXI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "曲溪里",
+      "village_en": "Quxi Village",
+      "votes": {
+        "1": 1392,
+        "2": 2203
+      },
+      "valid_votes": 3595,
+      "invalid_votes": 170,
+      "ballots_cast": 3765,
+      "unreturned_ballots": 0,
+      "electors": 4730,
+      "turnout_rate": 79.5983
+    },
+    "HSZ-BEI-XIYA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "西雅里",
+      "village_en": "Xiya Village",
+      "votes": {
+        "1": 1114,
+        "2": 861
+      },
+      "valid_votes": 1975,
+      "invalid_votes": 49,
+      "ballots_cast": 2024,
+      "unreturned_ballots": 0,
+      "electors": 2534,
+      "turnout_rate": 79.8737
+    },
+    "HSZ-BEI-NANSHI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "南勢里",
+      "village_en": "Nanshi Village",
+      "votes": {
+        "1": 1727,
+        "2": 1015
+      },
+      "valid_votes": 2742,
+      "invalid_votes": 61,
+      "ballots_cast": 2803,
+      "unreturned_ballots": 0,
+      "electors": 3404,
+      "turnout_rate": 82.3443
+    },
+    "HSZ-BEI-DAPENG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "大鵬里",
+      "village_en": "Dapeng Village",
+      "votes": {
+        "1": 42,
+        "2": 1218
+      },
+      "valid_votes": 1260,
+      "invalid_votes": 36,
+      "ballots_cast": 1296,
+      "unreturned_ballots": 0,
+      "electors": 1521,
+      "turnout_rate": 85.2071
+    },
+    "HSZ-BEI-JINGFU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "境福里",
+      "village_en": "Jingfu Village",
+      "votes": {
+        "1": 1417,
+        "2": 1533
+      },
+      "valid_votes": 2950,
+      "invalid_votes": 50,
+      "ballots_cast": 3000,
+      "unreturned_ballots": 0,
+      "electors": 3683,
+      "turnout_rate": 81.4553
+    },
+    "HSZ-BEI-PANSHI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "磐石里",
+      "village_en": "Panshi Village",
+      "votes": {
+        "1": 1685,
+        "2": 1549
+      },
+      "valid_votes": 3234,
+      "invalid_votes": 65,
+      "ballots_cast": 3299,
+      "unreturned_ballots": 0,
+      "electors": 4046,
+      "turnout_rate": 81.5373
+    },
+    "HSZ-BEI-XINYA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "新雅里",
+      "village_en": "Xinya Village",
+      "votes": {
+        "1": 1620,
+        "2": 1290
+      },
+      "valid_votes": 2910,
+      "invalid_votes": 65,
+      "ballots_cast": 2975,
+      "unreturned_ballots": 0,
+      "electors": 3658,
+      "turnout_rate": 81.3286
+    },
+    "HSZ-BEI-GUANGHUA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "光華里",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 950,
+        "2": 1317
+      },
+      "valid_votes": 2267,
+      "invalid_votes": 50,
+      "ballots_cast": 2317,
+      "unreturned_ballots": 0,
+      "electors": 3024,
+      "turnout_rate": 76.6204
+    },
+    "HSZ-BEI-JINHUA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "金華里",
+      "village_en": "Jinhua Village",
+      "votes": {
+        "1": 1323,
+        "2": 1650
+      },
+      "valid_votes": 2973,
+      "invalid_votes": 43,
+      "ballots_cast": 3016,
+      "unreturned_ballots": 0,
+      "electors": 3664,
+      "turnout_rate": 82.3144
+    },
+    "HSZ-BEI-JINZHU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "金竹里",
+      "village_en": "Jinzhu Village",
+      "votes": {
+        "1": 1330,
+        "2": 2113
+      },
+      "valid_votes": 3443,
+      "invalid_votes": 59,
+      "ballots_cast": 3502,
+      "unreturned_ballots": 0,
+      "electors": 4280,
+      "turnout_rate": 81.8224
+    },
+    "HSZ-BEI-NANZHONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "湳中里",
+      "village_en": "Nanzhong Village",
+      "votes": {
+        "1": 1333,
+        "2": 2275
+      },
+      "valid_votes": 3608,
+      "invalid_votes": 45,
+      "ballots_cast": 3653,
+      "unreturned_ballots": 0,
+      "electors": 4374,
+      "turnout_rate": 83.5162
+    },
+    "HSZ-BEI-JINYA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "金雅里",
+      "village_en": "Jinya Village",
+      "votes": {
+        "1": 566,
+        "2": 557
+      },
+      "valid_votes": 1123,
+      "invalid_votes": 26,
+      "ballots_cast": 1149,
+      "unreturned_ballots": 0,
+      "electors": 1352,
+      "turnout_rate": 84.9852
+    },
+    "HSZ-BEI-TAIXI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "北區",
+      "township_en": "Bei District",
+      "village_zh": "台溪里",
+      "village_en": "Taixi Village",
+      "votes": {
+        "1": 409,
+        "2": 574
+      },
+      "valid_votes": 983,
+      "invalid_votes": 28,
+      "ballots_cast": 1011,
+      "unreturned_ballots": 0,
+      "electors": 1304,
+      "turnout_rate": 77.5307
+    },
+    "HSZ-XIANGSHAN-GANGNAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "港南里",
+      "village_en": "Gangnan Village",
+      "votes": {
+        "1": 872,
+        "2": 586
+      },
+      "valid_votes": 1458,
+      "invalid_votes": 45,
+      "ballots_cast": 1503,
+      "unreturned_ballots": 0,
+      "electors": 1875,
+      "turnout_rate": 80.16
+    },
+    "HSZ-XIANGSHAN-HUSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "虎山里",
+      "village_en": "Hushan Village",
+      "votes": {
+        "1": 2060,
+        "2": 1615
+      },
+      "valid_votes": 3675,
+      "invalid_votes": 93,
+      "ballots_cast": 3768,
+      "unreturned_ballots": 0,
+      "electors": 4764,
+      "turnout_rate": 79.0932
+    },
+    "HSZ-XIANGSHAN-HULIN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "虎林里",
+      "village_en": "Hulin Village",
+      "votes": {
+        "1": 828,
+        "2": 826
+      },
+      "valid_votes": 1654,
+      "invalid_votes": 41,
+      "ballots_cast": 1695,
+      "unreturned_ballots": 0,
+      "electors": 2035,
+      "turnout_rate": 83.2924
+    },
+    "HSZ-XIANGSHAN-JINSHUI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "浸水里",
+      "village_en": "Jinshui Village",
+      "votes": {
+        "1": 820,
+        "2": 434
+      },
+      "valid_votes": 1254,
+      "invalid_votes": 49,
+      "ballots_cast": 1303,
+      "unreturned_ballots": 0,
+      "electors": 1603,
+      "turnout_rate": 81.2851
+    },
+    "HSZ-XIANGSHAN-SHUXIA": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "樹下里",
+      "village_en": "Shuxia Village",
+      "votes": {
+        "1": 1010,
+        "2": 431
+      },
+      "valid_votes": 1441,
+      "invalid_votes": 46,
+      "ballots_cast": 1487,
+      "unreturned_ballots": 0,
+      "electors": 1842,
+      "turnout_rate": 80.7275
+    },
+    "HSZ-XIANGSHAN-PUQIAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "埔前里",
+      "village_en": "Puqian Village",
+      "votes": {
+        "1": 1145,
+        "2": 780
+      },
+      "valid_votes": 1925,
+      "invalid_votes": 60,
+      "ballots_cast": 1985,
+      "unreturned_ballots": 0,
+      "electors": 2442,
+      "turnout_rate": 81.2858
+    },
+    "HSZ-XIANGSHAN-ZHONGPU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "中埔里",
+      "village_en": "Zhongpu Village",
+      "votes": {
+        "1": 996,
+        "2": 943
+      },
+      "valid_votes": 1939,
+      "invalid_votes": 35,
+      "ballots_cast": 1974,
+      "unreturned_ballots": 0,
+      "electors": 2393,
+      "turnout_rate": 82.4906
+    },
+    "HSZ-XIANGSHAN-NIUPU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "牛埔里",
+      "village_en": "Niupu Village",
+      "votes": {
+        "1": 966,
+        "2": 993
+      },
+      "valid_votes": 1959,
+      "invalid_votes": 48,
+      "ballots_cast": 2007,
+      "unreturned_ballots": 0,
+      "electors": 2435,
+      "turnout_rate": 82.423
+    },
+    "HSZ-XIANGSHAN-DINGPU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "頂埔里",
+      "village_en": "Dingpu Village",
+      "votes": {
+        "1": 1090,
+        "2": 1306
+      },
+      "valid_votes": 2396,
+      "invalid_votes": 55,
+      "ballots_cast": 2451,
+      "unreturned_ballots": 0,
+      "electors": 3025,
+      "turnout_rate": 81.0248
+    },
+    "HSZ-XIANGSHAN-DONGXIANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "東香里",
+      "village_en": "Dongxiang Village",
+      "votes": {
+        "1": 715,
+        "2": 1141
+      },
+      "valid_votes": 1856,
+      "invalid_votes": 42,
+      "ballots_cast": 1898,
+      "unreturned_ballots": 0,
+      "electors": 2315,
+      "turnout_rate": 81.987
+    },
+    "HSZ-XIANGSHAN-XIANGCUN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "香村里",
+      "village_en": "Xiangcun Village",
+      "votes": {
+        "1": 781,
+        "2": 830
+      },
+      "valid_votes": 1611,
+      "invalid_votes": 56,
+      "ballots_cast": 1667,
+      "unreturned_ballots": 0,
+      "electors": 2054,
+      "turnout_rate": 81.1587
+    },
+    "HSZ-XIANGSHAN-XIANGSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "香山里",
+      "village_en": "Xiangshan Village",
+      "votes": {
+        "1": 1153,
+        "2": 997
+      },
+      "valid_votes": 2150,
+      "invalid_votes": 70,
+      "ballots_cast": 2220,
+      "unreturned_ballots": 0,
+      "electors": 2778,
+      "turnout_rate": 79.9136
+    },
+    "HSZ-XIANGSHAN-DAZHUANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "大庄里",
+      "village_en": "Dazhuang Village",
+      "votes": {
+        "1": 978,
+        "2": 683
+      },
+      "valid_votes": 1661,
+      "invalid_votes": 37,
+      "ballots_cast": 1698,
+      "unreturned_ballots": 0,
+      "electors": 2037,
+      "turnout_rate": 83.3579
+    },
+    "HSZ-XIANGSHAN-MEISHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "美山里",
+      "village_en": "Meishan Village",
+      "votes": {
+        "1": 443,
+        "2": 351
+      },
+      "valid_votes": 794,
+      "invalid_votes": 46,
+      "ballots_cast": 840,
+      "unreturned_ballots": 0,
+      "electors": 1009,
+      "turnout_rate": 83.2507
+    },
+    "HSZ-XIANGSHAN-CHAOSHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "朝山里",
+      "village_en": "Chaoshan Village",
+      "votes": {
+        "1": 704,
+        "2": 622
+      },
+      "valid_votes": 1326,
+      "invalid_votes": 45,
+      "ballots_cast": 1371,
+      "unreturned_ballots": 0,
+      "electors": 1724,
+      "turnout_rate": 79.5244
+    },
+    "HSZ-XIANGSHAN-HAISHAN": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "海山里",
+      "village_en": "Haishan Village",
+      "votes": {
+        "1": 769,
+        "2": 712
+      },
+      "valid_votes": 1481,
+      "invalid_votes": 60,
+      "ballots_cast": 1541,
+      "unreturned_ballots": 0,
+      "electors": 1932,
+      "turnout_rate": 79.7619
+    },
+    "HSZ-XIANGSHAN-JIADONG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "茄苳里",
+      "village_en": "Jiadong Village",
+      "votes": {
+        "1": 341,
+        "2": 270
+      },
+      "valid_votes": 611,
+      "invalid_votes": 32,
+      "ballots_cast": 643,
+      "unreturned_ballots": 0,
+      "electors": 815,
+      "turnout_rate": 78.8957
+    },
+    "HSZ-XIANGSHAN-DAHU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "大湖里",
+      "village_en": "Dahu Village",
+      "votes": {
+        "1": 299,
+        "2": 289
+      },
+      "valid_votes": 588,
+      "invalid_votes": 21,
+      "ballots_cast": 609,
+      "unreturned_ballots": 0,
+      "electors": 732,
+      "turnout_rate": 83.1967
+    },
+    "HSZ-XIANGSHAN-NANAI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "南隘里",
+      "village_en": "Nanai Village",
+      "votes": {
+        "1": 232,
+        "2": 242
+      },
+      "valid_votes": 474,
+      "invalid_votes": 8,
+      "ballots_cast": 482,
+      "unreturned_ballots": 0,
+      "electors": 631,
+      "turnout_rate": 76.3867
+    },
+    "HSZ-XIANGSHAN-ZHONGAI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "中隘里",
+      "village_en": "Zhongai Village",
+      "votes": {
+        "1": 456,
+        "2": 596
+      },
+      "valid_votes": 1052,
+      "invalid_votes": 25,
+      "ballots_cast": 1077,
+      "unreturned_ballots": 0,
+      "electors": 1350,
+      "turnout_rate": 79.7778
+    },
+    "HSZ-XIANGSHAN-NEIHU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "內湖里",
+      "village_en": "Neihu Village",
+      "votes": {
+        "1": 1355,
+        "2": 1360
+      },
+      "valid_votes": 2715,
+      "invalid_votes": 72,
+      "ballots_cast": 2787,
+      "unreturned_ballots": 0,
+      "electors": 3512,
+      "turnout_rate": 79.3565
+    },
+    "HSZ-XIANGSHAN-YANSHUI": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "鹽水里",
+      "village_en": "Yanshui Village",
+      "votes": {
+        "1": 535,
+        "2": 395
+      },
+      "valid_votes": 930,
+      "invalid_votes": 20,
+      "ballots_cast": 950,
+      "unreturned_ballots": 0,
+      "electors": 1173,
+      "turnout_rate": 80.9889
+    },
+    "HSZ-XIANGSHAN-NANGANG": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "南港里",
+      "village_en": "Nangang Village",
+      "votes": {
+        "1": 407,
+        "2": 204
+      },
+      "valid_votes": 611,
+      "invalid_votes": 30,
+      "ballots_cast": 641,
+      "unreturned_ballots": 0,
+      "electors": 794,
+      "turnout_rate": 80.7305
+    },
+    "HSZ-XIANGSHAN-DINGFU": {
+      "county_zh": "新竹市",
+      "county_en": "Hsinchu City",
+      "township_zh": "香山區",
+      "township_en": "Xiangshan District",
+      "village_zh": "頂福里",
+      "village_en": "Dingfu Village",
+      "votes": {
+        "1": 1008,
+        "2": 1123
+      },
+      "valid_votes": 2131,
+      "invalid_votes": 42,
+      "ballots_cast": 2173,
+      "unreturned_ballots": 0,
+      "electors": 2701,
+      "turnout_rate": 80.4517
+    }
+  }
+}

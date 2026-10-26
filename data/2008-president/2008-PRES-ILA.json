@@ -1,0 +1,4932 @@
+{
+  "election_id": "2008-president",
+  "election_type": "president",
+  "source_file": "2008-PRES-ILA.xls",
+  "county_zh": "宜蘭縣",
+  "county_en": "Yilan County",
+  "county_iso": "ILA",
+  "candidates": {
+    "1": {
+      "name_zh": "謝長廷",
+      "running_mate_zh": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "蕭萬長",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 123700,
+      "2": 130951
+    },
+    "valid_votes": 254651,
+    "invalid_votes": 1991,
+    "ballots_cast": 256642,
+    "unreturned_ballots": 6,
+    "ballots_issued": 256648,
+    "unused_ballots": 90273,
+    "electors": 346921,
+    "turnout_rate": 73.9800033569336
+  },
+  "townships": {
+    "ILA-YILAN": {
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "votes": {
+        "1": 22372,
+        "2": 30124
+      },
+      "valid_votes": 52496,
+      "invalid_votes": 383,
+      "ballots_cast": 52879,
+      "unreturned_ballots": 3,
+      "ballots_issued": 52882,
+      "unused_ballots": 16957,
+      "electors": 69839,
+      "turnout_rate": 75.72000122070312
+    },
+    "ILA-LUODONG": {
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "votes": {
+        "1": 19125,
+        "2": 20285
+      },
+      "valid_votes": 39410,
+      "invalid_votes": 285,
+      "ballots_cast": 39695,
+      "unreturned_ballots": 1,
+      "ballots_issued": 39696,
+      "unused_ballots": 12635,
+      "electors": 52331,
+      "turnout_rate": 75.8499984741211
+    },
+    "ILA-SUAO": {
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "votes": {
+        "1": 11838,
+        "2": 12097
+      },
+      "valid_votes": 23935,
+      "invalid_votes": 198,
+      "ballots_cast": 24133,
+      "unreturned_ballots": 0,
+      "ballots_issued": 24133,
+      "unused_ballots": 9296,
+      "electors": 33429,
+      "turnout_rate": 72.19000244140625
+    },
+    "ILA-TOUCHENG": {
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "votes": {
+        "1": 6407,
+        "2": 10826
+      },
+      "valid_votes": 17233,
+      "invalid_votes": 136,
+      "ballots_cast": 17369,
+      "unreturned_ballots": 1,
+      "ballots_issued": 17370,
+      "unused_ballots": 6812,
+      "electors": 24182,
+      "turnout_rate": 71.83000183105469
+    },
+    "ILA-JIAOXI": {
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "votes": {
+        "1": 10237,
+        "2": 10177
+      },
+      "valid_votes": 20414,
+      "invalid_votes": 151,
+      "ballots_cast": 20565,
+      "unreturned_ballots": 0,
+      "ballots_issued": 20565,
+      "unused_ballots": 7219,
+      "electors": 27784,
+      "turnout_rate": 74.0199966430664
+    },
+    "ILA-ZHUANGWEI": {
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "votes": {
+        "1": 7710,
+        "2": 6504
+      },
+      "valid_votes": 14214,
+      "invalid_votes": 118,
+      "ballots_cast": 14332,
+      "unreturned_ballots": 0,
+      "ballots_issued": 14332,
+      "unused_ballots": 5126,
+      "electors": 19458,
+      "turnout_rate": 73.66000366210938
+    },
+    "ILA-YUANSHAN": {
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "votes": {
+        "1": 9814,
+        "2": 8126
+      },
+      "valid_votes": 17940,
+      "invalid_votes": 147,
+      "ballots_cast": 18087,
+      "unreturned_ballots": 1,
+      "ballots_issued": 18088,
+      "unused_ballots": 6989,
+      "electors": 25077,
+      "turnout_rate": 72.12999725341797
+    },
+    "ILA-DONGSHAN": {
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "votes": {
+        "1": 16609,
+        "2": 12561
+      },
+      "valid_votes": 29170,
+      "invalid_votes": 246,
+      "ballots_cast": 29416,
+      "unreturned_ballots": 0,
+      "ballots_issued": 29416,
+      "unused_ballots": 10255,
+      "electors": 39671,
+      "turnout_rate": 74.1500015258789
+    },
+    "ILA-WUJIE": {
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "votes": {
+        "1": 12155,
+        "2": 9551
+      },
+      "valid_votes": 21706,
+      "invalid_votes": 168,
+      "ballots_cast": 21874,
+      "unreturned_ballots": 0,
+      "ballots_issued": 21874,
+      "unused_ballots": 7976,
+      "electors": 29850,
+      "turnout_rate": 73.27999877929688
+    },
+    "ILA-SANXING": {
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "votes": {
+        "1": 6805,
+        "2": 5115
+      },
+      "valid_votes": 11920,
+      "invalid_votes": 117,
+      "ballots_cast": 12037,
+      "unreturned_ballots": 0,
+      "ballots_issued": 12037,
+      "unused_ballots": 4938,
+      "electors": 16975,
+      "turnout_rate": 70.91000366210938
+    },
+    "ILA-DATONG": {
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "votes": {
+        "1": 435,
+        "2": 2713
+      },
+      "valid_votes": 3148,
+      "invalid_votes": 25,
+      "ballots_cast": 3173,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3173,
+      "unused_ballots": 1080,
+      "electors": 4253,
+      "turnout_rate": 74.61000061035156
+    },
+    "ILA-NANAO": {
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "votes": {
+        "1": 193,
+        "2": 2872
+      },
+      "valid_votes": 3065,
+      "invalid_votes": 17,
+      "ballots_cast": 3082,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3082,
+      "unused_ballots": 990,
+      "electors": 4072,
+      "turnout_rate": 75.69000244140625
+    }
+  },
+  "villages": {
+    "ILA-YILAN-NANMEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "南門里",
+      "village_en": "Nanmen Village",
+      "votes": {
+        "1": 167,
+        "2": 291
+      },
+      "valid_votes": 458,
+      "invalid_votes": 2,
+      "ballots_cast": 460,
+      "unreturned_ballots": 0,
+      "ballots_issued": 460,
+      "unused_ballots": 109,
+      "electors": 569,
+      "turnout_rate": 80.83999633789062
+    },
+    "ILA-YILAN-FUGUO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "負郭里",
+      "village_en": "Fuguo Village",
+      "votes": {
+        "1": 744,
+        "2": 1126
+      },
+      "valid_votes": 1870,
+      "invalid_votes": 18,
+      "ballots_cast": 1888,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1888,
+      "unused_ballots": 625,
+      "electors": 2513,
+      "turnout_rate": 75.12999725341797
+    },
+    "ILA-YILAN-MINZU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "民族里",
+      "village_en": "Minzu Village",
+      "votes": {
+        "1": 680,
+        "2": 1108
+      },
+      "valid_votes": 1788,
+      "invalid_votes": 13,
+      "ballots_cast": 1801,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1801,
+      "unused_ballots": 522,
+      "electors": 2323,
+      "turnout_rate": 77.52999877929688
+    },
+    "ILA-YILAN-JIANJUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "建軍里",
+      "village_en": "Jianjun Village",
+      "votes": {
+        "1": 700,
+        "2": 1260
+      },
+      "valid_votes": 1960,
+      "invalid_votes": 13,
+      "ballots_cast": 1973,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1973,
+      "unused_ballots": 665,
+      "electors": 2638,
+      "turnout_rate": 74.79000091552734
+    },
+    "ILA-YILAN-FUXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 762,
+        "2": 1410
+      },
+      "valid_votes": 2172,
+      "invalid_votes": 12,
+      "ballots_cast": 2184,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2184,
+      "unused_ballots": 612,
+      "electors": 2796,
+      "turnout_rate": 78.11000061035156
+    },
+    "ILA-YILAN-SIYUAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "思源里",
+      "village_en": "Siyuan Village",
+      "votes": {
+        "1": 1547,
+        "2": 2853
+      },
+      "valid_votes": 4400,
+      "invalid_votes": 28,
+      "ballots_cast": 4428,
+      "unreturned_ballots": 1,
+      "ballots_issued": 4429,
+      "unused_ballots": 1186,
+      "electors": 5615,
+      "turnout_rate": 78.86000061035156
+    },
+    "ILA-YILAN-WENHUA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "文化里",
+      "village_en": "Wenhua Village",
+      "votes": {
+        "1": 880,
+        "2": 1370
+      },
+      "valid_votes": 2250,
+      "invalid_votes": 19,
+      "ballots_cast": 2269,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2269,
+      "unused_ballots": 644,
+      "electors": 2913,
+      "turnout_rate": 77.88999938964844
+    },
+    "ILA-YILAN-SHENNONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "神農里",
+      "village_en": "Shennong Village",
+      "votes": {
+        "1": 180,
+        "2": 273
+      },
+      "valid_votes": 453,
+      "invalid_votes": 0,
+      "ballots_cast": 453,
+      "unreturned_ballots": 0,
+      "ballots_issued": 453,
+      "unused_ballots": 144,
+      "electors": 597,
+      "turnout_rate": 75.87999725341797
+    },
+    "ILA-YILAN-MINSHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 193,
+        "2": 139
+      },
+      "valid_votes": 332,
+      "invalid_votes": 4,
+      "ballots_cast": 336,
+      "unreturned_ballots": 0,
+      "ballots_issued": 336,
+      "unused_ballots": 105,
+      "electors": 441,
+      "turnout_rate": 76.19000244140625
+    },
+    "ILA-YILAN-SHENGPING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "昇平里",
+      "village_en": "Shengping Village",
+      "votes": {
+        "1": 269,
+        "2": 256
+      },
+      "valid_votes": 525,
+      "invalid_votes": 2,
+      "ballots_cast": 527,
+      "unreturned_ballots": 0,
+      "ballots_issued": 527,
+      "unused_ballots": 143,
+      "electors": 670,
+      "turnout_rate": 78.66000366210938
+    },
+    "ILA-YILAN-DADONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "大東里",
+      "village_en": "Dadong Village",
+      "votes": {
+        "1": 182,
+        "2": 241
+      },
+      "valid_votes": 423,
+      "invalid_votes": 3,
+      "ballots_cast": 426,
+      "unreturned_ballots": 0,
+      "ballots_issued": 426,
+      "unused_ballots": 118,
+      "electors": 544,
+      "turnout_rate": 78.30999755859375
+    },
+    "ILA-YILAN-XINXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "新興里",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 167,
+        "2": 255
+      },
+      "valid_votes": 422,
+      "invalid_votes": 3,
+      "ballots_cast": 425,
+      "unreturned_ballots": 0,
+      "ballots_issued": 425,
+      "unused_ballots": 137,
+      "electors": 562,
+      "turnout_rate": 75.62000274658203
+    },
+    "ILA-YILAN-HEMU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "和睦里",
+      "village_en": "Hemu Village",
+      "votes": {
+        "1": 536,
+        "2": 992
+      },
+      "valid_votes": 1528,
+      "invalid_votes": 16,
+      "ballots_cast": 1544,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1544,
+      "unused_ballots": 488,
+      "electors": 2032,
+      "turnout_rate": 75.9800033569336
+    },
+    "ILA-YILAN-MINQUAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "民權里",
+      "village_en": "Minquan Village",
+      "votes": {
+        "1": 416,
+        "2": 771
+      },
+      "valid_votes": 1187,
+      "invalid_votes": 9,
+      "ballots_cast": 1196,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1196,
+      "unused_ballots": 438,
+      "electors": 1634,
+      "turnout_rate": 73.19000244140625
+    },
+    "ILA-YILAN-JINSHI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "進士里",
+      "village_en": "Jinshi Village",
+      "votes": {
+        "1": 1463,
+        "2": 2269
+      },
+      "valid_votes": 3732,
+      "invalid_votes": 27,
+      "ballots_cast": 3759,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3759,
+      "unused_ballots": 1112,
+      "electors": 4871,
+      "turnout_rate": 77.16999816894531
+    },
+    "ILA-YILAN-NANQIAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "南橋里",
+      "village_en": "Nanqiao Village",
+      "votes": {
+        "1": 265,
+        "2": 250
+      },
+      "valid_votes": 515,
+      "invalid_votes": 2,
+      "ballots_cast": 517,
+      "unreturned_ballots": 0,
+      "ballots_issued": 517,
+      "unused_ballots": 166,
+      "electors": 683,
+      "turnout_rate": 75.69999694824219
+    },
+    "ILA-YILAN-JIANYE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "建業里",
+      "village_en": "Jianye Village",
+      "votes": {
+        "1": 446,
+        "2": 438
+      },
+      "valid_votes": 884,
+      "invalid_votes": 7,
+      "ballots_cast": 891,
+      "unreturned_ballots": 0,
+      "ballots_issued": 891,
+      "unused_ballots": 317,
+      "electors": 1208,
+      "turnout_rate": 73.76000213623047
+    },
+    "ILA-YILAN-NANJIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "南津里",
+      "village_en": "Nanjin Village",
+      "votes": {
+        "1": 353,
+        "2": 338
+      },
+      "valid_votes": 691,
+      "invalid_votes": 5,
+      "ballots_cast": 696,
+      "unreturned_ballots": 0,
+      "ballots_issued": 696,
+      "unused_ballots": 244,
+      "electors": 940,
+      "turnout_rate": 74.04000091552734
+    },
+    "ILA-YILAN-KAIXUAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "凱旋里",
+      "village_en": "Kaixuan Village",
+      "votes": {
+        "1": 453,
+        "2": 421
+      },
+      "valid_votes": 874,
+      "invalid_votes": 7,
+      "ballots_cast": 881,
+      "unreturned_ballots": 0,
+      "ballots_issued": 881,
+      "unused_ballots": 286,
+      "electors": 1167,
+      "turnout_rate": 75.48999786376953
+    },
+    "ILA-YILAN-LIMING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "黎明里",
+      "village_en": "Liming Village",
+      "votes": {
+        "1": 498,
+        "2": 524
+      },
+      "valid_votes": 1022,
+      "invalid_votes": 9,
+      "ballots_cast": 1031,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1031,
+      "unused_ballots": 314,
+      "electors": 1345,
+      "turnout_rate": 76.6500015258789
+    },
+    "ILA-YILAN-DONGCUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "東村里",
+      "village_en": "Dongcun Village",
+      "votes": {
+        "1": 1235,
+        "2": 1805
+      },
+      "valid_votes": 3040,
+      "invalid_votes": 20,
+      "ballots_cast": 3060,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3060,
+      "unused_ballots": 1071,
+      "electors": 4131,
+      "turnout_rate": 74.06999969482422
+    },
+    "ILA-YILAN-YANPING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "延平里",
+      "village_en": "Yanping Village",
+      "votes": {
+        "1": 1383,
+        "2": 2131
+      },
+      "valid_votes": 3514,
+      "invalid_votes": 26,
+      "ballots_cast": 3540,
+      "unreturned_ballots": 1,
+      "ballots_issued": 3541,
+      "unused_ballots": 1092,
+      "electors": 4633,
+      "turnout_rate": 76.41000366210938
+    },
+    "ILA-YILAN-QIZHANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "七張里",
+      "village_en": "Qizhang Village",
+      "votes": {
+        "1": 527,
+        "2": 398
+      },
+      "valid_votes": 925,
+      "invalid_votes": 8,
+      "ballots_cast": 933,
+      "unreturned_ballots": 0,
+      "ballots_issued": 933,
+      "unused_ballots": 316,
+      "electors": 1249,
+      "turnout_rate": 74.69999694824219
+    },
+    "ILA-YILAN-CIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "慈安里",
+      "village_en": "Cian Village",
+      "votes": {
+        "1": 1193,
+        "2": 1875
+      },
+      "valid_votes": 3068,
+      "invalid_votes": 20,
+      "ballots_cast": 3088,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3088,
+      "unused_ballots": 1216,
+      "electors": 4304,
+      "turnout_rate": 71.75
+    },
+    "ILA-YILAN-XINMIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "新民里",
+      "village_en": "Xinmin Village",
+      "votes": {
+        "1": 239,
+        "2": 262
+      },
+      "valid_votes": 501,
+      "invalid_votes": 6,
+      "ballots_cast": 507,
+      "unreturned_ballots": 0,
+      "ballots_issued": 507,
+      "unused_ballots": 141,
+      "electors": 648,
+      "turnout_rate": 78.23999786376953
+    },
+    "ILA-YILAN-DONGMEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "東門里",
+      "village_en": "Dongmen Village",
+      "votes": {
+        "1": 193,
+        "2": 183
+      },
+      "valid_votes": 376,
+      "invalid_votes": 3,
+      "ballots_cast": 379,
+      "unreturned_ballots": 0,
+      "ballots_issued": 379,
+      "unused_ballots": 105,
+      "electors": 484,
+      "turnout_rate": 78.30999755859375
+    },
+    "ILA-YILAN-ZHONGZHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 207,
+        "2": 226
+      },
+      "valid_votes": 433,
+      "invalid_votes": 3,
+      "ballots_cast": 436,
+      "unreturned_ballots": 0,
+      "ballots_issued": 436,
+      "unused_ballots": 148,
+      "electors": 584,
+      "turnout_rate": 74.66000366210938
+    },
+    "ILA-YILAN-XIAODONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "小東里",
+      "village_en": "Xiaodong Village",
+      "votes": {
+        "1": 407,
+        "2": 539
+      },
+      "valid_votes": 946,
+      "invalid_votes": 1,
+      "ballots_cast": 947,
+      "unreturned_ballots": 0,
+      "ballots_issued": 947,
+      "unused_ballots": 301,
+      "electors": 1248,
+      "turnout_rate": 75.87999725341797
+    },
+    "ILA-YILAN-CAIYUAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "菜園里",
+      "village_en": "Caiyuan Village",
+      "votes": {
+        "1": 451,
+        "2": 532
+      },
+      "valid_votes": 983,
+      "invalid_votes": 5,
+      "ballots_cast": 988,
+      "unreturned_ballots": 0,
+      "ballots_issued": 988,
+      "unused_ballots": 309,
+      "electors": 1297,
+      "turnout_rate": 76.18000030517578
+    },
+    "ILA-YILAN-XIAOLIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "孝廉里",
+      "village_en": "Xiaolian Village",
+      "votes": {
+        "1": 343,
+        "2": 360
+      },
+      "valid_votes": 703,
+      "invalid_votes": 7,
+      "ballots_cast": 710,
+      "unreturned_ballots": 0,
+      "ballots_issued": 710,
+      "unused_ballots": 274,
+      "electors": 984,
+      "turnout_rate": 72.1500015258789
+    },
+    "ILA-YILAN-XINSHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "新生里",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 843,
+        "2": 840
+      },
+      "valid_votes": 1683,
+      "invalid_votes": 13,
+      "ballots_cast": 1696,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1696,
+      "unused_ballots": 584,
+      "electors": 2280,
+      "turnout_rate": 74.38999938964844
+    },
+    "ILA-YILAN-JIAOBAI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "茭白里",
+      "village_en": "Jiaobai Village",
+      "votes": {
+        "1": 759,
+        "2": 754
+      },
+      "valid_votes": 1513,
+      "invalid_votes": 10,
+      "ballots_cast": 1523,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1523,
+      "unused_ballots": 545,
+      "electors": 2068,
+      "turnout_rate": 73.6500015258789
+    },
+    "ILA-YILAN-BEIJIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "北津里",
+      "village_en": "Beijin Village",
+      "votes": {
+        "1": 595,
+        "2": 621
+      },
+      "valid_votes": 1216,
+      "invalid_votes": 10,
+      "ballots_cast": 1226,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1226,
+      "unused_ballots": 429,
+      "electors": 1655,
+      "turnout_rate": 74.08000183105469
+    },
+    "ILA-YILAN-MEIZHOU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "梅洲里",
+      "village_en": "Meizhou Village",
+      "votes": {
+        "1": 1052,
+        "2": 905
+      },
+      "valid_votes": 1957,
+      "invalid_votes": 18,
+      "ballots_cast": 1975,
+      "unreturned_ballots": 1,
+      "ballots_issued": 1976,
+      "unused_ballots": 643,
+      "electors": 2619,
+      "turnout_rate": 75.41000366210938
+    },
+    "ILA-YILAN-BEIMEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "北門里",
+      "village_en": "Beimen Village",
+      "votes": {
+        "1": 308,
+        "2": 336
+      },
+      "valid_votes": 644,
+      "invalid_votes": 5,
+      "ballots_cast": 649,
+      "unreturned_ballots": 0,
+      "ballots_issued": 649,
+      "unused_ballots": 193,
+      "electors": 842,
+      "turnout_rate": 77.08000183105469
+    },
+    "ILA-YILAN-QINGHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "慶和里",
+      "village_en": "Qinghe Village",
+      "votes": {
+        "1": 291,
+        "2": 230
+      },
+      "valid_votes": 521,
+      "invalid_votes": 7,
+      "ballots_cast": 528,
+      "unreturned_ballots": 0,
+      "ballots_issued": 528,
+      "unused_ballots": 193,
+      "electors": 721,
+      "turnout_rate": 73.2300033569336
+    },
+    "ILA-YILAN-EWANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "鄂王里",
+      "village_en": "Ewang Village",
+      "votes": {
+        "1": 297,
+        "2": 252
+      },
+      "valid_votes": 549,
+      "invalid_votes": 7,
+      "ballots_cast": 556,
+      "unreturned_ballots": 0,
+      "ballots_issued": 556,
+      "unused_ballots": 199,
+      "electors": 755,
+      "turnout_rate": 73.63999938964844
+    },
+    "ILA-YILAN-XIMEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "西門里",
+      "village_en": "Ximen Village",
+      "votes": {
+        "1": 434,
+        "2": 444
+      },
+      "valid_votes": 878,
+      "invalid_votes": 7,
+      "ballots_cast": 885,
+      "unreturned_ballots": 0,
+      "ballots_issued": 885,
+      "unused_ballots": 286,
+      "electors": 1171,
+      "turnout_rate": 75.58000183105469
+    },
+    "ILA-YILAN-ZHONGSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 266,
+        "2": 261
+      },
+      "valid_votes": 527,
+      "invalid_votes": 4,
+      "ballots_cast": 531,
+      "unreturned_ballots": 0,
+      "ballots_issued": 531,
+      "unused_ballots": 197,
+      "electors": 728,
+      "turnout_rate": 72.94000244140625
+    },
+    "ILA-YILAN-DADAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "宜蘭市",
+      "township_en": "Yilan City",
+      "village_zh": "大道里",
+      "village_en": "Dadao Village",
+      "votes": {
+        "1": 448,
+        "2": 585
+      },
+      "valid_votes": 1033,
+      "invalid_votes": 4,
+      "ballots_cast": 1037,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1037,
+      "unused_ballots": 340,
+      "electors": 1377,
+      "turnout_rate": 75.30999755859375
+    },
+    "ILA-LUODONG-KAIMING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "開明里",
+      "village_en": "Kaiming Village",
+      "votes": {
+        "1": 615,
+        "2": 476
+      },
+      "valid_votes": 1091,
+      "invalid_votes": 10,
+      "ballots_cast": 1101,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1101,
+      "unused_ballots": 393,
+      "electors": 1494,
+      "turnout_rate": 73.69000244140625
+    },
+    "ILA-LUODONG-DAXIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "大新里",
+      "village_en": "Daxin Village",
+      "votes": {
+        "1": 539,
+        "2": 474
+      },
+      "valid_votes": 1013,
+      "invalid_votes": 13,
+      "ballots_cast": 1026,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1026,
+      "unused_ballots": 348,
+      "electors": 1374,
+      "turnout_rate": 74.66999816894531
+    },
+    "ILA-LUODONG-DONGAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "東安里",
+      "village_en": "Dongan Village",
+      "votes": {
+        "1": 1056,
+        "2": 1090
+      },
+      "valid_votes": 2146,
+      "invalid_votes": 20,
+      "ballots_cast": 2166,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2166,
+      "unused_ballots": 777,
+      "electors": 2943,
+      "turnout_rate": 73.5999984741211
+    },
+    "ILA-LUODONG-XINQUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "新群里",
+      "village_en": "Xinqun Village",
+      "votes": {
+        "1": 953,
+        "2": 653
+      },
+      "valid_votes": 1606,
+      "invalid_votes": 20,
+      "ballots_cast": 1626,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1626,
+      "unused_ballots": 566,
+      "electors": 2192,
+      "turnout_rate": 74.18000030517578
+    },
+    "ILA-LUODONG-LUOZHUANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "羅莊里",
+      "village_en": "Luozhuang Village",
+      "votes": {
+        "1": 800,
+        "2": 847
+      },
+      "valid_votes": 1647,
+      "invalid_votes": 16,
+      "ballots_cast": 1663,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1663,
+      "unused_ballots": 601,
+      "electors": 2264,
+      "turnout_rate": 73.44999694824219
+    },
+    "ILA-LUODONG-NANCHANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "南昌里",
+      "village_en": "Nanchang Village",
+      "votes": {
+        "1": 712,
+        "2": 1073
+      },
+      "valid_votes": 1785,
+      "invalid_votes": 8,
+      "ballots_cast": 1793,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1793,
+      "unused_ballots": 560,
+      "electors": 2353,
+      "turnout_rate": 76.19999694824219
+    },
+    "ILA-LUODONG-NANHAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "南豪里",
+      "village_en": "Nanhao Village",
+      "votes": {
+        "1": 509,
+        "2": 493
+      },
+      "valid_votes": 1002,
+      "invalid_votes": 8,
+      "ballots_cast": 1010,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1010,
+      "unused_ballots": 279,
+      "electors": 1289,
+      "turnout_rate": 78.36000061035156
+    },
+    "ILA-LUODONG-CHENGGONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 482,
+        "2": 554
+      },
+      "valid_votes": 1036,
+      "invalid_votes": 5,
+      "ballots_cast": 1041,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1041,
+      "unused_ballots": 227,
+      "electors": 1268,
+      "turnout_rate": 82.0999984741211
+    },
+    "ILA-LUODONG-RENDE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "仁德里",
+      "village_en": "Rende Village",
+      "votes": {
+        "1": 421,
+        "2": 428
+      },
+      "valid_votes": 849,
+      "invalid_votes": 4,
+      "ballots_cast": 853,
+      "unreturned_ballots": 0,
+      "ballots_issued": 853,
+      "unused_ballots": 329,
+      "electors": 1182,
+      "turnout_rate": 72.16999816894531
+    },
+    "ILA-LUODONG-RENHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "仁和里",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 403,
+        "2": 416
+      },
+      "valid_votes": 819,
+      "invalid_votes": 7,
+      "ballots_cast": 826,
+      "unreturned_ballots": 0,
+      "ballots_issued": 826,
+      "unused_ballots": 279,
+      "electors": 1105,
+      "turnout_rate": 74.75
+    },
+    "ILA-LUODONG-ZHONGSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 577,
+        "2": 501
+      },
+      "valid_votes": 1078,
+      "invalid_votes": 9,
+      "ballots_cast": 1087,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1087,
+      "unused_ballots": 298,
+      "electors": 1385,
+      "turnout_rate": 78.4800033569336
+    },
+    "ILA-LUODONG-HANMIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "漢民里",
+      "village_en": "Hanmin Village",
+      "votes": {
+        "1": 1157,
+        "2": 1367
+      },
+      "valid_votes": 2524,
+      "invalid_votes": 12,
+      "ballots_cast": 2536,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2536,
+      "unused_ballots": 810,
+      "electors": 3346,
+      "turnout_rate": 75.79000091552734
+    },
+    "ILA-LUODONG-WEIYANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "維揚里",
+      "village_en": "Weiyang Village",
+      "votes": {
+        "1": 927,
+        "2": 1097
+      },
+      "valid_votes": 2024,
+      "invalid_votes": 13,
+      "ballots_cast": 2037,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2037,
+      "unused_ballots": 628,
+      "electors": 2665,
+      "turnout_rate": 76.44000244140625
+    },
+    "ILA-LUODONG-XIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "西安里",
+      "village_en": "Xian Village",
+      "votes": {
+        "1": 858,
+        "2": 900
+      },
+      "valid_votes": 1758,
+      "invalid_votes": 20,
+      "ballots_cast": 1778,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1778,
+      "unused_ballots": 628,
+      "electors": 2406,
+      "turnout_rate": 73.9000015258789
+    },
+    "ILA-LUODONG-BEICHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "北成里",
+      "village_en": "Beicheng Village",
+      "votes": {
+        "1": 973,
+        "2": 835
+      },
+      "valid_votes": 1808,
+      "invalid_votes": 9,
+      "ballots_cast": 1817,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1817,
+      "unused_ballots": 578,
+      "electors": 2395,
+      "turnout_rate": 75.87000274658203
+    },
+    "ILA-LUODONG-GUOHUA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "國華里",
+      "village_en": "Guohua Village",
+      "votes": {
+        "1": 1380,
+        "2": 1636
+      },
+      "valid_votes": 3016,
+      "invalid_votes": 20,
+      "ballots_cast": 3036,
+      "unreturned_ballots": 1,
+      "ballots_issued": 3037,
+      "unused_ballots": 861,
+      "electors": 3898,
+      "turnout_rate": 77.88999938964844
+    },
+    "ILA-LUODONG-XIANWEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "賢文里",
+      "village_en": "Xianwen Village",
+      "votes": {
+        "1": 1177,
+        "2": 1431
+      },
+      "valid_votes": 2608,
+      "invalid_votes": 19,
+      "ballots_cast": 2627,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2627,
+      "unused_ballots": 816,
+      "electors": 3443,
+      "turnout_rate": 76.30000305175781
+    },
+    "ILA-LUODONG-GONGZHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "公正里",
+      "village_en": "Gongzheng Village",
+      "votes": {
+        "1": 1027,
+        "2": 1046
+      },
+      "valid_votes": 2073,
+      "invalid_votes": 11,
+      "ballots_cast": 2084,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2084,
+      "unused_ballots": 616,
+      "electors": 2700,
+      "turnout_rate": 77.19000244140625
+    },
+    "ILA-LUODONG-JIXIANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "集祥里",
+      "village_en": "Jixiang Village",
+      "votes": {
+        "1": 348,
+        "2": 378
+      },
+      "valid_votes": 726,
+      "invalid_votes": 3,
+      "ballots_cast": 729,
+      "unreturned_ballots": 0,
+      "ballots_issued": 729,
+      "unused_ballots": 340,
+      "electors": 1069,
+      "turnout_rate": 68.19000244140625
+    },
+    "ILA-LUODONG-XINYI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "信義里",
+      "village_en": "Xinyi Village",
+      "votes": {
+        "1": 1007,
+        "2": 1094
+      },
+      "valid_votes": 2101,
+      "invalid_votes": 11,
+      "ballots_cast": 2112,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2112,
+      "unused_ballots": 695,
+      "electors": 2807,
+      "turnout_rate": 75.23999786376953
+    },
+    "ILA-LUODONG-SHULIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "樹林里",
+      "village_en": "Shulin Village",
+      "votes": {
+        "1": 1002,
+        "2": 1328
+      },
+      "valid_votes": 2330,
+      "invalid_votes": 16,
+      "ballots_cast": 2346,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2346,
+      "unused_ballots": 618,
+      "electors": 2964,
+      "turnout_rate": 79.1500015258789
+    },
+    "ILA-LUODONG-ZHULIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "竹林里",
+      "village_en": "Zhulin Village",
+      "votes": {
+        "1": 1047,
+        "2": 1028
+      },
+      "valid_votes": 2075,
+      "invalid_votes": 20,
+      "ballots_cast": 2095,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2095,
+      "unused_ballots": 689,
+      "electors": 2784,
+      "turnout_rate": 75.25
+    },
+    "ILA-LUODONG-RENAI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "羅東鎮",
+      "township_en": "Luodong Township",
+      "village_zh": "仁愛里",
+      "village_en": "Renai Village",
+      "votes": {
+        "1": 1155,
+        "2": 1140
+      },
+      "valid_votes": 2295,
+      "invalid_votes": 11,
+      "ballots_cast": 2306,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2306,
+      "unused_ballots": 699,
+      "electors": 3005,
+      "turnout_rate": 76.73999786376953
+    },
+    "ILA-SUAO-LONGDE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "龍德里",
+      "village_en": "Longde Village",
+      "votes": {
+        "1": 1210,
+        "2": 1026
+      },
+      "valid_votes": 2236,
+      "invalid_votes": 17,
+      "ballots_cast": 2253,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2253,
+      "unused_ballots": 821,
+      "electors": 3074,
+      "turnout_rate": 73.29000091552734
+    },
+    "ILA-SUAO-DINGLIAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "頂寮里",
+      "village_en": "Dingliao Village",
+      "votes": {
+        "1": 350,
+        "2": 222
+      },
+      "valid_votes": 572,
+      "invalid_votes": 6,
+      "ballots_cast": 578,
+      "unreturned_ballots": 0,
+      "ballots_issued": 578,
+      "unused_ballots": 224,
+      "electors": 802,
+      "turnout_rate": 72.06999969482422
+    },
+    "ILA-SUAO-YONGRONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "永榮里",
+      "village_en": "Yongrong Village",
+      "votes": {
+        "1": 1186,
+        "2": 1016
+      },
+      "valid_votes": 2202,
+      "invalid_votes": 12,
+      "ballots_cast": 2214,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2214,
+      "unused_ballots": 798,
+      "electors": 3012,
+      "turnout_rate": 73.51000213623047
+    },
+    "ILA-SUAO-CUNREN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "存仁里",
+      "village_en": "Cunren Village",
+      "votes": {
+        "1": 400,
+        "2": 293
+      },
+      "valid_votes": 693,
+      "invalid_votes": 3,
+      "ballots_cast": 696,
+      "unreturned_ballots": 0,
+      "ballots_issued": 696,
+      "unused_ballots": 259,
+      "electors": 955,
+      "turnout_rate": 72.87999725341797
+    },
+    "ILA-SUAO-GANGBIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "港邊里",
+      "village_en": "Gangbian Village",
+      "votes": {
+        "1": 448,
+        "2": 389
+      },
+      "valid_votes": 837,
+      "invalid_votes": 8,
+      "ballots_cast": 845,
+      "unreturned_ballots": 0,
+      "ballots_issued": 845,
+      "unused_ballots": 353,
+      "electors": 1198,
+      "turnout_rate": 70.52999877929688
+    },
+    "ILA-SUAO-YUEMING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "岳明里",
+      "village_en": "Yueming Village",
+      "votes": {
+        "1": 16,
+        "2": 122
+      },
+      "valid_votes": 138,
+      "invalid_votes": 2,
+      "ballots_cast": 140,
+      "unreturned_ballots": 0,
+      "ballots_issued": 140,
+      "unused_ballots": 81,
+      "electors": 221,
+      "turnout_rate": 63.349998474121094
+    },
+    "ILA-SUAO-AIDING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "隘丁里",
+      "village_en": "Aiding Village",
+      "votes": {
+        "1": 868,
+        "2": 753
+      },
+      "valid_votes": 1621,
+      "invalid_votes": 12,
+      "ballots_cast": 1633,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1633,
+      "unused_ballots": 640,
+      "electors": 2273,
+      "turnout_rate": 71.83999633789062
+    },
+    "ILA-SUAO-XINCHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "新城里",
+      "village_en": "Xincheng Village",
+      "votes": {
+        "1": 393,
+        "2": 414
+      },
+      "valid_votes": 807,
+      "invalid_votes": 8,
+      "ballots_cast": 815,
+      "unreturned_ballots": 0,
+      "ballots_issued": 815,
+      "unused_ballots": 307,
+      "electors": 1122,
+      "turnout_rate": 72.63999938964844
+    },
+    "ILA-SUAO-SHENGHU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "聖湖里",
+      "village_en": "Shenghu Village",
+      "votes": {
+        "1": 1502,
+        "2": 2042
+      },
+      "valid_votes": 3544,
+      "invalid_votes": 20,
+      "ballots_cast": 3564,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3564,
+      "unused_ballots": 1334,
+      "electors": 4898,
+      "turnout_rate": 72.76000213623047
+    },
+    "ILA-SUAO-SUXI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "蘇西里",
+      "village_en": "Suxi Village",
+      "votes": {
+        "1": 729,
+        "2": 981
+      },
+      "valid_votes": 1710,
+      "invalid_votes": 16,
+      "ballots_cast": 1726,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1726,
+      "unused_ballots": 644,
+      "electors": 2370,
+      "turnout_rate": 72.83000183105469
+    },
+    "ILA-SUAO-SUBEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "蘇北里",
+      "village_en": "Subei Village",
+      "votes": {
+        "1": 377,
+        "2": 471
+      },
+      "valid_votes": 848,
+      "invalid_votes": 10,
+      "ballots_cast": 858,
+      "unreturned_ballots": 0,
+      "ballots_issued": 858,
+      "unused_ballots": 257,
+      "electors": 1115,
+      "turnout_rate": 76.94999694824219
+    },
+    "ILA-SUAO-SUNAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "蘇南里",
+      "village_en": "Sunan Village",
+      "votes": {
+        "1": 178,
+        "2": 215
+      },
+      "valid_votes": 393,
+      "invalid_votes": 3,
+      "ballots_cast": 396,
+      "unreturned_ballots": 0,
+      "ballots_issued": 396,
+      "unused_ballots": 148,
+      "electors": 544,
+      "turnout_rate": 72.79000091552734
+    },
+    "ILA-SUAO-SUDONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "蘇東里",
+      "village_en": "Sudong Village",
+      "votes": {
+        "1": 155,
+        "2": 186
+      },
+      "valid_votes": 341,
+      "invalid_votes": 1,
+      "ballots_cast": 342,
+      "unreturned_ballots": 0,
+      "ballots_issued": 342,
+      "unused_ballots": 151,
+      "electors": 493,
+      "turnout_rate": 69.37000274658203
+    },
+    "ILA-SUAO-ZHANGAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "長安里",
+      "village_en": "Zhangan Village",
+      "votes": {
+        "1": 199,
+        "2": 255
+      },
+      "valid_votes": 454,
+      "invalid_votes": 5,
+      "ballots_cast": 459,
+      "unreturned_ballots": 0,
+      "ballots_issued": 459,
+      "unused_ballots": 156,
+      "electors": 615,
+      "turnout_rate": 74.62999725341797
+    },
+    "ILA-SUAO-YONGGUANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "永光里",
+      "village_en": "Yongguang Village",
+      "votes": {
+        "1": 151,
+        "2": 191
+      },
+      "valid_votes": 342,
+      "invalid_votes": 4,
+      "ballots_cast": 346,
+      "unreturned_ballots": 0,
+      "ballots_issued": 346,
+      "unused_ballots": 116,
+      "electors": 462,
+      "turnout_rate": 74.88999938964844
+    },
+    "ILA-SUAO-YONGCHUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "永春里",
+      "village_en": "Yongchun Village",
+      "votes": {
+        "1": 229,
+        "2": 219
+      },
+      "valid_votes": 448,
+      "invalid_votes": 3,
+      "ballots_cast": 451,
+      "unreturned_ballots": 0,
+      "ballots_issued": 451,
+      "unused_ballots": 201,
+      "electors": 652,
+      "turnout_rate": 69.16999816894531
+    },
+    "ILA-SUAO-YONGLE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "永樂里",
+      "village_en": "Yongle Village",
+      "votes": {
+        "1": 189,
+        "2": 165
+      },
+      "valid_votes": 354,
+      "invalid_votes": 4,
+      "ballots_cast": 358,
+      "unreturned_ballots": 0,
+      "ballots_issued": 358,
+      "unused_ballots": 131,
+      "electors": 489,
+      "turnout_rate": 73.20999908447266
+    },
+    "ILA-SUAO-NANAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南安里",
+      "village_en": "Nanan Village",
+      "votes": {
+        "1": 369,
+        "2": 392
+      },
+      "valid_votes": 761,
+      "invalid_votes": 5,
+      "ballots_cast": 766,
+      "unreturned_ballots": 0,
+      "ballots_issued": 766,
+      "unused_ballots": 277,
+      "electors": 1043,
+      "turnout_rate": 73.44000244140625
+    },
+    "ILA-SUAO-NANZHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南正里",
+      "village_en": "Nanzheng Village",
+      "votes": {
+        "1": 384,
+        "2": 338
+      },
+      "valid_votes": 722,
+      "invalid_votes": 6,
+      "ballots_cast": 728,
+      "unreturned_ballots": 0,
+      "ballots_issued": 728,
+      "unused_ballots": 290,
+      "electors": 1018,
+      "turnout_rate": 71.51000213623047
+    },
+    "ILA-SUAO-NANCHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南成里",
+      "village_en": "Nancheng Village",
+      "votes": {
+        "1": 422,
+        "2": 467
+      },
+      "valid_votes": 889,
+      "invalid_votes": 8,
+      "ballots_cast": 897,
+      "unreturned_ballots": 0,
+      "ballots_issued": 897,
+      "unused_ballots": 319,
+      "electors": 1216,
+      "turnout_rate": 73.7699966430664
+    },
+    "ILA-SUAO-NANXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南興里",
+      "village_en": "Nanxing Village",
+      "votes": {
+        "1": 499,
+        "2": 593
+      },
+      "valid_votes": 1092,
+      "invalid_votes": 12,
+      "ballots_cast": 1104,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1104,
+      "unused_ballots": 486,
+      "electors": 1590,
+      "turnout_rate": 69.43000030517578
+    },
+    "ILA-SUAO-NANNING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南寧里",
+      "village_en": "Nanning Village",
+      "votes": {
+        "1": 393,
+        "2": 407
+      },
+      "valid_votes": 800,
+      "invalid_votes": 8,
+      "ballots_cast": 808,
+      "unreturned_ballots": 0,
+      "ballots_issued": 808,
+      "unused_ballots": 335,
+      "electors": 1143,
+      "turnout_rate": 70.69000244140625
+    },
+    "ILA-SUAO-NANJIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南建里",
+      "village_en": "Nanjian Village",
+      "votes": {
+        "1": 491,
+        "2": 410
+      },
+      "valid_votes": 901,
+      "invalid_votes": 7,
+      "ballots_cast": 908,
+      "unreturned_ballots": 0,
+      "ballots_issued": 908,
+      "unused_ballots": 381,
+      "electors": 1289,
+      "turnout_rate": 70.44000244140625
+    },
+    "ILA-SUAO-DONGAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "東澳里",
+      "village_en": "Dongao Village",
+      "votes": {
+        "1": 98,
+        "2": 129
+      },
+      "valid_votes": 227,
+      "invalid_votes": 2,
+      "ballots_cast": 229,
+      "unreturned_ballots": 0,
+      "ballots_issued": 229,
+      "unused_ballots": 93,
+      "electors": 322,
+      "turnout_rate": 71.12000274658203
+    },
+    "ILA-SUAO-NANQIANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "南強里",
+      "village_en": "Nanqiang Village",
+      "votes": {
+        "1": 283,
+        "2": 234
+      },
+      "valid_votes": 517,
+      "invalid_votes": 4,
+      "ballots_cast": 521,
+      "unreturned_ballots": 0,
+      "ballots_issued": 521,
+      "unused_ballots": 259,
+      "electors": 780,
+      "turnout_rate": 66.79000091552734
+    },
+    "ILA-SUAO-CHAOYANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "蘇澳鎮",
+      "township_en": "Suao Township",
+      "village_zh": "朝陽里",
+      "village_en": "Chaoyang Village",
+      "votes": {
+        "1": 319,
+        "2": 167
+      },
+      "valid_votes": 486,
+      "invalid_votes": 12,
+      "ballots_cast": 498,
+      "unreturned_ballots": 0,
+      "ballots_issued": 498,
+      "unused_ballots": 235,
+      "electors": 733,
+      "turnout_rate": 67.94000244140625
+    },
+    "ILA-TOUCHENG-SHICHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "石城里",
+      "village_en": "Shicheng Village",
+      "votes": {
+        "1": 116,
+        "2": 126
+      },
+      "valid_votes": 242,
+      "invalid_votes": 0,
+      "ballots_cast": 242,
+      "unreturned_ballots": 0,
+      "ballots_issued": 242,
+      "unused_ballots": 104,
+      "electors": 346,
+      "turnout_rate": 69.94000244140625
+    },
+    "ILA-TOUCHENG-DALI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "大里里",
+      "village_en": "Dali Village",
+      "votes": {
+        "1": 176,
+        "2": 320
+      },
+      "valid_votes": 496,
+      "invalid_votes": 6,
+      "ballots_cast": 502,
+      "unreturned_ballots": 0,
+      "ballots_issued": 502,
+      "unused_ballots": 222,
+      "electors": 724,
+      "turnout_rate": 69.33999633789062
+    },
+    "ILA-TOUCHENG-GUISHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "龜山里",
+      "village_en": "Guishan Village",
+      "votes": {
+        "1": 137,
+        "2": 316
+      },
+      "valid_votes": 453,
+      "invalid_votes": 5,
+      "ballots_cast": 458,
+      "unreturned_ballots": 0,
+      "ballots_issued": 458,
+      "unused_ballots": 207,
+      "electors": 665,
+      "turnout_rate": 68.87000274658203
+    },
+    "ILA-TOUCHENG-DAXI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "大溪里",
+      "village_en": "Daxi Village",
+      "votes": {
+        "1": 295,
+        "2": 303
+      },
+      "valid_votes": 598,
+      "invalid_votes": 3,
+      "ballots_cast": 601,
+      "unreturned_ballots": 0,
+      "ballots_issued": 601,
+      "unused_ballots": 297,
+      "electors": 898,
+      "turnout_rate": 66.93000030517578
+    },
+    "ILA-TOUCHENG-HEXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "合興里",
+      "village_en": "Hexing Village",
+      "votes": {
+        "1": 71,
+        "2": 171
+      },
+      "valid_votes": 242,
+      "invalid_votes": 2,
+      "ballots_cast": 244,
+      "unreturned_ballots": 0,
+      "ballots_issued": 244,
+      "unused_ballots": 143,
+      "electors": 387,
+      "turnout_rate": 63.04999923706055
+    },
+    "ILA-TOUCHENG-GENGXIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "更新里",
+      "village_en": "Gengxin Village",
+      "votes": {
+        "1": 306,
+        "2": 594
+      },
+      "valid_votes": 900,
+      "invalid_votes": 7,
+      "ballots_cast": 907,
+      "unreturned_ballots": 0,
+      "ballots_issued": 907,
+      "unused_ballots": 445,
+      "electors": 1352,
+      "turnout_rate": 67.08999633789062
+    },
+    "ILA-TOUCHENG-WAIAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "外澳里",
+      "village_en": "Waiao Village",
+      "votes": {
+        "1": 245,
+        "2": 361
+      },
+      "valid_votes": 606,
+      "invalid_votes": 9,
+      "ballots_cast": 615,
+      "unreturned_ballots": 0,
+      "ballots_issued": 615,
+      "unused_ballots": 303,
+      "electors": 918,
+      "turnout_rate": 66.98999786376953
+    },
+    "ILA-TOUCHENG-GANGKOU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "港口里",
+      "village_en": "Gangkou Village",
+      "votes": {
+        "1": 171,
+        "2": 242
+      },
+      "valid_votes": 413,
+      "invalid_votes": 1,
+      "ballots_cast": 414,
+      "unreturned_ballots": 0,
+      "ballots_issued": 414,
+      "unused_ballots": 199,
+      "electors": 613,
+      "turnout_rate": 67.54000091552734
+    },
+    "ILA-TOUCHENG-WUYING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "武營里",
+      "village_en": "Wuying Village",
+      "votes": {
+        "1": 317,
+        "2": 722
+      },
+      "valid_votes": 1039,
+      "invalid_votes": 5,
+      "ballots_cast": 1044,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1044,
+      "unused_ballots": 431,
+      "electors": 1475,
+      "turnout_rate": 70.77999877929688
+    },
+    "ILA-TOUCHENG-DAKENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "大坑里",
+      "village_en": "Dakeng Village",
+      "votes": {
+        "1": 345,
+        "2": 514
+      },
+      "valid_votes": 859,
+      "invalid_votes": 3,
+      "ballots_cast": 862,
+      "unreturned_ballots": 0,
+      "ballots_issued": 862,
+      "unused_ballots": 350,
+      "electors": 1212,
+      "turnout_rate": 71.12000274658203
+    },
+    "ILA-TOUCHENG-CHENGDONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "城東里",
+      "village_en": "Chengdong Village",
+      "votes": {
+        "1": 187,
+        "2": 391
+      },
+      "valid_votes": 578,
+      "invalid_votes": 1,
+      "ballots_cast": 579,
+      "unreturned_ballots": 0,
+      "ballots_issued": 579,
+      "unused_ballots": 166,
+      "electors": 745,
+      "turnout_rate": 77.72000122070312
+    },
+    "ILA-TOUCHENG-CHENGBEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "城北里",
+      "village_en": "Chengbei Village",
+      "votes": {
+        "1": 130,
+        "2": 292
+      },
+      "valid_votes": 422,
+      "invalid_votes": 4,
+      "ballots_cast": 426,
+      "unreturned_ballots": 0,
+      "ballots_issued": 426,
+      "unused_ballots": 105,
+      "electors": 531,
+      "turnout_rate": 80.2300033569336
+    },
+    "ILA-TOUCHENG-CHENGXI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "城西里",
+      "village_en": "Chengxi Village",
+      "votes": {
+        "1": 162,
+        "2": 336
+      },
+      "valid_votes": 498,
+      "invalid_votes": 5,
+      "ballots_cast": 503,
+      "unreturned_ballots": 0,
+      "ballots_issued": 503,
+      "unused_ballots": 132,
+      "electors": 635,
+      "turnout_rate": 79.20999908447266
+    },
+    "ILA-TOUCHENG-CHENGNAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "城南里",
+      "village_en": "Chengnan Village",
+      "votes": {
+        "1": 161,
+        "2": 349
+      },
+      "valid_votes": 510,
+      "invalid_votes": 3,
+      "ballots_cast": 513,
+      "unreturned_ballots": 0,
+      "ballots_issued": 513,
+      "unused_ballots": 161,
+      "electors": 674,
+      "turnout_rate": 76.11000061035156
+    },
+    "ILA-TOUCHENG-ZHUAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "竹安里",
+      "village_en": "Zhuan Village",
+      "votes": {
+        "1": 501,
+        "2": 864
+      },
+      "valid_votes": 1365,
+      "invalid_votes": 11,
+      "ballots_cast": 1376,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1376,
+      "unused_ballots": 603,
+      "electors": 1979,
+      "turnout_rate": 69.52999877929688
+    },
+    "ILA-TOUCHENG-XINJIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "新建里",
+      "village_en": "Xinjian Village",
+      "votes": {
+        "1": 510,
+        "2": 844
+      },
+      "valid_votes": 1354,
+      "invalid_votes": 13,
+      "ballots_cast": 1367,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1367,
+      "unused_ballots": 469,
+      "electors": 1836,
+      "turnout_rate": 74.45999908447266
+    },
+    "ILA-TOUCHENG-BAYA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "拔雅里",
+      "village_en": "Baya Village",
+      "votes": {
+        "1": 385,
+        "2": 684
+      },
+      "valid_votes": 1069,
+      "invalid_votes": 12,
+      "ballots_cast": 1081,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1081,
+      "unused_ballots": 411,
+      "electors": 1492,
+      "turnout_rate": 72.44999694824219
+    },
+    "ILA-TOUCHENG-FUCHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "福成里",
+      "village_en": "Fucheng Village",
+      "votes": {
+        "1": 280,
+        "2": 424
+      },
+      "valid_votes": 704,
+      "invalid_votes": 6,
+      "ballots_cast": 710,
+      "unreturned_ballots": 0,
+      "ballots_issued": 710,
+      "unused_ballots": 305,
+      "electors": 1015,
+      "turnout_rate": 69.94999694824219
+    },
+    "ILA-TOUCHENG-JINMIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "金面里",
+      "village_en": "Jinmian Village",
+      "votes": {
+        "1": 414,
+        "2": 772
+      },
+      "valid_votes": 1186,
+      "invalid_votes": 6,
+      "ballots_cast": 1192,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1192,
+      "unused_ballots": 443,
+      "electors": 1635,
+      "turnout_rate": 72.91000366210938
+    },
+    "ILA-TOUCHENG-JINYING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "金盈里",
+      "village_en": "Jinying Village",
+      "votes": {
+        "1": 208,
+        "2": 304
+      },
+      "valid_votes": 512,
+      "invalid_votes": 4,
+      "ballots_cast": 516,
+      "unreturned_ballots": 0,
+      "ballots_issued": 516,
+      "unused_ballots": 199,
+      "electors": 715,
+      "turnout_rate": 72.16999816894531
+    },
+    "ILA-TOUCHENG-DINGPU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "頂埔里",
+      "village_en": "Dingpu Village",
+      "votes": {
+        "1": 372,
+        "2": 610
+      },
+      "valid_votes": 982,
+      "invalid_votes": 6,
+      "ballots_cast": 988,
+      "unreturned_ballots": 0,
+      "ballots_issued": 988,
+      "unused_ballots": 332,
+      "electors": 1320,
+      "turnout_rate": 74.8499984741211
+    },
+    "ILA-TOUCHENG-XIAPU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "下埔里",
+      "village_en": "Xiapu Village",
+      "votes": {
+        "1": 289,
+        "2": 387
+      },
+      "valid_votes": 676,
+      "invalid_votes": 12,
+      "ballots_cast": 688,
+      "unreturned_ballots": 0,
+      "ballots_issued": 688,
+      "unused_ballots": 272,
+      "electors": 960,
+      "turnout_rate": 71.66999816894531
+    },
+    "ILA-TOUCHENG-ZHONGLUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "中崙里",
+      "village_en": "Zhonglun Village",
+      "votes": {
+        "1": 277,
+        "2": 457
+      },
+      "valid_votes": 734,
+      "invalid_votes": 4,
+      "ballots_cast": 738,
+      "unreturned_ballots": 0,
+      "ballots_issued": 738,
+      "unused_ballots": 244,
+      "electors": 982,
+      "turnout_rate": 75.1500015258789
+    },
+    "ILA-TOUCHENG-ERCHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "頭城鎮",
+      "township_en": "Toucheng Township",
+      "village_zh": "二城里",
+      "village_en": "Ercheng Village",
+      "votes": {
+        "1": 352,
+        "2": 443
+      },
+      "valid_votes": 795,
+      "invalid_votes": 8,
+      "ballots_cast": 803,
+      "unreturned_ballots": 1,
+      "ballots_issued": 804,
+      "unused_ballots": 269,
+      "electors": 1073,
+      "turnout_rate": 74.83999633789062
+    },
+    "ILA-JIAOXI-BAIYUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "白雲村",
+      "village_en": "Baiyun Village",
+      "votes": {
+        "1": 473,
+        "2": 561
+      },
+      "valid_votes": 1034,
+      "invalid_votes": 4,
+      "ballots_cast": 1038,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1038,
+      "unused_ballots": 402,
+      "electors": 1440,
+      "turnout_rate": 72.08000183105469
+    },
+    "ILA-JIAOXI-YUSHI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "玉石村",
+      "village_en": "Yushi Village",
+      "votes": {
+        "1": 563,
+        "2": 646
+      },
+      "valid_votes": 1209,
+      "invalid_votes": 9,
+      "ballots_cast": 1218,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1218,
+      "unused_ballots": 422,
+      "electors": 1640,
+      "turnout_rate": 74.2699966430664
+    },
+    "ILA-JIAOXI-DEYANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "德陽村",
+      "village_en": "Deyang Village",
+      "votes": {
+        "1": 919,
+        "2": 1633
+      },
+      "valid_votes": 2552,
+      "invalid_votes": 19,
+      "ballots_cast": 2571,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2571,
+      "unused_ballots": 900,
+      "electors": 3471,
+      "turnout_rate": 74.06999969482422
+    },
+    "ILA-JIAOXI-DAZHONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "大忠村",
+      "village_en": "Dazhong Village",
+      "votes": {
+        "1": 561,
+        "2": 1069
+      },
+      "valid_votes": 1630,
+      "invalid_votes": 12,
+      "ballots_cast": 1642,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1642,
+      "unused_ballots": 581,
+      "electors": 2223,
+      "turnout_rate": 73.86000061035156
+    },
+    "ILA-JIAOXI-DAYI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "大義村",
+      "village_en": "Dayi Village",
+      "votes": {
+        "1": 256,
+        "2": 256
+      },
+      "valid_votes": 512,
+      "invalid_votes": 6,
+      "ballots_cast": 518,
+      "unreturned_ballots": 0,
+      "ballots_issued": 518,
+      "unused_ballots": 165,
+      "electors": 683,
+      "turnout_rate": 75.83999633789062
+    },
+    "ILA-JIAOXI-LIUJIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "六結村",
+      "village_en": "Liujie Village",
+      "votes": {
+        "1": 388,
+        "2": 664
+      },
+      "valid_votes": 1052,
+      "invalid_votes": 6,
+      "ballots_cast": 1058,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1058,
+      "unused_ballots": 339,
+      "electors": 1397,
+      "turnout_rate": 75.7300033569336
+    },
+    "ILA-JIAOXI-ERLONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "二龍村",
+      "village_en": "Erlong Village",
+      "votes": {
+        "1": 427,
+        "2": 370
+      },
+      "valid_votes": 797,
+      "invalid_votes": 3,
+      "ballots_cast": 800,
+      "unreturned_ballots": 0,
+      "ballots_issued": 800,
+      "unused_ballots": 285,
+      "electors": 1085,
+      "turnout_rate": 73.7300033569336
+    },
+    "ILA-JIAOXI-SHICHAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "時潮村",
+      "village_en": "Shichao Village",
+      "votes": {
+        "1": 582,
+        "2": 412
+      },
+      "valid_votes": 994,
+      "invalid_votes": 5,
+      "ballots_cast": 999,
+      "unreturned_ballots": 0,
+      "ballots_issued": 999,
+      "unused_ballots": 400,
+      "electors": 1399,
+      "turnout_rate": 71.41000366210938
+    },
+    "ILA-JIAOXI-YUTIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "玉田村",
+      "village_en": "Yutian Village",
+      "votes": {
+        "1": 893,
+        "2": 495
+      },
+      "valid_votes": 1388,
+      "invalid_votes": 11,
+      "ballots_cast": 1399,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1399,
+      "unused_ballots": 486,
+      "electors": 1885,
+      "turnout_rate": 74.22000122070312
+    },
+    "ILA-JIAOXI-SANMIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "三民村",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 832,
+        "2": 846
+      },
+      "valid_votes": 1678,
+      "invalid_votes": 13,
+      "ballots_cast": 1691,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1691,
+      "unused_ballots": 650,
+      "electors": 2341,
+      "turnout_rate": 72.2300033569336
+    },
+    "ILA-JIAOXI-LINMEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "林美村",
+      "village_en": "Linmei Village",
+      "votes": {
+        "1": 438,
+        "2": 381
+      },
+      "valid_votes": 819,
+      "invalid_votes": 8,
+      "ballots_cast": 827,
+      "unreturned_ballots": 0,
+      "ballots_issued": 827,
+      "unused_ballots": 280,
+      "electors": 1107,
+      "turnout_rate": 74.70999908447266
+    },
+    "ILA-JIAOXI-BAIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "白鵝村",
+      "village_en": "Baie Village",
+      "votes": {
+        "1": 265,
+        "2": 235
+      },
+      "valid_votes": 500,
+      "invalid_votes": 2,
+      "ballots_cast": 502,
+      "unreturned_ballots": 0,
+      "ballots_issued": 502,
+      "unused_ballots": 233,
+      "electors": 735,
+      "turnout_rate": 68.30000305175781
+    },
+    "ILA-JIAOXI-YUGUANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "玉光村",
+      "village_en": "Yuguang Village",
+      "votes": {
+        "1": 439,
+        "2": 259
+      },
+      "valid_votes": 698,
+      "invalid_votes": 9,
+      "ballots_cast": 707,
+      "unreturned_ballots": 0,
+      "ballots_issued": 707,
+      "unused_ballots": 218,
+      "electors": 925,
+      "turnout_rate": 76.43000030517578
+    },
+    "ILA-JIAOXI-GUANGWU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "光武村",
+      "village_en": "Guangwu Village",
+      "votes": {
+        "1": 473,
+        "2": 346
+      },
+      "valid_votes": 819,
+      "invalid_votes": 8,
+      "ballots_cast": 827,
+      "unreturned_ballots": 0,
+      "ballots_issued": 827,
+      "unused_ballots": 289,
+      "electors": 1116,
+      "turnout_rate": 74.0999984741211
+    },
+    "ILA-JIAOXI-WUSHA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "吳沙村",
+      "village_en": "Wusha Village",
+      "votes": {
+        "1": 862,
+        "2": 809
+      },
+      "valid_votes": 1671,
+      "invalid_votes": 7,
+      "ballots_cast": 1678,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1678,
+      "unused_ballots": 536,
+      "electors": 2214,
+      "turnout_rate": 75.79000091552734
+    },
+    "ILA-JIAOXI-LONGTAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "龍潭村",
+      "village_en": "Longtan Village",
+      "votes": {
+        "1": 1279,
+        "2": 809
+      },
+      "valid_votes": 2088,
+      "invalid_votes": 21,
+      "ballots_cast": 2109,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2109,
+      "unused_ballots": 675,
+      "electors": 2784,
+      "turnout_rate": 75.75
+    },
+    "ILA-JIAOXI-PAOLUN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "匏崙村",
+      "village_en": "Paolun Village",
+      "votes": {
+        "1": 391,
+        "2": 287
+      },
+      "valid_votes": 678,
+      "invalid_votes": 8,
+      "ballots_cast": 686,
+      "unreturned_ballots": 0,
+      "ballots_issued": 686,
+      "unused_ballots": 264,
+      "electors": 950,
+      "turnout_rate": 72.20999908447266
+    },
+    "ILA-JIAOXI-ERJIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "礁溪鄉",
+      "township_en": "Jiaoxi Township",
+      "village_zh": "二結村",
+      "village_en": "Erjie Village",
+      "votes": {
+        "1": 196,
+        "2": 99
+      },
+      "valid_votes": 295,
+      "invalid_votes": 0,
+      "ballots_cast": 295,
+      "unreturned_ballots": 0,
+      "ballots_issued": 295,
+      "unused_ballots": 94,
+      "electors": 389,
+      "turnout_rate": 75.83999633789062
+    },
+    "ILA-ZHUANGWEI-JIXIANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "吉祥村",
+      "village_en": "Jixiang Village",
+      "votes": {
+        "1": 731,
+        "2": 767
+      },
+      "valid_votes": 1498,
+      "invalid_votes": 16,
+      "ballots_cast": 1514,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1514,
+      "unused_ballots": 481,
+      "electors": 1995,
+      "turnout_rate": 75.88999938964844
+    },
+    "ILA-ZHUANGWEI-GUJIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "古結村",
+      "village_en": "Gujie Village",
+      "votes": {
+        "1": 405,
+        "2": 303
+      },
+      "valid_votes": 708,
+      "invalid_votes": 8,
+      "ballots_cast": 716,
+      "unreturned_ballots": 0,
+      "ballots_issued": 716,
+      "unused_ballots": 224,
+      "electors": 940,
+      "turnout_rate": 76.16999816894531
+    },
+    "ILA-ZHUANGWEI-MEIFU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "美福村",
+      "village_en": "Meifu Village",
+      "votes": {
+        "1": 625,
+        "2": 586
+      },
+      "valid_votes": 1211,
+      "invalid_votes": 4,
+      "ballots_cast": 1215,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1215,
+      "unused_ballots": 393,
+      "electors": 1608,
+      "turnout_rate": 75.55999755859375
+    },
+    "ILA-ZHUANGWEI-XINNAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "新南村",
+      "village_en": "Xinnan Village",
+      "votes": {
+        "1": 363,
+        "2": 301
+      },
+      "valid_votes": 664,
+      "invalid_votes": 6,
+      "ballots_cast": 670,
+      "unreturned_ballots": 0,
+      "ballots_issued": 670,
+      "unused_ballots": 236,
+      "electors": 906,
+      "turnout_rate": 73.94999694824219
+    },
+    "ILA-ZHUANGWEI-DONGGANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "東港村",
+      "village_en": "Donggang Village",
+      "votes": {
+        "1": 373,
+        "2": 322
+      },
+      "valid_votes": 695,
+      "invalid_votes": 1,
+      "ballots_cast": 696,
+      "unreturned_ballots": 0,
+      "ballots_issued": 696,
+      "unused_ballots": 289,
+      "electors": 985,
+      "turnout_rate": 70.66000366210938
+    },
+    "ILA-ZHUANGWEI-FUXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "復興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 648,
+        "2": 522
+      },
+      "valid_votes": 1170,
+      "invalid_votes": 15,
+      "ballots_cast": 1185,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1185,
+      "unused_ballots": 419,
+      "electors": 1604,
+      "turnout_rate": 73.87999725341797
+    },
+    "ILA-ZHUANGWEI-GUOLING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "過嶺村",
+      "village_en": "Guoling Village",
+      "votes": {
+        "1": 622,
+        "2": 493
+      },
+      "valid_votes": 1115,
+      "invalid_votes": 16,
+      "ballots_cast": 1131,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1131,
+      "unused_ballots": 460,
+      "electors": 1591,
+      "turnout_rate": 71.08999633789062
+    },
+    "ILA-ZHUANGWEI-YONGZHEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "永鎮村",
+      "village_en": "Yongzhen Village",
+      "votes": {
+        "1": 352,
+        "2": 228
+      },
+      "valid_votes": 580,
+      "invalid_votes": 2,
+      "ballots_cast": 582,
+      "unreturned_ballots": 0,
+      "ballots_issued": 582,
+      "unused_ballots": 232,
+      "electors": 814,
+      "turnout_rate": 71.5
+    },
+    "ILA-ZHUANGWEI-ZHONGXIAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "忠孝村",
+      "village_en": "Zhongxiao Village",
+      "votes": {
+        "1": 773,
+        "2": 723
+      },
+      "valid_votes": 1496,
+      "invalid_votes": 11,
+      "ballots_cast": 1507,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1507,
+      "unused_ballots": 549,
+      "electors": 2056,
+      "turnout_rate": 73.30000305175781
+    },
+    "ILA-ZHUANGWEI-GUTING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "古亭村",
+      "village_en": "Guting Village",
+      "votes": {
+        "1": 541,
+        "2": 393
+      },
+      "valid_votes": 934,
+      "invalid_votes": 4,
+      "ballots_cast": 938,
+      "unreturned_ballots": 0,
+      "ballots_issued": 938,
+      "unused_ballots": 347,
+      "electors": 1285,
+      "turnout_rate": 73.0
+    },
+    "ILA-ZHUANGWEI-GONGLAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "功勞村",
+      "village_en": "Gonglao Village",
+      "votes": {
+        "1": 429,
+        "2": 316
+      },
+      "valid_votes": 745,
+      "invalid_votes": 8,
+      "ballots_cast": 753,
+      "unreturned_ballots": 0,
+      "ballots_issued": 753,
+      "unused_ballots": 260,
+      "electors": 1013,
+      "turnout_rate": 74.33000183105469
+    },
+    "ILA-ZHUANGWEI-MEICHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "美城村",
+      "village_en": "Meicheng Village",
+      "votes": {
+        "1": 817,
+        "2": 647
+      },
+      "valid_votes": 1464,
+      "invalid_votes": 11,
+      "ballots_cast": 1475,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1475,
+      "unused_ballots": 462,
+      "electors": 1937,
+      "turnout_rate": 76.1500015258789
+    },
+    "ILA-ZHUANGWEI-XINSHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "新社村",
+      "village_en": "Xinshe Village",
+      "votes": {
+        "1": 413,
+        "2": 352
+      },
+      "valid_votes": 765,
+      "invalid_votes": 5,
+      "ballots_cast": 770,
+      "unreturned_ballots": 0,
+      "ballots_issued": 770,
+      "unused_ballots": 304,
+      "electors": 1074,
+      "turnout_rate": 71.69000244140625
+    },
+    "ILA-ZHUANGWEI-DAFU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "壯圍鄉",
+      "township_en": "Zhuangwei Township",
+      "village_zh": "大福村",
+      "village_en": "Dafu Village",
+      "votes": {
+        "1": 618,
+        "2": 551
+      },
+      "valid_votes": 1169,
+      "invalid_votes": 11,
+      "ballots_cast": 1180,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1180,
+      "unused_ballots": 470,
+      "electors": 1650,
+      "turnout_rate": 71.5199966430664
+    },
+    "ILA-YUANSHAN-YUANSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "員山村",
+      "village_en": "Yuanshan Village",
+      "votes": {
+        "1": 1544,
+        "2": 1802
+      },
+      "valid_votes": 3346,
+      "invalid_votes": 23,
+      "ballots_cast": 3369,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3369,
+      "unused_ballots": 1158,
+      "electors": 4527,
+      "turnout_rate": 74.41999816894531
+    },
+    "ILA-YUANSHAN-SHANGDE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "尚德村",
+      "village_en": "Shangde Village",
+      "votes": {
+        "1": 729,
+        "2": 629
+      },
+      "valid_votes": 1358,
+      "invalid_votes": 15,
+      "ballots_cast": 1373,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1373,
+      "unused_ballots": 547,
+      "electors": 1920,
+      "turnout_rate": 71.51000213623047
+    },
+    "ILA-YUANSHAN-HUIHAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "惠好村",
+      "village_en": "Huihao Village",
+      "votes": {
+        "1": 616,
+        "2": 371
+      },
+      "valid_votes": 987,
+      "invalid_votes": 8,
+      "ballots_cast": 995,
+      "unreturned_ballots": 0,
+      "ballots_issued": 995,
+      "unused_ballots": 319,
+      "electors": 1314,
+      "turnout_rate": 75.72000122070312
+    },
+    "ILA-YUANSHAN-QIXIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "七賢村",
+      "village_en": "Qixian Village",
+      "votes": {
+        "1": 337,
+        "2": 385
+      },
+      "valid_votes": 722,
+      "invalid_votes": 3,
+      "ballots_cast": 725,
+      "unreturned_ballots": 0,
+      "ballots_issued": 725,
+      "unused_ballots": 318,
+      "electors": 1043,
+      "turnout_rate": 69.51000213623047
+    },
+    "ILA-YUANSHAN-SHENGOU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "深溝村",
+      "village_en": "Shengou Village",
+      "votes": {
+        "1": 657,
+        "2": 387
+      },
+      "valid_votes": 1044,
+      "invalid_votes": 7,
+      "ballots_cast": 1051,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1051,
+      "unused_ballots": 419,
+      "electors": 1470,
+      "turnout_rate": 71.5
+    },
+    "ILA-YUANSHAN-ZHENXIANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "蓁巷村",
+      "village_en": "Zhenxiang Village",
+      "votes": {
+        "1": 479,
+        "2": 331
+      },
+      "valid_votes": 810,
+      "invalid_votes": 7,
+      "ballots_cast": 817,
+      "unreturned_ballots": 0,
+      "ballots_issued": 817,
+      "unused_ballots": 398,
+      "electors": 1215,
+      "turnout_rate": 67.23999786376953
+    },
+    "ILA-YUANSHAN-NEICHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "內城村",
+      "village_en": "Neicheng Village",
+      "votes": {
+        "1": 359,
+        "2": 622
+      },
+      "valid_votes": 981,
+      "invalid_votes": 11,
+      "ballots_cast": 992,
+      "unreturned_ballots": 0,
+      "ballots_issued": 992,
+      "unused_ballots": 420,
+      "electors": 1412,
+      "turnout_rate": 70.25
+    },
+    "ILA-YUANSHAN-ZHONGHUA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "中華村",
+      "village_en": "Zhonghua Village",
+      "votes": {
+        "1": 316,
+        "2": 211
+      },
+      "valid_votes": 527,
+      "invalid_votes": 4,
+      "ballots_cast": 531,
+      "unreturned_ballots": 0,
+      "ballots_issued": 531,
+      "unused_ballots": 201,
+      "electors": 732,
+      "turnout_rate": 72.54000091552734
+    },
+    "ILA-YUANSHAN-YONGHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "永和村",
+      "village_en": "Yonghe Village",
+      "votes": {
+        "1": 620,
+        "2": 549
+      },
+      "valid_votes": 1169,
+      "invalid_votes": 7,
+      "ballots_cast": 1176,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1176,
+      "unused_ballots": 485,
+      "electors": 1661,
+      "turnout_rate": 70.80000305175781
+    },
+    "ILA-YUANSHAN-TOUFEN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "頭分村",
+      "village_en": "Toufen Village",
+      "votes": {
+        "1": 462,
+        "2": 398
+      },
+      "valid_votes": 860,
+      "invalid_votes": 2,
+      "ballots_cast": 862,
+      "unreturned_ballots": 0,
+      "ballots_issued": 862,
+      "unused_ballots": 308,
+      "electors": 1170,
+      "turnout_rate": 73.68000030517578
+    },
+    "ILA-YUANSHAN-ZHENSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "枕山村",
+      "village_en": "Zhenshan Village",
+      "votes": {
+        "1": 979,
+        "2": 575
+      },
+      "valid_votes": 1554,
+      "invalid_votes": 14,
+      "ballots_cast": 1568,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1568,
+      "unused_ballots": 561,
+      "electors": 2129,
+      "turnout_rate": 73.6500015258789
+    },
+    "ILA-YUANSHAN-TONGLE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "同樂村",
+      "village_en": "Tongle Village",
+      "votes": {
+        "1": 990,
+        "2": 770
+      },
+      "valid_votes": 1760,
+      "invalid_votes": 13,
+      "ballots_cast": 1773,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1773,
+      "unused_ballots": 700,
+      "electors": 2473,
+      "turnout_rate": 71.69000244140625
+    },
+    "ILA-YUANSHAN-HUDONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "湖東村",
+      "village_en": "Hudong Village",
+      "votes": {
+        "1": 315,
+        "2": 243
+      },
+      "valid_votes": 558,
+      "invalid_votes": 10,
+      "ballots_cast": 568,
+      "unreturned_ballots": 0,
+      "ballots_issued": 568,
+      "unused_ballots": 259,
+      "electors": 827,
+      "turnout_rate": 68.68000030517578
+    },
+    "ILA-YUANSHAN-YIXIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "逸仙村",
+      "village_en": "Yixian Village",
+      "votes": {
+        "1": 385,
+        "2": 213
+      },
+      "valid_votes": 598,
+      "invalid_votes": 6,
+      "ballots_cast": 604,
+      "unreturned_ballots": 0,
+      "ballots_issued": 604,
+      "unused_ballots": 225,
+      "electors": 829,
+      "turnout_rate": 72.86000061035156
+    },
+    "ILA-YUANSHAN-HUBEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "湖北村",
+      "village_en": "Hubei Village",
+      "votes": {
+        "1": 364,
+        "2": 305
+      },
+      "valid_votes": 669,
+      "invalid_votes": 6,
+      "ballots_cast": 675,
+      "unreturned_ballots": 0,
+      "ballots_issued": 675,
+      "unused_ballots": 268,
+      "electors": 943,
+      "turnout_rate": 71.58000183105469
+    },
+    "ILA-YUANSHAN-HUXI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "員山鄉",
+      "township_en": "Yuanshan Township",
+      "village_zh": "湖西村",
+      "village_en": "Huxi Village",
+      "votes": {
+        "1": 662,
+        "2": 335
+      },
+      "valid_votes": 997,
+      "invalid_votes": 11,
+      "ballots_cast": 1008,
+      "unreturned_ballots": 1,
+      "ballots_issued": 1009,
+      "unused_ballots": 403,
+      "electors": 1412,
+      "turnout_rate": 71.38999938964844
+    },
+    "ILA-DONGSHAN-ZHENZHU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "珍珠村",
+      "village_en": "Zhenzhu Village",
+      "votes": {
+        "1": 630,
+        "2": 396
+      },
+      "valid_votes": 1026,
+      "invalid_votes": 7,
+      "ballots_cast": 1033,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1033,
+      "unused_ballots": 349,
+      "electors": 1382,
+      "turnout_rate": 74.75
+    },
+    "ILA-DONGSHAN-BUCHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "補城村",
+      "village_en": "Bucheng Village",
+      "votes": {
+        "1": 436,
+        "2": 301
+      },
+      "valid_votes": 737,
+      "invalid_votes": 9,
+      "ballots_cast": 746,
+      "unreturned_ballots": 0,
+      "ballots_issued": 746,
+      "unused_ballots": 270,
+      "electors": 1016,
+      "turnout_rate": 73.43000030517578
+    },
+    "ILA-DONGSHAN-SANQI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "三奇村",
+      "village_en": "Sanqi Village",
+      "votes": {
+        "1": 380,
+        "2": 235
+      },
+      "valid_votes": 615,
+      "invalid_votes": 5,
+      "ballots_cast": 620,
+      "unreturned_ballots": 0,
+      "ballots_issued": 620,
+      "unused_ballots": 226,
+      "electors": 846,
+      "turnout_rate": 73.29000091552734
+    },
+    "ILA-DONGSHAN-DAXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "大興村",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 443,
+        "2": 272
+      },
+      "valid_votes": 715,
+      "invalid_votes": 4,
+      "ballots_cast": 719,
+      "unreturned_ballots": 0,
+      "ballots_issued": 719,
+      "unused_ballots": 214,
+      "electors": 933,
+      "turnout_rate": 77.05999755859375
+    },
+    "ILA-DONGSHAN-DONGCHENG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "東城村",
+      "village_en": "Dongcheng Village",
+      "votes": {
+        "1": 509,
+        "2": 430
+      },
+      "valid_votes": 939,
+      "invalid_votes": 9,
+      "ballots_cast": 948,
+      "unreturned_ballots": 0,
+      "ballots_issued": 948,
+      "unused_ballots": 324,
+      "electors": 1272,
+      "turnout_rate": 74.52999877929688
+    },
+    "ILA-DONGSHAN-XIANGHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "香和村",
+      "village_en": "Xianghe Village",
+      "votes": {
+        "1": 878,
+        "2": 707
+      },
+      "valid_votes": 1585,
+      "invalid_votes": 12,
+      "ballots_cast": 1597,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1597,
+      "unused_ballots": 581,
+      "electors": 2178,
+      "turnout_rate": 73.31999969482422
+    },
+    "ILA-DONGSHAN-NANXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "南興村",
+      "village_en": "Nanxing Village",
+      "votes": {
+        "1": 870,
+        "2": 792
+      },
+      "valid_votes": 1662,
+      "invalid_votes": 6,
+      "ballots_cast": 1668,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1668,
+      "unused_ballots": 546,
+      "electors": 2214,
+      "turnout_rate": 75.33999633789062
+    },
+    "ILA-DONGSHAN-ANPING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "安平村",
+      "village_en": "Anping Village",
+      "votes": {
+        "1": 311,
+        "2": 168
+      },
+      "valid_votes": 479,
+      "invalid_votes": 2,
+      "ballots_cast": 481,
+      "unreturned_ballots": 0,
+      "ballots_issued": 481,
+      "unused_ballots": 223,
+      "electors": 704,
+      "turnout_rate": 68.31999969482422
+    },
+    "ILA-DONGSHAN-DONGSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "冬山村",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 309,
+        "2": 250
+      },
+      "valid_votes": 559,
+      "invalid_votes": 4,
+      "ballots_cast": 563,
+      "unreturned_ballots": 0,
+      "ballots_issued": 563,
+      "unused_ballots": 253,
+      "electors": 816,
+      "turnout_rate": 69.0
+    },
+    "ILA-DONGSHAN-TAIHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "太和村",
+      "village_en": "Taihe Village",
+      "votes": {
+        "1": 607,
+        "2": 410
+      },
+      "valid_votes": 1017,
+      "invalid_votes": 8,
+      "ballots_cast": 1025,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1025,
+      "unused_ballots": 286,
+      "electors": 1311,
+      "turnout_rate": 78.18000030517578
+    },
+    "ILA-DONGSHAN-BABAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "八寶村",
+      "village_en": "Babao Village",
+      "votes": {
+        "1": 341,
+        "2": 221
+      },
+      "valid_votes": 562,
+      "invalid_votes": 5,
+      "ballots_cast": 567,
+      "unreturned_ballots": 0,
+      "ballots_issued": 567,
+      "unused_ballots": 224,
+      "electors": 791,
+      "turnout_rate": 71.68000030517578
+    },
+    "ILA-DONGSHAN-WANSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "丸山村",
+      "village_en": "Wanshan Village",
+      "votes": {
+        "1": 564,
+        "2": 351
+      },
+      "valid_votes": 915,
+      "invalid_votes": 4,
+      "ballots_cast": 919,
+      "unreturned_ballots": 0,
+      "ballots_issued": 919,
+      "unused_ballots": 346,
+      "electors": 1265,
+      "turnout_rate": 72.6500015258789
+    },
+    "ILA-DONGSHAN-ZHONGSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "中山村",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 214,
+        "2": 117
+      },
+      "valid_votes": 331,
+      "invalid_votes": 3,
+      "ballots_cast": 334,
+      "unreturned_ballots": 0,
+      "ballots_issued": 334,
+      "unused_ballots": 112,
+      "electors": 446,
+      "turnout_rate": 74.88999938964844
+    },
+    "ILA-DONGSHAN-SHUNAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "順安村",
+      "village_en": "Shunan Village",
+      "votes": {
+        "1": 1843,
+        "2": 1348
+      },
+      "valid_votes": 3191,
+      "invalid_votes": 26,
+      "ballots_cast": 3217,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3217,
+      "unused_ballots": 1259,
+      "electors": 4476,
+      "turnout_rate": 71.87000274658203
+    },
+    "ILA-DONGSHAN-YONGMEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "永美村",
+      "village_en": "Yongmei Village",
+      "votes": {
+        "1": 945,
+        "2": 761
+      },
+      "valid_votes": 1706,
+      "invalid_votes": 22,
+      "ballots_cast": 1728,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1728,
+      "unused_ballots": 600,
+      "electors": 2328,
+      "turnout_rate": 74.2300033569336
+    },
+    "ILA-DONGSHAN-WUYUAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "武淵村",
+      "village_en": "Wuyuan Village",
+      "votes": {
+        "1": 503,
+        "2": 295
+      },
+      "valid_votes": 798,
+      "invalid_votes": 3,
+      "ballots_cast": 801,
+      "unreturned_ballots": 0,
+      "ballots_issued": 801,
+      "unused_ballots": 246,
+      "electors": 1047,
+      "turnout_rate": 76.5
+    },
+    "ILA-DONGSHAN-QUNYING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "群英村",
+      "village_en": "Qunying Village",
+      "votes": {
+        "1": 1797,
+        "2": 1626
+      },
+      "valid_votes": 3423,
+      "invalid_votes": 40,
+      "ballots_cast": 3463,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3463,
+      "unused_ballots": 1095,
+      "electors": 4558,
+      "turnout_rate": 75.9800033569336
+    },
+    "ILA-DONGSHAN-QINGGOU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "清溝村",
+      "village_en": "Qinggou Village",
+      "votes": {
+        "1": 1273,
+        "2": 1049
+      },
+      "valid_votes": 2322,
+      "invalid_votes": 18,
+      "ballots_cast": 2340,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2340,
+      "unused_ballots": 707,
+      "electors": 3047,
+      "turnout_rate": 76.80000305175781
+    },
+    "ILA-DONGSHAN-LUPU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "鹿埔村",
+      "village_en": "Lupu Village",
+      "votes": {
+        "1": 939,
+        "2": 690
+      },
+      "valid_votes": 1629,
+      "invalid_votes": 16,
+      "ballots_cast": 1645,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1645,
+      "unused_ballots": 594,
+      "electors": 2239,
+      "turnout_rate": 73.47000122070312
+    },
+    "ILA-DONGSHAN-DEAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "得安村",
+      "village_en": "Dean Village",
+      "votes": {
+        "1": 387,
+        "2": 337
+      },
+      "valid_votes": 724,
+      "invalid_votes": 7,
+      "ballots_cast": 731,
+      "unreturned_ballots": 0,
+      "ballots_issued": 731,
+      "unused_ballots": 309,
+      "electors": 1040,
+      "turnout_rate": 70.29000091552734
+    },
+    "ILA-DONGSHAN-GUANGXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "廣興村",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 927,
+        "2": 737
+      },
+      "valid_votes": 1664,
+      "invalid_votes": 15,
+      "ballots_cast": 1679,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1679,
+      "unused_ballots": 643,
+      "electors": 2322,
+      "turnout_rate": 72.30999755859375
+    },
+    "ILA-DONGSHAN-GUANGAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "廣安村",
+      "village_en": "Guangan Village",
+      "votes": {
+        "1": 566,
+        "2": 497
+      },
+      "valid_votes": 1063,
+      "invalid_votes": 8,
+      "ballots_cast": 1071,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1071,
+      "unused_ballots": 327,
+      "electors": 1398,
+      "turnout_rate": 76.61000061035156
+    },
+    "ILA-DONGSHAN-KELIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "柯林村",
+      "village_en": "Kelin Village",
+      "votes": {
+        "1": 542,
+        "2": 365
+      },
+      "valid_votes": 907,
+      "invalid_votes": 8,
+      "ballots_cast": 915,
+      "unreturned_ballots": 0,
+      "ballots_issued": 915,
+      "unused_ballots": 287,
+      "electors": 1202,
+      "turnout_rate": 76.12000274658203
+    },
+    "ILA-DONGSHAN-DAJIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "冬山鄉",
+      "township_en": "Dongshan Township",
+      "village_zh": "大進村",
+      "village_en": "Dajin Village",
+      "votes": {
+        "1": 395,
+        "2": 206
+      },
+      "valid_votes": 601,
+      "invalid_votes": 5,
+      "ballots_cast": 606,
+      "unreturned_ballots": 0,
+      "ballots_issued": 606,
+      "unused_ballots": 234,
+      "electors": 840,
+      "turnout_rate": 72.13999938964844
+    },
+    "ILA-WUJIE-SANXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "三興村",
+      "village_en": "Sanxing Village",
+      "votes": {
+        "1": 744,
+        "2": 431
+      },
+      "valid_votes": 1175,
+      "invalid_votes": 9,
+      "ballots_cast": 1184,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1184,
+      "unused_ballots": 459,
+      "electors": 1643,
+      "turnout_rate": 72.05999755859375
+    },
+    "ILA-WUJIE-ERJIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "二結村",
+      "village_en": "Erjie Village",
+      "votes": {
+        "1": 564,
+        "2": 605
+      },
+      "valid_votes": 1169,
+      "invalid_votes": 10,
+      "ballots_cast": 1179,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1179,
+      "unused_ballots": 394,
+      "electors": 1573,
+      "turnout_rate": 74.94999694824219
+    },
+    "ILA-WUJIE-ZHENAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "鎮安村",
+      "village_en": "Zhenan Village",
+      "votes": {
+        "1": 889,
+        "2": 681
+      },
+      "valid_votes": 1570,
+      "invalid_votes": 10,
+      "ballots_cast": 1580,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1580,
+      "unused_ballots": 576,
+      "electors": 2156,
+      "turnout_rate": 73.27999877929688
+    },
+    "ILA-WUJIE-SHANGSI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "上四村",
+      "village_en": "Shangsi Village",
+      "votes": {
+        "1": 545,
+        "2": 539
+      },
+      "valid_votes": 1084,
+      "invalid_votes": 12,
+      "ballots_cast": 1096,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1096,
+      "unused_ballots": 382,
+      "electors": 1478,
+      "turnout_rate": 74.1500015258789
+    },
+    "ILA-WUJIE-ZHONGXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "中興村",
+      "village_en": "Zhongxing Village",
+      "votes": {
+        "1": 472,
+        "2": 382
+      },
+      "valid_votes": 854,
+      "invalid_votes": 7,
+      "ballots_cast": 861,
+      "unreturned_ballots": 0,
+      "ballots_issued": 861,
+      "unused_ballots": 330,
+      "electors": 1191,
+      "turnout_rate": 72.29000091552734
+    },
+    "ILA-WUJIE-SIJIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "四結村",
+      "village_en": "Sijie Village",
+      "votes": {
+        "1": 785,
+        "2": 852
+      },
+      "valid_votes": 1637,
+      "invalid_votes": 10,
+      "ballots_cast": 1647,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1647,
+      "unused_ballots": 534,
+      "electors": 2181,
+      "turnout_rate": 75.5199966430664
+    },
+    "ILA-WUJIE-FUXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 693,
+        "2": 469
+      },
+      "valid_votes": 1162,
+      "invalid_votes": 6,
+      "ballots_cast": 1168,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1168,
+      "unused_ballots": 387,
+      "electors": 1555,
+      "turnout_rate": 75.11000061035156
+    },
+    "ILA-WUJIE-WUJIE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "五結村",
+      "village_en": "Wujie Village",
+      "votes": {
+        "1": 1119,
+        "2": 1052
+      },
+      "valid_votes": 2171,
+      "invalid_votes": 15,
+      "ballots_cast": 2186,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2186,
+      "unused_ballots": 759,
+      "electors": 2945,
+      "turnout_rate": 74.2300033569336
+    },
+    "ILA-WUJIE-XIEHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "協和村",
+      "village_en": "Xiehe Village",
+      "votes": {
+        "1": 1069,
+        "2": 768
+      },
+      "valid_votes": 1837,
+      "invalid_votes": 12,
+      "ballots_cast": 1849,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1849,
+      "unused_ballots": 675,
+      "electors": 2524,
+      "turnout_rate": 73.26000213623047
+    },
+    "ILA-WUJIE-DAJI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "大吉村",
+      "village_en": "Daji Village",
+      "votes": {
+        "1": 1164,
+        "2": 986
+      },
+      "valid_votes": 2150,
+      "invalid_votes": 17,
+      "ballots_cast": 2167,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2167,
+      "unused_ballots": 753,
+      "electors": 2920,
+      "turnout_rate": 74.20999908447266
+    },
+    "ILA-WUJIE-XIAOWEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "孝威村",
+      "village_en": "Xiaowei Village",
+      "votes": {
+        "1": 615,
+        "2": 351
+      },
+      "valid_votes": 966,
+      "invalid_votes": 7,
+      "ballots_cast": 973,
+      "unreturned_ballots": 0,
+      "ballots_issued": 973,
+      "unused_ballots": 386,
+      "electors": 1359,
+      "turnout_rate": 71.5999984741211
+    },
+    "ILA-WUJIE-JINZHONG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "錦眾村",
+      "village_en": "Jinzhong Village",
+      "votes": {
+        "1": 642,
+        "2": 393
+      },
+      "valid_votes": 1035,
+      "invalid_votes": 8,
+      "ballots_cast": 1043,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1043,
+      "unused_ballots": 382,
+      "electors": 1425,
+      "turnout_rate": 73.19000244140625
+    },
+    "ILA-WUJIE-LIZE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "利澤村",
+      "village_en": "Lize Village",
+      "votes": {
+        "1": 779,
+        "2": 579
+      },
+      "valid_votes": 1358,
+      "invalid_votes": 12,
+      "ballots_cast": 1370,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1370,
+      "unused_ballots": 547,
+      "electors": 1917,
+      "turnout_rate": 71.47000122070312
+    },
+    "ILA-WUJIE-CHENGXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "成興村",
+      "village_en": "Chengxing Village",
+      "votes": {
+        "1": 1048,
+        "2": 713
+      },
+      "valid_votes": 1761,
+      "invalid_votes": 15,
+      "ballots_cast": 1776,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1776,
+      "unused_ballots": 631,
+      "electors": 2407,
+      "turnout_rate": 73.77999877929688
+    },
+    "ILA-WUJIE-JIXIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "五結鄉",
+      "township_en": "Wujie Township",
+      "village_zh": "季新村",
+      "village_en": "Jixin Village",
+      "votes": {
+        "1": 1027,
+        "2": 750
+      },
+      "valid_votes": 1777,
+      "invalid_votes": 18,
+      "ballots_cast": 1795,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1795,
+      "unused_ballots": 781,
+      "electors": 2576,
+      "turnout_rate": 69.68000030517578
+    },
+    "ILA-SANXING-YUANSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "員山村",
+      "village_en": "Yuanshan Village",
+      "votes": {
+        "1": 80,
+        "2": 87
+      },
+      "valid_votes": 167,
+      "invalid_votes": 1,
+      "ballots_cast": 168,
+      "unreturned_ballots": 0,
+      "ballots_issued": 168,
+      "unused_ballots": 67,
+      "electors": 235,
+      "turnout_rate": 71.48999786376953
+    },
+    "ILA-SANXING-TIANSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "天山村",
+      "village_en": "Tianshan Village",
+      "votes": {
+        "1": 211,
+        "2": 151
+      },
+      "valid_votes": 362,
+      "invalid_votes": 2,
+      "ballots_cast": 364,
+      "unreturned_ballots": 0,
+      "ballots_issued": 364,
+      "unused_ballots": 173,
+      "electors": 537,
+      "turnout_rate": 67.77999877929688
+    },
+    "ILA-SANXING-TIANFU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "天福村",
+      "village_en": "Tianfu Village",
+      "votes": {
+        "1": 305,
+        "2": 203
+      },
+      "valid_votes": 508,
+      "invalid_votes": 3,
+      "ballots_cast": 511,
+      "unreturned_ballots": 0,
+      "ballots_issued": 511,
+      "unused_ballots": 275,
+      "electors": 786,
+      "turnout_rate": 65.01000213623047
+    },
+    "ILA-SANXING-WANDE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "萬德村",
+      "village_en": "Wande Village",
+      "votes": {
+        "1": 180,
+        "2": 216
+      },
+      "valid_votes": 396,
+      "invalid_votes": 0,
+      "ballots_cast": 396,
+      "unreturned_ballots": 0,
+      "ballots_issued": 396,
+      "unused_ballots": 152,
+      "electors": 548,
+      "turnout_rate": 72.26000213623047
+    },
+    "ILA-SANXING-GUILIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "貴林村",
+      "village_en": "Guilin Village",
+      "votes": {
+        "1": 93,
+        "2": 207
+      },
+      "valid_votes": 300,
+      "invalid_votes": 6,
+      "ballots_cast": 306,
+      "unreturned_ballots": 0,
+      "ballots_issued": 306,
+      "unused_ballots": 154,
+      "electors": 460,
+      "turnout_rate": 66.5199966430664
+    },
+    "ILA-SANXING-WANFU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "萬富村",
+      "village_en": "Wanfu Village",
+      "votes": {
+        "1": 283,
+        "2": 217
+      },
+      "valid_votes": 500,
+      "invalid_votes": 6,
+      "ballots_cast": 506,
+      "unreturned_ballots": 0,
+      "ballots_issued": 506,
+      "unused_ballots": 185,
+      "electors": 691,
+      "turnout_rate": 73.2300033569336
+    },
+    "ILA-SANXING-SHUANGXIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "雙賢村",
+      "village_en": "Shuangxian Village",
+      "votes": {
+        "1": 264,
+        "2": 152
+      },
+      "valid_votes": 416,
+      "invalid_votes": 4,
+      "ballots_cast": 420,
+      "unreturned_ballots": 0,
+      "ballots_issued": 420,
+      "unused_ballots": 175,
+      "electors": 595,
+      "turnout_rate": 70.58999633789062
+    },
+    "ILA-SANXING-RENHE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "人和村",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 135,
+        "2": 176
+      },
+      "valid_votes": 311,
+      "invalid_votes": 6,
+      "ballots_cast": 317,
+      "unreturned_ballots": 0,
+      "ballots_issued": 317,
+      "unused_ballots": 135,
+      "electors": 452,
+      "turnout_rate": 70.12999725341797
+    },
+    "ILA-SANXING-YIDE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "義德村",
+      "village_en": "Yide Village",
+      "votes": {
+        "1": 351,
+        "2": 488
+      },
+      "valid_votes": 839,
+      "invalid_votes": 11,
+      "ballots_cast": 850,
+      "unreturned_ballots": 0,
+      "ballots_issued": 850,
+      "unused_ballots": 273,
+      "electors": 1123,
+      "turnout_rate": 75.69000244140625
+    },
+    "ILA-SANXING-JIQING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "集慶村",
+      "village_en": "Jiqing Village",
+      "votes": {
+        "1": 432,
+        "2": 378
+      },
+      "valid_votes": 810,
+      "invalid_votes": 7,
+      "ballots_cast": 817,
+      "unreturned_ballots": 0,
+      "ballots_issued": 817,
+      "unused_ballots": 322,
+      "electors": 1139,
+      "turnout_rate": 71.7300033569336
+    },
+    "ILA-SANXING-YUEMEI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "月眉村",
+      "village_en": "Yuemei Village",
+      "votes": {
+        "1": 301,
+        "2": 289
+      },
+      "valid_votes": 590,
+      "invalid_votes": 5,
+      "ballots_cast": 595,
+      "unreturned_ballots": 0,
+      "ballots_issued": 595,
+      "unused_ballots": 249,
+      "electors": 844,
+      "turnout_rate": 70.5
+    },
+    "ILA-SANXING-GONGZHAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "拱照村",
+      "village_en": "Gongzhao Village",
+      "votes": {
+        "1": 454,
+        "2": 279
+      },
+      "valid_votes": 733,
+      "invalid_votes": 6,
+      "ballots_cast": 739,
+      "unreturned_ballots": 0,
+      "ballots_issued": 739,
+      "unused_ballots": 351,
+      "electors": 1090,
+      "turnout_rate": 67.80000305175781
+    },
+    "ILA-SANXING-XINGJIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "行健村",
+      "village_en": "Xingjian Village",
+      "votes": {
+        "1": 301,
+        "2": 179
+      },
+      "valid_votes": 480,
+      "invalid_votes": 6,
+      "ballots_cast": 486,
+      "unreturned_ballots": 0,
+      "ballots_issued": 486,
+      "unused_ballots": 221,
+      "electors": 707,
+      "turnout_rate": 68.73999786376953
+    },
+    "ILA-SANXING-DAYIN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "大隱村",
+      "village_en": "Dayin Village",
+      "votes": {
+        "1": 1268,
+        "2": 1007
+      },
+      "valid_votes": 2275,
+      "invalid_votes": 24,
+      "ballots_cast": 2299,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2299,
+      "unused_ballots": 1036,
+      "electors": 3335,
+      "turnout_rate": 68.94000244140625
+    },
+    "ILA-SANXING-DAYI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "大義村",
+      "village_en": "Dayi Village",
+      "votes": {
+        "1": 498,
+        "2": 271
+      },
+      "valid_votes": 769,
+      "invalid_votes": 4,
+      "ballots_cast": 773,
+      "unreturned_ballots": 0,
+      "ballots_issued": 773,
+      "unused_ballots": 354,
+      "electors": 1127,
+      "turnout_rate": 68.58999633789062
+    },
+    "ILA-SANXING-SHANGWU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "尚武村",
+      "village_en": "Shangwu Village",
+      "votes": {
+        "1": 355,
+        "2": 210
+      },
+      "valid_votes": 565,
+      "invalid_votes": 2,
+      "ballots_cast": 567,
+      "unreturned_ballots": 0,
+      "ballots_issued": 567,
+      "unused_ballots": 206,
+      "electors": 773,
+      "turnout_rate": 73.3499984741211
+    },
+    "ILA-SANXING-DAZHOU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "大洲村",
+      "village_en": "Dazhou Village",
+      "votes": {
+        "1": 676,
+        "2": 321
+      },
+      "valid_votes": 997,
+      "invalid_votes": 12,
+      "ballots_cast": 1009,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1009,
+      "unused_ballots": 326,
+      "electors": 1335,
+      "turnout_rate": 75.58000183105469
+    },
+    "ILA-SANXING-WEIQIAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "三星鄉",
+      "township_en": "Sanxing Township",
+      "village_zh": "尾塹村",
+      "village_en": "Weiqian Village",
+      "votes": {
+        "1": 618,
+        "2": 284
+      },
+      "valid_votes": 902,
+      "invalid_votes": 12,
+      "ballots_cast": 914,
+      "unreturned_ballots": 0,
+      "ballots_issued": 914,
+      "unused_ballots": 284,
+      "electors": 1198,
+      "turnout_rate": 76.29000091552734
+    },
+    "ILA-DATONG-HANXI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "寒溪村",
+      "village_en": "Hanxi Village",
+      "votes": {
+        "1": 41,
+        "2": 535
+      },
+      "valid_votes": 576,
+      "invalid_votes": 7,
+      "ballots_cast": 583,
+      "unreturned_ballots": 0,
+      "ballots_issued": 583,
+      "unused_ballots": 189,
+      "electors": 772,
+      "turnout_rate": 75.5199966430664
+    },
+    "ILA-DATONG-LUNPI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "崙埤村",
+      "village_en": "Lunpi Village",
+      "votes": {
+        "1": 26,
+        "2": 353
+      },
+      "valid_votes": 379,
+      "invalid_votes": 1,
+      "ballots_cast": 380,
+      "unreturned_ballots": 0,
+      "ballots_issued": 380,
+      "unused_ballots": 105,
+      "electors": 485,
+      "turnout_rate": 78.3499984741211
+    },
+    "ILA-DATONG-SONGLUO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "松羅村",
+      "village_en": "Songluo Village",
+      "votes": {
+        "1": 106,
+        "2": 342
+      },
+      "valid_votes": 448,
+      "invalid_votes": 3,
+      "ballots_cast": 451,
+      "unreturned_ballots": 0,
+      "ballots_issued": 451,
+      "unused_ballots": 157,
+      "electors": 608,
+      "turnout_rate": 74.18000030517578
+    },
+    "ILA-DATONG-FUXING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "復興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 72,
+        "2": 124
+      },
+      "valid_votes": 196,
+      "invalid_votes": 5,
+      "ballots_cast": 201,
+      "unreturned_ballots": 0,
+      "ballots_issued": 201,
+      "unused_ballots": 84,
+      "electors": 285,
+      "turnout_rate": 70.52999877929688
+    },
+    "ILA-DATONG-YINGSHI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "英士村",
+      "village_en": "Yingshi Village",
+      "votes": {
+        "1": 41,
+        "2": 188
+      },
+      "valid_votes": 229,
+      "invalid_votes": 2,
+      "ballots_cast": 231,
+      "unreturned_ballots": 0,
+      "ballots_issued": 231,
+      "unused_ballots": 112,
+      "electors": 343,
+      "turnout_rate": 67.3499984741211
+    },
+    "ILA-DATONG-LESHUI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "樂水村",
+      "village_en": "Leshui Village",
+      "votes": {
+        "1": 16,
+        "2": 206
+      },
+      "valid_votes": 222,
+      "invalid_votes": 1,
+      "ballots_cast": 223,
+      "unreturned_ballots": 0,
+      "ballots_issued": 223,
+      "unused_ballots": 86,
+      "electors": 309,
+      "turnout_rate": 72.16999816894531
+    },
+    "ILA-DATONG-TAIPING": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "太平村",
+      "village_en": "Taiping Village",
+      "votes": {
+        "1": 24,
+        "2": 23
+      },
+      "valid_votes": 47,
+      "invalid_votes": 1,
+      "ballots_cast": 48,
+      "unreturned_ballots": 0,
+      "ballots_issued": 48,
+      "unused_ballots": 34,
+      "electors": 82,
+      "turnout_rate": 58.540000915527344
+    },
+    "ILA-DATONG-MAOAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "茂安村",
+      "village_en": "Maoan Village",
+      "votes": {
+        "1": 8,
+        "2": 125
+      },
+      "valid_votes": 133,
+      "invalid_votes": 1,
+      "ballots_cast": 134,
+      "unreturned_ballots": 0,
+      "ballots_issued": 134,
+      "unused_ballots": 38,
+      "electors": 172,
+      "turnout_rate": 77.91000366210938
+    },
+    "ILA-DATONG-SIJI": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "四季村",
+      "village_en": "Siji Village",
+      "votes": {
+        "1": 23,
+        "2": 472
+      },
+      "valid_votes": 495,
+      "invalid_votes": 4,
+      "ballots_cast": 499,
+      "unreturned_ballots": 0,
+      "ballots_issued": 499,
+      "unused_ballots": 142,
+      "electors": 641,
+      "turnout_rate": 77.8499984741211
+    },
+    "ILA-DATONG-NANSHAN": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "大同鄉",
+      "township_en": "Datong Township",
+      "village_zh": "南山村",
+      "village_en": "Nanshan Village",
+      "votes": {
+        "1": 78,
+        "2": 345
+      },
+      "valid_votes": 423,
+      "invalid_votes": 0,
+      "ballots_cast": 423,
+      "unreturned_ballots": 0,
+      "ballots_issued": 423,
+      "unused_ballots": 133,
+      "electors": 556,
+      "turnout_rate": 76.08000183105469
+    },
+    "ILA-NANAO-DONGYUE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "東岳村",
+      "village_en": "Dongyue Village",
+      "votes": {
+        "1": 17,
+        "2": 310
+      },
+      "valid_votes": 327,
+      "invalid_votes": 0,
+      "ballots_cast": 327,
+      "unreturned_ballots": 0,
+      "ballots_issued": 327,
+      "unused_ballots": 84,
+      "electors": 411,
+      "turnout_rate": 79.55999755859375
+    },
+    "ILA-NANAO-NANAO": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "南澳村",
+      "village_en": "Nanao Village",
+      "votes": {
+        "1": 43,
+        "2": 734
+      },
+      "valid_votes": 777,
+      "invalid_votes": 6,
+      "ballots_cast": 783,
+      "unreturned_ballots": 0,
+      "ballots_issued": 783,
+      "unused_ballots": 259,
+      "electors": 1042,
+      "turnout_rate": 75.13999938964844
+    },
+    "ILA-NANAO-BIHOU": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "碧候村",
+      "village_en": "Bihou Village",
+      "votes": {
+        "1": 25,
+        "2": 574
+      },
+      "valid_votes": 599,
+      "invalid_votes": 3,
+      "ballots_cast": 602,
+      "unreturned_ballots": 0,
+      "ballots_issued": 602,
+      "unused_ballots": 194,
+      "electors": 796,
+      "turnout_rate": 75.62999725341797
+    },
+    "ILA-NANAO-JINYUE": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "金岳村",
+      "village_en": "Jinyue Village",
+      "votes": {
+        "1": 10,
+        "2": 255
+      },
+      "valid_votes": 265,
+      "invalid_votes": 3,
+      "ballots_cast": 268,
+      "unreturned_ballots": 0,
+      "ballots_issued": 268,
+      "unused_ballots": 93,
+      "electors": 361,
+      "turnout_rate": 74.23999786376953
+    },
+    "ILA-NANAO-WUTA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "武塔村",
+      "village_en": "Wuta Village",
+      "votes": {
+        "1": 49,
+        "2": 257
+      },
+      "valid_votes": 306,
+      "invalid_votes": 2,
+      "ballots_cast": 308,
+      "unreturned_ballots": 0,
+      "ballots_issued": 308,
+      "unused_ballots": 98,
+      "electors": 406,
+      "turnout_rate": 75.86000061035156
+    },
+    "ILA-NANAO-JINYANG": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "金洋村",
+      "village_en": "Jinyang Village",
+      "votes": {
+        "1": 20,
+        "2": 301
+      },
+      "valid_votes": 321,
+      "invalid_votes": 2,
+      "ballots_cast": 323,
+      "unreturned_ballots": 0,
+      "ballots_issued": 323,
+      "unused_ballots": 107,
+      "electors": 430,
+      "turnout_rate": 75.12000274658203
+    },
+    "ILA-NANAO-AOHUA": {
+      "county_zh": "宜蘭縣",
+      "county_en": "Yilan County",
+      "township_zh": "南澳鄉",
+      "township_en": "Nanao Township",
+      "village_zh": "澳花村",
+      "village_en": "Aohua Village",
+      "votes": {
+        "1": 29,
+        "2": 441
+      },
+      "valid_votes": 470,
+      "invalid_votes": 1,
+      "ballots_cast": 471,
+      "unreturned_ballots": 0,
+      "ballots_issued": 471,
+      "unused_ballots": 155,
+      "electors": 626,
+      "turnout_rate": 75.23999786376953
+    }
+  }
+}

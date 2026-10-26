@@ -1,0 +1,3708 @@
+{
+  "election_id": "2008-president",
+  "election_type": "president",
+  "source_file": "2008-PRES-HUA.xls",
+  "county_zh": "花蓮縣",
+  "county_en": "Hualien County",
+  "county_iso": "HUA",
+  "candidates": {
+    "1": {
+      "name_zh": "謝長廷",
+      "running_mate_zh": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "馬英九",
+      "running_mate_zh": "蕭萬長",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 40003,
+      "2": 137604
+    },
+    "valid_votes": 177607,
+    "invalid_votes": 1970,
+    "ballots_cast": 179577,
+    "unreturned_ballots": 5,
+    "ballots_issued": 179582,
+    "unused_ballots": 81238,
+    "electors": 260820,
+    "turnout_rate": 68.8499984741211
+  },
+  "townships": {
+    "HUA-HUALIAN": {
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "votes": {
+        "1": 14141,
+        "2": 44134
+      },
+      "valid_votes": 58275,
+      "invalid_votes": 561,
+      "ballots_cast": 58836,
+      "unreturned_ballots": 2,
+      "ballots_issued": 58838,
+      "unused_ballots": 21170,
+      "electors": 80008,
+      "turnout_rate": 73.54000091552734
+    },
+    "HUA-XINCHENG": {
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "votes": {
+        "1": 2250,
+        "2": 8562
+      },
+      "valid_votes": 10812,
+      "invalid_votes": 135,
+      "ballots_cast": 10947,
+      "unreturned_ballots": 0,
+      "ballots_issued": 10947,
+      "unused_ballots": 4768,
+      "electors": 15715,
+      "turnout_rate": 69.66000366210938
+    },
+    "HUA-XIULIN": {
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "votes": {
+        "1": 744,
+        "2": 6325
+      },
+      "valid_votes": 7069,
+      "invalid_votes": 87,
+      "ballots_cast": 7156,
+      "unreturned_ballots": 0,
+      "ballots_issued": 7156,
+      "unused_ballots": 3139,
+      "electors": 10295,
+      "turnout_rate": 69.51000213623047
+    },
+    "HUA-JIAN": {
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "votes": {
+        "1": 10569,
+        "2": 33112
+      },
+      "valid_votes": 43681,
+      "invalid_votes": 469,
+      "ballots_cast": 44150,
+      "unreturned_ballots": 0,
+      "ballots_issued": 44150,
+      "unused_ballots": 17102,
+      "electors": 61252,
+      "turnout_rate": 72.08000183105469
+    },
+    "HUA-SHOUFENG": {
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "votes": {
+        "1": 2749,
+        "2": 7570
+      },
+      "valid_votes": 10319,
+      "invalid_votes": 113,
+      "ballots_cast": 10432,
+      "unreturned_ballots": 0,
+      "ballots_issued": 10432,
+      "unused_ballots": 4950,
+      "electors": 15382,
+      "turnout_rate": 67.81999969482422
+    },
+    "HUA-FENGLIN": {
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "votes": {
+        "1": 1576,
+        "2": 5254
+      },
+      "valid_votes": 6830,
+      "invalid_votes": 65,
+      "ballots_cast": 6895,
+      "unreturned_ballots": 1,
+      "ballots_issued": 6896,
+      "unused_ballots": 3208,
+      "electors": 10104,
+      "turnout_rate": 68.23999786376953
+    },
+    "HUA-GUANGFU": {
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "votes": {
+        "1": 1408,
+        "2": 5993
+      },
+      "valid_votes": 7401,
+      "invalid_votes": 69,
+      "ballots_cast": 7470,
+      "unreturned_ballots": 0,
+      "ballots_issued": 7470,
+      "unused_ballots": 4260,
+      "electors": 11730,
+      "turnout_rate": 63.68000030517578
+    },
+    "HUA-FENGBIN": {
+      "township_zh": "豐濱鄉",
+      "township_en": "Fengbin Township",
+      "votes": {
+        "1": 303,
+        "2": 2116
+      },
+      "valid_votes": 2419,
+      "invalid_votes": 30,
+      "ballots_cast": 2449,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2449,
+      "unused_ballots": 1938,
+      "electors": 4387,
+      "turnout_rate": 55.81999969482422
+    },
+    "HUA-WANRONG": {
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "votes": {
+        "1": 231,
+        "2": 2761
+      },
+      "valid_votes": 2992,
+      "invalid_votes": 34,
+      "ballots_cast": 3026,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3026,
+      "unused_ballots": 1907,
+      "electors": 4933,
+      "turnout_rate": 61.34000015258789
+    },
+    "HUA-RUISUI": {
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "votes": {
+        "1": 1549,
+        "2": 4882
+      },
+      "valid_votes": 6431,
+      "invalid_votes": 78,
+      "ballots_cast": 6509,
+      "unreturned_ballots": 0,
+      "ballots_issued": 6509,
+      "unused_ballots": 4028,
+      "electors": 10537,
+      "turnout_rate": 61.77000045776367
+    },
+    "HUA-YULI": {
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "votes": {
+        "1": 3024,
+        "2": 9910
+      },
+      "valid_votes": 12934,
+      "invalid_votes": 212,
+      "ballots_cast": 13146,
+      "unreturned_ballots": 1,
+      "ballots_issued": 13147,
+      "unused_ballots": 8890,
+      "electors": 22037,
+      "turnout_rate": 59.650001525878906
+    },
+    "HUA-FULI": {
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "votes": {
+        "1": 1287,
+        "2": 4324
+      },
+      "valid_votes": 5611,
+      "invalid_votes": 70,
+      "ballots_cast": 5681,
+      "unreturned_ballots": 1,
+      "ballots_issued": 5682,
+      "unused_ballots": 3951,
+      "electors": 9633,
+      "turnout_rate": 58.970001220703125
+    },
+    "HUA-ZHUOXI": {
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "votes": {
+        "1": 172,
+        "2": 2661
+      },
+      "valid_votes": 2833,
+      "invalid_votes": 47,
+      "ballots_cast": 2880,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2880,
+      "unused_ballots": 1927,
+      "electors": 4807,
+      "turnout_rate": 59.90999984741211
+    }
+  },
+  "villages": {
+    "HUA-HUALIAN-MINDE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民德里",
+      "village_en": "Minde Village",
+      "votes": {
+        "1": 220,
+        "2": 786
+      },
+      "valid_votes": 1006,
+      "invalid_votes": 8,
+      "ballots_cast": 1014,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1014,
+      "unused_ballots": 303,
+      "electors": 1317,
+      "turnout_rate": 76.98999786376953
+    },
+    "HUA-HUALIAN-MINQIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民勤里",
+      "village_en": "Minqin Village",
+      "votes": {
+        "1": 354,
+        "2": 1854
+      },
+      "valid_votes": 2208,
+      "invalid_votes": 27,
+      "ballots_cast": 2235,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2235,
+      "unused_ballots": 626,
+      "electors": 2861,
+      "turnout_rate": 78.12000274658203
+    },
+    "HUA-HUALIAN-MINYI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民意里",
+      "village_en": "Minyi Village",
+      "votes": {
+        "1": 139,
+        "2": 1449
+      },
+      "valid_votes": 1588,
+      "invalid_votes": 29,
+      "ballots_cast": 1617,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1617,
+      "unused_ballots": 684,
+      "electors": 2301,
+      "turnout_rate": 70.2699966430664
+    },
+    "HUA-HUALIAN-MINXIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民心里",
+      "village_en": "Minxin Village",
+      "votes": {
+        "1": 145,
+        "2": 446
+      },
+      "valid_votes": 591,
+      "invalid_votes": 3,
+      "ballots_cast": 594,
+      "unreturned_ballots": 0,
+      "ballots_issued": 594,
+      "unused_ballots": 244,
+      "electors": 838,
+      "turnout_rate": 70.87999725341797
+    },
+    "HUA-HUALIAN-MINXIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民享里",
+      "village_en": "Minxiang Village",
+      "votes": {
+        "1": 278,
+        "2": 1492
+      },
+      "valid_votes": 1770,
+      "invalid_votes": 19,
+      "ballots_cast": 1789,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1789,
+      "unused_ballots": 654,
+      "electors": 2443,
+      "turnout_rate": 73.2300033569336
+    },
+    "HUA-HUALIAN-MINXIAO": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民孝里",
+      "village_en": "Minxiao Village",
+      "votes": {
+        "1": 350,
+        "2": 1914
+      },
+      "valid_votes": 2264,
+      "invalid_votes": 22,
+      "ballots_cast": 2286,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2286,
+      "unused_ballots": 762,
+      "electors": 3048,
+      "turnout_rate": 75.0
+    },
+    "HUA-HUALIAN-MINYUN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民運里",
+      "village_en": "Minyun Village",
+      "votes": {
+        "1": 326,
+        "2": 1093
+      },
+      "valid_votes": 1419,
+      "invalid_votes": 27,
+      "ballots_cast": 1446,
+      "unreturned_ballots": 1,
+      "ballots_issued": 1447,
+      "unused_ballots": 504,
+      "electors": 1951,
+      "turnout_rate": 74.12000274658203
+    },
+    "HUA-HUALIAN-MINZHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民政里",
+      "village_en": "Minzheng Village",
+      "votes": {
+        "1": 493,
+        "2": 1891
+      },
+      "valid_votes": 2384,
+      "invalid_votes": 23,
+      "ballots_cast": 2407,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2407,
+      "unused_ballots": 788,
+      "electors": 3195,
+      "turnout_rate": 75.33999633789062
+    },
+    "HUA-HUALIAN-MINLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民立里",
+      "village_en": "Minli Village",
+      "votes": {
+        "1": 235,
+        "2": 782
+      },
+      "valid_votes": 1017,
+      "invalid_votes": 11,
+      "ballots_cast": 1028,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1028,
+      "unused_ballots": 334,
+      "electors": 1362,
+      "turnout_rate": 75.4800033569336
+    },
+    "HUA-HUALIAN-MINLE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民樂里",
+      "village_en": "Minle Village",
+      "votes": {
+        "1": 86,
+        "2": 346
+      },
+      "valid_votes": 432,
+      "invalid_votes": 1,
+      "ballots_cast": 433,
+      "unreturned_ballots": 0,
+      "ballots_issued": 433,
+      "unused_ballots": 155,
+      "electors": 588,
+      "turnout_rate": 73.63999938964844
+    },
+    "HUA-HUALIAN-MINYOU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民有里",
+      "village_en": "Minyou Village",
+      "votes": {
+        "1": 146,
+        "2": 332
+      },
+      "valid_votes": 478,
+      "invalid_votes": 4,
+      "ballots_cast": 482,
+      "unreturned_ballots": 0,
+      "ballots_issued": 482,
+      "unused_ballots": 194,
+      "electors": 676,
+      "turnout_rate": 71.30000305175781
+    },
+    "HUA-HUALIAN-MINZHU-AND-MINZHI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民主里、民治里",
+      "village_en": "Minzhu and Minzhi Village",
+      "votes": {
+        "1": 113,
+        "2": 415
+      },
+      "valid_votes": 528,
+      "invalid_votes": 0,
+      "ballots_cast": 528,
+      "unreturned_ballots": 0,
+      "ballots_issued": 528,
+      "unused_ballots": 185,
+      "electors": 713,
+      "turnout_rate": 74.05000305175781
+    },
+    "HUA-HUALIAN-MINZU-AND-MINQUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民族里、民權里",
+      "village_en": "Minzu and Minquan Village",
+      "votes": {
+        "1": 167,
+        "2": 512
+      },
+      "valid_votes": 679,
+      "invalid_votes": 6,
+      "ballots_cast": 685,
+      "unreturned_ballots": 0,
+      "ballots_issued": 685,
+      "unused_ballots": 245,
+      "electors": 930,
+      "turnout_rate": 73.66000366210938
+    },
+    "HUA-HUALIAN-MINSHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "民生里",
+      "village_en": "Minsheng Village",
+      "votes": {
+        "1": 294,
+        "2": 650
+      },
+      "valid_votes": 944,
+      "invalid_votes": 6,
+      "ballots_cast": 950,
+      "unreturned_ballots": 0,
+      "ballots_issued": 950,
+      "unused_ballots": 357,
+      "electors": 1307,
+      "turnout_rate": 72.69000244140625
+    },
+    "HUA-HUALIAN-ZHUSHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主商里",
+      "village_en": "Zhushang Village",
+      "votes": {
+        "1": 178,
+        "2": 354
+      },
+      "valid_votes": 532,
+      "invalid_votes": 4,
+      "ballots_cast": 536,
+      "unreturned_ballots": 0,
+      "ballots_issued": 536,
+      "unused_ballots": 170,
+      "electors": 706,
+      "turnout_rate": 75.91999816894531
+    },
+    "HUA-HUALIAN-ZHUQIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主勤里",
+      "village_en": "Zhuqin Village",
+      "votes": {
+        "1": 201,
+        "2": 552
+      },
+      "valid_votes": 753,
+      "invalid_votes": 9,
+      "ballots_cast": 762,
+      "unreturned_ballots": 0,
+      "ballots_issued": 762,
+      "unused_ballots": 253,
+      "electors": 1015,
+      "turnout_rate": 75.06999969482422
+    },
+    "HUA-HUALIAN-ZHUGONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主工里",
+      "village_en": "Zhugong Village",
+      "votes": {
+        "1": 142,
+        "2": 307
+      },
+      "valid_votes": 449,
+      "invalid_votes": 6,
+      "ballots_cast": 455,
+      "unreturned_ballots": 0,
+      "ballots_issued": 455,
+      "unused_ballots": 183,
+      "electors": 638,
+      "turnout_rate": 71.31999969482422
+    },
+    "HUA-HUALIAN-ZHUXIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主信里",
+      "village_en": "Zhuxin Village",
+      "votes": {
+        "1": 168,
+        "2": 343
+      },
+      "valid_votes": 511,
+      "invalid_votes": 6,
+      "ballots_cast": 517,
+      "unreturned_ballots": 0,
+      "ballots_issued": 517,
+      "unused_ballots": 169,
+      "electors": 686,
+      "turnout_rate": 75.36000061035156
+    },
+    "HUA-HUALIAN-ZHUMU-AND-ZHUYI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主睦里、主義里",
+      "village_en": "Zhumu and Zhuyi Village",
+      "votes": {
+        "1": 272,
+        "2": 500
+      },
+      "valid_votes": 772,
+      "invalid_votes": 10,
+      "ballots_cast": 782,
+      "unreturned_ballots": 0,
+      "ballots_issued": 782,
+      "unused_ballots": 302,
+      "electors": 1084,
+      "turnout_rate": 72.13999938964844
+    },
+    "HUA-HUALIAN-ZHUJI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主計里",
+      "village_en": "Zhuji Village",
+      "votes": {
+        "1": 158,
+        "2": 437
+      },
+      "valid_votes": 595,
+      "invalid_votes": 4,
+      "ballots_cast": 599,
+      "unreturned_ballots": 0,
+      "ballots_issued": 599,
+      "unused_ballots": 246,
+      "electors": 845,
+      "turnout_rate": 70.88999938964844
+    },
+    "HUA-HUALIAN-ZHUHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主和里",
+      "village_en": "Zhuhe Village",
+      "votes": {
+        "1": 625,
+        "2": 1483
+      },
+      "valid_votes": 2108,
+      "invalid_votes": 28,
+      "ballots_cast": 2136,
+      "unreturned_ballots": 1,
+      "ballots_issued": 2137,
+      "unused_ballots": 880,
+      "electors": 3017,
+      "turnout_rate": 70.80000305175781
+    },
+    "HUA-HUALIAN-ZHUXUE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主學里",
+      "village_en": "Zhuxue Village",
+      "votes": {
+        "1": 345,
+        "2": 946
+      },
+      "valid_votes": 1291,
+      "invalid_votes": 8,
+      "ballots_cast": 1299,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1299,
+      "unused_ballots": 482,
+      "electors": 1781,
+      "turnout_rate": 72.94000244140625
+    },
+    "HUA-HUALIAN-ZHUNONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主農里",
+      "village_en": "Zhunong Village",
+      "votes": {
+        "1": 593,
+        "2": 1765
+      },
+      "valid_votes": 2358,
+      "invalid_votes": 24,
+      "ballots_cast": 2382,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2382,
+      "unused_ballots": 772,
+      "electors": 3154,
+      "turnout_rate": 75.5199966430664
+    },
+    "HUA-HUALIAN-ZHUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主安里",
+      "village_en": "Zhuan Village",
+      "votes": {
+        "1": 473,
+        "2": 1323
+      },
+      "valid_votes": 1796,
+      "invalid_votes": 10,
+      "ballots_cast": 1806,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1806,
+      "unused_ballots": 574,
+      "electors": 2380,
+      "turnout_rate": 75.87999725341797
+    },
+    "HUA-HUALIAN-ZHUQUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主權里",
+      "village_en": "Zhuquan Village",
+      "votes": {
+        "1": 874,
+        "2": 2761
+      },
+      "valid_votes": 3635,
+      "invalid_votes": 31,
+      "ballots_cast": 3666,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3666,
+      "unused_ballots": 1251,
+      "electors": 4917,
+      "turnout_rate": 74.55999755859375
+    },
+    "HUA-HUALIAN-ZHULI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "主力里",
+      "village_en": "Zhuli Village",
+      "votes": {
+        "1": 525,
+        "2": 1318
+      },
+      "valid_votes": 1843,
+      "invalid_votes": 17,
+      "ballots_cast": 1860,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1860,
+      "unused_ballots": 665,
+      "electors": 2525,
+      "turnout_rate": 73.66000366210938
+    },
+    "HUA-HUALIAN-GUOFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國風里",
+      "village_en": "Guofeng Village",
+      "votes": {
+        "1": 611,
+        "2": 1734
+      },
+      "valid_votes": 2345,
+      "invalid_votes": 14,
+      "ballots_cast": 2359,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2359,
+      "unused_ballots": 749,
+      "electors": 3108,
+      "turnout_rate": 75.9000015258789
+    },
+    "HUA-HUALIAN-GUOWEI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國威里",
+      "village_en": "Guowei Village",
+      "votes": {
+        "1": 353,
+        "2": 806
+      },
+      "valid_votes": 1159,
+      "invalid_votes": 5,
+      "ballots_cast": 1164,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1164,
+      "unused_ballots": 621,
+      "electors": 1785,
+      "turnout_rate": 65.20999908447266
+    },
+    "HUA-HUALIAN-GUOZHI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國治里",
+      "village_en": "Guozhi Village",
+      "votes": {
+        "1": 178,
+        "2": 617
+      },
+      "valid_votes": 795,
+      "invalid_votes": 6,
+      "ballots_cast": 801,
+      "unreturned_ballots": 0,
+      "ballots_issued": 801,
+      "unused_ballots": 248,
+      "electors": 1049,
+      "turnout_rate": 76.36000061035156
+    },
+    "HUA-HUALIAN-GUOAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國安里",
+      "village_en": "Guoan Village",
+      "votes": {
+        "1": 92,
+        "2": 271
+      },
+      "valid_votes": 363,
+      "invalid_votes": 3,
+      "ballots_cast": 366,
+      "unreturned_ballots": 0,
+      "ballots_issued": 366,
+      "unused_ballots": 98,
+      "electors": 464,
+      "turnout_rate": 78.87999725341797
+    },
+    "HUA-HUALIAN-GUOGUANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國光里",
+      "village_en": "Guoguang Village",
+      "votes": {
+        "1": 240,
+        "2": 692
+      },
+      "valid_votes": 932,
+      "invalid_votes": 13,
+      "ballots_cast": 945,
+      "unreturned_ballots": 0,
+      "ballots_issued": 945,
+      "unused_ballots": 350,
+      "electors": 1295,
+      "turnout_rate": 72.97000122070312
+    },
+    "HUA-HUALIAN-GUOFANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國防里",
+      "village_en": "Guofang Village",
+      "votes": {
+        "1": 157,
+        "2": 439
+      },
+      "valid_votes": 596,
+      "invalid_votes": 10,
+      "ballots_cast": 606,
+      "unreturned_ballots": 0,
+      "ballots_issued": 606,
+      "unused_ballots": 235,
+      "electors": 841,
+      "turnout_rate": 72.05999755859375
+    },
+    "HUA-HUALIAN-GUOHUA": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國華里",
+      "village_en": "Guohua Village",
+      "votes": {
+        "1": 429,
+        "2": 1139
+      },
+      "valid_votes": 1568,
+      "invalid_votes": 9,
+      "ballots_cast": 1577,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1577,
+      "unused_ballots": 570,
+      "electors": 2147,
+      "turnout_rate": 73.44999694824219
+    },
+    "HUA-HUALIAN-GUOHUN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國魂里",
+      "village_en": "Guohun Village",
+      "votes": {
+        "1": 410,
+        "2": 1028
+      },
+      "valid_votes": 1438,
+      "invalid_votes": 12,
+      "ballots_cast": 1450,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1450,
+      "unused_ballots": 510,
+      "electors": 1960,
+      "turnout_rate": 73.9800033569336
+    },
+    "HUA-HUALIAN-GUOLIAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國聯里",
+      "village_en": "Guolian Village",
+      "votes": {
+        "1": 509,
+        "2": 1113
+      },
+      "valid_votes": 1622,
+      "invalid_votes": 12,
+      "ballots_cast": 1634,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1634,
+      "unused_ballots": 696,
+      "electors": 2330,
+      "turnout_rate": 70.12999725341797
+    },
+    "HUA-HUALIAN-GUOSHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國盛里",
+      "village_en": "Guosheng Village",
+      "votes": {
+        "1": 445,
+        "2": 1498
+      },
+      "valid_votes": 1943,
+      "invalid_votes": 16,
+      "ballots_cast": 1959,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1959,
+      "unused_ballots": 961,
+      "electors": 2920,
+      "turnout_rate": 67.08999633789062
+    },
+    "HUA-HUALIAN-GUOQIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國強里",
+      "village_en": "Guoqiang Village",
+      "votes": {
+        "1": 270,
+        "2": 833
+      },
+      "valid_votes": 1103,
+      "invalid_votes": 18,
+      "ballots_cast": 1121,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1121,
+      "unused_ballots": 397,
+      "electors": 1518,
+      "turnout_rate": 73.8499984741211
+    },
+    "HUA-HUALIAN-GUOFU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國福里",
+      "village_en": "Guofu Village",
+      "votes": {
+        "1": 232,
+        "2": 700
+      },
+      "valid_votes": 932,
+      "invalid_votes": 6,
+      "ballots_cast": 938,
+      "unreturned_ballots": 0,
+      "ballots_issued": 938,
+      "unused_ballots": 453,
+      "electors": 1391,
+      "turnout_rate": 67.43000030517578
+    },
+    "HUA-HUALIAN-GUOYU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國裕里",
+      "village_en": "Guoyu Village",
+      "votes": {
+        "1": 692,
+        "2": 2113
+      },
+      "valid_votes": 2805,
+      "invalid_votes": 26,
+      "ballots_cast": 2831,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2831,
+      "unused_ballots": 1025,
+      "electors": 3856,
+      "turnout_rate": 73.41999816894531
+    },
+    "HUA-HUALIAN-GUOQING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國慶里",
+      "village_en": "Guoqing Village",
+      "votes": {
+        "1": 191,
+        "2": 530
+      },
+      "valid_votes": 721,
+      "invalid_votes": 7,
+      "ballots_cast": 728,
+      "unreturned_ballots": 0,
+      "ballots_issued": 728,
+      "unused_ballots": 229,
+      "electors": 957,
+      "turnout_rate": 76.06999969482422
+    },
+    "HUA-HUALIAN-GUOXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "花蓮市",
+      "township_en": "Hualian City",
+      "village_zh": "國興里",
+      "village_en": "Guoxing Village",
+      "votes": {
+        "1": 505,
+        "2": 1986
+      },
+      "valid_votes": 2491,
+      "invalid_votes": 25,
+      "ballots_cast": 2516,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2516,
+      "unused_ballots": 834,
+      "electors": 3350,
+      "turnout_rate": 75.0999984741211
+    },
+    "HUA-XINCHENG-XINCHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "新城村",
+      "village_en": "Xincheng Village",
+      "votes": {
+        "1": 274,
+        "2": 684
+      },
+      "valid_votes": 958,
+      "invalid_votes": 8,
+      "ballots_cast": 966,
+      "unreturned_ballots": 0,
+      "ballots_issued": 966,
+      "unused_ballots": 419,
+      "electors": 1385,
+      "turnout_rate": 69.75
+    },
+    "HUA-XINCHENG-SHUNAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "順安村",
+      "village_en": "Shunan Village",
+      "votes": {
+        "1": 295,
+        "2": 286
+      },
+      "valid_votes": 581,
+      "invalid_votes": 4,
+      "ballots_cast": 585,
+      "unreturned_ballots": 0,
+      "ballots_issued": 585,
+      "unused_ballots": 297,
+      "electors": 882,
+      "turnout_rate": 66.33000183105469
+    },
+    "HUA-XINCHENG-KANGLE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "康樂村",
+      "village_en": "Kangle Village",
+      "votes": {
+        "1": 407,
+        "2": 1251
+      },
+      "valid_votes": 1658,
+      "invalid_votes": 26,
+      "ballots_cast": 1684,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1684,
+      "unused_ballots": 698,
+      "electors": 2382,
+      "turnout_rate": 70.69999694824219
+    },
+    "HUA-XINCHENG-DAHAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "大漢村",
+      "village_en": "Dahan Village",
+      "votes": {
+        "1": 212,
+        "2": 1423
+      },
+      "valid_votes": 1635,
+      "invalid_votes": 19,
+      "ballots_cast": 1654,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1654,
+      "unused_ballots": 796,
+      "electors": 2450,
+      "turnout_rate": 67.51000213623047
+    },
+    "HUA-XINCHENG-BEIPU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "北埔村",
+      "village_en": "Beipu Village",
+      "votes": {
+        "1": 456,
+        "2": 1722
+      },
+      "valid_votes": 2178,
+      "invalid_votes": 22,
+      "ballots_cast": 2200,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2200,
+      "unused_ballots": 968,
+      "electors": 3168,
+      "turnout_rate": 69.44000244140625
+    },
+    "HUA-XINCHENG-JIALIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "佳林村",
+      "village_en": "Jialin Village",
+      "votes": {
+        "1": 129,
+        "2": 459
+      },
+      "valid_votes": 588,
+      "invalid_votes": 7,
+      "ballots_cast": 595,
+      "unreturned_ballots": 0,
+      "ballots_issued": 595,
+      "unused_ballots": 214,
+      "electors": 809,
+      "turnout_rate": 73.55000305175781
+    },
+    "HUA-XINCHENG-JIALI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "嘉里村",
+      "village_en": "Jiali Village",
+      "votes": {
+        "1": 361,
+        "2": 2008
+      },
+      "valid_votes": 2369,
+      "invalid_votes": 28,
+      "ballots_cast": 2397,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2397,
+      "unused_ballots": 928,
+      "electors": 3325,
+      "turnout_rate": 72.08999633789062
+    },
+    "HUA-XINCHENG-JIAXIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "新城鄉",
+      "township_en": "Xincheng Township",
+      "village_zh": "嘉新村",
+      "village_en": "Jiaxin Village",
+      "votes": {
+        "1": 116,
+        "2": 729
+      },
+      "valid_votes": 845,
+      "invalid_votes": 21,
+      "ballots_cast": 866,
+      "unreturned_ballots": 0,
+      "ballots_issued": 866,
+      "unused_ballots": 448,
+      "electors": 1314,
+      "turnout_rate": 65.91000366210938
+    },
+    "HUA-XIULIN-HEPING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "和平村",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 102,
+        "2": 682
+      },
+      "valid_votes": 784,
+      "invalid_votes": 13,
+      "ballots_cast": 797,
+      "unreturned_ballots": 0,
+      "ballots_issued": 797,
+      "unused_ballots": 301,
+      "electors": 1098,
+      "turnout_rate": 72.58999633789062
+    },
+    "HUA-XIULIN-CHONGDE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "崇德村",
+      "village_en": "Chongde Village",
+      "votes": {
+        "1": 64,
+        "2": 735
+      },
+      "valid_votes": 799,
+      "invalid_votes": 5,
+      "ballots_cast": 804,
+      "unreturned_ballots": 0,
+      "ballots_issued": 804,
+      "unused_ballots": 401,
+      "electors": 1205,
+      "turnout_rate": 66.72000122070312
+    },
+    "HUA-XIULIN-FUSHI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "富世村",
+      "village_en": "Fushi Village",
+      "votes": {
+        "1": 175,
+        "2": 827
+      },
+      "valid_votes": 1002,
+      "invalid_votes": 15,
+      "ballots_cast": 1017,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1017,
+      "unused_ballots": 486,
+      "electors": 1503,
+      "turnout_rate": 67.66000366210938
+    },
+    "HUA-XIULIN-XIULIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "秀林村",
+      "village_en": "Xiulin Village",
+      "votes": {
+        "1": 109,
+        "2": 877
+      },
+      "valid_votes": 986,
+      "invalid_votes": 18,
+      "ballots_cast": 1004,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1004,
+      "unused_ballots": 477,
+      "electors": 1481,
+      "turnout_rate": 67.79000091552734
+    },
+    "HUA-XIULIN-JINGMEI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "景美村",
+      "village_en": "Jingmei Village",
+      "votes": {
+        "1": 143,
+        "2": 807
+      },
+      "valid_votes": 950,
+      "invalid_votes": 15,
+      "ballots_cast": 965,
+      "unreturned_ballots": 0,
+      "ballots_issued": 965,
+      "unused_ballots": 492,
+      "electors": 1457,
+      "turnout_rate": 66.2300033569336
+    },
+    "HUA-XIULIN-JIAMIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "佳民村",
+      "village_en": "Jiamin Village",
+      "votes": {
+        "1": 33,
+        "2": 510
+      },
+      "valid_votes": 543,
+      "invalid_votes": 5,
+      "ballots_cast": 548,
+      "unreturned_ballots": 0,
+      "ballots_issued": 548,
+      "unused_ballots": 227,
+      "electors": 775,
+      "turnout_rate": 70.70999908447266
+    },
+    "HUA-XIULIN-SHUIYUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "水源村",
+      "village_en": "Shuiyuan Village",
+      "votes": {
+        "1": 39,
+        "2": 598
+      },
+      "valid_votes": 637,
+      "invalid_votes": 2,
+      "ballots_cast": 639,
+      "unreturned_ballots": 0,
+      "ballots_issued": 639,
+      "unused_ballots": 226,
+      "electors": 865,
+      "turnout_rate": 73.87000274658203
+    },
+    "HUA-XIULIN-TONGMEN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "銅門村",
+      "village_en": "Tongmen Village",
+      "votes": {
+        "1": 39,
+        "2": 682
+      },
+      "valid_votes": 721,
+      "invalid_votes": 7,
+      "ballots_cast": 728,
+      "unreturned_ballots": 0,
+      "ballots_issued": 728,
+      "unused_ballots": 286,
+      "electors": 1014,
+      "turnout_rate": 71.79000091552734
+    },
+    "HUA-XIULIN-WENLAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "秀林鄉",
+      "township_en": "Xiulin Township",
+      "village_zh": "文蘭村",
+      "village_en": "Wenlan Village",
+      "votes": {
+        "1": 40,
+        "2": 607
+      },
+      "valid_votes": 647,
+      "invalid_votes": 7,
+      "ballots_cast": 654,
+      "unreturned_ballots": 0,
+      "ballots_issued": 654,
+      "unused_ballots": 243,
+      "electors": 897,
+      "turnout_rate": 72.91000366210938
+    },
+    "HUA-JIAN-YONGAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "永安村",
+      "village_en": "Yongan Village",
+      "votes": {
+        "1": 633,
+        "2": 1931
+      },
+      "valid_votes": 2564,
+      "invalid_votes": 21,
+      "ballots_cast": 2585,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2585,
+      "unused_ballots": 992,
+      "electors": 3577,
+      "turnout_rate": 72.2699966430664
+    },
+    "HUA-JIAN-TAICHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "太昌村",
+      "village_en": "Taichang Village",
+      "votes": {
+        "1": 612,
+        "2": 1547
+      },
+      "valid_votes": 2159,
+      "invalid_votes": 28,
+      "ballots_cast": 2187,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2187,
+      "unused_ballots": 926,
+      "electors": 3113,
+      "turnout_rate": 70.25
+    },
+    "HUA-JIAN-QINGFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "慶豐村",
+      "village_en": "Qingfeng Village",
+      "votes": {
+        "1": 1060,
+        "2": 2906
+      },
+      "valid_votes": 3966,
+      "invalid_votes": 51,
+      "ballots_cast": 4017,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4017,
+      "unused_ballots": 1513,
+      "electors": 5530,
+      "turnout_rate": 72.63999938964844
+    },
+    "HUA-JIAN-JIAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "吉安村",
+      "village_en": "Jian Village",
+      "votes": {
+        "1": 769,
+        "2": 2293
+      },
+      "valid_votes": 3062,
+      "invalid_votes": 40,
+      "ballots_cast": 3102,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3102,
+      "unused_ballots": 1186,
+      "electors": 4288,
+      "turnout_rate": 72.33999633789062
+    },
+    "HUA-JIAN-FUXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "福興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 517,
+        "2": 1153
+      },
+      "valid_votes": 1670,
+      "invalid_votes": 16,
+      "ballots_cast": 1686,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1686,
+      "unused_ballots": 703,
+      "electors": 2389,
+      "turnout_rate": 70.56999969482422
+    },
+    "HUA-JIAN-NANHUA": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "南華村",
+      "village_en": "Nanhua Village",
+      "votes": {
+        "1": 412,
+        "2": 646
+      },
+      "valid_votes": 1058,
+      "invalid_votes": 9,
+      "ballots_cast": 1067,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1067,
+      "unused_ballots": 434,
+      "electors": 1501,
+      "turnout_rate": 71.08999633789062
+    },
+    "HUA-JIAN-GANCHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "干城村",
+      "village_en": "Gancheng Village",
+      "votes": {
+        "1": 95,
+        "2": 655
+      },
+      "valid_votes": 750,
+      "invalid_votes": 11,
+      "ballots_cast": 761,
+      "unreturned_ballots": 0,
+      "ballots_issued": 761,
+      "unused_ballots": 390,
+      "electors": 1151,
+      "turnout_rate": 66.12000274658203
+    },
+    "HUA-JIAN-YONGXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "永興村",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 388,
+        "2": 1376
+      },
+      "valid_votes": 1764,
+      "invalid_votes": 20,
+      "ballots_cast": 1784,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1784,
+      "unused_ballots": 765,
+      "electors": 2549,
+      "turnout_rate": 69.98999786376953
+    },
+    "HUA-JIAN-DAOXIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "稻香村",
+      "village_en": "Daoxiang Village",
+      "votes": {
+        "1": 473,
+        "2": 1425
+      },
+      "valid_votes": 1898,
+      "invalid_votes": 19,
+      "ballots_cast": 1917,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1917,
+      "unused_ballots": 705,
+      "electors": 2622,
+      "turnout_rate": 73.11000061035156
+    },
+    "HUA-JIAN-NANCHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "南昌村",
+      "village_en": "Nanchang Village",
+      "votes": {
+        "1": 469,
+        "2": 1937
+      },
+      "valid_votes": 2406,
+      "invalid_votes": 22,
+      "ballots_cast": 2428,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2428,
+      "unused_ballots": 954,
+      "electors": 3382,
+      "turnout_rate": 71.79000091552734
+    },
+    "HUA-JIAN-YICHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "宜昌村",
+      "village_en": "Yichang Village",
+      "votes": {
+        "1": 594,
+        "2": 1906
+      },
+      "valid_votes": 2500,
+      "invalid_votes": 33,
+      "ballots_cast": 2533,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2533,
+      "unused_ballots": 996,
+      "electors": 3529,
+      "turnout_rate": 71.77999877929688
+    },
+    "HUA-JIAN-BEICHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "北昌村",
+      "village_en": "Beichang Village",
+      "votes": {
+        "1": 1276,
+        "2": 3538
+      },
+      "valid_votes": 4814,
+      "invalid_votes": 43,
+      "ballots_cast": 4857,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4857,
+      "unused_ballots": 1611,
+      "electors": 6468,
+      "turnout_rate": 75.08999633789062
+    },
+    "HUA-JIAN-SHENGAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "勝安村",
+      "village_en": "Shengan Village",
+      "votes": {
+        "1": 780,
+        "2": 2109
+      },
+      "valid_votes": 2889,
+      "invalid_votes": 27,
+      "ballots_cast": 2916,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2916,
+      "unused_ballots": 981,
+      "electors": 3897,
+      "turnout_rate": 74.83000183105469
+    },
+    "HUA-JIAN-RENLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "仁里村",
+      "village_en": "Renli Village",
+      "votes": {
+        "1": 875,
+        "2": 3001
+      },
+      "valid_votes": 3876,
+      "invalid_votes": 37,
+      "ballots_cast": 3913,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3913,
+      "unused_ballots": 1455,
+      "electors": 5368,
+      "turnout_rate": 72.88999938964844
+    },
+    "HUA-JIAN-DONGCHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "東昌村",
+      "village_en": "Dongchang Village",
+      "votes": {
+        "1": 603,
+        "2": 2715
+      },
+      "valid_votes": 3318,
+      "invalid_votes": 38,
+      "ballots_cast": 3356,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3356,
+      "unused_ballots": 1316,
+      "electors": 4672,
+      "turnout_rate": 71.83000183105469
+    },
+    "HUA-JIAN-RENAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "仁安村",
+      "village_en": "Renan Village",
+      "votes": {
+        "1": 327,
+        "2": 1022
+      },
+      "valid_votes": 1349,
+      "invalid_votes": 17,
+      "ballots_cast": 1366,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1366,
+      "unused_ballots": 628,
+      "electors": 1994,
+      "turnout_rate": 68.51000213623047
+    },
+    "HUA-JIAN-RENHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "仁和村",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 585,
+        "2": 2151
+      },
+      "valid_votes": 2736,
+      "invalid_votes": 33,
+      "ballots_cast": 2769,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2769,
+      "unused_ballots": 1204,
+      "electors": 3973,
+      "turnout_rate": 69.69999694824219
+    },
+    "HUA-JIAN-GUANGHUA": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "吉安鄉",
+      "township_en": "Jian Township",
+      "village_zh": "光華村",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 101,
+        "2": 801
+      },
+      "valid_votes": 902,
+      "invalid_votes": 4,
+      "ballots_cast": 906,
+      "unreturned_ballots": 0,
+      "ballots_issued": 906,
+      "unused_ballots": 343,
+      "electors": 1249,
+      "turnout_rate": 72.54000091552734
+    },
+    "HUA-SHOUFENG-XIKOU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "溪口村",
+      "village_en": "Xikou Village",
+      "votes": {
+        "1": 166,
+        "2": 523
+      },
+      "valid_votes": 689,
+      "invalid_votes": 11,
+      "ballots_cast": 700,
+      "unreturned_ballots": 0,
+      "ballots_issued": 700,
+      "unused_ballots": 363,
+      "electors": 1063,
+      "turnout_rate": 65.8499984741211
+    },
+    "HUA-SHOUFENG-SHUHU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "樹湖村",
+      "village_en": "Shuhu Village",
+      "votes": {
+        "1": 62,
+        "2": 147
+      },
+      "valid_votes": 209,
+      "invalid_votes": 2,
+      "ballots_cast": 211,
+      "unreturned_ballots": 0,
+      "ballots_issued": 211,
+      "unused_ballots": 103,
+      "electors": 314,
+      "turnout_rate": 67.19999694824219
+    },
+    "HUA-SHOUFENG-FENGSHAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "豐山村",
+      "village_en": "Fengshan Village",
+      "votes": {
+        "1": 379,
+        "2": 924
+      },
+      "valid_votes": 1303,
+      "invalid_votes": 13,
+      "ballots_cast": 1316,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1316,
+      "unused_ballots": 614,
+      "electors": 1930,
+      "turnout_rate": 68.19000244140625
+    },
+    "HUA-SHOUFENG-FENGLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "豐裡村",
+      "village_en": "Fengli Village",
+      "votes": {
+        "1": 218,
+        "2": 634
+      },
+      "valid_votes": 852,
+      "invalid_votes": 9,
+      "ballots_cast": 861,
+      "unreturned_ballots": 0,
+      "ballots_issued": 861,
+      "unused_ballots": 441,
+      "electors": 1302,
+      "turnout_rate": 66.12999725341797
+    },
+    "HUA-SHOUFENG-FENGPING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "豐坪村",
+      "village_en": "Fengping Village",
+      "votes": {
+        "1": 150,
+        "2": 415
+      },
+      "valid_votes": 565,
+      "invalid_votes": 6,
+      "ballots_cast": 571,
+      "unreturned_ballots": 0,
+      "ballots_issued": 571,
+      "unused_ballots": 254,
+      "electors": 825,
+      "turnout_rate": 69.20999908447266
+    },
+    "HUA-SHOUFENG-SHOUFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "壽豐村",
+      "village_en": "Shoufeng Village",
+      "votes": {
+        "1": 297,
+        "2": 806
+      },
+      "valid_votes": 1103,
+      "invalid_votes": 11,
+      "ballots_cast": 1114,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1114,
+      "unused_ballots": 464,
+      "electors": 1578,
+      "turnout_rate": 70.5999984741211
+    },
+    "HUA-SHOUFENG-GONGHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "共和村",
+      "village_en": "Gonghe Village",
+      "votes": {
+        "1": 108,
+        "2": 310
+      },
+      "valid_votes": 418,
+      "invalid_votes": 6,
+      "ballots_cast": 424,
+      "unreturned_ballots": 0,
+      "ballots_issued": 424,
+      "unused_ballots": 169,
+      "electors": 593,
+      "turnout_rate": 71.5
+    },
+    "HUA-SHOUFENG-GUANGRONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "光榮村",
+      "village_en": "Guangrong Village",
+      "votes": {
+        "1": 83,
+        "2": 465
+      },
+      "valid_votes": 548,
+      "invalid_votes": 6,
+      "ballots_cast": 554,
+      "unreturned_ballots": 0,
+      "ballots_issued": 554,
+      "unused_ballots": 209,
+      "electors": 763,
+      "turnout_rate": 72.61000061035156
+    },
+    "HUA-SHOUFENG-CHINAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "池南村",
+      "village_en": "Chinan Village",
+      "votes": {
+        "1": 184,
+        "2": 380
+      },
+      "valid_votes": 564,
+      "invalid_votes": 5,
+      "ballots_cast": 569,
+      "unreturned_ballots": 0,
+      "ballots_issued": 569,
+      "unused_ballots": 233,
+      "electors": 802,
+      "turnout_rate": 70.94999694824219
+    },
+    "HUA-SHOUFENG-PINGHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "平和村",
+      "village_en": "Pinghe Village",
+      "votes": {
+        "1": 287,
+        "2": 572
+      },
+      "valid_votes": 859,
+      "invalid_votes": 15,
+      "ballots_cast": 874,
+      "unreturned_ballots": 0,
+      "ballots_issued": 874,
+      "unused_ballots": 425,
+      "electors": 1299,
+      "turnout_rate": 67.27999877929688
+    },
+    "HUA-SHOUFENG-ZHIXUE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "志學村",
+      "village_en": "Zhixue Village",
+      "votes": {
+        "1": 503,
+        "2": 1161
+      },
+      "valid_votes": 1664,
+      "invalid_votes": 13,
+      "ballots_cast": 1677,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1677,
+      "unused_ballots": 771,
+      "electors": 2448,
+      "turnout_rate": 68.5
+    },
+    "HUA-SHOUFENG-MIZHAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "米棧村",
+      "village_en": "Mizhan Village",
+      "votes": {
+        "1": 43,
+        "2": 135
+      },
+      "valid_votes": 178,
+      "invalid_votes": 3,
+      "ballots_cast": 181,
+      "unreturned_ballots": 0,
+      "ballots_issued": 181,
+      "unused_ballots": 106,
+      "electors": 287,
+      "turnout_rate": 63.06999969482422
+    },
+    "HUA-SHOUFENG-YUEMEI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "月眉村",
+      "village_en": "Yuemei Village",
+      "votes": {
+        "1": 68,
+        "2": 439
+      },
+      "valid_votes": 507,
+      "invalid_votes": 6,
+      "ballots_cast": 513,
+      "unreturned_ballots": 0,
+      "ballots_issued": 513,
+      "unused_ballots": 286,
+      "electors": 799,
+      "turnout_rate": 64.20999908447266
+    },
+    "HUA-SHOUFENG-YANLIAO": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "鹽寮村",
+      "village_en": "Yanliao Village",
+      "votes": {
+        "1": 78,
+        "2": 241
+      },
+      "valid_votes": 319,
+      "invalid_votes": 4,
+      "ballots_cast": 323,
+      "unreturned_ballots": 0,
+      "ballots_issued": 323,
+      "unused_ballots": 208,
+      "electors": 531,
+      "turnout_rate": 60.83000183105469
+    },
+    "HUA-SHOUFENG-SHUILIAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "壽豐鄉",
+      "township_en": "Shoufeng Township",
+      "village_zh": "水璉村",
+      "village_en": "Shuilian Village",
+      "votes": {
+        "1": 123,
+        "2": 418
+      },
+      "valid_votes": 541,
+      "invalid_votes": 3,
+      "ballots_cast": 544,
+      "unreturned_ballots": 0,
+      "ballots_issued": 544,
+      "unused_ballots": 304,
+      "electors": 848,
+      "turnout_rate": 64.1500015258789
+    },
+    "HUA-FENGLIN-FENGREN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "鳳仁里",
+      "village_en": "Fengren Village",
+      "votes": {
+        "1": 201,
+        "2": 633
+      },
+      "valid_votes": 834,
+      "invalid_votes": 5,
+      "ballots_cast": 839,
+      "unreturned_ballots": 0,
+      "ballots_issued": 839,
+      "unused_ballots": 379,
+      "electors": 1218,
+      "turnout_rate": 68.87999725341797
+    },
+    "HUA-FENGLIN-FENGYI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "鳳義里",
+      "village_en": "Fengyi Village",
+      "votes": {
+        "1": 83,
+        "2": 361
+      },
+      "valid_votes": 444,
+      "invalid_votes": 3,
+      "ballots_cast": 447,
+      "unreturned_ballots": 0,
+      "ballots_issued": 447,
+      "unused_ballots": 185,
+      "electors": 632,
+      "turnout_rate": 70.7300033569336
+    },
+    "HUA-FENGLIN-FENGLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "鳳禮里",
+      "village_en": "Fengli Village",
+      "votes": {
+        "1": 106,
+        "2": 372
+      },
+      "valid_votes": 478,
+      "invalid_votes": 0,
+      "ballots_cast": 478,
+      "unreturned_ballots": 0,
+      "ballots_issued": 478,
+      "unused_ballots": 163,
+      "electors": 641,
+      "turnout_rate": 74.56999969482422
+    },
+    "HUA-FENGLIN-FENGZHI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "鳳智里",
+      "village_en": "Fengzhi Village",
+      "votes": {
+        "1": 161,
+        "2": 687
+      },
+      "valid_votes": 848,
+      "invalid_votes": 8,
+      "ballots_cast": 856,
+      "unreturned_ballots": 0,
+      "ballots_issued": 856,
+      "unused_ballots": 299,
+      "electors": 1155,
+      "turnout_rate": 74.11000061035156
+    },
+    "HUA-FENGLIN-FENGXIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "鳳信里",
+      "village_en": "Fengxin Village",
+      "votes": {
+        "1": 143,
+        "2": 761
+      },
+      "valid_votes": 904,
+      "invalid_votes": 7,
+      "ballots_cast": 911,
+      "unreturned_ballots": 0,
+      "ballots_issued": 911,
+      "unused_ballots": 428,
+      "electors": 1339,
+      "turnout_rate": 68.04000091552734
+    },
+    "HUA-FENGLIN-SHANXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "山興里",
+      "village_en": "Shanxing Village",
+      "votes": {
+        "1": 55,
+        "2": 289
+      },
+      "valid_votes": 344,
+      "invalid_votes": 3,
+      "ballots_cast": 347,
+      "unreturned_ballots": 0,
+      "ballots_issued": 347,
+      "unused_ballots": 203,
+      "electors": 550,
+      "turnout_rate": 63.09000015258789
+    },
+    "HUA-FENGLIN-DARONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "大榮里",
+      "village_en": "Darong Village",
+      "votes": {
+        "1": 250,
+        "2": 578
+      },
+      "valid_votes": 828,
+      "invalid_votes": 13,
+      "ballots_cast": 841,
+      "unreturned_ballots": 0,
+      "ballots_issued": 841,
+      "unused_ballots": 446,
+      "electors": 1287,
+      "turnout_rate": 65.3499984741211
+    },
+    "HUA-FENGLIN-BEILIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "北林里",
+      "village_en": "Beilin Village",
+      "votes": {
+        "1": 152,
+        "2": 243
+      },
+      "valid_votes": 395,
+      "invalid_votes": 4,
+      "ballots_cast": 399,
+      "unreturned_ballots": 0,
+      "ballots_issued": 399,
+      "unused_ballots": 210,
+      "electors": 609,
+      "turnout_rate": 65.5199966430664
+    },
+    "HUA-FENGLIN-NANPING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "南平里",
+      "village_en": "Nanping Village",
+      "votes": {
+        "1": 118,
+        "2": 287
+      },
+      "valid_votes": 405,
+      "invalid_votes": 5,
+      "ballots_cast": 410,
+      "unreturned_ballots": 0,
+      "ballots_issued": 410,
+      "unused_ballots": 225,
+      "electors": 635,
+      "turnout_rate": 64.56999969482422
+    },
+    "HUA-FENGLIN-LINRONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "林榮里",
+      "village_en": "Linrong Village",
+      "votes": {
+        "1": 115,
+        "2": 470
+      },
+      "valid_votes": 585,
+      "invalid_votes": 7,
+      "ballots_cast": 592,
+      "unreturned_ballots": 0,
+      "ballots_issued": 592,
+      "unused_ballots": 244,
+      "electors": 836,
+      "turnout_rate": 70.80999755859375
+    },
+    "HUA-FENGLIN-ZHANGQIAO": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "長橋里",
+      "village_en": "Zhangqiao Village",
+      "votes": {
+        "1": 174,
+        "2": 483
+      },
+      "valid_votes": 657,
+      "invalid_votes": 10,
+      "ballots_cast": 667,
+      "unreturned_ballots": 1,
+      "ballots_issued": 668,
+      "unused_ballots": 388,
+      "electors": 1056,
+      "turnout_rate": 63.15999984741211
+    },
+    "HUA-FENGLIN-SENRONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "鳳林鎮",
+      "township_en": "Fenglin Township",
+      "village_zh": "森榮里",
+      "village_en": "Senrong Village",
+      "votes": {
+        "1": 18,
+        "2": 90
+      },
+      "valid_votes": 108,
+      "invalid_votes": 0,
+      "ballots_cast": 108,
+      "unreturned_ballots": 0,
+      "ballots_issued": 108,
+      "unused_ballots": 38,
+      "electors": 146,
+      "turnout_rate": 73.97000122070312
+    },
+    "HUA-GUANGFU-DAHUA": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大華村",
+      "village_en": "Dahua Village",
+      "votes": {
+        "1": 243,
+        "2": 654
+      },
+      "valid_votes": 897,
+      "invalid_votes": 3,
+      "ballots_cast": 900,
+      "unreturned_ballots": 0,
+      "ballots_issued": 900,
+      "unused_ballots": 454,
+      "electors": 1354,
+      "turnout_rate": 66.47000122070312
+    },
+    "HUA-GUANGFU-DAAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大安村",
+      "village_en": "Daan Village",
+      "votes": {
+        "1": 156,
+        "2": 461
+      },
+      "valid_votes": 617,
+      "invalid_votes": 6,
+      "ballots_cast": 623,
+      "unreturned_ballots": 0,
+      "ballots_issued": 623,
+      "unused_ballots": 245,
+      "electors": 868,
+      "turnout_rate": 71.7699966430664
+    },
+    "HUA-GUANGFU-DAPING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大平村",
+      "village_en": "Daping Village",
+      "votes": {
+        "1": 113,
+        "2": 498
+      },
+      "valid_votes": 611,
+      "invalid_votes": 8,
+      "ballots_cast": 619,
+      "unreturned_ballots": 0,
+      "ballots_issued": 619,
+      "unused_ballots": 363,
+      "electors": 982,
+      "turnout_rate": 63.029998779296875
+    },
+    "HUA-GUANGFU-DAMA": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大馬村",
+      "village_en": "Dama Village",
+      "votes": {
+        "1": 84,
+        "2": 543
+      },
+      "valid_votes": 627,
+      "invalid_votes": 9,
+      "ballots_cast": 636,
+      "unreturned_ballots": 0,
+      "ballots_issued": 636,
+      "unused_ballots": 414,
+      "electors": 1050,
+      "turnout_rate": 60.56999969482422
+    },
+    "HUA-GUANGFU-DATONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大同村",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 161,
+        "2": 543
+      },
+      "valid_votes": 704,
+      "invalid_votes": 7,
+      "ballots_cast": 711,
+      "unreturned_ballots": 0,
+      "ballots_issued": 711,
+      "unused_ballots": 333,
+      "electors": 1044,
+      "turnout_rate": 68.0999984741211
+    },
+    "HUA-GUANGFU-DONGFU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "東富村",
+      "village_en": "Dongfu Village",
+      "votes": {
+        "1": 32,
+        "2": 560
+      },
+      "valid_votes": 592,
+      "invalid_votes": 6,
+      "ballots_cast": 598,
+      "unreturned_ballots": 0,
+      "ballots_issued": 598,
+      "unused_ballots": 456,
+      "electors": 1054,
+      "turnout_rate": 56.7400016784668
+    },
+    "HUA-GUANGFU-XIFU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "西富村",
+      "village_en": "Xifu Village",
+      "votes": {
+        "1": 104,
+        "2": 522
+      },
+      "valid_votes": 626,
+      "invalid_votes": 4,
+      "ballots_cast": 630,
+      "unreturned_ballots": 0,
+      "ballots_issued": 630,
+      "unused_ballots": 382,
+      "electors": 1012,
+      "turnout_rate": 62.25
+    },
+    "HUA-GUANGFU-NANFU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "南富村",
+      "village_en": "Nanfu Village",
+      "votes": {
+        "1": 54,
+        "2": 459
+      },
+      "valid_votes": 513,
+      "invalid_votes": 5,
+      "ballots_cast": 518,
+      "unreturned_ballots": 0,
+      "ballots_issued": 518,
+      "unused_ballots": 336,
+      "electors": 854,
+      "turnout_rate": 60.65999984741211
+    },
+    "HUA-GUANGFU-BEIFU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "北富村",
+      "village_en": "Beifu Village",
+      "votes": {
+        "1": 51,
+        "2": 523
+      },
+      "valid_votes": 574,
+      "invalid_votes": 2,
+      "ballots_cast": 576,
+      "unreturned_ballots": 0,
+      "ballots_issued": 576,
+      "unused_ballots": 306,
+      "electors": 882,
+      "turnout_rate": 65.30999755859375
+    },
+    "HUA-GUANGFU-DAJIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大進村",
+      "village_en": "Dajin Village",
+      "votes": {
+        "1": 44,
+        "2": 289
+      },
+      "valid_votes": 333,
+      "invalid_votes": 2,
+      "ballots_cast": 335,
+      "unreturned_ballots": 0,
+      "ballots_issued": 335,
+      "unused_ballots": 137,
+      "electors": 472,
+      "turnout_rate": 70.97000122070312
+    },
+    "HUA-GUANGFU-DAQUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大全村",
+      "village_en": "Daquan Village",
+      "votes": {
+        "1": 126,
+        "2": 374
+      },
+      "valid_votes": 500,
+      "invalid_votes": 5,
+      "ballots_cast": 505,
+      "unreturned_ballots": 0,
+      "ballots_issued": 505,
+      "unused_ballots": 301,
+      "electors": 806,
+      "turnout_rate": 62.65999984741211
+    },
+    "HUA-GUANGFU-DAXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大興村",
+      "village_en": "Daxing Village",
+      "votes": {
+        "1": 61,
+        "2": 204
+      },
+      "valid_votes": 265,
+      "invalid_votes": 4,
+      "ballots_cast": 269,
+      "unreturned_ballots": 0,
+      "ballots_issued": 269,
+      "unused_ballots": 228,
+      "electors": 497,
+      "turnout_rate": 54.119998931884766
+    },
+    "HUA-GUANGFU-DAFU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大富村",
+      "village_en": "Dafu Village",
+      "votes": {
+        "1": 73,
+        "2": 147
+      },
+      "valid_votes": 220,
+      "invalid_votes": 3,
+      "ballots_cast": 223,
+      "unreturned_ballots": 0,
+      "ballots_issued": 223,
+      "unused_ballots": 133,
+      "electors": 356,
+      "turnout_rate": 62.63999938964844
+    },
+    "HUA-GUANGFU-DAFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "光復鄉",
+      "township_en": "Guangfu Township",
+      "village_zh": "大豐村",
+      "village_en": "Dafeng Village",
+      "votes": {
+        "1": 106,
+        "2": 216
+      },
+      "valid_votes": 322,
+      "invalid_votes": 5,
+      "ballots_cast": 327,
+      "unreturned_ballots": 0,
+      "ballots_issued": 327,
+      "unused_ballots": 172,
+      "electors": 499,
+      "turnout_rate": 65.52999877929688
+    },
+    "HUA-FENGBIN-JINGPU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "豐濱鄉",
+      "township_en": "Fengbin Township",
+      "village_zh": "靜浦村",
+      "village_en": "Jingpu Village",
+      "votes": {
+        "1": 41,
+        "2": 331
+      },
+      "valid_votes": 372,
+      "invalid_votes": 4,
+      "ballots_cast": 376,
+      "unreturned_ballots": 0,
+      "ballots_issued": 376,
+      "unused_ballots": 356,
+      "electors": 732,
+      "turnout_rate": 51.369998931884766
+    },
+    "HUA-FENGBIN-GANGKOU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "豐濱鄉",
+      "township_en": "Fengbin Township",
+      "village_zh": "港口村",
+      "village_en": "Gangkou Village",
+      "votes": {
+        "1": 76,
+        "2": 382
+      },
+      "valid_votes": 458,
+      "invalid_votes": 3,
+      "ballots_cast": 461,
+      "unreturned_ballots": 0,
+      "ballots_issued": 461,
+      "unused_ballots": 348,
+      "electors": 809,
+      "turnout_rate": 56.97999954223633
+    },
+    "HUA-FENGBIN-FENGBIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "豐濱鄉",
+      "township_en": "Fengbin Township",
+      "village_zh": "豐濱村",
+      "village_en": "Fengbin Village",
+      "votes": {
+        "1": 154,
+        "2": 881
+      },
+      "valid_votes": 1035,
+      "invalid_votes": 14,
+      "ballots_cast": 1049,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1049,
+      "unused_ballots": 835,
+      "electors": 1884,
+      "turnout_rate": 55.68000030517578
+    },
+    "HUA-FENGBIN-XINSHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "豐濱鄉",
+      "township_en": "Fengbin Township",
+      "village_zh": "新社村",
+      "village_en": "Xinshe Village",
+      "votes": {
+        "1": 20,
+        "2": 332
+      },
+      "valid_votes": 352,
+      "invalid_votes": 8,
+      "ballots_cast": 360,
+      "unreturned_ballots": 0,
+      "ballots_issued": 360,
+      "unused_ballots": 256,
+      "electors": 616,
+      "turnout_rate": 58.439998626708984
+    },
+    "HUA-FENGBIN-JIQI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "豐濱鄉",
+      "township_en": "Fengbin Township",
+      "village_zh": "磯崎村",
+      "village_en": "Jiqi Village",
+      "votes": {
+        "1": 12,
+        "2": 190
+      },
+      "valid_votes": 202,
+      "invalid_votes": 1,
+      "ballots_cast": 203,
+      "unreturned_ballots": 0,
+      "ballots_issued": 203,
+      "unused_ballots": 143,
+      "electors": 346,
+      "turnout_rate": 58.66999816894531
+    },
+    "HUA-WANRONG-XILIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "village_zh": "西林村",
+      "village_en": "Xilin Village",
+      "votes": {
+        "1": 46,
+        "2": 609
+      },
+      "valid_votes": 655,
+      "invalid_votes": 11,
+      "ballots_cast": 666,
+      "unreturned_ballots": 0,
+      "ballots_issued": 666,
+      "unused_ballots": 350,
+      "electors": 1016,
+      "turnout_rate": 65.55000305175781
+    },
+    "HUA-WANRONG-JIANQING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "village_zh": "見晴村",
+      "village_en": "Jianqing Village",
+      "votes": {
+        "1": 15,
+        "2": 295
+      },
+      "valid_votes": 310,
+      "invalid_votes": 3,
+      "ballots_cast": 313,
+      "unreturned_ballots": 0,
+      "ballots_issued": 313,
+      "unused_ballots": 179,
+      "electors": 492,
+      "turnout_rate": 63.619998931884766
+    },
+    "HUA-WANRONG-WANRONG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "village_zh": "萬榮村",
+      "village_en": "Wanrong Village",
+      "votes": {
+        "1": 51,
+        "2": 421
+      },
+      "valid_votes": 472,
+      "invalid_votes": 3,
+      "ballots_cast": 475,
+      "unreturned_ballots": 0,
+      "ballots_issued": 475,
+      "unused_ballots": 250,
+      "electors": 725,
+      "turnout_rate": 65.5199966430664
+    },
+    "HUA-WANRONG-MINGLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "village_zh": "明利村",
+      "village_en": "Mingli Village",
+      "votes": {
+        "1": 29,
+        "2": 315
+      },
+      "valid_votes": 344,
+      "invalid_votes": 2,
+      "ballots_cast": 346,
+      "unreturned_ballots": 0,
+      "ballots_issued": 346,
+      "unused_ballots": 247,
+      "electors": 593,
+      "turnout_rate": 58.349998474121094
+    },
+    "HUA-WANRONG-MAYUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "village_zh": "馬遠村",
+      "village_en": "Mayuan Village",
+      "votes": {
+        "1": 58,
+        "2": 576
+      },
+      "valid_votes": 634,
+      "invalid_votes": 10,
+      "ballots_cast": 644,
+      "unreturned_ballots": 0,
+      "ballots_issued": 644,
+      "unused_ballots": 409,
+      "electors": 1053,
+      "turnout_rate": 61.15999984741211
+    },
+    "HUA-WANRONG-HONGYE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "萬榮鄉",
+      "township_en": "Wanrong Township",
+      "village_zh": "紅葉村",
+      "village_en": "Hongye Village",
+      "votes": {
+        "1": 32,
+        "2": 545
+      },
+      "valid_votes": 577,
+      "invalid_votes": 5,
+      "ballots_cast": 582,
+      "unreturned_ballots": 0,
+      "ballots_issued": 582,
+      "unused_ballots": 472,
+      "electors": 1054,
+      "turnout_rate": 55.220001220703125
+    },
+    "HUA-RUISUI-RUISUI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "瑞穗村",
+      "village_en": "Ruisui Village",
+      "votes": {
+        "1": 345,
+        "2": 941
+      },
+      "valid_votes": 1286,
+      "invalid_votes": 12,
+      "ballots_cast": 1298,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1298,
+      "unused_ballots": 638,
+      "electors": 1936,
+      "turnout_rate": 67.05000305175781
+    },
+    "HUA-RUISUI-RUIMEI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "瑞美村",
+      "village_en": "Ruimei Village",
+      "votes": {
+        "1": 332,
+        "2": 840
+      },
+      "valid_votes": 1172,
+      "invalid_votes": 11,
+      "ballots_cast": 1183,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1183,
+      "unused_ballots": 604,
+      "electors": 1787,
+      "turnout_rate": 66.19999694824219
+    },
+    "HUA-RUISUI-RUILIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "瑞良村",
+      "village_en": "Ruiliang Village",
+      "votes": {
+        "1": 98,
+        "2": 250
+      },
+      "valid_votes": 348,
+      "invalid_votes": 6,
+      "ballots_cast": 354,
+      "unreturned_ballots": 0,
+      "ballots_issued": 354,
+      "unused_ballots": 199,
+      "electors": 553,
+      "turnout_rate": 64.01000213623047
+    },
+    "HUA-RUISUI-RUIXIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "瑞祥村",
+      "village_en": "Ruixiang Village",
+      "votes": {
+        "1": 155,
+        "2": 460
+      },
+      "valid_votes": 615,
+      "invalid_votes": 10,
+      "ballots_cast": 625,
+      "unreturned_ballots": 0,
+      "ballots_issued": 625,
+      "unused_ballots": 393,
+      "electors": 1018,
+      "turnout_rate": 61.38999938964844
+    },
+    "HUA-RUISUI-RUIBEI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "瑞北村",
+      "village_en": "Ruibei Village",
+      "votes": {
+        "1": 87,
+        "2": 267
+      },
+      "valid_votes": 354,
+      "invalid_votes": 1,
+      "ballots_cast": 355,
+      "unreturned_ballots": 0,
+      "ballots_issued": 355,
+      "unused_ballots": 235,
+      "electors": 590,
+      "turnout_rate": 60.16999816894531
+    },
+    "HUA-RUISUI-WUHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "舞鶴村",
+      "village_en": "Wuhe Village",
+      "votes": {
+        "1": 118,
+        "2": 456
+      },
+      "valid_votes": 574,
+      "invalid_votes": 13,
+      "ballots_cast": 587,
+      "unreturned_ballots": 0,
+      "ballots_issued": 587,
+      "unused_ballots": 381,
+      "electors": 968,
+      "turnout_rate": 60.63999938964844
+    },
+    "HUA-RUISUI-HEGANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "鶴岡村",
+      "village_en": "Hegang Village",
+      "votes": {
+        "1": 55,
+        "2": 446
+      },
+      "valid_votes": 501,
+      "invalid_votes": 3,
+      "ballots_cast": 504,
+      "unreturned_ballots": 0,
+      "ballots_issued": 504,
+      "unused_ballots": 349,
+      "electors": 853,
+      "turnout_rate": 59.09000015258789
+    },
+    "HUA-RUISUI-QIMEI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "奇美村",
+      "village_en": "Qimei Village",
+      "votes": {
+        "1": 9,
+        "2": 149
+      },
+      "valid_votes": 158,
+      "invalid_votes": 0,
+      "ballots_cast": 158,
+      "unreturned_ballots": 0,
+      "ballots_issued": 158,
+      "unused_ballots": 194,
+      "electors": 352,
+      "turnout_rate": 44.88999938964844
+    },
+    "HUA-RUISUI-FUYUAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "富源村",
+      "village_en": "Fuyuan Village",
+      "votes": {
+        "1": 119,
+        "2": 417
+      },
+      "valid_votes": 536,
+      "invalid_votes": 9,
+      "ballots_cast": 545,
+      "unreturned_ballots": 0,
+      "ballots_issued": 545,
+      "unused_ballots": 311,
+      "electors": 856,
+      "turnout_rate": 63.66999816894531
+    },
+    "HUA-RUISUI-FUMIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "富民村",
+      "village_en": "Fumin Village",
+      "votes": {
+        "1": 53,
+        "2": 427
+      },
+      "valid_votes": 480,
+      "invalid_votes": 9,
+      "ballots_cast": 489,
+      "unreturned_ballots": 0,
+      "ballots_issued": 489,
+      "unused_ballots": 458,
+      "electors": 947,
+      "turnout_rate": 51.63999938964844
+    },
+    "HUA-RUISUI-FUXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "瑞穗鄉",
+      "township_en": "Ruisui Township",
+      "village_zh": "富興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 178,
+        "2": 229
+      },
+      "valid_votes": 407,
+      "invalid_votes": 4,
+      "ballots_cast": 411,
+      "unreturned_ballots": 0,
+      "ballots_issued": 411,
+      "unused_ballots": 266,
+      "electors": 677,
+      "turnout_rate": 60.709999084472656
+    },
+    "HUA-YULI-ZHONGCHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "中城里",
+      "village_en": "Zhongcheng Village",
+      "votes": {
+        "1": 872,
+        "2": 2383
+      },
+      "valid_votes": 3255,
+      "invalid_votes": 45,
+      "ballots_cast": 3300,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3300,
+      "unused_ballots": 1585,
+      "electors": 4885,
+      "turnout_rate": 67.55000305175781
+    },
+    "HUA-YULI-GUOWU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "國武里",
+      "village_en": "Guowu Village",
+      "votes": {
+        "1": 244,
+        "2": 662
+      },
+      "valid_votes": 906,
+      "invalid_votes": 14,
+      "ballots_cast": 920,
+      "unreturned_ballots": 0,
+      "ballots_issued": 920,
+      "unused_ballots": 402,
+      "electors": 1322,
+      "turnout_rate": 69.58999633789062
+    },
+    "HUA-YULI-QIMO": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "啟模里",
+      "village_en": "Qimo Village",
+      "votes": {
+        "1": 281,
+        "2": 829
+      },
+      "valid_votes": 1110,
+      "invalid_votes": 19,
+      "ballots_cast": 1129,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1129,
+      "unused_ballots": 566,
+      "electors": 1695,
+      "turnout_rate": 66.61000061035156
+    },
+    "HUA-YULI-TAICHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "泰昌里",
+      "village_en": "Taichang Village",
+      "votes": {
+        "1": 143,
+        "2": 664
+      },
+      "valid_votes": 807,
+      "invalid_votes": 22,
+      "ballots_cast": 829,
+      "unreturned_ballots": 0,
+      "ballots_issued": 829,
+      "unused_ballots": 1150,
+      "electors": 1979,
+      "turnout_rate": 41.88999938964844
+    },
+    "HUA-YULI-YONGCHANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "永昌里",
+      "village_en": "Yongchang Village",
+      "votes": {
+        "1": 166,
+        "2": 626
+      },
+      "valid_votes": 792,
+      "invalid_votes": 10,
+      "ballots_cast": 802,
+      "unreturned_ballots": 0,
+      "ballots_issued": 802,
+      "unused_ballots": 548,
+      "electors": 1350,
+      "turnout_rate": 59.40999984741211
+    },
+    "HUA-YULI-YUANCHENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "源城里",
+      "village_en": "Yuancheng Village",
+      "votes": {
+        "1": 215,
+        "2": 573
+      },
+      "valid_votes": 788,
+      "invalid_votes": 9,
+      "ballots_cast": 797,
+      "unreturned_ballots": 0,
+      "ballots_issued": 797,
+      "unused_ballots": 485,
+      "electors": 1282,
+      "turnout_rate": 62.16999816894531
+    },
+    "HUA-YULI-ZHANGLIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "長良里",
+      "village_en": "Zhangliang Village",
+      "votes": {
+        "1": 54,
+        "2": 329
+      },
+      "valid_votes": 383,
+      "invalid_votes": 13,
+      "ballots_cast": 396,
+      "unreturned_ballots": 0,
+      "ballots_issued": 396,
+      "unused_ballots": 351,
+      "electors": 747,
+      "turnout_rate": 53.0099983215332
+    },
+    "HUA-YULI-LEHE": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "樂合里",
+      "village_en": "Lehe Village",
+      "votes": {
+        "1": 72,
+        "2": 574
+      },
+      "valid_votes": 646,
+      "invalid_votes": 9,
+      "ballots_cast": 655,
+      "unreturned_ballots": 0,
+      "ballots_issued": 655,
+      "unused_ballots": 465,
+      "electors": 1120,
+      "turnout_rate": 58.47999954223633
+    },
+    "HUA-YULI-DONGFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "東豐里",
+      "village_en": "Dongfeng Village",
+      "votes": {
+        "1": 78,
+        "2": 233
+      },
+      "valid_votes": 311,
+      "invalid_votes": 3,
+      "ballots_cast": 314,
+      "unreturned_ballots": 0,
+      "ballots_issued": 314,
+      "unused_ballots": 224,
+      "electors": 538,
+      "turnout_rate": 58.36000061035156
+    },
+    "HUA-YULI-GUANYIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "觀音里",
+      "village_en": "Guanyin Village",
+      "votes": {
+        "1": 194,
+        "2": 754
+      },
+      "valid_votes": 948,
+      "invalid_votes": 15,
+      "ballots_cast": 963,
+      "unreturned_ballots": 0,
+      "ballots_issued": 963,
+      "unused_ballots": 675,
+      "electors": 1638,
+      "turnout_rate": 58.790000915527344
+    },
+    "HUA-YULI-SONGPU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "松浦里",
+      "village_en": "Songpu Village",
+      "votes": {
+        "1": 152,
+        "2": 643
+      },
+      "valid_votes": 795,
+      "invalid_votes": 16,
+      "ballots_cast": 811,
+      "unreturned_ballots": 0,
+      "ballots_issued": 811,
+      "unused_ballots": 879,
+      "electors": 1690,
+      "turnout_rate": 47.9900016784668
+    },
+    "HUA-YULI-CHUNRI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "春日里",
+      "village_en": "Chunri Village",
+      "votes": {
+        "1": 118,
+        "2": 381
+      },
+      "valid_votes": 499,
+      "invalid_votes": 11,
+      "ballots_cast": 510,
+      "unreturned_ballots": 0,
+      "ballots_issued": 510,
+      "unused_ballots": 428,
+      "electors": 938,
+      "turnout_rate": 54.369998931884766
+    },
+    "HUA-YULI-DEWU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "德武里",
+      "village_en": "Dewu Village",
+      "votes": {
+        "1": 26,
+        "2": 384
+      },
+      "valid_votes": 410,
+      "invalid_votes": 5,
+      "ballots_cast": 415,
+      "unreturned_ballots": 0,
+      "ballots_issued": 415,
+      "unused_ballots": 341,
+      "electors": 756,
+      "turnout_rate": 54.88999938964844
+    },
+    "HUA-YULI-SANMIN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "三民里",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 235,
+        "2": 397
+      },
+      "valid_votes": 632,
+      "invalid_votes": 11,
+      "ballots_cast": 643,
+      "unreturned_ballots": 1,
+      "ballots_issued": 644,
+      "unused_ballots": 328,
+      "electors": 972,
+      "turnout_rate": 66.1500015258789
+    },
+    "HUA-YULI-DAYU": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "玉里鎮",
+      "township_en": "Yuli Township",
+      "village_zh": "大禹里",
+      "village_en": "Dayu Village",
+      "votes": {
+        "1": 174,
+        "2": 478
+      },
+      "valid_votes": 652,
+      "invalid_votes": 10,
+      "ballots_cast": 662,
+      "unreturned_ballots": 0,
+      "ballots_issued": 662,
+      "unused_ballots": 463,
+      "electors": 1125,
+      "turnout_rate": 58.84000015258789
+    },
+    "HUA-FULI-WUJIANG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "吳江村",
+      "village_en": "Wujiang Village",
+      "votes": {
+        "1": 64,
+        "2": 234
+      },
+      "valid_votes": 298,
+      "invalid_votes": 2,
+      "ballots_cast": 300,
+      "unreturned_ballots": 0,
+      "ballots_issued": 300,
+      "unused_ballots": 220,
+      "electors": 520,
+      "turnout_rate": 57.689998626708984
+    },
+    "HUA-FULI-DONGLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "東里村",
+      "village_en": "Dongli Village",
+      "votes": {
+        "1": 161,
+        "2": 457
+      },
+      "valid_votes": 618,
+      "invalid_votes": 13,
+      "ballots_cast": 631,
+      "unreturned_ballots": 0,
+      "ballots_issued": 631,
+      "unused_ballots": 558,
+      "electors": 1189,
+      "turnout_rate": 53.06999969482422
+    },
+    "HUA-FULI-WANNING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "萬寧村",
+      "village_en": "Wanning Village",
+      "votes": {
+        "1": 64,
+        "2": 305
+      },
+      "valid_votes": 369,
+      "invalid_votes": 7,
+      "ballots_cast": 376,
+      "unreturned_ballots": 0,
+      "ballots_issued": 376,
+      "unused_ballots": 327,
+      "electors": 703,
+      "turnout_rate": 53.4900016784668
+    },
+    "HUA-FULI-XINXING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "新興村",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 53,
+        "2": 305
+      },
+      "valid_votes": 358,
+      "invalid_votes": 6,
+      "ballots_cast": 364,
+      "unreturned_ballots": 0,
+      "ballots_issued": 364,
+      "unused_ballots": 279,
+      "electors": 643,
+      "turnout_rate": 56.61000061035156
+    },
+    "HUA-FULI-ZHUTIAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "竹田村",
+      "village_en": "Zhutian Village",
+      "votes": {
+        "1": 112,
+        "2": 561
+      },
+      "valid_votes": 673,
+      "invalid_votes": 7,
+      "ballots_cast": 680,
+      "unreturned_ballots": 0,
+      "ballots_issued": 680,
+      "unused_ballots": 401,
+      "electors": 1081,
+      "turnout_rate": 62.900001525878906
+    },
+    "HUA-FULI-LUOSHAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "羅山村",
+      "village_en": "Luoshan Village",
+      "votes": {
+        "1": 55,
+        "2": 193
+      },
+      "valid_votes": 248,
+      "invalid_votes": 1,
+      "ballots_cast": 249,
+      "unreturned_ballots": 1,
+      "ballots_issued": 250,
+      "unused_ballots": 194,
+      "electors": 444,
+      "turnout_rate": 56.08000183105469
+    },
+    "HUA-FULI-SHIPAI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "石牌村",
+      "village_en": "Shipai Village",
+      "votes": {
+        "1": 121,
+        "2": 398
+      },
+      "valid_votes": 519,
+      "invalid_votes": 7,
+      "ballots_cast": 526,
+      "unreturned_ballots": 0,
+      "ballots_issued": 526,
+      "unused_ballots": 351,
+      "electors": 877,
+      "turnout_rate": 59.97999954223633
+    },
+    "HUA-FULI-MINGLI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "明里村",
+      "village_en": "Mingli Village",
+      "votes": {
+        "1": 62,
+        "2": 170
+      },
+      "valid_votes": 232,
+      "invalid_votes": 2,
+      "ballots_cast": 234,
+      "unreturned_ballots": 0,
+      "ballots_issued": 234,
+      "unused_ballots": 150,
+      "electors": 384,
+      "turnout_rate": 60.939998626708984
+    },
+    "HUA-FULI-FULI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "富里村",
+      "village_en": "Fuli Village",
+      "votes": {
+        "1": 267,
+        "2": 623
+      },
+      "valid_votes": 890,
+      "invalid_votes": 8,
+      "ballots_cast": 898,
+      "unreturned_ballots": 0,
+      "ballots_issued": 898,
+      "unused_ballots": 532,
+      "electors": 1430,
+      "turnout_rate": 62.79999923706055
+    },
+    "HUA-FULI-YONGFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "永豐村",
+      "village_en": "Yongfeng Village",
+      "votes": {
+        "1": 72,
+        "2": 229
+      },
+      "valid_votes": 301,
+      "invalid_votes": 5,
+      "ballots_cast": 306,
+      "unreturned_ballots": 0,
+      "ballots_issued": 306,
+      "unused_ballots": 194,
+      "electors": 500,
+      "turnout_rate": 61.20000076293945
+    },
+    "HUA-FULI-FENGNAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "豐南村",
+      "village_en": "Fengnan Village",
+      "votes": {
+        "1": 55,
+        "2": 314
+      },
+      "valid_votes": 369,
+      "invalid_votes": 3,
+      "ballots_cast": 372,
+      "unreturned_ballots": 0,
+      "ballots_issued": 372,
+      "unused_ballots": 271,
+      "electors": 643,
+      "turnout_rate": 57.849998474121094
+    },
+    "HUA-FULI-FUNAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "富南村",
+      "village_en": "Funan Village",
+      "votes": {
+        "1": 80,
+        "2": 245
+      },
+      "valid_votes": 325,
+      "invalid_votes": 6,
+      "ballots_cast": 331,
+      "unreturned_ballots": 0,
+      "ballots_issued": 331,
+      "unused_ballots": 233,
+      "electors": 564,
+      "turnout_rate": 58.689998626708984
+    },
+    "HUA-FULI-XUETIAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "富里鄉",
+      "township_en": "Fuli Township",
+      "village_zh": "學田村",
+      "village_en": "Xuetian Village",
+      "votes": {
+        "1": 121,
+        "2": 290
+      },
+      "valid_votes": 411,
+      "invalid_votes": 3,
+      "ballots_cast": 414,
+      "unreturned_ballots": 0,
+      "ballots_issued": 414,
+      "unused_ballots": 241,
+      "electors": 655,
+      "turnout_rate": 63.209999084472656
+    },
+    "HUA-ZHUOXI-LUNSHAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "village_zh": "崙山村",
+      "village_en": "Lunshan Village",
+      "votes": {
+        "1": 13,
+        "2": 302
+      },
+      "valid_votes": 315,
+      "invalid_votes": 6,
+      "ballots_cast": 321,
+      "unreturned_ballots": 0,
+      "ballots_issued": 321,
+      "unused_ballots": 207,
+      "electors": 528,
+      "turnout_rate": 60.79999923706055
+    },
+    "HUA-ZHUOXI-LISHAN": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "village_zh": "立山村",
+      "village_en": "Lishan Village",
+      "votes": {
+        "1": 46,
+        "2": 536
+      },
+      "valid_votes": 582,
+      "invalid_votes": 6,
+      "ballots_cast": 588,
+      "unreturned_ballots": 0,
+      "ballots_issued": 588,
+      "unused_ballots": 421,
+      "electors": 1009,
+      "turnout_rate": 58.279998779296875
+    },
+    "HUA-ZHUOXI-TAIPING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "village_zh": "太平村",
+      "village_en": "Taiping Village",
+      "votes": {
+        "1": 28,
+        "2": 396
+      },
+      "valid_votes": 424,
+      "invalid_votes": 9,
+      "ballots_cast": 433,
+      "unreturned_ballots": 0,
+      "ballots_issued": 433,
+      "unused_ballots": 226,
+      "electors": 659,
+      "turnout_rate": 65.70999908447266
+    },
+    "HUA-ZHUOXI-ZHUOXI": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "village_zh": "卓溪村",
+      "village_en": "Zhuoxi Village",
+      "votes": {
+        "1": 28,
+        "2": 366
+      },
+      "valid_votes": 394,
+      "invalid_votes": 6,
+      "ballots_cast": 400,
+      "unreturned_ballots": 0,
+      "ballots_issued": 400,
+      "unused_ballots": 292,
+      "electors": 692,
+      "turnout_rate": 57.79999923706055
+    },
+    "HUA-ZHUOXI-ZHUOQING": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "village_zh": "卓清村",
+      "village_en": "Zhuoqing Village",
+      "votes": {
+        "1": 24,
+        "2": 537
+      },
+      "valid_votes": 561,
+      "invalid_votes": 9,
+      "ballots_cast": 570,
+      "unreturned_ballots": 0,
+      "ballots_issued": 570,
+      "unused_ballots": 407,
+      "electors": 977,
+      "turnout_rate": 58.34000015258789
+    },
+    "HUA-ZHUOXI-GUFENG": {
+      "county_zh": "花蓮縣",
+      "county_en": "Hualien County",
+      "township_zh": "卓溪鄉",
+      "township_en": "Zhuoxi Township",
+      "village_zh": "古風村",
+      "village_en": "Gufeng Village",
+      "votes": {
+        "1": 33,
+        "2": 524
+      },
+      "valid_votes": 557,
+      "invalid_votes": 11,
+      "ballots_cast": 568,
+      "unreturned_ballots": 0,
+      "ballots_issued": 568,
+      "unused_ballots": 374,
+      "electors": 942,
+      "turnout_rate": 60.29999923706055
+    }
+  }
+}

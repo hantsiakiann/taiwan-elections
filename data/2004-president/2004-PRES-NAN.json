@@ -1,0 +1,4936 @@
+{
+  "election_id": "2004-president",
+  "election_type": "president",
+  "source_file": "2004-PRES.xls",
+  "county_zh": "南投縣",
+  "county_en": "Nantou County",
+  "county_iso": "NAN",
+  "candidates": {
+    "1": {
+      "name_zh": "陳水扁",
+      "running_mate_zh": "呂秀蓮",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    },
+    "2": {
+      "name_zh": "連戰",
+      "running_mate_zh": "宋楚瑜",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 146415,
+      "2": 153913
+    },
+    "valid_votes": 300328,
+    "invalid_votes": 8784,
+    "ballots_cast": 309112,
+    "unreturned_ballots": 19,
+    "electors": 396464,
+    "turnout_rate": 77.9672
+  },
+  "townships": {
+    "NAN-NANTOU": {
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "votes": {
+        "1": 26322,
+        "2": 32721
+      },
+      "valid_votes": 59043,
+      "invalid_votes": 1317,
+      "ballots_cast": 60360,
+      "unreturned_ballots": 4,
+      "electors": 74780,
+      "turnout_rate": 80.7168
+    },
+    "NAN-PULI": {
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "votes": {
+        "1": 22486,
+        "2": 24854
+      },
+      "valid_votes": 47340,
+      "invalid_votes": 1302,
+      "ballots_cast": 48642,
+      "unreturned_ballots": 3,
+      "electors": 64014,
+      "turnout_rate": 75.9865
+    },
+    "NAN-CAOTUN": {
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "votes": {
+        "1": 27220,
+        "2": 28496
+      },
+      "valid_votes": 55716,
+      "invalid_votes": 1444,
+      "ballots_cast": 57160,
+      "unreturned_ballots": 3,
+      "electors": 71291,
+      "turnout_rate": 80.1784
+    },
+    "NAN-ZHUSHAN": {
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "votes": {
+        "1": 19097,
+        "2": 14615
+      },
+      "valid_votes": 33712,
+      "invalid_votes": 1048,
+      "ballots_cast": 34760,
+      "unreturned_ballots": 3,
+      "electors": 44855,
+      "turnout_rate": 77.4941
+    },
+    "NAN-JIJI": {
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "votes": {
+        "1": 3513,
+        "2": 3577
+      },
+      "valid_votes": 7090,
+      "invalid_votes": 237,
+      "ballots_cast": 7327,
+      "unreturned_ballots": 0,
+      "electors": 9446,
+      "turnout_rate": 77.5672
+    },
+    "NAN-MINGJIAN": {
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "votes": {
+        "1": 14761,
+        "2": 9761
+      },
+      "valid_votes": 24522,
+      "invalid_votes": 833,
+      "ballots_cast": 25355,
+      "unreturned_ballots": 4,
+      "electors": 31724,
+      "turnout_rate": 79.9237
+    },
+    "NAN-LUGU": {
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "votes": {
+        "1": 6141,
+        "2": 5517
+      },
+      "valid_votes": 11658,
+      "invalid_votes": 411,
+      "ballots_cast": 12069,
+      "unreturned_ballots": 0,
+      "electors": 15631,
+      "turnout_rate": 77.212
+    },
+    "NAN-ZHONGLIAO": {
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "votes": {
+        "1": 5535,
+        "2": 4551
+      },
+      "valid_votes": 10086,
+      "invalid_votes": 392,
+      "ballots_cast": 10478,
+      "unreturned_ballots": 0,
+      "electors": 13517,
+      "turnout_rate": 77.5172
+    },
+    "NAN-YUCHI": {
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "votes": {
+        "1": 5275,
+        "2": 4399
+      },
+      "valid_votes": 9674,
+      "invalid_votes": 332,
+      "ballots_cast": 10006,
+      "unreturned_ballots": 0,
+      "electors": 13705,
+      "turnout_rate": 73.0099
+    },
+    "NAN-GUOXING": {
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "votes": {
+        "1": 5794,
+        "2": 6502
+      },
+      "valid_votes": 12296,
+      "invalid_votes": 512,
+      "ballots_cast": 12808,
+      "unreturned_ballots": 0,
+      "electors": 17375,
+      "turnout_rate": 73.7151
+    },
+    "NAN-SHUILI": {
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "votes": {
+        "1": 6073,
+        "2": 6148
+      },
+      "valid_votes": 12221,
+      "invalid_votes": 366,
+      "ballots_cast": 12587,
+      "unreturned_ballots": 2,
+      "electors": 16770,
+      "turnout_rate": 75.0566
+    },
+    "NAN-XINYI": {
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "votes": {
+        "1": 2991,
+        "2": 5761
+      },
+      "valid_votes": 8752,
+      "invalid_votes": 340,
+      "ballots_cast": 9092,
+      "unreturned_ballots": 0,
+      "electors": 12124,
+      "turnout_rate": 74.9918
+    },
+    "NAN-RENAI": {
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "votes": {
+        "1": 1207,
+        "2": 7011
+      },
+      "valid_votes": 8218,
+      "invalid_votes": 250,
+      "ballots_cast": 8468,
+      "unreturned_ballots": 0,
+      "electors": 11232,
+      "turnout_rate": 75.3917
+    }
+  },
+  "villages": {
+    "NAN-NANTOU-LONGQUAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "龍泉里",
+      "village_en": "Longquan Village",
+      "votes": {
+        "1": 402,
+        "2": 347
+      },
+      "valid_votes": 749,
+      "invalid_votes": 10,
+      "ballots_cast": 759,
+      "unreturned_ballots": 0,
+      "electors": 946,
+      "turnout_rate": 80.2326
+    },
+    "NAN-NANTOU-KANGSHOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "康壽里",
+      "village_en": "Kangshou Village",
+      "votes": {
+        "1": 524,
+        "2": 545
+      },
+      "valid_votes": 1069,
+      "invalid_votes": 20,
+      "ballots_cast": 1089,
+      "unreturned_ballots": 0,
+      "electors": 1369,
+      "turnout_rate": 79.5471
+    },
+    "NAN-NANTOU-SANMIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "三民里",
+      "village_en": "Sanmin Village",
+      "votes": {
+        "1": 274,
+        "2": 380
+      },
+      "valid_votes": 654,
+      "invalid_votes": 15,
+      "ballots_cast": 669,
+      "unreturned_ballots": 0,
+      "electors": 797,
+      "turnout_rate": 83.9398
+    },
+    "NAN-NANTOU-RENHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "仁和里",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 261,
+        "2": 195
+      },
+      "valid_votes": 456,
+      "invalid_votes": 17,
+      "ballots_cast": 473,
+      "unreturned_ballots": 0,
+      "electors": 547,
+      "turnout_rate": 86.4717
+    },
+    "NAN-NANTOU-NANTOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "南投里",
+      "village_en": "Nantou Village",
+      "votes": {
+        "1": 303,
+        "2": 244
+      },
+      "valid_votes": 547,
+      "invalid_votes": 11,
+      "ballots_cast": 558,
+      "unreturned_ballots": 0,
+      "electors": 690,
+      "turnout_rate": 80.8696
+    },
+    "NAN-NANTOU-ZHANGREN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "彰仁里",
+      "village_en": "Zhangren Village",
+      "votes": {
+        "1": 216,
+        "2": 154
+      },
+      "valid_votes": 370,
+      "invalid_votes": 6,
+      "ballots_cast": 376,
+      "unreturned_ballots": 0,
+      "electors": 445,
+      "turnout_rate": 84.4944
+    },
+    "NAN-NANTOU-CHONGWEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "崇文里",
+      "village_en": "Chongwen Village",
+      "votes": {
+        "1": 430,
+        "2": 415
+      },
+      "valid_votes": 845,
+      "invalid_votes": 21,
+      "ballots_cast": 866,
+      "unreturned_ballots": 1,
+      "electors": 1056,
+      "turnout_rate": 82.0076
+    },
+    "NAN-NANTOU-ZHANGXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "漳興里",
+      "village_en": "Zhangxing Village",
+      "votes": {
+        "1": 960,
+        "2": 914
+      },
+      "valid_votes": 1874,
+      "invalid_votes": 34,
+      "ballots_cast": 1908,
+      "unreturned_ballots": 0,
+      "electors": 2356,
+      "turnout_rate": 80.9847
+    },
+    "NAN-NANTOU-ZHANGHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "漳和里",
+      "village_en": "Zhanghe Village",
+      "votes": {
+        "1": 2128,
+        "2": 2477
+      },
+      "valid_votes": 4605,
+      "invalid_votes": 117,
+      "ballots_cast": 4722,
+      "unreturned_ballots": 0,
+      "electors": 5883,
+      "turnout_rate": 80.2652
+    },
+    "NAN-NANTOU-JUNGONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "軍功里",
+      "village_en": "Jungong Village",
+      "votes": {
+        "1": 1285,
+        "2": 1625
+      },
+      "valid_votes": 2910,
+      "invalid_votes": 66,
+      "ballots_cast": 2976,
+      "unreturned_ballots": 0,
+      "electors": 3783,
+      "turnout_rate": 78.6677
+    },
+    "NAN-NANTOU-DONGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "東山里",
+      "village_en": "Dongshan Village",
+      "votes": {
+        "1": 153,
+        "2": 165
+      },
+      "valid_votes": 318,
+      "invalid_votes": 8,
+      "ballots_cast": 326,
+      "unreturned_ballots": 0,
+      "electors": 411,
+      "turnout_rate": 79.3187
+    },
+    "NAN-NANTOU-PINGHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "平和里",
+      "village_en": "Pinghe Village",
+      "votes": {
+        "1": 1853,
+        "2": 2150
+      },
+      "valid_votes": 4003,
+      "invalid_votes": 83,
+      "ballots_cast": 4086,
+      "unreturned_ballots": 1,
+      "electors": 5134,
+      "turnout_rate": 79.5871
+    },
+    "NAN-NANTOU-ZHENXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "振興里",
+      "village_en": "Zhenxing Village",
+      "votes": {
+        "1": 928,
+        "2": 604
+      },
+      "valid_votes": 1532,
+      "invalid_votes": 39,
+      "ballots_cast": 1571,
+      "unreturned_ballots": 0,
+      "electors": 1988,
+      "turnout_rate": 79.0241
+    },
+    "NAN-NANTOU-QIANQIU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "千秋里",
+      "village_en": "Qianqiu Village",
+      "votes": {
+        "1": 358,
+        "2": 292
+      },
+      "valid_votes": 650,
+      "invalid_votes": 12,
+      "ballots_cast": 662,
+      "unreturned_ballots": 0,
+      "electors": 881,
+      "turnout_rate": 75.1419
+    },
+    "NAN-NANTOU-SANXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "三興里",
+      "village_en": "Sanxing Village",
+      "votes": {
+        "1": 1460,
+        "2": 1926
+      },
+      "valid_votes": 3386,
+      "invalid_votes": 67,
+      "ballots_cast": 3453,
+      "unreturned_ballots": 0,
+      "electors": 4345,
+      "turnout_rate": 79.4707
+    },
+    "NAN-NANTOU-SANHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "三和里",
+      "village_en": "Sanhe Village",
+      "votes": {
+        "1": 1032,
+        "2": 1187
+      },
+      "valid_votes": 2219,
+      "invalid_votes": 31,
+      "ballots_cast": 2250,
+      "unreturned_ballots": 0,
+      "electors": 2751,
+      "turnout_rate": 81.7884
+    },
+    "NAN-NANTOU-JIAXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "嘉興里",
+      "village_en": "Jiaxing Village",
+      "votes": {
+        "1": 845,
+        "2": 543
+      },
+      "valid_votes": 1388,
+      "invalid_votes": 33,
+      "ballots_cast": 1421,
+      "unreturned_ballots": 0,
+      "electors": 1780,
+      "turnout_rate": 79.8315
+    },
+    "NAN-NANTOU-JIAHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "嘉和里",
+      "village_en": "Jiahe Village",
+      "votes": {
+        "1": 1243,
+        "2": 1285
+      },
+      "valid_votes": 2528,
+      "invalid_votes": 46,
+      "ballots_cast": 2574,
+      "unreturned_ballots": 0,
+      "electors": 3182,
+      "turnout_rate": 80.8925
+    },
+    "NAN-NANTOU-FUSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "福山里",
+      "village_en": "Fushan Village",
+      "votes": {
+        "1": 653,
+        "2": 698
+      },
+      "valid_votes": 1351,
+      "invalid_votes": 49,
+      "ballots_cast": 1400,
+      "unreturned_ballots": 0,
+      "electors": 1788,
+      "turnout_rate": 78.2998
+    },
+    "NAN-NANTOU-YONGXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "永興里",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 327,
+        "2": 252
+      },
+      "valid_votes": 579,
+      "invalid_votes": 27,
+      "ballots_cast": 606,
+      "unreturned_ballots": 0,
+      "electors": 756,
+      "turnout_rate": 80.1587
+    },
+    "NAN-NANTOU-FENGMING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "鳳鳴里",
+      "village_en": "Fengming Village",
+      "votes": {
+        "1": 333,
+        "2": 207
+      },
+      "valid_votes": 540,
+      "invalid_votes": 32,
+      "ballots_cast": 572,
+      "unreturned_ballots": 0,
+      "electors": 729,
+      "turnout_rate": 78.4636
+    },
+    "NAN-NANTOU-FENGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "鳳山里",
+      "village_en": "Fengshan Village",
+      "votes": {
+        "1": 551,
+        "2": 372
+      },
+      "valid_votes": 923,
+      "invalid_votes": 42,
+      "ballots_cast": 965,
+      "unreturned_ballots": 1,
+      "electors": 1251,
+      "turnout_rate": 77.1383
+    },
+    "NAN-NANTOU-PINGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "平山里",
+      "village_en": "Pingshan Village",
+      "votes": {
+        "1": 1503,
+        "2": 1702
+      },
+      "valid_votes": 3205,
+      "invalid_votes": 47,
+      "ballots_cast": 3252,
+      "unreturned_ballots": 0,
+      "electors": 4144,
+      "turnout_rate": 78.4749
+    },
+    "NAN-NANTOU-XINXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "新興里",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 1544,
+        "2": 1413
+      },
+      "valid_votes": 2957,
+      "invalid_votes": 79,
+      "ballots_cast": 3036,
+      "unreturned_ballots": 0,
+      "electors": 3848,
+      "turnout_rate": 78.8981
+    },
+    "NAN-NANTOU-YONGFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "永豐里",
+      "village_en": "Yongfeng Village",
+      "votes": {
+        "1": 956,
+        "2": 977
+      },
+      "valid_votes": 1933,
+      "invalid_votes": 48,
+      "ballots_cast": 1981,
+      "unreturned_ballots": 0,
+      "electors": 2434,
+      "turnout_rate": 81.3887
+    },
+    "NAN-NANTOU-FUXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "福興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 1018,
+        "2": 979
+      },
+      "valid_votes": 1997,
+      "invalid_votes": 51,
+      "ballots_cast": 2048,
+      "unreturned_ballots": 0,
+      "electors": 2558,
+      "turnout_rate": 80.0625
+    },
+    "NAN-NANTOU-YINGBEI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "營北里",
+      "village_en": "Yingbei Village",
+      "votes": {
+        "1": 1187,
+        "2": 2831
+      },
+      "valid_votes": 4018,
+      "invalid_votes": 69,
+      "ballots_cast": 4087,
+      "unreturned_ballots": 0,
+      "electors": 4831,
+      "turnout_rate": 84.5995
+    },
+    "NAN-NANTOU-YINGNAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "營南里",
+      "village_en": "Yingnan Village",
+      "votes": {
+        "1": 668,
+        "2": 927
+      },
+      "valid_votes": 1595,
+      "invalid_votes": 40,
+      "ballots_cast": 1635,
+      "unreturned_ballots": 0,
+      "electors": 1984,
+      "turnout_rate": 82.4093
+    },
+    "NAN-NANTOU-NEIXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "內興里",
+      "village_en": "Neixing Village",
+      "votes": {
+        "1": 1612,
+        "2": 2414
+      },
+      "valid_votes": 4026,
+      "invalid_votes": 99,
+      "ballots_cast": 4125,
+      "unreturned_ballots": 1,
+      "electors": 5004,
+      "turnout_rate": 82.4341
+    },
+    "NAN-NANTOU-NEIXIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "內新里",
+      "village_en": "Neixin Village",
+      "votes": {
+        "1": 591,
+        "2": 494
+      },
+      "valid_votes": 1085,
+      "invalid_votes": 30,
+      "ballots_cast": 1115,
+      "unreturned_ballots": 0,
+      "electors": 1352,
+      "turnout_rate": 82.4704
+    },
+    "NAN-NANTOU-GUANGHUA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "光華里",
+      "village_en": "Guanghua Village",
+      "votes": {
+        "1": 160,
+        "2": 1066
+      },
+      "valid_votes": 1226,
+      "invalid_votes": 20,
+      "ballots_cast": 1246,
+      "unreturned_ballots": 0,
+      "electors": 1485,
+      "turnout_rate": 83.9057
+    },
+    "NAN-NANTOU-GUANGRONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "光榮里",
+      "village_en": "Guangrong Village",
+      "votes": {
+        "1": 226,
+        "2": 1208
+      },
+      "valid_votes": 1434,
+      "invalid_votes": 28,
+      "ballots_cast": 1462,
+      "unreturned_ballots": 0,
+      "electors": 1820,
+      "turnout_rate": 80.3297
+    },
+    "NAN-NANTOU-GUANGMING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "光明里",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 193,
+        "2": 1375
+      },
+      "valid_votes": 1568,
+      "invalid_votes": 18,
+      "ballots_cast": 1586,
+      "unreturned_ballots": 0,
+      "electors": 1859,
+      "turnout_rate": 85.3147
+    },
+    "NAN-NANTOU-GUANGHUI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "南投市",
+      "township_en": "Nantou City",
+      "village_zh": "光輝里",
+      "village_en": "Guanghui Village",
+      "votes": {
+        "1": 145,
+        "2": 358
+      },
+      "valid_votes": 503,
+      "invalid_votes": 2,
+      "ballots_cast": 505,
+      "unreturned_ballots": 0,
+      "electors": 593,
+      "turnout_rate": 85.1602
+    },
+    "NAN-PULI-DONGMEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "東門里",
+      "village_en": "Dongmen Village",
+      "votes": {
+        "1": 1063,
+        "2": 1120
+      },
+      "valid_votes": 2183,
+      "invalid_votes": 76,
+      "ballots_cast": 2259,
+      "unreturned_ballots": 1,
+      "electors": 2958,
+      "turnout_rate": 76.3692
+    },
+    "NAN-PULI-NANMEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "南門里",
+      "village_en": "Nanmen Village",
+      "votes": {
+        "1": 372,
+        "2": 341
+      },
+      "valid_votes": 713,
+      "invalid_votes": 13,
+      "ballots_cast": 726,
+      "unreturned_ballots": 0,
+      "electors": 939,
+      "turnout_rate": 77.3163
+    },
+    "NAN-PULI-XIMEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "西門里",
+      "village_en": "Ximen Village",
+      "votes": {
+        "1": 1107,
+        "2": 1246
+      },
+      "valid_votes": 2353,
+      "invalid_votes": 45,
+      "ballots_cast": 2398,
+      "unreturned_ballots": 0,
+      "electors": 3132,
+      "turnout_rate": 76.5645
+    },
+    "NAN-PULI-BEIMEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "北門里",
+      "village_en": "Beimen Village",
+      "votes": {
+        "1": 721,
+        "2": 1054
+      },
+      "valid_votes": 1775,
+      "invalid_votes": 31,
+      "ballots_cast": 1806,
+      "unreturned_ballots": 0,
+      "electors": 2366,
+      "turnout_rate": 76.3314
+    },
+    "NAN-PULI-TONGSHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "同聲里",
+      "village_en": "Tongsheng Village",
+      "votes": {
+        "1": 790,
+        "2": 912
+      },
+      "valid_votes": 1702,
+      "invalid_votes": 55,
+      "ballots_cast": 1757,
+      "unreturned_ballots": 0,
+      "electors": 2285,
+      "turnout_rate": 76.8928
+    },
+    "NAN-PULI-XUNHUA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "薰化里",
+      "village_en": "Xunhua Village",
+      "votes": {
+        "1": 424,
+        "2": 524
+      },
+      "valid_votes": 948,
+      "invalid_votes": 20,
+      "ballots_cast": 968,
+      "unreturned_ballots": 0,
+      "electors": 1191,
+      "turnout_rate": 81.2762
+    },
+    "NAN-PULI-QINGXIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "清新里",
+      "village_en": "Qingxin Village",
+      "votes": {
+        "1": 1166,
+        "2": 1377
+      },
+      "valid_votes": 2543,
+      "invalid_votes": 72,
+      "ballots_cast": 2615,
+      "unreturned_ballots": 0,
+      "electors": 3552,
+      "turnout_rate": 73.6205
+    },
+    "NAN-PULI-DACHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "大城里",
+      "village_en": "Dacheng Village",
+      "votes": {
+        "1": 1862,
+        "2": 2397
+      },
+      "valid_votes": 4259,
+      "invalid_votes": 85,
+      "ballots_cast": 4344,
+      "unreturned_ballots": 0,
+      "electors": 5713,
+      "turnout_rate": 76.0371
+    },
+    "NAN-PULI-LANCHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "籃城里",
+      "village_en": "Lancheng Village",
+      "votes": {
+        "1": 411,
+        "2": 324
+      },
+      "valid_votes": 735,
+      "invalid_votes": 17,
+      "ballots_cast": 752,
+      "unreturned_ballots": 0,
+      "electors": 978,
+      "turnout_rate": 76.8916
+    },
+    "NAN-PULI-PIPA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "枇杷里",
+      "village_en": "Pipa Village",
+      "votes": {
+        "1": 1979,
+        "2": 2367
+      },
+      "valid_votes": 4346,
+      "invalid_votes": 115,
+      "ballots_cast": 4461,
+      "unreturned_ballots": 1,
+      "electors": 5954,
+      "turnout_rate": 74.9244
+    },
+    "NAN-PULI-SHUITOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "水頭里",
+      "village_en": "Shuitou Village",
+      "votes": {
+        "1": 1102,
+        "2": 1109
+      },
+      "valid_votes": 2211,
+      "invalid_votes": 74,
+      "ballots_cast": 2285,
+      "unreturned_ballots": 1,
+      "electors": 3140,
+      "turnout_rate": 72.7707
+    },
+    "NAN-PULI-QILIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "麒麟里",
+      "village_en": "Qilin Village",
+      "votes": {
+        "1": 376,
+        "2": 343
+      },
+      "valid_votes": 719,
+      "invalid_votes": 23,
+      "ballots_cast": 742,
+      "unreturned_ballots": 0,
+      "electors": 1006,
+      "turnout_rate": 73.7575
+    },
+    "NAN-PULI-ZHUGE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "珠格里",
+      "village_en": "Zhuge Village",
+      "votes": {
+        "1": 375,
+        "2": 337
+      },
+      "valid_votes": 712,
+      "invalid_votes": 31,
+      "ballots_cast": 743,
+      "unreturned_ballots": 0,
+      "electors": 991,
+      "turnout_rate": 74.9748
+    },
+    "NAN-PULI-XINAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "溪南里",
+      "village_en": "Xinan Village",
+      "votes": {
+        "1": 303,
+        "2": 413
+      },
+      "valid_votes": 716,
+      "invalid_votes": 17,
+      "ballots_cast": 733,
+      "unreturned_ballots": 0,
+      "electors": 916,
+      "turnout_rate": 80.0218
+    },
+    "NAN-PULI-TAOMI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "桃米里",
+      "village_en": "Taomi Village",
+      "votes": {
+        "1": 354,
+        "2": 401
+      },
+      "valid_votes": 755,
+      "invalid_votes": 29,
+      "ballots_cast": 784,
+      "unreturned_ballots": 0,
+      "electors": 1031,
+      "turnout_rate": 76.0427
+    },
+    "NAN-PULI-CHENGGONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "成功里",
+      "village_en": "Chenggong Village",
+      "votes": {
+        "1": 104,
+        "2": 172
+      },
+      "valid_votes": 276,
+      "invalid_votes": 10,
+      "ballots_cast": 286,
+      "unreturned_ballots": 0,
+      "electors": 384,
+      "turnout_rate": 74.4792
+    },
+    "NAN-PULI-NANCUN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "南村里",
+      "village_en": "Nancun Village",
+      "votes": {
+        "1": 471,
+        "2": 480
+      },
+      "valid_votes": 951,
+      "invalid_votes": 28,
+      "ballots_cast": 979,
+      "unreturned_ballots": 0,
+      "electors": 1313,
+      "turnout_rate": 74.5621
+    },
+    "NAN-PULI-AILAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "愛蘭里",
+      "village_en": "Ailan Village",
+      "votes": {
+        "1": 452,
+        "2": 576
+      },
+      "valid_votes": 1028,
+      "invalid_votes": 29,
+      "ballots_cast": 1057,
+      "unreturned_ballots": 0,
+      "electors": 1360,
+      "turnout_rate": 77.7206
+    },
+    "NAN-PULI-TIESHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "鐵山里",
+      "village_en": "Tieshan Village",
+      "votes": {
+        "1": 508,
+        "2": 692
+      },
+      "valid_votes": 1200,
+      "invalid_votes": 42,
+      "ballots_cast": 1242,
+      "unreturned_ballots": 0,
+      "electors": 1649,
+      "turnout_rate": 75.3184
+    },
+    "NAN-PULI-FANGLI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "房里里",
+      "village_en": "Fangli Village",
+      "votes": {
+        "1": 448,
+        "2": 450
+      },
+      "valid_votes": 898,
+      "invalid_votes": 46,
+      "ballots_cast": 944,
+      "unreturned_ballots": 0,
+      "electors": 1245,
+      "turnout_rate": 75.8233
+    },
+    "NAN-PULI-XIANGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "向善里",
+      "village_en": "Xiangshan Village",
+      "votes": {
+        "1": 282,
+        "2": 223
+      },
+      "valid_votes": 505,
+      "invalid_votes": 19,
+      "ballots_cast": 524,
+      "unreturned_ballots": 0,
+      "electors": 655,
+      "turnout_rate": 80.0
+    },
+    "NAN-PULI-YIXIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "一新里",
+      "village_en": "Yixin Village",
+      "votes": {
+        "1": 284,
+        "2": 322
+      },
+      "valid_votes": 606,
+      "invalid_votes": 3,
+      "ballots_cast": 609,
+      "unreturned_ballots": 0,
+      "electors": 809,
+      "turnout_rate": 75.2781
+    },
+    "NAN-PULI-GUANGCHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "廣成里",
+      "village_en": "Guangcheng Village",
+      "votes": {
+        "1": 461,
+        "2": 423
+      },
+      "valid_votes": 884,
+      "invalid_votes": 14,
+      "ballots_cast": 898,
+      "unreturned_ballots": 0,
+      "electors": 1225,
+      "turnout_rate": 73.3061
+    },
+    "NAN-PULI-SHIGANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "史港里",
+      "village_en": "Shigang Village",
+      "votes": {
+        "1": 231,
+        "2": 274
+      },
+      "valid_votes": 505,
+      "invalid_votes": 15,
+      "ballots_cast": 520,
+      "unreturned_ballots": 0,
+      "electors": 669,
+      "turnout_rate": 77.728
+    },
+    "NAN-PULI-FUXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "福興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 442,
+        "2": 259
+      },
+      "valid_votes": 701,
+      "invalid_votes": 28,
+      "ballots_cast": 729,
+      "unreturned_ballots": 0,
+      "electors": 989,
+      "turnout_rate": 73.7108
+    },
+    "NAN-PULI-NIUMIAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "牛眠里",
+      "village_en": "Niumian Village",
+      "votes": {
+        "1": 1068,
+        "2": 724
+      },
+      "valid_votes": 1792,
+      "invalid_votes": 64,
+      "ballots_cast": 1856,
+      "unreturned_ballots": 0,
+      "electors": 2430,
+      "turnout_rate": 76.3786
+    },
+    "NAN-PULI-DANAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "大湳里",
+      "village_en": "Danan Village",
+      "votes": {
+        "1": 513,
+        "2": 396
+      },
+      "valid_votes": 909,
+      "invalid_votes": 33,
+      "ballots_cast": 942,
+      "unreturned_ballots": 0,
+      "electors": 1206,
+      "turnout_rate": 78.1095
+    },
+    "NAN-PULI-WUGONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "蜈蚣里",
+      "village_en": "Wugong Village",
+      "votes": {
+        "1": 863,
+        "2": 1022
+      },
+      "valid_votes": 1885,
+      "invalid_votes": 46,
+      "ballots_cast": 1931,
+      "unreturned_ballots": 0,
+      "electors": 2561,
+      "turnout_rate": 75.4002
+    },
+    "NAN-PULI-HECHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "合成里",
+      "village_en": "Hecheng Village",
+      "votes": {
+        "1": 598,
+        "2": 523
+      },
+      "valid_votes": 1121,
+      "invalid_votes": 32,
+      "ballots_cast": 1153,
+      "unreturned_ballots": 0,
+      "electors": 1549,
+      "turnout_rate": 74.4351
+    },
+    "NAN-PULI-BEIAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "北安里",
+      "village_en": "Beian Village",
+      "votes": {
+        "1": 1040,
+        "2": 1407
+      },
+      "valid_votes": 2447,
+      "invalid_votes": 57,
+      "ballots_cast": 2504,
+      "unreturned_ballots": 0,
+      "electors": 3248,
+      "turnout_rate": 77.0936
+    },
+    "NAN-PULI-PACHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "杷城里",
+      "village_en": "Pacheng Village",
+      "votes": {
+        "1": 883,
+        "2": 857
+      },
+      "valid_votes": 1740,
+      "invalid_votes": 56,
+      "ballots_cast": 1796,
+      "unreturned_ballots": 0,
+      "electors": 2319,
+      "turnout_rate": 77.4472
+    },
+    "NAN-PULI-BEIMEI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "北梅里",
+      "village_en": "Beimei Village",
+      "votes": {
+        "1": 767,
+        "2": 900
+      },
+      "valid_votes": 1667,
+      "invalid_votes": 41,
+      "ballots_cast": 1708,
+      "unreturned_ballots": 0,
+      "electors": 2248,
+      "turnout_rate": 75.9786
+    },
+    "NAN-PULI-TAIAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "埔里鎮",
+      "township_en": "Puli Township",
+      "village_zh": "泰安里",
+      "village_en": "Taian Village",
+      "votes": {
+        "1": 666,
+        "2": 889
+      },
+      "valid_votes": 1555,
+      "invalid_votes": 36,
+      "ballots_cast": 1591,
+      "unreturned_ballots": 0,
+      "electors": 2003,
+      "turnout_rate": 79.4309
+    },
+    "NAN-CAOTUN-YUFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "玉峰里",
+      "village_en": "Yufeng Village",
+      "votes": {
+        "1": 722,
+        "2": 848
+      },
+      "valid_votes": 1570,
+      "invalid_votes": 39,
+      "ballots_cast": 1609,
+      "unreturned_ballots": 0,
+      "electors": 1987,
+      "turnout_rate": 80.9763
+    },
+    "NAN-CAOTUN-YANFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "炎峰里",
+      "village_en": "Yanfeng Village",
+      "votes": {
+        "1": 734,
+        "2": 894
+      },
+      "valid_votes": 1628,
+      "invalid_votes": 38,
+      "ballots_cast": 1666,
+      "unreturned_ballots": 0,
+      "electors": 2056,
+      "turnout_rate": 81.0311
+    },
+    "NAN-CAOTUN-HEPING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "和平里",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 485,
+        "2": 547
+      },
+      "valid_votes": 1032,
+      "invalid_votes": 24,
+      "ballots_cast": 1056,
+      "unreturned_ballots": 0,
+      "electors": 1249,
+      "turnout_rate": 84.5476
+    },
+    "NAN-CAOTUN-DUNHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "敦和里",
+      "village_en": "Dunhe Village",
+      "votes": {
+        "1": 1949,
+        "2": 2246
+      },
+      "valid_votes": 4195,
+      "invalid_votes": 121,
+      "ballots_cast": 4316,
+      "unreturned_ballots": 0,
+      "electors": 5432,
+      "turnout_rate": 79.4551
+    },
+    "NAN-CAOTUN-SHANJIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "山腳里",
+      "village_en": "Shanjiao Village",
+      "votes": {
+        "1": 1981,
+        "2": 2937
+      },
+      "valid_votes": 4918,
+      "invalid_votes": 86,
+      "ballots_cast": 5004,
+      "unreturned_ballots": 0,
+      "electors": 6151,
+      "turnout_rate": 81.3526
+    },
+    "NAN-CAOTUN-FULIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "富寮里",
+      "village_en": "Fuliao Village",
+      "votes": {
+        "1": 1728,
+        "2": 1719
+      },
+      "valid_votes": 3447,
+      "invalid_votes": 74,
+      "ballots_cast": 3521,
+      "unreturned_ballots": 0,
+      "electors": 4483,
+      "turnout_rate": 78.5412
+    },
+    "NAN-CAOTUN-YUSHI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "御史里",
+      "village_en": "Yushi Village",
+      "votes": {
+        "1": 1940,
+        "2": 1966
+      },
+      "valid_votes": 3906,
+      "invalid_votes": 99,
+      "ballots_cast": 4005,
+      "unreturned_ballots": 1,
+      "electors": 5116,
+      "turnout_rate": 78.2838
+    },
+    "NAN-CAOTUN-XINFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "新豐里",
+      "village_en": "Xinfeng Village",
+      "votes": {
+        "1": 1440,
+        "2": 1189
+      },
+      "valid_votes": 2629,
+      "invalid_votes": 86,
+      "ballots_cast": 2715,
+      "unreturned_ballots": 0,
+      "electors": 3395,
+      "turnout_rate": 79.9705
+    },
+    "NAN-CAOTUN-BIFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "碧峰里",
+      "village_en": "Bifeng Village",
+      "votes": {
+        "1": 1433,
+        "2": 1296
+      },
+      "valid_votes": 2729,
+      "invalid_votes": 72,
+      "ballots_cast": 2801,
+      "unreturned_ballots": 0,
+      "electors": 3476,
+      "turnout_rate": 80.5811
+    },
+    "NAN-CAOTUN-BIZHOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "碧洲里",
+      "village_en": "Bizhou Village",
+      "votes": {
+        "1": 646,
+        "2": 790
+      },
+      "valid_votes": 1436,
+      "invalid_votes": 33,
+      "ballots_cast": 1469,
+      "unreturned_ballots": 0,
+      "electors": 1757,
+      "turnout_rate": 83.6084
+    },
+    "NAN-CAOTUN-FUXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "復興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 1131,
+        "2": 1020
+      },
+      "valid_votes": 2151,
+      "invalid_votes": 77,
+      "ballots_cast": 2228,
+      "unreturned_ballots": 0,
+      "electors": 2790,
+      "turnout_rate": 79.8566
+    },
+    "NAN-CAOTUN-SHANGLIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "上林里",
+      "village_en": "Shanglin Village",
+      "votes": {
+        "1": 849,
+        "2": 1118
+      },
+      "valid_votes": 1967,
+      "invalid_votes": 40,
+      "ballots_cast": 2007,
+      "unreturned_ballots": 0,
+      "electors": 2459,
+      "turnout_rate": 81.6185
+    },
+    "NAN-CAOTUN-XINZHUANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "新庄里",
+      "village_en": "Xinzhuang Village",
+      "votes": {
+        "1": 1014,
+        "2": 1212
+      },
+      "valid_votes": 2226,
+      "invalid_votes": 80,
+      "ballots_cast": 2306,
+      "unreturned_ballots": 0,
+      "electors": 2928,
+      "turnout_rate": 78.7568
+    },
+    "NAN-CAOTUN-BEITOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "北投里",
+      "village_en": "Beitou Village",
+      "votes": {
+        "1": 1059,
+        "2": 864
+      },
+      "valid_votes": 1923,
+      "invalid_votes": 51,
+      "ballots_cast": 1974,
+      "unreturned_ballots": 1,
+      "electors": 2419,
+      "turnout_rate": 81.604
+    },
+    "NAN-CAOTUN-SHICHUAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "石川里",
+      "village_en": "Shichuan Village",
+      "votes": {
+        "1": 553,
+        "2": 439
+      },
+      "valid_votes": 992,
+      "invalid_votes": 38,
+      "ballots_cast": 1030,
+      "unreturned_ballots": 0,
+      "electors": 1247,
+      "turnout_rate": 82.5982
+    },
+    "NAN-CAOTUN-JIALAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "加老里",
+      "village_en": "Jialao Village",
+      "votes": {
+        "1": 915,
+        "2": 726
+      },
+      "valid_votes": 1641,
+      "invalid_votes": 49,
+      "ballots_cast": 1690,
+      "unreturned_ballots": 0,
+      "electors": 2029,
+      "turnout_rate": 83.2923
+    },
+    "NAN-CAOTUN-BEISHI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "北勢里",
+      "village_en": "Beishi Village",
+      "votes": {
+        "1": 787,
+        "2": 662
+      },
+      "valid_votes": 1449,
+      "invalid_votes": 65,
+      "ballots_cast": 1514,
+      "unreturned_ballots": 0,
+      "electors": 1906,
+      "turnout_rate": 79.4334
+    },
+    "NAN-CAOTUN-ZHONGYUAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "中原里",
+      "village_en": "Zhongyuan Village",
+      "votes": {
+        "1": 869,
+        "2": 581
+      },
+      "valid_votes": 1450,
+      "invalid_votes": 35,
+      "ballots_cast": 1485,
+      "unreturned_ballots": 0,
+      "electors": 1872,
+      "turnout_rate": 79.3269
+    },
+    "NAN-CAOTUN-NANPU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "南埔里",
+      "village_en": "Nanpu Village",
+      "votes": {
+        "1": 1489,
+        "2": 1191
+      },
+      "valid_votes": 2680,
+      "invalid_votes": 50,
+      "ballots_cast": 2730,
+      "unreturned_ballots": 0,
+      "electors": 3409,
+      "turnout_rate": 80.0821
+    },
+    "NAN-CAOTUN-TUCHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "土城里",
+      "village_en": "Tucheng Village",
+      "votes": {
+        "1": 571,
+        "2": 696
+      },
+      "valid_votes": 1267,
+      "invalid_votes": 45,
+      "ballots_cast": 1312,
+      "unreturned_ballots": 0,
+      "electors": 1685,
+      "turnout_rate": 77.8635
+    },
+    "NAN-CAOTUN-PINGDING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "坪頂里",
+      "village_en": "Pingding Village",
+      "votes": {
+        "1": 339,
+        "2": 392
+      },
+      "valid_votes": 731,
+      "invalid_votes": 9,
+      "ballots_cast": 740,
+      "unreturned_ballots": 0,
+      "electors": 937,
+      "turnout_rate": 78.9755
+    },
+    "NAN-CAOTUN-SHUANGDONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "雙冬里",
+      "village_en": "Shuangdong Village",
+      "votes": {
+        "1": 875,
+        "2": 795
+      },
+      "valid_votes": 1670,
+      "invalid_votes": 69,
+      "ballots_cast": 1739,
+      "unreturned_ballots": 0,
+      "electors": 2318,
+      "turnout_rate": 75.0216
+    },
+    "NAN-CAOTUN-PINGLIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "平林里",
+      "village_en": "Pinglin Village",
+      "votes": {
+        "1": 387,
+        "2": 406
+      },
+      "valid_votes": 793,
+      "invalid_votes": 1,
+      "ballots_cast": 794,
+      "unreturned_ballots": 0,
+      "electors": 1031,
+      "turnout_rate": 77.0126
+    },
+    "NAN-CAOTUN-ZHONGZHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 249,
+        "2": 337
+      },
+      "valid_votes": 586,
+      "invalid_votes": 16,
+      "ballots_cast": 602,
+      "unreturned_ballots": 0,
+      "electors": 731,
+      "turnout_rate": 82.3529
+    },
+    "NAN-CAOTUN-ZHONGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 864,
+        "2": 911
+      },
+      "valid_votes": 1775,
+      "invalid_votes": 37,
+      "ballots_cast": 1812,
+      "unreturned_ballots": 0,
+      "electors": 2220,
+      "turnout_rate": 81.6216
+    },
+    "NAN-CAOTUN-MINGZHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "明正里",
+      "village_en": "Mingzheng Village",
+      "votes": {
+        "1": 1231,
+        "2": 1481
+      },
+      "valid_votes": 2712,
+      "invalid_votes": 58,
+      "ballots_cast": 2770,
+      "unreturned_ballots": 1,
+      "electors": 3458,
+      "turnout_rate": 80.1041
+    },
+    "NAN-CAOTUN-XINCUO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "草屯鎮",
+      "township_en": "Caotun Township",
+      "village_zh": "新厝里",
+      "village_en": "Xincuo Village",
+      "votes": {
+        "1": 980,
+        "2": 1233
+      },
+      "valid_votes": 2213,
+      "invalid_votes": 52,
+      "ballots_cast": 2265,
+      "unreturned_ballots": 0,
+      "electors": 2750,
+      "turnout_rate": 82.3636
+    },
+    "NAN-ZHUSHAN-ZHUSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "竹山里",
+      "village_en": "Zhushan Village",
+      "votes": {
+        "1": 835,
+        "2": 830
+      },
+      "valid_votes": 1665,
+      "invalid_votes": 27,
+      "ballots_cast": 1692,
+      "unreturned_ballots": 0,
+      "electors": 2107,
+      "turnout_rate": 80.3037
+    },
+    "NAN-ZHUSHAN-ZHONGZHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "中正里",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 286,
+        "2": 278
+      },
+      "valid_votes": 564,
+      "invalid_votes": 5,
+      "ballots_cast": 569,
+      "unreturned_ballots": 0,
+      "electors": 691,
+      "turnout_rate": 82.3444
+    },
+    "NAN-ZHUSHAN-ZHONGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "中山里",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 1789,
+        "2": 1469
+      },
+      "valid_votes": 3258,
+      "invalid_votes": 95,
+      "ballots_cast": 3353,
+      "unreturned_ballots": 0,
+      "electors": 4397,
+      "turnout_rate": 76.2565
+    },
+    "NAN-ZHUSHAN-YUNLIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "雲林里",
+      "village_en": "Yunlin Village",
+      "votes": {
+        "1": 1319,
+        "2": 1131
+      },
+      "valid_votes": 2450,
+      "invalid_votes": 48,
+      "ballots_cast": 2498,
+      "unreturned_ballots": 0,
+      "electors": 3186,
+      "turnout_rate": 78.4055
+    },
+    "NAN-ZHUSHAN-HUIYAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "回窯里",
+      "village_en": "Huiyao Village",
+      "votes": {
+        "1": 653,
+        "2": 463
+      },
+      "valid_votes": 1116,
+      "invalid_votes": 29,
+      "ballots_cast": 1145,
+      "unreturned_ballots": 0,
+      "electors": 1460,
+      "turnout_rate": 78.4247
+    },
+    "NAN-ZHUSHAN-XIAPING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "下坪里",
+      "village_en": "Xiaping Village",
+      "votes": {
+        "1": 454,
+        "2": 346
+      },
+      "valid_votes": 800,
+      "invalid_votes": 34,
+      "ballots_cast": 834,
+      "unreturned_ballots": 0,
+      "electors": 1049,
+      "turnout_rate": 79.5043
+    },
+    "NAN-ZHUSHAN-GUILIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "桂林里",
+      "village_en": "Guilin Village",
+      "votes": {
+        "1": 1398,
+        "2": 1147
+      },
+      "valid_votes": 2545,
+      "invalid_votes": 47,
+      "ballots_cast": 2592,
+      "unreturned_ballots": 0,
+      "electors": 3394,
+      "turnout_rate": 76.3701
+    },
+    "NAN-ZHUSHAN-ZHONGHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "中和里",
+      "village_en": "Zhonghe Village",
+      "votes": {
+        "1": 602,
+        "2": 215
+      },
+      "valid_votes": 817,
+      "invalid_votes": 33,
+      "ballots_cast": 850,
+      "unreturned_ballots": 1,
+      "electors": 1070,
+      "turnout_rate": 79.4393
+    },
+    "NAN-ZHUSHAN-ZHONGQI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "中崎里",
+      "village_en": "Zhongqi Village",
+      "votes": {
+        "1": 509,
+        "2": 498
+      },
+      "valid_votes": 1007,
+      "invalid_votes": 32,
+      "ballots_cast": 1039,
+      "unreturned_ballots": 0,
+      "electors": 1292,
+      "turnout_rate": 80.418
+    },
+    "NAN-ZHUSHAN-DEXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "德興里",
+      "village_en": "Dexing Village",
+      "votes": {
+        "1": 400,
+        "2": 294
+      },
+      "valid_votes": 694,
+      "invalid_votes": 34,
+      "ballots_cast": 728,
+      "unreturned_ballots": 0,
+      "electors": 899,
+      "turnout_rate": 80.9789
+    },
+    "NAN-ZHUSHAN-YANPING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "延平里",
+      "village_en": "Yanping Village",
+      "votes": {
+        "1": 1252,
+        "2": 777
+      },
+      "valid_votes": 2029,
+      "invalid_votes": 75,
+      "ballots_cast": 2104,
+      "unreturned_ballots": 1,
+      "electors": 2717,
+      "turnout_rate": 77.4384
+    },
+    "NAN-ZHUSHAN-YANZHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "延正里",
+      "village_en": "Yanzheng Village",
+      "votes": {
+        "1": 800,
+        "2": 454
+      },
+      "valid_votes": 1254,
+      "invalid_votes": 61,
+      "ballots_cast": 1315,
+      "unreturned_ballots": 0,
+      "electors": 1675,
+      "turnout_rate": 78.5075
+    },
+    "NAN-ZHUSHAN-YANSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "延山里",
+      "village_en": "Yanshan Village",
+      "votes": {
+        "1": 305,
+        "2": 213
+      },
+      "valid_votes": 518,
+      "invalid_votes": 24,
+      "ballots_cast": 542,
+      "unreturned_ballots": 0,
+      "electors": 671,
+      "turnout_rate": 80.775
+    },
+    "NAN-ZHUSHAN-YANHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "延和里",
+      "village_en": "Yanhe Village",
+      "votes": {
+        "1": 1648,
+        "2": 1574
+      },
+      "valid_votes": 3222,
+      "invalid_votes": 66,
+      "ballots_cast": 3288,
+      "unreturned_ballots": 0,
+      "electors": 4251,
+      "turnout_rate": 77.3465
+    },
+    "NAN-ZHUSHAN-SHANCHONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "山崇里",
+      "village_en": "Shanchong Village",
+      "votes": {
+        "1": 812,
+        "2": 547
+      },
+      "valid_votes": 1359,
+      "invalid_votes": 51,
+      "ballots_cast": 1410,
+      "unreturned_ballots": 0,
+      "electors": 1843,
+      "turnout_rate": 76.5057
+    },
+    "NAN-ZHUSHAN-SHELIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "社寮里",
+      "village_en": "Sheliao Village",
+      "votes": {
+        "1": 429,
+        "2": 313
+      },
+      "valid_votes": 742,
+      "invalid_votes": 27,
+      "ballots_cast": 769,
+      "unreturned_ballots": 0,
+      "electors": 965,
+      "turnout_rate": 79.6891
+    },
+    "NAN-ZHUSHAN-ZHONGYANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "中央里",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 648,
+        "2": 345
+      },
+      "valid_votes": 993,
+      "invalid_votes": 41,
+      "ballots_cast": 1034,
+      "unreturned_ballots": 0,
+      "electors": 1344,
+      "turnout_rate": 76.9345
+    },
+    "NAN-ZHUSHAN-FUZHOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "富州里",
+      "village_en": "Fuzhou Village",
+      "votes": {
+        "1": 291,
+        "2": 237
+      },
+      "valid_votes": 528,
+      "invalid_votes": 23,
+      "ballots_cast": 551,
+      "unreturned_ballots": 0,
+      "electors": 722,
+      "turnout_rate": 76.3158
+    },
+    "NAN-ZHUSHAN-DAAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "大鞍里",
+      "village_en": "Daan Village",
+      "votes": {
+        "1": 180,
+        "2": 131
+      },
+      "valid_votes": 311,
+      "invalid_votes": 11,
+      "ballots_cast": 322,
+      "unreturned_ballots": 0,
+      "electors": 435,
+      "turnout_rate": 74.023
+    },
+    "NAN-ZHUSHAN-TIANZI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "田子里",
+      "village_en": "Tianzi Village",
+      "votes": {
+        "1": 278,
+        "2": 200
+      },
+      "valid_votes": 478,
+      "invalid_votes": 11,
+      "ballots_cast": 489,
+      "unreturned_ballots": 0,
+      "electors": 637,
+      "turnout_rate": 76.7661
+    },
+    "NAN-ZHUSHAN-FUXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "福興里",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 201,
+        "2": 229
+      },
+      "valid_votes": 430,
+      "invalid_votes": 17,
+      "ballots_cast": 447,
+      "unreturned_ballots": 0,
+      "electors": 582,
+      "turnout_rate": 76.8041
+    },
+    "NAN-ZHUSHAN-LIYU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "鯉魚里",
+      "village_en": "Liyu Village",
+      "votes": {
+        "1": 347,
+        "2": 251
+      },
+      "valid_votes": 598,
+      "invalid_votes": 33,
+      "ballots_cast": 631,
+      "unreturned_ballots": 0,
+      "electors": 871,
+      "turnout_rate": 72.4455
+    },
+    "NAN-ZHUSHAN-RUIZHU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "瑞竹里",
+      "village_en": "Ruizhu Village",
+      "votes": {
+        "1": 324,
+        "2": 210
+      },
+      "valid_votes": 534,
+      "invalid_votes": 18,
+      "ballots_cast": 552,
+      "unreturned_ballots": 0,
+      "electors": 725,
+      "turnout_rate": 76.1379
+    },
+    "NAN-ZHUSHAN-PINGDING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "坪頂里",
+      "village_en": "Pingding Village",
+      "votes": {
+        "1": 243,
+        "2": 135
+      },
+      "valid_votes": 378,
+      "invalid_votes": 28,
+      "ballots_cast": 406,
+      "unreturned_ballots": 0,
+      "electors": 534,
+      "turnout_rate": 76.03
+    },
+    "NAN-ZHUSHAN-TONGTOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "桶頭里",
+      "village_en": "Tongtou Village",
+      "votes": {
+        "1": 444,
+        "2": 279
+      },
+      "valid_votes": 723,
+      "invalid_votes": 35,
+      "ballots_cast": 758,
+      "unreturned_ballots": 0,
+      "electors": 1061,
+      "turnout_rate": 71.442
+    },
+    "NAN-ZHUSHAN-XIULIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "秀林里",
+      "village_en": "Xiulin Village",
+      "votes": {
+        "1": 359,
+        "2": 199
+      },
+      "valid_votes": 558,
+      "invalid_votes": 24,
+      "ballots_cast": 582,
+      "unreturned_ballots": 0,
+      "electors": 761,
+      "turnout_rate": 76.4783
+    },
+    "NAN-ZHUSHAN-YANXIANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "延祥里",
+      "village_en": "Yanxiang Village",
+      "votes": {
+        "1": 1421,
+        "2": 1053
+      },
+      "valid_votes": 2474,
+      "invalid_votes": 72,
+      "ballots_cast": 2546,
+      "unreturned_ballots": 1,
+      "electors": 3290,
+      "turnout_rate": 77.386
+    },
+    "NAN-ZHUSHAN-ZHUWEI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "竹山鎮",
+      "township_en": "Zhushan Township",
+      "village_zh": "竹圍里",
+      "village_en": "Zhuwei Village",
+      "votes": {
+        "1": 870,
+        "2": 797
+      },
+      "valid_votes": 1667,
+      "invalid_votes": 47,
+      "ballots_cast": 1714,
+      "unreturned_ballots": 0,
+      "electors": 2226,
+      "turnout_rate": 76.9991
+    },
+    "NAN-JIJI-JIJI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "集集里",
+      "village_en": "Jiji Village",
+      "votes": {
+        "1": 317,
+        "2": 404
+      },
+      "valid_votes": 721,
+      "invalid_votes": 17,
+      "ballots_cast": 738,
+      "unreturned_ballots": 0,
+      "electors": 962,
+      "turnout_rate": 76.7152
+    },
+    "NAN-JIJI-HEPING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "和平里",
+      "village_en": "Heping Village",
+      "votes": {
+        "1": 330,
+        "2": 376
+      },
+      "valid_votes": 706,
+      "invalid_votes": 23,
+      "ballots_cast": 729,
+      "unreturned_ballots": 0,
+      "electors": 945,
+      "turnout_rate": 77.1429
+    },
+    "NAN-JIJI-LINWEI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "林尾里",
+      "village_en": "Linwei Village",
+      "votes": {
+        "1": 239,
+        "2": 181
+      },
+      "valid_votes": 420,
+      "invalid_votes": 11,
+      "ballots_cast": 431,
+      "unreturned_ballots": 0,
+      "electors": 564,
+      "turnout_rate": 76.4184
+    },
+    "NAN-JIJI-TIANLIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "田寮里",
+      "village_en": "Tianliao Village",
+      "votes": {
+        "1": 435,
+        "2": 497
+      },
+      "valid_votes": 932,
+      "invalid_votes": 56,
+      "ballots_cast": 988,
+      "unreturned_ballots": 0,
+      "electors": 1254,
+      "turnout_rate": 78.7879
+    },
+    "NAN-JIJI-AILIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "隘寮里",
+      "village_en": "Ailiao Village",
+      "votes": {
+        "1": 241,
+        "2": 188
+      },
+      "valid_votes": 429,
+      "invalid_votes": 16,
+      "ballots_cast": 445,
+      "unreturned_ballots": 0,
+      "electors": 561,
+      "turnout_rate": 79.3226
+    },
+    "NAN-JIJI-YUYING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "玉映里",
+      "village_en": "Yuying Village",
+      "votes": {
+        "1": 196,
+        "2": 154
+      },
+      "valid_votes": 350,
+      "invalid_votes": 13,
+      "ballots_cast": 363,
+      "unreturned_ballots": 0,
+      "electors": 452,
+      "turnout_rate": 80.3097
+    },
+    "NAN-JIJI-WUCUO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "吳厝里",
+      "village_en": "Wucuo Village",
+      "votes": {
+        "1": 323,
+        "2": 401
+      },
+      "valid_votes": 724,
+      "invalid_votes": 19,
+      "ballots_cast": 743,
+      "unreturned_ballots": 0,
+      "electors": 898,
+      "turnout_rate": 82.7394
+    },
+    "NAN-JIJI-BAZHANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "八張里",
+      "village_en": "Bazhang Village",
+      "votes": {
+        "1": 552,
+        "2": 479
+      },
+      "valid_votes": 1031,
+      "invalid_votes": 32,
+      "ballots_cast": 1063,
+      "unreturned_ballots": 0,
+      "electors": 1413,
+      "turnout_rate": 75.23
+    },
+    "NAN-JIJI-YONGCHANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "永昌里",
+      "village_en": "Yongchang Village",
+      "votes": {
+        "1": 352,
+        "2": 349
+      },
+      "valid_votes": 701,
+      "invalid_votes": 16,
+      "ballots_cast": 717,
+      "unreturned_ballots": 0,
+      "electors": 915,
+      "turnout_rate": 78.3607
+    },
+    "NAN-JIJI-FUSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "富山里",
+      "village_en": "Fushan Village",
+      "votes": {
+        "1": 133,
+        "2": 180
+      },
+      "valid_votes": 313,
+      "invalid_votes": 2,
+      "ballots_cast": 315,
+      "unreturned_ballots": 0,
+      "electors": 423,
+      "turnout_rate": 74.4681
+    },
+    "NAN-JIJI-GUANGMING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "集集鎮",
+      "township_en": "Jiji Township",
+      "village_zh": "廣明里",
+      "village_en": "Guangming Village",
+      "votes": {
+        "1": 395,
+        "2": 368
+      },
+      "valid_votes": 763,
+      "invalid_votes": 32,
+      "ballots_cast": 795,
+      "unreturned_ballots": 0,
+      "electors": 1059,
+      "turnout_rate": 75.0708
+    },
+    "NAN-MINGJIAN-NANYA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "南雅村",
+      "village_en": "Nanya Village",
+      "votes": {
+        "1": 428,
+        "2": 344
+      },
+      "valid_votes": 772,
+      "invalid_votes": 29,
+      "ballots_cast": 801,
+      "unreturned_ballots": 1,
+      "electors": 1017,
+      "turnout_rate": 78.7611
+    },
+    "NAN-MINGJIAN-ZHONGZHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 1230,
+        "2": 949
+      },
+      "valid_votes": 2179,
+      "invalid_votes": 63,
+      "ballots_cast": 2242,
+      "unreturned_ballots": 0,
+      "electors": 2910,
+      "turnout_rate": 77.0447
+    },
+    "NAN-MINGJIAN-ZHONGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "中山村",
+      "village_en": "Zhongshan Village",
+      "votes": {
+        "1": 868,
+        "2": 706
+      },
+      "valid_votes": 1574,
+      "invalid_votes": 57,
+      "ballots_cast": 1631,
+      "unreturned_ballots": 1,
+      "electors": 2042,
+      "turnout_rate": 79.8727
+    },
+    "NAN-MINGJIAN-ZHUOSHUI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "濁水村",
+      "village_en": "Zhuoshui Village",
+      "votes": {
+        "1": 673,
+        "2": 504
+      },
+      "valid_votes": 1177,
+      "invalid_votes": 47,
+      "ballots_cast": 1224,
+      "unreturned_ballots": 0,
+      "electors": 1551,
+      "turnout_rate": 78.9168
+    },
+    "NAN-MINGJIAN-TANLIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "炭寮村",
+      "village_en": "Tanliao Village",
+      "votes": {
+        "1": 450,
+        "2": 332
+      },
+      "valid_votes": 782,
+      "invalid_votes": 30,
+      "ballots_cast": 812,
+      "unreturned_ballots": 0,
+      "electors": 1010,
+      "turnout_rate": 80.396
+    },
+    "NAN-MINGJIAN-XINMIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "新民村",
+      "village_en": "Xinmin Village",
+      "votes": {
+        "1": 457,
+        "2": 332
+      },
+      "valid_votes": 789,
+      "invalid_votes": 48,
+      "ballots_cast": 837,
+      "unreturned_ballots": 0,
+      "electors": 1041,
+      "turnout_rate": 80.4035
+    },
+    "NAN-MINGJIAN-XINJIE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "新街村",
+      "village_en": "Xinjie Village",
+      "votes": {
+        "1": 1735,
+        "2": 1134
+      },
+      "valid_votes": 2869,
+      "invalid_votes": 65,
+      "ballots_cast": 2934,
+      "unreturned_ballots": 0,
+      "electors": 3636,
+      "turnout_rate": 80.6931
+    },
+    "NAN-MINGJIAN-DONGHU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "東湖村",
+      "village_en": "Donghu Village",
+      "votes": {
+        "1": 770,
+        "2": 477
+      },
+      "valid_votes": 1247,
+      "invalid_votes": 20,
+      "ballots_cast": 1267,
+      "unreturned_ballots": 1,
+      "electors": 1628,
+      "turnout_rate": 77.8256
+    },
+    "NAN-MINGJIAN-WANDAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "萬丹村",
+      "village_en": "Wandan Village",
+      "votes": {
+        "1": 490,
+        "2": 287
+      },
+      "valid_votes": 777,
+      "invalid_votes": 36,
+      "ballots_cast": 813,
+      "unreturned_ballots": 0,
+      "electors": 995,
+      "turnout_rate": 81.7085
+    },
+    "NAN-MINGJIAN-TIANZAI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "田仔村",
+      "village_en": "Tianzai Village",
+      "votes": {
+        "1": 535,
+        "2": 255
+      },
+      "valid_votes": 790,
+      "invalid_votes": 42,
+      "ballots_cast": 832,
+      "unreturned_ballots": 0,
+      "electors": 1040,
+      "turnout_rate": 80.0
+    },
+    "NAN-MINGJIAN-DAKENG-AND-TIANZAI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "大坑村、田仔村",
+      "village_en": "Dakeng and Tianzai Village",
+      "votes": {
+        "1": 464,
+        "2": 188
+      },
+      "valid_votes": 652,
+      "invalid_votes": 19,
+      "ballots_cast": 671,
+      "unreturned_ballots": 0,
+      "electors": 842,
+      "turnout_rate": 79.6912
+    },
+    "NAN-MINGJIAN-DAZHUANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "大庄村",
+      "village_en": "Dazhuang Village",
+      "votes": {
+        "1": 571,
+        "2": 233
+      },
+      "valid_votes": 804,
+      "invalid_votes": 31,
+      "ballots_cast": 835,
+      "unreturned_ballots": 0,
+      "electors": 1026,
+      "turnout_rate": 81.384
+    },
+    "NAN-MINGJIAN-DAKENG-DAZHUANG-AND-BUXIA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "大坑村、大庄村、廍下村",
+      "village_en": "Dakeng, Dazhuang, and Buxia Village",
+      "votes": {
+        "1": 477,
+        "2": 231
+      },
+      "valid_votes": 708,
+      "invalid_votes": 34,
+      "ballots_cast": 742,
+      "unreturned_ballots": 0,
+      "electors": 920,
+      "turnout_rate": 80.6522
+    },
+    "NAN-MINGJIAN-BUXIA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "部下村",
+      "village_en": "Buxia Village",
+      "votes": {
+        "1": 348,
+        "2": 236
+      },
+      "valid_votes": 584,
+      "invalid_votes": 31,
+      "ballots_cast": 615,
+      "unreturned_ballots": 0,
+      "electors": 770,
+      "turnout_rate": 79.8701
+    },
+    "NAN-MINGJIAN-ZHUWEI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "竹圍村",
+      "village_en": "Zhuwei Village",
+      "votes": {
+        "1": 527,
+        "2": 195
+      },
+      "valid_votes": 722,
+      "invalid_votes": 25,
+      "ballots_cast": 747,
+      "unreturned_ballots": 1,
+      "electors": 926,
+      "turnout_rate": 80.6695
+    },
+    "NAN-MINGJIAN-CHISHUI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "赤水村",
+      "village_en": "Chishui Village",
+      "votes": {
+        "1": 630,
+        "2": 373
+      },
+      "valid_votes": 1003,
+      "invalid_votes": 26,
+      "ballots_cast": 1029,
+      "unreturned_ballots": 0,
+      "electors": 1270,
+      "turnout_rate": 81.0236
+    },
+    "NAN-MINGJIAN-SANLUN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "三崙村",
+      "village_en": "Sanlun Village",
+      "votes": {
+        "1": 730,
+        "2": 445
+      },
+      "valid_votes": 1175,
+      "invalid_votes": 46,
+      "ballots_cast": 1221,
+      "unreturned_ballots": 0,
+      "electors": 1483,
+      "turnout_rate": 82.3331
+    },
+    "NAN-MINGJIAN-SONGSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "松山村",
+      "village_en": "Songshan Village",
+      "votes": {
+        "1": 649,
+        "2": 506
+      },
+      "valid_votes": 1155,
+      "invalid_votes": 29,
+      "ballots_cast": 1184,
+      "unreturned_ballots": 0,
+      "electors": 1482,
+      "turnout_rate": 79.892
+    },
+    "NAN-MINGJIAN-SONGBAI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "松柏村",
+      "village_en": "Songbai Village",
+      "votes": {
+        "1": 550,
+        "2": 355
+      },
+      "valid_votes": 905,
+      "invalid_votes": 24,
+      "ballots_cast": 929,
+      "unreturned_ballots": 0,
+      "electors": 1141,
+      "turnout_rate": 81.4198
+    },
+    "NAN-MINGJIAN-PUZHONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "埔中村",
+      "village_en": "Puzhong Village",
+      "votes": {
+        "1": 431,
+        "2": 276
+      },
+      "valid_votes": 707,
+      "invalid_votes": 14,
+      "ballots_cast": 721,
+      "unreturned_ballots": 0,
+      "electors": 878,
+      "turnout_rate": 82.1185
+    },
+    "NAN-MINGJIAN-KANJIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "崁腳村",
+      "village_en": "Kanjiao Village",
+      "votes": {
+        "1": 333,
+        "2": 305
+      },
+      "valid_votes": 638,
+      "invalid_votes": 6,
+      "ballots_cast": 644,
+      "unreturned_ballots": 0,
+      "electors": 802,
+      "turnout_rate": 80.2993
+    },
+    "NAN-MINGJIAN-XINCUO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "新厝村",
+      "village_en": "Xincuo Village",
+      "votes": {
+        "1": 381,
+        "2": 245
+      },
+      "valid_votes": 626,
+      "invalid_votes": 27,
+      "ballots_cast": 653,
+      "unreturned_ballots": 0,
+      "electors": 817,
+      "turnout_rate": 79.9266
+    },
+    "NAN-MINGJIAN-XINGUANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "新光村",
+      "village_en": "Xinguang Village",
+      "votes": {
+        "1": 745,
+        "2": 505
+      },
+      "valid_votes": 1250,
+      "invalid_votes": 56,
+      "ballots_cast": 1306,
+      "unreturned_ballots": 0,
+      "electors": 1640,
+      "turnout_rate": 79.6341
+    },
+    "NAN-MINGJIAN-RENHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "名間鄉",
+      "township_en": "Mingjian Township",
+      "village_zh": "仁和村",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 289,
+        "2": 348
+      },
+      "valid_votes": 637,
+      "invalid_votes": 28,
+      "ballots_cast": 665,
+      "unreturned_ballots": 0,
+      "electors": 857,
+      "turnout_rate": 77.5963
+    },
+    "NAN-LUGU-LUGU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "鹿谷村",
+      "village_en": "Lugu Village",
+      "votes": {
+        "1": 670,
+        "2": 626
+      },
+      "valid_votes": 1296,
+      "invalid_votes": 14,
+      "ballots_cast": 1310,
+      "unreturned_ballots": 0,
+      "electors": 1668,
+      "turnout_rate": 78.5372
+    },
+    "NAN-LUGU-CHUXIANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "初鄉村",
+      "village_en": "Chuxiang Village",
+      "votes": {
+        "1": 567,
+        "2": 521
+      },
+      "valid_votes": 1088,
+      "invalid_votes": 64,
+      "ballots_cast": 1152,
+      "unreturned_ballots": 0,
+      "electors": 1597,
+      "turnout_rate": 72.1353
+    },
+    "NAN-LUGU-ZHANGYA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "彰雅村",
+      "village_en": "Zhangya Village",
+      "votes": {
+        "1": 477,
+        "2": 438
+      },
+      "valid_votes": 915,
+      "invalid_votes": 30,
+      "ballots_cast": 945,
+      "unreturned_ballots": 0,
+      "electors": 1175,
+      "turnout_rate": 80.4255
+    },
+    "NAN-LUGU-GUANGXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "廣興村",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 675,
+        "2": 754
+      },
+      "valid_votes": 1429,
+      "invalid_votes": 49,
+      "ballots_cast": 1478,
+      "unreturned_ballots": 0,
+      "electors": 1872,
+      "turnout_rate": 78.953
+    },
+    "NAN-LUGU-NEIHU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "內湖村",
+      "village_en": "Neihu Village",
+      "votes": {
+        "1": 397,
+        "2": 353
+      },
+      "valid_votes": 750,
+      "invalid_votes": 24,
+      "ballots_cast": 774,
+      "unreturned_ballots": 0,
+      "electors": 1017,
+      "turnout_rate": 76.1062
+    },
+    "NAN-LUGU-ZHULIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "竹林村",
+      "village_en": "Zhulin Village",
+      "votes": {
+        "1": 593,
+        "2": 535
+      },
+      "valid_votes": 1128,
+      "invalid_votes": 34,
+      "ballots_cast": 1162,
+      "unreturned_ballots": 0,
+      "electors": 1522,
+      "turnout_rate": 76.3469
+    },
+    "NAN-LUGU-ZHUFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "竹豐村",
+      "village_en": "Zhufeng Village",
+      "votes": {
+        "1": 315,
+        "2": 372
+      },
+      "valid_votes": 687,
+      "invalid_votes": 20,
+      "ballots_cast": 707,
+      "unreturned_ballots": 0,
+      "electors": 892,
+      "turnout_rate": 79.2601
+    },
+    "NAN-LUGU-HEYA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "和雅村",
+      "village_en": "Heya Village",
+      "votes": {
+        "1": 208,
+        "2": 255
+      },
+      "valid_votes": 463,
+      "invalid_votes": 23,
+      "ballots_cast": 486,
+      "unreturned_ballots": 0,
+      "electors": 609,
+      "turnout_rate": 79.803
+    },
+    "NAN-LUGU-FENGHUANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "鳳凰村",
+      "village_en": "Fenghuang Village",
+      "votes": {
+        "1": 578,
+        "2": 445
+      },
+      "valid_votes": 1023,
+      "invalid_votes": 48,
+      "ballots_cast": 1071,
+      "unreturned_ballots": 0,
+      "electors": 1359,
+      "turnout_rate": 78.8079
+    },
+    "NAN-LUGU-YONGLONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "永隆村",
+      "village_en": "Yonglong Village",
+      "votes": {
+        "1": 759,
+        "2": 606
+      },
+      "valid_votes": 1365,
+      "invalid_votes": 43,
+      "ballots_cast": 1408,
+      "unreturned_ballots": 0,
+      "electors": 1768,
+      "turnout_rate": 79.638
+    },
+    "NAN-LUGU-XIUFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "秀峰村",
+      "village_en": "Xiufeng Village",
+      "votes": {
+        "1": 304,
+        "2": 163
+      },
+      "valid_votes": 467,
+      "invalid_votes": 4,
+      "ballots_cast": 471,
+      "unreturned_ballots": 0,
+      "electors": 643,
+      "turnout_rate": 73.2504
+    },
+    "NAN-LUGU-QINGSHUI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "清水村",
+      "village_en": "Qingshui Village",
+      "votes": {
+        "1": 316,
+        "2": 211
+      },
+      "valid_votes": 527,
+      "invalid_votes": 23,
+      "ballots_cast": 550,
+      "unreturned_ballots": 0,
+      "electors": 731,
+      "turnout_rate": 75.2394
+    },
+    "NAN-LUGU-RUITIAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "鹿谷鄉",
+      "township_en": "Lugu Township",
+      "village_zh": "瑞田村",
+      "village_en": "Ruitian Village",
+      "votes": {
+        "1": 282,
+        "2": 238
+      },
+      "valid_votes": 520,
+      "invalid_votes": 35,
+      "ballots_cast": 555,
+      "unreturned_ballots": 0,
+      "electors": 778,
+      "turnout_rate": 71.3368
+    },
+    "NAN-ZHONGLIAO-GUANGXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "廣興村",
+      "village_en": "Guangxing Village",
+      "votes": {
+        "1": 409,
+        "2": 210
+      },
+      "valid_votes": 619,
+      "invalid_votes": 38,
+      "ballots_cast": 657,
+      "unreturned_ballots": 0,
+      "electors": 853,
+      "turnout_rate": 77.0223
+    },
+    "NAN-ZHONGLIAO-KANDING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "崁頂村",
+      "village_en": "Kanding Village",
+      "votes": {
+        "1": 240,
+        "2": 151
+      },
+      "valid_votes": 391,
+      "invalid_votes": 16,
+      "ballots_cast": 407,
+      "unreturned_ballots": 0,
+      "electors": 517,
+      "turnout_rate": 78.7234
+    },
+    "NAN-ZHONGLIAO-BAXIAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "八仙村",
+      "village_en": "Baxian Village",
+      "votes": {
+        "1": 331,
+        "2": 232
+      },
+      "valid_votes": 563,
+      "invalid_votes": 17,
+      "ballots_cast": 580,
+      "unreturned_ballots": 0,
+      "electors": 754,
+      "turnout_rate": 76.9231
+    },
+    "NAN-ZHONGLIAO-HEXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "和興村",
+      "village_en": "Hexing Village",
+      "votes": {
+        "1": 299,
+        "2": 190
+      },
+      "valid_votes": 489,
+      "invalid_votes": 30,
+      "ballots_cast": 519,
+      "unreturned_ballots": 0,
+      "electors": 698,
+      "turnout_rate": 74.3553
+    },
+    "NAN-ZHONGLIAO-FUSHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "福盛村",
+      "village_en": "Fusheng Village",
+      "votes": {
+        "1": 312,
+        "2": 271
+      },
+      "valid_votes": 583,
+      "invalid_votes": 34,
+      "ballots_cast": 617,
+      "unreturned_ballots": 0,
+      "electors": 798,
+      "turnout_rate": 77.3183
+    },
+    "NAN-ZHONGLIAO-YONGPING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "永平村",
+      "village_en": "Yongping Village",
+      "votes": {
+        "1": 659,
+        "2": 694
+      },
+      "valid_votes": 1353,
+      "invalid_votes": 45,
+      "ballots_cast": 1398,
+      "unreturned_ballots": 0,
+      "electors": 1765,
+      "turnout_rate": 79.2068
+    },
+    "NAN-ZHONGLIAO-FUXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "復興村",
+      "village_en": "Fuxing Village",
+      "votes": {
+        "1": 109,
+        "2": 86
+      },
+      "valid_votes": 195,
+      "invalid_votes": 6,
+      "ballots_cast": 201,
+      "unreturned_ballots": 0,
+      "electors": 273,
+      "turnout_rate": 73.6264
+    },
+    "NAN-ZHONGLIAO-ZHONGLIAO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "中寮村",
+      "village_en": "Zhongliao Village",
+      "votes": {
+        "1": 235,
+        "2": 293
+      },
+      "valid_votes": 528,
+      "invalid_votes": 1,
+      "ballots_cast": 529,
+      "unreturned_ballots": 0,
+      "electors": 709,
+      "turnout_rate": 74.6121
+    },
+    "NAN-ZHONGLIAO-GUANGFU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "廣福村",
+      "village_en": "Guangfu Village",
+      "votes": {
+        "1": 269,
+        "2": 142
+      },
+      "valid_votes": 411,
+      "invalid_votes": 22,
+      "ballots_cast": 433,
+      "unreturned_ballots": 0,
+      "electors": 548,
+      "turnout_rate": 79.0146
+    },
+    "NAN-ZHONGLIAO-YONGFU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "永福村",
+      "village_en": "Yongfu Village",
+      "votes": {
+        "1": 490,
+        "2": 421
+      },
+      "valid_votes": 911,
+      "invalid_votes": 21,
+      "ballots_cast": 932,
+      "unreturned_ballots": 0,
+      "electors": 1147,
+      "turnout_rate": 81.2554
+    },
+    "NAN-ZHONGLIAO-YIHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "義和村",
+      "village_en": "Yihe Village",
+      "votes": {
+        "1": 495,
+        "2": 359
+      },
+      "valid_votes": 854,
+      "invalid_votes": 30,
+      "ballots_cast": 884,
+      "unreturned_ballots": 0,
+      "electors": 1113,
+      "turnout_rate": 79.425
+    },
+    "NAN-ZHONGLIAO-QINGSHUI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "清水村",
+      "village_en": "Qingshui Village",
+      "votes": {
+        "1": 362,
+        "2": 301
+      },
+      "valid_votes": 663,
+      "invalid_votes": 42,
+      "ballots_cast": 705,
+      "unreturned_ballots": 0,
+      "electors": 959,
+      "turnout_rate": 73.5141
+    },
+    "NAN-ZHONGLIAO-LONGAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "龍安村",
+      "village_en": "Longan Village",
+      "votes": {
+        "1": 310,
+        "2": 203
+      },
+      "valid_votes": 513,
+      "invalid_votes": 21,
+      "ballots_cast": 534,
+      "unreturned_ballots": 0,
+      "electors": 700,
+      "turnout_rate": 76.2857
+    },
+    "NAN-ZHONGLIAO-LONGYAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "龍岩村",
+      "village_en": "Longyan Village",
+      "votes": {
+        "1": 274,
+        "2": 264
+      },
+      "valid_votes": 538,
+      "invalid_votes": 16,
+      "ballots_cast": 554,
+      "unreturned_ballots": 0,
+      "electors": 686,
+      "turnout_rate": 80.758
+    },
+    "NAN-ZHONGLIAO-YONGHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "永和村",
+      "village_en": "Yonghe Village",
+      "votes": {
+        "1": 207,
+        "2": 198
+      },
+      "valid_votes": 405,
+      "invalid_votes": 20,
+      "ballots_cast": 425,
+      "unreturned_ballots": 0,
+      "electors": 549,
+      "turnout_rate": 77.4135
+    },
+    "NAN-ZHONGLIAO-NEICHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "內城村",
+      "village_en": "Neicheng Village",
+      "votes": {
+        "1": 164,
+        "2": 158
+      },
+      "valid_votes": 322,
+      "invalid_votes": 16,
+      "ballots_cast": 338,
+      "unreturned_ballots": 0,
+      "electors": 468,
+      "turnout_rate": 72.2222
+    },
+    "NAN-ZHONGLIAO-YONGFANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "永芳村",
+      "village_en": "Yongfang Village",
+      "votes": {
+        "1": 165,
+        "2": 171
+      },
+      "valid_votes": 336,
+      "invalid_votes": 11,
+      "ballots_cast": 347,
+      "unreturned_ballots": 0,
+      "electors": 437,
+      "turnout_rate": 79.405
+    },
+    "NAN-ZHONGLIAO-SHUANGWEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "中寮鄉",
+      "township_en": "Zhongliao Township",
+      "village_zh": "爽文村",
+      "village_en": "Shuangwen Village",
+      "votes": {
+        "1": 205,
+        "2": 207
+      },
+      "valid_votes": 412,
+      "invalid_votes": 6,
+      "ballots_cast": 418,
+      "unreturned_ballots": 0,
+      "electors": 543,
+      "turnout_rate": 76.9797
+    },
+    "NAN-YUCHI-DONGCHI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "東池村",
+      "village_en": "Dongchi Village",
+      "votes": {
+        "1": 604,
+        "2": 445
+      },
+      "valid_votes": 1049,
+      "invalid_votes": 45,
+      "ballots_cast": 1094,
+      "unreturned_ballots": 0,
+      "electors": 1529,
+      "turnout_rate": 71.55
+    },
+    "NAN-YUCHI-YUCHI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "魚池村",
+      "village_en": "Yuchi Village",
+      "votes": {
+        "1": 694,
+        "2": 652
+      },
+      "valid_votes": 1346,
+      "invalid_votes": 35,
+      "ballots_cast": 1381,
+      "unreturned_ballots": 0,
+      "electors": 1909,
+      "turnout_rate": 72.3415
+    },
+    "NAN-YUCHI-ZHONGMING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "中明村",
+      "village_en": "Zhongming Village",
+      "votes": {
+        "1": 407,
+        "2": 314
+      },
+      "valid_votes": 721,
+      "invalid_votes": 27,
+      "ballots_cast": 748,
+      "unreturned_ballots": 0,
+      "electors": 1025,
+      "turnout_rate": 72.9756
+    },
+    "NAN-YUCHI-XINCHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "新城村",
+      "village_en": "Xincheng Village",
+      "votes": {
+        "1": 541,
+        "2": 433
+      },
+      "valid_votes": 974,
+      "invalid_votes": 14,
+      "ballots_cast": 988,
+      "unreturned_ballots": 0,
+      "electors": 1317,
+      "turnout_rate": 75.019
+    },
+    "NAN-YUCHI-DALIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "大林村",
+      "village_en": "Dalin Village",
+      "votes": {
+        "1": 446,
+        "2": 304
+      },
+      "valid_votes": 750,
+      "invalid_votes": 27,
+      "ballots_cast": 777,
+      "unreturned_ballots": 0,
+      "electors": 1065,
+      "turnout_rate": 72.9577
+    },
+    "NAN-YUCHI-DONGGUANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "東光村",
+      "village_en": "Dongguang Village",
+      "votes": {
+        "1": 534,
+        "2": 294
+      },
+      "valid_votes": 828,
+      "invalid_votes": 35,
+      "ballots_cast": 863,
+      "unreturned_ballots": 0,
+      "electors": 1242,
+      "turnout_rate": 69.4847
+    },
+    "NAN-YUCHI-GONGHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "共和村",
+      "village_en": "Gonghe Village",
+      "votes": {
+        "1": 399,
+        "2": 292
+      },
+      "valid_votes": 691,
+      "invalid_votes": 27,
+      "ballots_cast": 718,
+      "unreturned_ballots": 0,
+      "electors": 981,
+      "turnout_rate": 73.1906
+    },
+    "NAN-YUCHI-DAYAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "大雁村",
+      "village_en": "Dayan Village",
+      "votes": {
+        "1": 279,
+        "2": 216
+      },
+      "valid_votes": 495,
+      "invalid_votes": 18,
+      "ballots_cast": 513,
+      "unreturned_ballots": 0,
+      "electors": 670,
+      "turnout_rate": 76.5672
+    },
+    "NAN-YUCHI-WUCHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "五城村",
+      "village_en": "Wucheng Village",
+      "votes": {
+        "1": 251,
+        "2": 264
+      },
+      "valid_votes": 515,
+      "invalid_votes": 32,
+      "ballots_cast": 547,
+      "unreturned_ballots": 0,
+      "electors": 728,
+      "turnout_rate": 75.1374
+    },
+    "NAN-YUCHI-SHUISHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "水社村",
+      "village_en": "Shuishe Village",
+      "votes": {
+        "1": 270,
+        "2": 323
+      },
+      "valid_votes": 593,
+      "invalid_votes": 8,
+      "ballots_cast": 601,
+      "unreturned_ballots": 0,
+      "electors": 807,
+      "turnout_rate": 74.4734
+    },
+    "NAN-YUCHI-TOUSHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "頭社村",
+      "village_en": "Toushe Village",
+      "votes": {
+        "1": 349,
+        "2": 311
+      },
+      "valid_votes": 660,
+      "invalid_votes": 33,
+      "ballots_cast": 693,
+      "unreturned_ballots": 0,
+      "electors": 961,
+      "turnout_rate": 72.1124
+    },
+    "NAN-YUCHI-WUDENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "武登村",
+      "village_en": "Wudeng Village",
+      "votes": {
+        "1": 258,
+        "2": 268
+      },
+      "valid_votes": 526,
+      "invalid_votes": 11,
+      "ballots_cast": 537,
+      "unreturned_ballots": 0,
+      "electors": 749,
+      "turnout_rate": 71.6956
+    },
+    "NAN-YUCHI-RIYUE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "魚池鄉",
+      "township_en": "Yuchi Township",
+      "village_zh": "日月村",
+      "village_en": "Riyue Village",
+      "votes": {
+        "1": 243,
+        "2": 283
+      },
+      "valid_votes": 526,
+      "invalid_votes": 20,
+      "ballots_cast": 546,
+      "unreturned_ballots": 0,
+      "electors": 722,
+      "turnout_rate": 75.6233
+    },
+    "NAN-GUOXING-GUOXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "國姓村",
+      "village_en": "Guoxing Village",
+      "votes": {
+        "1": 583,
+        "2": 612
+      },
+      "valid_votes": 1195,
+      "invalid_votes": 34,
+      "ballots_cast": 1229,
+      "unreturned_ballots": 0,
+      "electors": 1640,
+      "turnout_rate": 74.939
+    },
+    "NAN-GUOXING-SHIMEN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "石門村",
+      "village_en": "Shimen Village",
+      "votes": {
+        "1": 499,
+        "2": 678
+      },
+      "valid_votes": 1177,
+      "invalid_votes": 54,
+      "ballots_cast": 1231,
+      "unreturned_ballots": 0,
+      "electors": 1684,
+      "turnout_rate": 73.0998
+    },
+    "NAN-GUOXING-DAQI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "大旗村",
+      "village_en": "Daqi Village",
+      "votes": {
+        "1": 297,
+        "2": 238
+      },
+      "valid_votes": 535,
+      "invalid_votes": 16,
+      "ballots_cast": 551,
+      "unreturned_ballots": 0,
+      "electors": 755,
+      "turnout_rate": 72.9801
+    },
+    "NAN-GUOXING-BEIGANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "北港村",
+      "village_en": "Beigang Village",
+      "votes": {
+        "1": 682,
+        "2": 707
+      },
+      "valid_votes": 1389,
+      "invalid_votes": 73,
+      "ballots_cast": 1462,
+      "unreturned_ballots": 0,
+      "electors": 2017,
+      "turnout_rate": 72.4839
+    },
+    "NAN-GUOXING-ZHANGLIU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "長流村",
+      "village_en": "Zhangliu Village",
+      "votes": {
+        "1": 452,
+        "2": 611
+      },
+      "valid_votes": 1063,
+      "invalid_votes": 34,
+      "ballots_cast": 1097,
+      "unreturned_ballots": 0,
+      "electors": 1512,
+      "turnout_rate": 72.5529
+    },
+    "NAN-GUOXING-ZHANGFU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "長福村",
+      "village_en": "Zhangfu Village",
+      "votes": {
+        "1": 229,
+        "2": 265
+      },
+      "valid_votes": 494,
+      "invalid_votes": 29,
+      "ballots_cast": 523,
+      "unreturned_ballots": 0,
+      "electors": 703,
+      "turnout_rate": 74.3954
+    },
+    "NAN-GUOXING-FUGUI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "福龜村",
+      "village_en": "Fugui Village",
+      "votes": {
+        "1": 619,
+        "2": 770
+      },
+      "valid_votes": 1389,
+      "invalid_votes": 46,
+      "ballots_cast": 1435,
+      "unreturned_ballots": 0,
+      "electors": 1852,
+      "turnout_rate": 77.4838
+    },
+    "NAN-GUOXING-QIANGOU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "乾溝村",
+      "village_en": "Qiangou Village",
+      "votes": {
+        "1": 289,
+        "2": 324
+      },
+      "valid_votes": 613,
+      "invalid_votes": 17,
+      "ballots_cast": 630,
+      "unreturned_ballots": 0,
+      "electors": 866,
+      "turnout_rate": 72.7483
+    },
+    "NAN-GUOXING-GANLIN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "柑林村",
+      "village_en": "Ganlin Village",
+      "votes": {
+        "1": 391,
+        "2": 455
+      },
+      "valid_votes": 846,
+      "invalid_votes": 50,
+      "ballots_cast": 896,
+      "unreturned_ballots": 0,
+      "electors": 1205,
+      "turnout_rate": 74.3568
+    },
+    "NAN-GUOXING-BEISHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "北山村",
+      "village_en": "Beishan Village",
+      "votes": {
+        "1": 632,
+        "2": 555
+      },
+      "valid_votes": 1187,
+      "invalid_votes": 44,
+      "ballots_cast": 1231,
+      "unreturned_ballots": 0,
+      "electors": 1615,
+      "turnout_rate": 76.2229
+    },
+    "NAN-GUOXING-NANGANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "南港村",
+      "village_en": "Nangang Village",
+      "votes": {
+        "1": 568,
+        "2": 716
+      },
+      "valid_votes": 1284,
+      "invalid_votes": 79,
+      "ballots_cast": 1363,
+      "unreturned_ballots": 0,
+      "electors": 1926,
+      "turnout_rate": 70.7684
+    },
+    "NAN-GUOXING-DASHI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "大石村",
+      "village_en": "Dashi Village",
+      "votes": {
+        "1": 284,
+        "2": 258
+      },
+      "valid_votes": 542,
+      "invalid_votes": 28,
+      "ballots_cast": 570,
+      "unreturned_ballots": 0,
+      "electors": 759,
+      "turnout_rate": 75.0988
+    },
+    "NAN-GUOXING-ZHANGFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "國姓鄉",
+      "township_en": "Guoxing Township",
+      "village_zh": "長豐村",
+      "village_en": "Zhangfeng Village",
+      "votes": {
+        "1": 269,
+        "2": 313
+      },
+      "valid_votes": 582,
+      "invalid_votes": 8,
+      "ballots_cast": 590,
+      "unreturned_ballots": 0,
+      "electors": 841,
+      "turnout_rate": 70.1546
+    },
+    "NAN-SHUILI-SHUILI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "水里村",
+      "village_en": "Shuili Village",
+      "votes": {
+        "1": 272,
+        "2": 364
+      },
+      "valid_votes": 636,
+      "invalid_votes": 27,
+      "ballots_cast": 663,
+      "unreturned_ballots": 0,
+      "electors": 908,
+      "turnout_rate": 73.0176
+    },
+    "NAN-SHUILI-NONGFU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "農富村",
+      "village_en": "Nongfu Village",
+      "votes": {
+        "1": 209,
+        "2": 192
+      },
+      "valid_votes": 401,
+      "invalid_votes": 7,
+      "ballots_cast": 408,
+      "unreturned_ballots": 0,
+      "electors": 525,
+      "turnout_rate": 77.7143
+    },
+    "NAN-SHUILI-XINCHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "新城村",
+      "village_en": "Xincheng Village",
+      "votes": {
+        "1": 632,
+        "2": 578
+      },
+      "valid_votes": 1210,
+      "invalid_votes": 24,
+      "ballots_cast": 1234,
+      "unreturned_ballots": 0,
+      "electors": 1664,
+      "turnout_rate": 74.1587
+    },
+    "NAN-SHUILI-ZHONGYANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "中央村",
+      "village_en": "Zhongyang Village",
+      "votes": {
+        "1": 290,
+        "2": 277
+      },
+      "valid_votes": 567,
+      "invalid_votes": 5,
+      "ballots_cast": 572,
+      "unreturned_ballots": 0,
+      "electors": 736,
+      "turnout_rate": 77.7174
+    },
+    "NAN-SHUILI-CHENGZHONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "城中村",
+      "village_en": "Chengzhong Village",
+      "votes": {
+        "1": 347,
+        "2": 425
+      },
+      "valid_votes": 772,
+      "invalid_votes": 18,
+      "ballots_cast": 790,
+      "unreturned_ballots": 0,
+      "electors": 1043,
+      "turnout_rate": 75.743
+    },
+    "NAN-SHUILI-BEIPU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "北埔村",
+      "village_en": "Beipu Village",
+      "votes": {
+        "1": 314,
+        "2": 413
+      },
+      "valid_votes": 727,
+      "invalid_votes": 19,
+      "ballots_cast": 746,
+      "unreturned_ballots": 0,
+      "electors": 1004,
+      "turnout_rate": 74.3028
+    },
+    "NAN-SHUILI-JUGONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "鉅工村",
+      "village_en": "Jugong Village",
+      "votes": {
+        "1": 321,
+        "2": 532
+      },
+      "valid_votes": 853,
+      "invalid_votes": 29,
+      "ballots_cast": 882,
+      "unreturned_ballots": 0,
+      "electors": 1078,
+      "turnout_rate": 81.8182
+    },
+    "NAN-SHUILI-YONGFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "永豐村",
+      "village_en": "Yongfeng Village",
+      "votes": {
+        "1": 538,
+        "2": 505
+      },
+      "valid_votes": 1043,
+      "invalid_votes": 35,
+      "ballots_cast": 1078,
+      "unreturned_ballots": 1,
+      "electors": 1398,
+      "turnout_rate": 77.1102
+    },
+    "NAN-SHUILI-DINGKAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "頂崁村",
+      "village_en": "Dingkan Village",
+      "votes": {
+        "1": 385,
+        "2": 446
+      },
+      "valid_votes": 831,
+      "invalid_votes": 27,
+      "ballots_cast": 858,
+      "unreturned_ballots": 0,
+      "electors": 1181,
+      "turnout_rate": 72.6503
+    },
+    "NAN-SHUILI-CHECHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "車埕村",
+      "village_en": "Checheng Village",
+      "votes": {
+        "1": 168,
+        "2": 208
+      },
+      "valid_votes": 376,
+      "invalid_votes": 26,
+      "ballots_cast": 402,
+      "unreturned_ballots": 0,
+      "electors": 557,
+      "turnout_rate": 72.1724
+    },
+    "NAN-SHUILI-XINXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "新興村",
+      "village_en": "Xinxing Village",
+      "votes": {
+        "1": 203,
+        "2": 273
+      },
+      "valid_votes": 476,
+      "invalid_votes": 18,
+      "ballots_cast": 494,
+      "unreturned_ballots": 0,
+      "electors": 689,
+      "turnout_rate": 71.6981
+    },
+    "NAN-SHUILI-XINSHAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "新山村",
+      "village_en": "Xinshan Village",
+      "votes": {
+        "1": 125,
+        "2": 142
+      },
+      "valid_votes": 267,
+      "invalid_votes": 12,
+      "ballots_cast": 279,
+      "unreturned_ballots": 0,
+      "electors": 379,
+      "turnout_rate": 73.6148
+    },
+    "NAN-SHUILI-JUNKENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "郡坑村",
+      "village_en": "Junkeng Village",
+      "votes": {
+        "1": 118,
+        "2": 135
+      },
+      "valid_votes": 253,
+      "invalid_votes": 11,
+      "ballots_cast": 264,
+      "unreturned_ballots": 0,
+      "electors": 368,
+      "turnout_rate": 71.7391
+    },
+    "NAN-SHUILI-SHANGAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "上安村",
+      "village_en": "Shangan Village",
+      "votes": {
+        "1": 384,
+        "2": 451
+      },
+      "valid_votes": 835,
+      "invalid_votes": 31,
+      "ballots_cast": 866,
+      "unreturned_ballots": 0,
+      "electors": 1171,
+      "turnout_rate": 73.9539
+    },
+    "NAN-SHUILI-MINHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "民和村",
+      "village_en": "Minhe Village",
+      "votes": {
+        "1": 508,
+        "2": 232
+      },
+      "valid_votes": 740,
+      "invalid_votes": 31,
+      "ballots_cast": 771,
+      "unreturned_ballots": 0,
+      "electors": 1049,
+      "turnout_rate": 73.4986
+    },
+    "NAN-SHUILI-YONGXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "永興村",
+      "village_en": "Yongxing Village",
+      "votes": {
+        "1": 147,
+        "2": 103
+      },
+      "valid_votes": 250,
+      "invalid_votes": 11,
+      "ballots_cast": 261,
+      "unreturned_ballots": 0,
+      "electors": 368,
+      "turnout_rate": 70.9239
+    },
+    "NAN-SHUILI-YUFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "玉峰村",
+      "village_en": "Yufeng Village",
+      "votes": {
+        "1": 467,
+        "2": 228
+      },
+      "valid_votes": 695,
+      "invalid_votes": 24,
+      "ballots_cast": 719,
+      "unreturned_ballots": 1,
+      "electors": 920,
+      "turnout_rate": 78.1522
+    },
+    "NAN-SHUILI-XINGLONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "興隆村",
+      "village_en": "Xinglong Village",
+      "votes": {
+        "1": 151,
+        "2": 91
+      },
+      "valid_votes": 242,
+      "invalid_votes": 0,
+      "ballots_cast": 242,
+      "unreturned_ballots": 0,
+      "electors": 353,
+      "turnout_rate": 68.5552
+    },
+    "NAN-SHUILI-NANGUANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "水里鄉",
+      "township_en": "Shuili Township",
+      "village_zh": "南光村",
+      "village_en": "Nanguang Village",
+      "votes": {
+        "1": 494,
+        "2": 553
+      },
+      "valid_votes": 1047,
+      "invalid_votes": 11,
+      "ballots_cast": 1058,
+      "unreturned_ballots": 0,
+      "electors": 1379,
+      "turnout_rate": 76.7223
+    },
+    "NAN-XINYI-RENHE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "人和村",
+      "village_en": "Renhe Village",
+      "votes": {
+        "1": 149,
+        "2": 586
+      },
+      "valid_votes": 735,
+      "invalid_votes": 41,
+      "ballots_cast": 776,
+      "unreturned_ballots": 0,
+      "electors": 1067,
+      "turnout_rate": 72.7273
+    },
+    "NAN-XINYI-DILI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "地利村",
+      "village_en": "Dili Village",
+      "votes": {
+        "1": 96,
+        "2": 496
+      },
+      "valid_votes": 592,
+      "invalid_votes": 13,
+      "ballots_cast": 605,
+      "unreturned_ballots": 0,
+      "electors": 763,
+      "turnout_rate": 79.2923
+    },
+    "NAN-XINYI-TANNAN": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "潭南村",
+      "village_en": "Tannan Village",
+      "votes": {
+        "1": 28,
+        "2": 305
+      },
+      "valid_votes": 333,
+      "invalid_votes": 16,
+      "ballots_cast": 349,
+      "unreturned_ballots": 0,
+      "electors": 463,
+      "turnout_rate": 75.378
+    },
+    "NAN-XINYI-MINGDE": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "明德村",
+      "village_en": "Mingde Village",
+      "votes": {
+        "1": 484,
+        "2": 622
+      },
+      "valid_votes": 1106,
+      "invalid_votes": 15,
+      "ballots_cast": 1121,
+      "unreturned_ballots": 0,
+      "electors": 1496,
+      "turnout_rate": 74.9332
+    },
+    "NAN-XINYI-AIGUO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "愛國村",
+      "village_en": "Aiguo Village",
+      "votes": {
+        "1": 176,
+        "2": 209
+      },
+      "valid_votes": 385,
+      "invalid_votes": 21,
+      "ballots_cast": 406,
+      "unreturned_ballots": 0,
+      "electors": 541,
+      "turnout_rate": 75.0462
+    },
+    "NAN-XINYI-ZIQIANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "自強村",
+      "village_en": "Ziqiang Village",
+      "votes": {
+        "1": 279,
+        "2": 262
+      },
+      "valid_votes": 541,
+      "invalid_votes": 34,
+      "ballots_cast": 575,
+      "unreturned_ballots": 0,
+      "electors": 753,
+      "turnout_rate": 76.3612
+    },
+    "NAN-XINYI-LUONA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "羅娜村",
+      "village_en": "Luona Village",
+      "votes": {
+        "1": 140,
+        "2": 688
+      },
+      "valid_votes": 828,
+      "invalid_votes": 44,
+      "ballots_cast": 872,
+      "unreturned_ballots": 0,
+      "electors": 1164,
+      "turnout_rate": 74.9141
+    },
+    "NAN-XINYI-WANGMEI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "望美村",
+      "village_en": "Wangmei Village",
+      "votes": {
+        "1": 336,
+        "2": 610
+      },
+      "valid_votes": 946,
+      "invalid_votes": 29,
+      "ballots_cast": 975,
+      "unreturned_ballots": 0,
+      "electors": 1299,
+      "turnout_rate": 75.0577
+    },
+    "NAN-XINYI-TONGFU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "同富村",
+      "village_en": "Tongfu Village",
+      "votes": {
+        "1": 544,
+        "2": 432
+      },
+      "valid_votes": 976,
+      "invalid_votes": 40,
+      "ballots_cast": 1016,
+      "unreturned_ballots": 0,
+      "electors": 1403,
+      "turnout_rate": 72.4163
+    },
+    "NAN-XINYI-SHENMU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "神木村",
+      "village_en": "Shenmu Village",
+      "votes": {
+        "1": 228,
+        "2": 288
+      },
+      "valid_votes": 516,
+      "invalid_votes": 28,
+      "ballots_cast": 544,
+      "unreturned_ballots": 0,
+      "electors": 756,
+      "turnout_rate": 71.9577
+    },
+    "NAN-XINYI-DONGPU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "東埔村",
+      "village_en": "Dongpu Village",
+      "votes": {
+        "1": 190,
+        "2": 403
+      },
+      "valid_votes": 593,
+      "invalid_votes": 10,
+      "ballots_cast": 603,
+      "unreturned_ballots": 0,
+      "electors": 809,
+      "turnout_rate": 74.5365
+    },
+    "NAN-XINYI-SHUANGLONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "雙龍村",
+      "village_en": "Shuanglong Village",
+      "votes": {
+        "1": 81,
+        "2": 332
+      },
+      "valid_votes": 413,
+      "invalid_votes": 11,
+      "ballots_cast": 424,
+      "unreturned_ballots": 0,
+      "electors": 557,
+      "turnout_rate": 76.1221
+    },
+    "NAN-XINYI-XINXIANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "新鄉村",
+      "village_en": "Xinxiang Village",
+      "votes": {
+        "1": 74,
+        "2": 289
+      },
+      "valid_votes": 363,
+      "invalid_votes": 11,
+      "ballots_cast": 374,
+      "unreturned_ballots": 0,
+      "electors": 470,
+      "turnout_rate": 79.5745
+    },
+    "NAN-XINYI-FENGQIU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "信義鄉",
+      "township_en": "Xinyi Township",
+      "village_zh": "豐丘村",
+      "village_en": "Fengqiu Village",
+      "votes": {
+        "1": 186,
+        "2": 239
+      },
+      "valid_votes": 425,
+      "invalid_votes": 27,
+      "ballots_cast": 452,
+      "unreturned_ballots": 0,
+      "electors": 583,
+      "turnout_rate": 77.53
+    },
+    "NAN-RENAI-FAZHI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "法治村",
+      "village_en": "Fazhi Village",
+      "votes": {
+        "1": 52,
+        "2": 373
+      },
+      "valid_votes": 425,
+      "invalid_votes": 6,
+      "ballots_cast": 431,
+      "unreturned_ballots": 0,
+      "electors": 603,
+      "turnout_rate": 71.476
+    },
+    "NAN-RENAI-ZHONGZHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "中正村",
+      "village_en": "Zhongzheng Village",
+      "votes": {
+        "1": 38,
+        "2": 501
+      },
+      "valid_votes": 539,
+      "invalid_votes": 4,
+      "ballots_cast": 543,
+      "unreturned_ballots": 0,
+      "electors": 710,
+      "turnout_rate": 76.4789
+    },
+    "NAN-RENAI-HUZHU": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "互助村",
+      "village_en": "Huzhu Village",
+      "votes": {
+        "1": 66,
+        "2": 671
+      },
+      "valid_votes": 737,
+      "invalid_votes": 24,
+      "ballots_cast": 761,
+      "unreturned_ballots": 0,
+      "electors": 959,
+      "turnout_rate": 79.3535
+    },
+    "NAN-RENAI-XINSHENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "新生村",
+      "village_en": "Xinsheng Village",
+      "votes": {
+        "1": 27,
+        "2": 234
+      },
+      "valid_votes": 261,
+      "invalid_votes": 10,
+      "ballots_cast": 271,
+      "unreturned_ballots": 0,
+      "electors": 327,
+      "turnout_rate": 82.8746
+    },
+    "NAN-RENAI-LIXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "力行村",
+      "village_en": "Lixing Village",
+      "votes": {
+        "1": 64,
+        "2": 271
+      },
+      "valid_votes": 335,
+      "invalid_votes": 13,
+      "ballots_cast": 348,
+      "unreturned_ballots": 0,
+      "electors": 478,
+      "turnout_rate": 72.8033
+    },
+    "NAN-RENAI-FAXIANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "發祥村",
+      "village_en": "Faxiang Village",
+      "votes": {
+        "1": 53,
+        "2": 419
+      },
+      "valid_votes": 472,
+      "invalid_votes": 16,
+      "ballots_cast": 488,
+      "unreturned_ballots": 0,
+      "electors": 721,
+      "turnout_rate": 67.6838
+    },
+    "NAN-RENAI-HEZUO": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "合作村",
+      "village_en": "Hezuo Village",
+      "votes": {
+        "1": 58,
+        "2": 332
+      },
+      "valid_votes": 390,
+      "invalid_votes": 18,
+      "ballots_cast": 408,
+      "unreturned_ballots": 0,
+      "electors": 537,
+      "turnout_rate": 75.9777
+    },
+    "NAN-RENAI-QINAI": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "親愛村",
+      "village_en": "Qinai Village",
+      "votes": {
+        "1": 84,
+        "2": 698
+      },
+      "valid_votes": 782,
+      "invalid_votes": 22,
+      "ballots_cast": 804,
+      "unreturned_ballots": 0,
+      "electors": 1071,
+      "turnout_rate": 75.07
+    },
+    "NAN-RENAI-DATONG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "大同村",
+      "village_en": "Datong Village",
+      "votes": {
+        "1": 263,
+        "2": 816
+      },
+      "valid_votes": 1079,
+      "invalid_votes": 36,
+      "ballots_cast": 1115,
+      "unreturned_ballots": 0,
+      "electors": 1464,
+      "turnout_rate": 76.1612
+    },
+    "NAN-RENAI-NANFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "南豐村",
+      "village_en": "Nanfeng Village",
+      "votes": {
+        "1": 184,
+        "2": 626
+      },
+      "valid_votes": 810,
+      "invalid_votes": 40,
+      "ballots_cast": 850,
+      "unreturned_ballots": 0,
+      "electors": 1120,
+      "turnout_rate": 75.8929
+    },
+    "NAN-RENAI-CHUNYANG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "春陽村",
+      "village_en": "Chunyang Village",
+      "votes": {
+        "1": 96,
+        "2": 575
+      },
+      "valid_votes": 671,
+      "invalid_votes": 8,
+      "ballots_cast": 679,
+      "unreturned_ballots": 0,
+      "electors": 844,
+      "turnout_rate": 80.4502
+    },
+    "NAN-RENAI-JINGYING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "精英村",
+      "village_en": "Jingying Village",
+      "votes": {
+        "1": 88,
+        "2": 846
+      },
+      "valid_votes": 934,
+      "invalid_votes": 21,
+      "ballots_cast": 955,
+      "unreturned_ballots": 0,
+      "electors": 1239,
+      "turnout_rate": 77.0783
+    },
+    "NAN-RENAI-WANFENG": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "萬豐村",
+      "village_en": "Wanfeng Village",
+      "votes": {
+        "1": 47,
+        "2": 333
+      },
+      "valid_votes": 380,
+      "invalid_votes": 8,
+      "ballots_cast": 388,
+      "unreturned_ballots": 0,
+      "electors": 531,
+      "turnout_rate": 73.0697
+    },
+    "NAN-RENAI-RONGXING": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "榮興村",
+      "village_en": "Rongxing Village",
+      "votes": {
+        "1": 8,
+        "2": 53
+      },
+      "valid_votes": 61,
+      "invalid_votes": 1,
+      "ballots_cast": 62,
+      "unreturned_ballots": 0,
+      "electors": 83,
+      "turnout_rate": 74.6988
+    },
+    "NAN-RENAI-CUIHUA": {
+      "county_zh": "南投縣",
+      "county_en": "Nantou County",
+      "township_zh": "仁愛鄉",
+      "township_en": "Renai Township",
+      "village_zh": "翠華村",
+      "village_en": "Cuihua Village",
+      "votes": {
+        "1": 79,
+        "2": 263
+      },
+      "valid_votes": 342,
+      "invalid_votes": 23,
+      "ballots_cast": 365,
+      "unreturned_ballots": 0,
+      "electors": 545,
+      "turnout_rate": 66.9725
+    }
+  }
+}

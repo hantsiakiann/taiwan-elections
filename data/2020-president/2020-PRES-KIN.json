@@ -1,0 +1,926 @@
+{
+  "election_id": "2020-president",
+  "election_type": "president",
+  "source_file": "2020-PRES-KIN.xls",
+  "county_zh": "金門縣",
+  "county_en": "Kinmen County",
+  "county_iso": "KIN",
+  "candidates": {
+    "1": {
+      "name_zh": "宋楚瑜",
+      "running_mate_zh": "余湘",
+      "party_zh": "親民黨",
+      "party_en": "PFP"
+    },
+    "2": {
+      "name_zh": "韓國瑜",
+      "running_mate_zh": "張善政",
+      "party_zh": "中國國民黨",
+      "party_en": "KMT"
+    },
+    "3": {
+      "name_zh": "蔡英文",
+      "running_mate_zh": "賴清德",
+      "party_zh": "民主進步黨",
+      "party_en": "DPP"
+    }
+  },
+  "county_total": {
+    "votes": {
+      "1": 1636,
+      "2": 35948,
+      "3": 10456
+    },
+    "valid_votes": 48040,
+    "invalid_votes": 423,
+    "ballots_cast": 48463,
+    "unreturned_ballots": 0,
+    "ballots_issued": 48463,
+    "unused_ballots": 72258,
+    "electors": 120721,
+    "turnout_rate": 40.1446
+  },
+  "townships": {
+    "KIN-JINCHENG": {
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "votes": {
+        "1": 505,
+        "2": 11492,
+        "3": 3170
+      },
+      "valid_votes": 15167,
+      "invalid_votes": 128,
+      "ballots_cast": 15295,
+      "unreturned_ballots": 0,
+      "ballots_issued": 15295,
+      "unused_ballots": 21793,
+      "electors": 37088,
+      "turnout_rate": 41.2398
+    },
+    "KIN-JINSHA": {
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "votes": {
+        "1": 185,
+        "2": 5736,
+        "3": 1198
+      },
+      "valid_votes": 7119,
+      "invalid_votes": 72,
+      "ballots_cast": 7191,
+      "unreturned_ballots": 0,
+      "ballots_issued": 7191,
+      "unused_ballots": 11143,
+      "electors": 18334,
+      "turnout_rate": 39.2222
+    },
+    "KIN-JINHU": {
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "votes": {
+        "1": 415,
+        "2": 8121,
+        "3": 2274
+      },
+      "valid_votes": 10810,
+      "invalid_votes": 87,
+      "ballots_cast": 10897,
+      "unreturned_ballots": 0,
+      "ballots_issued": 10897,
+      "unused_ballots": 14960,
+      "electors": 25857,
+      "turnout_rate": 42.1433
+    },
+    "KIN-JINNING": {
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "votes": {
+        "1": 437,
+        "2": 7535,
+        "3": 3161
+      },
+      "valid_votes": 11133,
+      "invalid_votes": 111,
+      "ballots_cast": 11244,
+      "unreturned_ballots": 0,
+      "ballots_issued": 11244,
+      "unused_ballots": 16241,
+      "electors": 27485,
+      "turnout_rate": 40.9096
+    },
+    "KIN-LIEYU": {
+      "township_zh": "烈嶼鄉",
+      "township_en": "Lieyu Township",
+      "votes": {
+        "1": 92,
+        "2": 2968,
+        "3": 638
+      },
+      "valid_votes": 3698,
+      "invalid_votes": 24,
+      "ballots_cast": 3722,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3722,
+      "unused_ballots": 7694,
+      "electors": 11416,
+      "turnout_rate": 32.6034
+    },
+    "KIN-WUQIU": {
+      "township_zh": "烏坵鄉",
+      "township_en": "Wuqiu Township",
+      "votes": {
+        "1": 2,
+        "2": 96,
+        "3": 15
+      },
+      "valid_votes": 113,
+      "invalid_votes": 1,
+      "ballots_cast": 114,
+      "unreturned_ballots": 0,
+      "ballots_issued": 114,
+      "unused_ballots": 427,
+      "electors": 541,
+      "turnout_rate": 21.0721
+    }
+  },
+  "villages": {
+    "KIN-JINCHENG-DONGMEN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "東門里",
+      "village_en": "Dongmen Village",
+      "votes": {
+        "1": 65,
+        "2": 1579,
+        "3": 421
+      },
+      "valid_votes": 2065,
+      "invalid_votes": 18,
+      "ballots_cast": 2083,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2083,
+      "unused_ballots": 2705,
+      "electors": 4788,
+      "turnout_rate": 43.5046
+    },
+    "KIN-JINCHENG-NANMEN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "南門里",
+      "village_en": "Nanmen Village",
+      "votes": {
+        "1": 87,
+        "2": 1638,
+        "3": 464
+      },
+      "valid_votes": 2189,
+      "invalid_votes": 18,
+      "ballots_cast": 2207,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2207,
+      "unused_ballots": 3060,
+      "electors": 5267,
+      "turnout_rate": 41.9024
+    },
+    "KIN-JINCHENG-XIMEN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "西門里",
+      "village_en": "Ximen Village",
+      "votes": {
+        "1": 131,
+        "2": 3036,
+        "3": 846
+      },
+      "valid_votes": 4013,
+      "invalid_votes": 31,
+      "ballots_cast": 4044,
+      "unreturned_ballots": 0,
+      "ballots_issued": 4044,
+      "unused_ballots": 5434,
+      "electors": 9478,
+      "turnout_rate": 42.6672
+    },
+    "KIN-JINCHENG-BEIMEN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "北門里",
+      "village_en": "Beimen Village",
+      "votes": {
+        "1": 55,
+        "2": 1330,
+        "3": 327
+      },
+      "valid_votes": 1712,
+      "invalid_votes": 19,
+      "ballots_cast": 1731,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1731,
+      "unused_ballots": 2438,
+      "electors": 4169,
+      "turnout_rate": 41.5207
+    },
+    "KIN-JINCHENG-XIANAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "賢庵里",
+      "village_en": "Xianan Village",
+      "votes": {
+        "1": 56,
+        "2": 1350,
+        "3": 434
+      },
+      "valid_votes": 1840,
+      "invalid_votes": 14,
+      "ballots_cast": 1854,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1854,
+      "unused_ballots": 2741,
+      "electors": 4595,
+      "turnout_rate": 40.3482
+    },
+    "KIN-JINCHENG-JINSHUI": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "金水里",
+      "village_en": "Jinshui Village",
+      "votes": {
+        "1": 30,
+        "2": 663,
+        "3": 182
+      },
+      "valid_votes": 875,
+      "invalid_votes": 12,
+      "ballots_cast": 887,
+      "unreturned_ballots": 0,
+      "ballots_issued": 887,
+      "unused_ballots": 1271,
+      "electors": 2158,
+      "turnout_rate": 41.1029
+    },
+    "KIN-JINCHENG-GUCHENG": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "古城里",
+      "village_en": "Gucheng Village",
+      "votes": {
+        "1": 48,
+        "2": 1107,
+        "3": 269
+      },
+      "valid_votes": 1424,
+      "invalid_votes": 11,
+      "ballots_cast": 1435,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1435,
+      "unused_ballots": 2411,
+      "electors": 3846,
+      "turnout_rate": 37.3115
+    },
+    "KIN-JINCHENG-ZHUSHA": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金城鎮",
+      "township_en": "Jincheng Township",
+      "village_zh": "珠沙里",
+      "village_en": "Zhusha Village",
+      "votes": {
+        "1": 33,
+        "2": 789,
+        "3": 227
+      },
+      "valid_votes": 1049,
+      "invalid_votes": 5,
+      "ballots_cast": 1054,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1054,
+      "unused_ballots": 1733,
+      "electors": 2787,
+      "turnout_rate": 37.8184
+    },
+    "KIN-JINSHA-WENSHA": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "汶沙里",
+      "village_en": "Wensha Village",
+      "votes": {
+        "1": 64,
+        "2": 1619,
+        "3": 383
+      },
+      "valid_votes": 2066,
+      "invalid_votes": 22,
+      "ballots_cast": 2088,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2088,
+      "unused_ballots": 3036,
+      "electors": 5124,
+      "turnout_rate": 40.7494
+    },
+    "KIN-JINSHA-HEDOU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "何斗里",
+      "village_en": "Hedou Village",
+      "votes": {
+        "1": 27,
+        "2": 619,
+        "3": 104
+      },
+      "valid_votes": 750,
+      "invalid_votes": 9,
+      "ballots_cast": 759,
+      "unreturned_ballots": 0,
+      "ballots_issued": 759,
+      "unused_ballots": 1212,
+      "electors": 1971,
+      "turnout_rate": 38.5084
+    },
+    "KIN-JINSHA-PUSHAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "浦山里",
+      "village_en": "Pushan Village",
+      "votes": {
+        "1": 17,
+        "2": 719,
+        "3": 164
+      },
+      "valid_votes": 900,
+      "invalid_votes": 10,
+      "ballots_cast": 910,
+      "unreturned_ballots": 0,
+      "ballots_issued": 910,
+      "unused_ballots": 1393,
+      "electors": 2303,
+      "turnout_rate": 39.5137
+    },
+    "KIN-JINSHA-XIYUAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "西園里",
+      "village_en": "Xiyuan Village",
+      "votes": {
+        "1": 12,
+        "2": 441,
+        "3": 77
+      },
+      "valid_votes": 530,
+      "invalid_votes": 5,
+      "ballots_cast": 535,
+      "unreturned_ballots": 0,
+      "ballots_issued": 535,
+      "unused_ballots": 992,
+      "electors": 1527,
+      "turnout_rate": 35.036
+    },
+    "KIN-JINSHA-GUANYU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "官嶼里",
+      "village_en": "Guanyu Village",
+      "votes": {
+        "1": 12,
+        "2": 658,
+        "3": 104
+      },
+      "valid_votes": 774,
+      "invalid_votes": 13,
+      "ballots_cast": 787,
+      "unreturned_ballots": 0,
+      "ballots_issued": 787,
+      "unused_ballots": 1371,
+      "electors": 2158,
+      "turnout_rate": 36.469
+    },
+    "KIN-JINSHA-SANSHAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "三山里",
+      "village_en": "Sanshan Village",
+      "votes": {
+        "1": 16,
+        "2": 577,
+        "3": 121
+      },
+      "valid_votes": 714,
+      "invalid_votes": 6,
+      "ballots_cast": 720,
+      "unreturned_ballots": 0,
+      "ballots_issued": 720,
+      "unused_ballots": 1186,
+      "electors": 1906,
+      "turnout_rate": 37.7754
+    },
+    "KIN-JINSHA-DAYANG": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "大洋里",
+      "village_en": "Dayang Village",
+      "votes": {
+        "1": 11,
+        "2": 375,
+        "3": 75
+      },
+      "valid_votes": 461,
+      "invalid_votes": 2,
+      "ballots_cast": 463,
+      "unreturned_ballots": 0,
+      "ballots_issued": 463,
+      "unused_ballots": 656,
+      "electors": 1119,
+      "turnout_rate": 41.3762
+    },
+    "KIN-JINSHA-GUANGQIAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金沙鎮",
+      "township_en": "Jinsha Township",
+      "village_zh": "光前里",
+      "village_en": "Guangqian Village",
+      "votes": {
+        "1": 26,
+        "2": 728,
+        "3": 170
+      },
+      "valid_votes": 924,
+      "invalid_votes": 5,
+      "ballots_cast": 929,
+      "unreturned_ballots": 0,
+      "ballots_issued": 929,
+      "unused_ballots": 1297,
+      "electors": 2226,
+      "turnout_rate": 41.7341
+    },
+    "KIN-JINHU-XINSHI": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "新市里",
+      "village_en": "Xinshi Village",
+      "votes": {
+        "1": 87,
+        "2": 1438,
+        "3": 381
+      },
+      "valid_votes": 1906,
+      "invalid_votes": 14,
+      "ballots_cast": 1920,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1920,
+      "unused_ballots": 2340,
+      "electors": 4260,
+      "turnout_rate": 45.0704
+    },
+    "KIN-JINHU-SHANWAI": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "山外里",
+      "village_en": "Shanwai Village",
+      "votes": {
+        "1": 56,
+        "2": 1007,
+        "3": 264
+      },
+      "valid_votes": 1327,
+      "invalid_votes": 18,
+      "ballots_cast": 1345,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1345,
+      "unused_ballots": 1848,
+      "electors": 3193,
+      "turnout_rate": 42.1234
+    },
+    "KIN-JINHU-XIHU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "溪湖里",
+      "village_en": "Xihu Village",
+      "votes": {
+        "1": 14,
+        "2": 425,
+        "3": 86
+      },
+      "valid_votes": 525,
+      "invalid_votes": 3,
+      "ballots_cast": 528,
+      "unreturned_ballots": 0,
+      "ballots_issued": 528,
+      "unused_ballots": 937,
+      "electors": 1465,
+      "turnout_rate": 36.041
+    },
+    "KIN-JINHU-LIANAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "蓮庵里",
+      "village_en": "Lianan Village",
+      "votes": {
+        "1": 20,
+        "2": 532,
+        "3": 119
+      },
+      "valid_votes": 671,
+      "invalid_votes": 7,
+      "ballots_cast": 678,
+      "unreturned_ballots": 0,
+      "ballots_issued": 678,
+      "unused_ballots": 945,
+      "electors": 1623,
+      "turnout_rate": 41.7745
+    },
+    "KIN-JINHU-LIAOLUO": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "料羅里",
+      "village_en": "Liaoluo Village",
+      "votes": {
+        "1": 29,
+        "2": 612,
+        "3": 160
+      },
+      "valid_votes": 801,
+      "invalid_votes": 9,
+      "ballots_cast": 810,
+      "unreturned_ballots": 0,
+      "ballots_issued": 810,
+      "unused_ballots": 1176,
+      "electors": 1986,
+      "turnout_rate": 40.7855
+    },
+    "KIN-JINHU-XINHU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "新湖里",
+      "village_en": "Xinhu Village",
+      "votes": {
+        "1": 140,
+        "2": 2331,
+        "3": 874
+      },
+      "valid_votes": 3345,
+      "invalid_votes": 19,
+      "ballots_cast": 3364,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3364,
+      "unused_ballots": 4303,
+      "electors": 7667,
+      "turnout_rate": 43.8764
+    },
+    "KIN-JINHU-ZHENGYI": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "正義里",
+      "village_en": "Zhengyi Village",
+      "votes": {
+        "1": 31,
+        "2": 794,
+        "3": 185
+      },
+      "valid_votes": 1010,
+      "invalid_votes": 7,
+      "ballots_cast": 1017,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1017,
+      "unused_ballots": 1573,
+      "electors": 2590,
+      "turnout_rate": 39.2664
+    },
+    "KIN-JINHU-QIONGLIN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金湖鎮",
+      "township_en": "Jinhu Township",
+      "village_zh": "瓊林里",
+      "village_en": "Qionglin Village",
+      "votes": {
+        "1": 38,
+        "2": 982,
+        "3": 205
+      },
+      "valid_votes": 1225,
+      "invalid_votes": 10,
+      "ballots_cast": 1235,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1235,
+      "unused_ballots": 1838,
+      "electors": 3073,
+      "turnout_rate": 40.1887
+    },
+    "KIN-JINNING-GUNING": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "village_zh": "古寧村",
+      "village_en": "Guning Village",
+      "votes": {
+        "1": 26,
+        "2": 891,
+        "3": 201
+      },
+      "valid_votes": 1118,
+      "invalid_votes": 9,
+      "ballots_cast": 1127,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1127,
+      "unused_ballots": 2118,
+      "electors": 3245,
+      "turnout_rate": 34.7304
+    },
+    "KIN-JINNING-ANMEI": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "village_zh": "安美村",
+      "village_en": "Anmei Village",
+      "votes": {
+        "1": 76,
+        "2": 1330,
+        "3": 446
+      },
+      "valid_votes": 1852,
+      "invalid_votes": 25,
+      "ballots_cast": 1877,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1877,
+      "unused_ballots": 2918,
+      "electors": 4795,
+      "turnout_rate": 39.1449
+    },
+    "KIN-JINNING-HUPU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "village_zh": "湖埔村",
+      "village_en": "Hupu Village",
+      "votes": {
+        "1": 140,
+        "2": 1884,
+        "3": 975
+      },
+      "valid_votes": 2999,
+      "invalid_votes": 29,
+      "ballots_cast": 3028,
+      "unreturned_ballots": 0,
+      "ballots_issued": 3028,
+      "unused_ballots": 3795,
+      "electors": 6823,
+      "turnout_rate": 44.3793
+    },
+    "KIN-JINNING-BANGLIN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "village_zh": "榜林村",
+      "village_en": "Banglin Village",
+      "votes": {
+        "1": 59,
+        "2": 1459,
+        "3": 460
+      },
+      "valid_votes": 1978,
+      "invalid_votes": 18,
+      "ballots_cast": 1996,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1996,
+      "unused_ballots": 3089,
+      "electors": 5085,
+      "turnout_rate": 39.2527
+    },
+    "KIN-JINNING-PANSHAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "village_zh": "盤山村",
+      "village_en": "Panshan Village",
+      "votes": {
+        "1": 123,
+        "2": 1517,
+        "3": 988
+      },
+      "valid_votes": 2628,
+      "invalid_votes": 27,
+      "ballots_cast": 2655,
+      "unreturned_ballots": 0,
+      "ballots_issued": 2655,
+      "unused_ballots": 3339,
+      "electors": 5994,
+      "turnout_rate": 44.2943
+    },
+    "KIN-JINNING-HOUPAN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "金寧鄉",
+      "township_en": "Jinning Township",
+      "village_zh": "后盤村",
+      "village_en": "Houpan Village",
+      "votes": {
+        "1": 13,
+        "2": 454,
+        "3": 91
+      },
+      "valid_votes": 558,
+      "invalid_votes": 3,
+      "ballots_cast": 561,
+      "unreturned_ballots": 0,
+      "ballots_issued": 561,
+      "unused_ballots": 982,
+      "electors": 1543,
+      "turnout_rate": 36.3577
+    },
+    "KIN-LIEYU-LINHU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烈嶼鄉",
+      "township_en": "Lieyu Township",
+      "village_zh": "林湖村",
+      "village_en": "Linhu Village",
+      "votes": {
+        "1": 34,
+        "2": 975,
+        "3": 189
+      },
+      "valid_votes": 1198,
+      "invalid_votes": 6,
+      "ballots_cast": 1204,
+      "unreturned_ballots": 0,
+      "ballots_issued": 1204,
+      "unused_ballots": 2102,
+      "electors": 3306,
+      "turnout_rate": 36.4186
+    },
+    "KIN-LIEYU-HUANGPU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烈嶼鄉",
+      "township_en": "Lieyu Township",
+      "village_zh": "黃埔村",
+      "village_en": "Huangpu Village",
+      "votes": {
+        "1": 6,
+        "2": 394,
+        "3": 93
+      },
+      "valid_votes": 493,
+      "invalid_votes": 2,
+      "ballots_cast": 495,
+      "unreturned_ballots": 0,
+      "ballots_issued": 495,
+      "unused_ballots": 1092,
+      "electors": 1587,
+      "turnout_rate": 31.1909
+    },
+    "KIN-LIEYU-XIKOU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烈嶼鄉",
+      "township_en": "Lieyu Township",
+      "village_zh": "西口村",
+      "village_en": "Xikou Village",
+      "votes": {
+        "1": 15,
+        "2": 531,
+        "3": 144
+      },
+      "valid_votes": 690,
+      "invalid_votes": 3,
+      "ballots_cast": 693,
+      "unreturned_ballots": 0,
+      "ballots_issued": 693,
+      "unused_ballots": 1671,
+      "electors": 2364,
+      "turnout_rate": 29.3147
+    },
+    "KIN-LIEYU-SHANGLIN": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烈嶼鄉",
+      "township_en": "Lieyu Township",
+      "village_zh": "上林村",
+      "village_en": "Shanglin Village",
+      "votes": {
+        "1": 13,
+        "2": 340,
+        "3": 62
+      },
+      "valid_votes": 415,
+      "invalid_votes": 7,
+      "ballots_cast": 422,
+      "unreturned_ballots": 0,
+      "ballots_issued": 422,
+      "unused_ballots": 966,
+      "electors": 1388,
+      "turnout_rate": 30.4035
+    },
+    "KIN-LIEYU-SHANGQI": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烈嶼鄉",
+      "township_en": "Lieyu Township",
+      "village_zh": "上岐村",
+      "village_en": "Shangqi Village",
+      "votes": {
+        "1": 24,
+        "2": 728,
+        "3": 150
+      },
+      "valid_votes": 902,
+      "invalid_votes": 6,
+      "ballots_cast": 908,
+      "unreturned_ballots": 0,
+      "ballots_issued": 908,
+      "unused_ballots": 1863,
+      "electors": 2771,
+      "turnout_rate": 32.768
+    },
+    "KIN-WUQIU-DAQIU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烏坵鄉",
+      "township_en": "Wuqiu Township",
+      "village_zh": "大坵村",
+      "village_en": "Daqiu Village",
+      "votes": {
+        "1": 1,
+        "2": 60,
+        "3": 10
+      },
+      "valid_votes": 71,
+      "invalid_votes": 0,
+      "ballots_cast": 71,
+      "unreturned_ballots": 0,
+      "ballots_issued": 71,
+      "unused_ballots": 193,
+      "electors": 264,
+      "turnout_rate": 26.8939
+    },
+    "KIN-WUQIU-XIAOQIU": {
+      "county_zh": "金門縣",
+      "county_en": "Kinmen County",
+      "township_zh": "烏坵鄉",
+      "township_en": "Wuqiu Township",
+      "village_zh": "小坵村",
+      "village_en": "Xiaoqiu Village",
+      "votes": {
+        "1": 1,
+        "2": 36,
+        "3": 5
+      },
+      "valid_votes": 42,
+      "invalid_votes": 1,
+      "ballots_cast": 43,
+      "unreturned_ballots": 0,
+      "ballots_issued": 43,
+      "unused_ballots": 234,
+      "electors": 277,
+      "turnout_rate": 15.5235
+    }
+  }
+}
