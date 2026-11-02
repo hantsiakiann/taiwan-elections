@@ -1,4 +1,2054 @@
 {
+ "2014|28|fundamentals only": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.5316,
+    "correct": true,
+    "brier": 0.43879712000000004,
+    "logloss": 0.6318639521430469,
+    "share_err_pts": -7.506526799249347,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.52,
+    "correct": true,
+    "brier": 0.4608,
+    "logloss": 0.6539264674066639,
+    "share_err_pts": 0.18254201680123483,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.4049,
+    "correct": false,
+    "brier": 0.7082880199999999,
+    "logloss": 0.9041151559440217,
+    "share_err_pts": -3.3832739716418034,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.5266,
+    "correct": true,
+    "brier": 0.44821512,
+    "logloss": 0.6413140319199281,
+    "share_err_pts": -6.531644120931556,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9836,
+    "correct": true,
+    "brier": 0.000537919999999999,
+    "logloss": 0.01653596864009952,
+    "share_err_pts": -6.815644656211861,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9658,
+    "correct": true,
+    "brier": 0.002339280000000001,
+    "logloss": 0.03479850554269554,
+    "share_err_pts": -4.586900262078942,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.4696,
+    "correct": false,
+    "brier": 0.56264832,
+    "logloss": 0.7558740104682503,
+    "share_err_pts": -16.48048224775905,
+    "in_80": false
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.944,
+    "correct": true,
+    "brier": 0.006272000000000006,
+    "logloss": 0.057629112836636416,
+    "share_err_pts": -1.5882825371997589,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.6789,
+    "correct": true,
+    "brier": 0.20621042000000003,
+    "logloss": 0.38728143767453577
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.3215,
+    "correct": false,
+    "brier": 0.9207245,
+    "logloss": 1.1347577353044629
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.7607,
+    "correct": true,
+    "brier": 0.11452897999999999,
+    "logloss": 0.2735162169788815,
+    "share_err_pts": 6.424134699433109,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6527,
+    "correct": true,
+    "brier": 0.24123458000000003,
+    "logloss": 0.4266376733409654,
+    "share_err_pts": -4.456693332402306,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.4326,
+    "correct": false,
+    "brier": 0.64388552,
+    "logloss": 0.8379417654631787,
+    "share_err_pts": 2.336185695391663,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9646,
+    "correct": true,
+    "brier": 0.0025063199999999994,
+    "logloss": 0.036041771347265536,
+    "share_err_pts": 6.917570783002702,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9774,
+    "correct": true,
+    "brier": 0.001021519999999998,
+    "logloss": 0.022859294146082558,
+    "share_err_pts": 0.46443065945347417,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.7542,
+    "correct": true,
+    "brier": 0.12083528,
+    "logloss": 0.28209769415788033,
+    "share_err_pts": 2.3427653451481123,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9301,
+    "correct": true,
+    "brier": 0.009772019999999996,
+    "logloss": 0.07246317173371573,
+    "share_err_pts": -1.5215921418949674,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 0.3138,
+    "correct": false,
+    "brier": 0.94174088,
+    "logloss": 1.1589994386832048
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.7211,
+    "correct": true,
+    "brier": 0.15557042000000001,
+    "logloss": 0.32697745505942327,
+    "share_err_pts": -0.5468154341162434,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.3169,
+    "correct": false,
+    "brier": 0.9332512200000002,
+    "logloss": 1.149169012285262
+   }
+  ],
+  "nat_projected": 0.5537099373877539,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.9028,
+  "dpp_seats_80": [
+   7,
+   15
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 1
+ },
+ "2014|28|current model": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.8994,
+    "correct": true,
+    "brier": 0.020240720000000004,
+    "logloss": 0.10602740464553005,
+    "share_err_pts": -2.7571053829915204,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9313,
+    "correct": true,
+    "brier": 0.009439379999999997,
+    "logloss": 0.0711738194545249,
+    "share_err_pts": -6.583924341790926,
+    "in_80": false
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.0522,
+    "correct": false,
+    "brier": 1.7966496799999998,
+    "logloss": 2.952672784093544,
+    "share_err_pts": -9.540314296959085,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.9158,
+    "correct": true,
+    "brier": 0.01417928000000001,
+    "logloss": 0.08795727875914203,
+    "share_err_pts": -0.8529789295068313,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 3.9309785914284023,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 3.947073297933079,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9853,
+    "correct": true,
+    "brier": 0.00033098000000000133,
+    "logloss": 0.014809115653708226,
+    "share_err_pts": -4.506475115966991,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9929,
+    "correct": true,
+    "brier": 0.00010081999999999995,
+    "logloss": 0.007125324942588627,
+    "share_err_pts": 3.0677997094480824,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.0916,
+    "correct": false,
+    "brier": 1.59699872,
+    "logloss": 2.3903240073020524
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.8636,
+    "correct": true,
+    "brier": 0.03592121999999999,
+    "logloss": 0.14664558034148473,
+    "share_err_pts": 4.067950878336007,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6063,
+    "correct": true,
+    "brier": 0.30999938000000005,
+    "logloss": 0.5003803659044521,
+    "share_err_pts": -6.275853278992605,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.6053,
+    "correct": true,
+    "brier": 0.31157618000000004,
+    "logloss": 0.5020310760844956,
+    "share_err_pts": -0.2893740461337335,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9813,
+    "correct": true,
+    "brier": 0.0006993800000000019,
+    "logloss": 0.018877055769689184,
+    "share_err_pts": 4.425039637414352,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9987,
+    "correct": true,
+    "brier": 3.3799999999999164e-06,
+    "logloss": 0.0013008457330480696,
+    "share_err_pts": 5.4444636189194595,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.5075,
+    "correct": true,
+    "brier": 0.48511250000000006,
+    "logloss": 0.6782585680661948,
+    "share_err_pts": -2.944003287233421,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9991,
+    "correct": true,
+    "brier": 1.6200000000000213e-06,
+    "logloss": 0.0009004052431641551,
+    "share_err_pts": 4.6033725231933715,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.8101,
+    "correct": true,
+    "brier": 0.07212401999999998,
+    "logloss": 0.21059758214569144,
+    "share_err_pts": -0.7501419800464704,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.005,
+    "correct": false,
+    "brier": 1.98005,
+    "logloss": 4.605170185988091
+   }
+  ],
+  "nat_projected": 0.5705346204794207,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.5357,
+  "dpp_seats_80": [
+   9,
+   12
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 96
+ },
+ "2014|28|2-pt DPP penalty (prev.)": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.7595,
+    "correct": true,
+    "brier": 0.11568050000000002,
+    "logloss": 0.2750949569463096,
+    "share_err_pts": -4.976506691159043,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9535,
+    "correct": true,
+    "brier": 0.0043244999999999985,
+    "logloss": 0.04761585394166328,
+    "share_err_pts": -8.037491211219722,
+    "in_80": false
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.0306,
+    "correct": false,
+    "brier": 1.87947272,
+    "logloss": 3.486755270023802,
+    "share_err_pts": -11.103186034202789,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.7934,
+    "correct": true,
+    "brier": 0.08536712,
+    "logloss": 0.2314277709019073,
+    "share_err_pts": -3.1949975309268575,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 2.024890752065911,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 1.8758835626677794,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9414,
+    "correct": true,
+    "brier": 0.006127759999999999,
+    "logloss": 0.06038715001509513,
+    "share_err_pts": -7.180281627035889,
+    "in_80": false
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9846,
+    "correct": true,
+    "brier": 0.0004743199999999991,
+    "logloss": 0.015519811658036807,
+    "share_err_pts": 1.2160206842757315,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.0529,
+    "correct": false,
+    "brier": 1.74609962,
+    "logloss": 2.9393519401178834
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.9065,
+    "correct": true,
+    "brier": 0.016666620000000007,
+    "logloss": 0.09816424878723133,
+    "share_err_pts": 2.180590301268681,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.4523,
+    "correct": false,
+    "brier": 0.59995058,
+    "logloss": 0.7934096024983396,
+    "share_err_pts": -8.16779934535678,
+    "in_80": false
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.7301,
+    "correct": true,
+    "brier": 0.14569202,
+    "logloss": 0.314573767920097,
+    "share_err_pts": -2.1606970665534018,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.953,
+    "correct": true,
+    "brier": 0.0044180000000000035,
+    "logloss": 0.048140375327934984,
+    "share_err_pts": 2.540311972338427,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9976,
+    "correct": true,
+    "brier": 1.1519999999999797e-05,
+    "logloss": 0.002402884616310315,
+    "share_err_pts": 3.7425450749090983,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.3778,
+    "correct": false,
+    "brier": 0.77426568,
+    "logloss": 0.9733903239147278,
+    "share_err_pts": -4.6006007614541655,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9957,
+    "correct": true,
+    "brier": 3.6979999999999744e-05,
+    "logloss": 0.004309271588098403,
+    "share_err_pts": 2.471510528102139,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.6801,
+    "correct": true,
+    "brier": 0.20467201999999998,
+    "logloss": 0.385515432800544,
+    "share_err_pts": -2.831277352709616,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0074,
+    "correct": false,
+    "brier": 1.9705095200000002,
+    "logloss": 4.605170185988091
+   }
+  ],
+  "nat_projected": 0.5525887785710841,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 9.6647,
+  "dpp_seats_80": [
+   8,
+   11
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 96
+ },
+ "2014|28|calibrated errors": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.7872,
+    "correct": true,
+    "brier": 0.09056768,
+    "logloss": 0.23927293324409338,
+    "share_err_pts": -3.815346828095234,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.8296,
+    "correct": true,
+    "brier": 0.05807232,
+    "logloss": 0.18681162206681948,
+    "share_err_pts": -5.061015410682717,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.141,
+    "correct": false,
+    "brier": 1.475762,
+    "logloss": 1.9589953886039688,
+    "share_err_pts": -8.104871843800327,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.8082,
+    "correct": true,
+    "brier": 0.07357448,
+    "logloss": 0.2129457263377637,
+    "share_err_pts": -2.076159155495183,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 1.9294781219883261,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": 2.1687012189758548,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9207,
+    "correct": true,
+    "brier": 0.011551740000000007,
+    "logloss": 0.08262102868833691,
+    "share_err_pts": -7.100663743757085,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9878,
+    "correct": true,
+    "brier": 0.0002976799999999997,
+    "logloss": 0.012275030875612578,
+    "share_err_pts": 2.3488029067472604,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.1498,
+    "correct": false,
+    "brier": 1.3925295800000002,
+    "logloss": 1.898454207899018
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.8458,
+    "correct": true,
+    "brier": 0.045948239999999994,
+    "logloss": 0.16747235394374885,
+    "share_err_pts": 4.216503061200477,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6159,
+    "correct": true,
+    "brier": 0.29506562,
+    "logloss": 0.48467066628913946,
+    "share_err_pts": -5.836696166321409,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.5448,
+    "correct": true,
+    "brier": 0.41441408,
+    "logloss": 0.6073365241468345,
+    "share_err_pts": 0.3233787906720409,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9722,
+    "correct": true,
+    "brier": 0.0015456800000000024,
+    "logloss": 0.028193734370781983,
+    "share_err_pts": 5.082849056113991,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9977,
+    "correct": true,
+    "brier": 1.0579999999999856e-05,
+    "logloss": 0.002302649062675558,
+    "share_err_pts": 4.633082398141486,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.5951,
+    "correct": true,
+    "brier": 0.32788802,
+    "logloss": 0.5190258203313307,
+    "share_err_pts": -1.5675627143939663,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9952,
+    "correct": true,
+    "brier": 4.608000000000025e-05,
+    "logloss": 0.004811556997222082,
+    "share_err_pts": 3.460460135844645,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.769,
+    "correct": true,
+    "brier": 0.106722,
+    "logloss": 0.26266430947649305,
+    "share_err_pts": -0.7402275970963434,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0259,
+    "correct": false,
+    "brier": 1.89774162,
+    "logloss": 3.653512310276645
+   }
+  ],
+  "nat_projected": 0.5671755708720684,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.7269,
+  "dpp_seats_80": [
+   9,
+   13
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 96
+ },
+ "2014|28|calibrated + pollsters": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.7896,
+    "correct": true,
+    "brier": 0.08853632000000002,
+    "logloss": 0.23622879086286527,
+    "share_err_pts": -3.5291718090908586,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.8111,
+    "correct": true,
+    "brier": 0.07136641999999999,
+    "logloss": 0.20936392790583797,
+    "share_err_pts": -4.6907534788934,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.167,
+    "correct": false,
+    "brier": 1.387778,
+    "logloss": 1.7897614665653818,
+    "share_err_pts": -7.647955435042614,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.8163,
+    "correct": true,
+    "brier": 0.06749137999999999,
+    "logloss": 0.2029733445248267,
+    "share_err_pts": -1.8332916375487063,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 2.2198656631902014,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": 2.337876720013532,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9273,
+    "correct": true,
+    "brier": 0.009662539999999997,
+    "logloss": 0.07547814117595672,
+    "share_err_pts": -6.650742363360484,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9846,
+    "correct": true,
+    "brier": 0.0004743199999999991,
+    "logloss": 0.015519811658036807,
+    "share_err_pts": 2.3790307467477234,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.1665,
+    "correct": false,
+    "brier": 1.3340077799999999,
+    "logloss": 1.7927599695616385
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.8324,
+    "correct": true,
+    "brier": 0.05458506,
+    "logloss": 0.18344218446265767,
+    "share_err_pts": 4.662804081293265,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6364,
+    "correct": true,
+    "brier": 0.26440992,
+    "logloss": 0.4519279825185053,
+    "share_err_pts": -5.4910268501687565,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.5275,
+    "correct": true,
+    "brier": 0.4465125,
+    "logloss": 0.6396064136319155,
+    "share_err_pts": 0.5701586645149137,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9753,
+    "correct": true,
+    "brier": 0.0012201800000000026,
+    "logloss": 0.025010163004167762,
+    "share_err_pts": 5.784736859696316,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9967,
+    "correct": true,
+    "brier": 2.1779999999999798e-05,
+    "logloss": 0.0033054570087264813,
+    "share_err_pts": 4.658557510592198,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.6251,
+    "correct": true,
+    "brier": 0.28110002,
+    "logloss": 0.4698436420443704,
+    "share_err_pts": -1.1073287146916577,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9923,
+    "correct": true,
+    "brier": 0.00011858000000000062,
+    "logloss": 0.0077297980619412685,
+    "share_err_pts": 3.3942761565253776,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.7774,
+    "correct": true,
+    "brier": 0.09910152,
+    "logloss": 0.2518002605640143,
+    "share_err_pts": -0.45537290148126575,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0274,
+    "correct": false,
+    "brier": 1.89190152,
+    "logloss": 3.5972122655881127
+   }
+  ],
+  "nat_projected": 0.5698906189387609,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.8889,
+  "dpp_seats_80": [
+   9,
+   13
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 96
+ },
+ "2014|10|fundamentals only": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.5311,
+    "correct": true,
+    "brier": 0.43973441999999996,
+    "logloss": 0.6328049515537836,
+    "share_err_pts": -7.499975466072084,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.5239,
+    "correct": true,
+    "brier": 0.45334241999999997,
+    "logloss": 0.646454452567963,
+    "share_err_pts": 0.21138610718257622,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.4044,
+    "correct": false,
+    "brier": 0.70947872,
+    "logloss": 0.9053507918358208,
+    "share_err_pts": -3.39222478105633,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.5269,
+    "correct": true,
+    "brier": 0.44764722,
+    "logloss": 0.6407445017668969,
+    "share_err_pts": -6.555390386004712,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9875,
+    "correct": true,
+    "brier": 0.0003124999999999989,
+    "logloss": 0.012578782206860073,
+    "share_err_pts": -6.863545635117485,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9719,
+    "correct": true,
+    "brier": 0.001579220000000001,
+    "logloss": 0.02850236047271215,
+    "share_err_pts": -4.582068356001978,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.4726,
+    "correct": false,
+    "brier": 0.55630152,
+    "logloss": 0.7495059142293296,
+    "share_err_pts": -16.45018677915231,
+    "in_80": false
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9506,
+    "correct": true,
+    "brier": 0.00488072,
+    "logloss": 0.050661914802227995,
+    "share_err_pts": -1.5989984775532595,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.6825,
+    "correct": true,
+    "brier": 0.2016125,
+    "logloss": 0.38199275192302223
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.3163,
+    "correct": false,
+    "brier": 0.9348913799999999,
+    "logloss": 1.1510641486705337
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.7714,
+    "correct": true,
+    "brier": 0.10451592000000001,
+    "logloss": 0.2595482332080097,
+    "share_err_pts": 6.460973620280392,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6567,
+    "correct": true,
+    "brier": 0.23570978000000004,
+    "logloss": 0.42052798578521017,
+    "share_err_pts": -4.4332320662502145,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.4271,
+    "correct": false,
+    "brier": 0.6564288199999999,
+    "logloss": 0.8507371011347162,
+    "share_err_pts": 2.251620957260908,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9694,
+    "correct": true,
+    "brier": 0.0018727199999999974,
+    "logloss": 0.031077955570861397,
+    "share_err_pts": 6.907539986285361,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9814,
+    "correct": true,
+    "brier": 0.000691919999999998,
+    "logloss": 0.01877515532633398,
+    "share_err_pts": 0.39538702249695135,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.7639,
+    "correct": true,
+    "brier": 0.11148641999999999,
+    "logloss": 0.26931838843482303,
+    "share_err_pts": 2.3078058131237422,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9356,
+    "correct": true,
+    "brier": 0.008294720000000002,
+    "logloss": 0.06656724427211311,
+    "share_err_pts": -1.4685778391978377,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 0.3102,
+    "correct": false,
+    "brier": 0.9516480799999999,
+    "logloss": 1.1705380282396987
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.7318,
+    "correct": true,
+    "brier": 0.14386248,
+    "logloss": 0.3122480263970306,
+    "share_err_pts": -0.5754951604429626,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.3136,
+    "correct": false,
+    "brier": 0.94228992,
+    "logloss": 1.1596369905058843
+   }
+  ],
+  "nat_projected": 0.5537099210398148,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.9466,
+  "dpp_seats_80": [
+   7,
+   15
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 1
+ },
+ "2014|10|current model": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.9596,
+    "correct": true,
+    "brier": 0.0032643199999999994,
+    "logloss": 0.041238748016597535,
+    "share_err_pts": -1.7037976283857947,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9708,
+    "correct": true,
+    "brier": 0.0017052800000000002,
+    "logloss": 0.02963480512969074,
+    "share_err_pts": -6.704528855039871,
+    "in_80": false
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.0155,
+    "correct": false,
+    "brier": 1.9384805000000003,
+    "logloss": 4.166915255056936,
+    "share_err_pts": -10.37961385376629,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.9136,
+    "correct": true,
+    "brier": 0.014929920000000006,
+    "logloss": 0.09036244008039132,
+    "share_err_pts": -1.8585846252897054,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 3.5208491002760245,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 3.0397967397801984,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9936,
+    "correct": true,
+    "brier": 6.271999999999951e-05,
+    "logloss": 0.006420567802922695,
+    "share_err_pts": -4.93268220463049,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9933,
+    "correct": true,
+    "brier": 8.978000000000054e-05,
+    "logloss": 0.006722545760826811,
+    "share_err_pts": 2.9289379484226497,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.0527,
+    "correct": false,
+    "brier": 1.7538607400000001,
+    "logloss": 2.9431398234348203
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.8832,
+    "correct": true,
+    "brier": 0.026209280000000005,
+    "logloss": 0.1242036034593062,
+    "share_err_pts": 3.392787779427425,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6257,
+    "correct": true,
+    "brier": 0.28020098,
+    "logloss": 0.4688842559778192,
+    "share_err_pts": -6.258553656309385,
+    "in_80": false
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.6898,
+    "correct": true,
+    "brier": 0.19244808000000002,
+    "logloss": 0.37135357847939654,
+    "share_err_pts": -1.188047031485867,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9817,
+    "correct": true,
+    "brier": 0.0006697799999999994,
+    "logloss": 0.018469516283661322,
+    "share_err_pts": 1.940813262176666,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9988,
+    "correct": true,
+    "brier": 2.879999999999949e-06,
+    "logloss": 0.001200720576518877,
+    "share_err_pts": 5.33868486661474,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.4261,
+    "correct": false,
+    "brier": 0.65872242,
+    "logloss": 0.8530812184762707,
+    "share_err_pts": -3.7866529488627787,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9998,
+    "correct": true,
+    "brier": 7.999999999999119e-08,
+    "logloss": 0.0002000200026670447,
+    "share_err_pts": 2.7729911255499506,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.8079,
+    "correct": true,
+    "brier": 0.07380482000000002,
+    "logloss": 0.2133169904964742,
+    "share_err_pts": -1.164370913644719,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0033,
+    "correct": false,
+    "brier": 1.98682178,
+    "logloss": 4.605170185988091
+   }
+  ],
+  "nat_projected": 0.5647703789726658,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.2601,
+  "dpp_seats_80": [
+   9,
+   12
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 162
+ },
+ "2014|10|2-pt DPP penalty (prev.)": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.8492,
+    "correct": true,
+    "brier": 0.04548128000000001,
+    "logloss": 0.16346054915303607,
+    "share_err_pts": -3.9156743131170124,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9757,
+    "correct": true,
+    "brier": 0.0011809799999999994,
+    "logloss": 0.02460011686823269,
+    "share_err_pts": -8.24241847280991,
+    "in_80": false
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.0104,
+    "correct": false,
+    "brier": 1.9586163200000002,
+    "logloss": 4.56594947283481,
+    "share_err_pts": -11.993895566976509,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.7622,
+    "correct": true,
+    "brier": 0.11309768,
+    "logloss": 0.2715462905423772,
+    "share_err_pts": -4.051934616488461,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 1.6126026943975247,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 1.012343382019798,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9634,
+    "correct": true,
+    "brier": 0.0024836599999999973,
+    "logloss": 0.037286584786016604,
+    "share_err_pts": -7.583430099984156,
+    "in_80": false
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9852,
+    "correct": true,
+    "brier": 0.00043808000000000106,
+    "logloss": 0.01491061273575424,
+    "share_err_pts": 1.1463003990872744,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.0346,
+    "correct": false,
+    "brier": 1.82895902,
+    "logloss": 3.3639015969184585
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.924,
+    "correct": true,
+    "brier": 0.010881779999999994,
+    "logloss": 0.07904320734045285,
+    "share_err_pts": 1.5480847317995872,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.4329,
+    "correct": false,
+    "brier": 0.64320482,
+    "logloss": 0.8372485245342022,
+    "share_err_pts": -8.335124609343126,
+    "in_80": false
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.7991,
+    "correct": true,
+    "brier": 0.08072162,
+    "logloss": 0.2242691846017199,
+    "share_err_pts": -2.913400714659625,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9396,
+    "correct": true,
+    "brier": 0.007296320000000001,
+    "logloss": 0.06230102619737934,
+    "share_err_pts": 0.22007176041013432,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9963,
+    "correct": true,
+    "brier": 2.738000000000027e-05,
+    "logloss": 0.003706861931326512,
+    "share_err_pts": 3.581690810849514,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.3017,
+    "correct": false,
+    "brier": 0.9752457799999998,
+    "logloss": 1.1983221328171216,
+    "share_err_pts": -5.342352080464863,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9975,
+    "correct": true,
+    "brier": 1.2499999999999735e-05,
+    "logloss": 0.002503130218118477,
+    "share_err_pts": 0.6935231600261438,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.6713,
+    "correct": true,
+    "brier": 0.21608738,
+    "logloss": 0.3985391480374312,
+    "share_err_pts": -3.094795979360321,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0051,
+    "correct": false,
+    "brier": 1.97965202,
+    "logloss": 4.605170185988091
+   }
+  ],
+  "nat_projected": 0.5477214717895519,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 9.3916,
+  "dpp_seats_80": [
+   8,
+   11
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 162
+ },
+ "2014|10|calibrated errors": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.8363,
+    "correct": true,
+    "brier": 0.053595379999999984,
+    "logloss": 0.17876787859465693,
+    "share_err_pts": -3.027226247065262,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.8624,
+    "correct": true,
+    "brier": 0.03786751999999999,
+    "logloss": 0.14803607882740427,
+    "share_err_pts": -5.4064962922924344,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.0939,
+    "correct": false,
+    "brier": 1.64203442,
+    "logloss": 2.3655248927679198,
+    "share_err_pts": -8.951561364926036,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.78,
+    "correct": true,
+    "brier": 0.0968,
+    "logloss": 0.2484613592984996,
+    "share_err_pts": -2.7836821097718567,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 1.639132093458262,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": 1.6042944901226486,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9336,
+    "correct": true,
+    "brier": 0.008413440000000003,
+    "logloss": 0.06870719800979085,
+    "share_err_pts": -7.211912611252802,
+    "in_80": false
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9861,
+    "correct": true,
+    "brier": 0.0003864200000000006,
+    "logloss": 0.013997509643853661,
+    "share_err_pts": 2.277895716938416,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.1321,
+    "correct": false,
+    "brier": 1.46796426,
+    "logloss": 2.0241960674538575
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.8661,
+    "correct": true,
+    "brier": 0.034544660000000005,
+    "logloss": 0.14375490364513796,
+    "share_err_pts": 3.608803422630019,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.616,
+    "correct": true,
+    "brier": 0.294912,
+    "logloss": 0.4845083154486173,
+    "share_err_pts": -5.877757641463499,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.5966,
+    "correct": true,
+    "brier": 0.32546312,
+    "logloss": 0.5165084069014889,
+    "share_err_pts": -0.44850861961354127,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9599,
+    "correct": true,
+    "brier": 0.0032160200000000017,
+    "logloss": 0.04092616661264584,
+    "share_err_pts": 2.9683030220022166,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.997,
+    "correct": true,
+    "brier": 1.8000000000000017e-05,
+    "logloss": 0.0030045090202987243,
+    "share_err_pts": 4.531973072617202,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.5406,
+    "correct": true,
+    "brier": 0.42209672,
+    "logloss": 0.6150756451397899,
+    "share_err_pts": -2.4992214275616598,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9949,
+    "correct": true,
+    "brier": 5.201999999999994e-05,
+    "logloss": 0.005113049386823014,
+    "share_err_pts": 1.9321120055862173,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.7596,
+    "correct": true,
+    "brier": 0.11558431999999998,
+    "logloss": 0.27496330004400615,
+    "share_err_pts": -1.024090772886621,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0209,
+    "correct": false,
+    "brier": 1.9172736199999998,
+    "logloss": 3.868006120011372
+   }
+  ],
+  "nat_projected": 0.5623433022424389,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.4634,
+  "dpp_seats_80": [
+   8,
+   13
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 162
+ },
+ "2014|10|calibrated + pollsters": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "G",
+    "p_winner": 0.8533,
+    "correct": true,
+    "brier": 0.043041780000000016,
+    "logloss": 0.15864409343959796,
+    "share_err_pts": -2.571315841332966,
+    "in_80": true
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.8371,
+    "correct": true,
+    "brier": 0.05307282000000001,
+    "logloss": 0.1778117413161264,
+    "share_err_pts": -4.879749257054444,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.1174,
+    "correct": false,
+    "brier": 1.5579655200000002,
+    "logloss": 2.142168371588141,
+    "share_err_pts": -8.232707297346675,
+    "in_80": false
+   },
+   {
+    "race": "TXG",
+    "winner": "G",
+    "p_winner": 0.8029,
+    "correct": true,
+    "brier": 0.07769682000000003,
+    "logloss": 0.2195251057914988,
+    "share_err_pts": -2.3387616591220017,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": 1.9112133611931648,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": 1.887243755378687,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9466,
+    "correct": true,
+    "brier": 0.005381840000000001,
+    "logloss": 0.05487866150998945,
+    "share_err_pts": -6.604031644005815,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "G",
+    "p_winner": 0.9886,
+    "correct": true,
+    "brier": 0.0002599199999999992,
+    "logloss": 0.011465478109278096,
+    "share_err_pts": 2.1924594418870957,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.1411,
+    "correct": false,
+    "brier": 1.43339994,
+    "logloss": 1.9582864201233687
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.8451,
+    "correct": true,
+    "brier": 0.046402260000000015,
+    "logloss": 0.1683003154317005,
+    "share_err_pts": 4.117039616854473,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "G",
+    "p_winner": 0.6444,
+    "correct": true,
+    "brier": 0.25290272,
+    "logloss": 0.43943562767931776,
+    "share_err_pts": -5.426487768903831,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.5623,
+    "correct": true,
+    "brier": 0.38316258,
+    "logloss": 0.575719763683981,
+    "share_err_pts": 0.08618533705281317,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "G",
+    "p_winner": 0.9714,
+    "correct": true,
+    "brier": 0.0016359199999999977,
+    "logloss": 0.029016949070492563,
+    "share_err_pts": 3.785844343520839,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9963,
+    "correct": true,
+    "brier": 2.738000000000027e-05,
+    "logloss": 0.003706861931326512,
+    "share_err_pts": 4.688110653480992,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "G",
+    "p_winner": 0.5673,
+    "correct": true,
+    "brier": 0.37445857999999993,
+    "logloss": 0.5668670146496155,
+    "share_err_pts": -2.080627885022801,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9966,
+    "correct": true,
+    "brier": 2.3119999999999718e-05,
+    "logloss": 0.003405793134832821,
+    "share_err_pts": 2.279831309438163,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "T",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.7825,
+    "correct": true,
+    "brier": 0.09461250000000002,
+    "logloss": 0.2452613565678288,
+    "share_err_pts": -0.5767172790344222,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0211,
+    "correct": false,
+    "brier": 1.91649042,
+    "logloss": 3.858482238500116
+   }
+  ],
+  "nat_projected": 0.5662878974722713,
+  "nat_actual": 0.5819747138662423,
+  "dpp_seats_mean": 10.7052,
+  "dpp_seats_80": [
+   9,
+   13
+  ],
+  "dpp_seats_actual": 14,
+  "n_polls": 162
+ },
  "2018|28|fundamentals only": {
   "rows": [
    {
@@ -221,229 +2271,6 @@
   ],
   "dpp_seats_actual": 6,
   "n_polls": 1
- },
- "2018|28|polls, undecideds dropped": {
-  "rows": [
-   {
-    "race": "TPE",
-    "winner": "T",
-    "p_winner": 0.7504,
-    "correct": true,
-    "brier": 0.12460032000000001,
-    "logloss": 0.28714888129012217
-   },
-   {
-    "race": "NWT",
-    "winner": "B",
-    "p_winner": 0.9904,
-    "correct": true,
-    "brier": 0.000184320000000001,
-    "logloss": 0.00964637705180545,
-    "share_err_pts": -2.422346895085392,
-    "in_80": true
-   },
-   {
-    "race": "TAO",
-    "winner": "G",
-    "p_winner": 0.9995,
-    "correct": true,
-    "brier": 4.999999999999449e-07,
-    "logloss": 0.0005001250416822429,
-    "share_err_pts": 6.612073502727755,
-    "in_80": false
-   },
-   {
-    "race": "TXG",
-    "winner": "B",
-    "p_winner": 0.4561,
-    "correct": false,
-    "brier": 0.5916544200000001,
-    "logloss": 0.7850431952644823,
-    "share_err_pts": 7.641037334468686,
-    "in_80": false
-   },
-   {
-    "race": "TNN",
-    "winner": "G",
-    "p_winner": 0.9761,
-    "correct": true,
-    "brier": 0.0011424200000000016,
-    "logloss": 0.02419023880121767,
-    "share_err_pts": 12.366583328937775,
-    "in_80": false
-   },
-   {
-    "race": "KHH",
-    "winner": "B",
-    "p_winner": 0.2775,
-    "correct": false,
-    "brier": 1.0440125,
-    "logloss": 1.2819343457956478,
-    "share_err_pts": 7.07144308861799,
-    "in_80": false
-   },
-   {
-    "race": "KEE",
-    "winner": "G",
-    "p_winner": 0.9996,
-    "correct": true,
-    "brier": 3.1999999999996475e-07,
-    "logloss": 0.00040008002133969133,
-    "share_err_pts": 10.271535823776857,
-    "in_80": false
-   },
-   {
-    "race": "ILA",
-    "winner": "B",
-    "p_winner": 0.9569,
-    "correct": true,
-    "brier": 0.0037152200000000026,
-    "logloss": 0.0440563861969199,
-    "share_err_pts": -1.9148237566947723,
-    "in_80": true
-   },
-   {
-    "race": "HSQ",
-    "winner": "B",
-    "p_winner": 0.2869,
-    "correct": false,
-    "brier": 1.01702322,
-    "logloss": 1.248621555994818
-   },
-   {
-    "race": "HSZ",
-    "winner": "G",
-    "p_winner": 0.9999,
-    "correct": true,
-    "brier": 1.9999999999997797e-08,
-    "logloss": 0.00010000500033334732
-   },
-   {
-    "race": "MIA",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -6.691143459524229,
-    "in_80": false
-   },
-   {
-    "race": "CHA",
-    "winner": "B",
-    "p_winner": 0.6667,
-    "correct": true,
-    "brier": 0.22217778000000002,
-    "logloss": 0.4054151093581228,
-    "share_err_pts": 5.0930481055096735,
-    "in_80": true
-   },
-   {
-    "race": "NAN",
-    "winner": "B",
-    "p_winner": 0.9999,
-    "correct": true,
-    "brier": 1.9999999999997797e-08,
-    "logloss": 0.00010000500033334732,
-    "share_err_pts": -2.8735532242923134,
-    "in_80": true
-   },
-   {
-    "race": "YUN",
-    "winner": "B",
-    "p_winner": 0.1141,
-    "correct": false,
-    "brier": 1.5696376200000002,
-    "logloss": 2.1706800221141074,
-    "share_err_pts": 12.688658677591114,
-    "in_80": false
-   },
-   {
-    "race": "CYQ",
-    "winner": "G",
-    "p_winner": 0.8974,
-    "correct": true,
-    "brier": 0.021053520000000006,
-    "logloss": 0.10825358544025411,
-    "share_err_pts": -7.268927429469619,
-    "in_80": false
-   },
-   {
-    "race": "CYI",
-    "winner": "B",
-    "p_winner": 0.5526,
-    "correct": true,
-    "brier": 0.37237416000000007,
-    "logloss": 0.5931208664928209,
-    "share_err_pts": 0.20664815436976514,
-    "in_80": true
-   },
-   {
-    "race": "PIF",
-    "winner": "G",
-    "p_winner": 0.8849,
-    "correct": true,
-    "brier": 0.026496019999999995,
-    "logloss": 0.12228063470883253,
-    "share_err_pts": -0.35928588533026273,
-    "in_80": true
-   },
-   {
-    "race": "HUA",
-    "winner": "B",
-    "p_winner": 0.9998,
-    "correct": true,
-    "brier": 7.999999999999119e-08,
-    "logloss": 0.0002000200026670447,
-    "share_err_pts": 7.006330503976116,
-    "in_80": false
-   },
-   {
-    "race": "TTT",
-    "winner": "B",
-    "p_winner": 0.9744,
-    "correct": true,
-    "brier": 0.0013107199999999979,
-    "logloss": 0.02593338202650443,
-    "share_err_pts": 1.117094954187009,
-    "in_80": true
-   },
-   {
-    "race": "PEN",
-    "winner": "B",
-    "p_winner": 0.7296,
-    "correct": true,
-    "brier": 0.14623231999999997,
-    "logloss": 0.3152588402220154,
-    "share_err_pts": 1.148812409305755,
-    "in_80": true
-   },
-   {
-    "race": "KIN",
-    "winner": "B",
-    "p_winner": 0.7556,
-    "correct": true,
-    "brier": 0.11946271999999998,
-    "logloss": 0.2802431433547825
-   },
-   {
-    "race": "LIE",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0
-   }
-  ],
-  "nat_projected": 0.4710642231523141,
-  "nat_actual": 0.4472966600428072,
-  "dpp_seats_mean": 9.0056,
-  "dpp_seats_80": [
-   7,
-   11
-  ],
-  "dpp_seats_actual": 6,
-  "n_polls": 205
  },
  "2018|28|current model": {
   "rows": [
@@ -668,209 +2495,209 @@
   "dpp_seats_actual": 6,
   "n_polls": 205
  },
- "2018|28|current + regional": {
+ "2018|28|2-pt DPP penalty (prev.)": {
   "rows": [
    {
     "race": "TPE",
     "winner": "T",
-    "p_winner": 0.7578,
+    "p_winner": 0.762,
     "correct": true,
-    "brier": 0.11732167999999998,
-    "logloss": 0.27733578039763657
+    "brier": 0.11328799999999999,
+    "logloss": 0.2718087232954908
    },
    {
     "race": "NWT",
     "winner": "B",
-    "p_winner": 0.9919,
+    "p_winner": 0.9902,
     "correct": true,
-    "brier": 0.00013121999999999993,
-    "logloss": 0.008132983230188991,
-    "share_err_pts": -2.869066546168919,
+    "brier": 0.00019208000000000061,
+    "logloss": 0.009848336054814406,
+    "share_err_pts": -3.6407057934260854,
     "in_80": true
    },
    {
     "race": "TAO",
     "winner": "G",
-    "p_winner": 0.9955,
+    "p_winner": 0.9575,
     "correct": true,
-    "brier": 4.0499999999999534e-05,
-    "logloss": 0.004510155477886019,
-    "share_err_pts": 4.043420305678492,
+    "brier": 0.0036124999999999985,
+    "logloss": 0.04342955792733598,
+    "share_err_pts": 0.8017734991481507,
     "in_80": true
    },
    {
     "race": "TXG",
     "winner": "B",
-    "p_winner": 0.3682,
-    "correct": false,
-    "brier": 0.7983424799999999,
-    "logloss": 0.9991290101831595,
-    "share_err_pts": 8.625784756197024,
-    "in_80": false
+    "p_winner": 0.6017,
+    "correct": true,
+    "brier": 0.31728577999999996,
+    "logloss": 0.5079962967558309,
+    "share_err_pts": 5.986114908951073,
+    "in_80": true
    },
    {
     "race": "TNN",
     "winner": "G",
-    "p_winner": 0.9617,
+    "p_winner": 0.9374,
     "correct": true,
-    "brier": 0.00265938,
-    "logloss": 0.03905272726370095,
-    "share_err_pts": 8.489870135833044,
-    "in_80": false
+    "brier": 0.006090319999999999,
+    "logloss": 0.06464519349353129,
+    "share_err_pts": 6.039927992331107,
+    "in_80": true
    },
    {
     "race": "KHH",
     "winner": "B",
-    "p_winner": 0.3278,
+    "p_winner": 0.4637,
     "correct": false,
-    "brier": 0.9037056800000001,
-    "logloss": 1.115351612672408,
-    "share_err_pts": 6.530915863544495,
-    "in_80": false
+    "brier": 0.57523538,
+    "logloss": 0.7685174875847219,
+    "share_err_pts": 5.0276678743297225,
+    "in_80": true
    },
    {
     "race": "KEE",
     "winner": "G",
-    "p_winner": 0.9862,
+    "p_winner": 0.9497,
     "correct": true,
-    "brier": 0.000380880000000001,
-    "logloss": 0.013896105192111352,
-    "share_err_pts": 7.317801022167614,
-    "in_80": false
+    "brier": 0.005060180000000001,
+    "logloss": 0.05160913373323024,
+    "share_err_pts": 4.624287513489556,
+    "in_80": true
    },
    {
     "race": "ILA",
     "winner": "B",
-    "p_winner": 0.9124,
+    "p_winner": 0.932,
     "correct": true,
-    "brier": 0.015347520000000002,
-    "logloss": 0.0916767885719041,
-    "share_err_pts": -1.404561218947764,
+    "brier": 0.009247999999999992,
+    "logloss": 0.07042246429654582,
+    "share_err_pts": -2.106741225981068,
     "in_80": true
    },
    {
     "race": "HSQ",
     "winner": "B",
-    "p_winner": 0.2536,
+    "p_winner": 0.2619,
     "correct": false,
-    "brier": 1.1142259199999998,
-    "logloss": 1.3719970564190662
+    "brier": 1.08958322,
+    "logloss": 1.3397925274684708
    },
    {
     "race": "HSZ",
     "winner": "G",
-    "p_winner": 0.9964,
+    "p_winner": 0.9771,
     "correct": true,
-    "brier": 2.4560000000000344e-05,
-    "logloss": 0.003606495594111744
+    "brier": 0.0010442600000000015,
+    "logloss": 0.023166278031839585
    },
    {
     "race": "MIA",
     "winner": "B",
-    "p_winner": 0.9991,
+    "p_winner": 0.9996,
     "correct": true,
-    "brier": 1.6200000000000213e-06,
-    "logloss": 0.0009004052431641551,
-    "share_err_pts": -6.173739349162105,
-    "in_80": true
+    "brier": 3.1999999999996475e-07,
+    "logloss": 0.00040008002133969133,
+    "share_err_pts": -7.856769904487337,
+    "in_80": false
    },
    {
     "race": "CHA",
     "winner": "B",
-    "p_winner": 0.5108,
+    "p_winner": 0.6736,
     "correct": true,
-    "brier": 0.47863328,
-    "logloss": 0.6717771548237528,
-    "share_err_pts": 7.026196225954679,
-    "in_80": false
+    "brier": 0.21307392000000003,
+    "logloss": 0.3951188160540201,
+    "share_err_pts": 4.711754640002325,
+    "in_80": true
    },
    {
     "race": "NAN",
     "winner": "B",
-    "p_winner": 0.9965,
+    "p_winner": 0.9985,
     "correct": true,
-    "brier": 2.4499999999999633e-05,
-    "logloss": 0.00350613932928759,
-    "share_err_pts": -0.27947764766541594,
+    "brier": 4.4999999999998375e-06,
+    "logloss": 0.0015011261262670914,
+    "share_err_pts": -1.8384154208889392,
     "in_80": true
    },
    {
     "race": "YUN",
     "winner": "B",
-    "p_winner": 0.219,
+    "p_winner": 0.3182,
     "correct": false,
-    "brier": 1.2199220000000002,
-    "logloss": 1.5186835491656363,
-    "share_err_pts": 11.442760589061995,
+    "brier": 0.9297024799999999,
+    "logloss": 1.1450751630784506,
+    "share_err_pts": 9.53544301635273,
     "in_80": false
    },
    {
     "race": "CYQ",
     "winner": "G",
-    "p_winner": 0.7436,
+    "p_winner": 0.6283,
     "correct": true,
-    "brier": 0.13148191999999997,
-    "logloss": 0.29625202313484805,
-    "share_err_pts": -9.567801719501535,
+    "brier": 0.27632178,
+    "logloss": 0.4647375195732358,
+    "share_err_pts": -11.36663014416075,
     "in_80": false
    },
    {
     "race": "CYI",
     "winner": "B",
-    "p_winner": 0.6311,
+    "p_winner": 0.6926,
     "correct": true,
-    "brier": 0.24755486000000002,
-    "logloss": 0.46029095039194323,
-    "share_err_pts": -0.9942693053834051,
+    "brier": 0.17116952000000002,
+    "logloss": 0.3673026470138155,
+    "share_err_pts": -2.0386888993125964,
     "in_80": true
    },
    {
     "race": "PIF",
     "winner": "G",
-    "p_winner": 0.8112,
+    "p_winner": 0.7392,
     "correct": true,
-    "brier": 0.07129087999999999,
-    "logloss": 0.20924064614521828,
-    "share_err_pts": -0.743182760492922,
+    "brier": 0.13603328,
+    "logloss": 0.3021867586546627,
+    "share_err_pts": -2.4734743033451134,
     "in_80": true
    },
    {
     "race": "HUA",
     "winner": "B",
-    "p_winner": 0.9964,
+    "p_winner": 0.9987,
     "correct": true,
-    "brier": 2.592000000000034e-05,
-    "logloss": 0.003606495594111744,
-    "share_err_pts": 7.4223483134542745,
-    "in_80": false
+    "brier": 3.3799999999999164e-06,
+    "logloss": 0.0013008457330480696,
+    "share_err_pts": 5.793967272719902,
+    "in_80": true
    },
    {
     "race": "TTT",
     "winner": "B",
-    "p_winner": 0.9513,
+    "p_winner": 0.9712,
     "correct": true,
-    "brier": 0.004743379999999997,
-    "logloss": 0.04992580876972568,
-    "share_err_pts": 0.6415542926837603,
+    "brier": 0.0016588800000000028,
+    "logloss": 0.029222858676903284,
+    "share_err_pts": -1.2473040736774632,
     "in_80": true
    },
    {
     "race": "PEN",
     "winner": "B",
-    "p_winner": 0.6439,
+    "p_winner": 0.7436,
     "correct": true,
-    "brier": 0.25361442,
-    "logloss": 0.4402118444379992,
-    "share_err_pts": 1.976112769071775,
+    "brier": 0.13148191999999997,
+    "logloss": 0.29625202313484805,
+    "share_err_pts": 0.22320130413499562,
     "in_80": true
    },
    {
     "race": "KIN",
     "winner": "B",
-    "p_winner": 0.7505,
+    "p_winner": 0.7519,
     "correct": true,
-    "brier": 0.12450050000000003,
-    "logloss": 0.2870156279086205
+    "brier": 0.12310721999999999,
+    "logloss": 0.2851519425981558
    },
    {
     "race": "LIE",
@@ -881,12 +2708,458 @@
     "logloss": -0.0
    }
   ],
-  "nat_projected": 0.4673015019210893,
+  "nat_projected": 0.45061872720155005,
   "nat_actual": 0.4472966600428072,
-  "dpp_seats_mean": 8.9082,
+  "dpp_seats_mean": 7.7728,
+  "dpp_seats_80": [
+   5,
+   10
+  ],
+  "dpp_seats_actual": 6,
+  "n_polls": 205
+ },
+ "2018|28|calibrated errors": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "T",
+    "p_winner": 0.8005,
+    "correct": true,
+    "brier": 0.07908518,
+    "logloss": 0.22251874654536768
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9353,
+    "correct": true,
+    "brier": 0.008372179999999996,
+    "logloss": 0.06688794554163173,
+    "share_err_pts": -1.3161063882493607,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.9138,
+    "correct": true,
+    "brier": 0.01486088000000001,
+    "logloss": 0.09014354985296598,
+    "share_err_pts": 0.1578866458874617,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.4453,
+    "correct": false,
+    "brier": 0.61538418,
+    "logloss": 0.8090070666544804,
+    "share_err_pts": 7.981808728318912,
+    "in_80": false
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.928,
+    "correct": true,
+    "brier": 0.007812979999999994,
+    "logloss": 0.07472354619593642,
+    "share_err_pts": 6.43747284426055,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "B",
+    "p_winner": 0.3429,
+    "correct": false,
+    "brier": 0.86356082,
+    "logloss": 1.0703164195132624,
+    "share_err_pts": 6.853636889804582,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9215,
+    "correct": true,
+    "brier": 0.012324500000000002,
+    "logloss": 0.08175250187225909,
+    "share_err_pts": 4.461740707490525,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8107,
+    "correct": true,
+    "brier": 0.07166898000000001,
+    "logloss": 0.20985720698847563,
+    "share_err_pts": 0.7496610466608544,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.2356,
+    "correct": false,
+    "brier": 1.16708792,
+    "logloss": 1.4456198272047054
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.939,
+    "correct": true,
+    "brier": 0.007442000000000006,
+    "logloss": 0.0629397997738742
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.9974,
+    "correct": true,
+    "brier": 1.3520000000000243e-05,
+    "logloss": 0.0026033858701149278,
+    "share_err_pts": -5.678021688265927,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.5147,
+    "correct": true,
+    "brier": 0.47103217999999997,
+    "logloss": 0.6641710723234281,
+    "share_err_pts": 6.923600990992856,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9938,
+    "correct": true,
+    "brier": 7.687999999999979e-05,
+    "logloss": 0.0062192998139168326,
+    "share_err_pts": 0.43424987164099593,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.2479,
+    "correct": false,
+    "brier": 1.1313088199999999,
+    "logloss": 1.3947298399409922,
+    "share_err_pts": 11.189229801729272,
+    "in_80": false
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.7029,
+    "correct": true,
+    "brier": 0.17653682,
+    "logloss": 0.3525406448002774,
+    "share_err_pts": -9.926177753886423,
+    "in_80": false
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.5424,
+    "correct": true,
+    "brier": 0.39171464000000006,
+    "logloss": 0.6117515423559513,
+    "share_err_pts": 0.05147057301730373,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.7979,
+    "correct": true,
+    "brier": 0.08168881999999997,
+    "logloss": 0.22577200266790173,
+    "share_err_pts": -1.0180456842255103,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9926,
+    "correct": true,
+    "brier": 0.00010951999999999945,
+    "logloss": 0.007427515828796584,
+    "share_err_pts": 7.60378496466253,
+    "in_80": false
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.947,
+    "correct": true,
+    "brier": 0.005618000000000005,
+    "logloss": 0.054456185796058855,
+    "share_err_pts": 0.21188188713767708,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "B",
+    "p_winner": 0.6051,
+    "correct": true,
+    "brier": 0.31189202,
+    "logloss": 0.5023615453538613,
+    "share_err_pts": 2.529087102419708,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "B",
+    "p_winner": 0.735,
+    "correct": true,
+    "brier": 0.14045000000000002,
+    "logloss": 0.3078847797693004
+   },
+   {
+    "race": "LIE",
+    "winner": "B",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732
+   }
+  ],
+  "nat_projected": 0.46670530104868957,
+  "nat_actual": 0.4472966600428072,
+  "dpp_seats_mean": 8.7959,
   "dpp_seats_80": [
    6,
-   11
+   12
+  ],
+  "dpp_seats_actual": 6,
+  "n_polls": 205
+ },
+ "2018|28|calibrated + pollsters": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "T",
+    "p_winner": 0.815,
+    "correct": true,
+    "brier": 0.06800888000000002,
+    "logloss": 0.2045671657412744
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9087,
+    "correct": true,
+    "brier": 0.01667138000000001,
+    "logloss": 0.0957402722808358,
+    "share_err_pts": -0.29066818584633225,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.9385,
+    "correct": true,
+    "brier": 0.0075645,
+    "logloss": 0.06347242295557354,
+    "share_err_pts": 1.2656420841230864,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.4042,
+    "correct": false,
+    "brier": 0.70995528,
+    "logloss": 0.9058454740126164,
+    "share_err_pts": 8.62808337557665,
+    "in_80": false
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9405,
+    "correct": true,
+    "brier": 0.00536342,
+    "logloss": 0.06134363024105197,
+    "share_err_pts": 7.138462714746973,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "B",
+    "p_winner": 0.3097,
+    "correct": false,
+    "brier": 0.9530281800000001,
+    "logloss": 1.1721511920029801,
+    "share_err_pts": 7.383389216216973,
+    "in_80": false
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9368,
+    "correct": true,
+    "brier": 0.007988480000000004,
+    "logloss": 0.0652854666986295,
+    "share_err_pts": 4.977971217441013,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.7742,
+    "correct": true,
+    "brier": 0.10197128,
+    "logloss": 0.2559250408385893,
+    "share_err_pts": 1.6437344839520196,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.2204,
+    "correct": false,
+    "brier": 1.2141506599999998,
+    "logloss": 1.5123112017033775
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.9591,
+    "correct": true,
+    "brier": 0.003329340000000004,
+    "logloss": 0.04175993424823165
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.9944,
+    "correct": true,
+    "brier": 6.272000000000055e-05,
+    "logloss": 0.005615738785635745,
+    "share_err_pts": -5.1243997915207835,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.458,
+    "correct": false,
+    "brier": 0.587528,
+    "logloss": 0.780886094867952,
+    "share_err_pts": 7.805221578389215,
+    "in_80": false
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9905,
+    "correct": true,
+    "brier": 0.0001804999999999991,
+    "logloss": 0.009545412843531385,
+    "share_err_pts": 1.569688536861874,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.2065,
+    "correct": false,
+    "brier": 1.2592845,
+    "logloss": 1.5774548665810497,
+    "share_err_pts": 12.12438854444845,
+    "in_80": false
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.763,
+    "correct": true,
+    "brier": 0.112338,
+    "logloss": 0.27049724769768,
+    "share_err_pts": -8.56077985681769,
+    "in_80": false
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.5081,
+    "correct": true,
+    "brier": 0.45466886,
+    "logloss": 0.6770770003824509,
+    "share_err_pts": 0.6290706098735943,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.8377,
+    "correct": true,
+    "brier": 0.05268258,
+    "logloss": 0.17709523782237324,
+    "share_err_pts": -0.01594972123236671,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9889,
+    "correct": true,
+    "brier": 0.00024642,
+    "logloss": 0.011162064706191918,
+    "share_err_pts": 8.613096562181688,
+    "in_80": false
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9284,
+    "correct": true,
+    "brier": 0.01025312,
+    "logloss": 0.07429260458185508,
+    "share_err_pts": 1.3255214872158083,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "B",
+    "p_winner": 0.548,
+    "correct": true,
+    "brier": 0.40860799999999997,
+    "logloss": 0.6014799920341214,
+    "share_err_pts": 3.461873853967595,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "B",
+    "p_winner": 0.7315,
+    "correct": true,
+    "brier": 0.1441845,
+    "logloss": 0.312658058521958
+   },
+   {
+    "race": "LIE",
+    "winner": "B",
+    "p_winner": 0.9998,
+    "correct": true,
+    "brier": 7.999999999999119e-08,
+    "logloss": 0.0002000200026670447
+   }
+  ],
+  "nat_projected": 0.474294552548718,
+  "nat_actual": 0.4472966600428072,
+  "dpp_seats_mean": 9.3207,
+  "dpp_seats_80": [
+   7,
+   12
   ],
   "dpp_seats_actual": 6,
   "n_polls": 205
@@ -1114,229 +3387,6 @@
   "dpp_seats_actual": 6,
   "n_polls": 1
  },
- "2018|10|polls, undecideds dropped": {
-  "rows": [
-   {
-    "race": "TPE",
-    "winner": "T",
-    "p_winner": 0.7368,
-    "correct": true,
-    "brier": 0.13854848,
-    "logloss": 0.30543879404103996
-   },
-   {
-    "race": "NWT",
-    "winner": "B",
-    "p_winner": 0.9967,
-    "correct": true,
-    "brier": 2.1779999999999798e-05,
-    "logloss": 0.0033054570087264813,
-    "share_err_pts": -2.268449597001826,
-    "in_80": true
-   },
-   {
-    "race": "TAO",
-    "winner": "G",
-    "p_winner": 0.9998,
-    "correct": true,
-    "brier": 7.999999999999119e-08,
-    "logloss": 0.0002000200026670447,
-    "share_err_pts": 5.842445263685791,
-    "in_80": false
-   },
-   {
-    "race": "TXG",
-    "winner": "B",
-    "p_winner": 0.5161,
-    "correct": true,
-    "brier": 0.46831842,
-    "logloss": 0.6614547338274556,
-    "share_err_pts": 7.060381084827661,
-    "in_80": false
-   },
-   {
-    "race": "TNN",
-    "winner": "G",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 13.70694654610568,
-    "in_80": false
-   },
-   {
-    "race": "KHH",
-    "winner": "B",
-    "p_winner": 0.5493,
-    "correct": true,
-    "brier": 0.40626098,
-    "logloss": 0.5991105386335623,
-    "share_err_pts": 4.2127533538222846,
-    "in_80": true
-   },
-   {
-    "race": "KEE",
-    "winner": "G",
-    "p_winner": 0.9986,
-    "correct": true,
-    "brier": 3.9199999999998795e-06,
-    "logloss": 0.0014009809156281003,
-    "share_err_pts": 7.131548198341187,
-    "in_80": false
-   },
-   {
-    "race": "ILA",
-    "winner": "B",
-    "p_winner": 0.976,
-    "correct": true,
-    "brier": 0.0011520000000000011,
-    "logloss": 0.024292692569044587,
-    "share_err_pts": -2.2555010282015564,
-    "in_80": true
-   },
-   {
-    "race": "HSQ",
-    "winner": "B",
-    "p_winner": 0.6624,
-    "correct": true,
-    "brier": 0.22794752000000001,
-    "logloss": 0.41188567591108716
-   },
-   {
-    "race": "HSZ",
-    "winner": "G",
-    "p_winner": 0.9951,
-    "correct": true,
-    "brier": 4.8020000000000153e-05,
-    "logloss": 0.004912044361020641
-   },
-   {
-    "race": "MIA",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -10.109033385059558,
-    "in_80": false
-   },
-   {
-    "race": "CHA",
-    "winner": "B",
-    "p_winner": 0.6919,
-    "correct": true,
-    "brier": 0.18985122000000001,
-    "logloss": 0.3683138424773717,
-    "share_err_pts": 5.029632787691401,
-    "in_80": true
-   },
-   {
-    "race": "NAN",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -5.518646675632677,
-    "in_80": false
-   },
-   {
-    "race": "YUN",
-    "winner": "B",
-    "p_winner": 0.191,
-    "correct": false,
-    "brier": 1.308962,
-    "logloss": 1.6554818509355071,
-    "share_err_pts": 9.993710641521968,
-    "in_80": false
-   },
-   {
-    "race": "CYQ",
-    "winner": "G",
-    "p_winner": 0.8952,
-    "correct": true,
-    "brier": 0.021966080000000002,
-    "logloss": 0.11070812198442158,
-    "share_err_pts": -7.788934811452853,
-    "in_80": false
-   },
-   {
-    "race": "CYI",
-    "winner": "B",
-    "p_winner": 0.6171,
-    "correct": true,
-    "brier": 0.26843474,
-    "logloss": 0.48272419365511593,
-    "share_err_pts": -0.4750440298872449,
-    "in_80": true
-   },
-   {
-    "race": "PIF",
-    "winner": "G",
-    "p_winner": 0.8644,
-    "correct": true,
-    "brier": 0.03677472000000001,
-    "logloss": 0.1457196543494062,
-    "share_err_pts": -1.3513036714531967,
-    "in_80": true
-   },
-   {
-    "race": "HUA",
-    "winner": "B",
-    "p_winner": 0.9999,
-    "correct": true,
-    "brier": 1.9999999999997797e-08,
-    "logloss": 0.00010000500033334732,
-    "share_err_pts": 6.5334286334853715,
-    "in_80": false
-   },
-   {
-    "race": "TTT",
-    "winner": "B",
-    "p_winner": 0.9899,
-    "correct": true,
-    "brier": 0.00020401999999999996,
-    "logloss": 0.010151351056375355,
-    "share_err_pts": 0.38498822839971303,
-    "in_80": true
-   },
-   {
-    "race": "PEN",
-    "winner": "B",
-    "p_winner": 0.7745,
-    "correct": true,
-    "brier": 0.10170050000000001,
-    "logloss": 0.2555376191252138,
-    "share_err_pts": 0.839200933600287,
-    "in_80": true
-   },
-   {
-    "race": "KIN",
-    "winner": "B",
-    "p_winner": 0.7737,
-    "correct": true,
-    "brier": 0.10242337999999998,
-    "logloss": 0.2565710774267282
-   },
-   {
-    "race": "LIE",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0
-   }
-  ],
-  "nat_projected": 0.46015499237228397,
-  "nat_actual": 0.4472966600428072,
-  "dpp_seats_mean": 8.415,
-  "dpp_seats_80": [
-   6,
-   11
-  ],
-  "dpp_seats_actual": 6,
-  "n_polls": 238
- },
  "2018|10|current model": {
   "rows": [
    {
@@ -1560,209 +3610,209 @@
   "dpp_seats_actual": 6,
   "n_polls": 238
  },
- "2018|10|current + regional": {
+ "2018|10|2-pt DPP penalty (prev.)": {
   "rows": [
    {
     "race": "TPE",
     "winner": "T",
-    "p_winner": 0.7506,
+    "p_winner": 0.7537,
     "correct": true,
-    "brier": 0.12440071999999998,
-    "logloss": 0.28688239228121654
+    "brier": 0.12132737999999998,
+    "logloss": 0.2827608681327128
    },
    {
     "race": "NWT",
     "winner": "B",
-    "p_winner": 0.9965,
+    "p_winner": 0.9955,
     "correct": true,
-    "brier": 2.4499999999999633e-05,
-    "logloss": 0.00350613932928759,
-    "share_err_pts": -2.945606410916779,
+    "brier": 4.0499999999999534e-05,
+    "logloss": 0.004510155477886019,
+    "share_err_pts": -3.8359525169558983,
     "in_80": true
    },
    {
     "race": "TAO",
     "winner": "G",
-    "p_winner": 0.9991,
+    "p_winner": 0.9788,
     "correct": true,
-    "brier": 1.6200000000000213e-06,
-    "logloss": 0.0009004052431641551,
-    "share_err_pts": 4.394203293418586,
+    "brier": 0.0008988799999999999,
+    "logloss": 0.02142794741362045,
+    "share_err_pts": 1.1510306830682215,
     "in_80": true
    },
    {
     "race": "TXG",
     "winner": "B",
-    "p_winner": 0.4048,
-    "correct": false,
-    "brier": 0.7085260799999998,
-    "logloss": 0.9043621610088812,
-    "share_err_pts": 8.10245855694654,
-    "in_80": false
+    "p_winner": 0.6749,
+    "correct": true,
+    "brier": 0.21138001999999995,
+    "logloss": 0.39319074723277614,
+    "share_err_pts": 5.318650324352481,
+    "in_80": true
    },
    {
     "race": "TNN",
     "winner": "G",
-    "p_winner": 0.9995,
+    "p_winner": 0.9876,
     "correct": true,
-    "brier": 4.999999999999449e-07,
-    "logloss": 0.0005001250416822429,
-    "share_err_pts": 8.930807712255762,
+    "brier": 0.00030751999999999917,
+    "logloss": 0.01247752151111258,
+    "share_err_pts": 6.32026933598222,
     "in_80": false
    },
    {
     "race": "KHH",
     "winner": "B",
-    "p_winner": 0.6125,
+    "p_winner": 0.7086,
     "correct": true,
-    "brier": 0.3003125,
-    "logloss": 0.4902063365632549,
-    "share_err_pts": 3.5132908368676774,
+    "brier": 0.16982792,
+    "logloss": 0.34446408655076544,
+    "share_err_pts": 2.2755799637913188,
     "in_80": true
    },
    {
     "race": "KEE",
     "winner": "G",
-    "p_winner": 0.9844,
+    "p_winner": 0.9276,
     "correct": true,
-    "brier": 0.0004867199999999983,
-    "logloss": 0.015722960465236198,
-    "share_err_pts": 5.288604817731546,
+    "brier": 0.010483520000000003,
+    "logloss": 0.07515467360076049,
+    "share_err_pts": 2.6702954035684456,
     "in_80": true
    },
    {
     "race": "ILA",
     "winner": "B",
-    "p_winner": 0.9405,
+    "p_winner": 0.9557,
     "correct": true,
-    "brier": 0.007080499999999999,
-    "logloss": 0.06134363024105197,
-    "share_err_pts": -2.042890526029778,
+    "brier": 0.00392498,
+    "logloss": 0.045311222710003075,
+    "share_err_pts": -3.044489581149168,
     "in_80": true
    },
    {
     "race": "HSQ",
     "winner": "B",
-    "p_winner": 0.6237,
+    "p_winner": 0.6299,
     "correct": true,
-    "brier": 0.28320338,
-    "logloss": 0.4720857954500601
+    "brier": 0.27394801999999996,
+    "logloss": 0.4621942023542537
    },
    {
     "race": "HSZ",
     "winner": "G",
-    "p_winner": 0.9915,
+    "p_winner": 0.9753,
     "correct": true,
-    "brier": 0.00012821999999999918,
-    "logloss": 0.008536331022286335
+    "brier": 0.0009389400000000027,
+    "logloss": 0.025010163004167762
    },
    {
     "race": "MIA",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -7.66960317331259,
-    "in_80": false
-   },
-   {
-    "race": "CHA",
-    "winner": "B",
-    "p_winner": 0.5401,
-    "correct": true,
-    "brier": 0.42301601999999994,
-    "logloss": 0.6160009713832916,
-    "share_err_pts": 6.639569029516135,
-    "in_80": false
-   },
-   {
-    "race": "NAN",
     "winner": "B",
     "p_winner": 0.9999,
     "correct": true,
     "brier": 1.9999999999997797e-08,
     "logloss": 0.00010000500033334732,
-    "share_err_pts": -2.2550259277544615,
+    "share_err_pts": -9.361806219754232,
+    "in_80": false
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.7179,
+    "correct": true,
+    "brier": 0.15916082,
+    "logloss": 0.3314249953996998,
+    "share_err_pts": 4.132125720128693,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": -3.84999136503158,
     "in_80": true
    },
    {
     "race": "YUN",
     "winner": "B",
-    "p_winner": 0.2356,
+    "p_winner": 0.402,
     "correct": false,
-    "brier": 1.1686147199999999,
-    "logloss": 1.4456198272047054,
-    "share_err_pts": 10.368325039298476,
+    "brier": 0.715208,
+    "logloss": 0.9113031903631159,
+    "share_err_pts": 7.796172274724045,
     "in_80": false
    },
    {
     "race": "CYQ",
     "winner": "G",
-    "p_winner": 0.7211,
+    "p_winner": 0.5972,
     "correct": true,
-    "brier": 0.15557042000000001,
-    "logloss": 0.32697745505942327,
-    "share_err_pts": -9.887284179468935,
+    "brier": 0.32449568000000006,
+    "logloss": 0.5155032133171018,
+    "share_err_pts": -11.897479953736067,
     "in_80": false
    },
    {
     "race": "CYI",
     "winner": "B",
-    "p_winner": 0.6702,
+    "p_winner": 0.7517,
     "correct": true,
-    "brier": 0.19535927999999997,
-    "logloss": 0.400179103678927,
-    "share_err_pts": -1.4887078955602318,
+    "brier": 0.10990777999999998,
+    "logloss": 0.2854179707987138,
+    "share_err_pts": -2.761145129335163,
     "in_80": true
    },
    {
     "race": "PIF",
     "winner": "G",
-    "p_winner": 0.7935,
+    "p_winner": 0.7145,
     "correct": true,
-    "brier": 0.0852845,
-    "logloss": 0.2313017390156733,
-    "share_err_pts": -1.231249790520128,
+    "brier": 0.16302049999999998,
+    "logloss": 0.3361722816122149,
+    "share_err_pts": -3.138546309697998,
     "in_80": true
    },
    {
     "race": "HUA",
     "winner": "B",
-    "p_winner": 0.9984,
+    "p_winner": 0.9994,
     "correct": true,
-    "brier": 5.120000000000147e-06,
-    "logloss": 0.0016012813669738792,
-    "share_err_pts": 6.852587445407332,
-    "in_80": false
+    "brier": 7.200000000000539e-07,
+    "logloss": 0.0006001800720324606,
+    "share_err_pts": 5.11944741329069,
+    "in_80": true
    },
    {
     "race": "TTT",
     "winner": "B",
-    "p_winner": 0.9605,
+    "p_winner": 0.9803,
     "correct": true,
-    "brier": 0.0031204999999999983,
-    "logloss": 0.04030129677352569,
-    "share_err_pts": 0.07634678422072105,
+    "brier": 0.000776180000000002,
+    "logloss": 0.019896631714456645,
+    "share_err_pts": -1.7679890780586682,
     "in_80": true
    },
    {
     "race": "PEN",
     "winner": "B",
-    "p_winner": 0.687,
+    "p_winner": 0.7928,
     "correct": true,
-    "brier": 0.19593799999999995,
-    "logloss": 0.37542098675978763,
-    "share_err_pts": 1.3365323301987975,
+    "brier": 0.08586368000000003,
+    "logloss": 0.2321842959663589,
+    "share_err_pts": -0.5893722232933662,
     "in_80": true
    },
    {
     "race": "KIN",
     "winner": "B",
-    "p_winner": 0.7652,
+    "p_winner": 0.7672,
     "correct": true,
-    "brier": 0.11026208000000001,
-    "logloss": 0.26761804141603923
+    "brier": 0.10839168,
+    "logloss": 0.2650077554129086
    },
    {
     "race": "LIE",
@@ -1773,12 +3823,458 @@
     "logloss": -0.0
    }
   ],
-  "nat_projected": 0.4597804780847384,
+  "nat_projected": 0.442325511983634,
   "nat_actual": 0.4472966600428072,
-  "dpp_seats_mean": 8.4051,
+  "dpp_seats_mean": 7.1714,
+  "dpp_seats_80": [
+   5,
+   9
+  ],
+  "dpp_seats_actual": 6,
+  "n_polls": 238
+ },
+ "2018|10|calibrated errors": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "T",
+    "p_winner": 0.7923,
+    "correct": true,
+    "brier": 0.08607137999999999,
+    "logloss": 0.23281517101094082
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9515,
+    "correct": true,
+    "brier": 0.004704499999999999,
+    "logloss": 0.04971559224593286,
+    "share_err_pts": -1.5174897361993456,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.9379,
+    "correct": true,
+    "brier": 0.007712820000000006,
+    "logloss": 0.06411194546724429,
+    "share_err_pts": 0.5807533442562351,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.4845,
+    "correct": false,
+    "brier": 0.5314805,
+    "logloss": 0.7246378476513161,
+    "share_err_pts": 7.374162317601046,
+    "in_80": false
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9757,
+    "correct": true,
+    "brier": 0.0011809799999999994,
+    "logloss": 0.02460011686823269,
+    "share_err_pts": 6.756399839218419,
+    "in_80": true
+   },
+   {
+    "race": "KHH",
+    "winner": "B",
+    "p_winner": 0.4842,
+    "correct": false,
+    "brier": 0.5320992800000001,
+    "logloss": 0.7252572344781789,
+    "share_err_pts": 4.822071629672243,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.9024,
+    "correct": true,
+    "brier": 0.019051520000000006,
+    "logloss": 0.10269739823834262,
+    "share_err_pts": 3.259821617147618,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8524,
+    "correct": true,
+    "brier": 0.04357151999999999,
+    "logloss": 0.15969937875767493,
+    "share_err_pts": -0.07337299025471644,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.5927,
+    "correct": true,
+    "brier": 0.33113618,
+    "logloss": 0.5230669101883446
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.9409,
+    "correct": true,
+    "brier": 0.006035220000000005,
+    "logloss": 0.060918414969417134
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.9992,
+    "correct": true,
+    "brier": 1.2800000000000367e-06,
+    "logloss": 0.0008003201707691552,
+    "share_err_pts": -7.027488644384928,
+    "in_80": false
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.5392,
+    "correct": true,
+    "brier": 0.42467328,
+    "logloss": 0.6176687193840398,
+    "share_err_pts": 6.542536284925143,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9984,
+    "correct": true,
+    "brier": 5.120000000000147e-06,
+    "logloss": 0.0016012813669738792,
+    "share_err_pts": -1.131967217054708,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.2912,
+    "correct": false,
+    "brier": 1.00479488,
+    "logloss": 1.2337449626596062,
+    "share_err_pts": 9.720017555349237,
+    "in_80": false
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.6924,
+    "correct": true,
+    "brier": 0.18923552,
+    "logloss": 0.36759145568008283,
+    "share_err_pts": -10.234314015380331,
+    "in_80": false
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.5767,
+    "correct": true,
+    "brier": 0.33310718,
+    "logloss": 0.5504330783607702,
+    "share_err_pts": -0.3738167363552314,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.7852,
+    "correct": true,
+    "brier": 0.09227808,
+    "logloss": 0.24181681657983103,
+    "share_err_pts": -1.3064766511972636,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9951,
+    "correct": true,
+    "brier": 4.8020000000000153e-05,
+    "logloss": 0.004912044361020641,
+    "share_err_pts": 7.179373018501201,
+    "in_80": false
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9544,
+    "correct": true,
+    "brier": 0.004158719999999998,
+    "logloss": 0.046672408198430666,
+    "share_err_pts": -0.16327292411326133,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "B",
+    "p_winner": 0.6454,
+    "correct": true,
+    "brier": 0.25148232000000004,
+    "logloss": 0.43788499936427566,
+    "share_err_pts": 1.8559448980900284,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "B",
+    "p_winner": 0.7475,
+    "correct": true,
+    "brier": 0.12751249999999997,
+    "logloss": 0.29102097371729546
+   },
+   {
+    "race": "LIE",
+    "winner": "B",
+    "p_winner": 1.0,
+    "correct": true,
+    "brier": 0.0,
+    "logloss": -0.0
+   }
+  ],
+  "nat_projected": 0.45992947578416377,
+  "nat_actual": 0.4472966600428072,
+  "dpp_seats_mean": 8.4305,
   "dpp_seats_80": [
    6,
    11
+  ],
+  "dpp_seats_actual": 6,
+  "n_polls": 238
+ },
+ "2018|10|calibrated + pollsters": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "T",
+    "p_winner": 0.8066,
+    "correct": true,
+    "brier": 0.07453734000000002,
+    "logloss": 0.2149273965428693
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9289,
+    "correct": true,
+    "brier": 0.010110420000000005,
+    "logloss": 0.07375418858866198,
+    "share_err_pts": -0.5771942926742823,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "G",
+    "p_winner": 0.9498,
+    "correct": true,
+    "brier": 0.005040080000000002,
+    "logloss": 0.05150384286711561,
+    "share_err_pts": 1.3764634928383201,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.4247,
+    "correct": false,
+    "brier": 0.66194018,
+    "logloss": 0.8563722416629115,
+    "share_err_pts": 8.15296903230432,
+    "in_80": false
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.981,
+    "correct": true,
+    "brier": 0.0007220000000000006,
+    "logloss": 0.019182819416773987,
+    "share_err_pts": 7.2910987939212575,
+    "in_80": false
+   },
+   {
+    "race": "KHH",
+    "winner": "B",
+    "p_winner": 0.4627,
+    "correct": false,
+    "brier": 0.57738258,
+    "logloss": 0.7706763830691832,
+    "share_err_pts": 5.146194210310817,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "G",
+    "p_winner": 0.911,
+    "correct": true,
+    "brier": 0.015841999999999995,
+    "logloss": 0.0932123817221787,
+    "share_err_pts": 3.572779784038227,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8199,
+    "correct": true,
+    "brier": 0.06487202000000002,
+    "logloss": 0.19857289738000508,
+    "share_err_pts": 0.6929151939405132,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.5843,
+    "correct": true,
+    "brier": 0.34420537999999995,
+    "logloss": 0.5373407294217456
+   },
+   {
+    "race": "HSZ",
+    "winner": "G",
+    "p_winner": 0.9558,
+    "correct": true,
+    "brier": 0.0031903800000000018,
+    "logloss": 0.04520659283807923
+   },
+   {
+    "race": "MIA",
+    "winner": "B",
+    "p_winner": 0.9992,
+    "correct": true,
+    "brier": 1.2800000000000367e-06,
+    "logloss": 0.0008003201707691552,
+    "share_err_pts": -6.437303875743727,
+    "in_80": true
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.4802,
+    "correct": false,
+    "brier": 0.54038408,
+    "logloss": 0.7335525951949842,
+    "share_err_pts": 7.428314874748082,
+    "in_80": false
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.998,
+    "correct": true,
+    "brier": 8.000000000000008e-06,
+    "logloss": 0.0020020026706730793,
+    "share_err_pts": -0.22281531191479242,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.2576,
+    "correct": false,
+    "brier": 1.1023155199999999,
+    "logloss": 1.3563472847519384,
+    "share_err_pts": 10.608144195288993,
+    "in_80": false
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.7553,
+    "correct": true,
+    "brier": 0.11975618000000002,
+    "logloss": 0.2806402576627348,
+    "share_err_pts": -8.93511876887656,
+    "in_80": false
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.5458,
+    "correct": true,
+    "brier": 0.38479608000000004,
+    "logloss": 0.6055026707078991,
+    "share_err_pts": -0.0017253493284574706,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.8215,
+    "correct": true,
+    "brier": 0.06372449999999999,
+    "logloss": 0.19662334150481428,
+    "share_err_pts": -0.41506238407675866,
+    "in_80": true
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9915,
+    "correct": true,
+    "brier": 0.00014449999999999918,
+    "logloss": 0.008536331022286335,
+    "share_err_pts": 7.965965084341215,
+    "in_80": false
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9388,
+    "correct": true,
+    "brier": 0.007490880000000004,
+    "logloss": 0.06315281500526863,
+    "share_err_pts": 0.8179587691766022,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "B",
+    "p_winner": 0.5911,
+    "correct": true,
+    "brier": 0.33439842000000003,
+    "logloss": 0.5257700711518133,
+    "share_err_pts": 2.6967977401561596,
+    "in_80": true
+   },
+   {
+    "race": "KIN",
+    "winner": "B",
+    "p_winner": 0.7421,
+    "correct": true,
+    "brier": 0.13302482000000002,
+    "logloss": 0.2982712740060492
+   },
+   {
+    "race": "LIE",
+    "winner": "B",
+    "p_winner": 0.9998,
+    "correct": true,
+    "brier": 7.999999999999119e-08,
+    "logloss": 0.0002000200026670447
+   }
+  ],
+  "nat_projected": 0.46647043948157735,
+  "nat_actual": 0.4472966600428072,
+  "dpp_seats_mean": 8.9046,
+  "dpp_seats_80": [
+   6,
+   12
   ],
   "dpp_seats_actual": 6,
   "n_polls": 238
@@ -1996,219 +4492,6 @@
   "dpp_seats_actual": 5,
   "n_polls": 1
  },
- "2022|28|polls, undecideds dropped": {
-  "rows": [
-   {
-    "race": "TPE",
-    "winner": "B",
-    "p_winner": 0.8051,
-    "correct": true,
-    "brier": 0.057807259999999985,
-    "logloss": 0.21678878567620194
-   },
-   {
-    "race": "NWT",
-    "winner": "B",
-    "p_winner": 0.9998,
-    "correct": true,
-    "brier": 7.999999999999119e-08,
-    "logloss": 0.0002000200026670447,
-    "share_err_pts": -2.029470919318771,
-    "in_80": true
-   },
-   {
-    "race": "TAO",
-    "winner": "B",
-    "p_winner": 0.6481,
-    "correct": true,
-    "brier": 0.24766722,
-    "logloss": 0.43371027354846675,
-    "share_err_pts": 4.896178322748551,
-    "in_80": true
-   },
-   {
-    "race": "TXG",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -6.799624021532863,
-    "in_80": false
-   },
-   {
-    "race": "TNN",
-    "winner": "G",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 14.874424344853432,
-    "in_80": false
-   },
-   {
-    "race": "KHH",
-    "winner": "G",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 10.683068847985178,
-    "in_80": false
-   },
-   {
-    "race": "KEE",
-    "winner": "B",
-    "p_winner": 0.5855,
-    "correct": true,
-    "brier": 0.34362049999999994,
-    "logloss": 0.535289095944365,
-    "share_err_pts": 6.580309211338226,
-    "in_80": false
-   },
-   {
-    "race": "ILA",
-    "winner": "B",
-    "p_winner": 0.9407,
-    "correct": true,
-    "brier": 0.007032980000000002,
-    "logloss": 0.06113100000423132,
-    "share_err_pts": -1.546341420001368,
-    "in_80": true
-   },
-   {
-    "race": "HSQ",
-    "winner": "B",
-    "p_winner": 0.9944,
-    "correct": true,
-    "brier": 6.272000000000055e-05,
-    "logloss": 0.005615738785635745,
-    "share_err_pts": 3.6415926782606025,
-    "in_80": true
-   },
-   {
-    "race": "HSZ",
-    "winner": "T",
-    "p_winner": 0.7381,
-    "correct": true,
-    "brier": 0.11804282,
-    "logloss": 0.3036759622061304
-   },
-   {
-    "race": "MIA",
-    "winner": "T",
-    "p_winner": 0.5593,
-    "correct": true,
-    "brier": 0.38755357999999995,
-    "logloss": 0.5810692771545948
-   },
-   {
-    "race": "CHA",
-    "winner": "B",
-    "p_winner": 0.9868,
-    "correct": true,
-    "brier": 0.0003484799999999997,
-    "logloss": 0.013287894326935407,
-    "share_err_pts": -3.869478130827808,
-    "in_80": true
-   },
-   {
-    "race": "NAN",
-    "winner": "B",
-    "p_winner": 0.9675,
-    "correct": true,
-    "brier": 0.002112499999999998,
-    "logloss": 0.033039854078200155,
-    "share_err_pts": -1.7344275693219946,
-    "in_80": true
-   },
-   {
-    "race": "YUN",
-    "winner": "B",
-    "p_winner": 0.9658,
-    "correct": true,
-    "brier": 0.002339280000000001,
-    "logloss": 0.03479850554269554,
-    "share_err_pts": -0.6667089243204083,
-    "in_80": true
-   },
-   {
-    "race": "CYQ",
-    "winner": "G",
-    "p_winner": 0.9904,
-    "correct": true,
-    "brier": 0.000184320000000001,
-    "logloss": 0.00964637705180545,
-    "share_err_pts": -1.8468037487936795,
-    "in_80": true
-   },
-   {
-    "race": "CYI",
-    "winner": "B",
-    "p_winner": 0.9982,
-    "correct": true,
-    "brier": 6.480000000000085e-06,
-    "logloss": 0.0018016219466282088,
-    "share_err_pts": 0.5703223069442764,
-    "in_80": true
-   },
-   {
-    "race": "PIF",
-    "winner": "G",
-    "p_winner": 0.9991,
-    "correct": true,
-    "brier": 1.6200000000000213e-06,
-    "logloss": 0.0009004052431641551,
-    "share_err_pts": 12.235276135371153,
-    "in_80": false
-   },
-   {
-    "race": "HUA",
-    "winner": "B",
-    "p_winner": 0.9988,
-    "correct": true,
-    "brier": 2.879999999999949e-06,
-    "logloss": 0.001200720576518877,
-    "share_err_pts": 2.2140984435301214,
-    "in_80": true
-   },
-   {
-    "race": "TTT",
-    "winner": "B",
-    "p_winner": 0.9974,
-    "correct": true,
-    "brier": 1.3520000000000243e-05,
-    "logloss": 0.0026033858701149278,
-    "share_err_pts": -1.1851209068541813,
-    "in_80": true
-   },
-   {
-    "race": "PEN",
-    "winner": "G",
-    "p_winner": 0.1633,
-    "correct": false,
-    "brier": 1.05126678,
-    "logloss": 1.8121662790057176
-   },
-   {
-    "race": "KIN",
-    "winner": "T",
-    "p_winner": 0.003,
-    "correct": false,
-    "brier": 1.988018,
-    "logloss": 4.605170185988091
-   }
-  ],
-  "nat_projected": 0.49326819946872846,
-  "nat_actual": 0.4490579900999232,
-  "dpp_seats_mean": 5.8453,
-  "dpp_seats_80": [
-   4,
-   8
-  ],
-  "dpp_seats_actual": 5,
-  "n_polls": 206
- },
  "2022|28|current model": {
   "rows": [
    {
@@ -2422,15 +4705,15 @@
   "dpp_seats_actual": 5,
   "n_polls": 206
  },
- "2022|28|current + regional": {
+ "2022|28|2-pt DPP penalty (prev.)": {
   "rows": [
    {
     "race": "TPE",
     "winner": "B",
-    "p_winner": 0.7881,
+    "p_winner": 0.8593,
     "correct": true,
-    "brier": 0.06930553999999998,
-    "logloss": 0.23813029362253316
+    "brier": 0.029697860000000013,
+    "logloss": 0.15163717466295976
    },
    {
     "race": "NWT",
@@ -2439,195 +4722,621 @@
     "correct": true,
     "brier": 4.4999999999998375e-06,
     "logloss": 0.0015011261262670914,
-    "share_err_pts": -0.9308459334110009,
+    "share_err_pts": -2.246241832859397,
     "in_80": true
    },
    {
     "race": "TAO",
     "winner": "B",
-    "p_winner": 0.5797,
+    "p_winner": 0.7139,
     "correct": true,
-    "brier": 0.35330418,
-    "logloss": 0.5452445506364498,
-    "share_err_pts": 5.661964272607067,
-    "in_80": false
+    "brier": 0.16370642000000002,
+    "logloss": 0.3370123824737222,
+    "share_err_pts": 3.8371839773291505,
+    "in_80": true
    },
    {
     "race": "TXG",
     "winner": "B",
-    "p_winner": 0.9996,
+    "p_winner": 1.0,
     "correct": true,
-    "brier": 3.1999999999996475e-07,
-    "logloss": 0.00040008002133969133,
-    "share_err_pts": -5.318419545076686,
+    "brier": 0.0,
+    "logloss": -0.0,
+    "share_err_pts": -6.43959434564173,
     "in_80": false
    },
    {
     "race": "TNN",
     "winner": "G",
-    "p_winner": 0.9998,
+    "p_winner": 0.9972,
     "correct": true,
-    "brier": 7.999999999999119e-08,
-    "logloss": 0.0002000200026670447,
-    "share_err_pts": 12.40432911497752,
+    "brier": 1.5680000000000138e-05,
+    "logloss": 0.0028039273327342593,
+    "share_err_pts": 10.555713283589707,
     "in_80": false
    },
    {
     "race": "KHH",
     "winner": "G",
-    "p_winner": 0.9997,
+    "p_winner": 0.9978,
     "correct": true,
-    "brier": 1.7999999999998017e-07,
-    "logloss": 0.00030004500900199243,
-    "share_err_pts": 6.830911360066927,
-    "in_80": false
+    "brier": 9.67999999999991e-06,
+    "logloss": 0.0022024235552000394,
+    "share_err_pts": 4.28048257171052,
+    "in_80": true
    },
    {
     "race": "KEE",
     "winner": "B",
-    "p_winner": 0.5408,
+    "p_winner": 0.7078,
     "correct": true,
-    "brier": 0.42172928000000004,
-    "logloss": 0.6147057542533828,
-    "share_err_pts": 7.101243634954252,
-    "in_80": false
+    "brier": 0.17076168000000003,
+    "logloss": 0.3455937110707741,
+    "share_err_pts": 4.920331856483168,
+    "in_80": true
    },
    {
     "race": "ILA",
     "winner": "B",
-    "p_winner": 0.9317,
+    "p_winner": 0.9635,
     "correct": true,
-    "brier": 0.009329780000000003,
-    "logloss": 0.07074440452575782,
-    "share_err_pts": -1.7239715310322423,
+    "brier": 0.0026644999999999985,
+    "logloss": 0.03718279112771595,
+    "share_err_pts": -3.825357343968844,
     "in_80": true
    },
    {
     "race": "HSQ",
     "winner": "B",
-    "p_winner": 0.9869,
+    "p_winner": 0.9949,
     "correct": true,
-    "brier": 0.00034322000000000004,
-    "logloss": 0.013186561804175559,
-    "share_err_pts": 3.3090131575662927,
+    "brier": 5.201999999999994e-05,
+    "logloss": 0.005113049386823014,
+    "share_err_pts": 0.9643161540556611,
     "in_80": true
    },
    {
     "race": "HSZ",
     "winner": "T",
-    "p_winner": 0.7378,
+    "p_winner": 0.7469,
     "correct": true,
-    "brier": 0.11001464,
-    "logloss": 0.30408249381956176
+    "brier": 0.09637025999999999,
+    "logloss": 0.29182397161911605
    },
    {
     "race": "MIA",
     "winner": "T",
-    "p_winner": 0.6233,
+    "p_winner": 0.6601,
     "correct": true,
-    "brier": 0.25604294,
-    "logloss": 0.4727273351673322
+    "brier": 0.17752082,
+    "logloss": 0.4153639402874119
    },
    {
     "race": "CHA",
     "winner": "B",
-    "p_winner": 0.982,
+    "p_winner": 0.9888,
     "correct": true,
-    "brier": 0.0006480000000000006,
-    "logloss": 0.01816397062767118,
-    "share_err_pts": -4.329829732560587,
+    "brier": 0.0002508799999999997,
+    "logloss": 0.011263192278710714,
+    "share_err_pts": -5.796156002527514,
     "in_80": true
    },
    {
     "race": "NAN",
     "winner": "B",
-    "p_winner": 0.9674,
+    "p_winner": 0.9814,
     "correct": true,
-    "brier": 0.002125519999999997,
-    "logloss": 0.033143218593254184,
-    "share_err_pts": -2.331769264621836,
+    "brier": 0.000691919999999998,
+    "logloss": 0.01877515532633398,
+    "share_err_pts": -4.448521056815425,
     "in_80": true
    },
    {
     "race": "YUN",
     "winner": "B",
-    "p_winner": 0.9292,
+    "p_winner": 0.9552,
     "correct": true,
-    "brier": 0.010025279999999998,
-    "logloss": 0.07343127808588294,
-    "share_err_pts": 0.46839938760293576,
+    "brier": 0.004014079999999995,
+    "logloss": 0.04583453634379936,
+    "share_err_pts": -1.4044318694214186,
     "in_80": true
    },
    {
     "race": "CYQ",
     "winner": "G",
-    "p_winner": 0.97,
+    "p_winner": 0.9447,
     "correct": true,
-    "brier": 0.0018000000000000017,
-    "logloss": 0.030459207484708574,
-    "share_err_pts": -2.5841780896583066,
+    "brier": 0.006116180000000002,
+    "logloss": 0.05688786220704842,
+    "share_err_pts": -3.7528087104347185,
     "in_80": true
    },
    {
     "race": "CYI",
     "winner": "B",
-    "p_winner": 0.999,
+    "p_winner": 0.9982,
     "correct": true,
-    "brier": 2.000000000000002e-06,
-    "logloss": 0.0010005003335835344,
-    "share_err_pts": -1.2014628331056987,
+    "brier": 6.480000000000085e-06,
+    "logloss": 0.0018016219466282088,
+    "share_err_pts": -1.6192971405753098,
     "in_80": true
    },
    {
     "race": "PIF",
     "winner": "G",
-    "p_winner": 0.9863,
+    "p_winner": 0.9577,
     "correct": true,
-    "brier": 0.0003753800000000012,
-    "logloss": 0.01379471102218926,
-    "share_err_pts": 10.025064417975072,
+    "brier": 0.0035785800000000005,
+    "logloss": 0.043220702454563435,
+    "share_err_pts": 7.9304674652108,
     "in_80": false
    },
    {
     "race": "HUA",
     "winner": "B",
-    "p_winner": 0.996,
+    "p_winner": 0.9988,
     "correct": true,
-    "brier": 3.200000000000003e-05,
-    "logloss": 0.004008021397538822,
-    "share_err_pts": 2.139045682941998,
+    "brier": 2.879999999999949e-06,
+    "logloss": 0.001200720576518877,
+    "share_err_pts": 0.20991586865028444,
     "in_80": true
    },
    {
     "race": "TTT",
     "winner": "B",
-    "p_winner": 0.9955,
+    "p_winner": 0.9982,
     "correct": true,
-    "brier": 4.0499999999999534e-05,
-    "logloss": 0.004510155477886019,
-    "share_err_pts": -1.5995495304676588,
+    "brier": 6.480000000000085e-06,
+    "logloss": 0.0018016219466282088,
+    "share_err_pts": -3.1152710518294215,
     "in_80": true
    },
    {
     "race": "PEN",
     "winner": "G",
-    "p_winner": 0.125,
+    "p_winner": 0.0678,
     "correct": false,
-    "brier": 1.1491595000000001,
-    "logloss": 2.0794415416798357
+    "brier": 1.3116872600000002,
+    "logloss": 2.6911930840357874
    },
    {
     "race": "KIN",
     "winner": "T",
-    "p_winner": 0.0027,
+    "p_winner": 0.0053,
     "correct": false,
-    "brier": 1.9892145799999998,
+    "brier": 1.9788561800000002,
     "logloss": 4.605170185988091
    }
   ],
-  "nat_projected": 0.4834021807936986,
+  "nat_projected": 0.4655288528593932,
   "nat_actual": 0.4490579900999232,
-  "dpp_seats_mean": 5.8368,
+  "dpp_seats_mean": 5.0682,
+  "dpp_seats_80": [
+   4,
+   7
+  ],
+  "dpp_seats_actual": 5,
+  "n_polls": 206
+ },
+ "2022|28|calibrated errors": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "B",
+    "p_winner": 0.7529,
+    "correct": true,
+    "brier": 0.09696445999999999,
+    "logloss": 0.28382286212606045
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9823,
+    "correct": true,
+    "brier": 0.0006265800000000018,
+    "logloss": 0.017858518301313193,
+    "share_err_pts": -0.012370672448908104,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "B",
+    "p_winner": 0.5229,
+    "correct": true,
+    "brier": 0.45524882,
+    "logloss": 0.6483650377880521,
+    "share_err_pts": 6.161817621809373,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.9917,
+    "correct": true,
+    "brier": 0.00013777999999999957,
+    "logloss": 0.008334636790057628,
+    "share_err_pts": -3.595393642271377,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9932,
+    "correct": true,
+    "brier": 9.248000000000039e-05,
+    "logloss": 0.006823225348125537,
+    "share_err_pts": 11.583994391769304,
+    "in_80": false
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9886,
+    "correct": true,
+    "brier": 0.0002599199999999992,
+    "logloss": 0.011465478109278096,
+    "share_err_pts": 4.298891742406874,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "B",
+    "p_winner": 0.5446,
+    "correct": true,
+    "brier": 0.41477832000000003,
+    "logloss": 0.6077036987424779,
+    "share_err_pts": 6.893498035320683,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8723,
+    "correct": true,
+    "brier": 0.03261458000000001,
+    "logloss": 0.13662187754296426,
+    "share_err_pts": -1.4282226956391475,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.9802,
+    "correct": true,
+    "brier": 0.0007840800000000017,
+    "logloss": 0.01999864650668997,
+    "share_err_pts": 2.2008510299301562,
+    "in_80": true
+   },
+   {
+    "race": "HSZ",
+    "winner": "T",
+    "p_winner": 0.7333,
+    "correct": true,
+    "brier": 0.10678446000000003,
+    "logloss": 0.3102003838823833
+   },
+   {
+    "race": "MIA",
+    "winner": "T",
+    "p_winner": 0.648,
+    "correct": true,
+    "brier": 0.18918527999999998,
+    "logloss": 0.4338645826298623
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.9495,
+    "correct": true,
+    "brier": 0.005100499999999999,
+    "logloss": 0.05181974872979647,
+    "share_err_pts": -3.503250493674892,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9373,
+    "correct": true,
+    "brier": 0.007862579999999997,
+    "logloss": 0.0647518772296969,
+    "share_err_pts": -2.8463138901376697,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.873,
+    "correct": true,
+    "brier": 0.032258,
+    "logloss": 0.13581972314253485,
+    "share_err_pts": 0.4900219757540514,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9518,
+    "correct": true,
+    "brier": 0.0046464800000000014,
+    "logloss": 0.04940035029512699,
+    "share_err_pts": -1.9981417832322657,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.9804,
+    "correct": true,
+    "brier": 0.0007683199999999981,
+    "logloss": 0.019794627328179493,
+    "share_err_pts": 1.3442196768920278,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9499,
+    "correct": true,
+    "brier": 0.0050200200000000035,
+    "logloss": 0.051398563086000326,
+    "share_err_pts": 8.966245974677022,
+    "in_80": false
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9943,
+    "correct": true,
+    "brier": 6.498000000000044e-05,
+    "logloss": 0.005716306996109192,
+    "share_err_pts": 0.8443901476405946,
+    "in_80": true
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9838,
+    "correct": true,
+    "brier": 0.0005248799999999997,
+    "logloss": 0.01633265462089761,
+    "share_err_pts": -1.6308807156965754,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.1122,
+    "correct": false,
+    "brier": 1.18494776,
+    "logloss": 2.1874722858935414
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0174,
+    "correct": false,
+    "brier": 1.93100552,
+    "logloss": 4.051285072761654
+   }
+  ],
+  "nat_projected": 0.4799446465487972,
+  "nat_actual": 0.4490579900999232,
+  "dpp_seats_mean": 5.9157,
+  "dpp_seats_80": [
+   4,
+   8
+  ],
+  "dpp_seats_actual": 5,
+  "n_polls": 206
+ },
+ "2022|28|calibrated + pollsters": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "B",
+    "p_winner": 0.7408,
+    "correct": true,
+    "brier": 0.10773895999999998,
+    "logloss": 0.3000245956501674
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9841,
+    "correct": true,
+    "brier": 0.0005056200000000009,
+    "logloss": 0.01602776107719725,
+    "share_err_pts": 0.10487324469079518,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "B",
+    "p_winner": 0.5123,
+    "correct": true,
+    "brier": 0.47570258000000004,
+    "logloss": 0.6688448880369805,
+    "share_err_pts": 6.35262329423546,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.9898,
+    "correct": true,
+    "brier": 0.00020807999999999976,
+    "logloss": 0.010252376464351353,
+    "share_err_pts": -3.189461583650716,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9942,
+    "correct": true,
+    "brier": 6.728000000000032e-05,
+    "logloss": 0.005816885321564851,
+    "share_err_pts": 11.770980653599262,
+    "in_80": false
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9877,
+    "correct": true,
+    "brier": 0.00030257999999999945,
+    "logloss": 0.012376271068055405,
+    "share_err_pts": 4.042375108063423,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "B",
+    "p_winner": 0.5287,
+    "correct": true,
+    "brier": 0.44424738,
+    "logloss": 0.6373341157407326,
+    "share_err_pts": 7.124167442347523,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8796,
+    "correct": true,
+    "brier": 0.028992319999999988,
+    "logloss": 0.1282880203015309,
+    "share_err_pts": -1.7745811378420961,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.9842,
+    "correct": true,
+    "brier": 0.0004992800000000013,
+    "logloss": 0.015926150550259255,
+    "share_err_pts": 2.10512129085223,
+    "in_80": true
+   },
+   {
+    "race": "HSZ",
+    "winner": "T",
+    "p_winner": 0.732,
+    "correct": true,
+    "brier": 0.1082805,
+    "logloss": 0.3119747650208255
+   },
+   {
+    "race": "MIA",
+    "winner": "T",
+    "p_winner": 0.6412,
+    "correct": true,
+    "brier": 0.19585898000000002,
+    "logloss": 0.4444138582467392
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.9548,
+    "correct": true,
+    "brier": 0.0040860800000000015,
+    "logloss": 0.04625338451746204,
+    "share_err_pts": -3.674227579236228,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9386,
+    "correct": true,
+    "brier": 0.007539920000000002,
+    "logloss": 0.06336587562181978,
+    "share_err_pts": -2.8259199317795636,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.8832,
+    "correct": true,
+    "brier": 0.027284480000000003,
+    "logloss": 0.1242036034593062,
+    "share_err_pts": 0.26368951371876226,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9543,
+    "correct": true,
+    "brier": 0.004176979999999997,
+    "logloss": 0.0467771915589289,
+    "share_err_pts": -2.1089851129813098,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.9849,
+    "correct": true,
+    "brier": 0.00045602000000000007,
+    "logloss": 0.015215165806480377,
+    "share_err_pts": 0.9496587941798806,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9514,
+    "correct": true,
+    "brier": 0.004723919999999998,
+    "logloss": 0.04982069498395592,
+    "share_err_pts": 9.144880601163285,
+    "in_80": false
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9939,
+    "correct": true,
+    "brier": 7.441999999999993e-05,
+    "logloss": 0.006118681008177177,
+    "share_err_pts": 0.9225352451200153,
+    "in_80": true
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9864,
+    "correct": true,
+    "brier": 0.0003699199999999985,
+    "logloss": 0.013693327132002454,
+    "share_err_pts": -1.6075318989017706,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.1245,
+    "correct": false,
+    "brier": 1.1538999799999998,
+    "logloss": 2.083449563077375
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0187,
+    "correct": false,
+    "brier": 1.9258993799999997,
+    "logloss": 3.979231755121596
+   }
+  ],
+  "nat_projected": 0.4801510191900065,
+  "nat_actual": 0.4490579900999232,
+  "dpp_seats_mean": 5.9472,
   "dpp_seats_80": [
    4,
    8
@@ -2848,219 +5557,6 @@
   "dpp_seats_actual": 5,
   "n_polls": 1
  },
- "2022|10|polls, undecideds dropped": {
-  "rows": [
-   {
-    "race": "TPE",
-    "winner": "B",
-    "p_winner": 0.8204,
-    "correct": true,
-    "brier": 0.04915255999999999,
-    "logloss": 0.1979632527839115
-   },
-   {
-    "race": "NWT",
-    "winner": "B",
-    "p_winner": 0.9998,
-    "correct": true,
-    "brier": 7.999999999999119e-08,
-    "logloss": 0.0002000200026670447,
-    "share_err_pts": -1.1791957523537955,
-    "in_80": true
-   },
-   {
-    "race": "TAO",
-    "winner": "B",
-    "p_winner": 0.686,
-    "correct": true,
-    "brier": 0.19719199999999998,
-    "logloss": 0.3768776512562517,
-    "share_err_pts": 4.755222378984553,
-    "in_80": false
-   },
-   {
-    "race": "TXG",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -5.839560789899329,
-    "in_80": false
-   },
-   {
-    "race": "TNN",
-    "winner": "G",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 15.348637394590748,
-    "in_80": false
-   },
-   {
-    "race": "KHH",
-    "winner": "G",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 9.469812324673654,
-    "in_80": false
-   },
-   {
-    "race": "KEE",
-    "winner": "B",
-    "p_winner": 0.5938,
-    "correct": true,
-    "brier": 0.32999688,
-    "logloss": 0.5212127166524776,
-    "share_err_pts": 6.687619672369455,
-    "in_80": false
-   },
-   {
-    "race": "ILA",
-    "winner": "B",
-    "p_winner": 0.9255,
-    "correct": true,
-    "brier": 0.011100500000000001,
-    "logloss": 0.07742114696858486,
-    "share_err_pts": -0.2649614110120435,
-    "in_80": true
-   },
-   {
-    "race": "HSQ",
-    "winner": "B",
-    "p_winner": 0.9971,
-    "correct": true,
-    "brier": 1.682000000000008e-05,
-    "logloss": 0.002904213147389827,
-    "share_err_pts": 3.3593206173211874,
-    "in_80": true
-   },
-   {
-    "race": "HSZ",
-    "winner": "T",
-    "p_winner": 0.7254,
-    "correct": true,
-    "brier": 0.14072024,
-    "logloss": 0.321032052133335
-   },
-   {
-    "race": "MIA",
-    "winner": "T",
-    "p_winner": 0.686,
-    "correct": true,
-    "brier": 0.19719199999999998,
-    "logloss": 0.3768776512562517
-   },
-   {
-    "race": "CHA",
-    "winner": "B",
-    "p_winner": 0.9896,
-    "correct": true,
-    "brier": 0.00021631999999999926,
-    "logloss": 0.010454457903858873,
-    "share_err_pts": -3.5815110102565995,
-    "in_80": true
-   },
-   {
-    "race": "NAN",
-    "winner": "B",
-    "p_winner": 0.9926,
-    "correct": true,
-    "brier": 0.00010951999999999945,
-    "logloss": 0.007427515828796584,
-    "share_err_pts": -2.84636986989083,
-    "in_80": true
-   },
-   {
-    "race": "YUN",
-    "winner": "B",
-    "p_winner": 0.981,
-    "correct": true,
-    "brier": 0.0007220000000000006,
-    "logloss": 0.019182819416773987,
-    "share_err_pts": -0.7501661766553702,
-    "in_80": true
-   },
-   {
-    "race": "CYQ",
-    "winner": "G",
-    "p_winner": 0.9935,
-    "correct": true,
-    "brier": 8.449999999999934e-05,
-    "logloss": 0.006521216990265463,
-    "share_err_pts": -1.8018086027277058,
-    "in_80": true
-   },
-   {
-    "race": "CYI",
-    "winner": "B",
-    "p_winner": 0.9992,
-    "correct": true,
-    "brier": 1.2800000000000367e-06,
-    "logloss": 0.0008003201707691552,
-    "share_err_pts": 1.1648048739088313,
-    "in_80": true
-   },
-   {
-    "race": "PIF",
-    "winner": "G",
-    "p_winner": 0.9996,
-    "correct": true,
-    "brier": 3.1999999999996475e-07,
-    "logloss": 0.00040008002133969133,
-    "share_err_pts": 11.594141233522482,
-    "in_80": false
-   },
-   {
-    "race": "HUA",
-    "winner": "B",
-    "p_winner": 1.0,
-    "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -4.780036800736898,
-    "in_80": false
-   },
-   {
-    "race": "TTT",
-    "winner": "B",
-    "p_winner": 0.9981,
-    "correct": true,
-    "brier": 7.220000000000049e-06,
-    "logloss": 0.0019018072895963312,
-    "share_err_pts": -1.1859186716234815,
-    "in_80": true
-   },
-   {
-    "race": "PEN",
-    "winner": "G",
-    "p_winner": 0.1454,
-    "correct": false,
-    "brier": 1.09656056,
-    "logloss": 1.928266713882718
-   },
-   {
-    "race": "KIN",
-    "winner": "T",
-    "p_winner": 0.0,
-    "correct": false,
-    "brier": 2.0,
-    "logloss": 4.605170185988091
-   }
-  ],
-  "nat_projected": 0.49055012355329497,
-  "nat_actual": 0.4490579900999232,
-  "dpp_seats_mean": 5.6148,
-  "dpp_seats_80": [
-   4,
-   7
-  ],
-  "dpp_seats_actual": 5,
-  "n_polls": 267
- },
  "2022|10|current model": {
   "rows": [
    {
@@ -3274,170 +5770,170 @@
   "dpp_seats_actual": 5,
   "n_polls": 267
  },
- "2022|10|current + regional": {
+ "2022|10|2-pt DPP penalty (prev.)": {
   "rows": [
    {
     "race": "TPE",
     "winner": "B",
-    "p_winner": 0.8055,
+    "p_winner": 0.858,
     "correct": true,
-    "brier": 0.057101820000000005,
-    "logloss": 0.216292076365108
+    "brier": 0.03148602,
+    "logloss": 0.15315117949417478
    },
    {
     "race": "NWT",
     "winner": "B",
-    "p_winner": 0.9998,
+    "p_winner": 0.9997,
     "correct": true,
-    "brier": 7.999999999999119e-08,
-    "logloss": 0.0002000200026670447,
-    "share_err_pts": -0.722452673737678,
+    "brier": 1.7999999999998017e-07,
+    "logloss": 0.00030004500900199243,
+    "share_err_pts": -2.099511768968515,
     "in_80": true
    },
    {
     "race": "TAO",
     "winner": "B",
-    "p_winner": 0.6304,
+    "p_winner": 0.7631,
     "correct": true,
-    "brier": 0.27320832,
-    "logloss": 0.46140074043846774,
-    "share_err_pts": 5.30973285258764,
-    "in_80": false
+    "brier": 0.11224322,
+    "logloss": 0.27036619468654954,
+    "share_err_pts": 3.4465566339421216,
+    "in_80": true
    },
    {
     "race": "TXG",
     "winner": "B",
-    "p_winner": 1.0,
+    "p_winner": 0.9999,
     "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": -4.667715631896635,
-    "in_80": true
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": -5.88698129394799,
+    "in_80": false
    },
    {
     "race": "TNN",
     "winner": "G",
-    "p_winner": 1.0,
+    "p_winner": 0.9997,
     "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 13.158936108183239,
+    "brier": 1.7999999999998017e-07,
+    "logloss": 0.00030004500900199243,
+    "share_err_pts": 11.33553957986525,
     "in_80": false
    },
    {
     "race": "KHH",
     "winner": "G",
-    "p_winner": 1.0,
+    "p_winner": 0.9985,
     "correct": true,
-    "brier": 0.0,
-    "logloss": -0.0,
-    "share_err_pts": 6.240032838840969,
-    "in_80": false
+    "brier": 4.4999999999998375e-06,
+    "logloss": 0.0015011261262670914,
+    "share_err_pts": 3.8841010498750883,
+    "in_80": true
    },
    {
     "race": "KEE",
     "winner": "B",
-    "p_winner": 0.5658,
+    "p_winner": 0.7355,
     "correct": true,
-    "brier": 0.37705928,
-    "logloss": 0.5695146201146702,
-    "share_err_pts": 6.843739985023539,
-    "in_80": false
+    "brier": 0.13992049999999998,
+    "logloss": 0.30720473894064476,
+    "share_err_pts": 4.777200605687315,
+    "in_80": true
    },
    {
     "race": "ILA",
     "winner": "B",
-    "p_winner": 0.931,
+    "p_winner": 0.9645,
     "correct": true,
-    "brier": 0.009521999999999994,
-    "logloss": 0.07149600170506992,
-    "share_err_pts": -0.90922910196502,
+    "brier": 0.0025204999999999984,
+    "logloss": 0.03614544663635326,
+    "share_err_pts": -2.8023390297962414,
     "in_80": true
    },
    {
     "race": "HSQ",
     "winner": "B",
-    "p_winner": 0.9896,
+    "p_winner": 0.9955,
     "correct": true,
-    "brier": 0.00021631999999999926,
-    "logloss": 0.010454457903858873,
-    "share_err_pts": 3.0518794982085486,
+    "brier": 4.0499999999999534e-05,
+    "logloss": 0.004510155477886019,
+    "share_err_pts": 1.0098887410593393,
     "in_80": true
    },
    {
     "race": "HSZ",
     "winner": "T",
-    "p_winner": 0.739,
+    "p_winner": 0.7477,
     "correct": true,
-    "brier": 0.115794,
-    "logloss": 0.3024573580339353
+    "brier": 0.09552997999999999,
+    "logloss": 0.29075345097626715
    },
    {
     "race": "MIA",
     "winner": "T",
-    "p_winner": 0.7535,
+    "p_winner": 0.787,
     "correct": true,
-    "brier": 0.11041022000000003,
-    "logloss": 0.28302626091558697
+    "brier": 0.06891047999999998,
+    "logloss": 0.2395270305647338
    },
    {
     "race": "CHA",
     "winner": "B",
-    "p_winner": 0.9863,
+    "p_winner": 0.9914,
     "correct": true,
-    "brier": 0.0003753800000000012,
-    "logloss": 0.01379471102218926,
-    "share_err_pts": -4.542553745336297,
+    "brier": 0.0001479200000000009,
+    "logloss": 0.008637193395663588,
+    "share_err_pts": -6.038330637242495,
     "in_80": true
    },
    {
     "race": "NAN",
     "winner": "B",
-    "p_winner": 0.9855,
+    "p_winner": 0.9922,
     "correct": true,
-    "brier": 0.0004204999999999988,
-    "logloss": 0.014606152389362114,
-    "share_err_pts": -2.8620707033747084,
+    "brier": 0.00012168000000000045,
+    "logloss": 0.007830579115188564,
+    "share_err_pts": -4.932492627872332,
     "in_80": true
    },
    {
     "race": "YUN",
     "winner": "B",
-    "p_winner": 0.9432,
+    "p_winner": 0.9689,
     "correct": true,
-    "brier": 0.0064524799999999966,
-    "logloss": 0.05847692975897584,
-    "share_err_pts": 0.3988686226143179,
+    "brier": 0.001934420000000001,
+    "logloss": 0.03159387159117863,
+    "share_err_pts": -1.591668612887076,
     "in_80": true
    },
    {
     "race": "CYQ",
     "winner": "G",
-    "p_winner": 0.9755,
+    "p_winner": 0.9464,
     "correct": true,
-    "brier": 0.0012004999999999984,
-    "logloss": 0.024805118918971115,
-    "share_err_pts": -2.665855105162629,
+    "brier": 0.005745919999999998,
+    "logloss": 0.05508996631796001,
+    "share_err_pts": -3.839629904878328,
     "in_80": true
    },
    {
     "race": "CYI",
     "winner": "B",
-    "p_winner": 0.9991,
+    "p_winner": 0.9993,
     "correct": true,
-    "brier": 1.6200000000000213e-06,
-    "logloss": 0.0009004052431641551,
-    "share_err_pts": -1.143694454873101,
+    "brier": 9.800000000000474e-07,
+    "logloss": 0.0007002451143934259,
+    "share_err_pts": -1.6587170168885168,
     "in_80": true
    },
    {
     "race": "PIF",
     "winner": "G",
-    "p_winner": 0.9939,
+    "p_winner": 0.9646,
     "correct": true,
-    "brier": 7.441999999999993e-05,
-    "logloss": 0.006118681008177177,
-    "share_err_pts": 9.743108524306265,
+    "brier": 0.0025063199999999994,
+    "logloss": 0.036041771347265536,
+    "share_err_pts": 7.747838325059043,
     "in_80": false
    },
    {
@@ -3447,39 +5943,465 @@
     "correct": true,
     "brier": 0.0,
     "logloss": -0.0,
-    "share_err_pts": -2.3129274758403984,
+    "share_err_pts": -3.991945013803544,
     "in_80": true
    },
    {
     "race": "TTT",
     "winner": "B",
-    "p_winner": 0.9954,
+    "p_winner": 0.998,
     "correct": true,
-    "brier": 4.232000000000045e-05,
-    "logloss": 0.004610612557683294,
-    "share_err_pts": -1.6196867339339172,
+    "brier": 8.000000000000008e-06,
+    "logloss": 0.0020020026706730793,
+    "share_err_pts": -3.264096981666537,
     "in_80": true
    },
    {
     "race": "PEN",
     "winner": "G",
-    "p_winner": 0.1241,
+    "p_winner": 0.0608,
     "correct": false,
-    "brier": 1.15173002,
-    "logloss": 2.0866675867715756
+    "brier": 1.3319894600000002,
+    "logloss": 2.800165490010016
    },
    {
     "race": "KIN",
     "winner": "T",
-    "p_winner": 0.0003,
+    "p_winner": 0.0006,
     "correct": false,
-    "brier": 1.9988001800000001,
+    "brier": 1.9976007199999999,
     "logloss": 4.605170185988091
    }
   ],
-  "nat_projected": 0.48069070754593257,
+  "nat_projected": 0.46344209331428227,
   "nat_actual": 0.4490579900999232,
-  "dpp_seats_mean": 5.5857,
+  "dpp_seats_mean": 4.8663,
+  "dpp_seats_80": [
+   4,
+   6
+  ],
+  "dpp_seats_actual": 5,
+  "n_polls": 267
+ },
+ "2022|10|calibrated errors": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "B",
+    "p_winner": 0.7373,
+    "correct": true,
+    "brier": 0.10453394000000002,
+    "logloss": 0.3047604139865322
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9869,
+    "correct": true,
+    "brier": 0.00034322000000000004,
+    "logloss": 0.013186561804175559,
+    "share_err_pts": 0.1772316898907833,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "B",
+    "p_winner": 0.5455,
+    "correct": true,
+    "brier": 0.4131405,
+    "logloss": 0.6060524737090116,
+    "share_err_pts": 5.934576018821758,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.9946,
+    "correct": true,
+    "brier": 5.831999999999958e-05,
+    "logloss": 0.005414632701498842,
+    "share_err_pts": -3.457898012792743,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9966,
+    "correct": true,
+    "brier": 2.3119999999999718e-05,
+    "logloss": 0.003405793134832821,
+    "share_err_pts": 12.257522945108267,
+    "in_80": false
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9931,
+    "correct": true,
+    "brier": 9.522000000000024e-05,
+    "logloss": 0.006923915072824198,
+    "share_err_pts": 4.109309340971801,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "B",
+    "p_winner": 0.5458,
+    "correct": true,
+    "brier": 0.41259528,
+    "logloss": 0.6055026707078991,
+    "share_err_pts": 6.87169800468157,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8601,
+    "correct": true,
+    "brier": 0.03914402,
+    "logloss": 0.15070661742470323,
+    "share_err_pts": -0.9419120342549381,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.9804,
+    "correct": true,
+    "brier": 0.0007683199999999981,
+    "logloss": 0.019794627328179493,
+    "share_err_pts": 2.120552132744946,
+    "in_80": true
+   },
+   {
+    "race": "HSZ",
+    "winner": "T",
+    "p_winner": 0.7341,
+    "correct": true,
+    "brier": 0.10733946000000003,
+    "logloss": 0.30911001986540143
+   },
+   {
+    "race": "MIA",
+    "winner": "T",
+    "p_winner": 0.7742,
+    "correct": true,
+    "brier": 0.07756423999999999,
+    "logloss": 0.2559250408385893
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.9553,
+    "correct": true,
+    "brier": 0.003996179999999997,
+    "logloss": 0.04572985170617433,
+    "share_err_pts": -3.767627010865038,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9559,
+    "correct": true,
+    "brier": 0.0038896200000000025,
+    "logloss": 0.045101973912420185,
+    "share_err_pts": -3.303248978402462,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.8898,
+    "correct": true,
+    "brier": 0.024288079999999993,
+    "logloss": 0.1167585606101956,
+    "share_err_pts": 0.2672241295221589,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9541,
+    "correct": true,
+    "brier": 0.004213620000000005,
+    "logloss": 0.04698679122433687,
+    "share_err_pts": -2.1879819787140042,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.9857,
+    "correct": true,
+    "brier": 0.00040897999999999944,
+    "logloss": 0.014403230310743743,
+    "share_err_pts": 1.05901658790018,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.956,
+    "correct": true,
+    "brier": 0.003872000000000003,
+    "logloss": 0.044997365930735805,
+    "share_err_pts": 8.865426292577904,
+    "in_80": false
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": -3.0034821329338324,
+    "in_80": true
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9864,
+    "correct": true,
+    "brier": 0.0003699199999999985,
+    "logloss": 0.013693327132002454,
+    "share_err_pts": -1.715156155594516,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.1169,
+    "correct": false,
+    "brier": 1.17175154,
+    "logloss": 2.1464364105041143
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0057,
+    "correct": false,
+    "brier": 1.97726498,
+    "logloss": 4.605170185988091
+   }
+  ],
+  "nat_projected": 0.47763248274116266,
+  "nat_actual": 0.4490579900999232,
+  "dpp_seats_mean": 5.7788,
+  "dpp_seats_80": [
+   4,
+   8
+  ],
+  "dpp_seats_actual": 5,
+  "n_polls": 267
+ },
+ "2022|10|calibrated + pollsters": {
+  "rows": [
+   {
+    "race": "TPE",
+    "winner": "B",
+    "p_winner": 0.7324,
+    "correct": true,
+    "brier": 0.10899385999999997,
+    "logloss": 0.3114284661817813
+   },
+   {
+    "race": "NWT",
+    "winner": "B",
+    "p_winner": 0.9857,
+    "correct": true,
+    "brier": 0.00040897999999999944,
+    "logloss": 0.014403230310743743,
+    "share_err_pts": 0.04807282669261892,
+    "in_80": true
+   },
+   {
+    "race": "TAO",
+    "winner": "B",
+    "p_winner": 0.541,
+    "correct": true,
+    "brier": 0.421362,
+    "logloss": 0.6143360001356555,
+    "share_err_pts": 5.936949246149615,
+    "in_80": true
+   },
+   {
+    "race": "TXG",
+    "winner": "B",
+    "p_winner": 0.9921,
+    "correct": true,
+    "brier": 0.0001248200000000003,
+    "logloss": 0.00793137032628028,
+    "share_err_pts": -3.0223390559241006,
+    "in_80": true
+   },
+   {
+    "race": "TNN",
+    "winner": "G",
+    "p_winner": 0.9967,
+    "correct": true,
+    "brier": 2.1779999999999798e-05,
+    "logloss": 0.0033054570087264813,
+    "share_err_pts": 12.414475477879073,
+    "in_80": false
+   },
+   {
+    "race": "KHH",
+    "winner": "G",
+    "p_winner": 0.9915,
+    "correct": true,
+    "brier": 0.00014449999999999918,
+    "logloss": 0.008536331022286335,
+    "share_err_pts": 3.8446937363953437,
+    "in_80": true
+   },
+   {
+    "race": "KEE",
+    "winner": "B",
+    "p_winner": 0.5456,
+    "correct": true,
+    "brier": 0.41295872000000006,
+    "logloss": 0.6058691724528847,
+    "share_err_pts": 6.904244237417123,
+    "in_80": true
+   },
+   {
+    "race": "ILA",
+    "winner": "B",
+    "p_winner": 0.8625,
+    "correct": true,
+    "brier": 0.03781249999999999,
+    "logloss": 0.1479201300766222,
+    "share_err_pts": -0.9924518602941579,
+    "in_80": true
+   },
+   {
+    "race": "HSQ",
+    "winner": "B",
+    "p_winner": 0.9848,
+    "correct": true,
+    "brier": 0.00046207999999999975,
+    "logloss": 0.015316704111893288,
+    "share_err_pts": 2.000933589202819,
+    "in_80": true
+   },
+   {
+    "race": "HSZ",
+    "winner": "T",
+    "p_winner": 0.7307,
+    "correct": true,
+    "brier": 0.11066258,
+    "logloss": 0.3137523001849649
+   },
+   {
+    "race": "MIA",
+    "winner": "T",
+    "p_winner": 0.7616,
+    "correct": true,
+    "brier": 0.08677535999999998,
+    "logloss": 0.27233379550498144
+   },
+   {
+    "race": "CHA",
+    "winner": "B",
+    "p_winner": 0.9613,
+    "correct": true,
+    "brier": 0.0029953799999999963,
+    "logloss": 0.039468743910366526,
+    "share_err_pts": -3.8653948915880365,
+    "in_80": true
+   },
+   {
+    "race": "NAN",
+    "winner": "B",
+    "p_winner": 0.9535,
+    "correct": true,
+    "brier": 0.0043244999999999985,
+    "logloss": 0.04761585394166328,
+    "share_err_pts": -3.098261051120821,
+    "in_80": true
+   },
+   {
+    "race": "YUN",
+    "winner": "B",
+    "p_winner": 0.8934,
+    "correct": true,
+    "brier": 0.022727120000000003,
+    "logloss": 0.11272087006411878,
+    "share_err_pts": 0.13147325041788505,
+    "in_80": true
+   },
+   {
+    "race": "CYQ",
+    "winner": "G",
+    "p_winner": 0.9537,
+    "correct": true,
+    "brier": 0.00428738,
+    "logloss": 0.04740612239727035,
+    "share_err_pts": -2.044339599022482,
+    "in_80": true
+   },
+   {
+    "race": "CYI",
+    "winner": "B",
+    "p_winner": 0.9873,
+    "correct": true,
+    "brier": 0.00032258000000000113,
+    "logloss": 0.012781334364733152,
+    "share_err_pts": 0.764614191339108,
+    "in_80": true
+   },
+   {
+    "race": "PIF",
+    "winner": "G",
+    "p_winner": 0.9654,
+    "correct": true,
+    "brier": 0.0023943199999999975,
+    "logloss": 0.035212755755744486,
+    "share_err_pts": 9.181506779407911,
+    "in_80": false
+   },
+   {
+    "race": "HUA",
+    "winner": "B",
+    "p_winner": 0.9999,
+    "correct": true,
+    "brier": 1.9999999999997797e-08,
+    "logloss": 0.00010000500033334732,
+    "share_err_pts": -2.5614916854900804,
+    "in_80": true
+   },
+   {
+    "race": "TTT",
+    "winner": "B",
+    "p_winner": 0.9876,
+    "correct": true,
+    "brier": 0.00030751999999999917,
+    "logloss": 0.01247752151111258,
+    "share_err_pts": -1.6998572174084237,
+    "in_80": true
+   },
+   {
+    "race": "PEN",
+    "winner": "G",
+    "p_winner": 0.1165,
+    "correct": false,
+    "brier": 1.17461682,
+    "logloss": 2.1498640059763816
+   },
+   {
+    "race": "KIN",
+    "winner": "T",
+    "p_winner": 0.0053,
+    "correct": false,
+    "brier": 1.9788561800000002,
+    "logloss": 4.605170185988091
+   }
+  ],
+  "nat_projected": 0.4783584586256673,
+  "nat_actual": 0.4490579900999232,
+  "dpp_seats_mean": 5.8031,
   "dpp_seats_80": [
    4,
    8

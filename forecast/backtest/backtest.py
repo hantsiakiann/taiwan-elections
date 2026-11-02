@@ -34,17 +34,17 @@ sys.path.insert(0, FC)
 import fundamentals as FU  # noqa: E402
 import model as M          # noqa: E402
 
-ELECTIONS = {"2018": dt.date(2018, 11, 24), "2022": dt.date(2022, 11, 26)}
+ELECTIONS = {"2014": dt.date(2014, 11, 29), "2018": dt.date(2018, 11, 24), "2022": dt.date(2022, 11, 26)}
 CT = json.load(open(os.path.join(ROOT, "data", "county_totals.json"), encoding="utf-8"))
 
 # Sponsor leans and online panels (same rules as the 2026 poll file)
-LEAN_G = {"新台灣國策智庫", "民進黨", "民主進步黨", "台灣世代智庫", "臺灣世代智庫", "台灣智庫"}
-LEAN_B = {"國民黨", "張善政團隊", "柯志恩團隊", "謝國樑團隊"}
+LEAN_G = {"新台灣國策智庫", "民進黨", "民主進步黨", "台灣世代智庫", "臺灣世代智庫", "台灣智庫", "柯文哲團隊", "游錫堃團隊"}
+LEAN_B = {"國民黨", "張善政團隊", "柯志恩團隊", "謝國樑團隊", "楊秋興團隊"}
 ONLINE = {"網路溫度計", "蕃新聞", "QuickseeK", "皮爾森數據", "鉅聞天下"}
 PARTY_PREFIX = {"民進": "DPP", "國民": "KMT", "民眾": "TPP", "時力": "NPP", "無黨": "IND",
                 "民國": "MKT", "樹黨": "TREE"}
 # Independents effectively backed by a camp
-CAMP_BACKED = {("2018", "徐定禎"): "G"}
+CAMP_BACKED = {("2018", "徐定禎"): "G", ("2014", "柯文哲"): "G"}
 # Races not forecast: both main candidates KMT (Lienchiang 2022)
 SKIP = {("2022", "LIE")}
 TIER = {"TPE", "NWT", "TAO", "TXG", "TNN", "KHH"}
@@ -165,7 +165,7 @@ def fundamentals_for(year):
     fund_all = json.load(open(os.path.join(FC, "output", "fundamentals.json")))
     hist = [h for h in fund_all["env_history"] if h["cycle"] < year]
     pen = float(np.mean([h["ruling_party_penalty_logit"] for h in hist]))
-    pres = {"2018": "2016", "2022": "2020"}[year]
+    pres = {"2014": "2012", "2018": "2016", "2022": "2020"}[year]
     _, pres_share = FU.lean("president", pres)
     ruling = FU.CYCLES[year]["ruling"]
     nat_prior = math.log(pres_share / (1 - pres_share)) - pen * (1 if ruling == "DPP" else -1)
@@ -174,23 +174,32 @@ def fundamentals_for(year):
     return fund, nat_prior, nats[year][1]
 
 
+CALIBRATED = {"RACE_MISS_SD": 0.22, "MISS_SD": 0.11, "MISS_MEAN": 0.0,
+              "NONSAMPLE": {"candidate": 0.15, "camp": 0.30}}
 VARIANTS = {
-    "fundamentals only":        {"no_polls": True},
-    "polls, undecideds dropped": {"ALLOCATE_UNDECIDED": False, "FUND_INFLATE_MAX": 1.0},
+    "fundamentals only":         {"no_polls": True},
     "current model":             {},
-    "current + regional":        {"REGIONAL": True},
+    "2-pt DPP penalty (prev.)":  {"RACE_MISS_SD": 0.15, "MISS_MEAN": 0.08},
+    "calibrated errors":         dict(CALIBRATED),
+    "calibrated + pollsters":    {**CALIBRATED, "use_ratings": True},
 }
+SAVED = ("ALLOCATE_UNDECIDED", "FUND_INFLATE_MAX", "REGIONAL", "ELECTION", "NAT_PRIOR", "OUT", "load",
+         "RACE_MISS_SD", "MISS_SD", "MISS_MEAN", "NONSAMPLE", "USE_POLLSTER_RATINGS", "RATINGS")
 
 
 def run(year, as_of, variant):
     races, polls, actual = build_year(year)
     fund, nat_prior, _ = fundamentals_for(year)
     opts = VARIANTS[variant]
-    saved = {k: getattr(M, k) for k in ("ALLOCATE_UNDECIDED", "FUND_INFLATE_MAX", "REGIONAL", "ELECTION", "NAT_PRIOR", "OUT", "load")}
+    saved = {k: getattr(M, k) for k in SAVED}
     try:
         for k, v in opts.items():
-            if k != "no_polls":
+            if k not in ("no_polls", "use_ratings"):
                 setattr(M, k, v)
+        if opts.get("use_ratings"):
+            import pollster_ratings as PR   # ratings from the OTHER elections only
+            M.RATINGS = PR.compute([y for y in ELECTIONS if y != year])
+            M.USE_POLLSTER_RATINGS = True
         M.ELECTION = ELECTIONS[year]
         M.NAT_PRIOR = (nat_prior, 0.20)
         tmp = tempfile.mkdtemp()

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:06:04+00:00",
+ "generated": "2026-11-02T21:18:48+00:00",
  "as_of": "2026-11-01",
  "election_date": "2026-11-28",
  "n_sims": 10000,
@@ -2766,6 +2766,232 @@
   "KMT": 14,
   "TPP": 1,
   "IND": 2
+ },
+ "pollsters": {
+  "新台灣國策智庫": {
+   "house_pts": 3.6385645618784213,
+   "source": "sponsor alignment",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "TVBS": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "震傳媒": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "TPOC台灣議題研究中心": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "信民協會": {
+   "house_pts": 3.6385645618784213,
+   "source": "sponsor alignment",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "ETtoday": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "聯合報": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "台灣韜略策進學會": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "山水": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "民進黨": {
+   "house_pts": 3.6385645618784213,
+   "source": "sponsor alignment",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "皮爾森數據": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "年代": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "匯流": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "艾普羅": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "循證": {
+   "house_pts": 3.6385645618784213,
+   "source": "sponsor alignment",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "世新大學": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "佛光大學": {
+   "house_pts": -3.1667555826938325,
+   "source": "sponsor alignment",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "雨晴民調": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "大地民意": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "新台灣民調研究中心": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "鋒燦傳媒": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "全國公信力": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "趨勢": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "精確民調": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "關鍵調查": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "美麗島電子報": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "風傳媒": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  },
+  "求真": {
+   "house_pts": 0.0,
+   "source": "none (no track record)",
+   "grade": null,
+   "n_polls_history": 0,
+   "abs_err_pts": null,
+   "excess_err_pts": null
+  }
  },
  "method": {
   "fundamentals_coef": {

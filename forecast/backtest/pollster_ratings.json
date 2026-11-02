@@ -1,0 +1,696 @@
+{
+ "window_days": 60,
+ "shrinkage_K": 8,
+ "year_miss_logit": {
+  "2014": -0.057733205936948764,
+  "2018": 0.1293307489707431,
+  "2022": 0.17220974091631927
+ },
+ "year_miss_pts": {
+  "2014": -1.443330148423719,
+  "2018": 3.2332687242685774,
+  "2022": 4.305243522907982
+ },
+ "field_scatter_logit": 0.3861609539966146,
+ "pollsters": {
+  "ETtoday": {
+   "n_polls": 11,
+   "n_races": 7,
+   "years": [
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": -0.06302341467542866,
+   "house_logit": -0.03648724007524817,
+   "house_pts": -0.9121810018812043,
+   "scatter_logit": 0.27936242944681344,
+   "scatter_pts": 6.984060736170336,
+   "abs_err_pts": 3.5291786927563873,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 7.043378347548081,
+   "grade": "A"
+  },
+  "QuickseeK": {
+   "n_polls": 2,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": 0.09247182149765275,
+   "house_logit": 0.01849436429953055,
+   "house_pts": 0.4623591074882637,
+   "scatter_logit": 0.3454625102200612,
+   "scatter_pts": 8.63656275550153,
+   "abs_err_pts": 6.6170390603493,
+   "sponsor_lean": "N",
+   "online": true,
+   "score_pts": 8.648930117303152,
+   "grade": "B"
+  },
+  "TVBS": {
+   "n_polls": 25,
+   "n_races": 17,
+   "years": [
+    "2014",
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": -0.11135753943410041,
+   "house_logit": -0.08436177229856091,
+   "house_pts": -2.109044307464023,
+   "scatter_logit": 0.2886792409302857,
+   "scatter_pts": 7.2169810232571425,
+   "abs_err_pts": 4.826865799632639,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 7.518835214373309,
+   "grade": "A"
+  },
+  "三立": {
+   "n_polls": 6,
+   "n_races": 5,
+   "years": [
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": 0.37492873532780413,
+   "house_logit": 0.16068374371191604,
+   "house_pts": 4.0170935927979015,
+   "scatter_logit": 0.34517791938906295,
+   "scatter_pts": 8.629447984726573,
+   "abs_err_pts": 12.785149573903581,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.518635062570656,
+   "grade": "C"
+  },
+  "世新大學": {
+   "n_polls": 10,
+   "n_races": 10,
+   "years": [
+    "2014",
+    "2018"
+   ],
+   "house_raw_logit": -0.015954322661197888,
+   "house_logit": -0.008863512589554383,
+   "house_pts": -0.22158781473885958,
+   "scatter_logit": 0.27278463756850063,
+   "scatter_pts": 6.8196159392125155,
+   "abs_err_pts": 2.940399393455187,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 6.8232149840087954,
+   "grade": "A"
+  },
+  "中時": {
+   "n_polls": 18,
+   "n_races": 10,
+   "years": [
+    "2014",
+    "2018"
+   ],
+   "house_raw_logit": -0.23241399538611315,
+   "house_logit": -0.16090199680577064,
+   "house_pts": -4.022549920144266,
+   "scatter_logit": 0.3577331307022054,
+   "scatter_pts": 8.943328267555135,
+   "abs_err_pts": 7.814124063746229,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.806325935910113,
+   "grade": "D"
+  },
+  "中華亞太菁英交流協會": {
+   "n_polls": 6,
+   "n_races": 5,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": 0.3043602156973221,
+   "house_logit": 0.13044009244170945,
+   "house_pts": 3.2610023110427364,
+   "scatter_logit": 0.3385127891581873,
+   "scatter_pts": 8.462819728954681,
+   "abs_err_pts": 11.914248915341032,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.069368987829895,
+   "grade": "C"
+  },
+  "信傳媒": {
+   "n_polls": 3,
+   "n_races": 2,
+   "years": [
+    "2018"
+   ],
+   "house_raw_logit": 0.22516781545403233,
+   "house_logit": 0.061409404214736084,
+   "house_pts": 1.5352351053684021,
+   "scatter_logit": 0.33562913921318377,
+   "scatter_pts": 8.390728480329594,
+   "abs_err_pts": 8.862464110619385,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.530021761951707,
+   "grade": "B"
+  },
+  "全國公信力": {
+   "n_polls": 6,
+   "n_races": 3,
+   "years": [
+    "2018"
+   ],
+   "house_raw_logit": -0.11083791119488773,
+   "house_logit": -0.047501961940666165,
+   "house_pts": -1.1875490485166542,
+   "scatter_logit": 0.3166829726161994,
+   "scatter_pts": 7.917074315404984,
+   "abs_err_pts": 3.850408809441678,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.00564416260666,
+   "grade": "A"
+  },
+  "匯流": {
+   "n_polls": 6,
+   "n_races": 4,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": 0.23618453929437397,
+   "house_logit": 0.10122194541187456,
+   "house_pts": 2.530548635296864,
+   "scatter_logit": 0.465441264755069,
+   "scatter_pts": 11.636031618876725,
+   "abs_err_pts": 14.106421624272983,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 11.908018652618146,
+   "grade": "F"
+  },
+  "台中廣播": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": -0.2008919463196826,
+   "house_logit": -0.02232132736885362,
+   "house_pts": -0.5580331842213405,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 6.465628806415784,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.670138444170636,
+   "grade": "D"
+  },
+  "台灣世代智庫": {
+   "n_polls": 2,
+   "n_races": 2,
+   "years": [
+    "2018"
+   ],
+   "house_raw_logit": 0.3519833846085475,
+   "house_logit": 0.0703966769217095,
+   "house_pts": 1.7599169230427376,
+   "scatter_logit": 0.34795694078558237,
+   "scatter_pts": 8.698923519639559,
+   "abs_err_pts": 12.032853339482266,
+   "sponsor_lean": "G",
+   "online": false,
+   "score_pts": 8.875166363316831,
+   "grade": "C"
+  },
+  "台灣指標": {
+   "n_polls": 12,
+   "n_races": 11,
+   "years": [
+    "2014",
+    "2022"
+   ],
+   "house_raw_logit": 0.0640335630538703,
+   "house_logit": 0.038420137832322176,
+   "house_pts": 0.9605034458080544,
+   "scatter_logit": 0.6154579145794574,
+   "scatter_pts": 15.386447864486435,
+   "abs_err_pts": 14.457228051338323,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 15.416398566330864,
+   "grade": "F"
+  },
+  "台灣民意基金會": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": -0.05012418221276496,
+   "house_logit": -0.005569353579196107,
+   "house_pts": -0.13923383947990267,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 3.0521389675888577,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.65502783821937,
+   "grade": "C"
+  },
+  "台灣競爭力論壇": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2018"
+   ],
+   "house_raw_logit": 0.20463786419151847,
+   "house_logit": 0.022737540465724272,
+   "house_pts": 0.5684385116431068,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 8.34921532905654,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.670744482006219,
+   "grade": "D"
+  },
+  "周刊王": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": 0.018763742785544546,
+   "house_logit": 0.0020848603095049495,
+   "house_pts": 0.05212150773762374,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 4.774337092546595,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.654164549369538,
+   "grade": "C"
+  },
+  "國民黨": {
+   "n_polls": 4,
+   "n_races": 2,
+   "years": [
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": -0.10044480426768171,
+   "house_logit": -0.03348160142256057,
+   "house_pts": -0.8370400355640142,
+   "scatter_logit": 0.3168231819417133,
+   "scatter_pts": 7.920579548542833,
+   "abs_err_pts": 1.5261297165560879,
+   "sponsor_lean": "B",
+   "online": false,
+   "score_pts": 7.964685581109401,
+   "grade": "A"
+  },
+  "壹電視": {
+   "n_polls": 2,
+   "n_races": 2,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": 0.2364951340004615,
+   "house_logit": 0.0472990268000923,
+   "house_pts": 1.1824756700023076,
+   "scatter_logit": 0.3453985867445384,
+   "scatter_pts": 8.63496466861346,
+   "abs_err_pts": 4.469048201587818,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.715552968019308,
+   "grade": "B"
+  },
+  "大台中市政發展協會": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": -0.6291050592181389,
+   "house_logit": -0.06990056213534876,
+   "house_pts": -1.747514053383719,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 11.422382957545489,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.810911367528925,
+   "grade": "F"
+  },
+  "展欣科技": {
+   "n_polls": 3,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": -0.3213064622806518,
+   "house_logit": -0.08762903516745048,
+   "house_pts": -2.190725879186262,
+   "scatter_logit": 0.3429223926116656,
+   "scatter_pts": 8.573059815291641,
+   "abs_err_pts": 4.664800191460775,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.848538550196002,
+   "grade": "C"
+  },
+  "崑山科大": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": 0.9197587053208833,
+   "house_logit": 0.10219541170232037,
+   "house_pts": 2.554885292558009,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 27.299211155930063,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.98637148081644,
+   "grade": "F"
+  },
+  "年代": {
+   "n_polls": 4,
+   "n_races": 3,
+   "years": [
+    "2014",
+    "2022"
+   ],
+   "house_raw_logit": -0.07539998187358564,
+   "house_logit": -0.02513332729119521,
+   "house_pts": -0.6283331822798802,
+   "scatter_logit": 0.32442259453975053,
+   "scatter_pts": 8.110564863493764,
+   "abs_err_pts": 2.626514720281242,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.13486723879951,
+   "grade": "A"
+  },
+  "柯文哲團隊": {
+   "n_polls": 2,
+   "n_races": 1,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": 0.06364699903605135,
+   "house_logit": 0.012729399807210271,
+   "house_pts": 0.3182349951802568,
+   "scatter_logit": 0.34542383332363696,
+   "scatter_pts": 8.635595833090925,
+   "abs_err_pts": 0.258594245001597,
+   "sponsor_lean": "G",
+   "online": false,
+   "score_pts": 8.641457568295682,
+   "grade": "B"
+  },
+  "楊秋興團隊": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": 0.2977025418768551,
+   "house_logit": 0.03307806020853945,
+   "house_pts": 0.8269515052134863,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 5.999233398497658,
+   "sponsor_lean": "B",
+   "online": false,
+   "score_pts": 9.689376929746802,
+   "grade": "D"
+  },
+  "民進黨": {
+   "n_polls": 18,
+   "n_races": 13,
+   "years": [
+    "2014",
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": 0.1368464781385271,
+   "house_logit": 0.09473986948051875,
+   "house_pts": 2.368496737012969,
+   "scatter_logit": 0.33244676697983655,
+   "scatter_pts": 8.311169174495914,
+   "abs_err_pts": 7.173394534277092,
+   "sponsor_lean": "G",
+   "online": false,
+   "score_pts": 8.642066294604097,
+   "grade": "B"
+  },
+  "游錫堃團隊": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": -0.05736905369288013,
+   "house_logit": -0.006374339299208903,
+   "house_pts": -0.15935848248022258,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 2.8775564907457225,
+   "sponsor_lean": "G",
+   "online": false,
+   "score_pts": 9.655339021529647,
+   "grade": "C"
+  },
+  "畢肯": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": -0.15159676777085745,
+   "house_logit": -0.016844085307873048,
+   "house_pts": -0.4211021326968262,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 5.233249342695156,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.663203583744705,
+   "grade": "D"
+  },
+  "美麗島電子報": {
+   "n_polls": 6,
+   "n_races": 4,
+   "years": [
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": -0.2482753138728314,
+   "house_logit": -0.10640370594549917,
+   "house_pts": -2.660092648637479,
+   "scatter_logit": 0.5453364814109721,
+   "scatter_pts": 13.633412035274302,
+   "abs_err_pts": 14.23965892479673,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 13.890500949314152,
+   "grade": "F"
+  },
+  "聯合報": {
+   "n_polls": 26,
+   "n_races": 17,
+   "years": [
+    "2014",
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": -0.10090324924650693,
+   "house_logit": -0.07716130824732882,
+   "house_pts": -1.9290327061832206,
+   "scatter_logit": 0.398220592017794,
+   "scatter_pts": 9.955514800444849,
+   "abs_err_pts": 8.326167313426842,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 10.14068252749296,
+   "grade": "F"
+  },
+  "自由時報": {
+   "n_polls": 15,
+   "n_races": 10,
+   "years": [
+    "2014",
+    "2022"
+   ],
+   "house_raw_logit": 0.22062431757703113,
+   "house_logit": 0.14388542450675942,
+   "house_pts": 3.5971356126689855,
+   "scatter_logit": 0.29209940173281523,
+   "scatter_pts": 7.302485043320381,
+   "abs_err_pts": 7.047270461090799,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.140372990462375,
+   "grade": "B"
+  },
+  "艾普羅": {
+   "n_polls": 7,
+   "n_races": 4,
+   "years": [
+    "2018",
+    "2022"
+   ],
+   "house_raw_logit": -0.14921858489570036,
+   "house_logit": -0.06963533961799351,
+   "house_pts": -1.7408834904498378,
+   "scatter_logit": 0.30187880755018004,
+   "scatter_pts": 7.546970188754501,
+   "abs_err_pts": 3.6018304695524326,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 7.745155541192827,
+   "grade": "A"
+  },
+  "菱傳媒": {
+   "n_polls": 10,
+   "n_races": 10,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": -0.1700802339612124,
+   "house_logit": -0.09448901886734024,
+   "house_pts": -2.362225471683506,
+   "scatter_logit": 0.28814575697976136,
+   "scatter_pts": 7.203643924494034,
+   "abs_err_pts": 3.572645988656632,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 7.5810681945204905,
+   "grade": "A"
+  },
+  "蓋洛普": {
+   "n_polls": 2,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": -0.07602602345010424,
+   "house_logit": -0.01520520469002085,
+   "house_pts": -0.38013011725052126,
+   "scatter_logit": 0.34559608095706384,
+   "scatter_pts": 8.639902023926597,
+   "abs_err_pts": 2.4045929366553755,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.648260281067621,
+   "grade": "B"
+  },
+  "蘋果日報": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": 0.23974769360766546,
+   "house_logit": 0.02663863262307394,
+   "house_pts": 0.6659658155768484,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 4.550362191767918,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.676966826555294,
+   "grade": "D"
+  },
+  "蘋果民調": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2018"
+   ],
+   "house_raw_logit": 1.2408832231005702,
+   "house_logit": 0.13787591367784113,
+   "house_pts": 3.4468978419460283,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 34.255349301782836,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 10.250916116501338,
+   "grade": "F"
+  },
+  "詢證民調有限公司": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2018"
+   ],
+   "house_raw_logit": 0.7096923877019539,
+   "house_logit": 0.07885470974466154,
+   "house_pts": 1.9713677436165384,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 20.975578416817424,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.853246534787733,
+   "grade": "F"
+  },
+  "負數票協會": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": -0.10250931730005602,
+   "house_logit": -0.01138992414445067,
+   "house_pts": -0.28474810361126673,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 1.7425105904065812,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.658222299017812,
+   "grade": "D"
+  },
+  "趨勢": {
+   "n_polls": 19,
+   "n_races": 11,
+   "years": [
+    "2014"
+   ],
+   "house_raw_logit": 0.024474623826201105,
+   "house_logit": 0.01722288343325263,
+   "house_pts": 0.43057208583131573,
+   "scatter_logit": 0.34533196651672665,
+   "scatter_pts": 8.633299162918167,
+   "abs_err_pts": 6.561846536093806,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 8.644029543999757,
+   "grade": "B"
+  },
+  "關鍵調查": {
+   "n_polls": 1,
+   "n_races": 1,
+   "years": [
+    "2022"
+   ],
+   "house_raw_logit": 0.059887155720638546,
+   "house_logit": 0.006654128413404283,
+   "house_pts": 0.16635321033510705,
+   "scatter_logit": 0.3861609539966146,
+   "scatter_pts": 9.654023849915365,
+   "abs_err_pts": 5.802422415923945,
+   "sponsor_lean": "N",
+   "online": false,
+   "score_pts": 9.655457000335277,
+   "grade": "D"
+  }
+ }
+}

@@ -60,6 +60,8 @@ import os
 
 import numpy as np
 
+from pollsters import canon
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "output")
 N_SIMS = 10_000
@@ -86,6 +88,11 @@ REGIONS = {"North": ["TPE", "NWT", "KEE", "TAO", "HSQ", "HSZ", "ILA"],
 REG_MISS_SD = 0.08          # polling miss shared within a region (REGIONAL only)
 RACE_MISS_SD_REG = 0.09     # race miss when REGIONAL (0.08^2 + 0.09^2 ~ 0.12^2)
 DRIFT_SPLIT = (0.5, 0.25, 0.25)   # national / regional / race share of drift variance (REGIONAL only)
+USE_POLLSTER_RATINGS = False   # per-pollster house effects and reliability from pollster_ratings.json
+RATINGS = None                 # loaded from pollster_ratings.json; backtest.py can override
+RATED_MIN = 3                  # compared polls needed before a pollster's own record is used
+HOUSE_RATED_SD = 0.05          # prior SD around a rated pollster's historical house effect
+SAMPLING_TYPICAL = 0.08        # typical sampling SD, removed from historical scatter to get non-sampling error
 FUND_RAMP_DAYS = 100  # fundamentals start losing weight this many days before the election
 FUND_INFLATE_MAX = 1.6
 
@@ -111,7 +118,7 @@ def load():
     return fund, races, polls
 
 
-def poll_obs(p, as_of, fund=None):
+def poll_obs(p, as_of, fund=None, nonsample=None):
     """Poll -> (logit DPP two-camp share, variance, days to election, age).
     fund: the race's fundamentals-based DPP two-camp share; when given,
     undecided respondents are allocated toward it."""
@@ -129,7 +136,7 @@ def poll_obs(p, as_of, fund=None):
     end = dt.date.fromisoformat(p["field_end"])
     days = (ELECTION - end).days
     var = DEFF / (n2 * share * (1 - share))
-    var += NONSAMPLE[p["kind"]] ** 2
+    var += (NONSAMPLE[p["kind"]] if nonsample is None or p["kind"] != "candidate" else nonsample) ** 2
     if "online" in p["mode"]:
         var += ONLINE_EXTRA ** 2
     age = max((as_of - end).days, 0)
@@ -150,7 +157,21 @@ def main(as_of=None):
     reg_list = list(REGIONS)
     region_of = {c: g for g, cs in REGIONS.items() for c in cs}
     G_ = len(reg_list) if REGIONAL else 0
-    P = 4 + 2 * R + G_
+    # per-pollster house effects for pollsters with a track record
+    ratings = None
+    if USE_POLLSTER_RATINGS:
+        ratings = RATINGS if RATINGS is not None else json.load(open(os.path.join(HERE, "pollster_ratings.json"), encoding="utf-8"))
+    rated = {}
+    if ratings:
+        names = sorted({canon(p["pollster"]) for p in polls})
+        rated = {n: ratings["pollsters"][n] for n in names
+                 if n in ratings["pollsters"] and ratings["pollsters"][n]["n_compared"] >= RATED_MIN}
+    rated_list = list(rated)
+    H_ = len(rated_list)
+    field_ns = None
+    if ratings:
+        field_ns = math.sqrt(max(ratings["field_scatter_logit"] ** 2 - SAMPLING_TYPICAL ** 2, 0.05 ** 2))
+    P = 4 + 2 * R + G_ + H_
     m0 = np.zeros(P)
     v0 = np.zeros(P)
     m0[0], v0[0] = NAT_PRIOR[0], NAT_PRIOR[1] ** 2
@@ -166,7 +187,10 @@ def main(as_of=None):
     v0[4:4 + R] = (sd_f * race_infl) ** 2
     v0[4 + R:4 + 2 * R] = (RACE_MISS_SD_REG if REGIONAL else RACE_MISS_SD) ** 2
     if REGIONAL:
-        v0[4 + 2 * R:] = REG_MISS_SD ** 2
+        v0[4 + 2 * R:4 + 2 * R + G_] = REG_MISS_SD ** 2
+    for j, n in enumerate(rated_list):
+        m0[4 + 2 * R + G_ + j] = rated[n]["house_logit"]
+        v0[4 + 2 * R + G_ + j] = HOUSE_RATED_SD ** 2
     mu = np.array([feats[r]["pred_dev"] for r in partisan])
 
     def posterior(nat_for_undecided):
@@ -176,7 +200,13 @@ def main(as_of=None):
             if p["race"] not in idx or dt.date.fromisoformat(p["field_end"]) > as_of:
                 continue
             f = None if nat_for_undecided is None else float(expit(nat_for_undecided + mu[idx[p["race"]]]))
-            y, v, days, age = poll_obs(p, as_of, fund=f)
+            pname = canon(p["pollster"])
+            ns = None
+            if pname in rated:
+                ns = math.sqrt(max(rated[pname]["scatter_logit"] ** 2 - SAMPLING_TYPICAL ** 2, 0.05 ** 2))
+            elif field_ns is not None:
+                ns = field_ns
+            y, v, days, age = poll_obs(p, as_of, fund=f, nonsample=ns)
             a = np.zeros(P)
             a[0] = 1
             a[3] = 1
@@ -184,7 +214,9 @@ def main(as_of=None):
             a[4 + R + idx[p["race"]]] = 1
             if REGIONAL:
                 a[4 + 2 * R + reg_list.index(region_of[p["race"]])] = 1
-            if p["sponsor_lean"] == "G":
+            if pname in rated:
+                a[4 + 2 * R + G_ + rated_list.index(pname)] = 1
+            elif p["sponsor_lean"] == "G":
                 a[1] = 1
             elif p["sponsor_lean"] == "B":
                 a[2] = 1
@@ -255,7 +287,9 @@ def main(as_of=None):
         if rp:
             adj = []
             for p in rp:
-                h = mean[1] if p["sponsor_lean"] == "G" else mean[2] if p["sponsor_lean"] == "B" else 0
+                pn = canon(p["pollster"])
+                h = (mean[4 + 2 * R + G_ + rated_list.index(pn)] if pn in rated else
+                     mean[1] if p["sponsor_lean"] == "G" else mean[2] if p["sponsor_lean"] == "B" else 0)
                 adj.append((p["logit"] - h, 1 / p["var"]))
             poll_avg = float(expit(sum(y * w for y, w in adj) / sum(w for _, w in adj)))
         prior_var = (sd_f * race_infl[i]) ** 2
@@ -358,6 +392,25 @@ def main(as_of=None):
         "house_effect_kmt_aligned_logit": float(hB.mean()),
         "history": fund["env_history"],
     }
+    # house effect used for each 2026 pollster (posterior mean), with its rating
+    pol = {}
+    for p in used:
+        pn = canon(p["pollster"])
+        if pn in pol:
+            continue
+        if pn in rated:
+            h = mean[4 + 2 * R + G_ + rated_list.index(pn)]
+            src = "track record"
+        elif p["sponsor_lean"] in ("G", "B"):
+            h = mean[1] if p["sponsor_lean"] == "G" else mean[2]
+            src = "sponsor alignment"
+        else:
+            h, src = 0.0, "none (no track record)"
+        r_ = (ratings or {}).get("pollsters", {}).get(pn, {})
+        pol[pn] = {"house_pts": float(h) * 25, "source": src, "grade": r_.get("grade"),
+                   "n_polls_history": r_.get("n_polls", 0), "abs_err_pts": r_.get("abs_err_pts"),
+                   "excess_err_pts": r_.get("excess_err_pts")}
+    out["pollsters"] = pol
     out["method"] = {
         "fundamentals_coef": fund["coef"], "fundamentals_oos_sd_logit": sd_f,
         "backtest": fund["backtest"], "nat_prior": NAT_PRIOR, "house_prior": HOUSE_PRIOR,
