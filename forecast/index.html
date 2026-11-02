@@ -8,18 +8,30 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap">
 <style>
 :root{
+  --G3:#1B9431; --G2:#62b46f; --G1:#b3dcb9;
+  --B3:#000099; --B2:#5252c4; --B1:#b0b0e6;
+  --T3:#6f6f6f; --T2:#9a9a9a; --T1:#cfcfcf;
+  --toss:#e2ddd2; --sea:#dce6ef; --border:#ffffff;
   --green:#1B9431; --blue:#000099; --third:#8a8a8a;
   --green-soft:#e3f2e6; --blue-soft:#e4e4f5;
   --ink:#1b1b1b; --mut:#626262; --line:#e2e2e2; --bg:#fafafa; --card:#ffffff; --hover:#f4f6fb;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
+    --G3:#5fd877; --G2:#3a9a4c; --G1:#2f6a39;
+    --B3:#9aa3ff; --B2:#5a64d6; --B1:#3c4290;
+    --T3:#c4c4c4; --T2:#8a8a8a; --T1:#4a4a4a;
+    --toss:#6e6a60; --sea:#10151a; --border:#141414;
     --green:#3dbb55; --blue:#7b86ff; --third:#a0a0a0;
     --green-soft:#16301b; --blue-soft:#1d1f3d;
     --ink:#ececec; --mut:#a3a3a3; --line:#333; --bg:#141414; --card:#1c1c1c; --hover:#242833;
   }
 }
 :root[data-theme="dark"]{
+  --G3:#5fd877; --G2:#3a9a4c; --G1:#2f6a39;
+  --B3:#9aa3ff; --B2:#5a64d6; --B1:#3c4290;
+  --T3:#c4c4c4; --T2:#8a8a8a; --T1:#4a4a4a;
+  --toss:#6e6a60; --sea:#10151a; --border:#141414;
   --green:#3dbb55; --blue:#7b86ff; --third:#a0a0a0;
   --green-soft:#16301b; --blue-soft:#1d1f3d;
   --ink:#ececec; --mut:#a3a3a3; --line:#333; --bg:#141414; --card:#1c1c1c; --hover:#242833;
@@ -74,6 +86,21 @@ tr.detail td{background:var(--hover);padding:14px 16px}
 .method p,.method li{font-size:14.5px;max-width:52em}
 .method code{font-size:13px}
 .scroll{overflow-x:auto}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px;align-items:start}
+@media(max-width:760px){.mapgrid{grid-template-columns:1fr}}
+#map svg{background:var(--sea);border-radius:8px}
+#map path.co{stroke:var(--border);stroke-width:.8;cursor:pointer;transition:opacity .1s}
+#map path.co:hover{opacity:.8;stroke:var(--ink);stroke-width:1.4}
+#map .inset{fill:none;stroke:var(--mut);stroke-dasharray:3 2;stroke-width:.8}
+#map .inslab{font-size:9px;fill:var(--mut)}
+.r-G3{fill:var(--G3)} .r-G2{fill:var(--G2)} .r-G1{fill:var(--G1)}
+.r-B3{fill:var(--B3)} .r-B2{fill:var(--B2)} .r-B1{fill:var(--B1)}
+.r-T3{fill:var(--T3)} .r-T2{fill:var(--T2)} .r-T1{fill:var(--T1)} .r-TU{fill:var(--toss)}
+.rkey{width:100%;font-size:13.5px}
+.rkey td{padding:5px 6px;vertical-align:top}
+.rkey .chip{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:6px}
+.rkey .races{color:var(--mut);font-size:12.5px;white-space:normal}
+.rtag{display:inline-block;font-size:11px;font-weight:600;border-radius:10px;padding:0 7px;margin-top:3px;white-space:nowrap}
 footer{color:var(--mut);font-size:13px;margin-top:26px}
 </style>
 </head>
@@ -93,6 +120,15 @@ footer{color:var(--mut);font-size:13px;margin-top:26px}
   <h2 style="margin-top:22px">Seats won across 10,000 simulations</h2>
   <div class="legend"><span><i class="sw" style="background:var(--green)"></i>DPP camp</span><span><i class="sw" style="background:var(--blue)"></i>KMT camp</span></div>
   <div id="seatchart"></div>
+</section>
+
+<section class="card">
+  <h2>Race ratings</h2>
+  <p class="sub">Shaded by the favorite's chance of winning: toss-up under 60%, lean 60–80%, likely 80–95%, safe 95% and up. Hover a county for details; click to jump to its race.</p>
+  <div class="mapgrid">
+    <div id="map" aria-label="Map of race ratings"></div>
+    <div><table class="rkey" id="rkey"></table></div>
+  </div>
 </section>
 
 <section class="card">
@@ -141,7 +177,65 @@ function moveTip(e){ const w = tip.offsetWidth; tip.style.left = Math.min(e.clie
 function hideTip(){ tip.style.opacity = 0; }
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-fetch("output/forecast_2026.json").then(r => r.json()).then(render);
+const RATING_CUTS = [[0.95, 3, "Safe"], [0.80, 2, "Likely"], [0.60, 1, "Lean"]];
+const CAMP_NAME = {G: "DPP", B: "KMT", T: "Ind.", I: "Ind."};
+function rating(r){
+  const wp = r.win_prob;
+  const [k, p] = Object.entries(wp).sort((a, b) => b[1] - a[1])[0];
+  const camp = k === "I" ? "T" : k;
+  for (const [cut, lvl, lab] of RATING_CUTS) if (p >= cut) return {cls: `r-${camp}${lvl}`, label: `${lab} ${CAMP_NAME[k]}`, camp, lvl, p};
+  return {cls: "r-TU", label: "Toss-up", camp: "TU", lvl: 0, p};
+}
+
+Promise.all([fetch("output/forecast_2026.json").then(r => r.json()),
+             fetch("../data/taiwan_map.json").then(r => r.json()).catch(() => null)])
+  .then(([F, M]) => { render(F); if (M) drawMap(F, M); });
+
+function drawMap(F, M){
+  const inset = {};
+  (M.insets || []).forEach(i => { if (i.iso) inset[i.iso] = i.box; });
+  let main = "", defs = "", groups = "", ann = "";
+  const clip = {};
+  for (const [iso, g] of Object.entries(M.counties)){
+    const r = F.races[iso]; if (!r || !g.d) continue;
+    const rt = rating(r);
+    const el = `<path class="co ${rt.cls}" data-iso="${iso}" d="${g.d}"><title>${esc(r.name_en)}: ${rt.label}</title></path>`;
+    if (inset[iso]) clip[iso] = el; else main += el;
+  }
+  (M.insets || []).forEach(i => {
+    if (i.box && i.iso){
+      const [x, y, w, h] = i.box;
+      defs += `<clipPath id="ins-${i.iso}"><rect x="${x}" y="${y}" width="${w}" height="${h}"/></clipPath>`;
+      groups += `<g clip-path="url(#ins-${i.iso})">${clip[i.iso] || ""}</g>`;
+      ann += `<rect class="inset" x="${x}" y="${y}" width="${w}" height="${h}"/><text class="inslab" x="${x}" y="${y - 5}">${esc(i.label)}</text>`;
+    } else if (i.at){
+      ann += `<text class="inslab" x="${i.at[0]}" y="${i.at[1]}">${esc(i.label)}</text>`;
+    }
+  });
+  const el = document.getElementById("map");
+  el.innerHTML = `<svg viewBox="${M.viewBox.join(" ")}" role="img" aria-label="Taiwan counties shaded by race rating"><defs>${defs}</defs>${main}${groups}${ann}</svg>`;
+  el.querySelectorAll("path.co").forEach(p => {
+    const iso = p.dataset.iso, r = F.races[iso], rt = rating(r);
+    p.querySelector("title").remove();
+    const probs = Object.entries(r.win_prob).map(([k, v]) => `${CAMP_NAME[k]} ${fmtP(v)}`).join(" · ");
+    p.addEventListener("mousemove", e => showTip(e, `<b>${esc(r.name_en)} ${esc(r.name_zh)}</b><br>${rt.label}<br>${probs}`));
+    p.addEventListener("mouseleave", hideTip);
+    p.addEventListener("click", () => {
+      document.querySelector('.filters button[data-f="all"]').click();
+      const row = document.querySelector(`tr.race[data-iso="${iso}"]`);
+      if (row){ if (row.getAttribute("aria-expanded") !== "true") row.click(); row.scrollIntoView({behavior: "smooth", block: "center"}); }
+    });
+  });
+
+  // key: one row per rating with counts and race names, DPP-safe at top to KMT-safe at bottom
+  const order = ["r-G3","r-G2","r-G1","r-TU","r-B1","r-B2","r-B3","r-T1","r-T2","r-T3"];
+  const labels = {"r-G3":"Safe DPP","r-G2":"Likely DPP","r-G1":"Lean DPP","r-TU":"Toss-up","r-B1":"Lean KMT","r-B2":"Likely KMT","r-B3":"Safe KMT","r-T1":"Lean Ind.","r-T2":"Likely Ind.","r-T3":"Safe Ind."};
+  const groupsBy = {};
+  Object.values(F.races).forEach(r => { const c = rating(r).cls; (groupsBy[c] = groupsBy[c] || []).push(r.name_en); });
+  document.getElementById("rkey").innerHTML = order.filter(c => groupsBy[c] || !c.startsWith("r-T")).map(c =>
+    `<tr><td style="white-space:nowrap"><svg class="chip" viewBox="0 0 14 14" aria-hidden="true"><rect class="${c}" width="14" height="14" rx="3"/></svg>${labels[c]}</td>
+     <td class="num"><b>${(groupsBy[c] || []).length}</b></td><td class="races">${(groupsBy[c] || []).join(", ") || "—"}</td></tr>`).join("");
+}
 
 function render(F){
   const asOf = new Date(F.as_of + "T12:00:00");
@@ -222,7 +316,7 @@ function raceTable(F){
       const thirdNote = x.pT > 0.004 ? `<div class="p" style="font-size:12px;color:var(--mut)">${esc((c.T || c.I)[0])}: ${fmtP(x.pT)}</div>` : "";
       const mg = x.margin == null ? "—" : `${pct1(x.margin)} DPP`;
       return `<tr class="race" data-iso="${x.iso}" tabindex="0" aria-expanded="false">
-        <td class="rname">${esc(r.name_en)}${x.flip ? '<span class="tag">flip</span>' : ""}<small>${esc(r.name_zh)}</small></td>
+        <td class="rname">${esc(r.name_en)}${x.flip ? '<span class="tag">flip</span>' : ""}<small>${esc(r.name_zh)}</small>${(rt => `<svg class="chip" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" style="vertical-align:-1px;margin-right:4px"><rect class="${rt.cls}" width="10" height="10" rx="2"/></svg><span style="font-size:12px;color:var(--mut);font-weight:600">${rt.label}</span>`)(rating(r))}</td>
         <td class="cand hide-s">${cand("G")}${cand("B")}${cand("T")}${cand("I")}</td>
         <td class="num lean-G">${r.win_prob.G == null ? "—" : fmtP(x.pG)}</td>
         <td>${bar}${thirdNote}</td>
