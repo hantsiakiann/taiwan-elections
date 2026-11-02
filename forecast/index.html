@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan 2026 Local Election Forecast</title>
+<meta name="description" content="Polls + fundamentals forecast for Taiwan's 22 mayor and magistrate races on November 28, 2026, simulated 10,000 times.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap">
+<style>
+:root{
+  --green:#1B9431; --blue:#000099; --third:#8a8a8a;
+  --green-soft:#e3f2e6; --blue-soft:#e4e4f5;
+  --ink:#1b1b1b; --mut:#626262; --line:#e2e2e2; --bg:#fafafa; --card:#ffffff; --hover:#f4f6fb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --green:#3dbb55; --blue:#7b86ff; --third:#a0a0a0;
+    --green-soft:#16301b; --blue-soft:#1d1f3d;
+    --ink:#ececec; --mut:#a3a3a3; --line:#333; --bg:#141414; --card:#1c1c1c; --hover:#242833;
+  }
+}
+:root[data-theme="dark"]{
+  --green:#3dbb55; --blue:#7b86ff; --third:#a0a0a0;
+  --green-soft:#16301b; --blue-soft:#1d1f3d;
+  --ink:#ececec; --mut:#a3a3a3; --line:#333; --bg:#141414; --card:#1c1c1c; --hover:#242833;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Titillium Web","Noto Sans TC",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+a{color:inherit}
+.page{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
+header h1{margin:0;font-size:28px;line-height:1.2}
+header .zh{font-family:"Noto Sans TC";font-weight:500;color:var(--mut);font-size:16px;margin-top:2px}
+header p{color:var(--mut);margin:10px 0 0;max-width:46em}
+.stamp{font-size:13px;color:var(--mut);margin-top:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-top:22px}
+h2{margin:0 0 4px;font-size:18px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.tile{border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.tile .k{font-size:12.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;font-weight:600}
+.tile .v{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.15}
+.tile .d{font-size:13px;color:var(--mut)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:baseline}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--mut);margin:6px 0 10px}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.axis{font-size:11px;fill:var(--mut)}
+.gl{stroke:var(--line)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+thead th{font-size:12px;text-transform:uppercase;color:var(--mut);letter-spacing:.04em;font-weight:600;cursor:pointer;user-select:none;white-space:nowrap}
+thead th[aria-sort] ::after{content:""}
+tbody tr.race{cursor:pointer}
+tbody tr.race:hover{background:var(--hover)}
+td.num{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.rname{font-weight:600}
+.rname small{display:block;font-family:"Noto Sans TC";color:var(--mut);font-weight:400;font-size:12px}
+.cand{font-size:13px;line-height:1.35}
+.cand .g{color:var(--ink)} .cand .p{color:var(--mut);font-size:12px}
+.bar{display:flex;height:16px;border-radius:4px;overflow:hidden;gap:2px;min-width:140px;background:var(--card)}
+.bar span{display:block;height:100%}
+.call{font-weight:700;font-size:13px;white-space:nowrap}
+.tag{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:10px;padding:0 7px;color:var(--mut);margin-left:4px;font-weight:600}
+tr.detail td{background:var(--hover);padding:14px 16px}
+.dgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:24px}
+@media(max-width:760px){.dgrid{grid-template-columns:1fr} .hide-s{display:none}}
+.kv{font-size:13.5px} .kv div{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:3px 0}
+.kv b{font-variant-numeric:tabular-nums}
+.ptable{font-size:12.5px} .ptable td,.ptable th{padding:4px 6px}
+.lean-G{color:var(--green);font-weight:700} .lean-B{color:var(--blue);font-weight:700}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.filters button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:16px;padding:3px 12px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.tip{position:fixed;pointer-events:none;background:#222;color:#fff;font-size:12.5px;padding:6px 9px;border-radius:6px;opacity:0;transition:opacity .08s;z-index:10;white-space:nowrap}
+.method p,.method li{font-size:14.5px;max-width:52em}
+.method code{font-size:13px}
+.scroll{overflow-x:auto}
+footer{color:var(--mut);font-size:13px;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1>Taiwan 2026 Local Election Forecast</h1>
+  <div class="zh">2026 九合一 縣市長選舉預測</div>
+  <p>Win probabilities for all 22 mayor and magistrate races on November 28, 2026, from a model that combines published polls with each city's and county's partisan fundamentals, simulated 10,000 times.</p>
+  <div class="stamp" id="stamp"></div>
+</header>
+
+<section class="card">
+  <h2>Overall</h2>
+  <p class="sub">Seats are the 22 mayor/magistrate posts. KMT camp includes KMT-backed independents and TPP candidates in joint KMT–TPP races.</p>
+  <div class="tiles" id="tiles"></div>
+  <h2 style="margin-top:22px">Seats won across 10,000 simulations</h2>
+  <div class="legend"><span><i class="sw" style="background:var(--green)"></i>DPP camp</span><span><i class="sw" style="background:var(--blue)"></i>KMT camp</span></div>
+  <div id="seatchart"></div>
+</section>
+
+<section class="card">
+  <h2>Every race</h2>
+  <p class="sub">Bars show each candidate's chance of winning. Click a race for the polls and fundamentals behind it.</p>
+  <div class="filters" role="group" aria-label="Filter races">
+    <button data-f="all" aria-pressed="true">All 22</button>
+    <button data-f="municipality" aria-pressed="false">Special municipalities</button>
+    <button data-f="close" aria-pressed="false">Competitive (no side above 85%)</button>
+    <button data-f="flip" aria-pressed="false">Likely flips</button>
+  </div>
+  <div class="scroll">
+  <table id="races">
+    <thead><tr>
+      <th data-k="name">Race</th>
+      <th class="hide-s">Candidates</th>
+      <th data-k="pG" style="text-align:right">DPP win</th>
+      <th>Win probability</th>
+      <th data-k="pB" style="text-align:right">KMT camp win</th>
+      <th data-k="margin" class="hide-s" style="text-align:right">Projected two-camp</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+</section>
+
+<section class="card method">
+  <h2>How the forecast works</h2>
+  <p><b>Fundamentals.</b> For every county and special municipality, the model measures partisan lean from the most recent presidential and party-list legislative votes (the two are nearly identical across counties, r = 0.997, so they're averaged), the previous mayoral result relative to that year's national environment, and whether an incumbent is on the ballot. These are fit to the 2009/10, 2014, 2018 and 2022 mayoral elections. In leave-one-cycle-out backtests the fundamentals alone miss a race's two-camp share by about <span id="oos"></span> on average, beating a presidential-lean-only baseline in every cycle.</p>
+  <p><b>National environment.</b> All four past cycles show the governing party losing ground in local elections relative to the preceding presidential vote (about 10–12 points of two-camp share each time). The prior for 2026 is centered on the DPP's 46% average from the 2018 and 2022 midterms, with a wide spread so polls can move it.</p>
+  <p><b>Polls.</b> Each poll is converted to the DPP share among voters choosing between the two main camps. Its error combines sampling error (with a 1.5 design effect, counting only decided respondents), non-sampling error, a drift term that grows with the poll's age, a polling miss shared by every poll in that race, and one shared by every poll nationwide. Polls sponsored by DPP-aligned or KMT-aligned groups get house effects that are estimated from races where they overlap with media and academic polls. Party-camp questions from Global Views' March–April 22-county survey enter with much larger error.</p>
+  <p><b>Combining them.</b> Every piece is Gaussian on the log-odds scale, so the posterior is computed exactly. Races with many recent polls follow the polls; races with one old poll stay close to fundamentals; and the weight on polls rises as election day nears. Each of the 10,000 simulations draws the national environment, house effects and race results jointly, then adds drift for the weeks remaining. Polled third candidates take a share off the top, and the winner is whoever has the most votes.</p>
+  <p><b>Limits.</b> Many counties have only one or two public polls, several from campaign-aligned sponsors. Kinmen and Lienchiang have no DPP contest and no polls found; they use a simple prior. Third-candidate shares are drawn independently of the two-camp split.</p>
+  <p>Code and data: <a href="https://github.com/hantsiakiann/taiwan-elections/tree/main/forecast">github.com/hantsiakiann/taiwan-elections/forecast</a>. Historical results from the Central Election Commission (中選會).</p>
+</section>
+<footer>Model output generated <span id="gen"></span>.</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+const fmtP = p => p >= 0.995 ? ">99%" : p <= 0.005 ? "<1%" : Math.round(p * 100) + "%";
+const pct1 = x => (x * 100).toFixed(1) + "%";
+const tip = document.getElementById("tip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e){ const w = tip.offsetWidth; tip.style.left = Math.min(e.clientX + 12, innerWidth - w - 8) + "px"; tip.style.top = (e.clientY + 14) + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+fetch("output/forecast_2026.json").then(r => r.json()).then(render);
+
+function render(F){
+  const asOf = new Date(F.as_of + "T12:00:00");
+  document.getElementById("stamp").textContent =
+    `Forecast as of ${asOf.toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"})} · ${F.method.n_polls_used} polls · ${F.n_sims.toLocaleString()} simulations · election ${F.election_date}`;
+  document.getElementById("gen").textContent = F.generated.replace("T"," ").replace("+00:00"," UTC");
+  document.getElementById("oos").textContent = (F.method.fundamentals_oos_sd_logit * 25).toFixed(1) + " points";
+
+  const S = F.seats, env = F.national.env_green_two_camp;
+  const munG = S.municipalities_green_hist, nSim = F.n_sims;
+  const munMean = munG.reduce((a, c, i) => a + c * i, 0) / nSim;
+  document.getElementById("tiles").innerHTML = [
+    ["DPP seats", S.green_mean.toFixed(1), `80% range ${S.green_p10_p90[0]}–${S.green_p10_p90[1]} · won 5 in 2022`, "var(--green)"],
+    ["KMT-camp seats", S.blue_mean.toFixed(1), `80% range ${S.blue_p10_p90[0]}–${S.blue_p10_p90[1]} · won 14 in 2022 (+ Hsinchu City TPP)`, "var(--blue)"],
+    ["DPP municipalities", munMean.toFixed(1) + " / 6", "Taipei, New Taipei, Taoyuan, Taichung, Tainan, Kaohsiung", "var(--green)"],
+    ["National environment", pct1(env.mean), `DPP share of the two-camp mayoral vote · 2022: 44.9%`, "var(--ink)"],
+  ].map(([k, v, d, c]) => `<div class="tile"><div class="k"><i class="sw" style="background:${c}"></i>${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join("");
+
+  seatChart(S, nSim);
+  raceTable(F);
+}
+
+function seatChart(S, n){
+  const W = 900, H = 220, m = {l:36, r:10, t:10, b:30};
+  const lo = 0, hi = 22, bw = (W - m.l - m.r) / (hi - lo + 1);
+  const maxV = Math.max(...S.green_hist, ...S.blue_hist) / n;
+  const yMax = Math.ceil(maxV * 20) / 20;
+  const y = v => m.t + (H - m.t - m.b) * (1 - v / yMax);
+  let g = "";
+  for (let t = 0; t <= yMax + 1e-9; t += 0.05){
+    g += `<line class="gl" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text class="axis" x="${m.l - 6}" y="${y(t) + 4}" text-anchor="end">${Math.round(t * 100)}%</text>`;
+  }
+  for (let s = lo; s <= hi; s++){
+    const x0 = m.l + (s - lo) * bw;
+    const half = (bw - 4) / 2;
+    [["G", S.green_hist[s] / n, x0 + 1, "var(--green)", "DPP"], ["B", S.blue_hist[s] / n, x0 + 1 + half + 2, "var(--blue)", "KMT camp"]].forEach(([k, v, x, c, lab]) => {
+      if (v <= 0) return;
+      const h = Math.max(H - m.b - y(v), 1);
+      const r = Math.min(4, half / 2, h);
+      const top = H - m.b - h;
+      g += `<path d="M${x},${H - m.b} V${top + r} Q${x},${top} ${x + r},${top} H${x + half - r} Q${x + half},${top} ${x + half},${top + r} V${H - m.b} Z" fill="${c}"/>`;
+    });
+    g += `<rect x="${x0}" y="${m.t}" width="${bw}" height="${H - m.t - m.b}" fill="transparent" data-s="${s}"/>`;
+    if (s % 2 === 0) g += `<text class="axis" x="${x0 + bw / 2}" y="${H - m.b + 16}" text-anchor="middle">${s}</text>`;
+  }
+  g += `<line x1="${m.l}" x2="${W - m.r}" y1="${H - m.b}" y2="${H - m.b}" stroke="var(--mut)" stroke-width="1"/>`;
+  g += `<text class="axis" x="${W - m.r}" y="${H - 2}" text-anchor="end">seats won</text>`;
+  const el = document.getElementById("seatchart");
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Distribution of seats won by each camp across simulations">${g}</svg>`;
+  el.querySelectorAll("rect[data-s]").forEach(r => {
+    const s = +r.dataset.s;
+    r.addEventListener("mousemove", e => showTip(e, `<b>${s} seats</b><br>DPP: ${pct1(S.green_hist[s] / n)} of sims<br>KMT camp: ${pct1(S.blue_hist[s] / n)} of sims`));
+    r.addEventListener("mouseleave", hideTip);
+  });
+}
+
+function raceTable(F){
+  const rows = Object.entries(F.races).map(([iso, r]) => {
+    const pG = r.win_prob.G ?? 0, pB = r.win_prob.B ?? 0, pT = r.win_prob.T ?? r.win_prob.I ?? 0;
+    const holder = {TPE:"B",NWT:"B",TAO:"B",TXG:"B",TNN:"G",KHH:"G",KEE:"B",ILA:"B",HSQ:"B",HSZ:"T",MIA:"B",CHA:"B",NAN:"B",YUN:"B",CYQ:"G",CYI:"B",PIF:"G",HUA:"B",TTT:"B",PEN:"G",KIN:"I",LIE:"B"}[iso];
+    const fav = pG >= pB && pG >= pT ? "G" : pB >= pT ? "B" : "T";
+    const favCamp = fav === "T" ? "T" : fav;
+    const holderCamp = holder === "T" ? "B" : holder; // Kao (TPP) is now KMT-backed
+    return {iso, r, pG, pB, pT, name: r.name_en, margin: r.two_camp_green ? r.two_camp_green.p10_p50_p90[1] : null,
+            flip: favCamp !== holderCamp && Math.max(pG, pB, pT) > 0.5, fav};
+  });
+  let sortKey = "pG", sortDir = -1, filt = "all";
+  const tb = document.querySelector("#races tbody");
+  function draw(){
+    let rs = rows.filter(x => filt === "all" || (filt === "municipality" && x.r.tier === "municipality") ||
+      (filt === "close" && Math.max(x.pG, x.pB, x.pT) <= 0.85) || (filt === "flip" && x.flip));
+    rs.sort((a, b) => sortKey === "name" ? a.name.localeCompare(b.name) * sortDir : ((a[sortKey] ?? -1) - (b[sortKey] ?? -1)) * sortDir);
+    tb.innerHTML = rs.map(x => {
+      const r = x.r, c = r.candidates;
+      const cand = k => c[k] ? `<div><span class="g">${esc(c[k][0])}</span> <span class="p">${esc(c[k][1])} · ${esc(c[k][2])}</span></div>` : "";
+      const segs = [["G", x.pG, "var(--green)"], ["B", x.pB, "var(--blue)"], ["T", x.pT, "var(--third)"]].filter(s => s[1] > 0.004);
+      const bar = `<div class="bar" aria-hidden="true">${segs.map(s => `<span style="width:${s[1] * 100}%;background:${s[2]}"></span>`).join("")}</div>`;
+      const thirdNote = x.pT > 0.004 ? `<div class="p" style="font-size:12px;color:var(--mut)">${esc((c.T || c.I)[0])}: ${fmtP(x.pT)}</div>` : "";
+      const mg = x.margin == null ? "—" : `${pct1(x.margin)} DPP`;
+      return `<tr class="race" data-iso="${x.iso}" tabindex="0" aria-expanded="false">
+        <td class="rname">${esc(r.name_en)}${x.flip ? '<span class="tag">flip</span>' : ""}<small>${esc(r.name_zh)}</small></td>
+        <td class="cand hide-s">${cand("G")}${cand("B")}${cand("T")}${cand("I")}</td>
+        <td class="num lean-G">${r.win_prob.G == null ? "—" : fmtP(x.pG)}</td>
+        <td>${bar}${thirdNote}</td>
+        <td class="num lean-B">${fmtP(x.pB)}</td>
+        <td class="num hide-s">${mg}</td></tr>`;
+    }).join("");
+    tb.querySelectorAll("tr.race").forEach(tr => {
+      const tog = () => toggle(tr);
+      tr.addEventListener("click", tog);
+      tr.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); tog(); } });
+    });
+  }
+  function toggle(tr){
+    const next = tr.nextElementSibling;
+    if (next && next.classList.contains("detail")){ next.remove(); tr.setAttribute("aria-expanded", "false"); return; }
+    tr.setAttribute("aria-expanded", "true");
+    const d = document.createElement("tr"); d.className = "detail";
+    d.innerHTML = `<td colspan="6">${detail(F.races[tr.dataset.iso])}</td>`;
+    tr.after(d);
+  }
+  document.querySelectorAll("thead th[data-k]").forEach(th => th.addEventListener("click", () => {
+    const k = th.dataset.k; sortDir = sortKey === k ? -sortDir : (k === "name" ? 1 : -1); sortKey = k; draw();
+  }));
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".filters button").forEach(o => o.setAttribute("aria-pressed", o === b));
+    filt = b.dataset.f; draw();
+  }));
+  draw();
+}
+
+function detail(r){
+  if (r.nonpartisan){
+    const q = r.kmt_vs_top_indep.p10_p50_p90;
+    return `<div class="kv"><div><span>KMT share vs. strongest independent (median)</span><b>${pct1(q[1])}</b></div>
+      <div><span>80% interval</span><b>${pct1(q[0])} – ${pct1(q[2])}</b></div></div><p class="sub" style="margin-top:8px">${esc(r.note)}</p>`;
+  }
+  const f = r.features, q = r.two_camp_green.p10_p50_p90, vs = r.vote_share;
+  const leanTxt = v => { const pts = (Math.abs(v) * 25).toFixed(1); return v >= 0 ? `<span class="lean-G">DPP +${pts}</span>` : `<span class="lean-B">KMT +${pts}</span>`; };
+  const inc = {"G":"DPP incumbent","B":"KMT-camp incumbent","0":"Open seat"}[r.incumbent];
+  const share = k => vs[k] ? `${pct1(vs[k][1])} <span style="color:var(--mut);font-weight:400">(${pct1(vs[k][0])}–${pct1(vs[k][2])})</span>` : "";
+  const polls = r.polls.slice().sort((a, b) => b.field_end.localeCompare(a.field_end)).map(p => `<tr>
+     <td>${esc(p.field_end)}</td><td>${p.source ? `<a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.pollster)}</a>` : esc(p.pollster)}${p.sponsor_lean !== "N" ? ` <span class="tag">${p.sponsor_lean === "G" ? "DPP-aligned" : "KMT-aligned"}</span>` : ""}${p.kind === "camp" ? ' <span class="tag">party camp</span>' : ""}</td>
+     <td class="num">${esc(p.green)}</td><td class="num">${esc(p.blue)}</td><td class="num">${esc(p.third || "")}</td><td class="num">${esc(p.undecided || "")}</td></tr>`).join("");
+  return `<div class="dgrid">
+    <div class="kv">
+      <div><span>Projected vote share, ${esc(r.candidates.G[0])}</span><b>${share("G")}</b></div>
+      <div><span>Projected vote share, ${esc(r.candidates.B[0])}</span><b>${share("B")}</b></div>
+      ${vs.T ? `<div><span>Projected vote share, ${esc(r.candidates.T[0])}</span><b>${share("T")}</b></div>` : ""}
+      <div><span>DPP two-camp share, 80% interval</span><b>${pct1(q[0])} – ${pct1(q[2])}</b></div>
+      <div><span>Fundamentals-only estimate</span><b>${pct1(r.fundamentals_only_green)}</b></div>
+      <div><span>House-adjusted poll average</span><b>${r.poll_avg_green == null ? "—" : pct1(r.poll_avg_green)}</b></div>
+      <div><span>Weight on polls vs. fundamentals</span><b>${Math.round(r.poll_weight * 100)}%</b></div>
+      <div><span>Presidential lean (2024)</span><b>${leanTxt(f.pres)}</b></div>
+      <div><span>Party-list lean (2024)</span><b>${leanTxt(f.pl)}</b></div>
+      <div><span>2022 mayoral result vs. national</span><b>${leanTxt(f.prev)}</b></div>
+      <div><span>Incumbency</span><b>${inc}</b></div>
+    </div>
+    <div>
+      <div style="font-size:12.5px;color:var(--mut);margin-bottom:4px">Polls used (DPP / KMT camp / third / undecided, %)</div>
+      <table class="ptable"><thead><tr><th>End date</th><th>Pollster</th><th style="text-align:right">DPP</th><th style="text-align:right">KMT</th><th style="text-align:right">3rd</th><th style="text-align:right">Und.</th></tr></thead><tbody>${polls || '<tr><td colspan="6">No polls</td></tr>'}</tbody></table>
+    </div></div>`;
+}
+</script>
+</body>
+</html>

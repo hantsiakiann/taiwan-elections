@@ -1,0 +1,5140 @@
+{
+ "mayor": {
+  "2005": {
+   "NAN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林宗男",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 60793
+     },
+     {
+      "no": "2",
+      "name": "林明溱",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 6271
+     },
+     {
+      "no": "3",
+      "name": "李朝卿",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 124777
+     },
+     {
+      "no": "4",
+      "name": "蔡煌瑯",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 83503
+     }
+    ]
+   },
+   "CYI": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳麗貞",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 62122
+     },
+     {
+      "no": "2",
+      "name": "黃敏惠",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 74786
+     }
+    ]
+   },
+   "CYQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳明文",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 183476
+     },
+     {
+      "no": "2",
+      "name": "陳明振",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 109192
+     }
+    ]
+   },
+   "KEE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳建銘",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 58243
+     },
+     {
+      "no": "2",
+      "name": "許財利",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 76162
+     },
+     {
+      "no": "3",
+      "name": "劉文雄",
+      "party_zh": null,
+      "party": "PFP",
+      "votes": 47932
+     },
+     {
+      "no": "4",
+      "name": "王拓",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 2771
+     }
+    ]
+   },
+   "ILA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳定南",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 112853
+     },
+     {
+      "no": "2",
+      "name": "謝李靜宜",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 2020
+     },
+     {
+      "no": "3",
+      "name": "呂國華",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 121463
+     }
+    ]
+   },
+   "PIF": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "曹啟鴻",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 216200
+     },
+     {
+      "no": "2",
+      "name": "宋麗華",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 45257
+     },
+     {
+      "no": "3",
+      "name": "王進士",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 195928
+     },
+     {
+      "no": "4",
+      "name": "李景雯",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 10723
+     }
+    ]
+   },
+   "CHA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "翁金珠",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 270949
+     },
+     {
+      "no": "2",
+      "name": "卓伯源",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 370790
+     },
+     {
+      "no": "3",
+      "name": "陳進丁",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 26887
+     }
+    ]
+   },
+   "HSZ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "鄭貴元",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 49777
+     },
+     {
+      "no": "2",
+      "name": "林政則",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 112221
+     }
+    ]
+   },
+   "HSQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林光華",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 77037
+     },
+     {
+      "no": "2",
+      "name": "鄭永金",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 157012
+     }
+    ]
+   },
+   "TAO": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "朱立倫",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 488979
+     },
+     {
+      "no": "2",
+      "name": "鄭寶清",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 307965
+     },
+     {
+      "no": "3",
+      "name": "吳家登",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 6784
+     }
+    ]
+   },
+   "PEN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳光復",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 23964
+     },
+     {
+      "no": "2",
+      "name": "王乾發",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 25223
+     },
+     {
+      "no": "3",
+      "name": "許敬民",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 572
+     }
+    ]
+   },
+   "TXG": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "李貴富",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 1897
+     },
+     {
+      "no": "2",
+      "name": "沈智慧",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 10061
+     },
+     {
+      "no": "3",
+      "name": "林佳龍",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 175592
+     },
+     {
+      "no": "4",
+      "name": "胡志強",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 262667
+     },
+     {
+      "no": "1",
+      "name": "邱太三",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 275153
+     },
+     {
+      "no": "2",
+      "name": "黃仲生",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 418144
+     },
+     {
+      "no": "3",
+      "name": "林振昌",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 10104
+     }
+    ]
+   },
+   "NWT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃福卿",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 5639
+     },
+     {
+      "no": "2",
+      "name": "周錫瑋",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 988739
+     },
+     {
+      "no": "3",
+      "name": "陳誠鈞",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 2812
+     },
+     {
+      "no": "4",
+      "name": "陳俊傑",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 4064
+     },
+     {
+      "no": "5",
+      "name": "羅文嘉",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 798233
+     },
+     {
+      "no": "6",
+      "name": "黃茂全",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 2585
+     }
+    ]
+   },
+   "TNN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳榮盛",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 134248
+     },
+     {
+      "no": "2",
+      "name": "錢林慧君",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 42000
+     },
+     {
+      "no": "3",
+      "name": "許添財",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 148006
+     },
+     {
+      "no": "1",
+      "name": "郭添財",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 250887
+     },
+     {
+      "no": "2",
+      "name": "張博森",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 8232
+     },
+     {
+      "no": "3",
+      "name": "蘇煥智",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 267583
+     },
+     {
+      "no": "4",
+      "name": "蔡四結",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 5310
+     }
+    ]
+   },
+   "TTT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "劉櫂豪",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 40173
+     },
+     {
+      "no": "2",
+      "name": "吳俊立",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 62189
+     },
+     {
+      "no": "3",
+      "name": "彭權國",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 2718
+     }
+    ]
+   },
+   "HUA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "柯賜海",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 20113
+     },
+     {
+      "no": "2",
+      "name": "盧博基",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 30988
+     },
+     {
+      "no": "3",
+      "name": "謝深山",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 66575
+     },
+     {
+      "no": "4",
+      "name": "傅崐萁",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 38379
+     }
+    ]
+   },
+   "MIA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "顏培元",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 3061
+     },
+     {
+      "no": "2",
+      "name": "陳秀龍",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 9718
+     },
+     {
+      "no": "3",
+      "name": "劉政鴻",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 134277
+     },
+     {
+      "no": "4",
+      "name": "邱炳坤",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 83694
+     },
+     {
+      "no": "5",
+      "name": "徐耀昌",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 47834
+     },
+     {
+      "no": "6",
+      "name": "江炳輝",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 1700
+     }
+    ]
+   },
+   "LIE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "吳軾子",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 127
+     },
+     {
+      "no": "2",
+      "name": "陳雪生",
+      "party_zh": null,
+      "party": "PFP",
+      "votes": 2592
+     },
+     {
+      "no": "3",
+      "name": "楊綏生",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 2181
+     }
+    ]
+   },
+   "KIN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳福海",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 13941
+     },
+     {
+      "no": "2",
+      "name": "陳平",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 682
+     },
+     {
+      "no": "3",
+      "name": "李炷烽",
+      "party_zh": null,
+      "party": "NP",
+      "votes": 17358
+     }
+    ]
+   },
+   "YUN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林佳瑜",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 8125
+     },
+     {
+      "no": "2",
+      "name": "蘇治芬",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 201192
+     },
+     {
+      "no": "3",
+      "name": "許舒博",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 167690
+     }
+    ]
+   },
+   "KHH": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "楊秋興",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 353232
+     },
+     {
+      "no": "2",
+      "name": "林益世",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 244015
+     }
+    ]
+   }
+  },
+  "2006": {
+   "TPE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "李敖",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 7795
+     },
+     {
+      "no": "2",
+      "name": "周玉蔻",
+      "party_zh": null,
+      "party": "TSU",
+      "votes": 3372
+     },
+     {
+      "no": "3",
+      "name": "謝長廷",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 525869
+     },
+     {
+      "no": "4",
+      "name": "宋楚瑜",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 53281
+     },
+     {
+      "no": "5",
+      "name": "郝龍斌",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 692085
+     },
+     {
+      "no": "6",
+      "name": "柯賜海",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 3687
+     }
+    ]
+   },
+   "KHH": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃俊英",
+      "party_zh": null,
+      "party": "KMT",
+      "votes": 378303
+     },
+     {
+      "no": "2",
+      "name": "林志昇",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 1746
+     },
+     {
+      "no": "3",
+      "name": "羅志明",
+      "party_zh": null,
+      "party": "TSU",
+      "votes": 6599
+     },
+     {
+      "no": "4",
+      "name": "林景元",
+      "party_zh": null,
+      "party": "IND",
+      "votes": 1803
+     },
+     {
+      "no": "5",
+      "name": "陳菊",
+      "party_zh": null,
+      "party": "DPP",
+      "votes": 379417
+     }
+    ]
+   }
+  },
+  "2009": {
+   "ILA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林聰賢",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 133394
+     },
+     {
+      "no": "2",
+      "name": "呂國華",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 112469
+     }
+    ]
+   },
+   "TAO": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "吳富彤",
+      "party_zh": "客家黨",
+      "party": "OTH",
+      "votes": 15807
+     },
+     {
+      "no": "2",
+      "name": "鄭文燦",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 346678
+     },
+     {
+      "no": "3",
+      "name": "吳志揚",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 396237
+     }
+    ]
+   },
+   "HSQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "邱鏡淳",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 97151
+     },
+     {
+      "no": "2",
+      "name": "張碧琴",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 76254
+     },
+     {
+      "no": "3",
+      "name": "彭紹瑾",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 77126
+     },
+     {
+      "no": "4",
+      "name": "曾錦祥",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1893
+     }
+    ]
+   },
+   "MIA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "楊長鎮",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 95469
+     },
+     {
+      "no": "2",
+      "name": "劉政鴻",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 181256
+     },
+     {
+      "no": "3",
+      "name": "李佳穆",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 7413
+     }
+    ]
+   },
+   "CHA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "翁金珠",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 276897
+     },
+     {
+      "no": "2",
+      "name": "卓伯源",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 348341
+     },
+     {
+      "no": "3",
+      "name": "張春男",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 9402
+     }
+    ]
+   },
+   "NAN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳振盛",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 22170
+     },
+     {
+      "no": "2",
+      "name": "李文忠",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 107023
+     },
+     {
+      "no": "3",
+      "name": "李朝卿",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 136951
+     },
+     {
+      "no": "4",
+      "name": "張俊宏",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3073
+     }
+    ]
+   },
+   "YUN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蘇治芬",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 229958
+     },
+     {
+      "no": "2",
+      "name": "吳威志",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 121832
+     }
+    ]
+   },
+   "CYQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "翁玉隆",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2874
+     },
+     {
+      "no": "2",
+      "name": "翁重鈞",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 128973
+     },
+     {
+      "no": "3",
+      "name": "蕭登標",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 7955
+     },
+     {
+      "no": "4",
+      "name": "張花冠",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 177333
+     }
+    ]
+   },
+   "PIF": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "曹啟鴻",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 270402
+     },
+     {
+      "no": "2",
+      "name": "周典論",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 185384
+     }
+    ]
+   },
+   "TTT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "劉櫂豪",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 50802
+     },
+     {
+      "no": "2",
+      "name": "黃健庭",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 56354
+     }
+    ]
+   },
+   "HUA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "傅萁",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 85532
+     },
+     {
+      "no": "2",
+      "name": "張志明",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 27595
+     },
+     {
+      "no": "3",
+      "name": "杜麗華",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 38603
+     }
+    ]
+   },
+   "PEN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蔡見興",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 22069
+     },
+     {
+      "no": "2",
+      "name": "王乾發",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 22664
+     },
+     {
+      "no": "3",
+      "name": "曾坤炳",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1177
+     }
+    ]
+   },
+   "KEE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林右昌",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 65673
+     },
+     {
+      "no": "2",
+      "name": "李步輝",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4391
+     },
+     {
+      "no": "3",
+      "name": "張通榮",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 86001
+     }
+    ]
+   },
+   "HSZ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "許明財",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 92667
+     },
+     {
+      "no": "2",
+      "name": "林修二",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 5074
+     },
+     {
+      "no": "3",
+      "name": "劉俊秀",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 68822
+     }
+    ]
+   },
+   "CYI": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃敏惠",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 69962
+     },
+     {
+      "no": "2",
+      "name": "林聖芬",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2801
+     },
+     {
+      "no": "3",
+      "name": "涂醒哲",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 61268
+     }
+    ]
+   },
+   "KIN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "梁國棟",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 245
+     },
+     {
+      "no": "2",
+      "name": "翁天慶",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 231
+     },
+     {
+      "no": "3",
+      "name": "楊榮祥",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 356
+     },
+     {
+      "no": "4",
+      "name": "吳成典",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 11501
+     },
+     {
+      "no": "5",
+      "name": "李沃士",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 14269
+     },
+     {
+      "no": "6",
+      "name": "陳水在",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 11442
+     },
+     {
+      "no": "7",
+      "name": "許敬民",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 236
+     }
+    ]
+   },
+   "LIE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "楊綏生",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 3135
+     },
+     {
+      "no": "2",
+      "name": "陳財能",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 78
+     },
+     {
+      "no": "3",
+      "name": "劉增應",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 2269
+     }
+    ]
+   }
+  },
+  "2010": {
+   "TPE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "吳炎成",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1832
+     },
+     {
+      "no": "2",
+      "name": "郝龍斌",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 797865
+     },
+     {
+      "no": "3",
+      "name": "蕭淑華",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2238
+     },
+     {
+      "no": "4",
+      "name": "吳武明",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3672
+     },
+     {
+      "no": "5",
+      "name": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 628129
+     }
+    ]
+   },
+   "NWT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "朱立倫",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 1115536
+     },
+     {
+      "no": "2",
+      "name": "蔡英文",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 1004900
+     }
+    ]
+   },
+   "TXG": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蘇嘉全",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 698358
+     },
+     {
+      "no": "2",
+      "name": "胡志強",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 730284
+     }
+    ]
+   },
+   "TNN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "郭添財",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 406196
+     },
+     {
+      "no": "2",
+      "name": "賴清德",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 619897
+     }
+    ]
+   },
+   "KHH": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "楊秋興",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 414950
+     },
+     {
+      "no": "2",
+      "name": "黃昭順",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 319171
+     },
+     {
+      "no": "3",
+      "name": "陳菊",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 821089
+     }
+    ]
+   }
+  },
+  "2014": {
+   "TPE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳汝斌",
+      "party_zh": "三等國民公義人權自救黨",
+      "party": "OTH",
+      "votes": 1624
+     },
+     {
+      "no": "2",
+      "name": "趙衍慶",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 15898
+     },
+     {
+      "no": "3",
+      "name": "李宏信",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2621
+     },
+     {
+      "no": "4",
+      "name": "陳永昌",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1908
+     },
+     {
+      "no": "5",
+      "name": "馮光遠",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 8080
+     },
+     {
+      "no": "6",
+      "name": "連勝文",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 609932
+     },
+     {
+      "no": "7",
+      "name": "柯文哲",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 853983
+     }
+    ]
+   },
+   "NWT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "游錫",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 934774
+     },
+     {
+      "no": "2",
+      "name": "李進順",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 22207
+     },
+     {
+      "no": "3",
+      "name": "朱立倫",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 959302
+     }
+    ]
+   },
+   "TAO": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "鄭文燦",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 492414
+     },
+     {
+      "no": "2",
+      "name": "吳志揚",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 463133
+     },
+     {
+      "no": "3",
+      "name": "許睿智",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 9943
+     }
+    ]
+   },
+   "TXG": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "胡志強",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 637531
+     },
+     {
+      "no": "2",
+      "name": "林佳龍",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 847284
+     }
+    ]
+   },
+   "TNN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "賴清德",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 711557
+     },
+     {
+      "no": "2",
+      "name": "黃秀霜",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 264536
+     }
+    ]
+   },
+   "KHH": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "周可盛",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 14925
+     },
+     {
+      "no": "2",
+      "name": "陳菊",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 993300
+     },
+     {
+      "no": "3",
+      "name": "楊秋興",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 450647
+     }
+    ]
+   },
+   "HSQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "葉芳棟",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 15699
+     },
+     {
+      "no": "2",
+      "name": "邱鏡淳",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 124309
+     },
+     {
+      "no": "3",
+      "name": "鄭永金",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 118698
+     },
+     {
+      "no": "4",
+      "name": "莊作兵",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 6115
+     }
+    ]
+   },
+   "MIA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "徐耀昌",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 147547
+     },
+     {
+      "no": "2",
+      "name": "康世儒",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 60356
+     },
+     {
+      "no": "3",
+      "name": "江明修",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 14978
+     },
+     {
+      "no": "4",
+      "name": "陳淑芬",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2137
+     },
+     {
+      "no": "5",
+      "name": "曾國良",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1807
+     },
+     {
+      "no": "6",
+      "name": "吳宜臻",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 89838
+     }
+    ]
+   },
+   "CHA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃文玲",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 37593
+     },
+     {
+      "no": "2",
+      "name": "洪敏雄",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 10674
+     },
+     {
+      "no": "3",
+      "name": "魏明谷",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 386405
+     },
+     {
+      "no": "4",
+      "name": "林滄敏",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 284738
+     }
+    ]
+   },
+   "NAN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "李文忠",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 143719
+     },
+     {
+      "no": "2",
+      "name": "林明溱",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 149361
+     }
+    ]
+   },
+   "YUN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "張麗善",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 175862
+     },
+     {
+      "no": "2",
+      "name": "李進勇",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 232900
+     }
+    ]
+   },
+   "CYQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃宏成台灣阿成世界偉人",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 8639
+     },
+     {
+      "no": "2",
+      "name": "張花冠",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 193399
+     },
+     {
+      "no": "3",
+      "name": "翁重鈞",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 104488
+     }
+    ]
+   },
+   "PIF": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "簡太郎",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 182027
+     },
+     {
+      "no": "2",
+      "name": "潘孟安",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 308953
+     }
+    ]
+   },
+   "ILA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林聰賢",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 160253
+     },
+     {
+      "no": "2",
+      "name": "邱淑媞",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 90320
+     }
+    ]
+   },
+   "HUA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "傅萁",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 89048
+     },
+     {
+      "no": "2",
+      "name": "徐榛蔚",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 5436
+     },
+     {
+      "no": "3",
+      "name": "師鵬",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2369
+     },
+     {
+      "no": "4",
+      "name": "柯賜海",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 14954
+     },
+     {
+      "no": "5",
+      "name": "朱國華",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2218
+     },
+     {
+      "no": "6",
+      "name": "蔡啟塔",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 43504
+     }
+    ]
+   },
+   "TTT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "劉櫂豪",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 53860
+     },
+     {
+      "no": "2",
+      "name": "黃健庭",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 64272
+     }
+    ]
+   },
+   "PEN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳光復",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 29164
+     },
+     {
+      "no": "2",
+      "name": "蘇崑雄",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 23533
+     }
+    ]
+   },
+   "KEE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "謝立功",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 52198
+     },
+     {
+      "no": "2",
+      "name": "黃景泰",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 30914
+     },
+     {
+      "no": "3",
+      "name": "林右昌",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 101010
+     },
+     {
+      "no": "4",
+      "name": "何燕堂",
+      "party_zh": "人民民主陣線",
+      "party": "OTH",
+      "votes": 1376
+     },
+     {
+      "no": "5",
+      "name": "吳武明",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2023
+     },
+     {
+      "no": "6",
+      "name": "江鑒育",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2517
+     }
+    ]
+   },
+   "HSZ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "劉正幸",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1914
+     },
+     {
+      "no": "2",
+      "name": "許明財",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 75564
+     },
+     {
+      "no": "3",
+      "name": "蔡仁堅",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 40480
+     },
+     {
+      "no": "4",
+      "name": "林智堅",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 76578
+     },
+     {
+      "no": "5",
+      "name": "吳淑敏",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 5101
+     }
+    ]
+   },
+   "CYI": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳秀麗",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 633
+     },
+     {
+      "no": "2",
+      "name": "陳泰山",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 786
+     },
+     {
+      "no": "3",
+      "name": "陳以真",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 66108
+     },
+     {
+      "no": "4",
+      "name": "涂醒哲",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 74698
+     },
+     {
+      "no": "5",
+      "name": "許文建",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 330
+     },
+     {
+      "no": "6",
+      "name": "林詩涵",
+      "party_zh": "人民民主陣線",
+      "party": "OTH",
+      "votes": 2747
+     }
+    ]
+   },
+   "KIN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蘇龍科",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 470
+     },
+     {
+      "no": "2",
+      "name": "雷由靖",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 132
+     },
+     {
+      "no": "3",
+      "name": "陳福海",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 23965
+     },
+     {
+      "no": "4",
+      "name": "李沃士",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 15146
+     },
+     {
+      "no": "5",
+      "name": "汪成華",
+      "party_zh": "教科文預算保障e聯盟",
+      "party": "OTH",
+      "votes": 403
+     },
+     {
+      "no": "6",
+      "name": "洪志恒",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 636
+     },
+     {
+      "no": "7",
+      "name": "莊育民",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 236
+     },
+     {
+      "no": "8",
+      "name": "林水泉",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 240
+     },
+     {
+      "no": "9",
+      "name": "許乃權",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3834
+     },
+     {
+      "no": "10",
+      "name": "楊榮祥",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 354
+     }
+    ]
+   },
+   "LIE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "劉增應",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 4385
+     },
+     {
+      "no": "2",
+      "name": "楊綏生",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 2234
+     }
+    ]
+   }
+  },
+  "2018": {
+   "TPE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "吳蕚洋",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 5611
+     },
+     {
+      "no": "2",
+      "name": "丁守中",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 577096
+     },
+     {
+      "no": "3",
+      "name": "姚文智",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 244342
+     },
+     {
+      "no": "4",
+      "name": "柯文哲",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 580663
+     },
+     {
+      "no": "5",
+      "name": "李錫錕",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 6158
+     }
+    ]
+   },
+   "NWT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蘇貞昌",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 873692
+     },
+     {
+      "no": "2",
+      "name": "侯友宜",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 1165130
+     }
+    ]
+   },
+   "TAO": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "朱梅雪",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 18200
+     },
+     {
+      "no": "2",
+      "name": "陳學聖",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 407234
+     },
+     {
+      "no": "3",
+      "name": "楊麗環",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 51518
+     },
+     {
+      "no": "4",
+      "name": "吳富彤",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3867
+     },
+     {
+      "no": "5",
+      "name": "鄭文燦",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 552330
+     }
+    ]
+   },
+   "TXG": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "宋原通",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 15919
+     },
+     {
+      "no": "2",
+      "name": "林佳龍",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 619855
+     },
+     {
+      "no": "3",
+      "name": "盧秀燕",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 827996
+     }
+    ]
+   },
+   "TNN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃偉哲",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 367518
+     },
+     {
+      "no": "2",
+      "name": "高思博",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 312874
+     },
+     {
+      "no": "3",
+      "name": "林義豐",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 84153
+     },
+     {
+      "no": "4",
+      "name": "許忠信",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 45168
+     },
+     {
+      "no": "5",
+      "name": "陳永和",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 117179
+     },
+     {
+      "no": "6",
+      "name": "蘇煥智",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 39778
+     }
+    ]
+   },
+   "KHH": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "韓國瑜",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 892545
+     },
+     {
+      "no": "2",
+      "name": "陳其邁",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 742239
+     },
+     {
+      "no": "3",
+      "name": "璩美鳳",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 7998
+     },
+     {
+      "no": "4",
+      "name": "蘇盈貴",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 14125
+     }
+    ]
+   },
+   "HSQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "楊文科",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 107877
+     },
+     {
+      "no": "2",
+      "name": "葉芳棟",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 5168
+     },
+     {
+      "no": "3",
+      "name": "鄭朝方",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 78170
+     },
+     {
+      "no": "4",
+      "name": "徐欣瑩",
+      "party_zh": "民國黨",
+      "party": "OTH",
+      "votes": 91190
+     }
+    ]
+   },
+   "MIA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "朱泰平",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 6880
+     },
+     {
+      "no": "2",
+      "name": "徐定禎",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 112704
+     },
+     {
+      "no": "3",
+      "name": "黃玉燕",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 9030
+     },
+     {
+      "no": "4",
+      "name": "徐耀昌",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 175756
+     }
+    ]
+   },
+   "CHA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "魏明谷",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 283269
+     },
+     {
+      "no": "2",
+      "name": "王惠美",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 377795
+     },
+     {
+      "no": "3",
+      "name": "白雅燦",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 7402
+     },
+     {
+      "no": "4",
+      "name": "黃文玲",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 34690
+     },
+     {
+      "no": "5",
+      "name": "洪敏雄",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 7263
+     }
+    ]
+   },
+   "NAN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林明溱",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 195385
+     },
+     {
+      "no": "2",
+      "name": "洪國浩",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 97460
+     }
+    ]
+   },
+   "YUN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林佳瑜",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 6163
+     },
+     {
+      "no": "2",
+      "name": "李進勇",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 163325
+     },
+     {
+      "no": "3",
+      "name": "王麗萍",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 11261
+     },
+     {
+      "no": "4",
+      "name": "張麗善",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 210770
+     }
+    ]
+   },
+   "CYQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "翁章梁",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 145288
+     },
+     {
+      "no": "2",
+      "name": "吳芳銘",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 51020
+     },
+     {
+      "no": "3",
+      "name": "林國龍",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4596
+     },
+     {
+      "no": "4",
+      "name": "吳育仁",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 84243
+     }
+    ]
+   },
+   "PIF": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "李鎔任",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 9819
+     },
+     {
+      "no": "2",
+      "name": "蘇清泉",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 197518
+     },
+     {
+      "no": "3",
+      "name": "潘孟安",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 262809
+     }
+    ]
+   },
+   "ILA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林信華",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 27399
+     },
+     {
+      "no": "2",
+      "name": "林姿妙",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 123767
+     },
+     {
+      "no": "3",
+      "name": "陳歐珀",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 95609
+     },
+     {
+      "no": "4",
+      "name": "林錦坤",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1922
+     },
+     {
+      "no": "5",
+      "name": "陳秋境",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1424
+     }
+    ]
+   },
+   "HUA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "徐榛蔚",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 121297
+     },
+     {
+      "no": "2",
+      "name": "劉曉玫",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 43879
+     },
+     {
+      "no": "3",
+      "name": "黄師鵬",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4420
+     }
+    ]
+   },
+   "TTT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "鄺麗貞",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3049
+     },
+     {
+      "no": "2",
+      "name": "劉櫂豪",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 44264
+     },
+     {
+      "no": "3",
+      "name": "黃裕斌",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 640
+     },
+     {
+      "no": "4",
+      "name": "彭權國",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 988
+     },
+     {
+      "no": "5",
+      "name": "饒慶鈴",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 70577
+     }
+    ]
+   },
+   "PEN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "翁珍聖",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1379
+     },
+     {
+      "no": "2",
+      "name": "鄭清發",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4330
+     },
+     {
+      "no": "3",
+      "name": "陳大松",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 5822
+     },
+     {
+      "no": "4",
+      "name": "吳政隆",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2999
+     },
+     {
+      "no": "5",
+      "name": "賴峰偉",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 20570
+     },
+     {
+      "no": "6",
+      "name": "陳光復",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 17347
+     },
+     {
+      "no": "7",
+      "name": "呂華苑",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 468
+     }
+    ]
+   },
+   "KEE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "謝立功",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 86529
+     },
+     {
+      "no": "2",
+      "name": "林右昌",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 102167
+     }
+    ]
+   },
+   "HSZ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "謝文進",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 44101
+     },
+     {
+      "no": "2",
+      "name": "李驥羣",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 705
+     },
+     {
+      "no": "3",
+      "name": "黃源甫",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3603
+     },
+     {
+      "no": "4",
+      "name": "許明財",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 60508
+     },
+     {
+      "no": "5",
+      "name": "郭榮睿",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 574
+     },
+     {
+      "no": "6",
+      "name": "林智堅",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 107612
+     }
+    ]
+   },
+   "CYI": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蕭淑麗",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 25572
+     },
+     {
+      "no": "2",
+      "name": "黃敏惠",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 58558
+     },
+     {
+      "no": "3",
+      "name": "黃宏成台灣阿成世界偉人財神總統",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1822
+     },
+     {
+      "no": "4",
+      "name": "涂醒哲",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 56256
+     }
+    ]
+   },
+   "KIN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "楊鎮浯",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 23520
+     },
+     {
+      "no": "2",
+      "name": "洪志恒",
+      "party_zh": "金門高粱黨",
+      "party": "OTH",
+      "votes": 832
+     },
+     {
+      "no": "3",
+      "name": "汪承樺",
+      "party_zh": "教科文預算保障e聯盟",
+      "party": "OTH",
+      "votes": 403
+     },
+     {
+      "no": "4",
+      "name": "陳福海",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 22719
+     },
+     {
+      "no": "5",
+      "name": "謝宜璋",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1389
+     },
+     {
+      "no": "6",
+      "name": "洪和成",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 366
+     }
+    ]
+   },
+   "LIE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蘇柏豪",
+      "party_zh": "樹黨",
+      "party": "OTH",
+      "votes": 927
+     },
+     {
+      "no": "2",
+      "name": "朱秀珍",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1284
+     },
+     {
+      "no": "3",
+      "name": "魏耀乾",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 336
+     },
+     {
+      "no": "4",
+      "name": "劉增應",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 4861
+     }
+    ]
+   }
+  },
+  "2022": {
+   "TPE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "張家豪",
+      "party_zh": "台灣動物保護黨",
+      "party": "OTH",
+      "votes": 2367
+     },
+     {
+      "no": "2",
+      "name": "王文娟",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 451
+     },
+     {
+      "no": "3",
+      "name": "鄭匡宇",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 386
+     },
+     {
+      "no": "4",
+      "name": "黃聖峰",
+      "party_zh": "台澎黨",
+      "party": "OTH",
+      "votes": 256
+     },
+     {
+      "no": "5",
+      "name": "童文薰",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2425
+     },
+     {
+      "no": "6",
+      "name": "蔣萬安",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 575590
+     },
+     {
+      "no": "7",
+      "name": "蘇煥智",
+      "party_zh": "台灣維新",
+      "party": "OTH",
+      "votes": 1851
+     },
+     {
+      "no": "8",
+      "name": "黃珊珊",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 342141
+     },
+     {
+      "no": "9",
+      "name": "施奉先",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 383
+     },
+     {
+      "no": "10",
+      "name": "唐新民",
+      "party_zh": "共和黨",
+      "party": "OTH",
+      "votes": 316
+     },
+     {
+      "no": "11",
+      "name": "謝立康",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 227
+     },
+     {
+      "no": "12",
+      "name": "陳時中",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 434558
+     }
+    ]
+   },
+   "KHH": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "鄭宇翔",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 8394
+     },
+     {
+      "no": "2",
+      "name": "曾尹儷",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 14585
+     },
+     {
+      "no": "3",
+      "name": "柯志恩",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 529607
+     },
+     {
+      "no": "4",
+      "name": "陳其邁",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 766147
+     }
+    ]
+   },
+   "NWT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林佳龍",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 693976
+     },
+     {
+      "no": "2",
+      "name": "侯友宜",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 1152555
+     }
+    ]
+   },
+   "TXG": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳美妃",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 23140
+     },
+     {
+      "no": "2",
+      "name": "蔡其昌",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 524224
+     },
+     {
+      "no": "3",
+      "name": "盧秀燕",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 799107
+     }
+    ]
+   },
+   "TNN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "許忠信",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 38697
+     },
+     {
+      "no": "2",
+      "name": "林義豐",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 24606
+     },
+     {
+      "no": "3",
+      "name": "謝龍介",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 387731
+     },
+     {
+      "no": "4",
+      "name": "吳炳輝",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3956
+     },
+     {
+      "no": "5",
+      "name": "黃偉哲",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 433684
+     }
+    ]
+   },
+   "TAO": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "張善政",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 557572
+     },
+     {
+      "no": "2",
+      "name": "賴香伶",
+      "party_zh": "台灣民眾黨",
+      "party": "TPP",
+      "votes": 54926
+     },
+     {
+      "no": "3",
+      "name": "鄭運鵬",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 428983
+     },
+     {
+      "no": "4",
+      "name": "鄭寶清",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 30282
+     }
+    ]
+   },
+   "LIE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "李問",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 586
+     },
+     {
+      "no": "2",
+      "name": "曹爾元",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 3582
+     },
+     {
+      "no": "3",
+      "name": "王忠銘",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 4337
+     }
+    ]
+   },
+   "KIN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "李應文",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3459
+     },
+     {
+      "no": "2",
+      "name": "朱紀瑋",
+      "party_zh": "龍黨",
+      "party": "OTH",
+      "votes": 174
+     },
+     {
+      "no": "3",
+      "name": "林志錦",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 141
+     },
+     {
+      "no": "4",
+      "name": "楊鎮浯",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 19340
+     },
+     {
+      "no": "5",
+      "name": "陳福海",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 23248
+     },
+     {
+      "no": "6",
+      "name": "洪志恒",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 752
+     }
+    ]
+   },
+   "ILA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "林姿妙",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 119421
+     },
+     {
+      "no": "2",
+      "name": "朱振東",
+      "party_zh": "天一黨",
+      "party": "OTH",
+      "votes": 919
+     },
+     {
+      "no": "3",
+      "name": "許鋐哲",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1036
+     },
+     {
+      "no": "4",
+      "name": "陳秋境",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 714
+     },
+     {
+      "no": "5",
+      "name": "江淵",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 96779
+     },
+     {
+      "no": "6",
+      "name": "陳琬惠",
+      "party_zh": "台灣民眾黨",
+      "party": "TPP",
+      "votes": 16412
+     }
+    ]
+   },
+   "HSQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃秀龍",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3403
+     },
+     {
+      "no": "2",
+      "name": "范振揆",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4874
+     },
+     {
+      "no": "3",
+      "name": "周江杰",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 83683
+     },
+     {
+      "no": "4",
+      "name": "楊文科",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 163662
+     },
+     {
+      "no": "5",
+      "name": "劉復嵐",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2683
+     }
+    ]
+   },
+   "MIA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "鍾東錦",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 124603
+     },
+     {
+      "no": "2",
+      "name": "謝福弘",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 32026
+     },
+     {
+      "no": "3",
+      "name": "吳盛聖",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4864
+     },
+     {
+      "no": "4",
+      "name": "徐定禎",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 91260
+     },
+     {
+      "no": "5",
+      "name": "宋國鼎",
+      "party_zh": "時代力量",
+      "party": "NPP",
+      "votes": 39347
+     }
+    ]
+   },
+   "CHA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "王惠美",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 369133
+     },
+     {
+      "no": "2",
+      "name": "黃秀芳",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 272817
+     },
+     {
+      "no": "3",
+      "name": "蕭仁正",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 8474
+     }
+    ]
+   },
+   "NAN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "蔡培慧",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 117993
+     },
+     {
+      "no": "2",
+      "name": "許淑華",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 154256
+     },
+     {
+      "no": "3",
+      "name": "王永慶",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 3250
+     }
+    ]
+   },
+   "YUN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "張麗善",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 207519
+     },
+     {
+      "no": "2",
+      "name": "劉建國",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 152620
+     },
+     {
+      "no": "3",
+      "name": "林佳瑜",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 6694
+     }
+    ]
+   },
+   "CYQ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "王育敏",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 101517
+     },
+     {
+      "no": "2",
+      "name": "翁章梁",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 171777
+     }
+    ]
+   },
+   "PIF": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "詹智鈞",
+      "party_zh": "時代力量",
+      "party": "NPP",
+      "votes": 19156
+     },
+     {
+      "no": "2",
+      "name": "蘇清泉",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 206460
+     },
+     {
+      "no": "3",
+      "name": "周春米",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 217537
+     }
+    ]
+   },
+   "TTT": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳長宏",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2383
+     },
+     {
+      "no": "2",
+      "name": "饒慶鈴",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 68661
+     },
+     {
+      "no": "3",
+      "name": "劉櫂豪",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 41104
+     }
+    ]
+   },
+   "HUA": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "徐榛蔚",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 96645
+     },
+     {
+      "no": "2",
+      "name": "黄師鵬",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 4817
+     },
+     {
+      "no": "3",
+      "name": "谷辣斯．尤達卡 Kolas Yotaka",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 47845
+     }
+    ]
+   },
+   "PEN": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "陳光復",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 18777
+     },
+     {
+      "no": "2",
+      "name": "賴峰偉",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 17081
+     },
+     {
+      "no": "3",
+      "name": "葉竹林",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 15384
+     }
+    ]
+   },
+   "KEE": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "謝國樑",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 96784
+     },
+     {
+      "no": "2",
+      "name": "陳薇仲",
+      "party_zh": "時代力量",
+      "party": "NPP",
+      "votes": 12000
+     },
+     {
+      "no": "3",
+      "name": "蔡適應",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 71354
+     },
+     {
+      "no": "4",
+      "name": "曾國民",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 619
+     },
+     {
+      "no": "5",
+      "name": "黃希賢",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 2136
+     }
+    ]
+   },
+   "HSZ": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃源甫",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1049
+     },
+     {
+      "no": "2",
+      "name": "龔偉綸",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 508
+     },
+     {
+      "no": "3",
+      "name": "林耕仁",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 39391
+     },
+     {
+      "no": "4",
+      "name": "李驥羣",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 1108
+     },
+     {
+      "no": "5",
+      "name": "沈慧虹",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 77764
+     },
+     {
+      "no": "6",
+      "name": "高虹安",
+      "party_zh": "台灣民眾黨",
+      "party": "TPP",
+      "votes": 98121
+     }
+    ]
+   },
+   "CYI": {
+    "candidates": [
+     {
+      "no": "1",
+      "name": "黃敏惠",
+      "party_zh": "中國國民黨",
+      "party": "KMT",
+      "votes": 59874
+     },
+     {
+      "no": "2",
+      "name": "李俊俋",
+      "party_zh": "民主進步黨",
+      "party": "DPP",
+      "votes": 32790
+     },
+     {
+      "no": "3",
+      "name": "陳泰山",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 246
+     },
+     {
+      "no": "4",
+      "name": "黃宏成台灣阿成世界偉人財神總統",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 535
+     },
+     {
+      "no": "5",
+      "name": "鄭凱升",
+      "party_zh": "無黨籍",
+      "party": "IND",
+      "votes": 368
+     }
+    ]
+   }
+  }
+ },
+ "partylist": {
+  "2008": {
+   "CHA": {
+    "OTH": 20124,
+    "TSU": 23551,
+    "DPP": 201975,
+    "NP": 8338,
+    "GPT": 2694,
+    "NPSU": 8433,
+    "KMT": 299844
+   },
+   "CYI": {
+    "OTH": 2442,
+    "TSU": 5033,
+    "DPP": 47626,
+    "NP": 2686,
+    "GPT": 902,
+    "NPSU": 910,
+    "KMT": 52228
+   },
+   "CYQ": {
+    "OTH": 10083,
+    "TSU": 10443,
+    "DPP": 110782,
+    "NP": 2251,
+    "GPT": 1060,
+    "NPSU": 1615,
+    "KMT": 102658
+   },
+   "HSQ": {
+    "OTH": 10562,
+    "TSU": 4092,
+    "DPP": 40917,
+    "NP": 5525,
+    "GPT": 1027,
+    "NPSU": 1692,
+    "KMT": 131329
+   },
+   "HSZ": {
+    "OTH": 5833,
+    "TSU": 4806,
+    "DPP": 52446,
+    "NP": 7518,
+    "GPT": 1206,
+    "NPSU": 1267,
+    "KMT": 89742
+   },
+   "HUA": {
+    "OTH": 3321,
+    "TSU": 2909,
+    "DPP": 24335,
+    "NP": 3673,
+    "GPT": 1123,
+    "NPSU": 649,
+    "KMT": 83659
+   },
+   "ILA": {
+    "OTH": 5907,
+    "TSU": 5382,
+    "DPP": 77931,
+    "NP": 3754,
+    "GPT": 1014,
+    "NPSU": 1025,
+    "KMT": 83859
+   },
+   "KEE": {
+    "OTH": 4458,
+    "TSU": 4702,
+    "DPP": 40588,
+    "NP": 9016,
+    "GPT": 1053,
+    "NPSU": 873,
+    "KMT": 86923
+   },
+   "KHH": {
+    "OTH": 37973,
+    "TSU": 49923,
+    "DPP": 544649,
+    "NP": 31299,
+    "GPT": 5614,
+    "NPSU": 6617,
+    "KMT": 567808
+   },
+   "KIN": {
+    "OTH": 932,
+    "TSU": 193,
+    "DPP": 997,
+    "NP": 1427,
+    "GPT": 77,
+    "NPSU": 225,
+    "KMT": 22128
+   },
+   "LIE": {
+    "OTH": 191,
+    "TSU": 154,
+    "DPP": 231,
+    "NP": 657,
+    "GPT": 8,
+    "NPSU": 18,
+    "KMT": 3062
+   },
+   "MIA": {
+    "OTH": 11274,
+    "TSU": 4993,
+    "DPP": 59992,
+    "NP": 5187,
+    "GPT": 864,
+    "NPSU": 1269,
+    "KMT": 152681
+   },
+   "NAN": {
+    "OTH": 7973,
+    "TSU": 6402,
+    "DPP": 66019,
+    "NP": 4017,
+    "GPT": 919,
+    "NPSU": 1799,
+    "KMT": 121057
+   },
+   "NWT": {
+    "OTH": 41231,
+    "TSU": 51636,
+    "DPP": 589145,
+    "NP": 95303,
+    "GPT": 11121,
+    "NPSU": 9750,
+    "KMT": 850650
+   },
+   "PEN": {
+    "OTH": 2261,
+    "TSU": 1015,
+    "DPP": 13739,
+    "NP": 796,
+    "GPT": 177,
+    "NPSU": 272,
+    "KMT": 18607
+   },
+   "PIF": {
+    "OTH": 12330,
+    "TSU": 17020,
+    "DPP": 170454,
+    "NP": 5106,
+    "GPT": 1714,
+    "NPSU": 2087,
+    "KMT": 178051
+   },
+   "TAO": {
+    "OTH": 26185,
+    "TSU": 20945,
+    "DPP": 244897,
+    "NP": 30982,
+    "GPT": 3668,
+    "NPSU": 4468,
+    "KMT": 440705
+   },
+   "TNN": {
+    "OTH": 22262,
+    "TSU": 33256,
+    "DPP": 391170,
+    "NP": 14131,
+    "GPT": 3895,
+    "NPSU": 4581,
+    "KMT": 338677
+   },
+   "TPE": {
+    "OTH": 27362,
+    "TSU": 38741,
+    "DPP": 411574,
+    "NP": 116635,
+    "GPT": 12554,
+    "NPSU": 7225,
+    "KMT": 627591
+   },
+   "TTT": {
+    "OTH": 3532,
+    "TSU": 1782,
+    "DPP": 18290,
+    "NP": 1742,
+    "GPT": 304,
+    "NPSU": 419,
+    "KMT": 52811
+   },
+   "TXG": {
+    "OTH": 30817,
+    "TSU": 41295,
+    "DPP": 376094,
+    "NP": 32022,
+    "GPT": 5949,
+    "NPSU": 10918,
+    "KMT": 566767
+   },
+   "YUN": {
+    "OTH": 14066,
+    "TSU": 16614,
+    "DPP": 126255,
+    "NP": 4595,
+    "GPT": 1530,
+    "NPSU": 2415,
+    "KMT": 139964
+   }
+  },
+  "2012": {
+   "CHA": {
+    "OTH": 27868,
+    "DPP": 254293,
+    "TSU": 62626,
+    "KMT": 318086,
+    "NP": 4083,
+    "GPT": 10574,
+    "PFP": 37349
+   },
+   "CYI": {
+    "OTH": 4197,
+    "DPP": 51693,
+    "TSU": 21169,
+    "KMT": 59991,
+    "NP": 1167,
+    "GPT": 2430,
+    "PFP": 8016
+   },
+   "CYQ": {
+    "OTH": 12821,
+    "DPP": 130857,
+    "TSU": 36458,
+    "KMT": 105569,
+    "NP": 1317,
+    "GPT": 3318,
+    "PFP": 12128
+   },
+   "HSQ": {
+    "OTH": 10749,
+    "DPP": 69562,
+    "TSU": 12568,
+    "KMT": 164764,
+    "NP": 3803,
+    "GPT": 4482,
+    "PFP": 18657
+   },
+   "HSZ": {
+    "OTH": 7072,
+    "DPP": 69167,
+    "TSU": 17503,
+    "KMT": 113491,
+    "NP": 4002,
+    "GPT": 5128,
+    "PFP": 14934
+   },
+   "HUA": {
+    "OTH": 5051,
+    "DPP": 33855,
+    "TSU": 6959,
+    "KMT": 101487,
+    "NP": 2051,
+    "GPT": 2392,
+    "PFP": 12899
+   },
+   "ILA": {
+    "OTH": 8243,
+    "DPP": 109897,
+    "TSU": 18572,
+    "KMT": 98838,
+    "NP": 1858,
+    "GPT": 3820,
+    "PFP": 11852
+   },
+   "KEE": {
+    "OTH": 7424,
+    "DPP": 58690,
+    "TSU": 15493,
+    "KMT": 107492,
+    "NP": 4218,
+    "GPT": 3418,
+    "PFP": 17147
+   },
+   "KHH": {
+    "OTH": 47190,
+    "DPP": 630158,
+    "TSU": 211086,
+    "KMT": 637031,
+    "NP": 13152,
+    "GPT": 24095,
+    "PFP": 70769
+   },
+   "KIN": {
+    "OTH": 1096,
+    "DPP": 2286,
+    "TSU": 443,
+    "KMT": 29355,
+    "NP": 1933,
+    "GPT": 392,
+    "PFP": 2407
+   },
+   "LIE": {
+    "OTH": 193,
+    "DPP": 284,
+    "TSU": 47,
+    "KMT": 3478,
+    "NP": 215,
+    "GPT": 57,
+    "PFP": 780
+   },
+   "MIA": {
+    "OTH": 11693,
+    "DPP": 78885,
+    "TSU": 14924,
+    "KMT": 170284,
+    "NP": 2863,
+    "GPT": 3572,
+    "PFP": 35224
+   },
+   "NAN": {
+    "OTH": 13327,
+    "DPP": 90341,
+    "TSU": 21416,
+    "KMT": 135686,
+    "NP": 2523,
+    "GPT": 3897,
+    "PFP": 16301
+   },
+   "NWT": {
+    "OTH": 64378,
+    "DPP": 767350,
+    "TSU": 184069,
+    "KMT": 1049079,
+    "NP": 46701,
+    "GPT": 46706,
+    "PFP": 133904
+   },
+   "PEN": {
+    "OTH": 1431,
+    "DPP": 16412,
+    "TSU": 2696,
+    "KMT": 19574,
+    "NP": 349,
+    "GPT": 521,
+    "PFP": 3046
+   },
+   "PIF": {
+    "OTH": 15045,
+    "DPP": 206978,
+    "TSU": 50684,
+    "KMT": 188252,
+    "NP": 2360,
+    "GPT": 4990,
+    "PFP": 15941
+   },
+   "TAO": {
+    "OTH": 37460,
+    "DPP": 348027,
+    "TSU": 72027,
+    "KMT": 545332,
+    "NP": 18054,
+    "GPT": 17198,
+    "PFP": 65330
+   },
+   "TNN": {
+    "OTH": 32992,
+    "DPP": 481086,
+    "TSU": 120803,
+    "KMT": 377636,
+    "NP": 6605,
+    "GPT": 15716,
+    "PFP": 43696
+   },
+   "TPE": {
+    "OTH": 32936,
+    "DPP": 467072,
+    "TSU": 135335,
+    "KMT": 759724,
+    "NP": 60384,
+    "GPT": 44050,
+    "PFP": 90303
+   },
+   "TTT": {
+    "OTH": 3507,
+    "DPP": 25445,
+    "TSU": 5126,
+    "KMT": 63264,
+    "NP": 977,
+    "GPT": 1973,
+    "PFP": 5849
+   },
+   "TXG": {
+    "OTH": 54721,
+    "DPP": 501479,
+    "TSU": 133085,
+    "KMT": 676757,
+    "NP": 15498,
+    "GPT": 26585,
+    "PFP": 90259
+   },
+   "YUN": {
+    "OTH": 16563,
+    "DPP": 162709,
+    "TSU": 35807,
+    "KMT": 138209,
+    "NP": 1847,
+    "GPT": 4252,
+    "PFP": 15298
+   }
+  },
+  "2016": {
+   "CHA": {
+    "DPP": 289796,
+    "PFP": 47811,
+    "OTH": 54530,
+    "KMT": 185848,
+    "TSU": 20770,
+    "NPP": 41762,
+    "NPSU": 3334,
+    "NP": 15346
+   },
+   "CYI": {
+    "DPP": 64114,
+    "PFP": 8138,
+    "OTH": 12226,
+    "KMT": 33728,
+    "TSU": 4689,
+    "NPP": 9484,
+    "NPSU": 938,
+    "NP": 4928
+   },
+   "CYQ": {
+    "DPP": 143239,
+    "PFP": 14708,
+    "OTH": 20086,
+    "KMT": 60083,
+    "TSU": 13687,
+    "NPP": 14212,
+    "NPSU": 3004,
+    "NP": 5373
+   },
+   "HSQ": {
+    "DPP": 83376,
+    "PFP": 21675,
+    "OTH": 43367,
+    "KMT": 87690,
+    "TSU": 3723,
+    "NPP": 15547,
+    "NPSU": 1098,
+    "NP": 8227
+   },
+   "HSZ": {
+    "DPP": 84150,
+    "PFP": 15804,
+    "OTH": 23530,
+    "KMT": 62507,
+    "TSU": 4638,
+    "NPP": 19170,
+    "NPSU": 947,
+    "NP": 9837
+   },
+   "HUA": {
+    "DPP": 42612,
+    "PFP": 11949,
+    "OTH": 15293,
+    "KMT": 67516,
+    "TSU": 2180,
+    "NPP": 6277,
+    "NPSU": 641,
+    "NP": 5882
+   },
+   "ILA": {
+    "DPP": 115242,
+    "PFP": 13936,
+    "OTH": 19175,
+    "KMT": 53256,
+    "TSU": 6947,
+    "NPP": 13960,
+    "NPSU": 1773,
+    "NP": 6137
+   },
+   "KEE": {
+    "DPP": 70467,
+    "PFP": 17675,
+    "OTH": 18910,
+    "KMT": 58429,
+    "TSU": 4487,
+    "NPP": 11652,
+    "NPSU": 743,
+    "NP": 9978
+   },
+   "KHH": {
+    "DPP": 762933,
+    "PFP": 77961,
+    "OTH": 123980,
+    "KMT": 334073,
+    "TSU": 43107,
+    "NPP": 92323,
+    "NPSU": 6981,
+    "NP": 57715
+   },
+   "KIN": {
+    "DPP": 3946,
+    "PFP": 2482,
+    "OTH": 3960,
+    "KMT": 20142,
+    "TSU": 393,
+    "NPP": 1008,
+    "NPSU": 184,
+    "NP": 4064
+   },
+   "LIE": {
+    "DPP": 395,
+    "PFP": 413,
+    "OTH": 489,
+    "KMT": 2509,
+    "TSU": 15,
+    "NPP": 113,
+    "NPSU": 12,
+    "NP": 484
+   },
+   "MIA": {
+    "DPP": 97679,
+    "PFP": 23229,
+    "OTH": 30499,
+    "KMT": 100362,
+    "TSU": 4921,
+    "NPP": 14653,
+    "NPSU": 2009,
+    "NP": 9328
+   },
+   "NAN": {
+    "DPP": 101727,
+    "PFP": 20374,
+    "OTH": 24253,
+    "KMT": 77449,
+    "TSU": 8011,
+    "NPP": 13759,
+    "NPSU": 1192,
+    "NP": 8498
+   },
+   "NWT": {
+    "DPP": 916886,
+    "PFP": 147996,
+    "OTH": 179140,
+    "KMT": 577605,
+    "TSU": 41648,
+    "NPP": 131052,
+    "NPSU": 17911,
+    "NP": 106125
+   },
+   "PEN": {
+    "DPP": 15948,
+    "PFP": 2450,
+    "OTH": 2823,
+    "KMT": 6616,
+    "TSU": 1020,
+    "NPP": 1361,
+    "NPSU": 10397,
+    "NP": 1267
+   },
+   "PIF": {
+    "DPP": 230968,
+    "PFP": 20564,
+    "OTH": 33549,
+    "KMT": 109481,
+    "TSU": 14358,
+    "NPP": 20635,
+    "NPSU": 1578,
+    "NP": 12176
+   },
+   "TAO": {
+    "DPP": 432155,
+    "PFP": 79868,
+    "OTH": 109243,
+    "KMT": 322892,
+    "TSU": 17570,
+    "NPP": 58369,
+    "NPSU": 4405,
+    "NP": 41191
+   },
+   "TNN": {
+    "DPP": 545694,
+    "PFP": 52906,
+    "OTH": 76819,
+    "KMT": 193140,
+    "TSU": 27960,
+    "NPP": 63172,
+    "NPSU": 3705,
+    "NP": 24338
+   },
+   "TPE": {
+    "DPP": 571916,
+    "PFP": 81981,
+    "OTH": 147652,
+    "KMT": 415255,
+    "TSU": 29859,
+    "NPP": 89291,
+    "NPSU": 4137,
+    "NP": 117458
+   },
+   "TTT": {
+    "DPP": 28582,
+    "PFP": 7949,
+    "OTH": 9605,
+    "KMT": 39545,
+    "TSU": 1995,
+    "NPP": 3518,
+    "NPSU": 431,
+    "NP": 3684
+   },
+   "TXG": {
+    "DPP": 600055,
+    "PFP": 107852,
+    "OTH": 132404,
+    "KMT": 389339,
+    "TSU": 39314,
+    "NPP": 104865,
+    "NPSU": 5553,
+    "NP": 51311
+   },
+   "YUN": {
+    "DPP": 169073,
+    "PFP": 17117,
+    "OTH": 24130,
+    "KMT": 83484,
+    "TSU": 14383,
+    "NPP": 18132,
+    "NPSU": 6699,
+    "NP": 6727
+   }
+  },
+  "2020": {
+   "CHA": {
+    "OTH": 24254,
+    "PFP": 27099,
+    "TSP": 22519,
+    "NPP": 57452,
+    "NP": 3971,
+    "KMT": 255067,
+    "GPT": 12491,
+    "DPP": 251888,
+    "TPP": 90939,
+    "TSU": 3599
+   },
+   "CYI": {
+    "OTH": 6214,
+    "PFP": 5195,
+    "TSP": 5779,
+    "NPP": 13514,
+    "NP": 1116,
+    "KMT": 48538,
+    "GPT": 3676,
+    "DPP": 57335,
+    "TPP": 18585,
+    "TSU": 592
+   },
+   "CYQ": {
+    "OTH": 15718,
+    "PFP": 8889,
+    "TSP": 9937,
+    "NPP": 21797,
+    "NP": 1408,
+    "KMT": 86868,
+    "GPT": 4529,
+    "DPP": 120781,
+    "TPP": 28152,
+    "TSU": 2308
+   },
+   "HSQ": {
+    "OTH": 13876,
+    "PFP": 13276,
+    "TSP": 6053,
+    "NPP": 29271,
+    "NP": 2624,
+    "KMT": 128459,
+    "GPT": 8426,
+    "DPP": 75212,
+    "TPP": 43726,
+    "TSU": 1047
+   },
+   "HSZ": {
+    "OTH": 6467,
+    "PFP": 10216,
+    "TSP": 5866,
+    "NPP": 29935,
+    "NP": 2437,
+    "KMT": 83412,
+    "GPT": 7609,
+    "DPP": 73697,
+    "TPP": 39822,
+    "TSU": 656
+   },
+   "HUA": {
+    "OTH": 4786,
+    "PFP": 5972,
+    "TSP": 3185,
+    "NPP": 10114,
+    "NP": 2033,
+    "KMT": 99197,
+    "GPT": 3146,
+    "DPP": 38330,
+    "TPP": 13958,
+    "TSU": 728
+   },
+   "ILA": {
+    "OTH": 7314,
+    "PFP": 8659,
+    "TSP": 6153,
+    "NPP": 22659,
+    "NP": 1724,
+    "KMT": 78014,
+    "GPT": 5670,
+    "DPP": 109048,
+    "TPP": 29565,
+    "TSU": 1259
+   },
+   "KEE": {
+    "OTH": 6351,
+    "PFP": 10935,
+    "TSP": 4822,
+    "NPP": 18149,
+    "NP": 2891,
+    "KMT": 83668,
+    "GPT": 5360,
+    "DPP": 65108,
+    "TPP": 25853,
+    "TSU": 802
+   },
+   "KHH": {
+    "OTH": 61064,
+    "PFP": 49787,
+    "TSP": 104100,
+    "NPP": 123820,
+    "NP": 13975,
+    "KMT": 527139,
+    "GPT": 36926,
+    "DPP": 678564,
+    "TPP": 148989,
+    "TSU": 6294
+   },
+   "KIN": {
+    "OTH": 1074,
+    "PFP": 1352,
+    "TSP": 811,
+    "NPP": 2638,
+    "NP": 1376,
+    "KMT": 30885,
+    "GPT": 765,
+    "DPP": 3846,
+    "TPP": 4188,
+    "TSU": 80
+   },
+   "LIE": {
+    "OTH": 113,
+    "PFP": 196,
+    "TSP": 73,
+    "NPP": 311,
+    "NP": 201,
+    "KMT": 4134,
+    "GPT": 104,
+    "DPP": 425,
+    "TPP": 524,
+    "TSU": 11
+   },
+   "MIA": {
+    "OTH": 8637,
+    "PFP": 12428,
+    "TSP": 5443,
+    "NPP": 27854,
+    "NP": 2455,
+    "KMT": 142548,
+    "GPT": 5058,
+    "DPP": 80977,
+    "TPP": 35265,
+    "TSU": 1255
+   },
+   "NAN": {
+    "OTH": 10306,
+    "PFP": 11809,
+    "TSP": 8008,
+    "NPP": 18096,
+    "NP": 2039,
+    "KMT": 117230,
+    "GPT": 4707,
+    "DPP": 90878,
+    "TPP": 29216,
+    "TSU": 1376
+   },
+   "NWT": {
+    "OTH": 56457,
+    "PFP": 103267,
+    "TSP": 54603,
+    "NPP": 198086,
+    "NP": 34343,
+    "KMT": 812468,
+    "GPT": 64320,
+    "DPP": 826977,
+    "TPP": 292750,
+    "TSU": 6956
+   },
+   "PEN": {
+    "OTH": 1540,
+    "PFP": 1960,
+    "TSP": 1431,
+    "NPP": 3126,
+    "NP": 384,
+    "KMT": 18412,
+    "GPT": 857,
+    "DPP": 16991,
+    "TPP": 4494,
+    "TSU": 327
+   },
+   "PIF": {
+    "OTH": 18508,
+    "PFP": 11939,
+    "TSP": 17677,
+    "NPP": 34719,
+    "NP": 2849,
+    "KMT": 158950,
+    "GPT": 7721,
+    "DPP": 211082,
+    "TPP": 36352,
+    "TSU": 2287
+   },
+   "TAO": {
+    "OTH": 32286,
+    "PFP": 51776,
+    "TSP": 28105,
+    "NPP": 102127,
+    "NP": 13664,
+    "KMT": 454561,
+    "GPT": 42324,
+    "DPP": 413343,
+    "TPP": 158534,
+    "TSU": 3818
+   },
+   "TNN": {
+    "OTH": 55440,
+    "PFP": 34272,
+    "TSP": 52177,
+    "NPP": 87123,
+    "NP": 6281,
+    "KMT": 297216,
+    "GPT": 26440,
+    "DPP": 486263,
+    "TPP": 105740,
+    "TSU": 4427
+   },
+   "TPE": {
+    "OTH": 36282,
+    "PFP": 65483,
+    "TSP": 37166,
+    "NPP": 131906,
+    "NP": 36051,
+    "KMT": 560522,
+    "GPT": 53744,
+    "DPP": 494909,
+    "TPP": 210977,
+    "TSU": 3341
+   },
+   "TTT": {
+    "OTH": 3620,
+    "PFP": 3445,
+    "TSP": 2500,
+    "NPP": 5565,
+    "NP": 843,
+    "KMT": 60213,
+    "GPT": 1776,
+    "DPP": 26189,
+    "TPP": 7822,
+    "TSU": 461
+   },
+   "TXG": {
+    "OTH": 44614,
+    "PFP": 68244,
+    "TSP": 59968,
+    "NPP": 132765,
+    "NP": 12877,
+    "KMT": 556865,
+    "GPT": 39853,
+    "DPP": 540803,
+    "TPP": 219492,
+    "TSU": 6340
+   },
+   "YUN": {
+    "OTH": 18086,
+    "PFP": 12722,
+    "TSP": 10910,
+    "NPP": 27073,
+    "NP": 1831,
+    "KMT": 119138,
+    "GPT": 5963,
+    "DPP": 148595,
+    "TPP": 43863,
+    "TSU": 2471
+   }
+  },
+  "2024": {
+   "CHA": {
+    "OTH": 14790,
+    "GPT": 5228,
+    "TSP": 3781,
+    "DPP": 252276,
+    "NPP": 17577,
+    "KMT": 255899,
+    "NP": 1527,
+    "TPP": 170903,
+    "PFP": 3836,
+    "TSU": 2948
+   },
+   "CYI": {
+    "OTH": 3223,
+    "GPT": 1194,
+    "TSP": 1083,
+    "DPP": 60947,
+    "NPP": 4201,
+    "KMT": 50475,
+    "NP": 281,
+    "TPP": 33507,
+    "PFP": 661,
+    "TSU": 438
+   },
+   "CYQ": {
+    "OTH": 6657,
+    "GPT": 2710,
+    "TSP": 2062,
+    "DPP": 126328,
+    "NPP": 5740,
+    "KMT": 84207,
+    "NP": 517,
+    "TPP": 54509,
+    "PFP": 1420,
+    "TSU": 1686
+   },
+   "HSQ": {
+    "OTH": 6986,
+    "GPT": 2932,
+    "TSP": 1369,
+    "DPP": 79315,
+    "NPP": 13186,
+    "KMT": 132160,
+    "NP": 885,
+    "TPP": 96734,
+    "PFP": 1743,
+    "TSU": 864
+   },
+   "HSZ": {
+    "OTH": 4984,
+    "GPT": 2180,
+    "TSP": 1359,
+    "DPP": 79721,
+    "NPP": 12212,
+    "KMT": 83499,
+    "NP": 744,
+    "TPP": 77496,
+    "PFP": 1186,
+    "TSU": 620
+   },
+   "HUA": {
+    "OTH": 3229,
+    "GPT": 1645,
+    "TSP": 530,
+    "DPP": 36580,
+    "NPP": 3106,
+    "KMT": 90090,
+    "NP": 551,
+    "TPP": 33383,
+    "PFP": 949,
+    "TSU": 506
+   },
+   "ILA": {
+    "OTH": 4662,
+    "GPT": 2238,
+    "TSP": 1830,
+    "DPP": 107725,
+    "NPP": 6143,
+    "KMT": 78944,
+    "NP": 530,
+    "TPP": 58456,
+    "PFP": 1138,
+    "TSU": 979
+   },
+   "KEE": {
+    "OTH": 4336,
+    "GPT": 1838,
+    "TSP": 1122,
+    "DPP": 67018,
+    "NPP": 4984,
+    "KMT": 85320,
+    "NP": 759,
+    "TPP": 48401,
+    "PFP": 1610,
+    "TSU": 725
+   },
+   "KHH": {
+    "OTH": 30324,
+    "GPT": 12977,
+    "TSP": 20567,
+    "DPP": 728109,
+    "NPP": 36419,
+    "KMT": 496423,
+    "NP": 3022,
+    "TPP": 283285,
+    "PFP": 5410,
+    "TSU": 5082
+   },
+   "KIN": {
+    "OTH": 887,
+    "GPT": 198,
+    "TSP": 108,
+    "DPP": 3586,
+    "NPP": 687,
+    "KMT": 28688,
+    "NP": 715,
+    "TPP": 9796,
+    "PFP": 235,
+    "TSU": 71
+   },
+   "LIE": {
+    "OTH": 108,
+    "GPT": 23,
+    "TSP": 17,
+    "DPP": 482,
+    "NPP": 97,
+    "KMT": 3881,
+    "NP": 57,
+    "TPP": 1330,
+    "PFP": 43,
+    "TSU": 15
+   },
+   "MIA": {
+    "OTH": 5739,
+    "GPT": 2522,
+    "TSP": 1046,
+    "DPP": 79224,
+    "NPP": 12553,
+    "KMT": 135107,
+    "NP": 728,
+    "TPP": 72815,
+    "PFP": 2015,
+    "TSU": 1174
+   },
+   "NAN": {
+    "OTH": 5890,
+    "GPT": 2409,
+    "TSP": 1446,
+    "DPP": 91948,
+    "NPP": 5012,
+    "KMT": 114454,
+    "NP": 649,
+    "TPP": 56939,
+    "PFP": 1548,
+    "TSU": 1213
+   },
+   "NWT": {
+    "OTH": 46988,
+    "GPT": 21900,
+    "TSP": 11506,
+    "DPP": 846766,
+    "NPP": 63162,
+    "KMT": 854558,
+    "NP": 9411,
+    "TPP": 556980,
+    "PFP": 14741,
+    "TSU": 6749
+   },
+   "PEN": {
+    "OTH": 812,
+    "GPT": 346,
+    "TSP": 222,
+    "DPP": 17472,
+    "NPP": 726,
+    "KMT": 18523,
+    "NP": 103,
+    "TPP": 9395,
+    "PFP": 404,
+    "TSU": 209
+   },
+   "PIF": {
+    "OTH": 8425,
+    "GPT": 4057,
+    "TSP": 4293,
+    "DPP": 207893,
+    "NPP": 8956,
+    "KMT": 153480,
+    "NP": 798,
+    "TPP": 76870,
+    "PFP": 1496,
+    "TSU": 1968
+   },
+   "TAO": {
+    "OTH": 28059,
+    "GPT": 11425,
+    "TSP": 6013,
+    "DPP": 429785,
+    "NPP": 32262,
+    "KMT": 475063,
+    "NP": 4814,
+    "TPP": 338329,
+    "PFP": 6697,
+    "TSU": 3527
+   },
+   "TNN": {
+    "OTH": 22905,
+    "GPT": 10623,
+    "TSP": 15085,
+    "DPP": 508784,
+    "NPP": 27629,
+    "KMT": 296987,
+    "NP": 1878,
+    "TPP": 214469,
+    "PFP": 4041,
+    "TSU": 4357
+   },
+   "TPE": {
+    "OTH": 26000,
+    "GPT": 13124,
+    "TSP": 8866,
+    "DPP": 511434,
+    "NPP": 43243,
+    "KMT": 575004,
+    "NP": 7436,
+    "TPP": 334389,
+    "PFP": 9328,
+    "TSU": 3133
+   },
+   "TTT": {
+    "OTH": 2550,
+    "GPT": 1015,
+    "TSP": 440,
+    "DPP": 25918,
+    "NPP": 1826,
+    "KMT": 56017,
+    "NP": 251,
+    "TPP": 18182,
+    "PFP": 633,
+    "TSU": 421
+   },
+   "TXG": {
+    "OTH": 34712,
+    "GPT": 13819,
+    "TSP": 10331,
+    "DPP": 568839,
+    "NPP": 46589,
+    "KMT": 576758,
+    "NP": 3943,
+    "TPP": 416866,
+    "PFP": 9085,
+    "TSU": 4838
+   },
+   "YUN": {
+    "OTH": 7948,
+    "GPT": 2895,
+    "TSP": 2002,
+    "DPP": 151912,
+    "NPP": 7102,
+    "KMT": 119039,
+    "NP": 689,
+    "TPP": 77581,
+    "PFP": 1599,
+    "TSU": 1852
+   }
+  }
+ },
+ "president": {
+  "2008": {
+   "CHA": {
+    "DPP": 309134,
+    "KMT": 419700
+   },
+   "CYI": {
+    "DPP": 72442,
+    "KMT": 79713
+   },
+   "CYQ": {
+    "DPP": 166833,
+    "KMT": 139603
+   },
+   "HSQ": {
+    "DPP": 73178,
+    "KMT": 208445
+   },
+   "HSZ": {
+    "DPP": 79634,
+    "KMT": 145930
+   },
+   "HUA": {
+    "DPP": 40003,
+    "KMT": 137604
+   },
+   "ILA": {
+    "DPP": 123700,
+    "KMT": 130951
+   },
+   "KEE": {
+    "DPP": 72562,
+    "KMT": 152327
+   },
+   "KHH": {
+    "DPP": 814267,
+    "KMT": 822585
+   },
+   "KIN": {
+    "DPP": 1710,
+    "KMT": 33384
+   },
+   "LIE": {
+    "DPP": 220,
+    "KMT": 4329
+   },
+   "MIA": {
+    "DPP": 92795,
+    "KMT": 227069
+   },
+   "NAN": {
+    "DPP": 109955,
+    "KMT": 179630
+   },
+   "NWT": {
+    "DPP": 866915,
+    "KMT": 1359419
+   },
+   "PEN": {
+    "DPP": 18181,
+    "KMT": 25037
+   },
+   "PIF": {
+    "DPP": 249795,
+    "KMT": 247305
+   },
+   "TAO": {
+    "DPP": 379416,
+    "KMT": 693602
+   },
+   "TNN": {
+    "DPP": 571224,
+    "KMT": 499785
+   },
+   "TPE": {
+    "DPP": 593256,
+    "KMT": 1011546
+   },
+   "TTT": {
+    "DPP": 29714,
+    "KMT": 81668
+   },
+   "TXG": {
+    "DPP": 580457,
+    "KMT": 871677
+   },
+   "YUN": {
+    "DPP": 199558,
+    "KMT": 187705
+   }
+  },
+  "2012": {
+   "CHA": {
+    "DPP": 340069,
+    "KMT": 369968,
+    "PFP": 21403
+   },
+   "CYI": {
+    "DPP": 76711,
+    "KMT": 69535,
+    "PFP": 4042
+   },
+   "CYQ": {
+    "DPP": 181463,
+    "KMT": 120946,
+    "PFP": 7364
+   },
+   "HSQ": {
+    "DPP": 89741,
+    "KMT": 190797,
+    "PFP": 9599
+   },
+   "HSZ": {
+    "DPP": 92632,
+    "KMT": 134728,
+    "PFP": 7216
+   },
+   "HUA": {
+    "DPP": 43845,
+    "KMT": 118815,
+    "PFP": 6359
+   },
+   "ILA": {
+    "DPP": 135156,
+    "KMT": 115496,
+    "PFP": 6652
+   },
+   "KEE": {
+    "DPP": 79562,
+    "KMT": 128294,
+    "PFP": 8533
+   },
+   "KHH": {
+    "DPP": 883158,
+    "KMT": 730461,
+    "PFP": 39469
+   },
+   "KIN": {
+    "DPP": 3193,
+    "KMT": 34676,
+    "PFP": 990
+   },
+   "LIE": {
+    "DPP": 418,
+    "KMT": 4507,
+    "PFP": 279
+   },
+   "MIA": {
+    "DPP": 107164,
+    "KMT": 206200,
+    "PFP": 9597
+   },
+   "NAN": {
+    "DPP": 123077,
+    "KMT": 158703,
+    "PFP": 8726
+   },
+   "NWT": {
+    "DPP": 1007551,
+    "KMT": 1245673,
+    "PFP": 65269
+   },
+   "PEN": {
+    "DPP": 20717,
+    "KMT": 22579,
+    "PFP": 2082
+   },
+   "PIF": {
+    "DPP": 271722,
+    "KMT": 211571,
+    "PFP": 9562
+   },
+   "TAO": {
+    "DPP": 445308,
+    "KMT": 639151,
+    "PFP": 32927
+   },
+   "TNN": {
+    "DPP": 631232,
+    "KMT": 435274,
+    "PFP": 27066
+   },
+   "TPE": {
+    "DPP": 634565,
+    "KMT": 928717,
+    "PFP": 41448
+   },
+   "TTT": {
+    "DPP": 33417,
+    "KMT": 72823,
+    "PFP": 3313
+   },
+   "TXG": {
+    "DPP": 678736,
+    "KMT": 792334,
+    "PFP": 48030
+   },
+   "YUN": {
+    "DPP": 214141,
+    "KMT": 159891,
+    "PFP": 9662
+   }
+  },
+  "2016": {
+   "CHA": {
+    "KMT": 193117,
+    "DPP": 378736,
+    "PFP": 98807
+   },
+   "CYI": {
+    "KMT": 38822,
+    "DPP": 83143,
+    "PFP": 16926
+   },
+   "CYQ": {
+    "KMT": 65425,
+    "DPP": 182913,
+    "PFP": 31469
+   },
+   "HSQ": {
+    "KMT": 94603,
+    "DPP": 114023,
+    "PFP": 59510
+   },
+   "HSZ": {
+    "KMT": 71771,
+    "DPP": 113386,
+    "PFP": 36198
+   },
+   "HUA": {
+    "KMT": 73894,
+    "DPP": 57198,
+    "PFP": 23751
+   },
+   "ILA": {
+    "KMT": 59216,
+    "DPP": 144798,
+    "PFP": 29288
+   },
+   "KEE": {
+    "KMT": 68357,
+    "DPP": 93402,
+    "PFP": 31955
+   },
+   "KHH": {
+    "KMT": 391823,
+    "DPP": 955168,
+    "PFP": 159765
+   },
+   "KIN": {
+    "KMT": 24327,
+    "DPP": 6626,
+    "PFP": 5852
+   },
+   "LIE": {
+    "KMT": 3065,
+    "DPP": 739,
+    "PFP": 664
+   },
+   "MIA": {
+    "KMT": 107779,
+    "DPP": 130461,
+    "PFP": 48788
+   },
+   "NAN": {
+    "KMT": 83604,
+    "DPP": 136104,
+    "PFP": 40868
+   },
+   "NWT": {
+    "KMT": 709374,
+    "DPP": 1165888,
+    "PFP": 252486
+   },
+   "PEN": {
+    "KMT": 12564,
+    "DPP": 21658,
+    "PFP": 8401
+   },
+   "PIF": {
+    "KMT": 121291,
+    "DPP": 285297,
+    "PFP": 42768
+   },
+   "TAO": {
+    "KMT": 369013,
+    "DPP": 547573,
+    "PFP": 156518
+   },
+   "TNN": {
+    "KMT": 219196,
+    "DPP": 670608,
+    "PFP": 103432
+   },
+   "TPE": {
+    "KMT": 546491,
+    "DPP": 757383,
+    "PFP": 153804
+   },
+   "TTT": {
+    "KMT": 43581,
+    "DPP": 37517,
+    "PFP": 16565
+   },
+   "TXG": {
+    "KMT": 430005,
+    "DPP": 793281,
+    "PFP": 218810
+   },
+   "YUN": {
+    "KMT": 86047,
+    "DPP": 218842,
+    "PFP": 40236
+   }
+  },
+  "2020": {
+   "CHA": {
+    "PFP": 35060,
+    "KMT": 291835,
+    "DPP": 436336
+   },
+   "CYI": {
+    "PFP": 6204,
+    "KMT": 56269,
+    "DPP": 99265
+   },
+   "CYQ": {
+    "PFP": 11138,
+    "KMT": 98810,
+    "DPP": 197342
+   },
+   "HSQ": {
+    "PFP": 18435,
+    "KMT": 154224,
+    "DPP": 152380
+   },
+   "HSZ": {
+    "PFP": 14103,
+    "KMT": 102725,
+    "DPP": 144274
+   },
+   "HUA": {
+    "PFP": 6869,
+    "KMT": 111834,
+    "DPP": 66509
+   },
+   "ILA": {
+    "PFP": 10739,
+    "KMT": 90010,
+    "DPP": 173657
+   },
+   "KEE": {
+    "PFP": 11878,
+    "KMT": 99360,
+    "DPP": 114966
+   },
+   "KHH": {
+    "PFP": 55309,
+    "KMT": 610896,
+    "DPP": 1097621
+   },
+   "KIN": {
+    "PFP": 1636,
+    "KMT": 35948,
+    "DPP": 10456
+   },
+   "LIE": {
+    "PFP": 188,
+    "KMT": 4776,
+    "DPP": 1226
+   },
+   "MIA": {
+    "PFP": 15222,
+    "KMT": 164345,
+    "DPP": 147034
+   },
+   "NAN": {
+    "PFP": 13315,
+    "KMT": 133791,
+    "DPP": 152046
+   },
+   "NWT": {
+    "PFP": 112620,
+    "KMT": 959631,
+    "DPP": 1393936
+   },
+   "PEN": {
+    "PFP": 2583,
+    "KMT": 20911,
+    "DPP": 27410
+   },
+   "PIF": {
+    "PFP": 14021,
+    "KMT": 179353,
+    "DPP": 317676
+   },
+   "TAO": {
+    "PFP": 63132,
+    "KMT": 529749,
+    "DPP": 718260
+   },
+   "TNN": {
+    "PFP": 41075,
+    "KMT": 339702,
+    "DPP": 786471
+   },
+   "TPE": {
+    "PFP": 70769,
+    "KMT": 685830,
+    "DPP": 875854
+   },
+   "TTT": {
+    "PFP": 4163,
+    "KMT": 67413,
+    "DPP": 44092
+   },
+   "TXG": {
+    "PFP": 84800,
+    "KMT": 646366,
+    "DPP": 967304
+   },
+   "YUN": {
+    "PFP": 15331,
+    "KMT": 138341,
+    "DPP": 246116
+   }
+  },
+  "2024": {
+   "CHA": {
+    "TPP": 214714,
+    "DPP": 282514,
+    "KMT": 244140
+   },
+   "CYI": {
+    "TPP": 39950,
+    "DPP": 68199,
+    "KMT": 49507
+   },
+   "CYQ": {
+    "TPP": 67382,
+    "DPP": 139510,
+    "KMT": 85642
+   },
+   "HSQ": {
+    "TPP": 120985,
+    "DPP": 93309,
+    "KMT": 126016
+   },
+   "HSZ": {
+    "TPP": 91384,
+    "DPP": 92679,
+    "KMT": 82326
+   },
+   "HUA": {
+    "TPP": 43047,
+    "DPP": 43157,
+    "KMT": 87953
+   },
+   "ILA": {
+    "TPP": 70171,
+    "DPP": 119517,
+    "KMT": 77441
+   },
+   "KEE": {
+    "TPP": 58195,
+    "DPP": 76079,
+    "KMT": 84507
+   },
+   "KHH": {
+    "TPP": 358096,
+    "DPP": 800390,
+    "KMT": 478476
+   },
+   "KIN": {
+    "TPP": 13038,
+    "DPP": 4569,
+    "KMT": 28005
+   },
+   "LIE": {
+    "TPP": 1651,
+    "DPP": 648,
+    "KMT": 3860
+   },
+   "MIA": {
+    "TPP": 95637,
+    "DPP": 91798,
+    "KMT": 131230
+   },
+   "NAN": {
+    "TPP": 74854,
+    "DPP": 103279,
+    "KMT": 109163
+   },
+   "NWT": {
+    "TPP": 645105,
+    "DPP": 948818,
+    "KMT": 864557
+   },
+   "PEN": {
+    "TPP": 12202,
+    "DPP": 19023,
+    "KMT": 18052
+   },
+   "PIF": {
+    "TPP": 103028,
+    "DPP": 226110,
+    "KMT": 146789
+   },
+   "TAO": {
+    "TPP": 413528,
+    "DPP": 476441,
+    "KMT": 460823
+   },
+   "TNN": {
+    "TPP": 262560,
+    "DPP": 570811,
+    "KMT": 286867
+   },
+   "TPE": {
+    "TPP": 366854,
+    "DPP": 587899,
+    "KMT": 587258
+   },
+   "TTT": {
+    "TPP": 25590,
+    "DPP": 30131,
+    "KMT": 54220
+   },
+   "TXG": {
+    "TPP": 513025,
+    "DPP": 641622,
+    "KMT": 552556
+   },
+   "YUN": {
+    "TPP": 99470,
+    "DPP": 169516,
+    "KMT": 111633
+   }
+  }
+ }
+}

@@ -1,0 +1,48 @@
+race,pollster,sponsor_lean,kind,field_end,n,mode,green,blue,third,undecided,source,notes
+TPE,TVBS,N,candidate,2026-10-31,1747,phone,42,46,,12,https://www.businesstoday.com.tw/article/category/183027/post/202610310018/,post-debate
+TPE,UDN,N,candidate,2026-10-25,1115,phone,45,41,,,https://www.taiwannews.com.tw/news/6467763,
+TPE,Taipei Trust in Democracy Assn (Tai Li-an),G,candidate,2026-10-16,1075,phone,50.3,33.3,,,https://www.taiwannews.com.tw/news/6461460,
+TPE,TVBS,N,candidate,2026-10-03,1000,phone,41,49,,,https://www.businesstoday.com.tw/article/category/183027/post/202610310018/,early-Oct TVBS; exact dates/sample not given
+TPE,Taipei Trust in Democracy Assn (Tai Li-an),G,candidate,2026-09-18,1076,phone,40.5,41.7,,10.6,https://www.taiwannews.com.tw/news/6444322,
+TPE,Taiwan Public Opinion Research Center,N,candidate,2026-08-14,1000,phone,33,48.4,,,https://www.taiwannews.com.tw/news/6444322,dates/sample not given
+NWT,Xinmin Cross-Strait Research Assn (Tai Li-an),G,candidate,2026-10-08,1073,phone,43.1,30.0,,,https://news.ebc.net.tw/news/politics/575483,
+NWT,KMT caucus poll,B,candidate,2026-10-05,1000,phone,35.9,42.6,,,https://www.cna.com.tw/news/aipl/202610070102.aspx,released Oct 7; fieldwork assumed ~Oct 5
+NWT,Juwen Tianxia / Pearson Data,N,candidate,2026-10-03,1066,online,45.18,45.74,,6.96,https://news.tvbs.com.tw/politics/4036357,opt-in online
+NWT,Formosa (Meilidao),N,candidate,2026-04-12,1000,phone,34.5,35.5,,,https://news.tvbs.com.tw/politics/3177444,
+TAO,New Taiwan Policy Think Tank,G,candidate,2026-09-17,1082,phone,25.9,47.0,,27.1,https://www.nownews.com/news/6877090,
+TXG,Fo Guang Univ for KMT caucus,B,candidate,2026-10-31,1003,phone,28.1,38.3,0.5,25.3,https://www.chinatimes.com/realtimenews/20261102001592-260407,third=Hung Li-hua
+TXG,Taichung Trust Taiwan Friends Assn,G,candidate,2026-10-06,1071,phone,32.4,34.3,1.1,32.2,https://newtalk.tw/news/view/2026-10-12/1064949,third=Hung Li-hua
+TNN,New Taiwan Policy Think Tank,G,candidate,2026-10-19,1000,phone,59.4,22.6,,,https://udn.com/vote2026/story/124652/9828327,released Oct 21; dates/sample not given
+KHH,UDN,N,candidate,2026-10-31,1101,phone,40,33,1,26,https://udn.com/news/story/124652/9850777,
+KHH,Fengcan Media (Chang Yu-tsung),N,candidate,2026-10-21,1824,phone+online,47.8,27.4,,,https://news.ltn.com.tw/news/politics/breakingnews/5626182,
+KEE,Dadi for Mirror News,N,candidate,2026-10-21,1075,phone,37.0,36.3,0.8,25.9,https://www.mirrormedia.mg/story/20261023edi015,
+ILA,Lin Kuo-chang campaign internal,G,candidate,2026-08-30,1000,phone,40.0,30.2,,29.8,https://news.ltn.com.tw/news/Yilan/breakingnews/5558776,margin-only (+9.8); shares imputed assuming ~30% undecided
+ILA,TVBS,N,candidate,2026-03-20,1000,phone,38,35,,27,https://news.tvbs.com.tw/politics/3159065,two-way scenario
+HSQ,Era (Nien-tai) Poll Center,N,candidate,2026-09-18,1069,phone,35.1,28.7,2.8,33.4,https://www.nownews.com/news/6877030,third=Chu Ting-yu
+HSQ,National Credibility Poll Co.,N,candidate,2026-04-18,1072,phone,27.3,38.7,,,https://hao.cnyes.com/post/243936,
+HSZ,ETtoday,N,candidate,2026-09-14,1000,phone,21.2,48.6,1.8,,https://www.storm.mg/article/11164937,blue slot=Ann Kao (incumbent indep; KMT-backed); third=Ho Chih-yung
+CHA,UDN,N,candidate,2026-10-15,1003,phone,32,16,10,42,https://www.worldjournal.com/wj/story/121218/9823489,third=Chiu Chien-fu (indep)
+CYI,Key Survey for CNEWS,N,candidate,2026-07-12,1069,phone,41.5,38.0,,20.5,https://cnews.com.tw/001260720a02/,blue slot=Chang Chi-kai (TPP; KMT-backed)
+CYI,TVBS,N,candidate,2026-05-01,1000,phone,43,37,,20,https://news.tvbs.com.tw/politics/3195159,date approximate (early May)
+HUA,Qiuzhen,N,candidate,2026-04-18,1086,phone,21.8,32.5,28.6,17.1,https://www.storm.mg/article/11123231,green slot=Chang Chun (DPP-backed indep); third=Wei Chia-hsien (indep)
+TTT,CNEWS,N,candidate,2026-05-28,905,phone,22.4,51.3,,26.3,https://newtalk.tw/news/view/2026-06-01/1038624,two-way scenario
+TPE,Global Views,N,camp,2026-04-14,648,phone,17.6,38.7,,43.2,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+NWT,Global Views,N,camp,2026-04-14,648,phone,19.3,38.1,,42.4,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+TAO,Global Views,N,camp,2026-04-14,648,phone,14.1,37.2,,48.7,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+TXG,Global Views,N,camp,2026-04-14,648,phone,16.8,36.1,,46.0,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+TNN,Global Views,N,camp,2026-04-14,648,phone,46.8,16.2,,37.0,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+KHH,Global Views,N,camp,2026-04-14,648,phone,39.8,17.2,,42.9,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+KEE,Global Views,N,camp,2026-04-14,648,phone,20.7,38.8,,40.2,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+ILA,Global Views,N,camp,2026-04-14,648,phone,27.4,22.2,,50.4,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+HSQ,Global Views,N,camp,2026-04-14,648,phone,13.4,47.4,,39.2,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+HSZ,Global Views,N,camp,2026-04-14,648,phone,16.5,29.0,,53.2,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+MIA,Global Views,N,camp,2026-04-14,648,phone,12.4,36.9,,48.4,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+CHA,Global Views,N,camp,2026-04-14,648,phone,20.8,28.7,,50.3,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+NAN,Global Views,N,camp,2026-04-14,648,phone,13.1,38.1,,48.6,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+YUN,Global Views,N,camp,2026-04-14,648,phone,15.8,23.3,,60.9,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+CYQ,Global Views,N,camp,2026-04-14,648,phone,42.7,10.2,,46.5,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+CYI,Global Views,N,camp,2026-04-14,648,phone,25.1,23.7,,50.9,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+PIF,Global Views,N,camp,2026-04-14,648,phone,41.2,13.6,,44.9,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+PEN,Global Views,N,camp,2026-04-14,648,phone,26.2,14.3,,58.5,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined
+HUA,Global Views,N,camp,2026-04-14,648,phone,7.0,32.2,,50.8,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined; 10.1% other
+TTT,Global Views,N,camp,2026-04-14,648,phone,15.3,38.9,,45.1,https://www.gvm.com.tw/article/130553,party-camp question; blue+white combined

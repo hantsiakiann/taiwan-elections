@@ -1,0 +1,28 @@
+{
+ "election_date": "2026-11-28",
+ "notes": "green/blue slots are the two main camps. Where the opposition-camp candidate is not a KMT nominee (HSZ, CYI, CYQ) or DPP backs an independent (HUA), the slot holds the camp-backed candidate. incumbent: G/B = that camp's incumbent is on the ballot, 0 = open seat.",
+ "races": {
+  "TPE": {"en": "Taipei", "zh": "臺北市", "tier": "municipality", "green": ["Puma Shen", "沈伯洋", "DPP"], "blue": ["Chiang Wan-an", "蔣萬安", "KMT"], "incumbent": "B"},
+  "NWT": {"en": "New Taipei", "zh": "新北市", "tier": "municipality", "green": ["Su Chiao-hui", "蘇巧慧", "DPP"], "blue": ["Lee Shu-chuan", "李四川", "KMT"], "incumbent": "0"},
+  "TAO": {"en": "Taoyuan", "zh": "桃園市", "tier": "municipality", "green": ["Huang Shih-chieh", "黃世杰", "DPP"], "blue": ["Chang San-cheng", "張善政", "KMT"], "incumbent": "B"},
+  "TXG": {"en": "Taichung", "zh": "臺中市", "tier": "municipality", "green": ["Ho Hsin-chun", "何欣純", "DPP"], "blue": ["Chiang Chi-chen", "江啟臣", "KMT"], "incumbent": "0"},
+  "TNN": {"en": "Tainan", "zh": "臺南市", "tier": "municipality", "green": ["Chen Ting-fei", "陳亭妃", "DPP"], "blue": ["Hsieh Lung-chieh", "謝龍介", "KMT"], "incumbent": "0"},
+  "KHH": {"en": "Kaohsiung", "zh": "高雄市", "tier": "municipality", "green": ["Lai Jui-lung", "賴瑞隆", "DPP"], "blue": ["Ko Chih-en", "柯志恩", "KMT"], "incumbent": "0"},
+  "KEE": {"en": "Keelung", "zh": "基隆市", "tier": "county", "green": ["Tung Tzu-wei", "童子瑋", "DPP"], "blue": ["George Hsieh", "謝國樑", "KMT"], "incumbent": "B"},
+  "ILA": {"en": "Yilan", "zh": "宜蘭縣", "tier": "county", "green": ["Lin Kuo-chang", "林國漳", "DPP"], "blue": ["Wu Tsung-hsien", "吳宗憲", "KMT"], "incumbent": "0"},
+  "HSQ": {"en": "Hsinchu County", "zh": "新竹縣", "tier": "county", "green": ["Cheng Chao-fang", "鄭朝方", "DPP"], "blue": ["Hsu Hsin-ying", "徐欣瑩", "KMT"], "third": ["Chu Ting-yu", "朱定瑀", "IND"], "incumbent": "0"},
+  "HSZ": {"en": "Hsinchu City", "zh": "新竹市", "tier": "county", "green": ["Chuang Ching-cheng", "莊競程", "DPP"], "blue": ["Ann Kao", "高虹安", "IND (KMT-backed)"], "third": ["Ho Chih-yung", "何志勇", "IND"], "incumbent": "B"},
+  "MIA": {"en": "Miaoli", "zh": "苗栗縣", "tier": "county", "green": ["Chen Pin-an", "陳品安", "DPP"], "blue": ["Chung Tung-chin", "鍾東錦", "KMT"], "incumbent": "B"},
+  "CHA": {"en": "Changhua", "zh": "彰化縣", "tier": "county", "green": ["Chen Su-yueh", "陳素月", "DPP"], "blue": ["Wei Ping-cheng", "魏平政", "KMT"], "third": ["Chiu Chien-fu", "邱建富", "IND"], "incumbent": "0"},
+  "NAN": {"en": "Nantou", "zh": "南投縣", "tier": "county", "green": ["Wen Shih-cheng", "溫世政", "DPP"], "blue": ["Hsu Shu-hua", "許淑華", "KMT"], "incumbent": "B"},
+  "YUN": {"en": "Yunlin", "zh": "雲林縣", "tier": "county", "green": ["Liu Chien-kuo", "劉建國", "DPP"], "blue": ["Chang Chia-chun", "張嘉郡", "KMT"], "incumbent": "0"},
+  "CYQ": {"en": "Chiayi County", "zh": "嘉義縣", "tier": "county", "green": ["Tsai Yi-yu", "蔡易餘", "DPP"], "blue": ["Wu Pin-jui", "吳品叡", "IND (KMT-backed)"], "incumbent": "0"},
+  "CYI": {"en": "Chiayi City", "zh": "嘉義市", "tier": "county", "green": ["Wang Mei-hui", "王美惠", "DPP"], "blue": ["Chang Chi-kai", "張啓楷", "TPP (KMT-backed)"], "incumbent": "0"},
+  "PIF": {"en": "Pingtung", "zh": "屏東縣", "tier": "county", "green": ["Chou Chun-mi", "周春米", "DPP"], "blue": ["Su Ching-chuan", "蘇清泉", "KMT"], "incumbent": "G"},
+  "HUA": {"en": "Hualien", "zh": "花蓮縣", "tier": "county", "green": ["Chang Chun", "張峻", "IND (DPP-backed)"], "blue": ["Yu Shu-chen", "游淑貞", "KMT"], "third": ["Wei Chia-hsien", "魏嘉賢", "IND"], "incumbent": "0"},
+  "TTT": {"en": "Taitung", "zh": "臺東縣", "tier": "county", "green": ["Chen Ying", "陳瑩", "DPP"], "blue": ["Wu Hsiu-hua", "吳秀華", "KMT"], "incumbent": "0"},
+  "PEN": {"en": "Penghu", "zh": "澎湖縣", "tier": "county", "green": ["Wu Shu-chin", "吳淑瑾", "DPP"], "blue": ["Chen Chen-chung", "陳振中", "KMT"], "third": ["Yeh Chu-lin", "葉竹林", "IND"], "third_prior": [0.22, 0.08], "incumbent": "0"},
+  "KIN": {"en": "Kinmen", "zh": "金門縣", "tier": "county", "nonpartisan": true, "blue": ["Chen Yu-jen", "陳玉珍", "KMT"], "field": "Strongest of six independents", "kmt_vs_top_indep_prior": [0.58, 0.09], "incumbent": "0"},
+  "LIE": {"en": "Lienchiang (Matsu)", "zh": "連江縣", "tier": "county", "nonpartisan": true, "blue": ["Wang Chung-ming", "王忠銘", "KMT"], "field": "Tsao Erh-yuan (2022 rematch)", "kmt_vs_top_indep_prior": [0.55, 0.06], "incumbent": "B"}
+ }
+}

@@ -1,0 +1,2042 @@
+{
+ "generated": "2026-11-02T03:22:51+00:00",
+ "as_of": "2026-11-01",
+ "election_date": "2026-11-28",
+ "n_sims": 10000,
+ "national": {
+  "env_green_two_camp": {
+   "mean": 0.49760157504893476,
+   "p10_p90": [
+    0.4670268677186159,
+    0.5278180178062255
+   ]
+  },
+  "env_prior": 0.46,
+  "house_effect_dpp_aligned_logit": 0.2291734163763309,
+  "house_effect_kmt_aligned_logit": -0.1314537566141392,
+  "history": [
+   {
+    "cycle": "2009",
+    "ruling": "KMT",
+    "mayor_green_share": 0.5121804315895001,
+    "prior_pres_green_share": 0.41551925932635797,
+    "shift_logit": 0.3899262326784276,
+    "ruling_party_penalty_logit": 0.3899262326784276
+   },
+   {
+    "cycle": "2014",
+    "ruling": "KMT",
+    "mayor_green_share": 0.5819747138662423,
+    "prior_pres_green_share": 0.45630064612123206,
+    "shift_logit": 0.50612960782395,
+    "ruling_party_penalty_logit": 0.50612960782395
+   },
+   {
+    "cycle": "2018",
+    "ruling": "DPP",
+    "mayor_green_share": 0.4472966600428072,
+    "prior_pres_green_share": 0.5612340933677493,
+    "shift_logit": -0.45777142698373474,
+    "ruling_party_penalty_logit": 0.45777142698373474
+   },
+   {
+    "cycle": "2022",
+    "ruling": "DPP",
+    "mayor_green_share": 0.4490579900999232,
+    "prior_pres_green_share": 0.5713072707108764,
+    "shift_logit": -0.49166430382475856,
+    "ruling_party_penalty_logit": 0.49166430382475856
+   }
+  ]
+ },
+ "races": {
+  "TPE": {
+   "name_en": "Taipei",
+   "name_zh": "臺北市",
+   "tier": "municipality",
+   "incumbent": "B",
+   "candidates": {
+    "G": [
+     "Puma Shen",
+     "沈伯洋",
+     "DPP"
+    ],
+    "B": [
+     "Chiang Wan-an",
+     "蔣萬安",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.194,
+    "B": 0.806
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.4070382212486554,
+     0.46178734039157165,
+     0.5177115372247569
+    ],
+    "mean": 0.4622915551587628
+   },
+   "vote_share": {
+    "G": [
+     0.4070382212486554,
+     0.46178734039157165,
+     0.5177115372247569
+    ],
+    "B": [
+     0.48228846277524307,
+     0.5382126596084285,
+     0.5929617787513446
+    ]
+   },
+   "fundamentals_only_green": 0.42903334502642837,
+   "poll_avg_green": 0.48099134225246887,
+   "n_polls": 7,
+   "poll_weight": 0.6692028712159912,
+   "features": {
+    "pres": -0.17779827336981804,
+    "pl": -0.1592683575611382,
+    "prev": -0.17779827336981804,
+    "inc": -1,
+    "pred_dev": -0.27645225134426693
+   },
+   "polls": [
+    {
+     "pollster": "TVBS",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-31",
+     "n": "1747",
+     "green": "42",
+     "blue": "46",
+     "third": "",
+     "undecided": "12",
+     "source": "https://www.businesstoday.com.tw/article/category/183027/post/202610310018/",
+     "notes": "post-debate"
+    },
+    {
+     "pollster": "UDN",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-25",
+     "n": "1115",
+     "green": "45",
+     "blue": "41",
+     "third": "",
+     "undecided": "",
+     "source": "https://www.taiwannews.com.tw/news/6467763",
+     "notes": ""
+    },
+    {
+     "pollster": "Taipei Trust in Democracy Assn (Tai Li-an)",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-10-16",
+     "n": "1075",
+     "green": "50.3",
+     "blue": "33.3",
+     "third": "",
+     "undecided": "",
+     "source": "https://www.taiwannews.com.tw/news/6461460",
+     "notes": ""
+    },
+    {
+     "pollster": "TVBS",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-03",
+     "n": "1000",
+     "green": "41",
+     "blue": "49",
+     "third": "",
+     "undecided": "",
+     "source": "https://www.businesstoday.com.tw/article/category/183027/post/202610310018/",
+     "notes": "early-Oct TVBS; exact dates/sample not given"
+    },
+    {
+     "pollster": "Taipei Trust in Democracy Assn (Tai Li-an)",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-09-18",
+     "n": "1076",
+     "green": "40.5",
+     "blue": "41.7",
+     "third": "",
+     "undecided": "10.6",
+     "source": "https://www.taiwannews.com.tw/news/6444322",
+     "notes": ""
+    },
+    {
+     "pollster": "Taiwan Public Opinion Research Center",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-08-14",
+     "n": "1000",
+     "green": "33",
+     "blue": "48.4",
+     "third": "",
+     "undecided": "",
+     "source": "https://www.taiwannews.com.tw/news/6444322",
+     "notes": "dates/sample not given"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "17.6",
+     "blue": "38.7",
+     "third": "",
+     "undecided": "43.2",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "NWT": {
+   "name_en": "New Taipei",
+   "name_zh": "新北市",
+   "tier": "municipality",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Su Chiao-hui",
+     "蘇巧慧",
+     "DPP"
+    ],
+    "B": [
+     "Lee Shu-chuan",
+     "李四川",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.3579,
+    "B": 0.6421
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.42679273892813463,
+     0.48389973531829383,
+     0.5416644057799396
+    ],
+    "mean": 0.4839539331012066
+   },
+   "vote_share": {
+    "G": [
+     0.42679273892813463,
+     0.48389973531829383,
+     0.5416644057799396
+    ],
+    "B": [
+     0.4583355942200604,
+     0.5161002646817061,
+     0.5732072610718654
+    ]
+   },
+   "fundamentals_only_green": 0.46556756564217183,
+   "poll_avg_green": 0.49830458043960935,
+   "n_polls": 5,
+   "poll_weight": 0.6214814699875248,
+   "features": {
+    "pres": -0.08588942916258267,
+    "pl": -0.061167414471906115,
+    "prev": -0.302821593174757,
+    "inc": 0,
+    "pred_dev": -0.12860416507588446
+   },
+   "polls": [
+    {
+     "pollster": "Xinmin Cross-Strait Research Assn (Tai Li-an)",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-10-08",
+     "n": "1073",
+     "green": "43.1",
+     "blue": "30.0",
+     "third": "",
+     "undecided": "",
+     "source": "https://news.ebc.net.tw/news/politics/575483",
+     "notes": ""
+    },
+    {
+     "pollster": "KMT caucus poll",
+     "sponsor_lean": "B",
+     "kind": "candidate",
+     "field_end": "2026-10-05",
+     "n": "1000",
+     "green": "35.9",
+     "blue": "42.6",
+     "third": "",
+     "undecided": "",
+     "source": "https://www.cna.com.tw/news/aipl/202610070102.aspx",
+     "notes": "released Oct 7; fieldwork assumed ~Oct 5"
+    },
+    {
+     "pollster": "Juwen Tianxia / Pearson Data",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-03",
+     "n": "1066",
+     "green": "45.18",
+     "blue": "45.74",
+     "third": "",
+     "undecided": "6.96",
+     "source": "https://news.tvbs.com.tw/politics/4036357",
+     "notes": "opt-in online"
+    },
+    {
+     "pollster": "Formosa (Meilidao)",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-04-12",
+     "n": "1000",
+     "green": "34.5",
+     "blue": "35.5",
+     "third": "",
+     "undecided": "",
+     "source": "https://news.tvbs.com.tw/politics/3177444",
+     "notes": ""
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "19.3",
+     "blue": "38.1",
+     "third": "",
+     "undecided": "42.4",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "TAO": {
+   "name_en": "Taoyuan",
+   "name_zh": "桃園市",
+   "tier": "municipality",
+   "incumbent": "B",
+   "candidates": {
+    "G": [
+     "Huang Shih-chieh",
+     "黃世杰",
+     "DPP"
+    ],
+    "B": [
+     "Chang San-cheng",
+     "張善政",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.0037,
+    "B": 0.9963
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.3055886970218946,
+     0.3637204797236805,
+     0.42344817565668735
+    ],
+    "mean": 0.36443485408030224
+   },
+   "vote_share": {
+    "G": [
+     0.3055886970218946,
+     0.3637204797236805,
+     0.42344817565668735
+    ],
+    "B": [
+     0.5765518243433126,
+     0.6362795202763195,
+     0.6944113029781054
+    ]
+   },
+   "fundamentals_only_green": 0.4410715345727421,
+   "poll_avg_green": 0.2997684414354849,
+   "n_polls": 2,
+   "poll_weight": 0.47790524465375483,
+   "features": {
+    "pres": -0.14555931696240462,
+    "pl": -0.14722679760281307,
+    "prev": -0.05769682675039514,
+    "inc": -1,
+    "pred_dev": -0.22747050816405404
+   },
+   "polls": [
+    {
+     "pollster": "New Taiwan Policy Think Tank",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-09-17",
+     "n": "1082",
+     "green": "25.9",
+     "blue": "47.0",
+     "third": "",
+     "undecided": "27.1",
+     "source": "https://www.nownews.com/news/6877090",
+     "notes": ""
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "14.1",
+     "blue": "37.2",
+     "third": "",
+     "undecided": "48.7",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "TXG": {
+   "name_en": "Taichung",
+   "name_zh": "臺中市",
+   "tier": "municipality",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Ho Hsin-chun",
+     "何欣純",
+     "DPP"
+    ],
+    "B": [
+     "Chiang Chi-chen",
+     "江啟臣",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.1229,
+    "B": 0.8771
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.3885107927918293,
+     0.4465208907646985,
+     0.5056253193597557
+    ],
+    "mean": 0.4473007954928308
+   },
+   "vote_share": {
+    "G": [
+     0.3885107927918293,
+     0.4465208907646985,
+     0.5056253193597557
+    ],
+    "B": [
+     0.4943746806402443,
+     0.5534791092353015,
+     0.6114892072081707
+    ]
+   },
+   "fundamentals_only_green": 0.475604597402273,
+   "poll_avg_green": 0.4370456832426565,
+   "n_polls": 3,
+   "poll_weight": 0.591422887777221,
+   "features": {
+    "pres": -0.02944463202297623,
+    "pl": -0.04903417272129973,
+    "prev": -0.21709825517990886,
+    "inc": 0,
+    "pred_dev": -0.08831523780346894
+   },
+   "polls": [
+    {
+     "pollster": "Fo Guang Univ for KMT caucus",
+     "sponsor_lean": "B",
+     "kind": "candidate",
+     "field_end": "2026-10-31",
+     "n": "1003",
+     "green": "28.1",
+     "blue": "38.3",
+     "third": "0.5",
+     "undecided": "25.3",
+     "source": "https://www.chinatimes.com/realtimenews/20261102001592-260407",
+     "notes": "third=Hung Li-hua"
+    },
+    {
+     "pollster": "Taichung Trust Taiwan Friends Assn",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-10-06",
+     "n": "1071",
+     "green": "32.4",
+     "blue": "34.3",
+     "third": "1.1",
+     "undecided": "32.2",
+     "source": "https://newtalk.tw/news/view/2026-10-12/1064949",
+     "notes": "third=Hung Li-hua"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "16.8",
+     "blue": "36.1",
+     "third": "",
+     "undecided": "46.0",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "TNN": {
+   "name_en": "Tainan",
+   "name_zh": "臺南市",
+   "tier": "municipality",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Chen Ting-fei",
+     "陳亭妃",
+     "DPP"
+    ],
+    "B": [
+     "Hsieh Lung-chieh",
+     "謝龍介",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.9965,
+    "B": 0.0035
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.5694931891379176,
+     0.6305530524606755,
+     0.6869810462422434
+    ],
+    "mean": 0.6290263232942133
+   },
+   "vote_share": {
+    "G": [
+     0.5694931891379176,
+     0.6305530524606755,
+     0.6869810462422434
+    ],
+    "B": [
+     0.31301895375775657,
+     0.36944694753932444,
+     0.4305068108620825
+    ]
+   },
+   "fundamentals_only_green": 0.5614525572619727,
+   "poll_avg_green": 0.6843080558305149,
+   "n_polls": 2,
+   "poll_weight": 0.5230444253090258,
+   "features": {
+    "pres": 0.509150271357009,
+    "pl": 0.4911435393095114,
+    "prev": 0.3164818832125744,
+    "inc": 0,
+    "pred_dev": 0.2564031943192427
+   },
+   "polls": [
+    {
+     "pollster": "New Taiwan Policy Think Tank",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-10-19",
+     "n": "1000",
+     "green": "59.4",
+     "blue": "22.6",
+     "third": "",
+     "undecided": "",
+     "source": "https://udn.com/vote2026/story/124652/9828327",
+     "notes": "released Oct 21; dates/sample not given"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "46.8",
+     "blue": "16.2",
+     "third": "",
+     "undecided": "37.0",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "KHH": {
+   "name_en": "Kaohsiung",
+   "name_zh": "高雄市",
+   "tier": "municipality",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Lai Jui-lung",
+     "賴瑞隆",
+     "DPP"
+    ],
+    "B": [
+     "Ko Chih-en",
+     "柯志恩",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.9611,
+    "B": 0.0389
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.5208802613314576,
+     0.5793999520857043,
+     0.634882496057332
+    ],
+    "mean": 0.5788928007861758
+   },
+   "vote_share": {
+    "G": [
+     0.5208802613314576,
+     0.5793999520857043,
+     0.634882496057332
+    ],
+    "B": [
+     0.365117503942668,
+     0.42060004791429567,
+     0.4791197386685424
+    ]
+   },
+   "fundamentals_only_green": 0.5720859844597713,
+   "poll_avg_green": 0.5888510394343324,
+   "n_polls": 3,
+   "poll_weight": 0.6115508534190894,
+   "features": {
+    "pres": 0.3356038644405269,
+    "pl": 0.3320443084577222,
+    "prev": 0.5737163603999457,
+    "inc": 0,
+    "pred_dev": 0.29971094120643693
+   },
+   "polls": [
+    {
+     "pollster": "UDN",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-31",
+     "n": "1101",
+     "green": "40",
+     "blue": "33",
+     "third": "1",
+     "undecided": "26",
+     "source": "https://udn.com/news/story/124652/9850777",
+     "notes": ""
+    },
+    {
+     "pollster": "Fengcan Media (Chang Yu-tsung)",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-21",
+     "n": "1824",
+     "green": "47.8",
+     "blue": "27.4",
+     "third": "",
+     "undecided": "",
+     "source": "https://news.ltn.com.tw/news/politics/breakingnews/5626182",
+     "notes": ""
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "39.8",
+     "blue": "17.2",
+     "third": "",
+     "undecided": "42.9",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "KEE": {
+   "name_en": "Keelung",
+   "name_zh": "基隆市",
+   "tier": "county",
+   "incumbent": "B",
+   "candidates": {
+    "G": [
+     "Tung Tzu-wei",
+     "童子瑋",
+     "DPP"
+    ],
+    "B": [
+     "George Hsieh",
+     "謝國樑",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.1909,
+    "B": 0.8091
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.39932363788786357,
+     0.45909458980041584,
+     0.5197132962863216
+    ],
+    "mean": 0.45911230387746854
+   },
+   "vote_share": {
+    "G": [
+     0.39932363788786357,
+     0.45909458980041584,
+     0.5197132962863216
+    ],
+    "B": [
+     0.4802867037136784,
+     0.5409054101995843,
+     0.6006763621121364
+    ]
+   },
+   "fundamentals_only_green": 0.4274821277092679,
+   "poll_avg_green": 0.48777512524993666,
+   "n_polls": 2,
+   "poll_weight": 0.5471449612688416,
+   "features": {
+    "pres": -0.28395128861946073,
+    "pl": -0.28771539920058176,
+    "prev": -0.10035076222143405,
+    "inc": -1,
+    "pred_dev": -0.28278755617097684
+   },
+   "polls": [
+    {
+     "pollster": "Dadi for Mirror News",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-21",
+     "n": "1075",
+     "green": "37.0",
+     "blue": "36.3",
+     "third": "0.8",
+     "undecided": "25.9",
+     "source": "https://www.mirrormedia.mg/story/20261023edi015",
+     "notes": ""
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "20.7",
+     "blue": "38.8",
+     "third": "",
+     "undecided": "40.2",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "ILA": {
+   "name_en": "Yilan",
+   "name_zh": "宜蘭縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Lin Kuo-chang",
+     "林國漳",
+     "DPP"
+    ],
+    "B": [
+     "Wu Tsung-hsien",
+     "吳宗憲",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.6114,
+    "B": 0.3886
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.45116969561432946,
+     0.514487560981644,
+     0.5779801973740932
+    ],
+    "mean": 0.5144172876111239
+   },
+   "vote_share": {
+    "G": [
+     0.45116969561432946,
+     0.514487560981644,
+     0.5779801973740932
+    ],
+    "B": [
+     0.4220198026259068,
+     0.48551243901835595,
+     0.5488303043856705
+    ]
+   },
+   "fundamentals_only_green": 0.5154818963575497,
+   "poll_avg_green": 0.5203869731621695,
+   "n_polls": 3,
+   "poll_weight": 0.502634717440116,
+   "features": {
+    "pres": 0.25505307301721847,
+    "pl": 0.2538205083089465,
+    "prev": -0.005747511168258834,
+    "inc": 0,
+    "pred_dev": 0.07129130375081058
+   },
+   "polls": [
+    {
+     "pollster": "Lin Kuo-chang campaign internal",
+     "sponsor_lean": "G",
+     "kind": "candidate",
+     "field_end": "2026-08-30",
+     "n": "1000",
+     "green": "40.0",
+     "blue": "30.2",
+     "third": "",
+     "undecided": "29.8",
+     "source": "https://news.ltn.com.tw/news/Yilan/breakingnews/5558776",
+     "notes": "margin-only (+9.8); shares imputed assuming ~30% undecided"
+    },
+    {
+     "pollster": "TVBS",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-03-20",
+     "n": "1000",
+     "green": "38",
+     "blue": "35",
+     "third": "",
+     "undecided": "27",
+     "source": "https://news.tvbs.com.tw/politics/3159065",
+     "notes": "two-way scenario"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "27.4",
+     "blue": "22.2",
+     "third": "",
+     "undecided": "50.4",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "HSQ": {
+   "name_en": "Hsinchu County",
+   "name_zh": "新竹縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Cheng Chao-fang",
+     "鄭朝方",
+     "DPP"
+    ],
+    "B": [
+     "Hsu Hsin-ying",
+     "徐欣瑩",
+     "KMT"
+    ],
+    "T": [
+     "Chu Ting-yu",
+     "朱定瑀",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "G": 0.1429,
+    "B": 0.8571,
+    "T": 0.0
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.3868073667077545,
+     0.44719384981069255,
+     0.5108344816087573
+    ],
+    "mean": 0.4480883442808922
+   },
+   "vote_share": {
+    "G": [
+     0.3681406413637264,
+     0.4271484766105189,
+     0.4883569151484752
+    ],
+    "B": [
+     0.46628987798498245,
+     0.5268333349106833,
+     0.5868707079228925
+    ],
+    "T": [
+     0.024508748660882273,
+     0.041891711761944714,
+     0.07124218883647307
+    ]
+   },
+   "fundamentals_only_green": 0.4227870514514181,
+   "poll_avg_green": 0.4730656950807797,
+   "n_polls": 3,
+   "poll_weight": 0.5253181381455895,
+   "features": {
+    "pres": -0.47938150833568693,
+    "pl": -0.4685716126838171,
+    "prev": -0.46628994982336414,
+    "inc": 0,
+    "pred_dev": -0.3019987164396825
+   },
+   "polls": [
+    {
+     "pollster": "Era (Nien-tai) Poll Center",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-09-18",
+     "n": "1069",
+     "green": "35.1",
+     "blue": "28.7",
+     "third": "2.8",
+     "undecided": "33.4",
+     "source": "https://www.nownews.com/news/6877030",
+     "notes": "third=Chu Ting-yu"
+    },
+    {
+     "pollster": "National Credibility Poll Co.",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-04-18",
+     "n": "1072",
+     "green": "27.3",
+     "blue": "38.7",
+     "third": "",
+     "undecided": "",
+     "source": "https://hao.cnyes.com/post/243936",
+     "notes": ""
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "13.4",
+     "blue": "47.4",
+     "third": "",
+     "undecided": "39.2",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "HSZ": {
+   "name_en": "Hsinchu City",
+   "name_zh": "新竹市",
+   "tier": "county",
+   "incumbent": "B",
+   "candidates": {
+    "G": [
+     "Chuang Ching-cheng",
+     "莊競程",
+     "DPP"
+    ],
+    "B": [
+     "Ann Kao",
+     "高虹安",
+     "IND (KMT-backed)"
+    ],
+    "T": [
+     "Ho Chih-yung",
+     "何志勇",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "G": 0.0051,
+    "B": 0.9949,
+    "T": 0.0
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.3172058573417299,
+     0.37439261641568766,
+     0.436939235269295
+    ],
+    "mean": 0.3760667432912336
+   },
+   "vote_share": {
+    "G": [
+     0.30792265081107156,
+     0.3643325353364524,
+     0.4250476552723488
+    ],
+    "B": [
+     0.5463529691649432,
+     0.608310887424807,
+     0.6657402873335664
+    ],
+    "T": [
+     0.014550659352911976,
+     0.025157002244646072,
+     0.042890400502607735
+    ]
+   },
+   "fundamentals_only_green": 0.44834302573353535,
+   "poll_avg_green": 0.31335064755842246,
+   "n_polls": 2,
+   "poll_weight": 0.4764275361065585,
+   "features": {
+    "pres": -0.060434257018117915,
+    "pl": -0.021268851236436195,
+    "prev": -0.060434257018117915,
+    "inc": -1,
+    "pred_dev": -0.1980238920421955
+   },
+   "polls": [
+    {
+     "pollster": "ETtoday",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-09-14",
+     "n": "1000",
+     "green": "21.2",
+     "blue": "48.6",
+     "third": "1.8",
+     "undecided": "",
+     "source": "https://www.storm.mg/article/11164937",
+     "notes": "blue slot=Ann Kao (incumbent indep; KMT-backed); third=Ho Chih-yung"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "16.5",
+     "blue": "29.0",
+     "third": "",
+     "undecided": "53.2",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "MIA": {
+   "name_en": "Miaoli",
+   "name_zh": "苗栗縣",
+   "tier": "county",
+   "incumbent": "B",
+   "candidates": {
+    "G": [
+     "Chen Pin-an",
+     "陳品安",
+     "DPP"
+    ],
+    "B": [
+     "Chung Tung-chin",
+     "鍾東錦",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.0091,
+    "B": 0.9909
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.2945424107436705,
+     0.3618559708963388,
+     0.4353620734494028
+    ],
+    "mean": 0.3635037001181686
+   },
+   "vote_share": {
+    "G": [
+     0.2945424107436705,
+     0.3618559708963388,
+     0.4353620734494028
+    ],
+    "B": [
+     0.5646379265505972,
+     0.6381440291036612,
+     0.7054575892563295
+    ]
+   },
+   "fundamentals_only_green": 0.3911718543716303,
+   "poll_avg_green": 0.2515212981744422,
+   "n_polls": 1,
+   "poll_weight": 0.18152978654417717,
+   "features": {
+    "pres": -0.536250189554029,
+    "pl": -0.49884467381022435,
+    "prev": -0.33568985097413084,
+    "inc": -1,
+    "pred_dev": -0.43304513236014974
+   },
+   "polls": [
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "12.4",
+     "blue": "36.9",
+     "third": "",
+     "undecided": "48.4",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "CHA": {
+   "name_en": "Changhua",
+   "name_zh": "彰化縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Chen Su-yueh",
+     "陳素月",
+     "DPP"
+    ],
+    "B": [
+     "Wei Ping-cheng",
+     "魏平政",
+     "KMT"
+    ],
+    "T": [
+     "Chiu Chien-fu",
+     "邱建富",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "G": 0.8984,
+    "B": 0.0923,
+    "T": 0.0093
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.5017807133295434,
+     0.5642496880623378,
+     0.6244216970549211
+    ],
+    "mean": 0.5634969076350329
+   },
+   "vote_share": {
+    "G": [
+     0.3945065046533985,
+     0.4628317736479961,
+     0.527962833831405
+    ],
+    "B": [
+     0.2972101339764845,
+     0.3574222397404582,
+     0.41950283116254483
+    ],
+    "T": [
+     0.10827575363112768,
+     0.1712187553377108,
+     0.26304958162296926
+    ]
+   },
+   "fundamentals_only_green": 0.4856790766148034,
+   "poll_avg_green": 0.6344157607579104,
+   "n_polls": 2,
+   "poll_weight": 0.5076174573229426,
+   "features": {
+    "pres": -0.03290291590354241,
+    "pl": -0.05895779725478133,
+    "prev": -0.09787824683719129,
+    "inc": 0,
+    "pred_dev": -0.04795544981399162
+   },
+   "polls": [
+    {
+     "pollster": "UDN",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-10-15",
+     "n": "1003",
+     "green": "32",
+     "blue": "16",
+     "third": "10",
+     "undecided": "42",
+     "source": "https://www.worldjournal.com/wj/story/121218/9823489",
+     "notes": "third=Chiu Chien-fu (indep)"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "20.8",
+     "blue": "28.7",
+     "third": "",
+     "undecided": "50.3",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "NAN": {
+   "name_en": "Nantou",
+   "name_zh": "南投縣",
+   "tier": "county",
+   "incumbent": "B",
+   "candidates": {
+    "G": [
+     "Wen Shih-cheng",
+     "溫世政",
+     "DPP"
+    ],
+    "B": [
+     "Hsu Shu-hua",
+     "許淑華",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.0356,
+    "B": 0.9644
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.3250317940989807,
+     0.3951070048028351,
+     0.47040477363005795
+    ],
+    "mean": 0.39670725058233663
+   },
+   "vote_share": {
+    "G": [
+     0.3250317940989807,
+     0.3951070048028351,
+     0.47040477363005795
+    ],
+    "B": [
+     0.529595226369942,
+     0.6048929951971649,
+     0.6749682059010194
+    ]
+   },
+   "fundamentals_only_green": 0.4329316555559487,
+   "poll_avg_green": 0.255859375,
+   "n_polls": 1,
+   "poll_weight": 0.18235968763949673,
+   "features": {
+    "pres": -0.23429730552464872,
+    "pl": -0.27377506484164055,
+    "prev": -0.06351073412603861,
+    "inc": -1,
+    "pred_dev": -0.2605560414499237
+   },
+   "polls": [
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "13.1",
+     "blue": "38.1",
+     "third": "",
+     "undecided": "48.6",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "YUN": {
+   "name_en": "Yunlin",
+   "name_zh": "雲林縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Liu Chien-kuo",
+     "劉建國",
+     "DPP"
+    ],
+    "B": [
+     "Chang Chia-chun",
+     "張嘉郡",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.4,
+    "B": 0.6
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.4090720590164728,
+     0.4848965860473391,
+     0.5598472550450562
+    ],
+    "mean": 0.48423871183384254
+   },
+   "vote_share": {
+    "G": [
+     0.4090720590164728,
+     0.4848965860473391,
+     0.5598472550450562
+    ],
+    "B": [
+     0.44015274495494383,
+     0.5151034139526609,
+     0.5909279409835272
+    ]
+   },
+   "fundamentals_only_green": 0.5035838329943454,
+   "poll_avg_green": 0.4040920716112532,
+   "n_polls": 1,
+   "poll_weight": 0.18177587514048765,
+   "features": {
+    "pres": 0.23884142094158098,
+    "pl": 0.17850927376617615,
+    "prev": -0.10279420475855064,
+    "inc": 0,
+    "pred_dev": 0.023679493249947368
+   },
+   "polls": [
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "15.8",
+     "blue": "23.3",
+     "third": "",
+     "undecided": "60.9",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "CYQ": {
+   "name_en": "Chiayi County",
+   "name_zh": "嘉義縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Tsai Yi-yu",
+     "蔡易餘",
+     "DPP"
+    ],
+    "B": [
+     "Wu Pin-jui",
+     "吳品叡",
+     "IND (KMT-backed)"
+    ]
+   },
+   "win_prob": {
+    "G": 0.987,
+    "B": 0.013
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.5579238810882455,
+     0.6326029640487603,
+     0.7002198775703694
+    ],
+    "mean": 0.6302159515130547
+   },
+   "vote_share": {
+    "G": [
+     0.5579238810882455,
+     0.6326029640487603,
+     0.7002198775703694
+    ],
+    "B": [
+     0.29978012242963054,
+     0.3673970359512397,
+     0.4420761189117545
+    ]
+   },
+   "fundamentals_only_green": 0.5849649027700843,
+   "poll_avg_green": 0.8071833648393194,
+   "n_polls": 1,
+   "poll_weight": 0.17936171313086102,
+   "features": {
+    "pres": 0.3090712747155536,
+    "pl": 0.33933931071861,
+    "prev": 0.7304483769689507,
+    "inc": 0,
+    "pred_dev": 0.35253267764454094
+   },
+   "polls": [
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "42.7",
+     "blue": "10.2",
+     "third": "",
+     "undecided": "46.5",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "CYI": {
+   "name_en": "Chiayi City",
+   "name_zh": "嘉義市",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Wang Mei-hui",
+     "王美惠",
+     "DPP"
+    ],
+    "B": [
+     "Chang Chi-kai",
+     "張啓楷",
+     "TPP (KMT-backed)"
+    ]
+   },
+   "win_prob": {
+    "G": 0.4754,
+    "B": 0.5246
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.4331308013382585,
+     0.4968877070274758,
+     0.5618013848595543
+    ],
+    "mean": 0.4973937785060936
+   },
+   "vote_share": {
+    "G": [
+     0.4331308013382585,
+     0.4968877070274758,
+     0.5618013848595543
+    ],
+    "B": [
+     0.43819861514044567,
+     0.5031122929725242,
+     0.5668691986617416
+    ]
+   },
+   "fundamentals_only_green": 0.47270620683611164,
+   "poll_avg_green": 0.5260139087828397,
+   "n_polls": 3,
+   "poll_weight": 0.48525904305809764,
+   "features": {
+    "pres": 0.1414266367247223,
+    "pl": 0.14382981698138197,
+    "prev": -0.39764123814983265,
+    "inc": 0,
+    "pred_dev": -0.09993989140376386
+   },
+   "polls": [
+    {
+     "pollster": "Key Survey for CNEWS",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-07-12",
+     "n": "1069",
+     "green": "41.5",
+     "blue": "38.0",
+     "third": "",
+     "undecided": "20.5",
+     "source": "https://cnews.com.tw/001260720a02/",
+     "notes": "blue slot=Chang Chi-kai (TPP; KMT-backed)"
+    },
+    {
+     "pollster": "TVBS",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-05-01",
+     "n": "1000",
+     "green": "43",
+     "blue": "37",
+     "third": "",
+     "undecided": "20",
+     "source": "https://news.tvbs.com.tw/politics/3195159",
+     "notes": "date approximate (early May)"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "25.1",
+     "blue": "23.7",
+     "third": "",
+     "undecided": "50.9",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "PIF": {
+   "name_en": "Pingtung",
+   "name_zh": "屏東縣",
+   "tier": "county",
+   "incumbent": "G",
+   "candidates": {
+    "G": [
+     "Chou Chun-mi",
+     "周春米",
+     "DPP"
+    ],
+    "B": [
+     "Su Ching-chuan",
+     "蘇清泉",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.9741,
+    "B": 0.0259
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.5366848084626343,
+     0.6137534975837977,
+     0.6836851161995265
+    ],
+    "mean": 0.6120562075487329
+   },
+   "vote_share": {
+    "G": [
+     0.5366848084626343,
+     0.6137534975837977,
+     0.6836851161995265
+    ],
+    "B": [
+     0.31631488380047346,
+     0.38624650241620223,
+     0.4633151915373657
+    ]
+   },
+   "fundamentals_only_green": 0.5788556504573829,
+   "poll_avg_green": 0.7518248175182481,
+   "n_polls": 1,
+   "poll_weight": 0.18313505901329907,
+   "features": {
+    "pres": 0.25313623348814085,
+    "pl": 0.24331728128145003,
+    "prev": 0.2567397870897583,
+    "inc": 1,
+    "pred_dev": 0.3274214059593915
+   },
+   "polls": [
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "41.2",
+     "blue": "13.6",
+     "third": "",
+     "undecided": "44.9",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "HUA": {
+   "name_en": "Hualien",
+   "name_zh": "花蓮縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Chang Chun",
+     "張峻",
+     "IND (DPP-backed)"
+    ],
+    "B": [
+     "Yu Shu-chen",
+     "游淑貞",
+     "KMT"
+    ],
+    "T": [
+     "Wei Chia-hsien",
+     "魏嘉賢",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "G": 0.0013,
+    "B": 0.6361,
+    "T": 0.3626
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.2996541035596562,
+     0.3612016713735186,
+     0.4268076623901926
+    ],
+    "mean": 0.36240869568212664
+   },
+   "vote_share": {
+    "G": [
+     0.16883066089388193,
+     0.23236040688786436,
+     0.3007355910248815
+    ],
+    "B": [
+     0.3104150410547761,
+     0.41441267661908965,
+     0.5104334356697678
+    ],
+    "T": [
+     0.21538292297175476,
+     0.34563275012726813,
+     0.500941799374141
+    ]
+   },
+   "fundamentals_only_green": 0.3898162827188336,
+   "poll_avg_green": 0.318536190637797,
+   "n_polls": 2,
+   "poll_weight": 0.35352480830810806,
+   "features": {
+    "pres": -0.8908471432647003,
+    "pl": -0.9264950116727342,
+    "prev": -0.4986003269036483,
+    "inc": 0,
+    "pred_dev": -0.4387406137397406
+   },
+   "polls": [
+    {
+     "pollster": "Qiuzhen",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-04-18",
+     "n": "1086",
+     "green": "21.8",
+     "blue": "32.5",
+     "third": "28.6",
+     "undecided": "17.1",
+     "source": "https://www.storm.mg/article/11123231",
+     "notes": "green slot=Chang Chun (DPP-backed indep); third=Wei Chia-hsien (indep)"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "7.0",
+     "blue": "32.2",
+     "third": "",
+     "undecided": "50.8",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined; 10.1% other"
+    }
+   ]
+  },
+  "TTT": {
+   "name_en": "Taitung",
+   "name_zh": "臺東縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Chen Ying",
+     "陳瑩",
+     "DPP"
+    ],
+    "B": [
+     "Wu Hsiu-hua",
+     "吳秀華",
+     "KMT"
+    ]
+   },
+   "win_prob": {
+    "G": 0.0044,
+    "B": 0.9956
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.30187634005500336,
+     0.36244679472570895,
+     0.4285952971056159
+    ],
+    "mean": 0.36402841876577613
+   },
+   "vote_share": {
+    "G": [
+     0.30187634005500336,
+     0.36244679472570895,
+     0.4285952971056159
+    ],
+    "B": [
+     0.5714047028943842,
+     0.6375532052742909,
+     0.6981236599449966
+    ]
+   },
+   "fundamentals_only_green": 0.41458204456932823,
+   "poll_avg_green": 0.2972668202672345,
+   "n_polls": 2,
+   "poll_weight": 0.38002687307022376,
+   "features": {
+    "pres": -0.76638449350953,
+    "pl": -0.8036727911573173,
+    "prev": -0.30859838695294317,
+    "inc": 0,
+    "pred_dev": -0.33571123886521165
+   },
+   "polls": [
+    {
+     "pollster": "CNEWS",
+     "sponsor_lean": "N",
+     "kind": "candidate",
+     "field_end": "2026-05-28",
+     "n": "905",
+     "green": "22.4",
+     "blue": "51.3",
+     "third": "",
+     "undecided": "26.3",
+     "source": "https://newtalk.tw/news/view/2026-06-01/1038624",
+     "notes": "two-way scenario"
+    },
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "15.3",
+     "blue": "38.9",
+     "third": "",
+     "undecided": "45.1",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "PEN": {
+   "name_en": "Penghu",
+   "name_zh": "澎湖縣",
+   "tier": "county",
+   "incumbent": "0",
+   "candidates": {
+    "G": [
+     "Wu Shu-chin",
+     "吳淑瑾",
+     "DPP"
+    ],
+    "B": [
+     "Chen Chen-chung",
+     "陳振中",
+     "KMT"
+    ],
+    "T": [
+     "Yeh Chu-lin",
+     "葉竹林",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "G": 0.5101,
+    "B": 0.4126,
+    "T": 0.0773
+   },
+   "two_camp_green": {
+    "p10_p50_p90": [
+     0.4316171860387504,
+     0.5081077720240852,
+     0.584496681343054
+    ],
+    "mean": 0.5077819805428487
+   },
+   "vote_share": {
+    "G": [
+     0.31354451669579614,
+     0.39058376333338485,
+     0.4710570535624445
+    ],
+    "B": [
+     0.3014018449434479,
+     0.3782719416210346,
+     0.4571891619687616
+    ],
+    "T": [
+     0.13585030672281134,
+     0.2201119622419563,
+     0.3376101252952294
+    ]
+   },
+   "fundamentals_only_green": 0.4769617765151648,
+   "poll_avg_green": 0.6469135802469136,
+   "n_polls": 1,
+   "poll_weight": 0.18147338688350834,
+   "features": {
+    "pres": -0.12649690012132522,
+    "pl": -0.13723857820800095,
+    "prev": -0.12649690012132522,
+    "inc": 0,
+    "pred_dev": -0.08287427609541513
+   },
+   "polls": [
+    {
+     "pollster": "Global Views",
+     "sponsor_lean": "N",
+     "kind": "camp",
+     "field_end": "2026-04-14",
+     "n": "648",
+     "green": "26.2",
+     "blue": "14.3",
+     "third": "",
+     "undecided": "58.5",
+     "source": "https://www.gvm.com.tw/article/130553",
+     "notes": "party-camp question; blue+white combined"
+    }
+   ]
+  },
+  "KIN": {
+   "name_en": "Kinmen",
+   "name_zh": "金門縣",
+   "tier": "county",
+   "incumbent": "0",
+   "nonpartisan": true,
+   "candidates": {
+    "B": [
+     "Chen Yu-jen",
+     "陳玉珍",
+     "KMT"
+    ],
+    "I": [
+     "Strongest of six independents",
+     "",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "B": 0.8113,
+    "I": 0.1887
+   },
+   "kmt_vs_top_indep": {
+    "p10_p50_p90": [
+     0.46283046761641206,
+     0.5812233343583084,
+     0.690862450537867
+    ]
+   },
+   "n_polls": 0,
+   "note": "No DPP contest; no published polls found. Prior only."
+  },
+  "LIE": {
+   "name_en": "Lienchiang (Matsu)",
+   "name_zh": "連江縣",
+   "tier": "county",
+   "incumbent": "B",
+   "nonpartisan": true,
+   "candidates": {
+    "B": [
+     "Wang Chung-ming",
+     "王忠銘",
+     "KMT"
+    ],
+    "I": [
+     "Tsao Erh-yuan (2022 rematch)",
+     "",
+     "IND"
+    ]
+   },
+   "win_prob": {
+    "B": 0.8003,
+    "I": 0.1997
+   },
+   "kmt_vs_top_indep": {
+    "p10_p50_p90": [
+     0.4728282371391729,
+     0.5512759718811391,
+     0.626250631096053
+    ]
+   },
+   "n_polls": 0,
+   "note": "No DPP contest; no published polls found. Prior only."
+  }
+ },
+ "seats": {
+  "green_hist": [
+   0,
+   1,
+   2,
+   29,
+   199,
+   726,
+   1463,
+   2019,
+   1987,
+   1610,
+   1083,
+   537,
+   238,
+   80,
+   20,
+   6,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "blue_hist": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   9,
+   28,
+   96,
+   240,
+   524,
+   1036,
+   1405,
+   1895,
+   1898,
+   1536,
+   873,
+   354,
+   88,
+   15,
+   1,
+   0,
+   0
+  ],
+  "other_hist": [
+   3786,
+   4334,
+   1613,
+   252,
+   15,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "green_mean": 7.8818,
+  "blue_mean": 13.2806,
+  "green_p10_p90": [
+   6,
+   10
+  ],
+  "blue_p10_p90": [
+   11,
+   16
+  ],
+  "p_green_more": 0.0687,
+  "municipalities_green_hist": [
+   2,
+   280,
+   4737,
+   3520,
+   1263,
+   193,
+   5
+  ],
+  "seats_2022": {
+   "G": 5,
+   "B": 14,
+   "O": 3
+  }
+ },
+ "method": {
+  "fundamentals_coef": {
+   "lean": 0.2882051185279076,
+   "prev_mayor_dev": 0.3547068636181702,
+   "incumbency": 0.16481381928090338
+  },
+  "fundamentals_oos_sd_logit": 0.21829382179652224,
+  "backtest": {
+   "2009": {
+    "n": 18,
+    "rmse_logit": 0.1678374208572687,
+    "rmse_pts": 4.195935521431717,
+    "baseline_pres_only_rmse_logit": 0.2089546811107368,
+    "winner_hits": 16
+   },
+   "2014": {
+    "n": 16,
+    "rmse_logit": 0.21591579559382768,
+    "rmse_pts": 5.397894889845692,
+    "baseline_pres_only_rmse_logit": 0.2795204075049899,
+    "winner_hits": 14
+   },
+   "2018": {
+    "n": 16,
+    "rmse_logit": 0.2983886928154554,
+    "rmse_pts": 7.4597173203863845,
+    "baseline_pres_only_rmse_logit": 0.3515039065338641,
+    "winner_hits": 12
+   },
+   "2022": {
+    "n": 17,
+    "rmse_logit": 0.1740791950945053,
+    "rmse_pts": 4.351979877362632,
+    "baseline_pres_only_rmse_logit": 0.28527805680275503,
+    "winner_hits": 16
+   }
+  },
+  "nat_prior": [
+   -0.16034265007517937,
+   0.2
+  ],
+  "house_prior": {
+   "G": [
+    0.15,
+    0.1
+   ],
+   "B": [
+    -0.15,
+    0.1
+   ]
+  },
+  "miss_sd": 0.08,
+  "race_miss_sd": 0.12,
+  "drift_per_day": 0.02,
+  "n_polls_used": 47
+ }
+}
