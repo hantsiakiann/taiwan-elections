@@ -69,6 +69,7 @@ ELECTION = dt.date(2026, 11, 28)
 NAT_PRIOR = (math.log(0.46 / 0.54), 0.20)
 HOUSE_PRIOR = {"G": (0.15, 0.10), "B": (-0.15, 0.10)}
 MISS_SD = 0.08
+MISS_MEAN = 0.0   # prior mean of the shared polling miss (logit; + = polls overstate the DPP)
 RACE_MISS_SD = 0.12
 DEFF = 1.5
 NONSAMPLE = {"candidate": 0.10, "camp": 0.30}
@@ -76,6 +77,15 @@ ONLINE_EXTRA = 0.10
 DRIFT_PER_DAY = 0.020
 THIRD_SD = 0.40  # logit SD on a third candidate's share
 UND_BREAK_SD = 0.15   # SD of the DPP share of the undecided break, around the county's lean
+ALLOCATE_UNDECIDED = True   # switches, so backtest.py can compare model versions
+REGIONAL = False            # regional polling misses and correlated late drift
+REGIONS = {"North": ["TPE", "NWT", "KEE", "TAO", "HSQ", "HSZ", "ILA"],
+           "Central": ["MIA", "TXG", "CHA", "NAN", "YUN"],
+           "South": ["CYQ", "CYI", "TNN", "KHH", "PIF"],
+           "East": ["HUA", "TTT"], "Islands": ["PEN", "KIN", "LIE"]}
+REG_MISS_SD = 0.08          # polling miss shared within a region (REGIONAL only)
+RACE_MISS_SD_REG = 0.09     # race miss when REGIONAL (0.08^2 + 0.09^2 ~ 0.12^2)
+DRIFT_SPLIT = (0.5, 0.25, 0.25)   # national / regional / race share of drift variance (REGIONAL only)
 FUND_RAMP_DAYS = 100  # fundamentals start losing weight this many days before the election
 FUND_INFLATE_MAX = 1.6
 
@@ -137,13 +147,16 @@ def main(as_of=None):
     R = len(partisan)
     idx = {r: i for i, r in enumerate(partisan)}
     # parameter vector: [nat, hG, hB, b, delta_1..R, c_1..R]
-    P = 4 + 2 * R
+    reg_list = list(REGIONS)
+    region_of = {c: g for g, cs in REGIONS.items() for c in cs}
+    G_ = len(reg_list) if REGIONAL else 0
+    P = 4 + 2 * R + G_
     m0 = np.zeros(P)
     v0 = np.zeros(P)
     m0[0], v0[0] = NAT_PRIOR[0], NAT_PRIOR[1] ** 2
     m0[1], v0[1] = HOUSE_PRIOR["G"][0], HOUSE_PRIOR["G"][1] ** 2
     m0[2], v0[2] = HOUSE_PRIOR["B"][0], HOUSE_PRIOR["B"][1] ** 2
-    m0[3], v0[3] = 0.0, MISS_SD ** 2
+    m0[3], v0[3] = MISS_MEAN, MISS_SD ** 2
     days_left = (ELECTION - as_of).days
     infl = fund_inflation(days_left)
     # inflate only where there are polls to take the weight; unpolled races keep
@@ -151,7 +164,9 @@ def main(as_of=None):
     polled = {p["race"] for p in polls if p["race"] in idx and dt.date.fromisoformat(p["field_end"]) <= as_of}
     race_infl = np.array([infl if r in polled else 1.0 for r in partisan])
     v0[4:4 + R] = (sd_f * race_infl) ** 2
-    v0[4 + R:] = RACE_MISS_SD ** 2
+    v0[4 + R:4 + 2 * R] = (RACE_MISS_SD_REG if REGIONAL else RACE_MISS_SD) ** 2
+    if REGIONAL:
+        v0[4 + 2 * R:] = REG_MISS_SD ** 2
     mu = np.array([feats[r]["pred_dev"] for r in partisan])
 
     def posterior(nat_for_undecided):
@@ -167,6 +182,8 @@ def main(as_of=None):
             a[3] = 1
             a[4 + idx[p["race"]]] = 1
             a[4 + R + idx[p["race"]]] = 1
+            if REGIONAL:
+                a[4 + 2 * R + reg_list.index(region_of[p["race"]])] = 1
             if p["sponsor_lean"] == "G":
                 a[1] = 1
             elif p["sponsor_lean"] == "B":
@@ -184,12 +201,19 @@ def main(as_of=None):
     # pass 1: national environment from the polls as reported; pass 2: undecideds
     # allocated toward each county's lean under that environment
     mean1, _, _ = posterior(None)
-    mean, cov, used = posterior(mean1[0])
+    mean, cov, used = posterior(mean1[0]) if ALLOCATE_UNDECIDED else posterior(None)
 
     rng = np.random.default_rng(SEED)
     draws = rng.multivariate_normal(mean, cov, size=N_SIMS)
     nat, hG, hB = draws[:, 0], draws[:, 1], draws[:, 2]
-    fwd = DRIFT_PER_DAY * math.sqrt(days_left) * rng.standard_normal((N_SIMS, R))
+    dsd = DRIFT_PER_DAY * math.sqrt(days_left)
+    if REGIONAL:
+        rg = np.array([reg_list.index(region_of[r]) for r in partisan])
+        fwd = dsd * (math.sqrt(DRIFT_SPLIT[0]) * rng.standard_normal((N_SIMS, 1))
+                     + math.sqrt(DRIFT_SPLIT[1]) * rng.standard_normal((N_SIMS, len(reg_list)))[:, rg]
+                     + math.sqrt(DRIFT_SPLIT[2]) * rng.standard_normal((N_SIMS, R)))
+    else:
+        fwd = dsd * rng.standard_normal((N_SIMS, R))
     theta = nat[:, None] + mu[None, :] + draws[:, 4:4 + R] + fwd   # (sims, R)
 
     out = {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
