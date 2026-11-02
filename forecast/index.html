@@ -122,10 +122,11 @@ tr.detail > td{background:#fafafa;padding:20px 30px !important}
 .kv div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid #e6e6e6;padding:4px 0}
 .kv span,.kv b{font-size:17px}
 .ptable{margin:0;width:100%}
-.ptable td,.ptable th{padding:4px 8px;font-size:16px;text-align:right}
-.ptable td:nth-child(2),.ptable th:nth-child(2),.ptable td:first-child,.ptable th:first-child{text-align:left}
+.ptable td,.ptable th{padding:5px 10px;font-size:16px;vertical-align:middle;line-height:1.3}
+.ptable th{vertical-align:bottom}
+#races .ptable th.lft,#races .ptable td.lft{text-align:left !important}
+#races .ptable th.ctr,#races .ptable td.ctr{text-align:center !important}
 .ptable *{font-size:16px}
-.ptable td.ctr,.ptable th.ctr{text-align:center !important;padding:4px 10px}
 .ptable th .sub{display:block;font-size:13px;font-weight:400;color:var(--mut)}
 .ptable td.lead{font-weight:600;white-space:nowrap}
 .ptable td.ctr.c-dpp,.ptable td.ctr.c-kmt,.ptable td.ctr.c-tpp,.ptable td.ctr.c-ind{font-weight:600}
@@ -230,7 +231,7 @@ footer *{font-size:16px}
     </table>
     </div>
   </section>
-  <footer>Model output generated <span id="gen"></span>. Code and data: <a href="https://github.com/hantsiakiann/taiwan-elections/tree/main/forecast">github.com/hantsiakiann/taiwan-elections</a>.</footer>
+  <footer>Model output generated <span id="gen"></span>.</footer>
 </div>
 <div class="tip" id="tip"></div>
 
@@ -351,13 +352,18 @@ function seatChart(F, party){
   });
 }
 
+// whisker colors per party: [over the colored fill, over the gray track]
+const WHISKER = {"#1B9431": ["#0b4f17", "#0b4f17"], "#000099": ["#a9b1ff", "#000099"],
+                 "#28C7C7": ["#0d6262", "#0d6262"], "#999999": ["#3d3d3d", "#3d3d3d"]};
 function bar(share, color, w){
   if (!share) return `<svg width="${w}" height="15" viewBox="0 0 ${w} 15" preserveAspectRatio="none" aria-hidden="true"><rect width="${w}" height="15" fill="#E4E4E4"/></svg>`;
   const [lo, mid, hi] = share.map(v => v * w);
   return `<svg width="${w}" height="15" viewBox="0 0 ${w} 15" preserveAspectRatio="none" aria-hidden="true">
     <rect x="0" y="0" width="${w}" height="15" fill="#E4E4E4"/><rect x="0" y="0" width="${mid}" height="15" fill="${color}"/>
-    <line x1="${lo}" x2="${hi}" y1="7.5" y2="7.5" stroke="#333" stroke-width="1.5"/>
-    <line x1="${lo}" x2="${lo}" y1="3" y2="12" stroke="#333" stroke-width="1.5"/><line x1="${hi}" x2="${hi}" y1="3" y2="12" stroke="#333" stroke-width="1.5"/></svg>`;
+    <line x1="${lo}" x2="${mid}" y1="7.5" y2="7.5" stroke="${WHISKER[color][0]}" stroke-width="2"/>
+    <line x1="${mid}" x2="${hi}" y1="7.5" y2="7.5" stroke="${WHISKER[color][1]}" stroke-width="2"/>
+    <line x1="${lo}" x2="${lo}" y1="2" y2="13" stroke="${WHISKER[color][lo < mid ? 0 : 1]}" stroke-width="2"/>
+    <line x1="${hi}" x2="${hi}" y1="2" y2="13" stroke="${WHISKER[color][hi > mid ? 1 : 0]}" stroke-width="2"/></svg>`;
 }
 
 function showPanel(r){
@@ -401,7 +407,7 @@ function drawMap(F, M){
   });
   showPanel(F.races.TPE);
 
-  const order = ["dpp3","dpp2","dpp1","tpp1","tpp2","tpp3","tu","ind1","ind2","ind3","kmt1","kmt2","kmt3"];
+  const order = ["dpp3","dpp2","dpp1","tu","kmt1","kmt2","kmt3","tpp1","tpp2","tpp3","ind1","ind2","ind3"];
   const lab = k => k === "tu" ? "Tossup" : `${["", "Lean", "Likely", "Safe"][+k.slice(3)]} ${PARTY[k.slice(0, 3)].short}`;
   const by = {};
   GEO.forEach(iso => { const r = F.races[iso], k = rating(r).key; (by[k] = by[k] || []).push(r.name_en); });
@@ -468,18 +474,18 @@ function detail(r){
   const cs = cands(r);
   const slots = cs.map(c => c.slot);                     // e.g. ["G","B","T"] or ["B","I"]
   const field = {G: "green", B: "blue", T: "third", I: "third"};
-  const colHead = c => `<span class="c-${c.party}" title="${esc(c.name)}">${PARTY[c.party].short}</span><span class="sub">${esc(c.name.split(" ")[0])}</span>`;
+  const colHead = c => `<span class="c-${c.party}" title="${esc(c.name)}">${PARTY[c.party].short}</span><span class="sub zh-tw">${esc(c.zh)}</span>`;
   const polls = (r.polls || []).slice().sort((a, b) => b.field_end.localeCompare(a.field_end)).map(p => {
     const vals = cs.map(c => ({c, v: parseFloat(p[field[c.slot]])})).filter(o => !isNaN(o.v));
     const top = vals.slice().sort((a, b) => b.v - a.v);
     const lead = top.length > 1 ? `<span class="c-${top[0].c.party}">${PARTY[top[0].c.party].short} +${(top[0].v - top[1].v).toFixed(1)}</span>` : "";
-    return `<tr><td>${esc(p.field_end)}</td>
-      <td>${esc(p.pollster)}${p.sponsor_lean !== "N" ? ` <span class="tag">${p.sponsor_lean === "G" ? "DPP-aligned" : "KMT-aligned"}</span>` : ""}</td>
+    return `<tr><td class="lft">${esc(p.field_end)}</td>
+      <td class="lft">${esc(p.pollster)}${p.sponsor_lean !== "N" ? ` <span class="tag">${p.sponsor_lean === "G" ? "DPP-aligned" : "KMT-aligned"}</span>` : ""}</td>
       ${cs.map(c => `<td class="ctr c-${c.party}">${esc(p[field[c.slot]] || "")}</td>`).join("")}
       <td class="ctr">${esc(p.undecided || "")}</td><td class="ctr lead">${lead}</td></tr>`;
   }).join("");
-  const pollTable = `<div class="cap">Polls used</div>
-    <table class="ptable"><tr class="header-row"><th>End date</th><th>Pollster</th>${cs.map(c => `<th class="ctr">${colHead(c)}</th>`).join("")}<th class="ctr">Und.</th><th class="ctr">Lead</th></tr>
+  const pollTable = `<div class="cap" style="font-weight:700;color:#000;font-size:17px">Polls used</div>
+    <table class="ptable"><tr class="header-row"><th class="lft">End date</th><th class="lft">Pollster</th>${cs.map(c => `<th class="ctr">${colHead(c)}</th>`).join("")}<th class="ctr">Und.</th><th class="ctr">Lead</th></tr>
     ${polls || `<tr><td colspan="${cs.length + 4}">No published polls; fundamentals only.</td></tr>`}</table>`;
 
   // incumbency, named by the incumbent's party
