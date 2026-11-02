@@ -23,6 +23,6 @@
   "TTT": {"en": "Taitung", "zh": "臺東縣", "tier": "county", "green": ["Chen Ying", "陳瑩", "DPP"], "blue": ["Wu Hsiu-hua", "吳秀華", "KMT"], "incumbent": "0"},
   "PEN": {"en": "Penghu", "zh": "澎湖縣", "tier": "county", "green": ["Wu Shu-chin", "吳淑瑾", "DPP"], "blue": ["Chen Chen-chung", "陳振中", "KMT"], "third": ["Yeh Chu-lin", "葉竹林", "IND"], "third_prior": [0.22, 0.08], "incumbent": "0"},
   "KIN": {"en": "Kinmen", "zh": "金門縣", "tier": "county", "nonpartisan": true, "blue": ["Chen Yu-jen", "陳玉珍", "KMT"], "indep": ["Lee Wen-liang", "李文良", "IND"], "kmt_vs_top_indep_prior": [0.65, 0.12], "incumbent": "0"},
-  "LIE": {"en": "Lienchiang (Matsu)", "zh": "連江縣", "tier": "county", "nonpartisan": true, "blue": ["Wang Chung-ming", "王忠銘", "KMT"], "indep": ["Tsao Erh-yuan", "曹爾元", "IND"], "kmt_vs_top_indep_prior": [0.55, 0.06], "incumbent": "B"}
+  "LIE": {"en": "Lienchiang", "zh": "連江縣", "tier": "county", "nonpartisan": true, "blue": ["Wang Chung-ming", "王忠銘", "KMT"], "indep": ["Tsao Erh-yuan", "曹爾元", "IND"], "kmt_vs_top_indep_prior": [0.55, 0.06], "incumbent": "B"}
  }
 }

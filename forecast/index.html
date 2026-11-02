@@ -122,7 +122,7 @@ tr.detail > td{background:#fafafa;padding:20px 30px !important}
 .kv div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid #e6e6e6;padding:4px 0}
 .kv span,.kv b{font-size:17px}
 .ptable{margin:0;width:100%}
-.ptable td,.ptable th{padding:5px 10px;font-size:16px;vertical-align:middle;line-height:1.3}
+.ptable td,.ptable th,#races .ptable td,#races .ptable th{padding:5px 10px;font-size:16px;vertical-align:middle;line-height:1.3}
 .ptable th{vertical-align:bottom}
 #races .ptable th.lft,#races .ptable td.lft{text-align:left !important}
 #races .ptable th.ctr,#races .ptable td.ctr{text-align:center !important}
@@ -490,7 +490,7 @@ function detail(r){
 
   // incumbency, named by the incumbent's party
   const incC = r.incumbent === "G" ? cs.find(c => c.slot === "G") : r.incumbent === "B" ? cs.find(c => c.slot === "B") : null;
-  const inc = incC ? `<span class="c-${incC.party}">${PARTY[incC.party].name} incumbent</span>` : "Open seat";
+  const inc = incC ? `<span class="c-${incC.party}">${PARTY[incC.party].short} incumbent</span>` : "Open seat";
 
   if (r.nonpartisan){
     const q = r.kmt_vs_top_indep.p10_p50_p90;

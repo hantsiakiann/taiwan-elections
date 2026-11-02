@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:17:27+00:00",
+ "generated": "2026-11-02T20:29:51+00:00",
  "as_of": "2026-11-01",
  "election_date": "2026-11-28",
  "n_sims": 10000,
@@ -2496,7 +2496,7 @@
    ]
   },
   "LIE": {
-   "name_en": "Lienchiang (Matsu)",
+   "name_en": "Lienchiang",
    "name_zh": "連江縣",
    "tier": "county",
    "incumbent": "B",
