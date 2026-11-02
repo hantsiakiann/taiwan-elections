@@ -603,40 +603,23 @@
    "score_pts": 0.007629625551517586,
    "grade": null
   },
-  "蘋果日報": {
-   "n_polls": 1,
+  "蘋果": {
+   "n_polls": 2,
    "n_compared": 1,
-   "n_races": 1,
+   "n_races": 2,
    "years": [
-    "2014"
+    "2014",
+    "2018"
    ],
    "house_logit": 0.026741423323144317,
    "scatter_logit": 0.1821798654170947,
-   "abs_err_pts": 3.607202337375395,
+   "abs_err_pts": 9.990771032250798,
    "sponsor_lean": "N",
    "online": false,
    "house_pts": 0.6685355830786079,
    "scatter_pts": 4.554496635427367,
    "excess_err_pts": 0.23069801366888487,
    "score_pts": 0.23069801366888487,
-   "grade": null
-  },
-  "蘋果民調": {
-   "n_polls": 1,
-   "n_compared": 0,
-   "n_races": 1,
-   "years": [
-    "2018"
-   ],
-   "house_logit": 0.0,
-   "scatter_logit": 0.1821798654170947,
-   "abs_err_pts": 16.3743397271262,
-   "sponsor_lean": "N",
-   "online": false,
-   "house_pts": 0.0,
-   "scatter_pts": 4.554496635427367,
-   "excess_err_pts": 0.0,
-   "score_pts": 0.0,
    "grade": null
   },
   "詢證民調有限公司": {

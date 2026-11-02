@@ -1,311 +1,195 @@
 {
  "years": {
   "2012": {
-   "n_polls": 65,
-   "mean_margin_err": 0.10398535960792937,
-   "mean_abs_margin_err": 2.5091921215527124
+   "n_polls": 64,
+   "mean_margin_err": 0.25213039707741824,
+   "mean_abs_margin_err": 2.458270504257776
   },
   "2016": {
-   "n_polls": 3,
-   "mean_margin_err": 10.458820817007867,
-   "mean_abs_margin_err": 10.458820817007867
+   "n_polls": 47,
+   "mean_margin_err": 5.974758994372214,
+   "mean_abs_margin_err": 9.592143291489455
   },
   "2020": {
-   "n_polls": 12,
-   "mean_margin_err": 16.385801159243318,
-   "mean_abs_margin_err": 16.681493954176016
+   "n_polls": 42,
+   "mean_margin_err": 16.891156252790914,
+   "mean_abs_margin_err": 17.017208535936952
   },
   "2024": {
-   "n_polls": 25,
-   "mean_margin_err": -1.0673416339784598,
-   "mean_abs_margin_err": 2.864012685878548
+   "n_polls": 65,
+   "mean_margin_err": -0.2888482721840634,
+   "mean_abs_margin_err": 3.563645130887419
   }
  },
  "pollsters": {
   "ETtoday": {
-   "english": "ETtoday",
-   "n_polls": 7,
+   "english": "ETtoday新聞雲",
+   "n_polls": 14,
    "years": [
     "2020",
     "2024"
    ],
-   "mean_margin_err": 3.151697190768051,
-   "mean_abs_margin_err": 7.313606661485399,
-   "cand_err": 4.664548744468328,
-   "vs_rivals": -1.0279946777661173,
+   "mean_margin_err": -1.9436673787117105,
+   "mean_abs_margin_err": 4.191000280081223,
+   "cand_err": 3.2531717628117534,
+   "vs_rivals": -1.7980644476860734,
    "by_year": {
-    "2020": 11.618135571096957,
-    "2024": -3.198131594478628
-   }
-  },
-  "FTNN": {
-   "english": "FTNN",
-   "n_polls": 1,
-   "years": [
-    "2024"
-   ],
-   "mean_margin_err": 3.4165258215962453,
-   "mean_abs_margin_err": 3.4165258215962453,
-   "cand_err": 1.3125195618153367,
-   "vs_rivals": 0.11510690327452018,
-   "by_year": {
-    "2024": 3.4165258215962453
-   }
-  },
-  "Focus Survey and Research": {
-   "english": "Focus Survey and Research",
-   "n_polls": 8,
-   "years": [
-    "2012"
-   ],
-   "mean_margin_err": 0.9044371200920089,
-   "mean_abs_margin_err": 1.8667945261692989,
-   "cand_err": 4.563380125107412,
-   "vs_rivals": -0.4349567052075196,
-   "by_year": {
-    "2012": 0.9044371200920089
+    "2020": 4.652391179996794,
+    "2024": -3.7425924401776665
    }
   },
   "QuickseeK": {
-   "english": "QuickseeK",
-   "n_polls": 1,
+   "english": "影響力數據顧問（QuickseeK）",
+   "n_polls": 2,
    "years": [
     "2024"
    ],
-   "mean_margin_err": -0.4257407407407321,
-   "mean_abs_margin_err": 0.4257407407407321,
-   "cand_err": 2.961851851851852,
-   "vs_rivals": -0.5079733219037117,
+   "mean_margin_err": 2.3825702876789894,
+   "mean_abs_margin_err": 2.8083110284197215,
+   "cand_err": 3.5109063411237322,
+   "vs_rivals": -0.25571206593958484,
    "by_year": {
-    "2024": -0.4257407407407321
+    "2024": 2.3825702876789894
    }
   },
   "TVBS": {
    "english": "TVBS",
-   "n_polls": 16,
+   "n_polls": 26,
    "years": [
     "2012",
     "2016",
+    "2020",
     "2024"
    ],
-   "mean_margin_err": -0.7250977066531394,
-   "mean_abs_margin_err": 2.830941305969125,
-   "cand_err": 3.11238679038402,
-   "vs_rivals": -0.3674283671093095,
+   "mean_margin_err": -0.34049896787962897,
+   "mean_abs_margin_err": 2.8174371253044805,
+   "cand_err": 2.9494105497789977,
+   "vs_rivals": -3.5962985039605115,
    "by_year": {
-    "2012": -0.03649259847589477,
-    "2016": 4.790129870129881,
-    "2024": -3.205353438364233
-   }
-  },
-  "Trendspotting": {
-   "english": "Trendspotting Survey and Research",
-   "n_polls": 1,
-   "years": [
-    "2012"
-   ],
-   "mean_margin_err": -0.23490620490620273,
-   "mean_abs_margin_err": 0.23490620490620273,
-   "cand_err": 4.887340067340067,
-   "vs_rivals": -0.46196432681882227,
-   "by_year": {
-    "2012": -0.23490620490620273
-   }
-  },
-  "YouGov": {
-   "english": "YouGov Market Research",
-   "n_polls": 1,
-   "years": [
-    "2012"
-   ],
-   "mean_margin_err": -5.458571428571425,
-   "mean_abs_margin_err": 5.458571428571425,
-   "cand_err": 7.677142857142858,
-   "vs_rivals": 0.5990926717381759,
-   "by_year": {
-    "2012": -5.458571428571425
+    "2012": 0.30622034512779334,
+    "2016": -0.428311838399556,
+    "2020": 2.611645506222919,
+    "2024": -3.1762259045192125
    }
   },
   "三立": {
-   "english": "SET News",
-   "n_polls": 3,
+   "english": "三立電視（山水）",
+   "n_polls": 2,
    "years": [
-    "2016",
     "2024"
    ],
-   "mean_margin_err": 3.8992857865993336,
-   "mean_abs_margin_err": 5.851311613879396,
-   "cand_err": 3.1068291724248613,
-   "vs_rivals": 0.44971230844801446,
+   "mean_margin_err": -1.2611386148520154,
+   "mean_abs_margin_err": 1.6669001260680787,
+   "cand_err": 1.35709436429005,
+   "vs_rivals": -0.6421272151732139,
    "by_year": {
-    "2016": 14.220134589502031,
     "2024": -1.2611386148520154
    }
   },
   "世新大學": {
-   "english": "Shih Hsin University",
-   "n_polls": 2,
+   "english": "世新大學",
+   "n_polls": 4,
    "years": [
     "2012",
     "2016"
    ],
-   "mean_margin_err": 5.4251611425885,
-   "mean_abs_margin_err": 6.941036848803186,
-   "cand_err": 5.559404685671982,
-   "vs_rivals": 0.3087047962080079,
+   "mean_margin_err": 5.062373876580519,
+   "mean_abs_margin_err": 5.820311729687862,
+   "cand_err": 4.349292002003115,
+   "vs_rivals": -1.0151033032875403,
    "by_year": {
     "2012": -1.5158757062146861,
-    "2016": 12.366197991391687
+    "2016": 7.255123737512254
    }
   },
   "中時": {
-   "english": "China Times",
-   "n_polls": 29,
+   "english": "中國時報",
+   "n_polls": 31,
    "years": [
-    "2012"
+    "2012",
+    "2024"
    ],
-   "mean_margin_err": 0.06982722580421856,
-   "mean_abs_margin_err": 1.7900324146099007,
-   "cand_err": 4.1694700370282245,
-   "vs_rivals": -0.6418636588954546,
+   "mean_margin_err": -0.1490720266122612,
+   "mean_abs_margin_err": 2.0053639937742025,
+   "cand_err": 4.111412174936678,
+   "vs_rivals": -0.4716894097883278,
    "by_year": {
-    "2012": 0.06982722580421856
+    "2012": 0.1320534570113001,
+    "2024": -4.2253915391539
+   }
+  },
+  "中華亞太菁英交流協會": {
+   "english": "中華亞太菁英交流協會",
+   "n_polls": 1,
+   "years": [
+    "2024"
+   ],
+   "mean_margin_err": -1.5713378684807182,
+   "mean_abs_margin_err": 1.5713378684807182,
+   "cand_err": 1.8611337868480717,
+   "vs_rivals": -0.40468741267636105,
+   "by_year": {
+    "2024": -1.5713378684807182
    }
   },
   "信傳媒": {
-   "english": "CM Media",
-   "n_polls": 1,
-   "years": [
-    "2024"
-   ],
-   "mean_margin_err": 1.9400000000000048,
-   "mean_abs_margin_err": 1.9400000000000048,
-   "cand_err": 5.526666666666666,
-   "vs_rivals": -0.19250264289136326,
-   "by_year": {
-    "2024": 1.9400000000000048
-   }
-  },
-  "台灣民意基金會": {
-   "english": "TPOF",
-   "n_polls": 1,
-   "years": [
-    "2024"
-   ],
-   "mean_margin_err": -1.6304225352112667,
-   "mean_abs_margin_err": 1.6304225352112667,
-   "cand_err": 1.608826291079809,
-   "vs_rivals": -0.2569979480556836,
-   "by_year": {
-    "2024": -1.6304225352112667
-   }
-  },
-  "品觀點": {
-   "english": "PinView",
-   "n_polls": 1,
-   "years": [
-    "2020"
-   ],
-   "mean_margin_err": 5.846197183098589,
-   "mean_abs_margin_err": 5.846197183098589,
-   "cand_err": 3.58037558685446,
-   "vs_rivals": -2.3640647500532572,
-   "by_year": {
-    "2020": 5.846197183098589
-   }
-  },
-  "山水": {
-   "english": "Master Survey and Research",
-   "n_polls": 3,
-   "years": [
-    "2012"
-   ],
-   "mean_margin_err": 5.6464318898362365,
-   "mean_abs_margin_err": 5.6464318898362365,
-   "cand_err": 6.749155284579538,
-   "vs_rivals": 1.3655396312841233,
-   "by_year": {
-    "2012": 5.6464318898362365
-   }
-  },
-  "決策": {
-   "english": "Decision Making Research",
-   "n_polls": 1,
-   "years": [
-    "2012"
-   ],
-   "mean_margin_err": 8.411860465116284,
-   "mean_abs_margin_err": 8.411860465116284,
-   "cand_err": 4.710077519379847,
-   "vs_rivals": 1.1989795072863505,
-   "by_year": {
-    "2012": 8.411860465116284
-   }
-  },
-  "綠黨": {
-   "english": "Green Party",
-   "n_polls": 5,
-   "years": [
-    "2020"
-   ],
-   "mean_margin_err": 21.767888269005205,
-   "mean_abs_margin_err": 21.767888269005205,
-   "cand_err": 8.9945002472915,
-   "vs_rivals": 3.082663221108598,
-   "by_year": {
-    "2020": 21.767888269005205
-   }
-  },
-  "美麗島電子報": {
-   "english": "Formosa",
-   "n_polls": 4,
-   "years": [
-    "2020",
-    "2024"
-   ],
-   "mean_margin_err": 7.911713984392044,
-   "mean_abs_margin_err": 8.754072261036026,
-   "cand_err": 5.9439923225879046,
-   "vs_rivals": -0.5346551686842924,
-   "by_year": {
-    "2020": 16.349088132220515,
-    "2024": -0.5256601634364273
-   }
-  },
-  "聯合報": {
-   "english": "United Daily News",
-   "n_polls": 8,
-   "years": [
-    "2012",
-    "2020",
-    "2024"
-   ],
-   "mean_margin_err": -0.8086883346865097,
-   "mean_abs_margin_err": 4.406536435952333,
-   "cand_err": 4.739179991482338,
-   "vs_rivals": 0.013231661987338234,
-   "by_year": {
-    "2012": -2.798179816511076,
-    "2020": 14.391392405063293,
-    "2024": -3.434999999999995
-   }
-  },
-  "自由時報": {
-   "english": "Liberty Times",
+   "english": "信傳媒（佳興）",
    "n_polls": 2,
    "years": [
-    "2012"
+    "2024"
    ],
-   "mean_margin_err": 4.733800853823951,
-   "mean_abs_margin_err": 4.733800853823951,
-   "cand_err": 6.755042814805458,
-   "vs_rivals": 0.7531227479043254,
+   "mean_margin_err": 0.02463035019455795,
+   "mean_abs_margin_err": 1.9153696498054469,
+   "cand_err": 4.449169909208819,
+   "vs_rivals": -0.5580099284912924,
    "by_year": {
-    "2012": 4.733800853823951
+    "2024": 0.02463035019455795
    }
   },
-  "臺北教育大學": {
-   "english": "Taipei University of Education",
+  "全國意向": {
+   "english": "全國意向",
+   "n_polls": 4,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": -10.69148727220669,
+   "mean_abs_margin_err": 10.69148727220669,
+   "cand_err": 3.9403207744571374,
+   "vs_rivals": 0.5616213814533697,
+   "by_year": {
+    "2016": -10.69148727220669
+   }
+  },
+  "兩岸政策協會": {
+   "english": "兩岸政策協會",
+   "n_polls": 3,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 17.81653737139468,
+   "mean_abs_margin_err": 17.81653737139468,
+   "cand_err": 7.931815818095399,
+   "vs_rivals": 0.35092485459119666,
+   "by_year": {
+    "2020": 17.81653737139468
+   }
+  },
+  "典通": {
+   "english": "典通",
+   "n_polls": 2,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": 8.255940487363995,
+   "mean_abs_margin_err": 8.255940487363995,
+   "cand_err": 4.683716295292058,
+   "vs_rivals": -0.4550835637238884,
+   "by_year": {
+    "2016": 8.255940487363995
+   }
+  },
+  "北市教大": {
+   "english": "北市教大",
    "n_polls": 3,
    "years": [
     "2012"
@@ -313,13 +197,341 @@
    "mean_margin_err": -3.722672002707545,
    "mean_abs_margin_err": 3.722672002707545,
    "cand_err": 3.6343119508558,
-   "vs_rivals": 0.5281887875562328,
+   "vs_rivals": 0.5504877272162256,
    "by_year": {
     "2012": -3.722672002707545
    }
   },
+  "匯流": {
+   "english": "匯流新聞網（精確）",
+   "n_polls": 5,
+   "years": [
+    "2024"
+   ],
+   "mean_margin_err": 3.781458257283113,
+   "mean_abs_margin_err": 3.781458257283113,
+   "cand_err": 1.9404796996985212,
+   "vs_rivals": 0.12289803138645958,
+   "by_year": {
+    "2024": 3.781458257283113
+   }
+  },
+  "台灣制憲基金會": {
+   "english": "台灣制憲基金會",
+   "n_polls": 1,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 14.973975903614466,
+   "mean_abs_margin_err": 14.973975903614466,
+   "cand_err": 7.426746987951809,
+   "vs_rivals": -0.41861351491485127,
+   "by_year": {
+    "2020": 14.973975903614466
+   }
+  },
+  "台灣基進": {
+   "english": "台灣基進",
+   "n_polls": 1,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 22.16554396423249,
+   "mean_abs_margin_err": 22.16554396423249,
+   "cand_err": 10.042036761053152,
+   "vs_rivals": 1.054780917016646,
+   "by_year": {
+    "2020": 22.16554396423249
+   }
+  },
+  "台灣指標": {
+   "english": "台灣指標",
+   "n_polls": 3,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": 9.739130832133528,
+   "mean_abs_margin_err": 9.739130832133528,
+   "cand_err": 5.145557345704193,
+   "vs_rivals": 0.06436410941246631,
+   "by_year": {
+    "2016": 9.739130832133528
+   }
+  },
+  "台灣民意基金會": {
+   "english": "台灣民意基金會",
+   "n_polls": 2,
+   "years": [
+    "2020",
+    "2024"
+   ],
+   "mean_margin_err": 8.160783964813913,
+   "mean_abs_margin_err": 9.79120650002518,
+   "cand_err": 4.973578818960643,
+   "vs_rivals": -0.16764128509832257,
+   "by_year": {
+    "2020": 17.951990464839092,
+    "2024": -1.6304225352112667
+   }
+  },
+  "品觀點": {
+   "english": "品觀點",
+   "n_polls": 1,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 5.846197183098589,
+   "mean_abs_margin_err": 5.846197183098589,
+   "cand_err": 3.58037558685446,
+   "vs_rivals": -2.288695008874202,
+   "by_year": {
+    "2020": 5.846197183098589
+   }
+  },
+  "國民黨": {
+   "english": "中國國民黨",
+   "n_polls": 2,
+   "years": [
+    "2016",
+    "2024"
+   ],
+   "mean_margin_err": -9.064615745201692,
+   "mean_abs_margin_err": 9.064615745201692,
+   "cand_err": 4.0880563729958235,
+   "vs_rivals": 0.846041679875461,
+   "by_year": {
+    "2016": -13.696891064871473,
+    "2024": -4.432340425531912
+   }
+  },
+  "壹電視": {
+   "english": "壹電視",
+   "n_polls": 8,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": 11.935266372194697,
+   "mean_abs_margin_err": 11.935266372194697,
+   "cand_err": 5.530797630023521,
+   "vs_rivals": 1.596040359320961,
+   "by_year": {
+    "2016": 11.935266372194697
+   }
+  },
+  "寶島通訊": {
+   "english": "寶島通訊",
+   "n_polls": 1,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 11.190670953022916,
+   "mean_abs_margin_err": 11.190670953022916,
+   "cand_err": 5.068701303190571,
+   "vs_rivals": -1.193729651133608,
+   "by_year": {
+    "2020": 11.190670953022916
+   }
+  },
+  "山水": {
+   "english": "山水",
+   "n_polls": 10,
+   "years": [
+    "2012",
+    "2016"
+   ],
+   "mean_margin_err": 0.0037954251788129057,
+   "mean_abs_margin_err": 4.118372157840086,
+   "cand_err": 4.871673971696085,
+   "vs_rivals": 0.1722679692794591,
+   "by_year": {
+    "2012": 0.9044371200920089,
+    "2016": -3.5987713544739712
+   }
+  },
+  "年代": {
+   "english": "年代",
+   "n_polls": 2,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": 8.501830577598714,
+   "mean_abs_margin_err": 8.501830577598714,
+   "cand_err": 4.296302811422586,
+   "vs_rivals": -0.3713383880642379,
+   "by_year": {
+    "2016": 8.501830577598714
+   }
+  },
+  "放言": {
+   "english": "放言",
+   "n_polls": 2,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 11.116827672789746,
+   "mean_abs_margin_err": 11.116827672789746,
+   "cand_err": 5.855523545218274,
+   "vs_rivals": -2.014764197172218,
+   "by_year": {
+    "2020": 11.116827672789746
+   }
+  },
+  "新台灣國策智庫": {
+   "english": "新台灣國策智庫",
+   "n_polls": 1,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 23.673548387096773,
+   "mean_abs_margin_err": 23.673548387096773,
+   "cand_err": 10.60021505376344,
+   "vs_rivals": 1.3637379207254263,
+   "by_year": {
+    "2020": 23.673548387096773
+   }
+  },
+  "榮泰創數據": {
+   "english": "榮泰創數據",
+   "n_polls": 1,
+   "years": [
+    "2024"
+   ],
+   "mean_margin_err": -3.1509090909090745,
+   "mean_abs_margin_err": 3.1509090909090745,
+   "cand_err": 3.503250688705234,
+   "vs_rivals": -0.08383700812060102,
+   "by_year": {
+    "2024": -3.1509090909090745
+   }
+  },
+  "民眾黨": {
+   "english": "民眾黨（求真）",
+   "n_polls": 8,
+   "years": [
+    "2024"
+   ],
+   "mean_margin_err": 1.5628360731311797,
+   "mean_abs_margin_err": 3.043293977651284,
+   "cand_err": 4.234800124581783,
+   "vs_rivals": -0.3523210933369658,
+   "by_year": {
+    "2024": 1.5628360731311797
+   }
+  },
+  "民進黨": {
+   "english": "民主進步黨",
+   "n_polls": 1,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": 6.170000000000009,
+   "mean_abs_margin_err": 6.170000000000009,
+   "cand_err": 4.02666666666667,
+   "vs_rivals": -0.6993075421739307,
+   "by_year": {
+    "2016": 6.170000000000009
+   }
+  },
+  "決策": {
+   "english": "決策",
+   "n_polls": 4,
+   "years": [
+    "2012",
+    "2016"
+   ],
+   "mean_margin_err": 9.640503680886646,
+   "mean_abs_margin_err": 9.640503680886646,
+   "cand_err": 4.866051505479263,
+   "vs_rivals": 0.9314599182918708,
+   "by_year": {
+    "2012": 8.411860465116284,
+    "2016": 10.050051419476766
+   }
+  },
+  "精湛": {
+   "english": "精湛",
+   "n_polls": 3,
+   "years": [
+    "2012"
+   ],
+   "mean_margin_err": 5.6464318898362365,
+   "mean_abs_margin_err": 5.6464318898362365,
+   "cand_err": 6.749155284579538,
+   "vs_rivals": 1.3880430522246356,
+   "by_year": {
+    "2012": 5.6464318898362365
+   }
+  },
+  "綠黨": {
+   "english": "綠黨",
+   "n_polls": 6,
+   "years": [
+    "2020"
+   ],
+   "mean_margin_err": 19.69049463614149,
+   "mean_abs_margin_err": 19.69049463614149,
+   "cand_err": 8.538958055881592,
+   "vs_rivals": 1.6430929201257152,
+   "by_year": {
+    "2020": 19.69049463614149
+   }
+  },
+  "美麗島電子報": {
+   "english": "美麗島電子報",
+   "n_polls": 10,
+   "years": [
+    "2020",
+    "2024"
+   ],
+   "mean_margin_err": 10.044954172768996,
+   "mean_abs_margin_err": 10.381897483426588,
+   "cand_err": 5.152663944001761,
+   "vs_rivals": 1.0483411696580225,
+   "by_year": {
+    "2020": 19.413098875244145,
+    "2024": 3.7995243711188973
+   }
+  },
+  "聯合報": {
+   "english": "聯合報系",
+   "n_polls": 14,
+   "years": [
+    "2012",
+    "2016",
+    "2020",
+    "2024"
+   ],
+   "mean_margin_err": 1.9659291277895303,
+   "mean_abs_margin_err": 5.674287337237067,
+   "cand_err": 4.519936771355758,
+   "vs_rivals": -0.5006005620816016,
+   "by_year": {
+    "2012": -2.49960721143365,
+    "2016": 7.082162162162173,
+    "2020": 16.11751438434983,
+    "2024": -3.653621399176951
+   }
+  },
+  "自由時報": {
+   "english": "自由時報",
+   "n_polls": 7,
+   "years": [
+    "2012",
+    "2016",
+    "2020"
+   ],
+   "mean_margin_err": 20.183530755648636,
+   "mean_abs_margin_err": 20.183530755648636,
+   "cand_err": 8.7352500491705,
+   "vs_rivals": 6.149256555848978,
+   "by_year": {
+    "2012": 4.733800853823951,
+    "2016": 21.78693561852927,
+    "2020": 29.414414114944673
+   }
+  },
   "菱傳媒": {
-   "english": "RW News",
+   "english": "菱傳媒（皮爾森）",
    "n_polls": 2,
    "years": [
     "2024"
@@ -327,53 +539,143 @@
    "mean_margin_err": 0.6690091768441135,
    "mean_abs_margin_err": 3.10131499221621,
    "cand_err": 1.596846450019968,
-   "vs_rivals": 0.08239663414502144,
+   "vs_rivals": -0.15651801569598192,
    "by_year": {
     "2024": 0.6690091768441135
    }
   },
-  "蘋果日報": {
-   "english": "Apple Daily",
+  "蓋洛普": {
+   "english": "台灣蓋洛普",
+   "n_polls": 2,
+   "years": [
+    "2016",
+    "2024"
+   ],
+   "mean_margin_err": 4.132526341882471,
+   "mean_abs_margin_err": 10.60510283744885,
+   "cand_err": 4.3376506258644785,
+   "vs_rivals": 1.368621282326677,
+   "by_year": {
+    "2016": 14.737629179331321,
+    "2024": -6.472576495566379
+   }
+  },
+  "蘋果": {
+   "english": "蘋果日報",
+   "n_polls": 7,
+   "years": [
+    "2012",
+    "2020"
+   ],
+   "mean_margin_err": 19.683884259498193,
+   "mean_abs_margin_err": 20.994456134265793,
+   "cand_err": 9.174069224739549,
+   "vs_rivals": 3.9468798776900162,
+   "by_year": {
+    "2012": -4.58700156168662,
+    "2020": 23.729031896362326
+   }
+  },
+  "街頭有派對": {
+   "english": "街頭有派對",
+   "n_polls": 1,
+   "years": [
+    "2024"
+   ],
+   "mean_margin_err": 4.3500000000000085,
+   "mean_abs_margin_err": 4.3500000000000085,
+   "cand_err": 6.313333333333333,
+   "vs_rivals": 0.15972833278849485,
+   "by_year": {
+    "2024": 4.3500000000000085
+   }
+  },
+  "觀察家": {
+   "english": "觀察家",
    "n_polls": 1,
    "years": [
     "2012"
    ],
-   "mean_margin_err": -4.58700156168662,
-   "mean_abs_margin_err": 4.58700156168662,
-   "cand_err": 6.558677771993755,
-   "vs_rivals": 0.42205504252720005,
+   "mean_margin_err": -0.23490620490620273,
+   "mean_abs_margin_err": 0.23490620490620273,
+   "cand_err": 4.887340067340067,
+   "vs_rivals": -0.4517311592333356,
    "by_year": {
-    "2012": -4.58700156168662
+    "2012": -0.23490620490620273
    }
   },
-  "鏡新聞": {
-   "english": "Mirror Media",
-   "n_polls": 3,
+  "趨勢": {
+   "english": "趨勢",
+   "n_polls": 5,
+   "years": [
+    "2016"
+   ],
+   "mean_margin_err": 10.32273209784203,
+   "mean_abs_margin_err": 10.32273209784203,
+   "cand_err": 4.924390730677408,
+   "vs_rivals": 0.414706206504481,
+   "by_year": {
+    "2016": 10.32273209784203
+   }
+  },
+  "鋒燦傳媒": {
+   "english": "鋒燦傳媒",
+   "n_polls": 2,
    "years": [
     "2024"
    ],
-   "mean_margin_err": 4.097460140154453,
-   "mean_abs_margin_err": 4.097460140154453,
-   "cand_err": 2.052242812430664,
-   "vs_rivals": 0.5506461849446003,
+   "mean_margin_err": 1.0017923225628316,
+   "mean_abs_margin_err": 2.4147334990334137,
+   "cand_err": 1.8782205652213944,
+   "vs_rivals": -0.38895445870057443,
    "by_year": {
-    "2024": 4.097460140154453
+    "2024": 1.0017923225628316
    }
   },
-  "震傳媒": {
-   "english": "Z.Media",
+  "鏡新聞": {
+   "english": "鏡新聞",
+   "n_polls": 5,
+   "years": [
+    "2024"
+   ],
+   "mean_margin_err": 3.266604355553324,
+   "mean_abs_margin_err": 5.004995499464761,
+   "cand_err": 2.222845686728853,
+   "vs_rivals": 0.8132619267146467,
+   "by_year": {
+    "2024": 3.266604355553324
+   }
+  },
+  "關鍵調查": {
+   "english": "關鍵調查",
    "n_polls": 1,
    "years": [
     "2024"
    ],
-   "mean_margin_err": -4.3514110429447825,
-   "mean_abs_margin_err": 4.3514110429447825,
-   "cand_err": 1.8860122699386501,
-   "vs_rivals": 0.3098746577221323,
+   "mean_margin_err": 4.864731182795698,
+   "mean_abs_margin_err": 4.864731182795698,
+   "cand_err": 2.3445878136200697,
+   "vs_rivals": 0.2642831042938692,
    "by_year": {
-    "2024": -4.3514110429447825
+    "2024": 4.864731182795698
+   }
+  },
+  "震傳媒": {
+   "english": "震撼世代傳媒",
+   "n_polls": 5,
+   "years": [
+    "2020",
+    "2024"
+   ],
+   "mean_margin_err": 9.524629818436267,
+   "mean_abs_margin_err": 12.432084952417938,
+   "cand_err": 5.745720542570257,
+   "vs_rivals": 0.4530422132819953,
+   "by_year": {
+    "2020": 18.29726230904517,
+    "2024": -3.6343189174770885
    }
   }
  },
- "source_note": "Three-way presidential polls in the final ~7 weeks before each election, transcribed from English Wikipedia (Opinion polling for the 2012 Taiwanese presidential election; Opinion polling for the 2020 Taiwanese general election; Opinion polling for the 2024 Taiwanese presidential election; 2016 Taiwanese presidential election). Columns: pollster, field_end, DPP, KMT, third, undecided (null = not reported). The 2024 numbered daily tracking series (no pollster named) and four undated 2024 rows are excluded. 2016 and 2020 coverage on English Wikipedia is thin."
+ "source_note": "Three-way presidential polls fielded in the last 50 days before each election, from zh.wikipedia (2012/2016/2024: 'X年中華民國總統選舉' poll tables; 2020: '2020年中華民國總統選舉民意調查', final-ticket table, which has no undecided column). Rows: pollster, field_end, DPP, KMT, third, undecided. Dropped: one 2016 趨勢 row with swapped columns; six 2020 寶島通訊 regional rows; forecast/seat-projection tables; unnamed tracking series."
 }

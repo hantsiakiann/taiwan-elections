@@ -16,24 +16,29 @@ import json
 import os
 from collections import defaultdict
 
+import sys
+
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FC = os.path.dirname(HERE)
-D = json.load(open(os.path.join(HERE, "presidential_polls.json"), encoding="utf-8"))
+sys.path.insert(0, FC)
+from pollsters import canon  # noqa: E402
+D = json.load(open(os.path.join(HERE, "presidential_polls.json"), encoding="utf-8"))   # election results
+Z = json.load(open(os.path.join(HERE, "presidential_polls_zh.json"), encoding="utf-8"))  # polls (zh.wikipedia)
 K = 4  # shrink "vs rivals" toward 0 with weight n / (n + K)
 
 
 def main():
     rows = []
-    for year, polls in D["polls"].items():
+    for year, polls in Z["polls"].items():
         act = D["elections"][year]["actual"]
         tot = act["DPP"] + act["KMT"] + act["third"]
         a = {k: act[k] / tot * 100 for k in ("DPP", "KMT", "third")}
         for name, end, g, b, t, u in polls:
             s = g + b + t
             p = {"DPP": g / s * 100, "KMT": b / s * 100, "third": t / s * 100}
-            rows.append({"year": year, "pollster": D["name_map"].get(name, name), "en": name, "end": end,
+            rows.append({"year": year, "pollster": canon(name), "en": name, "end": end,
                          "margin_err": (p["DPP"] - p["KMT"]) - (a["DPP"] - a["KMT"]),
                          "cand_err": float(np.mean([abs(p[k] - a[k]) for k in p])),
                          "third_err": p["third"] - a["third"]})
@@ -58,7 +63,7 @@ def main():
                      "vs_rivals": n / (n + K) * float(np.mean([r["vs_rivals"] for r in rs])),
                      "by_year": {y: float(np.mean([r["margin_err"] for r in rs if r["year"] == y]))
                                  for y in sorted({r["year"] for r in rs})}}
-    json.dump({"years": years, "pollsters": pol, "source_note": D["_note"]},
+    json.dump({"years": years, "pollsters": pol, "source_note": Z["_note"]},
               open(os.path.join(FC, "presidential_ratings.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     print("Average DPP-KMT margin error by election (+ = polls too DPP):")
