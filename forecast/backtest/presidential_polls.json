@@ -1,0 +1,83 @@
+{
+ "_note": "Three-way presidential polls in the final ~7 weeks before each election, transcribed from English Wikipedia (Opinion polling for the 2012 Taiwanese presidential election; Opinion polling for the 2020 Taiwanese general election; Opinion polling for the 2024 Taiwanese presidential election; 2016 Taiwanese presidential election). Columns: pollster, field_end, DPP, KMT, third, undecided (null = not reported). The 2024 numbered daily tracking series (no pollster named) and four undated 2024 rows are excluded. 2016 and 2020 coverage on English Wikipedia is thin.",
+ "elections": {
+  "2012": {"date": "2012-01-14", "actual": {"DPP": 45.63, "KMT": 51.60, "third": 2.77}, "third_party": "PFP"},
+  "2016": {"date": "2016-01-16", "actual": {"DPP": 56.12, "KMT": 31.04, "third": 12.84}, "third_party": "PFP"},
+  "2020": {"date": "2020-01-11", "actual": {"DPP": 57.13, "KMT": 38.61, "third": 4.26}, "third_party": "PFP"},
+  "2024": {"date": "2024-01-13", "actual": {"DPP": 40.05, "KMT": 33.49, "third": 26.46}, "third_party": "TPP"}
+ },
+ "polls": {
+  "2012": [
+   ["China Times","2011-11-28",37.6,42.7,9.5,10.2],["YouGov Market Research","2011-11-28",26,34,10,30],
+   ["China Times","2011-11-29",35.2,43.0,8.4,13.4],["China Times","2011-11-30",35.1,41.8,8.3,14.8],
+   ["Focus Survey and Research","2011-11-30",32.1,36.7,10.0,21.2],["TVBS","2011-12-01",34,40,7,19],
+   ["China Times","2011-12-02",36.1,43.5,7.0,13.4],["China Times","2011-12-02",37.5,43.4,7.7,11.4],
+   ["TVBS","2011-12-03",32,38,12,18],["United Daily News","2011-12-03",32,39,10,17],
+   ["Apple Daily","2011-12-03",36.90,47.04,12.11,3.95],["China Times","2011-12-03",32.6,39.9,8.9,18.6],
+   ["Focus Survey and Research","2011-12-05",32.9,39.0,7.0,21.2],["China Times","2011-12-05",37.2,43.7,8.3,10.8],
+   ["Shih Hsin University","2011-12-05",28.6,33.9,8.3,30.7],["China Times","2011-12-06",36.9,42.0,9.8,11.3],
+   ["China Times","2011-12-07",36.3,43.2,9.0,11.5],["Taipei University of Education","2011-12-07",27.7,35.5,7.2,29.6],
+   ["TVBS","2011-12-07",37,41,8,14],["Master Survey and Research","2011-12-08",35.9,35.4,10.8,17.9],
+   ["China Times","2011-12-08",35.9,43.9,8.9,11.3],["China Times","2011-12-09",36.4,43.2,8.7,11.7],
+   ["TVBS","2011-12-10",39,39,6,16],["China Times","2011-12-10",35.1,42.7,7.1,15.1],
+   ["United Daily News","2011-12-10",33,40,10,16],["United Daily News","2011-12-12",35,42,10,13],
+   ["China Times","2011-12-12",36.8,41.3,8.4,13.5],["Focus Survey and Research","2011-12-12",36.0,36.3,5.9,20.1],
+   ["China Times","2011-12-13",39.1,40.1,8.0,12.8],["TVBS","2011-12-14",38,40,7,15],
+   ["China Times","2011-12-14",38.7,39.7,8.2,13.4],["Liberty Times","2011-12-15",33.26,34.50,10.81,21.43],
+   ["China Times","2011-12-15",37.1,41.8,8.2,13.8],["China Times","2011-12-16",36.7,41.8,8.2,14.2],
+   ["TVBS","2011-12-17",36,40,7,17],["China Times","2011-12-17",37.7,38.5,7.7,16],
+   ["United Daily News","2011-12-17",33,41,10,15],["China Times","2011-12-19",37.3,41.9,7.2,13.6],
+   ["Focus Survey and Research","2011-12-19",33.4,36.5,8.5,21.6],["China Times","2011-12-20",36.8,42.2,7.4,13.6],
+   ["China Times","2011-12-21",37.1,42.3,6.6,14.0],["Taipei University of Education","2011-12-21",32.2,40.2,5.5,22.1],
+   ["China Times","2011-12-22",36.0,42.3,7.0,14.7],["Liberty Times","2011-12-22",35.05,35.77,9.70,19.48],
+   ["TVBS","2011-12-22",35,41,8,16],["China Times","2011-12-23",36.2,42.2,6.8,14.8],
+   ["Master Survey and Research","2011-12-24",39.1,39.5,11.1,10.3],["Decision Making Research","2011-12-24",40.4,38.3,7.3,14.0],
+   ["China Times","2011-12-26",37.1,41.3,7.5,14.1],["China Times","2011-12-26",36.8,41.6,6.8,14.8],
+   ["Trendspotting Survey and Research","2011-12-26",29.0,33.3,7.0,30.7],["TVBS","2011-12-27",38,44,6,12],
+   ["China Times","2011-12-27",38.0,40.7,7.7,13.6],["China Times","2011-12-28",38.5,41.3,6.6,13.6],
+   ["TVBS","2011-12-29",35,44,7,13],["Focus Survey and Research","2011-12-29",31.5,37.6,6.6,24.4],
+   ["Focus Survey and Research","2011-12-30",32.6,35.9,7.3,24.4],["Taipei University of Education","2011-12-30",35.7,42.2,6.2,15.9],
+   ["Focus Survey and Research","2011-12-31",33.3,37.1,6.9,22.7],["Master Survey and Research","2011-12-31",37.8,38.8,11.6,11.8],
+   ["United Daily News","2012-01-02",36,44,7,13],["China Times","2012-01-02",36.5,39.5,5.8,18.2],
+   ["Focus Survey and Research","2012-01-02",33.1,37.2,7.2,22.5],["TVBS","2012-01-02",37,45,6,13],
+   ["China Times","2012-01-02",38.4,43.3,6.8,11.5]
+  ],
+  "2016": [
+   ["Shih Hsin University","2015-11-27",44.5,18.4,6.8,30.3],["SET News","2015-12-06",44.9,15.7,13.7,25.7],
+   ["TVBS","2015-12-13",45,22,10,23]
+  ],
+  "2020": [
+   ["Green Party","2019-12-30",54.2,20.8,6.0,null],["Formosa","2019-12-26",48.2,20.3,10.3,null],
+   ["Green Party","2019-12-17",54.4,20.4,7.9,null],["ETtoday","2019-12-15",56.5,18.1,9.9,null],
+   ["United Daily News","2019-12-14",48.0,22.0,9.0,null],["Green Party","2019-12-11",53.2,15.47,4.66,null],
+   ["ETtoday","2019-12-08",46.6,24.5,7.2,null],["Green Party","2019-12-04",52.1,17.9,9.5,null],
+   ["Formosa","2019-11-26",51.2,23.7,5.2,null],["PinView","2019-11-26",40.9,23.6,6.5,null],
+   ["ETtoday","2019-11-25",44.4,30.3,9.5,null],["Green Party","2019-11-20",44.9,25.4,8.9,null]
+  ],
+  "2024": [
+   ["ETtoday","2024-01-01",38.9,35.8,22.4,2.8],["Mirror Media","2023-12-31",35.6,24.1,24.2,16.2],
+   ["TVBS","2023-12-30",33,30,24,13],["United Daily News","2023-12-30",32,27,21,20],
+   ["FTNN","2023-12-29",35.8,27.3,22.1,14.8],["RW News","2023-12-29",36.89,32.83,28.64,1.63],
+   ["ETtoday","2023-12-28",36.6,33.8,22.2,7.4],["TVBS","2023-12-28",37,33,22,9],
+   ["SET News","2023-12-27",30.9,27.9,23.8,17.5],["ETtoday","2023-12-26",38.1,34.8,19.2,7.8],
+   ["Mirror Media","2023-12-25",33.3,26.5,23.2,17.0],["CM Media","2023-12-25",29.5,22.7,27.8,20.1],
+   ["TPOF","2023-12-24",32.4,28.2,24.6,14.8],["Formosa","2023-12-21",38.2,33.9,16.1,11.7],
+   ["TVBS","2023-12-21",33,32,24,11],["QuickseeK","2023-12-20",32.5,27.2,26.7,13.6],
+   ["United Daily News","2023-12-17",31,31,21,17],["Z.Media","2023-12-16",31.4,29.6,20.5,18.5],
+   ["ETtoday","2023-12-15",38.5,35.1,19.6,6.8],["SET News","2023-12-12",34.7,28.8,21.2,15.3],
+   ["TVBS","2023-12-12",36,32,22,9],["Mirror Media","2023-12-11",33.5,25.2,23.7,17.5],
+   ["Formosa","2023-11-28",36.6,30.5,17.7,15.3],["RW News","2023-11-28",41.12,31.05,25.31,2.52],
+   ["TVBS","2023-11-26",34,31,23,12]
+  ]
+ },
+ "name_map": {
+  "China Times": "中時", "United Daily News": "聯合報", "TVBS": "TVBS", "ETtoday": "ETtoday",
+  "Formosa": "美麗島電子報", "Shih Hsin University": "世新大學", "Liberty Times": "自由時報",
+  "Apple Daily": "蘋果日報", "SET News": "三立", "TPOF": "台灣民意基金會", "Z.Media": "震傳媒",
+  "Mirror Media": "鏡新聞", "QuickseeK": "QuickseeK", "RW News": "菱傳媒", "CM Media": "信傳媒",
+  "Master Survey and Research": "山水", "Green Party": "綠黨", "Decision Making Research": "決策",
+  "Taipei University of Education": "臺北教育大學", "PinView": "品觀點", "FTNN": "FTNN",
+  "Focus Survey and Research": "Focus Survey and Research", "Trendspotting Survey and Research": "Trendspotting",
+  "YouGov Market Research": "YouGov"
+ }
+}
