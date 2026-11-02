@@ -215,11 +215,11 @@ footer *{font-size:16px}
     <div class="filters" role="group" aria-label="Sort races">
       <span class="lab">Sort:</span>
       <button data-s="geo" aria-pressed="true">Geographic</button>
-      <button data-s="lean" aria-pressed="false">Most DPP to most KMT</button>
+      <button data-s="lean" aria-pressed="false">Partisanship (DPP to KMT)</button>
     </div>
     <div class="filters" role="group" aria-label="Filter races">
       <span class="lab">Show:</span>
-      <button data-f="all" aria-pressed="true">All 22</button>
+      <button data-f="all" aria-pressed="true">All</button>
       <button data-f="municipality" aria-pressed="false">Special municipalities</button>
       <button data-f="close" aria-pressed="false">Competitive</button>
       <button data-f="flip" aria-pressed="false">Likely flips</button>
@@ -317,7 +317,8 @@ function seatTable(F){
       <td class="party">${PARTY[k].name}</td>
       <td class="share-bar"><svg width="${W}" height="90" viewBox="0 0 ${W} 90" preserveAspectRatio="none" aria-hidden="true">
         <rect x="0" y="37.5" width="${W}" height="15" fill="#E4E4E4"/>
-        <rect x="0" y="37.5" width="${W * s.mean / n}" height="15" fill="${PARTY[k].color}"/></svg></td>
+        <rect x="0" y="37.5" width="${W * s.mean / n}" height="15" fill="${PARTY[k].color}"/>
+        ${whisker(W * s.p10_p90[0] / n, W * s.mean / n, W * s.p10_p90[1] / n, 45, PARTY[k].color)}</svg></td>
       <td class="seats"><div class="chance bg-${k}">${s.mean.toFixed(1)}</div></td>
       <td class="num hide-s c-${k}">${s.p10_p90[0] === s.p10_p90[1] ? s.p10_p90[0] : s.p10_p90[0] + "–" + s.p10_p90[1]}</td>
       <td class="num hide-s c-${k}">${prev}</td></tr>`).join("");
@@ -352,6 +353,14 @@ function seatChart(F, party){
   });
 }
 
+// error bar from lo to hi around the bar end at mid, centered vertically at y
+function whisker(lo, mid, hi, y, color){
+  const [inC, outC] = WHISKER[color];
+  return `<line x1="${lo}" x2="${mid}" y1="${y}" y2="${y}" stroke="${inC}" stroke-width="2"/>
+    <line x1="${mid}" x2="${hi}" y1="${y}" y2="${y}" stroke="${outC}" stroke-width="2"/>
+    <line x1="${lo}" x2="${lo}" y1="${y - 5.5}" y2="${y + 5.5}" stroke="${lo < mid ? inC : outC}" stroke-width="2"/>
+    <line x1="${hi}" x2="${hi}" y1="${y - 5.5}" y2="${y + 5.5}" stroke="${hi > mid ? outC : inC}" stroke-width="2"/>`;
+}
 // whisker colors per party: [over the colored fill, over the gray track]
 const WHISKER = {"#1B9431": ["#0b4f17", "#0b4f17"], "#000099": ["#a9b1ff", "#000099"],
                  "#28C7C7": ["#0d6262", "#0d6262"], "#999999": ["#3d3d3d", "#3d3d3d"]};
