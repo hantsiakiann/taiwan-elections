@@ -20,6 +20,12 @@ Model (logit scale, x = green share of the two-camp vote):
   c_r      polling miss shared by the polls in race r prior N(0, .12^2)
            (undecided allocation, turnout, local frame problems: averaging
            more polls of the same race cannot shrink this)
+  undecided  each poll's undecided respondents are allocated as if they break
+           like the county's partisanship (fundamentals + estimated national
+           environment), not like the decided respondents; the break itself
+           carries SD .15 of DPP share, scaled by the undecided weight. This
+           keeps low-name-recognition candidates in a poll with many
+           undecideds from being written off.
   e_i      poll error: sampling (design effect 1.5, decided respondents only)
            + non-sampling (.10; .30 for party-camp questions; +.10 online
            opt-in) + drift from fieldwork to today (.020^2 per day; Taipei moved
@@ -29,9 +35,17 @@ Model (logit scale, x = green share of the two-camp vote):
 Every term is Gaussian and enters linearly, so the posterior over
 (nat, h_G, h_B, b, delta_1..R) is computed exactly. Each simulation is one
 joint posterior draw, so national swings and house-effect uncertainty are
-shared across races. Older polls and races with few polls lean on the
-fundamentals automatically, since their precision is lower; that is the
-"shift weight toward polls as election day nears" rule.
+shared across races. The national environment used to allocate undecideds
+comes from a first pass without the allocation, so it moves with the polls.
+
+Weighting polls over fundamentals as election day nears: the prior SD on
+each race's deviation from its fundamentals (delta_r) is inflated by
+fund_inflation(days_left), which ramps linearly from 1.0 at 100+ days out to
+1.6 on election day, for races with at least one poll. A wider prior means
+the race's polls pull it further from the fundamentals; races with no polls
+keep the backtested fundamentals uncertainty. Older polls are also discounted by the drift term,
+and undecided shares fall as the campaign ends, so poll weight rises on
+both counts.
 
 Third candidates (where polled, plus Penghu's Yeh Chu-lin from a prior)
 take a logit-normal share off the top; the camps split the rest by theta.
@@ -61,6 +75,15 @@ NONSAMPLE = {"candidate": 0.10, "camp": 0.30}
 ONLINE_EXTRA = 0.10
 DRIFT_PER_DAY = 0.020
 THIRD_SD = 0.40  # logit SD on a third candidate's share
+UND_BREAK_SD = 0.15   # SD of the DPP share of the undecided break, around the county's lean
+FUND_RAMP_DAYS = 100  # fundamentals start losing weight this many days before the election
+FUND_INFLATE_MAX = 1.6
+
+
+def fund_inflation(days_left):
+    """Multiplier on the fundamentals prior SD: 1.0 far out, FUND_INFLATE_MAX on election day."""
+    frac = min(max((FUND_RAMP_DAYS - days_left) / FUND_RAMP_DAYS, 0.0), 1.0)
+    return 1.0 + (FUND_INFLATE_MAX - 1.0) * frac
 
 
 def logit(p):
@@ -78,10 +101,21 @@ def load():
     return fund, races, polls
 
 
-def poll_obs(p, as_of):
+def poll_obs(p, as_of, fund=None):
+    """Poll -> (logit DPP two-camp share, variance, days to election, age).
+    fund: the race's fundamentals-based DPP two-camp share; when given,
+    undecided respondents are allocated toward it."""
     g, b = float(p["green"]), float(p["blue"])
+    t = float(p["third"]) if p.get("third") else 0.0
+    u = float(p["undecided"]) if p.get("undecided") else max(100 - g - b - t, 0.0)
     share = g / (g + b)
     n2 = float(p["n"]) * (g + b) / 100
+    und_var = 0.0
+    if fund is not None and u > 0:
+        w = u / (g + b + u)                 # undecideds' weight in the eventual two-camp vote
+        adj = (1 - w) * share + w * fund
+        und_var = (w * UND_BREAK_SD / (adj * (1 - adj))) ** 2
+        share = adj
     end = dt.date.fromisoformat(p["field_end"])
     days = (ELECTION - end).days
     var = DEFF / (n2 * share * (1 - share))
@@ -90,6 +124,7 @@ def poll_obs(p, as_of):
         var += ONLINE_EXTRA ** 2
     age = max((as_of - end).days, 0)
     var += DRIFT_PER_DAY ** 2 * age
+    var += und_var
     return logit(share), var, days, age
 
 
@@ -109,38 +144,51 @@ def main(as_of=None):
     m0[1], v0[1] = HOUSE_PRIOR["G"][0], HOUSE_PRIOR["G"][1] ** 2
     m0[2], v0[2] = HOUSE_PRIOR["B"][0], HOUSE_PRIOR["B"][1] ** 2
     m0[3], v0[3] = 0.0, MISS_SD ** 2
-    v0[4:4 + R] = sd_f ** 2
+    days_left = (ELECTION - as_of).days
+    infl = fund_inflation(days_left)
+    # inflate only where there are polls to take the weight; unpolled races keep
+    # the backtested fundamentals uncertainty
+    polled = {p["race"] for p in polls if p["race"] in idx and dt.date.fromisoformat(p["field_end"]) <= as_of}
+    race_infl = np.array([infl if r in polled else 1.0 for r in partisan])
+    v0[4:4 + R] = (sd_f * race_infl) ** 2
     v0[4 + R:] = RACE_MISS_SD ** 2
     mu = np.array([feats[r]["pred_dev"] for r in partisan])
 
-    rows, ys, vs, used = [], [], [], []
-    for p in polls:
-        if p["race"] not in idx or dt.date.fromisoformat(p["field_end"]) > as_of:
-            continue
-        y, v, days, age = poll_obs(p, as_of)
-        a = np.zeros(P)
-        a[0] = 1
-        a[3] = 1
-        a[4 + idx[p["race"]]] = 1
-        a[4 + R + idx[p["race"]]] = 1
-        if p["sponsor_lean"] == "G":
-            a[1] = 1
-        elif p["sponsor_lean"] == "B":
-            a[2] = 1
-        rows.append(a)
-        ys.append(y - mu[idx[p["race"]]])
-        vs.append(v)
-        used.append({**p, "logit": y, "var": v, "days_to_election": days})
-    A = np.array(rows)
-    W = np.diag(1 / np.array(vs))
-    prec = np.diag(1 / v0) + A.T @ W @ A
-    cov = np.linalg.inv(prec)
-    mean = cov @ (m0 / v0 + A.T @ W @ np.array(ys))
+    def posterior(nat_for_undecided):
+        """Exact Gaussian posterior. nat_for_undecided=None skips the undecided allocation."""
+        rows, ys, vs, used = [], [], [], []
+        for p in polls:
+            if p["race"] not in idx or dt.date.fromisoformat(p["field_end"]) > as_of:
+                continue
+            f = None if nat_for_undecided is None else float(expit(nat_for_undecided + mu[idx[p["race"]]]))
+            y, v, days, age = poll_obs(p, as_of, fund=f)
+            a = np.zeros(P)
+            a[0] = 1
+            a[3] = 1
+            a[4 + idx[p["race"]]] = 1
+            a[4 + R + idx[p["race"]]] = 1
+            if p["sponsor_lean"] == "G":
+                a[1] = 1
+            elif p["sponsor_lean"] == "B":
+                a[2] = 1
+            rows.append(a)
+            ys.append(y - mu[idx[p["race"]]])
+            vs.append(v)
+            used.append({**p, "logit": y, "var": v, "days_to_election": days})
+        A = np.array(rows)
+        W = np.diag(1 / np.array(vs))
+        cov = np.linalg.inv(np.diag(1 / v0) + A.T @ W @ A)
+        mean = cov @ (m0 / v0 + A.T @ W @ np.array(ys))
+        return mean, cov, used
+
+    # pass 1: national environment from the polls as reported; pass 2: undecideds
+    # allocated toward each county's lean under that environment
+    mean1, _, _ = posterior(None)
+    mean, cov, used = posterior(mean1[0])
 
     rng = np.random.default_rng(SEED)
     draws = rng.multivariate_normal(mean, cov, size=N_SIMS)
     nat, hG, hB = draws[:, 0], draws[:, 1], draws[:, 2]
-    days_left = (ELECTION - as_of).days
     fwd = DRIFT_PER_DAY * math.sqrt(days_left) * rng.standard_normal((N_SIMS, R))
     theta = nat[:, None] + mu[None, :] + draws[:, 4:4 + R] + fwd   # (sims, R)
 
@@ -186,7 +234,7 @@ def main(as_of=None):
                 h = mean[1] if p["sponsor_lean"] == "G" else mean[2] if p["sponsor_lean"] == "B" else 0
                 adj.append((p["logit"] - h, 1 / p["var"]))
             poll_avg = float(expit(sum(y * w for y, w in adj) / sum(w for _, w in adj)))
-        prior_var = sd_f ** 2
+        prior_var = (sd_f * race_infl[i]) ** 2
         post_var = cov[4 + i, 4 + i]
         q = lambda x: [float(np.percentile(x, k)) for k in (10, 50, 90)]
         out["races"][r] = {
@@ -290,6 +338,8 @@ def main(as_of=None):
         "fundamentals_coef": fund["coef"], "fundamentals_oos_sd_logit": sd_f,
         "backtest": fund["backtest"], "nat_prior": NAT_PRIOR, "house_prior": HOUSE_PRIOR,
         "miss_sd": MISS_SD, "race_miss_sd": RACE_MISS_SD, "drift_per_day": DRIFT_PER_DAY, "n_polls_used": len(used),
+        "undecided_break_sd": UND_BREAK_SD, "fund_inflation": infl, "days_left": days_left,
+        "national_env_pass1": float(expit(mean1[0])),
     }
     json.dump(out, open(os.path.join(OUT, "forecast_2026.json"), "w"), ensure_ascii=False, indent=1)
 
