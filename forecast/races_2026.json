@@ -22,7 +22,7 @@
   "HUA": {"en": "Hualien", "zh": "花蓮縣", "tier": "county", "green": ["Chang Chun", "張峻", "IND (DPP-backed)"], "blue": ["Yu Shu-chen", "游淑貞", "KMT"], "third": ["Wei Chia-hsien", "魏嘉賢", "IND"], "incumbent": "0"},
   "TTT": {"en": "Taitung", "zh": "臺東縣", "tier": "county", "green": ["Chen Ying", "陳瑩", "DPP"], "blue": ["Wu Hsiu-hua", "吳秀華", "KMT"], "incumbent": "0"},
   "PEN": {"en": "Penghu", "zh": "澎湖縣", "tier": "county", "green": ["Wu Shu-chin", "吳淑瑾", "DPP"], "blue": ["Chen Chen-chung", "陳振中", "KMT"], "third": ["Yeh Chu-lin", "葉竹林", "IND"], "third_prior": [0.22, 0.08], "incumbent": "0"},
-  "KIN": {"en": "Kinmen", "zh": "金門縣", "tier": "county", "nonpartisan": true, "blue": ["Chen Yu-jen", "陳玉珍", "KMT"], "field": "Strongest of six independents", "kmt_vs_top_indep_prior": [0.58, 0.09], "incumbent": "0"},
+  "KIN": {"en": "Kinmen", "zh": "金門縣", "tier": "county", "nonpartisan": true, "blue": ["Chen Yu-jen", "陳玉珍", "KMT"], "field": "Lee Wen-liang (top of six independents)", "kmt_vs_top_indep_prior": [0.78, 0.08], "prior_note": "雨晴民調 Sep 2026: Chen 45.4, Lee 10.7; shrunk toward 0.5", "incumbent": "0"},
   "LIE": {"en": "Lienchiang (Matsu)", "zh": "連江縣", "tier": "county", "nonpartisan": true, "blue": ["Wang Chung-ming", "王忠銘", "KMT"], "field": "Tsao Erh-yuan (2022 rematch)", "kmt_vs_top_indep_prior": [0.55, 0.06], "incumbent": "B"}
  }
 }
