@@ -130,8 +130,9 @@ P = [
  # Penghu: green 吳淑瑾, blue 陳振中, third 葉竹林
  ("PEN","ETtoday","2026-08-03",21.0,30.3,17.8,10.1),
 ]
-# Kinmen (KMT 陳玉珍 vs top independent 李文良) is handled in races_2026.json:
-#   雨晴民調 2026-09-11: 45.4 vs 10.7 (others 6.3, undecided 37.6)
+# Kinmen (2026年金門縣縣長選舉 page): blue = 陳玉珍 (KMT), third = 李文良 (IND);
+# no DPP candidate. Earlier polls there include 楊鎮浯, who withdrew.
+P.append(("KIN","雨晴民調","2026-09-11","",45.4,10.7,37.6))
 
 out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "polls_2026.csv")
 with open(out, "w", newline="", encoding="utf-8") as f:

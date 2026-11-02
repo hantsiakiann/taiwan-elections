@@ -211,14 +211,35 @@ def main(as_of=None):
         if not cfg.get("nonpartisan"):
             continue
         m, s = cfg["kmt_vs_top_indep_prior"]
-        x = expit(logit(m) + (s / (m * (1 - m))) * rng.standard_normal(N_SIMS))
+        center, sd_l = logit(m), s / (m * (1 - m))
+        np_polls = [p for p in polls if p["race"] == r and dt.date.fromisoformat(p["field_end"]) <= as_of]
+        note = "No DPP contest; no published polls found. Prior only."
+        if np_polls:
+            # combine prior with the polls (KMT vs strongest independent), with the
+            # same error terms as partisan polls plus the race-level miss and drift
+            prec, acc = 1 / sd_l ** 2, center / sd_l ** 2
+            for p in np_polls:
+                b_, t_ = float(p["blue"]), float(p["third"])
+                sh = b_ / (b_ + t_)
+                n2 = float(p["n"]) * (b_ + t_) / 100
+                end = dt.date.fromisoformat(p["field_end"])
+                var = DEFF / (n2 * sh * (1 - sh)) + NONSAMPLE["candidate"] ** 2 + RACE_MISS_SD ** 2 \
+                    + DRIFT_PER_DAY ** 2 * max((as_of - end).days, 0)
+                prec += 1 / var
+                acc += logit(sh) / var
+            center, sd_l = acc / prec, math.sqrt(1 / prec)
+            note = "No DPP contest. KMT vs. the strongest independent, from the polls below."
+        sd_l = math.sqrt(sd_l ** 2 + DRIFT_PER_DAY ** 2 * (ELECTION - as_of).days)
+        x = expit(center + sd_l * rng.standard_normal(N_SIMS))
         winners[:, order.index(r)] = np.where(x > 0.5, "B", "I")
         out["races"][r] = {
             "name_en": cfg["en"], "name_zh": cfg["zh"], "tier": cfg["tier"], "incumbent": cfg["incumbent"],
-            "nonpartisan": True, "candidates": {"B": cfg["blue"], "I": [cfg["field"], "", "IND"]},
+            "nonpartisan": True, "candidates": {"B": cfg["blue"], "I": cfg["indep"]},
             "win_prob": {"B": float((x > 0.5).mean()), "I": float((x <= 0.5).mean())},
             "kmt_vs_top_indep": {"p10_p50_p90": [float(np.percentile(x, k)) for k in (10, 50, 90)]},
-            "n_polls": 0, "note": "No DPP contest; no published polls found. Prior only.",
+            "n_polls": len(np_polls), "note": note,
+            "polls": [{k: p[k] for k in ("pollster", "sponsor_lean", "kind", "field_end", "n", "green",
+                                         "blue", "third", "undecided", "source", "notes")} for p in np_polls],
         }
 
     g_seats = (winners == "G").sum(axis=1)

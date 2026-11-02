@@ -125,6 +125,10 @@ tr.detail > td{background:#fafafa;padding:20px 30px !important}
 .ptable td,.ptable th{padding:4px 8px;font-size:16px;text-align:right}
 .ptable td:nth-child(2),.ptable th:nth-child(2),.ptable td:first-child,.ptable th:first-child{text-align:left}
 .ptable *{font-size:16px}
+.ptable td.ctr,.ptable th.ctr{text-align:center !important;padding:4px 10px}
+.ptable th .sub{display:block;font-size:13px;font-weight:400;color:var(--mut)}
+.ptable td.lead{font-weight:600;white-space:nowrap}
+.ptable td.ctr.c-dpp,.ptable td.ctr.c-kmt,.ptable td.ctr.c-tpp,.ptable td.ctr.c-ind{font-weight:600}
 .tag{font-size:13px;border:1px solid #bbb;color:var(--mut);padding:0 5px;margin-left:4px;white-space:nowrap}
 .cap{font-size:16px;color:var(--mut);margin-bottom:4px}
 
@@ -303,8 +307,8 @@ function render(F){
 
 function seatTable(F){
   const n = 22, W = 250;
-  const rows = PARTIES.map(k => ({k, s: F.party_seats[k.toUpperCase()], prev: F.party_seats_2022[k.toUpperCase()]}))
-    .sort((a, b) => b.s.mean - a.s.mean);
+  const mk = k => ({k, s: F.party_seats[k.toUpperCase()], prev: F.party_seats_2022[k.toUpperCase()]});
+  const rows = [mk("kmt"), mk("dpp")].sort((a, b) => b.s.mean - a.s.mean).concat([mk("tpp"), mk("ind")]);
   document.getElementById("seat-table").innerHTML =
     `<tr class="header-row"><th colspan="2">Party</th><th colspan="2">Projected seats</th><th class="num hide-s">80% range</th><th class="num hide-s">2022</th></tr>` +
     rows.map(({k, s, prev}) => `<tr>
@@ -407,6 +411,8 @@ function drawMap(F, M){
 }
 
 let openRace = () => {};
+// column for a candidate: the camp slot for the two main candidates, own party otherwise
+const column = c => c.slot === "G" ? "dpp" : c.slot === "B" ? "kmt" : c.party;
 function raceTable(F){
   const rows = GEO.filter(iso => F.races[iso]).map((iso, gi) => {
     const r = F.races[iso], cs = cands(r);
@@ -428,7 +434,7 @@ function raceTable(F){
     else rs.sort((a, b) => (b.pG - a.pG) || (a.pB - b.pB) || (a.gi - b.gi));
     tb.innerHTML = rs.map(x => `<tr class="race" data-iso="${x.iso}" tabindex="0" aria-expanded="false">
         <td class="district">${esc(x.r.name_en)}<span class="zh-tw">${esc(x.r.name_zh)}</span>${ratingBadge(x.r)}${x.flip ? `<span class="flip">Flip from <b class="c-${x.flip}">${PARTY[x.flip].short}</b></span>` : ""}</td>
-        ${PARTIES.map(p => cell(x.cs.filter(c => c.party === p))).join("")}</tr>`).join("")
+        ${PARTIES.map(p => cell(x.cs.filter(c => column(c) === p))).join("")}</tr>`).join("")
       || `<tr><td colspan="5" class="muted" style="text-align:center">No races in this group.</td></tr>`;
     tb.querySelectorAll("tr.race").forEach(tr => {
       const tog = () => toggle(tr);
@@ -459,23 +465,41 @@ function raceTable(F){
 }
 
 function detail(r){
+  const cs = cands(r);
+  const slots = cs.map(c => c.slot);                     // e.g. ["G","B","T"] or ["B","I"]
+  const field = {G: "green", B: "blue", T: "third", I: "third"};
+  const colHead = c => `<span class="c-${c.party}" title="${esc(c.name)}">${PARTY[c.party].short}</span><span class="sub">${esc(c.name.split(" ")[0])}</span>`;
+  const polls = (r.polls || []).slice().sort((a, b) => b.field_end.localeCompare(a.field_end)).map(p => {
+    const vals = cs.map(c => ({c, v: parseFloat(p[field[c.slot]])})).filter(o => !isNaN(o.v));
+    const top = vals.slice().sort((a, b) => b.v - a.v);
+    const lead = top.length > 1 ? `<span class="c-${top[0].c.party}">${PARTY[top[0].c.party].short} +${(top[0].v - top[1].v).toFixed(1)}</span>` : "";
+    return `<tr><td>${esc(p.field_end)}</td>
+      <td>${esc(p.pollster)}${p.sponsor_lean !== "N" ? ` <span class="tag">${p.sponsor_lean === "G" ? "DPP-aligned" : "KMT-aligned"}</span>` : ""}</td>
+      ${cs.map(c => `<td class="ctr c-${c.party}">${esc(p[field[c.slot]] || "")}</td>`).join("")}
+      <td class="ctr">${esc(p.undecided || "")}</td><td class="ctr lead">${lead}</td></tr>`;
+  }).join("");
+  const pollTable = `<div class="cap">Polls used</div>
+    <table class="ptable"><tr class="header-row"><th>End date</th><th>Pollster</th>${cs.map(c => `<th class="ctr">${colHead(c)}</th>`).join("")}<th class="ctr">Und.</th><th class="ctr">Lead</th></tr>
+    ${polls || `<tr><td colspan="${cs.length + 4}">No published polls; fundamentals only.</td></tr>`}</table>`;
+
+  // incumbency, named by the incumbent's party
+  const incC = r.incumbent === "G" ? cs.find(c => c.slot === "G") : r.incumbent === "B" ? cs.find(c => c.slot === "B") : null;
+  const inc = incC ? `<span class="c-${incC.party}">${PARTY[incC.party].name} incumbent</span>` : "Open seat";
+
   if (r.nonpartisan){
     const q = r.kmt_vs_top_indep.p10_p50_p90;
-    return `<div class="kv" style="max-width:640px"><div><span>KMT share vs. strongest independent (median)</span><b>${pct1(q[1])}</b></div>
-      <div><span>80% interval</span><b>${pct1(q[0])} – ${pct1(q[2])}</b></div></div><p class="cap" style="margin-top:10px">${esc(r.note)}</p>`;
+    return `<div class="dgrid"><div class="kv">
+      <div><span>Projected share, ${esc(r.candidates.B[0])} vs. ${esc(r.candidates.I[0])}</span><b>${pct1(q[1])}</b></div>
+      <div><span>80% interval</span><b>${pct1(q[0])} – ${pct1(q[2])}</b></div>
+      <div><span>Incumbency</span><b>${inc}</b></div></div>
+      <div>${pollTable}<p class="cap" style="margin-top:10px">${esc(r.note)}</p></div></div>`;
   }
   const f = r.features, q = r.two_camp_green.p10_p50_p90, vs = r.vote_share;
   const leanTxt = v => { const pts = (Math.abs(v) * 25).toFixed(1); return v >= 0 ? `<span class="c-dpp">DPP +${pts}</span>` : `<span class="c-kmt">KMT +${pts}</span>`; };
-  const inc = {"G": "DPP incumbent", "B": "KMT-camp incumbent", "0": "Open seat"}[r.incumbent];
   const share = k => vs[k] ? `${pct1(vs[k][1])} <span class="muted" style="font-weight:400;font-size:15px">(${pct1(vs[k][0])}–${pct1(vs[k][2])})</span>` : "";
-  const polls = r.polls.slice().sort((a, b) => b.field_end.localeCompare(a.field_end)).map(p => `<tr>
-     <td>${esc(p.field_end)}</td><td>${p.source ? `<a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.pollster)}</a>` : esc(p.pollster)}${p.sponsor_lean !== "N" ? ` <span class="tag">${p.sponsor_lean === "G" ? "DPP-aligned" : "KMT-aligned"}</span>` : ""}</td>
-     <td>${esc(p.green)}</td><td>${esc(p.blue)}</td><td>${esc(p.third || "")}</td><td>${esc(p.undecided || "")}</td></tr>`).join("");
   return `<div class="dgrid">
     <div class="kv">
-      <div><span>Projected vote share, ${esc(r.candidates.G[0])}</span><b>${share("G")}</b></div>
-      <div><span>Projected vote share, ${esc(r.candidates.B[0])}</span><b>${share("B")}</b></div>
-      ${vs.T ? `<div><span>Projected vote share, ${esc(r.candidates.T[0])}</span><b>${share("T")}</b></div>` : ""}
+      ${cs.map(c => `<div><span>Projected vote share, ${esc(c.name)}</span><b>${share(c.slot)}</b></div>`).join("")}
       <div><span>DPP two-candidate share, 80% interval</span><b>${pct1(q[0])} – ${pct1(q[2])}</b></div>
       <div><span>Fundamentals-only estimate</span><b>${pct1(r.fundamentals_only_green)}</b></div>
       <div><span>House-adjusted poll average</span><b>${r.poll_avg_green == null ? "—" : pct1(r.poll_avg_green)}</b></div>
@@ -485,10 +509,7 @@ function detail(r){
       <div><span>2022 mayoral result vs. national</span><b>${leanTxt(f.prev)}</b></div>
       <div><span>Incumbency</span><b>${inc}</b></div>
     </div>
-    <div>
-      <div class="cap">Polls used (DPP / main opponent / third / undecided, %)</div>
-      <table class="ptable"><tr class="header-row"><th>End date</th><th>Pollster</th><th>DPP</th><th>Opp.</th><th>3rd</th><th>Und.</th></tr>${polls || '<tr><td colspan="6">No published polls; fundamentals only.</td></tr>'}</table>
-    </div></div>`;
+    <div>${pollTable}</div></div>`;
 }
 </script>
 </body>
