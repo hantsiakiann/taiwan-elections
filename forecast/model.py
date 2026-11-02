@@ -226,6 +226,26 @@ def main(as_of=None):
     o_seats = len(order) - g_seats - b_seats
     muni = [order.index(r) for r in order if races["races"][r]["tier"] == "municipality"]
     gm = (winners[:, muni] == "G").sum(axis=1)
+    # party-level seats: map each race's winning slot to its candidate's party
+    def party_of(label):
+        for k in ("DPP", "KMT", "TPP"):
+            if label.startswith(k):
+                return k
+        return "IND"
+    slot_party = np.empty_like(winners)
+    for j, r in enumerate(order):
+        cfg = races["races"][r]
+        lab = {"G": cfg.get("green", [None, None, "DPP"])[2], "B": cfg["blue"][2],
+               "T": cfg.get("third", [None, None, "IND"])[2], "I": "IND"}
+        col = winners[:, j]
+        slot_party[:, j] = np.vectorize(lambda s: party_of(lab[s]))(col)
+    party_seats = {}
+    for k in ("DPP", "KMT", "TPP", "IND"):
+        sc = (slot_party == k).sum(axis=1)
+        party_seats[k] = {"mean": float(sc.mean()), "hist": np.bincount(sc, minlength=23).tolist(),
+                          "p10_p90": [int(np.percentile(sc, 10)), int(np.percentile(sc, 90))]}
+    out["party_seats"] = party_seats
+    out["party_seats_2022"] = {"DPP": 5, "KMT": 14, "TPP": 1, "IND": 2}
     out["seats"] = {
         "green_hist": np.bincount(g_seats, minlength=23).tolist(),
         "blue_hist": np.bincount(b_seats, minlength=23).tolist(),
@@ -264,6 +284,7 @@ def main(as_of=None):
                      f"  w_polls {d['poll_weight']:.2f} (n={d['n_polls']})")
         print(f"{r} {d['name_en']:15s} {wp:28s}{extra}")
     s = out["seats"]
+    print("party seats:", {k: (round(v["mean"], 2), v["p10_p90"]) for k, v in party_seats.items()})
     print(f"seats: DPP mean {s['green_mean']:.1f} {s['green_p10_p90']}  KMT-camp {s['blue_mean']:.1f} {s['blue_p10_p90']}  P(DPP>KMT) {s['p_green_more']:.2f}")
 
 
