@@ -16,8 +16,9 @@ Model (logit scale, x = green share of the two-camp vote):
   h_G/h_B  house effect of DPP- / KMT-aligned sponsors
                                       priors N(+.15,.10^2) / N(-.15,.10^2);
                                       media/academic polls are the reference
-  b        polling miss shared by all polls          prior N(0, .08^2)
-  c_r      polling miss shared by the polls in race r prior N(0, .12^2)
+  b        polling miss shared by all polls          prior N(0, .11^2)
+  c_r      polling miss shared by the polls in race r prior N(0, .22^2)
+           (both calibrated on the 2014, 2018 and 2022 backtest; see backtest/)
            (undecided allocation, turnout, local frame problems: averaging
            more polls of the same race cannot shrink this)
   undecided  each poll's undecided respondents are allocated as if they break
@@ -27,7 +28,7 @@ Model (logit scale, x = green share of the two-camp vote):
            keeps low-name-recognition candidates in a poll with many
            undecideds from being written off.
   e_i      poll error: sampling (design effect 1.5, decided respondents only)
-           + non-sampling (.10; .30 for party-camp questions; +.10 online
+           + non-sampling (.15; .30 for party-camp questions; +.10 online
            opt-in) + drift from fieldwork to today (.020^2 per day; Taipei moved
            ~.8 logit May-Oct 2026, so campaign drift is large)
   nu_r     drift from today to election day, N(0, .020^2 * days)
@@ -70,11 +71,11 @@ SEED = 2026
 ELECTION = dt.date(2026, 11, 28)
 NAT_PRIOR = (math.log(0.46 / 0.54), 0.20)
 HOUSE_PRIOR = {"G": (0.15, 0.10), "B": (-0.15, 0.10)}
-MISS_SD = 0.08
+MISS_SD = 0.11    # calibrated: shared miss was -2.9, +2.0, +2.9 pts in 2014, 2018, 2022
 MISS_MEAN = 0.0   # prior mean of the shared polling miss (logit; + = polls overstate the DPP)
-RACE_MISS_SD = 0.12
+RACE_MISS_SD = 0.22   # calibrated: polls of the same race missed together by ~6.5 pts (2014-2022)
 DEFF = 1.5
-NONSAMPLE = {"candidate": 0.10, "camp": 0.30}
+NONSAMPLE = {"candidate": 0.15, "camp": 0.30}   # calibrated: within-race poll scatter ~4 pts
 ONLINE_EXTRA = 0.10
 DRIFT_PER_DAY = 0.020
 THIRD_SD = 0.40  # logit SD on a third candidate's share
