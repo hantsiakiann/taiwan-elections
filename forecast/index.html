@@ -435,6 +435,8 @@ function raceTable(F){
     const pG = r.win_prob.G ?? 0, pB = r.win_prob.B ?? 0;
     return {iso, r, cs, gi, fav, pG, pB, flip: fav.p > 0.5 && fav.party !== HOLDER[iso] ? HOLDER[iso] : null};
   });
+  // only the columns some race actually uses (TPP's one nominee runs as KMT-backed, so no TPP column)
+  const COLS = PARTIES.filter(p => rows.some(x => x.cs.some(c => column(c) === p)));
   let filt = "all", sort = "geo";
   const tb = document.querySelector("#races tbody");
   function cell(list){
@@ -449,8 +451,8 @@ function raceTable(F){
     else rs.sort((a, b) => (b.pG - a.pG) || (a.pB - b.pB) || (a.gi - b.gi));
     tb.innerHTML = rs.map(x => `<tr class="race" data-iso="${x.iso}" tabindex="0" aria-expanded="false">
         <td class="district">${esc(x.r.name_en)}<span class="zh-tw">${esc(x.r.name_zh)}</span>${ratingBadge(x.r)}${x.flip ? `<span class="flip">Flip from <b class="c-${x.flip}">${PARTY[x.flip].short}</b></span>` : ""}</td>
-        ${PARTIES.map(p => cell(x.cs.filter(c => column(c) === p))).join("")}</tr>`).join("")
-      || `<tr><td colspan="5" class="muted" style="text-align:center">No races in this group.</td></tr>`;
+        ${COLS.map(p => cell(x.cs.filter(c => column(c) === p))).join("")}</tr>`).join("")
+      || `<tr><td colspan="${COLS.length + 1}" class="muted" style="text-align:center">No races in this group.</td></tr>`;
     tb.querySelectorAll("tr.race").forEach(tr => {
       const tog = () => toggle(tr);
       tr.addEventListener("click", tog);
@@ -462,7 +464,7 @@ function raceTable(F){
     if (next && next.classList.contains("detail")){ if (forceOpen) return; next.remove(); tr.setAttribute("aria-expanded", "false"); return; }
     tr.setAttribute("aria-expanded", "true");
     const d = document.createElement("tr"); d.className = "detail";
-    d.innerHTML = `<td colspan="5">${detail(F.races[tr.dataset.iso])}</td>`;
+    d.innerHTML = `<td colspan="${COLS.length + 1}">${detail(F.races[tr.dataset.iso])}</td>`;
     tr.after(d);
   }
   openRace = iso => {
