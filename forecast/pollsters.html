@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan Pollster Ratings</title>
+<meta name="description" content="How accurate Taiwan's pollsters have been in mayoral and presidential elections, 2012-2024.">
+<link rel="icon" href="https://hantsiakiann.github.io/img/vote.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{--dpp:#1B9431;--kmt:#000099;--tpp:#28C7C7;--hover:#F0F0F0;--mut:#666666}
+*{font-size:20px}
+body{margin:0;background:#fff;color:#000;font-family:"Titillium Web","Noto Sans TC",sans-serif}
+.zh-tw{font-family:"Noto Sans TC",sans-serif}
+a{color:#0645ad}
+.navbar ul{position:fixed;top:0;left:0;width:100%;z-index:999;list-style:none;margin:0;padding:0;background:#fff;box-shadow:0 0 10px 0 rgba(0,0,0,.2)}
+.navbar ul li{float:left}
+.navbar ul li a{display:block;color:#000;text-align:center;padding:18px 20px;text-decoration:none;font-size:18px}
+.navbar ul li a:hover{background:var(--hover)}
+#nav-title a{font-weight:700}
+.navbar .right{float:right}
+#main{margin-top:100px}
+section{scroll-margin-top:75px}
+h1{font-size:54px;text-align:center;margin:.6em 16px .2em}
+h2{font-size:40px;padding-left:30px;margin:1.6em 0 .6em}
+.subtitle{text-align:center;color:var(--mut);font-size:18px;margin:0 16px}
+.lede{max-width:900px;margin:18px auto 0;padding:0 16px;text-align:center;color:#333;font-size:18px}
+table{margin-left:auto;margin-right:auto;border-spacing:0}
+tr:hover{background:var(--hover)}
+.header-row:hover{background:transparent}
+th{padding:10px;font-size:18px}
+td{padding:10px 14px;vertical-align:middle}
+.c-dpp{color:var(--dpp)} .c-kmt{color:var(--kmt)} .c-mut{color:var(--mut)}
+.filters{text-align:center;margin:0 16px 14px}
+.filters button{font-family:inherit;font-size:18px;border:1px solid #ccc;background:#fff;color:#000;padding:6px 16px;margin:4px;cursor:pointer}
+.filters button:hover{background:var(--hover)}
+.filters button[aria-pressed="true"]{background:#000;color:#fff;border-color:#000}
+.scroll{overflow-x:auto;padding:0 16px}
+#ratings td.name{font-weight:600;white-space:nowrap}
+#ratings td.name .tag{font-size:13px;font-weight:400;border:1px solid #bbb;color:var(--mut);padding:0 5px;margin-left:6px}
+#ratings td.num,#ratings th.num{text-align:center;white-space:nowrap}
+#ratings .grade{display:inline-block;width:40px;height:40px;line-height:40px;text-align:center;font-weight:700;color:#fff}
+.g-A{background:#222}.g-B{background:#555}.g-C{background:#888}.g-D{background:#aaa}.g-F{background:#c8c8c8;color:#000 !important}
+.g-none{background:transparent;color:var(--mut) !important;font-weight:400 !important}
+#ratings .sub{display:block;font-size:14px;color:var(--mut)}
+#ratings .grp{border-bottom:2px solid #ddd}
+#ratings th.span{text-align:center;border-bottom:1px solid #ddd}
+.field td,.field th{text-align:center}
+.notes{padding:0 30px;max-width:1100px}
+.notes li,.notes p{font-size:18px;margin:.4em 0}
+footer{padding:40px 30px;color:var(--mut)}
+footer *{font-size:16px}
+@media screen and (max-width:760px){
+  *{font-size:16px}
+  h1{font-size:34px} h2{font-size:28px;padding-left:16px}
+  .navbar ul li.opt{display:none}
+  .navbar ul li a{padding:16px 12px;font-size:16px}
+  td{padding:8px 8px}
+  .notes{padding:0 16px}
+}
+</style>
+</head>
+<body class="en">
+<div class="navbar"><ul>
+  <li id="nav-title"><a href="index.html">2026 Local Election Forecast</a></li>
+  <li class="opt"><a href="index.html#races-sec">Races</a></li>
+  <li><a href="pollsters.html">Pollster Ratings</a></li>
+  <li class="right opt"><a href="https://hantsiakiann.github.io/">2024 Predictions</a></li>
+</ul></div>
+
+<div id="main">
+  <h1>Pollster Ratings</h1>
+  <p class="subtitle">Updated November 2, 2026</p>
+  <p class="lede">How close each pollster's final-weeks polls came to the result in the 2014, 2018 and 2022 mayor and magistrate races and the 2012–2024 presidential elections, compared with other pollsters covering the same race.</p>
+
+  <section id="table">
+    <h2>Ratings</h2>
+    <div class="filters" role="group" aria-label="Filter pollsters">
+      <button data-f="graded" aria-pressed="true">Graded</button>
+      <button data-f="2026" aria-pressed="false">Polling in 2026</button>
+      <button data-f="all" aria-pressed="false">All</button>
+    </div>
+    <div class="scroll">
+    <table id="ratings">
+      <thead>
+      <tr class="header-row"><th rowspan="2" style="text-align:left">Pollster</th><th rowspan="2" class="num">Grade</th><th rowspan="2" class="num">Rated<br>polls</th><th rowspan="2" class="num">Lean</th>
+        <th colspan="2" class="span">Mayoral races</th><th colspan="2" class="span">Presidential races</th><th rowspan="2" class="num">2026<br>polls</th></tr>
+      <tr class="header-row"><th class="num">Avg. miss</th><th class="num">vs. rivals</th><th class="num">Avg. margin miss</th><th class="num">vs. rivals</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    </div>
+  </section>
+
+  <section id="field">
+    <h2>How the Field Did</h2>
+    <p class="lede" style="margin-top:0;margin-bottom:16px">The miss shared by all pollsters in each election. Positive numbers mean polls overstated the DPP.</p>
+    <div class="scroll"><table class="field" id="fieldtab"></table></div>
+  </section>
+
+  <section id="about">
+    <h2>About the Ratings</h2>
+    <div class="notes"><ul>
+      <li><b>Polls rated:</b> final-matchup polls fielded in the last 45 days before mayoral elections and the last 50 days before presidential elections, as listed on Chinese Wikipedia's election pages.</li>
+      <li><b>Avg. miss:</b> in mayoral races, the average gap in points between the poll and the result on the DPP's share of the two main candidates' vote, with undecided respondents allocated by the county's partisan lean. In presidential races, the gap on the DPP–KMT margin, with undecided respondents split evenly between the two main candidates.</li>
+      <li><b>vs. rivals:</b> how much closer (negative) or farther (positive) a pollster was than the other polls of the same race. This separates a pollster's own accuracy from years when every pollster missed together, as in 2020.</li>
+      <li><b>Lean:</b> a pollster's average tilt relative to other polls of the same mayoral race, after shrinking small samples toward zero.</li>
+      <li><b>Grade:</b> A–F by combined "vs. rivals" score across both kinds of races, for pollsters with at least <span id="minp"></span> rated polls. Others show history without a grade.</li>
+      <li><b>Sponsors:</b> polls commissioned by a party or campaign are labeled. Names are combined where the same operation publishes under several (for example ET東森 and ETtoday; 震撼世代傳媒 and 震傳媒; 鉅聞天下 and 皮爾森數據).</li>
+      <li><b>Limits:</b> many pollsters have only a few rated polls, and methodology (landline vs. mobile, online panels) is not graded because it is rarely documented.</li>
+    </ul></div>
+  </section>
+  <footer>Ratings computed from Central Election Commission results and Wikipedia's poll listings.</footer>
+</div>
+
+<script>
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const sgn = (x, d = 1) => (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x).toFixed(d);
+const lean = x => x == null ? '<span class="c-mut">—</span>' : Math.abs(x) < 0.5 ? '<span class="c-mut">Even</span>'
+  : x > 0 ? `<span class="c-dpp">DPP +${x.toFixed(1)}</span>` : `<span class="c-kmt">KMT +${(-x).toFixed(1)}</span>`;
+const signed = x => x == null ? "—" : x > 0.05 ? `<span class="c-dpp">${sgn(x)}</span>` : x < -0.05 ? `<span class="c-kmt">${sgn(x)}</span>` : "0.0";
+const rel = x => x == null ? "—" : `${sgn(x)}`;
+
+fetch("pollster_page.json").then(r => r.json()).then(D => {
+  document.getElementById("minp").textContent = D.min_polls;
+  let filt = "graded";
+  const tb = document.querySelector("#ratings tbody");
+  function draw(){
+    const rows = D.pollsters.filter(r => filt === "all" ? r.n_rated > 0 || r.polls_2026 > 0 : filt === "graded" ? r.grade : r.polls_2026 > 0);
+    tb.innerHTML = rows.map(r => {
+      const L = r.local, P = r.pres;
+      const tag = r.sponsor === "G" ? '<span class="tag">DPP-aligned</span>' : r.sponsor === "B" ? '<span class="tag">KMT-aligned</span>' : "";
+      const pyears = P ? Object.entries(P.by_year).map(([y, e]) => `${y} ${sgn(e)}`).join(" · ") : "";
+      return `<tr>
+        <td class="name"><span class="zh-tw">${esc(r.name)}</span>${tag}<span class="sub">${esc(r.elections.join(", ")) || "no rated history"}</span></td>
+        <td class="num"><span class="grade ${r.grade ? "g-" + r.grade : "g-none"}">${r.grade || "–"}</span></td>
+        <td class="num">${r.n_rated || "—"}</td>
+        <td class="num">${lean(L ? L.house_pts : null)}</td>
+        <td class="num">${L ? L.abs_err_pts.toFixed(1) : "—"}${L ? `<span class="sub">${L.polls} polls</span>` : ""}</td>
+        <td class="num">${L ? rel(L.vs_rivals_pts) : "—"}</td>
+        <td class="num">${P ? signed(P.margin_err) : "—"}${P ? `<span class="sub">${pyears}</span>` : ""}</td>
+        <td class="num">${P ? rel(P.vs_rivals) : "—"}</td>
+        <td class="num">${r.polls_2026 || "—"}</td></tr>`;
+    }).join("");
+  }
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".filters button").forEach(o => o.setAttribute("aria-pressed", o === b));
+    filt = b.dataset.f; draw();
+  }));
+  draw();
+
+  const L = D.field_local, P = D.field_pres;
+  const cell = x => `<td>${signed(x)}</td>`;
+  document.getElementById("fieldtab").innerHTML =
+    `<tr class="header-row"><th></th>${Object.keys(P).map(y => `<th>${y}</th>`).join("")}${Object.keys(L).map(y => `<th>${y}</th>`).join("")}</tr>
+     <tr><td style="text-align:left"><b>Presidential</b><span style="display:block;font-size:14px;color:#666">DPP–KMT margin</span></td>${Object.values(P).map(cell).join("")}${Object.keys(L).map(() => "<td></td>").join("")}</tr>
+     <tr><td style="text-align:left"><b>Mayoral</b><span style="display:block;font-size:14px;color:#666">DPP two-candidate share</span></td>${Object.keys(P).map(() => "<td></td>").join("")}${Object.values(L).map(cell).join("")}</tr>`;
+});
+</script>
+</body>
+</html>

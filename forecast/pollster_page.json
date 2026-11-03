@@ -1,0 +1,1632 @@
+{
+ "min_polls": 8,
+ "field_local": {
+  "2014": -2.644752107946081,
+  "2018": 2.53817796607035,
+  "2022": 2.401761492809636
+ },
+ "field_pres": {
+  "2012": 1.1762499999999994,
+  "2016": -1.7861702127659485,
+  "2020": 9.139999999999995,
+  "2024": -1.1813846153846101
+ },
+ "pollsters": [
+  {
+   "name": "世新大學",
+   "n_rated": 13,
+   "score": -1.0622787250875798,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2014",
+    "2016",
+    "2018"
+   ],
+   "local": {
+    "polls": 10,
+    "house_pts": -0.7436402227788534,
+    "abs_err_pts": 2.8803153492086446,
+    "vs_rivals_pts": -1.2855887657752272,
+    "years": [
+     "2014",
+     "2018"
+    ]
+   },
+   "pres": {
+    "polls": 4,
+    "margin_err": -1.1424999999999894,
+    "abs_margin_err": 1.9874999999999954,
+    "vs_rivals": -1.1196622670807463,
+    "by_year": {
+     "2012": 0.6700000000000017,
+     "2016": -1.746666666666653
+    }
+   },
+   "grade": "A"
+  },
+  {
+   "name": "ETtoday",
+   "n_rated": 21,
+   "score": -1.0221458531712484,
+   "polls_2026": 11,
+   "sponsor": "N",
+   "elections": [
+    "2018",
+    "2020",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 9,
+    "house_pts": -1.5122177905043985,
+    "abs_err_pts": 2.591361455521139,
+    "vs_rivals_pts": -2.404997645895856,
+    "years": [
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 14,
+    "margin_err": -3.0442857142857105,
+    "abs_margin_err": 3.8099999999999943,
+    "vs_rivals": -0.6614399136178892,
+    "by_year": {
+     "2020": 0.31333333333332786,
+     "2024": -3.9599999999999937
+    }
+   },
+   "grade": "A"
+  },
+  {
+   "name": "壹電視",
+   "n_rated": 10,
+   "score": -0.7423530772537746,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2014",
+    "2016"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 0.5143222293496558,
+    "abs_err_pts": 0.8853681509769742,
+    "vs_rivals_pts": -0.31980886452975277,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": {
+    "polls": 8,
+    "margin_err": 1.5325000000000055,
+    "abs_margin_err": 2.3725000000000027,
+    "vs_rivals": -1.6959782608695602,
+    "by_year": {
+     "2016": 1.5325000000000055
+    }
+   },
+   "grade": "A"
+  },
+  {
+   "name": "TVBS",
+   "n_rated": 46,
+   "score": -0.5003642249199115,
+   "polls_2026": 13,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 22,
+    "house_pts": -0.8057207276705574,
+    "abs_err_pts": 3.5052446718959795,
+    "vs_rivals_pts": -0.5593503386761252,
+    "years": [
+     "2014",
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 26,
+    "margin_err": -1.894999999999998,
+    "abs_margin_err": 3.2673076923076887,
+    "vs_rivals": -0.9099805825225713,
+    "by_year": {
+     "2012": 1.1922222222222212,
+     "2016": -5.222857142857135,
+     "2020": -0.5200000000000049,
+     "2024": -3.559999999999995
+    }
+   },
+   "grade": "B"
+  },
+  {
+   "name": "民進黨",
+   "n_rated": 13,
+   "score": -0.49966344675998314,
+   "polls_2026": 5,
+   "sponsor": "G",
+   "elections": [
+    "2014",
+    "2016",
+    "2018",
+    "2022"
+   ],
+   "local": {
+    "polls": 15,
+    "house_pts": 2.0480725526311994,
+    "abs_err_pts": 5.04421818819136,
+    "vs_rivals_pts": -0.5005828644247643,
+    "years": [
+     "2014",
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 1,
+    "margin_err": -0.07999999999998408,
+    "abs_margin_err": 0.07999999999998408,
+    "vs_rivals": -0.9772608695652197,
+    "by_year": {
+     "2016": -0.07999999999998408
+    }
+   },
+   "grade": "B"
+  },
+  {
+   "name": "民眾黨",
+   "n_rated": 8,
+   "score": -0.26414062499999996,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 8,
+    "margin_err": 0.21500000000000696,
+    "abs_margin_err": 2.474999999999998,
+    "vs_rivals": -0.5282812499999999,
+    "by_year": {
+     "2024": 0.21500000000000696
+    }
+   },
+   "grade": "B"
+  },
+  {
+   "name": "趨勢",
+   "n_rated": 22,
+   "score": -0.21233154753810757,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [
+    "2014",
+    "2016"
+   ],
+   "local": {
+    "polls": 17,
+    "house_pts": 0.5975377581771133,
+    "abs_err_pts": 4.375730537420331,
+    "vs_rivals_pts": -0.11231041986034175,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": {
+    "polls": 5,
+    "margin_err": 2.3000000000000043,
+    "abs_margin_err": 2.915999999999998,
+    "vs_rivals": -1.1048067632850227,
+    "by_year": {
+     "2016": 2.3000000000000043
+    }
+   },
+   "grade": "C"
+  },
+  {
+   "name": "中時",
+   "n_rated": 42,
+   "score": -0.023684279647632655,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2014",
+    "2018",
+    "2024"
+   ],
+   "local": {
+    "polls": 13,
+    "house_pts": -0.6083249273010535,
+    "abs_err_pts": 5.586174681959118,
+    "vs_rivals_pts": 0.29429466679376426,
+    "years": [
+     "2014",
+     "2018"
+    ]
+   },
+   "pres": {
+    "polls": 31,
+    "margin_err": 0.5551612903225809,
+    "abs_margin_err": 1.9067741935483862,
+    "vs_rivals": -0.27303103741496637,
+    "by_year": {
+     "2012": 0.9148275862068961,
+     "2024": -4.6599999999999895
+    }
+   },
+   "grade": "C"
+  },
+  {
+   "name": "匯流",
+   "n_rated": 8,
+   "score": 0.19032169740829216,
+   "polls_2026": 3,
+   "sponsor": "N",
+   "elections": [
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 3,
+    "house_pts": -0.3454124317797227,
+    "abs_err_pts": 10.492991089062881,
+    "vs_rivals_pts": 0.7497843643850728,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 5,
+    "margin_err": 2.7400000000000033,
+    "abs_margin_err": 2.7400000000000033,
+    "vs_rivals": -0.2907118055555524,
+    "by_year": {
+     "2024": 2.7400000000000033
+    }
+   },
+   "grade": "D"
+  },
+  {
+   "name": "山水",
+   "n_rated": 10,
+   "score": 0.44342058562555486,
+   "polls_2026": 9,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2016"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 10,
+    "margin_err": 0.030000000000000426,
+    "abs_margin_err": 3.8979999999999997,
+    "vs_rivals": 0.8868411712511097,
+    "by_year": {
+     "2012": 2.044999999999998,
+     "2016": -8.02999999999999
+    }
+   },
+   "grade": "D"
+  },
+  {
+   "name": "聯合報",
+   "n_rated": 38,
+   "score": 0.4953467427337778,
+   "polls_2026": 3,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 24,
+    "house_pts": -1.4213827559820467,
+    "abs_err_pts": 5.638111793027653,
+    "vs_rivals_pts": 0.9443150599266321,
+    "years": [
+     "2014",
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 14,
+    "margin_err": -0.6528571428571404,
+    "abs_margin_err": 3.349999999999998,
+    "vs_rivals": -0.5486264591936594,
+    "by_year": {
+     "2012": -1.1966666666666679,
+     "2016": -2.079999999999989,
+     "2020": 8.479999999999997,
+     "2024": -4.226666666666662
+    }
+   },
+   "grade": "D"
+  },
+  {
+   "name": "自由時報",
+   "n_rated": 17,
+   "score": 0.5317714078306783,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2014",
+    "2016",
+    "2020",
+    "2022"
+   ],
+   "local": {
+    "polls": 10,
+    "house_pts": 1.2792246358590793,
+    "abs_err_pts": 3.353044082156978,
+    "vs_rivals_pts": -0.21677162510103523,
+    "years": [
+     "2014",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 7,
+    "margin_err": 11.077142857142857,
+    "abs_margin_err": 11.077142857142857,
+    "vs_rivals": 3.2022371954662527,
+    "by_year": {
+     "2012": 4.989999999999995,
+     "2016": 8.175000000000004,
+     "2020": 17.069999999999997
+    }
+   },
+   "grade": "F"
+  },
+  {
+   "name": "蘋果",
+   "n_rated": 8,
+   "score": 0.6325573798189831,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2014",
+    "2018",
+    "2020"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 0.6685355830786079,
+    "abs_err_pts": 9.990771032250798,
+    "vs_rivals_pts": 0.23069801366888487,
+    "years": [
+     "2014",
+     "2018"
+    ]
+   },
+   "pres": {
+    "polls": 7,
+    "margin_err": 9.544285714285712,
+    "abs_margin_err": 10.735714285714284,
+    "vs_rivals": 1.379931721395137,
+    "by_year": {
+     "2012": -4.170000000000002,
+     "2020": 11.829999999999998
+    }
+   },
+   "grade": "F"
+  },
+  {
+   "name": "美麗島電子報",
+   "n_rated": 16,
+   "score": 0.9430889982306268,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [
+    "2018",
+    "2020",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 6,
+    "house_pts": -1.8060237495383542,
+    "abs_err_pts": 11.66188034482432,
+    "vs_rivals_pts": 2.423250485554609,
+    "years": [
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 10,
+    "margin_err": 5.436000000000003,
+    "abs_margin_err": 5.9799999999999995,
+    "vs_rivals": 0.10998421167247528,
+    "by_year": {
+     "2020": 10.629999999999999,
+     "2024": 1.9733333333333387
+    }
+   },
+   "grade": "F"
+  },
+  {
+   "name": "菱傳媒",
+   "n_rated": 6,
+   "score": -1.113764243467976,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 7,
+    "house_pts": -0.9636429223617883,
+    "abs_err_pts": 3.757244974880259,
+    "vs_rivals_pts": -1.649467979785297,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": 0.5050000000000026,
+    "abs_margin_err": 3.0049999999999955,
+    "vs_rivals": -0.08471354166666747,
+    "by_year": {
+     "2024": 0.5050000000000026
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "游錫堃團隊",
+   "n_rated": 1,
+   "score": -0.9213333048514301,
+   "polls_2026": 0,
+   "sponsor": "G",
+   "elections": [
+    "2014"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.9213333048514301,
+    "abs_err_pts": 2.1635971178166793,
+    "vs_rivals_pts": -0.9213333048514301,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "放言",
+   "n_rated": 2,
+   "score": -0.8734959349593499,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 2,
+    "margin_err": 4.579999999999995,
+    "abs_margin_err": 4.579999999999995,
+    "vs_rivals": -1.7469918699186997,
+    "by_year": {
+     "2020": 4.579999999999995
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "品觀點",
+   "n_rated": 1,
+   "score": -0.8682926829268276,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": -1.220000000000013,
+    "abs_margin_err": 1.220000000000013,
+    "vs_rivals": -1.7365853658536552,
+    "by_year": {
+     "2020": -1.220000000000013
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "周刊王",
+   "n_rated": 1,
+   "score": -0.5998614473009287,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 1.7144269875902796,
+    "abs_err_pts": 4.288280841284823,
+    "vs_rivals_pts": -0.5998614473009287,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "全國公信力",
+   "n_rated": 4,
+   "score": -0.5855277045610882,
+   "polls_2026": 3,
+   "sponsor": "N",
+   "elections": [
+    "2018"
+   ],
+   "local": {
+    "polls": 5,
+    "house_pts": -1.2832822254364564,
+    "abs_err_pts": 2.4311467060425107,
+    "vs_rivals_pts": -0.5855277045610882,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "典通",
+   "n_rated": 2,
+   "score": -0.40568840579710247,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2016"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 2,
+    "margin_err": -2.4799999999999898,
+    "abs_margin_err": 2.4799999999999898,
+    "vs_rivals": -0.8113768115942049,
+    "by_year": {
+     "2016": -2.4799999999999898
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "楊秋興團隊",
+   "n_rated": 1,
+   "score": -0.36436134112703145,
+   "polls_2026": 0,
+   "sponsor": "B",
+   "elections": [
+    "2014"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": -0.2115619622665921,
+    "abs_err_pts": 3.3446345860026843,
+    "vs_rivals_pts": -0.36436134112703145,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "展欣科技",
+   "n_rated": 3,
+   "score": -0.3640200100876309,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022"
+   ],
+   "local": {
+    "polls": 3,
+    "house_pts": -1.7540319764611174,
+    "abs_err_pts": 3.2326725728810732,
+    "vs_rivals_pts": -0.36402001008763085,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "艾普羅",
+   "n_rated": 5,
+   "score": -0.2926714477330855,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [
+    "2018",
+    "2022"
+   ],
+   "local": {
+    "polls": 5,
+    "house_pts": -0.49040712955706584,
+    "abs_err_pts": 2.859095950107483,
+    "vs_rivals_pts": -0.2926714477330855,
+    "years": [
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "年代",
+   "n_rated": 4,
+   "score": -0.20793280332602515,
+   "polls_2026": 6,
+   "sponsor": "N",
+   "elections": [
+    "2014",
+    "2016",
+    "2022"
+   ],
+   "local": {
+    "polls": 3,
+    "house_pts": -0.27911810221283556,
+    "abs_err_pts": 3.564016327000794,
+    "vs_rivals_pts": 0.06815613247838237,
+    "years": [
+     "2014",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": 2.0200000000000085,
+    "abs_margin_err": 2.0200000000000085,
+    "vs_rivals": -0.9680434782608653,
+    "by_year": {
+     "2016": 2.0200000000000085
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "鋒燦傳媒",
+   "n_rated": 2,
+   "score": -0.1870833333333332,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 2,
+    "margin_err": -0.20999999999999375,
+    "abs_margin_err": 2.1499999999999986,
+    "vs_rivals": -0.3741666666666664,
+    "by_year": {
+     "2024": -0.20999999999999375
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "大台中市政發展協會",
+   "n_rated": 1,
+   "score": -0.17556931808802417,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": -0.18013285863456394,
+    "abs_err_pts": 6.763318261693431,
+    "vs_rivals_pts": -0.17556931808802417,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "負數票協會",
+   "n_rated": 1,
+   "score": -0.17365280871013172,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": -0.06852585327011997,
+    "abs_err_pts": 3.115338423708446,
+    "vs_rivals_pts": -0.17365280871013172,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "北市教大",
+   "n_rated": 3,
+   "score": -0.14689342403628206,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 3,
+    "margin_err": -1.4633333333333287,
+    "abs_margin_err": 1.4633333333333287,
+    "vs_rivals": -0.2937868480725641,
+    "by_year": {
+     "2012": -1.4633333333333287
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "關鍵調查",
+   "n_rated": 1,
+   "score": -0.1335781249999986,
+   "polls_2026": 2,
+   "sponsor": "N",
+   "elections": [
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 1.940000000000012,
+    "abs_margin_err": 1.940000000000012,
+    "vs_rivals": -0.2671562499999972,
+    "by_year": {
+     "2024": 1.940000000000012
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "台灣基進",
+   "n_rated": 1,
+   "score": -0.09385365853658634,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 8.779999999999987,
+    "abs_margin_err": 8.779999999999987,
+    "vs_rivals": -0.18770731707317267,
+    "by_year": {
+     "2020": 8.779999999999987
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "畢肯",
+   "n_rated": 1,
+   "score": -0.09362214923339189,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2014"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.042686029520114015,
+    "abs_err_pts": 1.5030497982086928,
+    "vs_rivals_pts": -0.09362214923339189,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "觀察家",
+   "n_rated": 1,
+   "score": -0.04755555555555531,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 1.6700000000000017,
+    "abs_margin_err": 1.6700000000000017,
+    "vs_rivals": -0.09511111111111062,
+    "by_year": {
+     "2012": 1.6700000000000017
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "台灣制憲基金會",
+   "n_rated": 1,
+   "score": -0.04263414634146426,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 9.27999999999999,
+    "abs_margin_err": 9.27999999999999,
+    "vs_rivals": -0.08526829268292851,
+    "by_year": {
+     "2020": 9.27999999999999
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "柯文哲團隊",
+   "n_rated": 1,
+   "score": -0.03256541704923649,
+   "polls_2026": 0,
+   "sponsor": "G",
+   "elections": [
+    "2014"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": -0.1530738696244422,
+    "abs_err_pts": 1.8565005230998883,
+    "vs_rivals_pts": -0.03256541704923649,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "蓋洛普",
+   "n_rated": 4,
+   "score": -0.01861781856481977,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2016",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 0.191601797571538,
+    "abs_err_pts": 4.299122178726589,
+    "vs_rivals_pts": 0.007629625551517586,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": -2.6849999999999916,
+    "abs_margin_err": 3.8050000000000104,
+    "vs_rivals": -0.08973052536231425,
+    "by_year": {
+     "2016": 1.1200000000000188,
+     "2024": -6.490000000000002
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "榮泰創數據",
+   "n_rated": 1,
+   "score": 0.00048437499999929304,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": -3.259999999999991,
+    "abs_margin_err": 3.259999999999991,
+    "vs_rivals": 0.0009687499999985861,
+    "by_year": {
+     "2024": -3.259999999999991
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "台灣指標",
+   "n_rated": 5,
+   "score": 0.004016619205844618,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2014",
+    "2016"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 0.6986827424188057,
+    "abs_err_pts": 6.579396395627889,
+    "vs_rivals_pts": 0.6895368896295206,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": {
+    "polls": 3,
+    "margin_err": 0.4866666666666812,
+    "abs_margin_err": 2.7933333333333223,
+    "vs_rivals": -0.9059937888198788,
+    "by_year": {
+     "2016": 0.4866666666666812
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "寶島通訊",
+   "n_rated": 1,
+   "score": 0.04443902439024364,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 10.129999999999995,
+    "abs_margin_err": 10.129999999999995,
+    "vs_rivals": 0.08887804878048727,
+    "by_year": {
+     "2020": 10.129999999999995
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "台灣民意基金會",
+   "n_rated": 3,
+   "score": 0.07298821322038179,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.06863618351579115,
+    "abs_err_pts": 4.027465968334756,
+    "vs_rivals_pts": -0.03649077192422041,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": 4.859999999999998,
+    "abs_margin_err": 7.219999999999997,
+    "vs_rivals": 0.2554554115853658,
+    "by_year": {
+     "2020": 12.079999999999995,
+     "2024": -2.3599999999999994
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "鏡新聞",
+   "n_rated": 5,
+   "score": 0.08146701388889022,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 5,
+    "margin_err": 1.6400000000000035,
+    "abs_margin_err": 3.5440000000000027,
+    "vs_rivals": 0.16293402777778043,
+    "by_year": {
+     "2024": 1.6400000000000035
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "震傳媒",
+   "n_rated": 5,
+   "score": 0.10507621951219523,
+   "polls_2026": 2,
+   "sponsor": "N",
+   "elections": [
+    "2020",
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 5,
+    "margin_err": 4.203999999999999,
+    "abs_margin_err": 7.491999999999997,
+    "vs_rivals": 0.21015243902439049,
+    "by_year": {
+     "2020": 9.746666666666664,
+     "2024": -4.109999999999999
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "街頭有派對",
+   "n_rated": 1,
+   "score": 0.1111875000000011,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2024"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 4.3500000000000085,
+    "abs_margin_err": 4.3500000000000085,
+    "vs_rivals": 0.2223750000000022,
+    "by_year": {
+     "2024": 4.3500000000000085
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "QuickseeK",
+   "n_rated": 4,
+   "score": 0.24731200401718623,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 0.8318253467210583,
+    "abs_err_pts": 6.7319716654947666,
+    "vs_rivals_pts": 0.6478531747010382,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": 1.0900000000000052,
+    "abs_margin_err": 2.350000000000003,
+    "vs_rivals": -0.30645833333333156,
+    "by_year": {
+     "2024": 1.0900000000000052
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "國民黨",
+   "n_rated": 4,
+   "score": 0.2574332462338072,
+   "polls_2026": 0,
+   "sponsor": "B",
+   "elections": [
+    "2016",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": -0.3750285230123641,
+    "abs_err_pts": 2.145926960507761,
+    "vs_rivals_pts": -0.5590006950323844,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": -10.36999999999999,
+    "abs_margin_err": 10.36999999999999,
+    "vs_rivals": 2.1477343749999975,
+    "by_year": {
+     "2016": -15.779999999999987,
+     "2024": -4.959999999999994
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "信傳媒",
+   "n_rated": 4,
+   "score": 0.2687103507432364,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2018",
+    "2024"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 0.9948855747113078,
+    "abs_err_pts": 7.310594493150541,
+    "vs_rivals_pts": 0.8176029931531394,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": -1.3599999999999959,
+    "abs_margin_err": 1.5999999999999979,
+    "vs_rivals": -0.5603645833333333,
+    "by_year": {
+     "2024": -1.3599999999999959
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "決策",
+   "n_rated": 4,
+   "score": 0.2957166580400284,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012",
+    "2016"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 4,
+    "margin_err": 4.307500000000006,
+    "abs_margin_err": 5.3475,
+    "vs_rivals": 0.5914333160800568,
+    "by_year": {
+     "2012": 8.07,
+     "2016": 3.0533333333333417
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "中華亞太菁英交流協會",
+   "n_rated": 5,
+   "score": 0.42511640497185876,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 5,
+    "house_pts": 2.1159501348056526,
+    "abs_err_pts": 6.656427064097548,
+    "vs_rivals_pts": 0.5592040999648235,
+    "years": [
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 1,
+    "margin_err": -2.1599999999999966,
+    "abs_margin_err": 2.1599999999999966,
+    "vs_rivals": -0.22246875000000035,
+    "by_year": {
+     "2024": -2.1599999999999966
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "新台灣國策智庫",
+   "n_rated": 1,
+   "score": 0.45931707317073034,
+   "polls_2026": 6,
+   "sponsor": "G",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 1,
+    "margin_err": 14.179999999999986,
+    "abs_margin_err": 14.179999999999986,
+    "vs_rivals": 0.9186341463414607,
+    "by_year": {
+     "2020": 14.179999999999986
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "兩岸政策協會",
+   "n_rated": 3,
+   "score": 0.6037630662020895,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 3,
+    "margin_err": 12.446666666666658,
+    "abs_margin_err": 12.446666666666658,
+    "vs_rivals": 1.207526132404179,
+    "by_year": {
+     "2020": 12.446666666666658
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "台中廣播",
+   "n_rated": 1,
+   "score": 0.6741117742379983,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2014"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": -0.8009505688107226,
+    "abs_err_pts": 6.556998666592119,
+    "vs_rivals_pts": 0.6741117742379983,
+    "years": [
+     "2014"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "精湛",
+   "n_rated": 3,
+   "score": 0.7688435374149659,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2012"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 3,
+    "margin_err": 5.669999999999999,
+    "abs_margin_err": 5.669999999999999,
+    "vs_rivals": 1.5376870748299318,
+    "by_year": {
+     "2012": 5.669999999999999
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "綠黨",
+   "n_rated": 6,
+   "score": 0.8299024390243911,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2020"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 6,
+    "margin_err": 12.396666666666668,
+    "abs_margin_err": 12.396666666666668,
+    "vs_rivals": 1.6598048780487822,
+    "by_year": {
+     "2020": 12.396666666666668
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "三立",
+   "n_rated": 7,
+   "score": 1.2983111903911415,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2018",
+    "2022",
+    "2024"
+   ],
+   "local": {
+    "polls": 6,
+    "house_pts": 2.89650176640285,
+    "abs_err_pts": 9.524792214528944,
+    "vs_rivals_pts": 1.8951773332142652,
+    "years": [
+     "2018",
+     "2022"
+    ]
+   },
+   "pres": {
+    "polls": 2,
+    "margin_err": -2.109999999999996,
+    "abs_margin_err": 2.109999999999996,
+    "vs_rivals": -0.3877083333333341,
+    "by_year": {
+     "2024": -2.109999999999996
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "台灣世代智庫",
+   "n_rated": 2,
+   "score": 1.6292081508540341,
+   "polls_2026": 0,
+   "sponsor": "G",
+   "elections": [
+    "2018"
+   ],
+   "local": {
+    "polls": 2,
+    "house_pts": 1.8064907324122026,
+    "abs_err_pts": 10.301704425976425,
+    "vs_rivals_pts": 1.6292081508540341,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "全國意向",
+   "n_rated": 4,
+   "score": 2.265108695652172,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2016"
+   ],
+   "local": null,
+   "pres": {
+    "polls": 4,
+    "margin_err": -13.729999999999988,
+    "abs_margin_err": 13.729999999999988,
+    "vs_rivals": 4.530217391304344,
+    "by_year": {
+     "2016": -13.729999999999988
+    }
+   },
+   "grade": null
+  },
+  {
+   "name": "皮爾森數據",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 9,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "風傳媒",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 4,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "信民協會",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 4,
+   "sponsor": "G",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "雨晴民調",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 3,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "大地民意",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 2,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "循證",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "G",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "求真",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "精確民調",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "台灣韜略策進學會",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "佛光大學",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "B",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "TPOC台灣議題研究中心",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "新台灣民調研究中心",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "詢證民調有限公司",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2018"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.0,
+    "abs_err_pts": 13.403069543860918,
+    "vs_rivals_pts": 0.0,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "台灣競爭力論壇",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "elections": [
+    "2018"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.0,
+    "abs_err_pts": 8.34037481276283,
+    "vs_rivals_pts": 0.0,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  }
+ ]
+}

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """How pollsters did in presidential elections (2012, 2016, 2020, 2024).
 
-Each poll is reduced to shares among respondents who named a candidate
-(undecided removed, the three candidates renormalized to 100), then compared
-with the official result:
+Respondents who named no candidate are split evenly between the two main
+candidates (undecideds have broken toward the trailing major candidate, so
+dropping them overstated the leader), then each poll is compared with the
+official result:
 
   margin error  = (DPP - KMT) poll  -  (DPP - KMT) actual      (+ = too DPP)
   candidate err = mean |poll share - actual share| over the three candidates
@@ -36,6 +37,11 @@ def main():
         tot = act["DPP"] + act["KMT"] + act["third"]
         a = {k: act[k] / tot * 100 for k in ("DPP", "KMT", "third")}
         for name, end, g, b, t, u in polls:
+            # respondents who named no candidate are split evenly between the two main
+            # candidates (proportional allocation overstated the DPP by 6 and 17 pts in
+            # 2016 and 2020; the even split cuts that to -2 and +9)
+            un = max(100 - (g + b + t), 0)
+            g, b = g + un / 2, b + un / 2
             s = g + b + t
             p = {"DPP": g / s * 100, "KMT": b / s * 100, "third": t / s * 100}
             rows.append({"year": year, "pollster": canon(name), "en": name, "end": end,
