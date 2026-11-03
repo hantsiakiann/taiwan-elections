@@ -18,6 +18,12 @@
    "score": -1.0622787250875798,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "University survey center."
+   },
    "elections": [
     "2012",
     "2014",
@@ -52,6 +58,13 @@
    "score": -1.0221458531712484,
    "polls_2026": 11,
    "sponsor": "N",
+   "method": {
+    "mode": "online",
+    "frame": "online-optin",
+    "label": "Online opt-in panel",
+    "detail": "Questionnaire sent by SMS and email to a registered member pool (about 400,000), quota-sampled and weighted; members get small vouchers. Landline + online in 2020.",
+    "concern": "Not a random sample"
+   },
    "elections": [
     "2018",
     "2020",
@@ -86,6 +99,12 @@
    "score": -0.7423530772537746,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Station polling center (2014-2016 only)."
+   },
    "elections": [
     "2014",
     "2016"
@@ -116,6 +135,12 @@
    "score": -0.5003642249199115,
    "polls_2026": 13,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "Own call center. Landline + mobile in national polls; most local polls are landline only."
+   },
    "elections": [
     "2012",
     "2014",
@@ -148,7 +173,7 @@
      "2024": -3.559999999999995
     }
    },
-   "grade": "B"
+   "grade": "A"
   },
   {
    "name": "民進黨",
@@ -156,6 +181,12 @@
    "score": -0.49966344675998314,
    "polls_2026": 5,
    "sponsor": "G",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "Party polling center; landline + mobile. Internal polls are released selectively."
+   },
    "elections": [
     "2014",
     "2016",
@@ -182,14 +213,20 @@
      "2016": -0.07999999999998408
     }
    },
-   "grade": "B"
+   "grade": "A"
   },
   {
    "name": "民眾黨",
    "n_rated": 8,
    "score": -0.26414062499999996,
    "polls_2026": 0,
-   "sponsor": "N",
+   "sponsor": "T",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Party polls, often fielded by 求真; landline + mobile. Released selectively."
+   },
    "elections": [
     "2024"
    ],
@@ -211,6 +248,12 @@
    "score": -0.21233154753810757,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Live phone",
+    "detail": "Landline random-digit samples. Also fields polls for 新台灣國策智庫 and 匯流."
+   },
    "elections": [
     "2014",
     "2016"
@@ -233,7 +276,7 @@
      "2016": 2.3000000000000043
     }
    },
-   "grade": "C"
+   "grade": "B"
   },
   {
    "name": "中時",
@@ -241,6 +284,12 @@
    "score": -0.023684279647632655,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile in 2020 and 2024."
+   },
    "elections": [
     "2012",
     "2014",
@@ -267,7 +316,7 @@
      "2024": -4.6599999999999895
     }
    },
-   "grade": "C"
+   "grade": "B"
   },
   {
    "name": "匯流",
@@ -275,6 +324,12 @@
    "score": 0.19032169740829216,
    "polls_2026": 3,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile nationally; landline in local polls. Some fieldwork by 精確 or 趨勢."
+   },
    "elections": [
     "2022",
     "2024"
@@ -297,7 +352,7 @@
      "2024": 2.7400000000000033
     }
    },
-   "grade": "D"
+   "grade": "B"
   },
   {
    "name": "山水",
@@ -305,6 +360,12 @@
    "score": 0.44342058562555486,
    "polls_2026": 9,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "Own CATI center with recorded interviews. Mostly landline; adds mobile for some clients."
+   },
    "elections": [
     "2012",
     "2016"
@@ -320,7 +381,7 @@
      "2016": -8.02999999999999
     }
    },
-   "grade": "D"
+   "grade": "C"
   },
   {
    "name": "聯合報",
@@ -328,6 +389,12 @@
    "score": 0.4953467427337778,
    "polls_2026": 3,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "Own call center. Landline + mobile in national polls; local polls mostly landline."
+   },
    "elections": [
     "2012",
     "2014",
@@ -360,7 +427,7 @@
      "2024": -4.226666666666662
     }
    },
-   "grade": "D"
+   "grade": "C"
   },
   {
    "name": "自由時報",
@@ -368,6 +435,12 @@
    "score": 0.5317714078306783,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Own polling center; method details rarely published. Its 2020 final poll left 27% undecided."
+   },
    "elections": [
     "2012",
     "2014",
@@ -396,7 +469,7 @@
      "2020": 17.069999999999997
     }
    },
-   "grade": "F"
+   "grade": "C"
   },
   {
    "name": "蘋果",
@@ -404,6 +477,12 @@
    "score": 0.6325573798189831,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Mostly landline. Paper closed in 2021."
+   },
    "elections": [
     "2012",
     "2014",
@@ -430,7 +509,7 @@
      "2020": 11.829999999999998
     }
    },
-   "grade": "F"
+   "grade": "C"
   },
   {
    "name": "美麗島電子報",
@@ -438,6 +517,12 @@
    "score": 0.9430889982306268,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "Fieldwork by 畢肯市場研究. Landline only through 2024; about 70% landline / 30% mobile in 2026."
+   },
    "elections": [
     "2018",
     "2020",
@@ -464,7 +549,7 @@
      "2024": 1.9733333333333387
     }
    },
-   "grade": "F"
+   "grade": "C"
   },
   {
    "name": "菱傳媒",
@@ -472,6 +557,13 @@
    "score": -1.113764243467976,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "online",
+    "frame": "online-optin",
+    "label": "Online opt-in panel",
+    "detail": "Fielded by 皮爾森數據.",
+    "concern": "Not a random sample"
+   },
    "elections": [
     "2022",
     "2024"
@@ -502,6 +594,7 @@
    "score": -0.9213333048514301,
    "polls_2026": 0,
    "sponsor": "G",
+   "method": null,
    "elections": [
     "2014"
    ],
@@ -523,6 +616,12 @@
    "score": -0.8734959349593499,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Landline; added a 50% mobile sample in 2022 Taipei."
+   },
    "elections": [
     "2020"
    ],
@@ -544,6 +643,13 @@
    "score": -0.8682926829268276,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "online",
+    "frame": "landline+online",
+    "label": "Phone + online",
+    "detail": "Landline combined with online questionnaire (2020).",
+    "concern": "Web part not random"
+   },
    "elections": [
     "2020"
    ],
@@ -565,6 +671,7 @@
    "score": -0.5998614473009287,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2022"
    ],
@@ -586,6 +693,12 @@
    "score": -0.5855277045610882,
    "polls_2026": 3,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "CATI center with monitored interviewers."
+   },
    "elections": [
     "2018"
    ],
@@ -607,6 +720,7 @@
    "score": -0.40568840579710247,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2016"
    ],
@@ -628,6 +742,7 @@
    "score": -0.36436134112703145,
    "polls_2026": 0,
    "sponsor": "B",
+   "method": null,
    "elections": [
     "2014"
    ],
@@ -649,6 +764,7 @@
    "score": -0.3640200100876309,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2022"
    ],
@@ -670,6 +786,7 @@
    "score": -0.2926714477330855,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2018",
     "2022"
@@ -693,6 +810,12 @@
    "score": -0.20793280332602515,
    "polls_2026": 6,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Landline."
+   },
    "elections": [
     "2014",
     "2016",
@@ -725,6 +848,13 @@
    "score": -0.1870833333333332,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": {
+    "mode": "online",
+    "frame": "landline+online",
+    "label": "Phone + online",
+    "detail": "Landline sample combined with an online questionnaire.",
+    "concern": "Web part not random"
+   },
    "elections": [
     "2024"
    ],
@@ -746,6 +876,7 @@
    "score": -0.17556931808802417,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2022"
    ],
@@ -767,6 +898,7 @@
    "score": -0.17365280871013172,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2022"
    ],
@@ -788,6 +920,7 @@
    "score": -0.14689342403628206,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2012"
    ],
@@ -809,6 +942,12 @@
    "score": -0.1335781249999986,
    "polls_2026": 2,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Stratified landline sample."
+   },
    "elections": [
     "2024"
    ],
@@ -830,6 +969,7 @@
    "score": -0.09385365853658634,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2020"
    ],
@@ -851,6 +991,7 @@
    "score": -0.09362214923339189,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2014"
    ],
@@ -872,6 +1013,7 @@
    "score": -0.04755555555555531,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2012"
    ],
@@ -893,6 +1035,7 @@
    "score": -0.04263414634146426,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2020"
    ],
@@ -914,6 +1057,7 @@
    "score": -0.03256541704923649,
    "polls_2026": 0,
    "sponsor": "G",
+   "method": null,
    "elections": [
     "2014"
    ],
@@ -935,6 +1079,7 @@
    "score": -0.01861781856481977,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2016",
     "2022",
@@ -967,6 +1112,7 @@
    "score": 0.00048437499999929304,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2024"
    ],
@@ -988,6 +1134,12 @@
    "score": 0.004016619205844618,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Landline."
+   },
    "elections": [
     "2014",
     "2016"
@@ -1018,6 +1170,7 @@
    "score": 0.04443902439024364,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2020"
    ],
@@ -1039,6 +1192,12 @@
    "score": 0.07298821322038179,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile; some fieldwork by 山水."
+   },
    "elections": [
     "2020",
     "2022",
@@ -1071,6 +1230,12 @@
    "score": 0.08146701388889022,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Fieldwork by 大地民意."
+   },
    "elections": [
     "2024"
    ],
@@ -1092,6 +1257,12 @@
    "score": 0.10507621951219523,
    "polls_2026": 2,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Live phone",
+    "detail": "Fieldwork by 山水."
+   },
    "elections": [
     "2020",
     "2024"
@@ -1115,6 +1286,7 @@
    "score": 0.1111875000000011,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2024"
    ],
@@ -1136,6 +1308,12 @@
    "score": 0.24731200401718623,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile."
+   },
    "elections": [
     "2022",
     "2024"
@@ -1166,6 +1344,7 @@
    "score": 0.2574332462338072,
    "polls_2026": 0,
    "sponsor": "B",
+   "method": null,
    "elections": [
     "2016",
     "2022",
@@ -1198,6 +1377,12 @@
    "score": 0.2687103507432364,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "mobile",
+    "label": "Phone",
+    "detail": "Mobile only (2024)."
+   },
    "elections": [
     "2018",
     "2024"
@@ -1228,6 +1413,7 @@
    "score": 0.2957166580400284,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2012",
     "2016"
@@ -1251,6 +1437,7 @@
    "score": 0.42511640497185876,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2022",
     "2024"
@@ -1281,6 +1468,12 @@
    "score": 0.45931707317073034,
    "polls_2026": 6,
    "sponsor": "G",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Fieldwork by 趨勢; landline. Sponsored by a DPP-aligned foundation."
+   },
    "elections": [
     "2020"
    ],
@@ -1302,6 +1495,7 @@
    "score": 0.6037630662020895,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2020"
    ],
@@ -1323,6 +1517,7 @@
    "score": 0.6741117742379983,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2014"
    ],
@@ -1344,6 +1539,7 @@
    "score": 0.7688435374149659,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2012"
    ],
@@ -1365,6 +1561,12 @@
    "score": 0.8299024390243911,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile."
+   },
    "elections": [
     "2020"
    ],
@@ -1386,6 +1588,12 @@
    "score": 1.2983111903911415,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Fieldwork by 山水."
+   },
    "elections": [
     "2018",
     "2022",
@@ -1418,6 +1626,7 @@
    "score": 1.6292081508540341,
    "polls_2026": 0,
    "sponsor": "G",
+   "method": null,
    "elections": [
     "2018"
    ],
@@ -1439,6 +1648,7 @@
    "score": 2.265108695652172,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2016"
    ],
@@ -1460,17 +1670,13 @@
    "score": null,
    "polls_2026": 9,
    "sponsor": "N",
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "風傳媒",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 4,
-   "sponsor": "N",
+   "method": {
+    "mode": "online",
+    "frame": "online-optin",
+    "label": "Online opt-in panel",
+    "detail": "Web questionnaire pushed through a data platform, stratified by sex, age and area. Polls for 鉅聞天下 and 菱傳媒.",
+    "concern": "Not a random sample"
+   },
    "elections": [],
    "local": null,
    "pres": null,
@@ -1482,6 +1688,29 @@
    "score": null,
    "polls_2026": 4,
    "sponsor": "G",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Live phone",
+    "detail": "Fieldwork by 畢肯; about 70% landline / 30% mobile."
+   },
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "風傳媒",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 4,
+   "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Stratified landline sample."
+   },
    "elections": [],
    "local": null,
    "pres": null,
@@ -1493,6 +1722,13 @@
    "score": null,
    "polls_2026": 3,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Landline random-digit sample. Its Kinmen poll was commissioned by the KMT.",
+    "concern": "Operator unverified"
+   },
    "elections": [],
    "local": null,
    "pres": null,
@@ -1504,50 +1740,12 @@
    "score": null,
    "polls_2026": 2,
    "sponsor": "N",
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "循證",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "G",
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "求真",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "精確民調",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "台灣韜略策進學會",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Polls for 鏡新聞; landline locally, landline + mobile nationally."
+   },
    "elections": [],
    "local": null,
    "pres": null,
@@ -1559,6 +1757,65 @@
    "score": null,
    "polls_2026": 1,
    "sponsor": "B",
+   "method": null,
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "台灣韜略策進學會",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "method": null,
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "循證",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "G",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile. Sponsored by a DPP-aligned group."
+   },
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "求真",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline+mobile",
+    "label": "Phone",
+    "detail": "Landline + mobile; TPP's usual vendor."
+   },
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "精確民調",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "method": null,
    "elections": [],
    "local": null,
    "pres": null,
@@ -1570,6 +1827,13 @@
    "score": null,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Landline.",
+    "concern": "Sponsor undisclosed"
+   },
    "elections": [],
    "local": null,
    "pres": null,
@@ -1581,29 +1845,9 @@
    "score": null,
    "polls_2026": 1,
    "sponsor": "N",
+   "method": null,
    "elections": [],
    "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "詢證民調有限公司",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 0,
-   "sponsor": "N",
-   "elections": [
-    "2018"
-   ],
-   "local": {
-    "polls": 1,
-    "house_pts": 0.0,
-    "abs_err_pts": 13.403069543860918,
-    "vs_rivals_pts": 0.0,
-    "years": [
-     "2018"
-    ]
-   },
    "pres": null,
    "grade": null
   },
@@ -1613,6 +1857,7 @@
    "score": null,
    "polls_2026": 0,
    "sponsor": "N",
+   "method": null,
    "elections": [
     "2018"
    ],
@@ -1620,6 +1865,28 @@
     "polls": 1,
     "house_pts": 0.0,
     "abs_err_pts": 8.34037481276283,
+    "vs_rivals_pts": 0.0,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "詢證民調有限公司",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "method": null,
+   "elections": [
+    "2018"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.0,
+    "abs_err_pts": 13.403069543860918,
     "vs_rivals_pts": 0.0,
     "years": [
      "2018"

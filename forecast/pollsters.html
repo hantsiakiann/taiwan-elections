@@ -29,7 +29,7 @@ table{margin-left:auto;margin-right:auto;border-spacing:0}
 tr:hover{background:var(--hover)}
 .header-row:hover{background:transparent}
 th{padding:10px;font-size:18px}
-td{padding:10px 14px;vertical-align:middle}
+td{padding:10px 10px;vertical-align:middle}
 .c-dpp{color:var(--dpp)} .c-kmt{color:var(--kmt)} .c-mut{color:var(--mut)}
 .filters{text-align:center;margin:0 16px 14px}
 .filters button{font-family:inherit;font-size:18px;border:1px solid #ccc;background:#fff;color:#000;padding:6px 16px;margin:4px;cursor:pointer}
@@ -40,9 +40,12 @@ td{padding:10px 14px;vertical-align:middle}
 #ratings td.name .tag{font-size:13px;font-weight:400;border:1px solid #bbb;color:var(--mut);padding:0 5px;margin-left:6px}
 #ratings td.num,#ratings th.num{text-align:center;white-space:nowrap}
 #ratings .grade{display:inline-block;width:40px;height:40px;line-height:40px;text-align:center;font-weight:700;color:#fff}
-.g-A{background:#222}.g-B{background:#555}.g-C{background:#888}.g-D{background:#aaa}.g-F{background:#c8c8c8;color:#000 !important}
+.g-A{background:#222}.g-B{background:#666}.g-C{background:#aaa}.g-F{background:#b3261e}
 .g-none{background:transparent;color:var(--mut) !important;font-weight:400 !important}
 #ratings .sub{display:block;font-size:14px;color:var(--mut)}
+#ratings td.pres .sub{white-space:normal;max-width:150px;margin:0 auto}
+#ratings td.meth{font-size:16px;white-space:nowrap}
+#ratings .warn{display:block;font-size:13px;color:#b3261e;white-space:normal;max-width:190px;margin:2px auto 0}
 #ratings .grp{border-bottom:2px solid #ddd}
 #ratings th.span{text-align:center;border-bottom:1px solid #ddd}
 .field td,.field th{text-align:center}
@@ -83,7 +86,7 @@ footer *{font-size:16px}
     <div class="scroll">
     <table id="ratings">
       <thead>
-      <tr class="header-row"><th rowspan="2" style="text-align:left">Pollster</th><th rowspan="2" class="num">Grade</th><th rowspan="2" class="num">Rated<br>polls</th><th rowspan="2" class="num">Lean</th>
+      <tr class="header-row"><th rowspan="2" style="text-align:left">Pollster</th><th rowspan="2" class="num">Grade</th><th rowspan="2" class="num">Rated<br>polls</th><th rowspan="2" class="num">Method</th><th rowspan="2" class="num">Lean</th>
         <th colspan="2" class="span">Mayoral races</th><th colspan="2" class="span">Presidential races</th><th rowspan="2" class="num">2026<br>polls</th></tr>
       <tr class="header-row"><th class="num">Avg. miss</th><th class="num">vs. rivals</th><th class="num">Avg. margin miss</th><th class="num">vs. rivals</th></tr>
       </thead>
@@ -105,7 +108,8 @@ footer *{font-size:16px}
       <li><b>Avg. miss:</b> in mayoral races, the average gap in points between the poll and the result on the DPP's share of the two main candidates' vote, with undecided respondents allocated by the county's partisan lean. In presidential races, the gap on the DPP–KMT margin, with undecided respondents split evenly between the two main candidates.</li>
       <li><b>vs. rivals:</b> how much closer (negative) or farther (positive) a pollster was than the other polls of the same race. This separates a pollster's own accuracy from years when every pollster missed together, as in 2020.</li>
       <li><b>Lean:</b> a pollster's average tilt relative to other polls of the same mayoral race, after shrinking small samples toward zero.</li>
-      <li><b>Grade:</b> A–F by combined "vs. rivals" score across both kinds of races, for pollsters with at least <span id="minp"></span> rated polls. Others show history without a grade.</li>
+      <li><b>Grade:</b> A, B or C by combined "vs. rivals" score across both kinds of races (top, middle and bottom third), for pollsters with at least <span id="minp"></span> rated polls. Missing the result is never worse than a C. An F is reserved for a flawed method — no real respondents, undisclosed sampling, or questions written to push an answer — and applies with or without a track record. No pollster currently meets that bar.</li>
+      <li><b>Method:</b> how the pollster reaches respondents, from its published method notes and Wikipedia's poll tables. "Live phone" means interviewers call a random sample ("Phone" where the pollster has not said whether calls are live or recorded); "Web, volunteers" means a questionnaire sent to people who signed up for a panel, then weighted to match the population. Concerns are noted in red (hover a method for details) but do not change the grade, since a pollster's record already shows whether its method works.</li>
       <li><b>Sponsors:</b> polls commissioned by a party or campaign are labeled. Names are combined where the same operation publishes under several (for example ET東森 and ETtoday; 震撼世代傳媒 and 震傳媒; 鉅聞天下 and 皮爾森數據).</li>
       <li><b>Limits:</b> many pollsters have only a few rated polls, and methodology (landline vs. mobile, online panels) is not graded because it is rarely documented.</li>
     </ul></div>
@@ -129,16 +133,20 @@ fetch("pollster_page.json").then(r => r.json()).then(D => {
     const rows = D.pollsters.filter(r => filt === "all" ? r.n_rated > 0 || r.polls_2026 > 0 : filt === "graded" ? r.grade : r.polls_2026 > 0);
     tb.innerHTML = rows.map(r => {
       const L = r.local, P = r.pres;
-      const tag = r.sponsor === "G" ? '<span class="tag">DPP-aligned</span>' : r.sponsor === "B" ? '<span class="tag">KMT-aligned</span>' : "";
-      const pyears = P ? Object.entries(P.by_year).map(([y, e]) => `${y} ${sgn(e)}`).join(" · ") : "";
+      const tag = {G: "DPP-aligned", B: "KMT-aligned", T: "TPP-aligned"}[r.sponsor];
+      const M = r.method;
+      const frame = M ? {"landline": "Landline", "landline+mobile": "Landline + mobile", "mobile": "Mobile", "online-optin": "Web, volunteers", "landline+online": "Landline + web"}[M.frame] : "";
+      const meth = M ? `<span title="${esc(M.detail)}">${esc(M.label)}</span><span class="sub">${frame}</span>${M.concern ? `<span class="warn">${esc(M.concern)}</span>` : ""}` : '<span class="c-mut">Not documented</span>';
+      const pyears = P ? Object.entries(P.by_year).map(([y, e]) => `${y}&nbsp;${sgn(e)}`).join(" · ") : "";
       return `<tr>
-        <td class="name"><span class="zh-tw">${esc(r.name)}</span>${tag}<span class="sub">${esc(r.elections.join(", ")) || "no rated history"}</span></td>
+        <td class="name"><span class="zh-tw">${esc(r.name)}</span>${tag ? `<span class="tag">${tag}</span>` : ""}<span class="sub">${esc(r.elections.join(", ")) || "no rated history"}</span></td>
         <td class="num"><span class="grade ${r.grade ? "g-" + r.grade : "g-none"}">${r.grade || "–"}</span></td>
         <td class="num">${r.n_rated || "—"}</td>
+        <td class="num meth">${meth}</td>
         <td class="num">${lean(L ? L.house_pts : null)}</td>
         <td class="num">${L ? L.abs_err_pts.toFixed(1) : "—"}${L ? `<span class="sub">${L.polls} polls</span>` : ""}</td>
         <td class="num">${L ? rel(L.vs_rivals_pts) : "—"}</td>
-        <td class="num">${P ? signed(P.margin_err) : "—"}${P ? `<span class="sub">${pyears}</span>` : ""}</td>
+        <td class="num pres">${P ? signed(P.margin_err) : "—"}${P ? `<span class="sub">${pyears}</span>` : ""}</td>
         <td class="num">${P ? rel(P.vs_rivals) : "—"}</td>
         <td class="num">${r.polls_2026 || "—"}</td></tr>`;
     }).join("");
