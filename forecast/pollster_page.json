@@ -56,7 +56,7 @@
    "name": "ETtoday",
    "n_rated": 21,
    "score": -1.0221458531712484,
-   "polls_2026": 11,
+   "polls_2026": 13,
    "sponsor": "N",
    "method": {
     "mode": "online",
@@ -133,7 +133,7 @@
    "name": "TVBS",
    "n_rated": 46,
    "score": -0.5003642249199115,
-   "polls_2026": 13,
+   "polls_2026": 14,
    "sponsor": "N",
    "method": {
     "mode": "live",
@@ -784,7 +784,7 @@
    "name": "艾普羅",
    "n_rated": 5,
    "score": -0.2926714477330855,
-   "polls_2026": 1,
+   "polls_2026": 2,
    "sponsor": "N",
    "method": null,
    "elections": [
@@ -940,7 +940,7 @@
    "name": "關鍵調查",
    "n_rated": 1,
    "score": -0.1335781249999986,
-   "polls_2026": 2,
+   "polls_2026": 3,
    "sponsor": "N",
    "method": {
     "mode": "live",
@@ -1686,7 +1686,7 @@
    "name": "信民協會",
    "n_rated": 0,
    "score": null,
-   "polls_2026": 4,
+   "polls_2026": 5,
    "sponsor": "G",
    "method": {
     "mode": "live",
@@ -1717,6 +1717,23 @@
    "grade": null
   },
   {
+   "name": "大地民意",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 3,
+   "sponsor": "N",
+   "method": {
+    "mode": "live",
+    "frame": "landline",
+    "label": "Phone",
+    "detail": "Polls for 鏡新聞; landline locally, landline + mobile nationally."
+   },
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
    "name": "雨晴民調",
    "n_rated": 0,
    "score": null,
@@ -1735,17 +1752,29 @@
    "grade": null
   },
   {
-   "name": "大地民意",
+   "name": "循證",
    "n_rated": 0,
    "score": null,
    "polls_2026": 2,
-   "sponsor": "N",
+   "sponsor": "G",
    "method": {
     "mode": "live",
-    "frame": "landline",
+    "frame": "landline+mobile",
     "label": "Phone",
-    "detail": "Polls for 鏡新聞; landline locally, landline + mobile nationally."
+    "detail": "Landline + mobile. Sponsored by a DPP-aligned group."
    },
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "精確民調",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "method": null,
    "elections": [],
    "local": null,
    "pres": null,
@@ -1776,23 +1805,6 @@
    "grade": null
   },
   {
-   "name": "循證",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "G",
-   "method": {
-    "mode": "live",
-    "frame": "landline+mobile",
-    "label": "Phone",
-    "detail": "Landline + mobile. Sponsored by a DPP-aligned group."
-   },
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
    "name": "求真",
    "n_rated": 0,
    "score": null,
@@ -1804,18 +1816,6 @@
     "label": "Phone",
     "detail": "Landline + mobile; TPP's usual vendor."
    },
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "精確民調",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "method": null,
    "elections": [],
    "local": null,
    "pres": null,
