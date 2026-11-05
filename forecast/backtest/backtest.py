@@ -182,9 +182,13 @@ VARIANTS = {
     "2-pt DPP penalty (prev.)":  {"RACE_MISS_SD": 0.15, "MISS_MEAN": 0.08},
     "calibrated errors":         dict(CALIBRATED),
     "calibrated + pollsters":    {**CALIBRATED, "use_ratings": True},
+    "cycle house .08":           {**CALIBRATED, "HOUSE_CYCLE": True, "HOUSE_CYCLE_SD": 0.08},
+    "cycle house .12":           {**CALIBRATED, "HOUSE_CYCLE": True, "HOUSE_CYCLE_SD": 0.12},
+    "cycle house .20":           {**CALIBRATED, "HOUSE_CYCLE": True, "HOUSE_CYCLE_SD": 0.20},
+    "cycle .12 + track record":  {**CALIBRATED, "HOUSE_CYCLE": True, "HOUSE_CYCLE_SD": 0.12, "use_ratings": True},
 }
 SAVED = ("ALLOCATE_UNDECIDED", "FUND_INFLATE_MAX", "REGIONAL", "ELECTION", "NAT_PRIOR", "OUT", "load",
-         "RACE_MISS_SD", "MISS_SD", "MISS_MEAN", "NONSAMPLE", "USE_POLLSTER_RATINGS", "RATINGS")
+         "RACE_MISS_SD", "MISS_SD", "MISS_MEAN", "NONSAMPLE", "USE_POLLSTER_RATINGS", "RATINGS", "HOUSE_CYCLE", "HOUSE_CYCLE_SD")
 
 
 def run(year, as_of, variant):

@@ -15,7 +15,10 @@ WIKI = "https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市長及縣市�
 # sponsor lean: G = DPP-aligned sponsor, B = KMT-aligned, N = media/academic/unknown
 LEAN = {"新台灣國策智庫": "G", "信民協會": "G", "民進黨內參": "G", "循證民調": "G",
         "佛光大學": "B"}
-ONLINE = {"鉅聞天下", "皮爾森數據"}
+# how respondents are reached (see pollster_methods.json)
+MODE = {"鉅聞天下": "online", "皮爾森數據": "online",      # volunteer online panel
+        "ETtoday": "sms-web",                            # text/email invitation to an online form
+        "鋒燦傳媒": "phone+web", "鋒燦民調": "phone+web"}  # landline plus web questionnaire
 
 P = [
  # Taipei: blue 蔣萬安, green 沈伯洋
@@ -148,5 +151,5 @@ with open(out, "w", newline="", encoding="utf-8") as f:
     w.writerow(["race","pollster","sponsor_lean","kind","field_end","n","mode","green","blue","third","undecided","source","notes"])
     for race, pollster, end, g, b, t, u in P:
         w.writerow([race, pollster, LEAN.get(pollster, "N"), "candidate", end, 1000,
-                    "online" if pollster in ONLINE else "phone", g, b, t, u, WIKI, ""])
+                    MODE.get(pollster, "phone"), g, b, t, u, WIKI, ""])
 print(len(P), "polls written")

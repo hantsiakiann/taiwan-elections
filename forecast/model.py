@@ -77,6 +77,13 @@ RACE_MISS_SD = 0.22   # calibrated: polls of the same race missed together by ~6
 DEFF = 1.5
 NONSAMPLE = {"candidate": 0.15, "camp": 0.30}   # calibrated: within-race poll scatter ~4 pts
 ONLINE_EXTRA = 0.10
+# extra non-sampling error by how respondents are reached: random phone samples;
+# text/email invitations to an online form (ETtoday); landline plus a web sample;
+# volunteer online panels
+MODE_EXTRA = {"phone": 0.0, "sms-web": 0.0, "phone+web": ONLINE_EXTRA, "online": ONLINE_EXTRA}
+HOUSE_CYCLE = False        # estimate each pollster's house effect from this cycle's polls
+HOUSE_CYCLE_MIN = 2        # polls (in contested races) a pollster needs for its own house effect
+HOUSE_CYCLE_SD = 0.12      # prior SD of a pollster's house effect (logit, ~3 pts)
 DRIFT_PER_DAY = 0.020
 THIRD_SD = 0.40  # logit SD on a third candidate's share
 UND_BREAK_SD = 0.15   # SD of the DPP share of the undecided break, around the county's lean
@@ -138,8 +145,7 @@ def poll_obs(p, as_of, fund=None, nonsample=None):
     days = (ELECTION - end).days
     var = DEFF / (n2 * share * (1 - share))
     var += (NONSAMPLE[p["kind"]] if nonsample is None or p["kind"] != "candidate" else nonsample) ** 2
-    if "online" in p["mode"]:
-        var += ONLINE_EXTRA ** 2
+    var += MODE_EXTRA.get(p["mode"], ONLINE_EXTRA if "online" in p["mode"] else 0.0) ** 2
     age = max((as_of - end).days, 0)
     var += DRIFT_PER_DAY ** 2 * age
     var += und_var
@@ -167,7 +173,18 @@ def main(as_of=None):
         names = sorted({canon(p["pollster"]) for p in polls})
         rated = {n: ratings["pollsters"][n] for n in names
                  if n in ratings["pollsters"] and ratings["pollsters"][n]["n_compared"] >= RATED_MIN}
-    rated_list = list(rated)
+    # house-effect parameters: name -> (prior mean, prior sd, source)
+    hp = {n: (rated[n]["house_logit"], HOUSE_RATED_SD, "track record") for n in rated}
+    if HOUSE_CYCLE:
+        from collections import Counter
+        cnt = Counter(canon(p["pollster"]) for p in polls
+                      if p["race"] in idx and dt.date.fromisoformat(p["field_end"]) <= as_of)
+        lean_of = {canon(p["pollster"]): p["sponsor_lean"] for p in polls}
+        for n, k in cnt.items():
+            if k >= HOUSE_CYCLE_MIN:
+                m = rated[n]["house_logit"] if n in rated else HOUSE_PRIOR[lean_of[n]][0] if lean_of[n] in HOUSE_PRIOR else 0.0
+                hp[n] = (m, HOUSE_CYCLE_SD, "this cycle's polls" + (" + track record" if n in rated else ""))
+    rated_list = list(hp)
     H_ = len(rated_list)
     field_ns = None
     if ratings:
@@ -190,8 +207,8 @@ def main(as_of=None):
     if REGIONAL:
         v0[4 + 2 * R:4 + 2 * R + G_] = REG_MISS_SD ** 2
     for j, n in enumerate(rated_list):
-        m0[4 + 2 * R + G_ + j] = rated[n]["house_logit"]
-        v0[4 + 2 * R + G_ + j] = HOUSE_RATED_SD ** 2
+        m0[4 + 2 * R + G_ + j] = hp[n][0]
+        v0[4 + 2 * R + G_ + j] = hp[n][1] ** 2
     mu = np.array([feats[r]["pred_dev"] for r in partisan])
 
     def posterior(nat_for_undecided):
@@ -215,7 +232,7 @@ def main(as_of=None):
             a[4 + R + idx[p["race"]]] = 1
             if REGIONAL:
                 a[4 + 2 * R + reg_list.index(region_of[p["race"]])] = 1
-            if pname in rated:
+            if pname in hp:
                 a[4 + 2 * R + G_ + rated_list.index(pname)] = 1
             elif p["sponsor_lean"] == "G":
                 a[1] = 1
@@ -289,7 +306,7 @@ def main(as_of=None):
             adj = []
             for p in rp:
                 pn = canon(p["pollster"])
-                h = (mean[4 + 2 * R + G_ + rated_list.index(pn)] if pn in rated else
+                h = (mean[4 + 2 * R + G_ + rated_list.index(pn)] if pn in hp else
                      mean[1] if p["sponsor_lean"] == "G" else mean[2] if p["sponsor_lean"] == "B" else 0)
                 adj.append((p["logit"] - h, 1 / p["var"]))
             poll_avg = float(expit(sum(y * w for y, w in adj) / sum(w for _, w in adj)))
@@ -399,9 +416,9 @@ def main(as_of=None):
         pn = canon(p["pollster"])
         if pn in pol:
             continue
-        if pn in rated:
+        if pn in hp:
             h = mean[4 + 2 * R + G_ + rated_list.index(pn)]
-            src = "track record"
+            src = hp[pn][2]
         elif p["sponsor_lean"] in ("G", "B"):
             h = mean[1] if p["sponsor_lean"] == "G" else mean[2]
             src = "sponsor alignment"
