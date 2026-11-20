@@ -15,7 +15,8 @@ import csv, os
 WIKI = "https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市長及縣市長選舉民意調查"
 # sponsor lean: G = DPP-aligned sponsor, B = KMT-aligned, N = media/academic/unknown
 LEAN = {"新台灣國策智庫": "G", "信民協會": "G", "民進黨內參": "G", "循證民調": "G",
-        "佛光大學": "B"}
+        "佛光大學": "B",
+        "故鄉市調": "G"}  # its only poll here was commissioned by 台灣勵志協會 (DPP-leaning)
 # how respondents are reached (see pollster_methods.json)
 MODE = {"鉅聞天下": "online", "皮爾森數據": "online",      # volunteer online panel
         "ETtoday": "sms-web",                            # text/email invitation to an online form

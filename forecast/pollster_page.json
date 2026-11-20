@@ -1752,6 +1752,18 @@
    "grade": null
   },
   {
+   "name": "精確民調",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 2,
+   "sponsor": "N",
+   "method": null,
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
    "name": "循證",
    "n_rated": 0,
    "score": null,
@@ -1769,10 +1781,34 @@
    "grade": null
   },
   {
-   "name": "精確民調",
+   "name": "故鄉市調",
    "n_rated": 0,
    "score": null,
-   "polls_2026": 2,
+   "polls_2026": 1,
+   "sponsor": "G",
+   "method": null,
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "玉山新聞",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "method": null,
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "新台灣民調研究中心",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
    "sponsor": "N",
    "method": null,
    "elections": [],
@@ -1810,71 +1846,11 @@
    "grade": null
   },
   {
-   "name": "鋒燦民調",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "method": null,
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
    "name": "佛光大學",
    "n_rated": 0,
    "score": null,
    "polls_2026": 1,
    "sponsor": "B",
-   "method": null,
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "台灣韜略策進學會",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "method": null,
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "玉山新聞",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "method": null,
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "新台灣民調研究中心",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
-   "method": null,
-   "elections": [],
-   "local": null,
-   "pres": null,
-   "grade": null
-  },
-  {
-   "name": "故鄉市調",
-   "n_rated": 0,
-   "score": null,
-   "polls_2026": 1,
-   "sponsor": "N",
    "method": null,
    "elections": [],
    "local": null,
@@ -1924,24 +1900,26 @@
    "grade": null
   },
   {
-   "name": "台灣競爭力論壇",
+   "name": "台灣韜略策進學會",
    "n_rated": 0,
    "score": null,
-   "polls_2026": 0,
+   "polls_2026": 1,
    "sponsor": "N",
    "method": null,
-   "elections": [
-    "2018"
-   ],
-   "local": {
-    "polls": 1,
-    "house_pts": 0.0,
-    "abs_err_pts": 8.34037481276283,
-    "vs_rivals_pts": 0.0,
-    "years": [
-     "2018"
-    ]
-   },
+   "elections": [],
+   "local": null,
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "鋒燦民調",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 1,
+   "sponsor": "N",
+   "method": null,
+   "elections": [],
+   "local": null,
    "pres": null,
    "grade": null
   },
@@ -1959,6 +1937,28 @@
     "polls": 1,
     "house_pts": 0.0,
     "abs_err_pts": 13.403069543860918,
+    "vs_rivals_pts": 0.0,
+    "years": [
+     "2018"
+    ]
+   },
+   "pres": null,
+   "grade": null
+  },
+  {
+   "name": "台灣競爭力論壇",
+   "n_rated": 0,
+   "score": null,
+   "polls_2026": 0,
+   "sponsor": "N",
+   "method": null,
+   "elections": [
+    "2018"
+   ],
+   "local": {
+    "polls": 1,
+    "house_pts": 0.0,
+    "abs_err_pts": 8.34037481276283,
     "vs_rivals_pts": 0.0,
     "years": [
      "2018"
